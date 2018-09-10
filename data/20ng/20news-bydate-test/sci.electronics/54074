@@ -1,0 +1,52 @@
+From: ifarqhar@laurel.ocs.mq.edu.au (Ian Farquhar)
+Subject: Re: ATARI 2600 Processors
+Organization: Macquarie University, Sydney Australia
+Lines: 46
+NNTP-Posting-Host: laurel.ocs.mq.edu.au
+
+In article <1r847f$kp7@uniwa.uwa.edu.au> john@gu.uwa.edu.au (John West) writes:
+>ifarqhar@laurel.ocs.mq.edu.au (Ian Farquhar) writes:
+>>Wrong, it has a 6507.
+
+>For those who would like to know, the 6507 was a 6502 without IRQ or NMI,
+>and with only 13 address lines (giving 8K memory space).
+
+Yes, but still not a 6502 for those differences.  Same instruction set,
+of course.
+
+>>It had one custom chip (not an ASIC in the sense that word is now understood):
+>>the TIA (sometimes known as the 6526, although most other manufacturers list
+>>that as the CIA complex interface adapter.)  TIA stands for Television
+>>Interface Adapter, and it handles sound, paddles and the minimal video hardware
+>>the 2600 possessed.
+
+>Didn't know about it being called the 6526 - thats the CIA found in the
+>Commodore 64 (I don't believe this chip existed when the 2600 was around).
+
+Yes, the same number, but an entirely different device.  I should have
+qualified this further by stating that this was the PAL version of the TIA -
+I am not 100% sure that the NTSC TIA would have a different number.
+
+>The TIA was mapped into the bottom 128 bytes of page 0, and shadowed in the
+>bottom 128 bytes of page 1. To get an image on the screen, you had to wait
+>until the raster line your picture started at, load bitmaps for this line
+>into the 'sprite' registers, tell them what x positions to take, how many
+>duplicates you wanted, etc, then do it all again for the next line. This
+>took all of the processor's time during the visible portion of the
+>display.
+
+Does anyone on the net actually have details of the TIA, as this is the only
+device I have not yet discovered details about?  Atari Australia, when asked,
+claimed that their attempts to get the programmers documentation for the 2600
+had failed, as the US head office had refused to provide it.
+
+>to chip selects. The 6507 likes to have ROM right at the top of memory, so
+>the 2600 had to use ROMs with active high chip selects - not exactly
+>normal, so some cartriges had a 7404 in them to convert this to the more
+>usual active low chip select.
+
+I saw a couple of cheaper devices with PN2222's and a couple of resistors
+hooked up as a cheap inverter.  Nasty, but workable, and cheaper than a
+7404 inverter if labor costs almost nothing.
+
+							Ian.

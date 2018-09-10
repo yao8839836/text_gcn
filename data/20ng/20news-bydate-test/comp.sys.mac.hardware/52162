@@ -1,0 +1,36 @@
+From: Ravi Konchigeri <mongoose@leland.stanford.edu>
+Subject: Re: SVGA Monitors and Centris (the real story)
+X-Xxmessage-Id: <A7FC6BABFE0100ED@kimball-pc-316.stanford.edu>
+X-Xxdate: Thu, 22 Apr 93 23:35:07 GMT
+Organization: Stanford University
+X-Useragent: Nuntius v1.1.1d17
+Lines: 28
+
+In article <moyman-220493093234@jonathan.ecn.purdue.edu> Mike Moya,
+moyman@ecn.purdue.edu writes:
+>What is the real story here? Can I hook up any PC SVGA Montitor to the
+>Centris internal video? Do I need to make my own cable if it doesn't not
+>come with one? Has apple released a Tech note with the pinouts for doing
+>such? The reasoj I ask is that it seems the prices for SVGA are lower
+than
+>that of their mac counterparts...
+
+First of all, I wouldn't advise wasting your time with Apple.  They'll
+treat you like an idiot and you won't get any answers (a personal
+opinion).
+
+The safest thing to do is match the SVGA monitor's scanning rates with
+Apple's rates.  I don't know Apple's video scanning rates, but I use the
+Micron Xceed 30's rates, as they're a good approximation.
+
+About cables: you just have to go out to someplace like Fry's and get a
+few Mac-VGA cables and try them out.  I have a ViewSonic 5E (14") and I
+use an NEC adaptor.  Other monitors may use other adaptors.  I also have
+a Mac->832x624 adaptor that tricks System into thinking the monitor is an
+Apple 16".  I need to readjust the vertical and horizontal sizes but it
+works fairly well.
+
+	"Just like everything else in life, the right lane ends in half a mile."
+
+Ravi Konchigeri.
+mongoose@leland.stanford.edu

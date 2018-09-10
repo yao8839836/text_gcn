@@ -1,0 +1,28 @@
+From: osprey@ux4.cso.uiuc.edu (Lucas Adamski)
+Subject: Re: Fast polygon routine needed
+Keywords: polygon, needed
+Organization: University of Illinois at Urbana-Champaign
+Lines: 22
+
+In article <1993Apr26.195313.4581@eye.com> jesse@eye.com (Jesse Lackey) writes:
+>In article <1rguqoINNrc@edna.cc.swin.edu.au> alan@saturn.cs.swin.OZ.AU (Alan Christiansen) writes:
+>>I believe that the algorithms you can get that will only draw convex
+>>polygons can be much more efficient than those that can draw
+>>concave / self intersecting polygons. 
+>>This efficiency can largely be attributed to the fact that 
+>>simple convex polygons only have a left and a right edge on each scan line.
+>>Complex (figure 8 type polygons) can be a bit trickier.
+>
+>It is true the convex algorithm is faster than a general concave/multi outline
+>algorithm, but not tremendously faster.  I spent awhile implementing and
+>optimizing both flavors, and the convex turned out about 10% faster.  This is
+>all C (on HP PA-RISC the compiler got the inner loop [shooting the span] as
+>fast as possible, as far as I could tell).  For any sort of game the database
+>to render is known ahead of time, and can be made all convex.  Definitely the
+>way to go.
+>
+
+Ok, thanks for help everyone! I still haven't found quite what I'm looking for,
+but I've got finals coming up soon so I have to put all this on hold.
+		Thanx,
+		  //Lucas.

@@ -1,0 +1,22 @@
+From: andy@ie.utoronto.ca (Andy Sun)
+Subject: Asante Ethernet Adapter for LCIII Math Chip
+Organization: University of Toronto, Department of Industrial Engineering
+Lines: 17
+
+Hi,
+
+I have been told by a local sales that Asante has come out with this
+LCIII PDS Ethernet adapter with an optional 68882 socket on the board.
+My question is will the FPU performance degrade will I put the 68882
+on the PDS card socket instead of on the motherboard itself? Intuitively,
+the math co-processor should always be placed close to the CPU, but
+I am not sure how good Apple's so-called processor-direct slot is when
+it comes to throughout. Does anyone know the answer to this or have
+any experience with the Asante LCIII Ethernet adapter? Thanks in advance.
+
+Andy
+-- 
+Andy Sun (andy@ie.utoronto.ca)          4 Taddle Creek Road, Toronto
+Computing Coordinator                   Ontario, Canada. M5S 1A4
+Department of Industrial Engineering    Phone: (416) 978-8830
+University of Toronto                   Fax:   (416) 978-3453

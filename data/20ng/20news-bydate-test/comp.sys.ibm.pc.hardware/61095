@@ -1,0 +1,43 @@
+From: lamouche@ERE.UMontreal.CA (Lamouche Guy)
+Subject: ISA GRAPHIC CARD INFO SOURCE
+Organization: Universite de Montreal
+Lines: 38
+
+HI,
+ that might look like a dull request, but I have been following this newgroup
+for a couple of weeks and It didn't help me make my mind.
+
+  I bought a new 486 machine not long ago after being disconnected from the
+pc world for a while (I have been running on an xt 5MHz till last january!!).
+The machine I bought came equipped with a ATI VGA XL 24 graphic card. It
+gives a very nice picture and the  Windows drivers are pretty stable. The only
+problem is that it is quite slow.
+
+I would like to go for a faster card (not in the 400$ range). I saw a lot
+of comments on many products over the last weeks, but didn't get an overall
+picture clear enough to make a choice. My question is : Could somebody
+direct me to a source of information which would help me in my quest.
+I would like to get information about :
+     - the refresh rates the various cards provide;
+     - quality of windows drivers;
+     - standard vga performance (non-Windows stuff).
+
+Direct me to a magazine article or something like that (I got winvid.zip 
+info, but it is not enough). If you have an ISA card you are really satisfied
+with it,  let me know.
+	If this information is of any use, here is my system configuration:
+	- Fujikama 486 33MHz ISA system (Contaq motherboard)
+	- monitor DARIUS 14" non-interlaced multisync (up to 1024X768) 
+                               (can reach 70kHz horizontally)  
+
+I would also like to know if it is a standard for video drivers to allow
+screen dimensioning and screen positioning by writing on the EPROM of the
+graphic card. This is the case with my ATI card and it is very convenient
+when changing graphics mode since my monitor is not intelligent 
+enough to record settings.
+
+Merci a l'avance for any information you would be kind enough to provide me,
+
+					Guy Lamouche
+					lamouche@ere.umontreal.ca
+

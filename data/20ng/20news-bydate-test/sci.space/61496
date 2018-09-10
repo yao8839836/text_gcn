@@ -1,0 +1,36 @@
+From: palmer@cco.caltech.edu (David M. Palmer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: California Institute of Technology, Pasadena
+Lines: 30
+NNTP-Posting-Host: alumni.caltech.edu
+
+prb@access.digex.net (Pat) writes:
+
+>In article <C6A2At.E9z@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+>>
+>>No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+>>dictated a rather odd design for the solar arrays, since they had to be
+>>retractable as well as extendable, and may thus have indirectly contributed
+>>to the array-flapping problems.
+
+
+>Why not design the solar arrays to be detachable.  if the shuttle is going
+>to retunr the HST,  what bother are some arrays.  just fit them with a quick
+> release.  one  space walk,  or use the second canadarm to remove the arrays.
+
+You may want to put Hubble back in the payload bay for a reboost,
+and you don't want to clip off the panels each time.
+
+For the Gamma-Ray Observatory, one of the design requirements was that
+there be no stored-energy mecahnisms (springs, explosive squibs, gas shocks,
+etc.) used for deployment.  This was partially so that everything could
+be reeled back in to put it back in the payload bay, and partially for
+safety considerations.  (I've heard that the wings on a cruise missile
+would cut you in half if you were standing in their swath when they opened.)
+
+Back when the shuttle would be going up every other day with a cost to
+orbit of $3.95 per pound :-), everybody designed things for easy servicing.
+
+-- 
+		David M. Palmer		palmer@alumni.caltech.edu
+					palmer@tgrs.gsfc.nasa.gov

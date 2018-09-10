@@ -1,0 +1,28 @@
+From: mikey@sgi.com (Mike Yang)
+Subject: Re: Low Emission Monitors:  Who besides NEC?
+Nntp-Posting-Host: eukanuba.wpd.sgi.com
+Organization: Silicon Graphics, Inc.
+Distribution: na
+Lines: 21
+
+In article <C5yp5C.2Kt@acsu.buffalo.edu> v063kcbp@ubvmsd.cc.buffalo.edu (MITCH) writes:
+>	I am right now working on an MPR-II certified (Swedish standards for
+>low emissions) Hitachi Superscan 15 monitor.  It's 1024x768, up to 72hz at
+>that res, and it got a good write-up for image quality in a recent (Feb.?)
+>issue of PC Magazine.  As far as I know, very little fully matches a NEC in
+>image quality (at least according to the mags -- I can't tell any
+>difference between the two!), but I think NEC is low emissions on only one
+>of the two types.  There's VLF (Very Low Frequency) and ELF (I think that's
+>Extremely Low Frequency).  The MPR-II standards set strict limits on both.
+>But many comapnies, NEC included according to one article I read (I get a
+>bunch of mags so it's hard for me to remember which!), which claim "low
+>emissions" but not specifically "MPR-II Compliant" or "MPR-II Certified"
+>only control for one, usually VLF, and ignore the other.
+
+Nanao's F-Series (e.g. F550i) and T-Series (e.g. T660i) monitors
+are MPR-II compliant.  According to my little pamphlet, the T-Series
+monitors are also TCO-compliant, whatever that is.
+
+-----------------------------------------------------------------------
+                 Mike Yang        Silicon Graphics, Inc.
+               mikey@sgi.com           415/390-1786

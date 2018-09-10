@@ -1,0 +1,34 @@
+From: amit@virgo.math.tau.ac.il (Amit Shaked)
+Subject: Digital Terrain Data for Visualization Needed
+Organization: School of Math & CS - Tel Aviv University , Tel Aviv , ISRAEL.
+Lines: 29
+
+
+We need terrain data for a visualization research currently taking place
+in Tel-Aviv university. We have two databases that we are currently working
+on, but we would like to work on more databases, possibly more complicated 
+and ones that will give prettier images.
+
+Before I describe what kind of data we need, let me mention that we are 
+going to present a paper titled "Photo-Realistic Imaging of Digital Terrains"
+which describes the research and the results, in the EUROGRAPHICS'93 
+conference in Barcelona, this september. We are going to show a video-tape 
+with some of our results, so any good data that we will receive will be 
+presented in the tape, with a mention of the donator.
+
+We are working on databases consisting of aerial or satelite photographs, 
+and terrain elevation maps (DTM). 
+Each database consists of a 2D array of height values (any data format can
+be used for each value), and a corresponding 2D array of color values (can
+be gray-level, 256-color value or full 24-bit R/G/B values. Other format can
+also be used). We work on 512X512 and 1024x1024 resolution databases.
+
+If anybody has access to this kind of data, or knows where we can get such
+data files, please respond in this news group, or - better - email us
+directly :
+
+amit@math.tau.ac.il    (Amit Shaked), or
+danny@indigo.bgu.ac.il (Daniel Cohen)
+
+Of course, the names of the people who will help us get the data will be
+cited in our paper, and in further publications.

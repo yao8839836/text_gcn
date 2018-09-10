@@ -1,0 +1,33 @@
+Subject: Re-entrancy of Xlib functions. Known problem???
+From: visser@eedwsa.itwol.bhp.com.au (Martin Visser)
+Distribution: world
+Nntp-Posting-Host: eedwsa.itwol.bhp.com.au
+Lines: 27
+
+I've found a problem in the use of Xlib functions regarding re-entrancy. I
+decided to implement an animated cursor (using 6 created cursors) by calling
+XDefineCursor from a SIG_ALRM signal handler. This is used to indicate we are
+waiting for a operator request to complete. (on a production control system).
+I was redrawing the screen underneath the animated cursor and then restoring
+the standard cursor when complete. I found dumped core , and upon analysis
+it was when the SIG_ALRM handler was called during a XDrawString call. XDrawString
+was doing a bcopy (presumably an internal structure) when the XDefineCursor
+was called. Presumably the (internal) structure that XDrawString was manipulating
+was not in a stable state and sent XDefineCursor to where it shouldn't have been.
+
+Has anyone else experienced this? Is there any official documentation that
+says you should ensure this doesn't happen? Or should bcopy() be atomic.
+We are running on SGI Irix 4.0.1 with X11R4.
+
+
+
+-- 
+Regards, Martin
+
+   /\/\     :  Martin Visser - Electrical / Software Engineer 
+  / / /\    :  Engineering Technology Department
+ / / /  \   :  BHP Steel - Slab and Plate Products Division
+/ / / /\ \  :  P.O. Box 1854 Wollongong NSW 2500 AUSTRALIA
+\ \/ / / /  :  Phone    +61-42-75-7522 ext. 6207
+ \  / / /   :  Fax      +61-42-75-7038 
+  \/\/\/    :  E-mail   visser@itwol.bhp.com.au

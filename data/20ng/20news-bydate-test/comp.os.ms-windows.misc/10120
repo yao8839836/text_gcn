@@ -1,0 +1,26 @@
+From: apland@mala.bc.ca (Ron Apland)
+Subject: Re: DOS6 & Novell Netware
+Organization: Malaspina College
+Lines: 21
+
+In article <1rre2d$26d@usenet.INS.CWRU.Edu>, cu826@cleveland.Freenet.Edu (Mahbub Anam) writes:
+> 
+> I friend of mine installed dos6 at work and is hooked up to a Novell
+> network, running Netware 386 v.3.11.  The problem he's having is that the
+> doublespace program is using drive 'h' as the swap drive, which is
+> confliting with the networks mapped drives.
+> 
+> Is there switch to place the swap drive to someother drive?
+> Please e-mail....thanks a bunch!!
+> -- 
+> Mahbub
+> cu826@cleveland.freenet.edu
+
+Determine the last dblspace drive required and set that as lastdrive in your
+config.sys  If you are using W4WW you might want to go a couple of drives higher
+to give you some shared drive space.  Reboot and Novell will set its first
+drive one above the lastdrive in config.sys.  You might have to remap some
+of your Novell drives if they were originally mapped to lower drives.  Make
+sure that the bat file or whatever you are using to log onto Novell is set
+to the correct drive (one above the lastdrive setting in the config.sys file).
+

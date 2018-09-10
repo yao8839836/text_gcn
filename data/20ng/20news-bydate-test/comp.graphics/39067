@@ -1,0 +1,35 @@
+From: mac@utkvx.bitnet (Richard J. McDougald)
+Subject: Re: Help needed: DXF ---> IFF
+Organization: University of Tennessee 
+Lines: 30
+
+In article <Blue-Knight.01tj@bknight.jpr.com> Blue-Knight@bknight.jpr.com (Yury German) writes:
+
+>In article <1993Apr30.011157.12995@news.columbia.edu> ph14@cunixb.cc.columbia.edu (Pei Hsieh) writes:
+>> Hi -- sorry if this is a FAQ, but are there any conversion utilities
+>> available for Autodesk *.DXF to Amiga *.IFF format?  I
+>> checked the comp.graphics FAQ and a number of sites, but so far
+>> no banana.  Please e-mail.
+>> 
+
+>       .DXF can not be changed over to .IFF format what it can be changed
+>to is an object format used by one of the 3D programs on the Amiga. The
+>only tools around are comercial for that conversion.
+
+Hijaak claims to convert .dxf to .iff, although Hijaak claims some stuff
+that I have never gotten to work (for example, not long ago I tried to
+convert some .iff files from an Amiga video toaster (using CrossDos, so my
+PC could read the disks) int Targa files.  Hijaak made some gorgeous 1.5
+megabyte Targa files from the .iffs -- all totally black!
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Mac McDougald                   *   Any opinions expressed herein 
+ The Photography Center          *   are not necessarily (actually,
+ Univ. of Tenn. Knoxville 37996  *   are almost CERTAINLY NOT) those
+ mac@utkvx.utk.edu               *   of The University of Tennessee. 
+ mac@utkvx.bitnet                *      
+ (615-974-3449)                  *   "Things are more like they are now     
+ (615-974-6435) FAX              *    than they've ever been before."
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            

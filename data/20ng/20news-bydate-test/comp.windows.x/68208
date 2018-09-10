@@ -1,0 +1,40 @@
+From: kerr@ux1.cso.uiuc.edu (Stan Kerr)
+Subject: Re: Mac X and Sun OpenWindows 3
+Organization: University of Illinois at Urbana
+Lines: 33
+NNTP-Posting-Host: ux1.cso.uiuc.edu
+Keywords: Mac X OpenWindows 3 X
+
+benj@ossa.hq.nasa.gov (Benjamin Jones) writes:
+
+>I've run into a bit of a snag while trying to get Mac X up and running and would appreciate
+>any responses from anyone who may have seen this problem.
+
+>On my local network, I have a number of Macs, Suns and SGI machines.
+
+>I have installed MacX/MacTCP on all of the Macintoshes and can run Xclients on the SGI machines
+>all the live-long day.  The problem is when I try to run an Xclient on any Sun, I setup
+>the command in MacX, then execute it.  Nothing happens, I don't even get any command output.
+
+>Now, I thought it might be a routing issue, but I can run remote Xclients on the suns from my SGI
+>machines, as well as vice-versa.  I can also run remote Xclients on SGI machines that
+>are NOT on my local net here, but the above problem holds true for non-local Suns as well.
+
+I tried to send this as private mail, but mail to benj@ossa.hq.nasa.gov was
+rejected, so here it is:
+
+Here is an extract from the README file that comes with MacX:
+
+Users of remote commands with Sun machines may find that their remote commands 
+appear to do nothing and there is no output from the Sun machine.  This is due 
+to a feature of the Sun rexecd network daemon which quietly disconnects from 
+requesting machines that are not known to the Sun|s network address (/etc/hosts
+or NIS hosts) database.  To successfully use remote commands with a SunOS-based
+machine, there must be an entry in the network address database for the 
+Macintosh which is running MacX.
+
+-- 
+
+Stan Kerr    
+Computing & Communications Services Office, U of Illinois/Urbana
+Phone: 217-333-5217  Email: stankerr@uiuc.edu   

@@ -1,0 +1,22 @@
+From: shayla@shannon.jpl.nasa.gov (Shayla L. Fahey)
+Subject: Raw byte grayscale -> GIF
+Organization: Jet Propulsion Laboratory, Section 331
+Lines: 15
+Distribution: world
+NNTP-Posting-Host: shannon.jpl.nasa.gov
+
+I currently have some grayscale image files that are not in any
+standard format.  They simply contain the 8-bit pixel values.  I would
+like to display these images on a PC.  The conversion to a GIF format
+would be helpful.  This conversion can take place either on a PC
+or on a UNIX system and I could then download it to the PC.
+Can anyone suggest where I can find software to do this?  Alternatively, I
+may have to write my own conversion program.  In this case, could someone
+tell me where I can find the GIF format specification?
+
+Please e-mail me directly at: shayla@shannon.jpl.nasa.gov
+
+Thanks.
+
+
+

@@ -1,0 +1,32 @@
+From: dougb@comm.mot.com (Doug Bank)
+Subject: Re: Clipper and conference calls
+Reply-To: dougb@ecs.comm.mot.com
+Organization: Motorola Land Mobile Products Sector
+Nntp-Posting-Host: 145.1.146.35
+Lines: 25
+
+
+|>    > Just curious, how would the Clipper Chip system handle
+|>    > conference calls?
+ 
+|> Depending on the encryption system, so long as everyone has the same
+|> key, it can be done.  For example, I was using "vat", which is an
+|> Internet Audio tool, for a conference call, and we were encrypting the
+|> session.  (Unfortunately, one site was doing more work, and didn't
+|> have the CPU for it, so it didn't sound all that good at a different
+|> site)
+
+You would have to use something other than the AT&T black box - in other
+words, I don't think public key would work.  The session key would have 
+to be agreed upon prior to the conversation and distributed to all 
+sites beforehand.
+
+Or go out and get a STU-III ;-)
+
+-- 
+Doug Bank                       Private Systems Division
+dougb@ecs.comm.mot.com          Motorola Communications Sector
+dougb@nwu.edu                   Schaumburg, Illinois
+dougb@casbah.acns.nwu.edu       708-576-8207                    
+
+These opinions do NOT reflect Motorola thinking in any way, shape, or form.

@@ -1,0 +1,20 @@
+From: kartik@hls.COM (Kartik Chandrasekhar)
+Subject: Multiple(Not Simultaneous) server connections
+Organization: The Internet
+Lines: 13
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert@expo.lcs.mit.edu
+
+Hi,
+
+   We have a requirement for dynamically closing and opening
+different display servers within an X application in a manner such
+that at any time there is only one display associated with the client.
+
+   Assumming a proper cleanup is done during the transition should
+we anticipate any problems.
+
+
+kartik
+kartik@hls.com
+

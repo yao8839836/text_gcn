@@ -1,0 +1,90 @@
+From: gorgen@ann-arbor.applicon.slb.com (David Gorgen)
+Subject: Need help: Z-buffering lines & areas together
+Organization: Applicon, Inc.; Ann Arbor, MI (USA)
+Keywords: Z-buffer, roundoff, lines, areas
+Lines: 84
+
+I'm asking for help on a sticky problem involving unreasonably low
+apparent precision in Z-buffering, that I've encountered in 2 different
+PEX implementations.  I can't find any discussion of this problem in any
+resources I can lay hands on (e.g. the comp.windows.x.pex FAQ, Gaskins's
+_PEXlib_Programming_Manual_, vendors' documentation).
+
+I'm posting this article by itself on comp.graphics, and virtually the
+same article with a test program demonstrating the problem on
+comp.windows.x.pex.  The problem is hard to describe without pictures,
+hence this article is longish.  If you can run PEXlib 5.x programs and
+are interested, I encourage you to build and run the test program in
+comp.windows.x.pex to see the effect yourself and play with my approach
+to dealing with it.  (It depends on the utility code from the above
+Gaskins book; instructions for fetching it via anonymous FTP are given.)
+
+The problem to be solved is to eliminate or minimize "stitching"
+artifacts resulting from the use of Z-buffering with polylines that are
+coplanar with filled areas.  The interpolated Z values along a line will
+differ slightly, due to roundoff error, from the interpolated Z values
+across an area, even when the endpoints of the line are coincident with
+vertices of the area.  Because of this, it's a tossup whether the
+Z-buffer will allow the line pixels or the area pixels to be displayed.
+Visually, the result tends to be a dashed-line effect even though the
+line is supposed to be solid.
+
+Using the PEXlib API, my approach to a solution is to use two slightly
+different PEX view mapping transforms, in two view table entries, one
+for the areas and one for the lines.  The PEX structures or immediate-
+mode output must be organized so that one view table index is always in
+effect for areas, and the other is always in effect for lines.  The
+result is a slight shift in NPC Z coordinates for the lines, so as to
+attempt to bias the tossup situations in favor of the lines.
+
+This shift is effected by moving the front and back clipping planes used
+in the PEXlib view table entry for lines just a hair "backwards" (i.e.
+smaller VRC Z coordinates), compared to their positions in the view
+table entry used for areas.  This means that when a point is transformed
+to NPC, its Z value will be slightly bigger if it comes from a line than
+if it comes from an area, thus accomplishing the desired bias.
+
+I would expect the Z roundoff errors which cause the problem to amount
+to a few units at most, out of the entire dynamic range of the Z-buffer,
+typically from 0 to 65535 if not 16777215 (i.e. 16 or 24 bit Z-buffers).
+Therefore, it seems that a tiny fraction of the range of Z in VRC
+between the front and back clip planes ought to suffice to reliably fix
+the stitching.
+
+But in fact, experience shows that the shift has to be as much as 0.003
+to 0.006 of the range.  (Empirically, it's worst when the NPC Z
+component of the slope of the surface is high, i.e. when it appears more
+or less edge-on to the viewer.)  It's as if only 8 or 9 bits of the
+Z-buffer have any dependable meaning!  This amount is so great that one
+problem is replaced by another: sometimes the polylines "show through"
+areas which they are supposed to lie behind.
+
+I've observed the problem on both Hewlett-Packard and Digital
+workstation PEX servers, to approximately the same degree.  The test
+program demonstrates the problem on an MIT PEXlib 5.x implementation;
+this version is known to compile and run on an HP-UX system with PEX
+5.1.
+
+Open questions:
+    (1) Why does this happen?
+        --  Am I configuring the PEX view table wrongly?
+        --  Is there a systematic difference in Z interpolation for lines
+            as opposed to areas (e.g. pixel centers versus corners) which
+            could be corrected for?
+        --  Are PEX implementors wantonly discarding Z precision in their
+            interpolators?
+        --  Something else?
+    (2) What to do about it?
+        --  Can I fix my use of the view table to allow better precision
+            in Z-buffered HLHSR?
+        --  Is there another approach I can take to remove the stitching
+            artifacts?
+        --  Am I just out of luck?
+
+Any help would be immensely appreciated!
+
+-- 
+===============================================================================
+Dave Gorgen                         Internet: gorgen@ann-arbor.applicon.slb.com
+Applicon Inc.                                 gorgen@aaaca1.sinet.slb.com
+Ann Arbor, Michigan (USA)               UUCP: ...!uunet!sharkey!applga!gorgen

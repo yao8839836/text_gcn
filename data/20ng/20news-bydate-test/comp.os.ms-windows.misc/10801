@@ -1,0 +1,52 @@
+From: tfinn@crash.cts.com (Aaron Grier)
+Subject: Re: Challenge to Microsoft supporters.
+Organization: CTS Network Services (crash, ctsnet), El Cajon, CA
+Lines: 47
+
+In article <C71C1K.2yK@news.rich.bnr.ca> bjgrier@bnr.ca (Brian Grier) writes:
+>I think most of the people posting are forgetting that most users
+>of MS products do not even know about internet, and Unix is that
+>very unfriendly place where bizzare abreviations replace the rather
+>comfortable abreviations they know. And the abreviations have subtle
+>differences between the different vendors. While PC users tend to
+>customize any windowing setup, they can not do much with their 
+>command line.
+
+You can't customize a command line interface?  Where have you been?  I
+can change the prompt, I can make aliases (so someone like me who is
+used to say, ls, can type it on my dos machine and still get a
+directory listing), and under Unix, if I don't like the command line
+interface, I throw it out and get a different one. (csh, bash, ksh,
+sh, etc...)
+
+>So to most of the computer users in the world MS product symbolize
+>quality. MS has made their life easier, and more productive and to them
+>that is quality. They do not care about what innovative things MS has
+>done, other than to make their life with a computer one heck of a lot
+>easier. You may know better than most computer users in this world
+>but that will not change their perception.
+
+This is true.
+
+>Face it until Unix come up with a decent GUI that is available to
+>all variations of Unix it just will not catch on with the mainstream
+>of computer users. We here on the net are not mainstream computer users.
+
+A decent GUI for all variations of Unix? Lessee... what about Motif?
+Or the stuff from MIT? (twm comes to mind...) those are pretty
+standard. Heck, an xwindows program runs like it likes to -- all the
+end user has to really know is how to manipulate the actual windows
+with the mouse, and since it is a GUI, it's *graphical* and a bit
+easier to figure out. (Something the windows people have been pressing
+down our throats for some time now...)
+
+The thing I fear is that there will be a gap between the normal users
+running windows (all flavors) and the other "power" users running Unix
+and other more advanced OSes. At least right now, DOS is still pretty
+much king. I can bring a copy of my latest whiz-bang programming demo
+over to my friends house, and since we both run DOS, he can enjoy it
+too.
+
+agrier@gompers.gompers.edu OR
+tfinn@crash.cts.com (Preferred)
+

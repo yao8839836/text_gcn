@@ -1,0 +1,22 @@
+From: ardie@ux1.cso.uiuc.edu (Ardie Mack)
+Subject: Re: emm386 and windows
+Organization: Department of Plant Pathology
+Lines: 17
+
+>On my PC I almost exclusively run windows. The only dos based application  
+>I have is ProcommPlus.  In my config.sys I have emm386 loaded with the  
+>option noems (no expanded memory). Following a thread in one of the comp  
+>newsgroups, I read that it was no necessary to have emm386 loaded. Indeed,  
+>in the manual, it says that emm386 is used to get expanded memory out of  
+>extended memory. Since I have the noems option, it seems to me that the  
+>emm386 device is useless in my case. 
+>
+>Should I use emm386 or should I remove it from my config.sys?
+>
+>Thanks for your help,
+>
+>-Eric
+
+emm386 noems enables the system to use the "upper memory" between 640 and 
+1024.  That's a good place for device drivers, DOS kernal, etc.
+(Keep it in!)

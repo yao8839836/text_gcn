@@ -1,0 +1,43 @@
+From: whit@carson.u.washington.edu (John Whitmore)
+Subject: Re: 8x oversampling CD player
+Organization: University of Washington, Seattle
+Lines: 36
+NNTP-Posting-Host: carson.u.washington.edu
+Keywords: oversampling, CD, digitized audio
+
+In article <mcmahanC5v942.MKJ@netcom.com> mcmahan@netcom.com (Dave Mc Mahan) writes:
+> In a previous article, kolstad@cae.wisc.edu (Joel Kolstad) writes:
+>>In article <hcbC5un9L.DD0@netcom.com> hcb@netcom.com (H. C. Bowman) writes:
+>>>
+>>>I just bought a new portable CD player for the office, and I notice that
+>>>it proudly proclaims "8 TIMES OVERSAMPLING" on the box. 
+
+>>The data is only ever read once (barring mistracks and such, of course),
+>>and eventually gets turned into 44.1 KHz, 16 bit, two channel data.
+>>Oversampling takes two discrete data points, and interpolates n-1 points
+>>between them for n times oversampling.  When I asked, people said that the
+>>interpolation was not simply linear interpolation, but significantly more
+>>complicated.
+
+>You are quite correct in your understanding.
+
+>In case you care, the filtering method uses an FIR (finite impulse response)
+>filter.  I'd guess that CD makers use the same kind of method.  Anybody out
+>there know the real answer? 
+
+	Typical (in the old 2x-oversampling units) was a thirteen-tap
+FIR, implemented as a dedicated hardware addition circuit.  At this kind
+of speed (slow, by digital standards) such an adder is much less
+expensive than analog components of comparable precision.
+
+	I gleaned this information from a hardware manual for
+an old CD player design; where one would find similar info for
+a particular CD (the digital filter IS an interesting component,
+from my point of view), I have no idea.  The digital filter
+is a kind of interpolation scheme (read a book on numerical 
+analysis, to see just how BROAD the term 'interpolation' is...),
+
+
+	John Whitmore
+
+

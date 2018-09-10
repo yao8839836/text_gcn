@@ -1,0 +1,71 @@
+From: ebosco@us.oracle.com (Eric Bosco)
+Subject: Re: Help adding a SCSI Drive (Can it coexist with an IDE?)
+Reply-To: ebosco@us.oracle.com
+Organization: Oracle Corp., Redwood Shores CA
+Lines: 61
+Nntp-Posting-Host: monica.us.oracle.com
+X-Disclaimer: This message was written by an unauthenticated user
+              at Oracle Corporation.  The opinions expressed are those
+              of the user and not necessarily those of Oracle.
+
+In article <1993Apr22.094851.27323@physchem.ox.ac.uk>  
+mark@physchem.ox.ac.uk (Mark Jackson) writes:
+> 
+> In article <1993Apr19.195301.27872@oracle.us.oracle.com>,  
+ebosco@us.oracle.com (Eric Bosco) writes:
+> > 
+> > I have a 486sx25 computer with a 105 Mg Seagate IDE drive and a  
+controler  
+> > built into the motherboard. I want to add a SCSI drive (a quantum  
+prodrive  
+> > 425F 425 MG formatted). I have no documentation at all and I need your  
+> > help!
+> > 
+> > As I understand it, here is the process of adding such a drive.  Could  
+you  
+> > please tell me if I'm right..
+> > 
+> > 1- Buy a SCSI contoler.  Which one? I know Adaptec is good, but they  
+are  
+> > kind of expensive.  Are there any good boards in the $100 region? I  
+want  
+> > it to be compatible with OS2 and Unix if possible.  Also, I have seen  
+on  
+> > the net that there are SCSI and SCSI2 drives. Is this true? Does the  
+> > adapter need to be the same as the drive? What type of drive is the  
+> > quantum?
+> 
+> 
+> I have tried others, but I think that the Adaptec is best value for  
+money.
+> 
+> 
+> > 2- connect the drive to the adapter via a SCSI cable and the power  
+cable.
+> > Do i have to worry about the power supply? I think I have 200 watts  
+and  
+> > all I'm powering are two floppies and the seagate drive.
+> 
+> 
+> I dont think you can mix the two types of drive, unless you have one of  
+the
+> SCSI/IDE cards that is available.  You will have to turn your IDE off.
+> 
+
+Is this true??? I was under the impression that people on the net had both  
+SCSI and IDE working together.
+
+
+> 
+> > Well that seems to be all. Is there anythiing I'm forgetting? 
+> > Any help is *really* appreciated, I'm lost...
+> > 
+> > -Eric
+> > 
+> > ebosco@us.oracle.com
+> -- 
+> Mark 
+>  
+__________________________________________________________________________ 
+____
+> mark@uk.ac.ox.physchem

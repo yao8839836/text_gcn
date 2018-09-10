@@ -1,0 +1,104 @@
+From: williams@snoopy (Timothy Williams)
+Subject: Re: viewing postscript files under X windows
+Organization: Night Vision Labs, Ft Belvoir, VA
+Lines: 97
+X-Disclaimer: Opinions expressed are not necessarily those of NVL or ARL
+Nntp-Posting-Host: snoopy
+
+In article <1sk97rINNptb@polaris.isi.com> kin@isi.com (Kin Cho) writes:
+>
+>I wonder if anybody know of a X-window-based postscript file
+>viewer that runs under SunOS (prefered), HPUX, or IBM AIX.
+>Reason I'm looking for this utility is that I've downloaded these
+>large postscript documents and I'd like to know how useful (and how
+>long) they are before commiting them to the printer and potentially
+>wasting 200 pages of paper and hogging the printer for 1/2 hour.
+>
+
+Get ghostscript and ghostview.  Ghostview is a postscript previewer
+that uses ghostscript.
+
+From the ghostview README:
+
+
+
+    Ghostview -- An X11 user interface for ghostscript.
+
+Ghostview is full function user interface for ghostscript 2.4.
+
+Brief list of features:
+  - Ghostview parses any known version of Adobe's Document Structuring
+    Conventions.
+  - Page size is automatically determined from the Document Structuring
+    Comments.  The user is able to override the values from the comments.
+  - Window size is set to the bounding box for Encapsulated PostScript figures.
+  - Default page size is Letter and can be changed via Xresources or
+    application defaults file to A4 (or any other valid size) for our
+    European friends.
+  - Scrollbars appear when necessary.
+  - Page orientation is automatically determined from the Document Structuring
+    Comments.  The user is able to override the values from the comments.
+  - Ability to view at 4 orientations: Portrait, Landscape, Upside-down,
+    and Seascape (for those who rotate landscape the other direction).
+  - Ability to preview in any supported visual.  (Can preview in gray-scale 
+    or color on a Color monitor.)
+  - Ability to mark pages for printing, or saving.  (Good for people that
+    printed a 100 page document and lost page 59 due to a printer jam.)
+  - Can popup zoom windows at printer resolution
+    (1 display dot = 1 printer dot).
+
+    The Ghostview distribution includes a Ghostview Widget that people
+    are encouraged to use in other programs.
+
+    Ghostview-1.3 is available via anonymous ftp from:
+        prep.ai.mit.edu:/pub/gnu/ghostview-1.3.tar.Z
+        appenzell.cs.wisc.edu:/pub/ghostview-1.3.tar.Z
+
+
+From the ghostscript README:
+
+*****************************************************
+* This file describes version 2.4.1 of Ghostscript. *
+*****************************************************
+
+********
+******** An overview of Ghostscript ********
+********
+
+Ghostscript is the name of a set of software that provides:
+
+        - An interpreter for the Ghostscript language, which very
+closely resembles the PostScript (TM) language; and
+
+        - A set of C procedures (the Ghostscript library) that
+implement the graphics capabilities that appear as primitive
+operations in the Ghostscript language.
+
+The Ghostscript language interpreter and library are written entirely
+in C, with some assembly-language accelerators for MS-DOS platforms.
+Currently, Ghostscript is known to run on the following platform
+families:
+
+        - IBM PC and compatibles with EGA, VGA, SuperVGA, or compatible
+          graphics under MS-DOS 3.1, 3.3, or 5.0;
+
+        - A wide variety of Unix systems using X Windows version 11,
+          release 3, 4, and 5, including Sun-3, Sun-4, Sun-386i,
+          Sun SPARCStation 1; generic 80386 machines running 386/ix;
+          H-P 9000/300 and 9000/800; DECStation 2100 and 3100; VAX
+          running Ultrix; Sequent Symmetry; Convex C1 and C2;
+          Tektronix 4300; SGI Iris Indigo;
+
+        - Sun workstations (Sun-3, SPARC, Sun-386i) running SunView;
+
+        - VAX, VMS with X11R3/4/5, gcc and DEC C compiler (DEC C compiler
+          version 3.1 or later is required).
+
+
+(Get ghostscript from the same ftp site you get ghostview.)
+
+-- 
+Tim Williams                                   COM: (703) 704-1685
+Night Vision & Electronic Sensors Directorate  DSN: 654-1685
+AMSEL-RD-NV-VISPD (Williams)                   FAX: (703) 704-1705
+Ft. Belvoir, VA 22060-5677                  E-MAIL: williams@nvl.army.mil

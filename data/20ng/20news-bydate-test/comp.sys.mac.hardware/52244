@@ -1,0 +1,55 @@
+From: HK.MLR@forsythe.stanford.edu (Mark Rogowsky)
+Subject: Re: cd300 question
+Organization: Stanford University
+Lines: 48
+Distribution: usa
+NNTP-Posting-Host: morrow.stanford.edu
+
+In article <h01sav.dsyibm.desy.de-230493200218@michael.desy.de>,
+h01sav.dsyibm.desy.de (Michael M. Savitski) writes:
+>Hi, there!
+>I have a MAC LC and consider buying CD300. I've been told,
+>however, that:
+>1. The double speed of CD300 is achievable only on machines
+>   with SCSI-2.
+
+This is completely false.
+
+>2. The double speed is a prerequisite for PhotoCD multisession
+>   capability, which I need.
+
+This is also false. What you need for multisession capability is
+multisession capability -- which is based on the firmware and
+electronics, not the drive speed. I'll admit, though, that I have
+not seen a multisession capable drive that isn't double speed.
+
+>3. Which means I seem to gain nothing compared with, say CD150.
+
+The above (1 & 2), proves 3 to be false.
+>
+>Any comments?
+
+The Apple CD300 is an excellent double-speed multi-session PhotoCD
+capable drive. So are drives based on the slightly-faster Toshiba
+XM3401. Some companies selling such drives are: Spin Peripherals (a
+bargain at $499) and PLI (a company I hate) and Relax Technologies
+(a company I know little about other than that they are  a longtime
+player in Mac mailorder, which is usually a good sign). The NEC
+CDR74 is also a good choice (NEC's own mechanism, I think). ClubMac
+sells it for around $619.
+
+>Thanx.
+
+Your welcome, ooh but now I see your from Germany. Most of the
+mailorder info does you little good, I guess. If not:
+Spin Peripherals -- 800-466-1200
+Club Mac         -- 800-258-2622
+Relax Tech       -- 510-471-6112
+
+Nothing wrong with the Apple, though, which is based on a Sony
+mechanism and speed-identical to the NEC. The Toshiba's speed
+advantage is very slight: 20% in average access time (a minor plus)
+and 10% in data transfer rate (a slightly more important plus).
+
+Good luck,
+Mark

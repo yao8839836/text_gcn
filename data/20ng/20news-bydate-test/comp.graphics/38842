@@ -1,0 +1,50 @@
+From: hollasch@kpc.com (Steve Hollasch)
+Subject: Re: Raytracing Colours?
+Summary: Illumination Equations
+Organization: Kubota Pacific Computer, Inc.
+Lines: 44
+
+asecchia@cs.uct.ac.za (Adrian Secchia) writes:
+| When an incident ray (I) strikes an object at point P ...  The reflected
+| ray (R) and the transmitted ray (T) is calculated from the formulae.
+| 
+| Calling the routine recursively on R and T will return the colours 
+| along the rays (R and T) as rCol and tCol. Each object has its own
+| colour oCol and each light source has liCol (1 <= i <= n).
+| 
+| The question is: 
+|   How do you combine rCol, tCol, oCol and all the liCol's to get
+|   the correct resulting colour to return along the I ray?
+
+    First of all (this is NOT a snide response), if you're confused about
+this issue, you will stumble over a lot of other things as well.  I suggest
+that the weakness is your reference material.  Get "An Introduction to Ray
+Tracing" by Andrew Glassner for very good coverage of the raytracing
+algorithm.  You could also refer to the 2nd edition of Foley & Van Dam.
+
+    On to the question.  The simple answer is that you just keep adding up
+all the contributions and then clamping at the maximum intensity.  For
+example, if your intensity values range from 0.0 to 1.0, then keep adding up
+and clamp the resultant values to 1.0 (you might have to clamp the lower
+bound to 0.0 if you have dark bulbs, but that's another issue =^).  So, you
+get some illumination equation like this:
+
+        I = Lambient + Ldiffuse(light[n]) + Lreflected + Ltransparent
+
+    The contribution due to reflection is just summed with the light
+intensity, as is the light due to transparency.  Now, a slightly less
+hand-waving illumination equation is this:
+
+        I = KaLa + KdLd(light[n]) + KrLr + KtLt
+
+    That is, each component of the illumination equation is governed by the
+material constants Ka, Kd, Kr and Kt.  So the maximum you can get from
+transparency for a given object, for example, might be [0.4, 0.1, 0.5] for a
+purple-colored glass object.
+
+    Hopefully this answers your question.  I'll forward my "illumination
+equation sermon" to you also.
+
+______________________________________________________________________________
+Steve Hollasch                                   Kubota Pacific Computer, Inc.
+hollasch@kpc.com                                 Santa Clara, California

@@ -1,0 +1,25 @@
+From: boltz@chopin.psu.edu (Mark Boltz)
+Subject: Re: Parity Error - System Halted /anyone have any ideas?
+Organization: Penn State University
+Lines: 19
+NNTP-Posting-Host: chopin.psu.edu
+
+You unfortunately failed to mention if the error occurs with the Parity Error
+Checking enabled or disabled.  I assume you mean it gives you a parity error
+when it's enabled, and not when it's disabled.  How high will the count go on
+the memory check at boot-up before this error occurs?  Does the system beep
+at all; if so what's the pattern of beeps?  The error could be occuring in
+Cache memory (not so likely) or video memory, as well as the simms.
+
+The fact that you have AMI bios is not conclusive in determining the board
+manufacturer either.  Boards are made by thousands of small Taiwanese companies
+(among others) that buy the name brand chips and put them together with some
+simm sockets to make your board.  I tend to doubt your problem is with your
+IDE controller, also.
+
+Anyway, perhaps if you answer those questions someone can help you out better.
+
+mrb
+boltz@vivaldi.psu.edu
+mrb118@psuvm.psu.edu
+

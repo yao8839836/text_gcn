@@ -1,0 +1,33 @@
+From: fitz@cse.ogi.edu (Bob Fitzsimmons)
+Subject: Re: VGA Graphics Library
+Keywords: C, library, graphics
+Article-I.D.: ogicse.53715
+Organization: Oregon Grad. Inst. Computer Science and Eng., Beaverton
+Lines: 26
+
+In article <2054@mwca.UUCP> bill@mwca.UUCP (Bill Sheppard) writes:
+>Many high-end graphics cards come with C source code for doing basic graphics
+>sorts of things (change colors, draw points/lines/polygons/fills, etc.).  Does
+>such a library exist for generic VGA graphics cards/chips, hopefully in the
+>public domain?  This would be for the purpose of compiling under a non-DOS
+>operating system running on a standard PC.
+>
+
+I'm also interested in info both public domain and commercial graphics library 
+package to do PC VGA graphics.  
+
+I'm currently working on a realtime application running on a PCC with a 
+non-DOS kernel that needs to do some simple graphics.  I'm not sure if 
+reentrancy of the graphics library is going to be an issue or not.  
+I suspect I'll implement the display controller as a server process that 
+handles graphics requests, queued on a mailbox, one at a time.  If this 
+provides sufficiently frequent display updates then I believe that I can 
+restrict all graphics operations to be performed by the server and thus 
+constrain access to the library to a this single process and avoid the need
+for a reentrant graphics library.  
+
+Being fairly new to the realtime systems world I may be overlooking something,
+what do you think?
+
+Cheers,
+Bob Fitzsimmons		fitz@cse.ogi.edu		(503)297-3165

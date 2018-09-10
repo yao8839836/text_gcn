@@ -1,0 +1,45 @@
+From: sysrick@orion.spd.louisville.edu (Rick McTeague)
+Subject: Need help with MIT-MAGIC-COOKIE
+Nntp-Posting-Host: orion.spd.louisville.edu
+Organization: University of Louisville
+Lines: 39
+
+I'm trying to turn on Xauthorization using MIT-MAGIC-COOKIE on my servers
+(CPU heads, HP700RX Xterminals), but I'm running into a couple of problems.
+
+First, at least one of our applications (Maple) doesn't seem to understand 
+how to deliver the magic cookie, and won't run on a display with authorization
+turned on. 
+
+Second, we have people with client software on remote machines, and I
+really don't want to hassle them with having to copy their .Xauthority
+file to the remote machine... assuming that the clients there support
+Xauthorization.
+
+So, what I would like to do is turn on MIT-MAGIC-COOKIE by default, with
+non-privileged users able to turn it off - dropping back to host-based
+authorization.
+
+(Yes, I know how to turn it off by changing the Xconfig file for the
+heads and the Client Authorize setting for the Xterminals, but
+non-privileged users can't do this.)
+
+I've checked with the HP Support Line, and there doesn't appear to be a way.
+Can anyone confirm this, or do you know of a way to accomplish what I
+want?
+
+BTW, I'm running HPUX 9.0, and Vue 3.0.
+
+Thanks in advance,
+Rick
+-- 
+
+Rick McTeague
+Electrical Engineering Department, Speed Scientific School
+University of Louisville, Louisville, KY 40292
+(502) 588-7020
+
+Internet: sysrick@starbase.spd.louisville.edu
+
+Disclaimer: I'm a stand-up comedian; if anyone takes me seriously, I'm
+            doing something wrong!

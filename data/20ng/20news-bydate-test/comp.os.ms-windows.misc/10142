@@ -1,0 +1,47 @@
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Question on EISA video board performance
+Organization: Texas Instruments Inc
+Lines: 42
+
+In <1993Apr30.122333.828@hubcap.clemson.edu> charlea@eng.clemson.edu (charles allen) writes:
+
+>From article <C68uBG.K2w@world.std.com>, by cfw@world.std.com (Christopher F Wroten):
+>> I have an EISA machine and I just do not understand why most
+>> EISA video cards only match the performance of their ISA
+>> counterparts. For instance, the EISA Orchid Pro Designer IIs-E is
+>> only about as "fast" as the ISA Diamond SpeedStar Plus, which isn't
+>> what I would call "fast."
+>> 
+>> I don't understand why EISA video cards aren't, as a group, on the
+>> same level of performance as Local Bus cards, given that EISA video
+>> cards have a 32 bit bus to move data around, instead of ISA's 8 bits.
+>> 
+>Good question.
+>Answer: The EISA bus does move 32 bits rather than ISA's 8/(16?)
+>        But it still moves it at about the speed as the ISA bus.
+>        I think that's either 8 or 10 mhz.
+>        The local bus designs also move 32 bits like the EISA, but
+>        they move the data at the cpu speed, up to 40 mhz.
+>        So, on a 33mhz cpu, the local bus is moving 32bit data at
+>        33 mhz, and the EISA is moving 32bit data at 8 or 10 mhz.
+>        So the local bus should be 3 to 4 times faster than EISA on
+>        a 33 mhz cpu.  EISA should be about two (maybe 3) times as
+>        fast as ISA.
+
+I would expect the EISA board to be more than twice as fast as the ISA
+board.  Not only are you moving data on a path twice as wide (at
+least), but there is a difference in the number of clocks required for
+bus transactions between the two busses.  Most ISA boards require
+multiple clocks per bus transaction -- typically this is around 3-4.
+EISA boards are suppose to be able to 'burst' at a 1:1 rate, so I
+would expect performance to be 6x-8x that of an ISA card.  
+
+So I guess, for me, the question is unanswered still.  I would expect
+him to be able to see a 6x speed difference, and he apparently does
+not.  
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.

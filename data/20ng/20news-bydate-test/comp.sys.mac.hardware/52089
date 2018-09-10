@@ -1,0 +1,32 @@
+From: Anthony Dunstan <anthony@medicine.adelaide.edu.au>
+Subject: LW Select 310 doesn't work out of box!
+Organization: Medical Faculty, Adelaide University
+Lines: 22
+Distribution: world
+NNTP-Posting-Host: simak.medicine.adelaide.edu.au
+X-UserAgent: Nuntius v1.1.1d20
+X-XXMessage-ID: <A7FB42182301380B@simak.medicine.adelaide.edu.au>
+X-XXDate: Wed, 21 Apr 93 02:25:28 GMT
+
+Hello Net.People,
+
+We have a LaserWriter Select 310 (standard 1.5Mb RAM) connected to an LC
+III (4/80).
+
+The print driver cannot find any Adobe Type 1 fonts or any TrueType fonts
+in the System.
+
+The connections to the printer and the Driver installation are correct
+but this 310 printer still refuses to find fonts and work correctly out
+of the box.
+
+IMHO, an Apple product not working out of the box is a shameful event.
+
+The installer disks for the printer install: LW Select 310 driver v 1.0,
+PrintMonitor v 7.1 and backgrounder v 3.1 (!) on a System 7.1 LC III.
+
+Has anyone else had similar experiences with this printer/configuration,
+because we really need some help on this one.
+
+Thanks,
+Anthony    anthony@medicine.adelaide.edu.au

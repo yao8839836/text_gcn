@@ -1,0 +1,21 @@
+From: c60c-2mh@web-2h.berkeley.edu (Collin Ong)
+Subject: Re: PC Logitec hand scan on Mac?
+Keywords: scanner
+Nntp-Posting-Host: web-2h.berkeley.edu
+Organization: University of California, Berkeley
+Lines: 14
+
+I have the Logitech hand scanner for the Mac.  It uses a SCSI
+interface box that the standard scanner unit plugs into.  I
+have tried my friend's IBM hand scanner with the scsi box and
+it works.  See if you can get Logitech to sell you the scsi
+box by itself.  Warning:  most of the cost of Mac handscanners
+is contained in the scsi interface box, so it could run up
+to around $200.  When I upgraded my old style scanner to
+the new gray scale model, it cost $75; they just gave me a new
+scan head and software; the box was the same.  The gray scale
+scanner + interface runs about $300; making it around $200 for
+the interface.
+
+Collin
+

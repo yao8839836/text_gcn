@@ -1,0 +1,30 @@
+From: khera@cs.duke.edu (Vivek Khera)
+Subject: Re: 'makedepend' problem
+Organization: Duke University CS Dept., Durham, NC
+Lines: 21
+Nntp-Posting-Host: thneed.cs.duke.edu
+To: mlt@blues.infores.com (Michael Turok)
+In-reply-to: mlt@blues.infores.com's message of 17 May 93 20:59:30 GMT
+X-Md4-Signature: 0f18fa5b225d03d3a401973b4318dd0e
+
+In article <3032@cronos.metaphor.com> mlt@blues.infores.com (Michael Turok) writes:
+
+   We have a problem with 'makedepend': it doesn't know how to correctly process
+   #if clause in C preprocessor statements. It evaluates everything to
+   true no matter what the conditionals are.
+
+   [...]
+
+   Has anybody come up with some solution/fix to 'makdepend' other than
+   WriteYourOwnParser... and willing to share it with us?
+
+rewrite 'makedepend' to use 'cc -M' or 'gcc -M' or 'gcc -MM' (which is
+the one I prefer, since system headers don't change that often) for
+generating the actual dependencies.  you'll still need to write the
+parts that edit the actual Makefile.  I think there's a program in the
+Berkeley distributions called mkdep that will do essentially this.
+--
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Vivek Khera, Gradual Student/Systems Guy  Department of Computer Science
+Internet:   khera@cs.duke.edu             Box 90129
+            (MIME mail accepted)          Durham, NC 27708-0129 (919)660-6528

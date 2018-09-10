@@ -1,0 +1,37 @@
+From: hollasch@kpc.com (Steve Hollasch)
+Subject: Re: What is the difference between Raytracing and rendering?
+Summary: Raytracing is a form of rendering
+Organization: Kubota Pacific Computer, Inc.
+Lines: 31
+
+zlg1409@uxa.cso.uiuc.edu (Zhenhai Li ) writes:
+| Hello, I've raytraced and rendered and the only difference I've found 
+| is that raytracing takes a hell of a lot longer. Am I missing something?
+
+    Yes.  There are many methods of rendering, raytracing is one of them.
+You didn't say what you mean by rendering, so I won't guess.  Methods of
+rendering include:
+
+        o  Pencil and graph paper, doing the math by hand
+
+        o  Wireframe rendering of the 2D projection
+
+        o  Hidden line rendering
+
+        o  Scanline rendering using:
+            - Painter's algorithm.
+            - BSP trees.
+            - Z buffer
+            - Other
+
+        o  Raytracing
+
+        o  Radiosity
+
+        o  Holographic projection to film
+
+        o  Combination of any of the above
+
+______________________________________________________________________________
+Steve Hollasch                                   Kubota Pacific Computer, Inc.
+hollasch@kpc.com                                 Santa Clara, California

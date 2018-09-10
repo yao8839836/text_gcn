@@ -1,0 +1,62 @@
+From: ballou@martigny.ai.mit.edu (Kenneth Robert Ballou)
+Subject: Re: Soundblaster IRQ and Port settings
+Organization: Oberon Software, Inc.
+Lines: 55
+Distribution: world
+NNTP-Posting-Host: altdorf.ai.mit.edu
+
+In article <pdb059-210493145738@kilimanjaro.jpl.nasa.gov> pdb059@ipl.jpl.nasa.gov (Paul Bartholomew) writes:
+>In article <3130@shaman.wv.tek.com>, andrew@frip.WV.TEK.COM (Andrew
+>Klossner) wrote:
+>> 
+>> []
+>> 
+>> 	"These LPT1, COM1, disk controller are call devices.  There are
+>> 	devices that requires exclusive interrupt ownership, eg. disk
+>> 	controller (I6) and keyboard (I1).  There are also devices that
+>> 	does not require exclusive ownership, ie. it will share an
+>> 	interrupt with another device, eg. LPT1"
+>> 
+>> No.  In a standard ISA bus, the one that almost all non-laptop PCs use,
+>> two separate interface cards cannot share an interrupt.  This is due to
+>> a screwup in the bus design.  For example, if your Soundblaster wants
+>> to drive interrupt number 7, then it must hold a certain bus wire to 0
+>> or 1 at all times, depending on whether or not it wants an interrupt.
+>> This precludes letting another card assert interrupt number 7.
+>> 
+>> When two or more devices in an ISA bus PC share an interrupt, it's
+>> because they're implemented by a single card.
+>
+>Interesting.  Would you care to explain to me then, how my SoundBlaster
+>Pro card and my printer card are sharing IRQ 7 successfully?  I assure
+>you that they are both set to IRQ 7 and that I have no problem.  My
+>computer is a DTK 286-12 IBM clone.
+
+Simple.  First, Andrew is correct, although I can see where there might be
+some confusion.  It is indeed possible to have two cards *configured* to use
+the same interrupt.  They can not *share* the interrupt in the sense that it
+is not possible to have both cards active at the same time.
+
+Here is an example.  For some time, I was short of "free interrupts."  I had a
+tape controller (not a "floppy tape") that needed one of IRQ0-IRQ7.  (It's an
+*old* tape drive.)  My solution was to use IRQ3 (also used for COM2, where my
+modem is).  I did this because I reasoned I would never be using the modem and
+the tape simultaneously.  When kermit runs, it installs its own interrupt
+handler for IRQ3 and uses the serial port.  If the tape drive were to generate
+an interrupt, kermit would not have a clue what to do with/for the tape
+controller.  (And since the tape controller would not be serviced, it would
+most likely "hang.")  Likewise, when the tape backup software runs, it
+installs an interrupt handler for IRQ3.  That handler won't do anything for
+the serial port.
+
+Under DOS, printing is NOT interrupt-driven.  Instead, the BIOS polls the
+status of the parallel port to determine when another byte may be sent.
+That's why you can have your sound card and LPT1 both configured to use IRQ7.
+Try that on NT and see how far you'll get. :-)
+-- 
+Kenneth R. Ballou				VOICE:		 (617) 494-0990
+Oberon Software, Inc.				FAX:		 (617) 494-0414
+One Memorial Drive, Cambridge, MA  02142	Internet:     ballou@oberon.com
+
+The views and opinions expressed above are my own and do not necessarily
+reflect those of my employer.

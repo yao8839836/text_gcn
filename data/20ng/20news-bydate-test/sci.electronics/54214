@@ -1,0 +1,60 @@
+From: billn@hpcvaac.cv.hp.com (bill nelson)
+Subject: Re: Power, signal surges in home...
+Organization: Hewlett-Packard Company, Corvallis, Oregon USA
+Lines: 55
+
+dplatt@ntg.com (Dave Platt) writes:
+: 
+: >What kind of power must he be putting out to cause the effects?
+: >The affected equipment is about 100 feet from the road...
+: 
+: Might be a couple of hundred watts, from the sound of it.  Kicking sound
+: out of the TV and stereo speakers by direct RF rectification requires a
+: mighty strong carrier!  [I've heard of linears so powerful that
+: triggering them while the car was idling, would stall the engine by
+: pulling down the battery voltage.]
+
+It would take a lot more than that. It sounds like the radio equipment is
+actually not shut completely off - but just goes to a standby situation.
+
+I suspect that the stories are just that, stories.  The voltage can only
+be sucked down so far instantaneously. When you try to jumpstart someones 
+car, when your vehicle is at idle, does your car stall? No, the other car
+just does not crank well.  Now, the engine might stall because the idle
+was too low to start with. When the extra current is drawn, the idle speed
+will drop - as the alternator loads down the engine to compensate for the
+increased amperage requirement.
+
+: >Is resolution of this problem a matter for the power company, the fcc, or both?
+: 
+: Ultimately it's likely to be your problem to resolve, I'm afraid.  The
+: FCC is so understaffed that they don't pay much attention to citizen
+: complains about RFI (or so I've heard)... they'll just send you a
+: pamphlet describing how you can apply corrective measures.
+: 
+: Talking to the power company might help - they might be able to install
+: filtering devices at your service panel (or recommend a type which you
+: could have installed by a licensed electrician).
+
+A transmitter is not going to be affecting house power. If surges are
+occurring there, it is due to another cause - not a transmitter.
+
+: Unfortunately, there's a fair chance that enough signal is being picked
+: up by your house wiring that a simple service-panel filter won't
+: suffice.  You may need to install heavy-duty RFI filters at the power
+: connections of your affected equipment.
+
+It is probably not that much of a problem. Often - toroid coils on the
+power leads will solve that part of the interference problem. It will
+not solve internal equipment deficiencies.
+
+: If the problem occurs regularly, you may need to "stake out" the street
+: in question, and watch for trucks or cars with big antennae driving by
+: at the time interference occurs.  If you can identify the vehicle which
+: is transmitting, you may be able to contact its owner and complain.
+
+It is probably not the transmitter that is at fault. If the person is an
+amateur, then he/she will probably be willing to help - if you explain
+that the person is causing interference.
+
+Bill

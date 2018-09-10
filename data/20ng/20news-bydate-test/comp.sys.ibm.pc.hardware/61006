@@ -1,0 +1,17 @@
+From: mostert@itu1 (9135529 Mostert  A. Mnr.)
+Subject: ET4000 linear mode ??
+Article-I.D.: hippo.1993Apr22.201347.16763
+Organization: Rhodes University, Grahamstown, South Africa
+Lines: 10
+X-Newsreader: TIN [version 1.1 PL8]
+
+Hi 
+
+I have heard about a linear mode for the ET4000, in which the 1Mb video 
+memory in linearly accesibly instead of the usual 64k pages. Does anyone
+know more about this ? How can I enable it and to what address is the
+video memory mapped to ?
+
+A. Mostert
+Stellenbosch, RSA
+mostert@cs.sun.ac.za

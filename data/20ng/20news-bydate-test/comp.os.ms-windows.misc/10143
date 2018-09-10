@@ -1,0 +1,50 @@
+From: ebosco@us.oracle.com (Eric Bosco)
+Subject: Re: emm386 and windows
+Nntp-Posting-Host: monica.us.oracle.com
+Reply-To: ebosco@us.oracle.com
+Organization: Oracle Corp., Redwood Shores CA
+X-Disclaimer: This message was written by an unauthenticated user
+              at Oracle Corporation.  The opinions expressed are those
+              of the user and not necessarily those of Oracle.
+Lines: 40
+
+In article <ardie.313.736188058@ux1.cso.uiuc.edu> ardie@ux1.cso.uiuc.edu  
+(Ardie Mack) writes:
+> >On my PC I almost exclusively run windows. The only dos based  
+application  
+> >I have is ProcommPlus.  In my config.sys I have emm386 loaded with the  
+> >option noems (no expanded memory). Following a thread in one of the  
+comp  
+> >newsgroups, I read that it was no necessary to have emm386 loaded.  
+Indeed,  
+> >in the manual, it says that emm386 is used to get expanded memory out  
+of  
+> >extended memory. Since I have the noems option, it seems to me that the  
+> >emm386 device is useless in my case. 
+> >
+> >Should I use emm386 or should I remove it from my config.sys?
+> >
+> >Thanks for your help,
+> >
+> >-Eric
+> 
+> emm386 noems enables the system to use the "upper memory" between 640  
+and 
+> 1024.  That's a good place for device drivers, DOS kernal, etc.
+> (Keep it in!)
+
+Well, I thought that highmem.sys would do that too. I just took out emm386  
+of my config.sys, and I'm still loading my other drivers high (mouse, vga  
+shadow bios, dos-key etc.) I haven't checked mem/c, but I believe I have  
+managed to load them high (ie between 640KB and 1024KB).
+
+Also, ever since I took out emm386, windows loads slightly faster, I get  
+about 3 extra meg of freemem in windows (I'm running 386 enhanced with 4  
+Meg RAM, 7 Meg swap) and I got rid of my ctrl-alt del reboot problem  
+(before, the computer would not reboot using ctrl-alt-del after exiting  
+windows). 
+
+I would really like to keep emm386 out of my config.sys. Anybody else have  
+info on this???
+
+-Eric

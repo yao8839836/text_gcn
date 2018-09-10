@@ -1,0 +1,29 @@
+From: wes@uf.msc.edu (Wes Barris)
+Subject: Re: HELP: Need 24 bits viewer
+Keywords: 24 bit
+Reply-To: wes@msc.edu
+Organization: AHPCRC, Minnesota Supercomputer Center
+Lines: 22
+
+In article <1993Apr27.152315.12305@nessie.mcc.ac.uk>, lilley@v5.cgu.mcc.ac.uk (Chris Lilley) writes:
+|> 
+|> In article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
+|> 
+|> >I'm looking for a program which is able to display 24 bits
+|> >images. We are using a Sun Sparc equipped with Parallax
+|> >graphics board running X11.
+|> 
+|> Utah raster toolkit using getx11. Convert your sun raster files (presumably) to 
+|> ppm with the pbm+ toolkit then convert ppm to utah rle format with ppmtorle which
+|> is provided in the toolkit.
+
+Or just use the URT tool: rastorle.
+
+|> 
+|> I seem to remember that Xloadimage can do 24 bit servers too.
+
+Yes, both it and the newer xli can.
+
+===============================================================================
+Wes Barris                                                   PH: (612) 626-8090
+Minnesota Supercomputer Center, Inc.                         Email: wes@msc.edu

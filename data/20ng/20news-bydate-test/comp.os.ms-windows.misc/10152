@@ -1,0 +1,23 @@
+From: charlea@eng.clemson.edu (charles allen)
+Subject: Re: emm386 and windows
+Organization: Clemson University
+Lines: 18
+
+From article <ardie.313.736188058@ux1.cso.uiuc.edu>, by ardie@ux1.cso.uiuc.edu (Ardie Mack):
+>>On my PC I almost exclusively run windows. The only dos based application  
+>>I have is ProcommPlus.  In my config.sys I have emm386 loaded with the  
+>>option noems (no expanded memory). Following a thread in one of the comp  
+>>newsgroups, I read that it was no necessary to have emm386 loaded. Indeed,  
+> 
+> emm386 noems enables the system to use the "upper memory" between 640 and 
+> 1024.  That's a good place for device drivers, DOS kernal, etc.
+> (Keep it in!)
+
+EMM386 is NOT reqired to load the DOS kernal high (or else you couldn't
+do it on a 286).  In a mail message I recommended that he remove it
+since he only runs ProcomPlus frequently in DOS, and I suspect
+EMM386 will slow down windows.
+
+-Charles A.
+CBALLEN@CLEMSON.EDU
+

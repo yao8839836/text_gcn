@@ -1,0 +1,47 @@
+From: louray@seas.gwu.edu (Michael Panayiotakis)
+Subject: Re: Windows zip/unzip
+Organization: George Washington University
+Lines: 42
+
+In article <1rl9b6$h3c@sol.deakin.OZ.AU> russ@deakin.OZ.AU (Russ Sharp) writes:
+
+>We are using pkzip V2.04 and I am interested to hear from
+>people who have used one of the many Windows programs that
+>call these.
+>Which ones are available and does any one stand out amongst
+>the rest?
+>
+Well, I got  WINZIP from cica (don't know which version, but I think
+it's the latest, as this is not long ago), and I was initially imressed.
+But here's the low-down:
+
+WINZIP is a *great* progra, *as long as you only unzip*.  It lets you
+vew files, unzip only selected files, and even puts the files in a
+/checkout directory, and creates a "checkout" .grp and group if you want
+to check the program out.  It even prompts for deletion of these on
+exit, if you didn;t like the program.
+
+*HOWEVER* (big however over here).  I have problems zipping.  I don't
+konw specifics on this, or ammount of consistency, but sometimes when I
+"zip" a few files, or add a file to a .zip, dos will violate something
+or other, and I'll be asked (in a kind, micro$oft kind of way) to quit
+all applications, quit windows, and restart my computer.  I don't know
+(as I said) how consistent this is, as I jdont' zip much (and when I do,
+now I just go to dos and use it from there, or just use the "run" cmd)
+but I *do* know it's happened when I added files to an existing .zip
+file, *and* when I created a new .zip file, using selected files only.
+I don't know if it's happened when I zip an entire dir.
+
+Still, it has a rather nice interface, and quite useful "unzip"ing
+functions.  If the above is fixed, I'll be the first to register the new
+ver.  (as for now, a good old, "run-->unzip *.zip" will work.
+
+(PS> if a new ver *is* out that fixes these, please let me know).
+
+peace,
+Mickey
+-- 
+pe-|| ||  MICHAEL PANAYIOTAKIS: louray@seas.gwu.edu 
+ace|| ||                                   ...!uunet!seas.gwu.edu!louray
+|||| \/|  *how do make a ms-windows .grp file reflect a HD directory??*
+\\\\   |  "well I ain't always right, but I've never been wrong.."(gd)

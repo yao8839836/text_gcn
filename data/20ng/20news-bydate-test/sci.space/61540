@@ -1,0 +1,32 @@
+From: abdkw@stdvax.gsfc.nasa.gov (David Ward)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+News-Software: VAX/VMS VNEWS 1.4-b1  
+Organization: Goddard Space Flight Center - Robotics Lab
+Lines: 26
+
+In article <1rrgu7$9lp@access.digex.net>, prb@access.digex.net (Pat) writes...
+>In article <C6A2At.E9z@zoo.toronto.edu> henry@zoo.toronto.edu (Henry Spencer) writes:
+>>
+>>No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+>>dictated a rather odd design for the solar arrays, since they had to be
+>>retractable as well as extendable, and may thus have indirectly contributed
+>>to the array-flapping problems.
+> 
+> 
+>Why not design the solar arrays to be detachable.  if the shuttle is going
+>to retunr the HST,  what bother are some arrays.  just fit them with a quick release.
+> 
+I didn't think the bi-stem design was used so much for the retrieval as
+for the ability to launch in a tight (size) STS envelope.  This is my own 
+guess, based on similar designs flown on other large STS-launched s/c 
+(GRO, UARS).  Also, there _might_ be some consideration given to mass 
+requirements (bi-stems weight less than conventional S/A).  Finally, 
+the HST arrays _do_ have the ability to be detached--remember, they're 
+going to be replaced with new arrays.
+
+However, as an ACS guy who's seen his branch management pull their
+collective hair out over HST, I would voice a hearty 'yea' to using
+conventional arrays over bi-stems, whenever possible.  No half hertz
+flexible modes, no thermal snap, no problem.
+
+David W. @ GSFC

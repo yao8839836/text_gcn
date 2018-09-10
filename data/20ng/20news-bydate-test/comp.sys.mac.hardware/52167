@@ -1,0 +1,25 @@
+From: RUTIJOH1@chico.acc.iit.edu (USERS)
+Subject: Re: Quadra 900/950
+Article-I.D.: iitmax.1993Apr22.232256.20899
+Organization: ILLINOIS INSTITUTE OF TECHNOLOGY, CHICAGO
+Lines: 17
+In-Reply-To: armani@edgeway.wimsey.bc.ca's message of Wed, 21 Apr 1993 16:59:07 PST
+X-News-Reader: VMS NEWS 1.24
+
+In <1993Apr21.165907.189558@edgeway.wimsey.bc.ca> armani@edgeway.wimsey.bc.ca writes:
+> Besides the faster processor, the 950 has SCSI 2, and as far as I know, faster
+> I/O due to separate processors handling those functions. The 950 can output 16
+> bit video to a 16" monitor with 1 meg of VRAM and 24 bit with 2 meg.
+Actually, the Quadra 900 and 950 both have the same SCSI controller,            (running at different speed).  They are not SCSI 2, but can support
+certain SCSI commands that take advantage of faster drives.  The
+I/O processors are present on both machines.  The Q950 runs its
+I/O bus at 25MHz, while the 900's I/O bus is 16MHz.
+
+The Quadra 950 supports 16bit color on all monitor sizes, as well
+as 24bit up to 832 x 624 resolution.  It also supports 1024 x768
+resolution.  The 900 supports supports 8bit at 1152 x 870, and
+does not support 1024 x 768 at all.
+
+VRAM on the 950 is 80ns or faster, and 100ns or faster on the 900.
+
+-John Rutirasiri

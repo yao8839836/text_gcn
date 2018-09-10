@@ -1,0 +1,17 @@
+Subject: help
+From: C..Doelle@p26.f3333.n106.z1.fidonet.org (C. Doelle)
+Lines: 13
+
+Hello All!
+
+    It is my understanding that all True-Type fonts in Windows are loaded in
+prior to starting Windows - this makes getting into Windows quite slow if you
+have hundreds of them as I do.  First off, am I correct in this thinking -
+secondly, if that is the case - can you get Windows to ignore them on boot and
+maybe make something like a PIF file to load them only when you enter the
+applications that need fonts?  Any ideas?
+
+
+Chris
+
+ * Origin: chris.doelle.@f3333.n106.z1.fidonet.org (1:106/3333.26)

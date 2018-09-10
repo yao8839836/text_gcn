@@ -1,0 +1,130 @@
+From: Ed Hew <edhew@xenitec.on.ca>
+Subject: biz.sco.* newsgroups/mlists FAQ (periodic posting)
+Organization: XeniTec Consulting Services, Kitchener, ON, CANADA
+Summary: how to subscribe (and why)
+Keywords: biz, sco, newsgroups, mailing lists
+Lines: 123
+
+
+              Evolution of SCO newsgroups and Mailing Lists
+              ---------------------------------------------
+   
+   Many readers enjoyed the opportunity to obtain and contribute useful
+   information on SCO Open Desktop since 1990 through the ancestral USENET
+   newsgroup sco.opendesktop or it's companion mailing list.  Similarly,
+   there was a demonstrated need for an information and discussion forum
+   for SCO products in general.
+   
+   With the increasing demand for accessibility and for additional SCO
+   newsgroups, many current contributors including those who have been
+   active in circulating SCO related newsgroups and mailing lists felt
+   that the readership would be best served by creating a biz.sco.*
+   hierarchy to improve propagation (and hence availability) worldwide.
+
+   biz.sco.{opendesktop,general,announce} were newgrouped May 1, 1991 in
+   accordance with accepted procedure within "biz".  Given the content,
+   this change relocated the "opendesktop" newsgroup to a more proper place
+   within the established usenet news hierarchy and adds the new "announce"
+   and "general" groups.  On Aug 1, 1991, the former "sco-list@uunet.uu.net"
+   became "scogen" in keeping with established biz.sco.* naming conventions.
+
+   biz.sco.binaries and biz.sco.sources were newgrouped on June 1, 1992
+   to respectively accommodate SCO Xenix, UNIX and OpenDesktop specific
+   binaries and source code.  The binaries and sources news groups are
+   moderated, with moderator and submissions information and policy
+   outlined in the periodic imformational postings in those newsgroups.
+   Respecting USENET etiquite, these newsgroups are _not_ gated to
+   mailing lists, but are archived on several nuucp and ftp hosts.
+
+   biz.sco.magazine was newgrouped Dec 14, 1992, to provide a discussion
+   area for the readers, writers and publishers of SCO Magazine.
+   
+   Subject to the USENET NEWS hierarchies carried by your upstream feed,
+   you are now able to subscribe to the following:
+   
+        Newsgroup                    mailing list subscription
+        ---------                    -------------------------
+        biz.sco.opendesktop          scoodt-request@xenitec.on.ca
+        biz.sco.general              scogen-request@xenitec.on.ca
+        biz.sco.announce             scoann-request@xenitec.on.ca
+	biz.sco.sources			<none>
+	biz.sco.binaries		<none>
+	biz.sco.magazine	     scomag-request@xenitec.on.ca
+
+   You are _strongly_ encouraged to obtain these newsgroups via USENET
+   NEWS mechanisms vrs mail.  Anyone having difficulty arranging a news
+   feed for these newsgroups is welcome to email the undersigned and
+   I'll do my best to help.  We also offer all required software in
+   source code form via anonymous FTP and UUCP, as do many archive sites.
+   If, after having explored all options, you are still unable to receive
+   biz.sco.* as news, you may subscribe to the mailing lists.
+   
+   The 4 discussion newsgroups are bi-directionally gated to companion
+   mailing lists, so anyone not having access to NEWS but who does have a
+   UUCP or Internet mail feed can still participate fully using email.
+   Mailing list subscribers should send their request to the appropriate
+   "mailing list subscription" address above, including in the message body:
+
+	Add: subscriber_address		-eg-
+	Add: your_logname@site.do.main  -or-
+	Add: up!stream!yoursite!your_logname
+
+   Inclusion of an alternative working bang-path relative to a well know
+   major functional site might prove beneficial.  Deletions are handled
+   the same way, simply substitute "Delete:" for "Add:", ensuring that
+   you use the exact same address you subscribed with.  Mailing list
+   subscribers receive "how to post to the mlist" article submission
+   information when their request is processed.  If you don't receive
+   an acknowledgement within a few days, check your routing and try a test
+   message via xenitec.on.ca back to your host.  In such cases, it's likely
+   that someone, somewhere, is bouncing mail replies to you (and would do
+   the same with mailing list traffic), and you'll want to resolve your
+   connectivity problem before trying to subscribe again.  Mailing list
+   subscriptions are free, subject to whatever arrangements you may have
+   with the site(s) feeding you.
+   
+   Should you receive no response or experience a sudden and prolonged
+   drop to zero volume on one of the mailing lists, this indicates that we
+   are no longer able to find a working route to your site.  We loose a
+   handful of subscribers this way each month.  If this happens to you,
+   please email us your known working bang-path relative to a major site.
+
+   What's in the newsgroups (and mailing_lists where applicable):
+   
+   biz.sco.opendesktop: Technical questions and answers and informative
+                        postings relating to past, present, and future
+                        implementations of the SCO OpenDeskTop operating
+                        environment and it's various bundled components.
+   
+   biz.sco.general:     Questions, answers and comments on SCO products
+                        in general, and of course resulting discussions.
+   
+   biz.sco.announce:    SCO and SCO Developer product announcements of
+			interest to current and future users of SCO products,
+			and to SCO developers, resellers and distributors.
+                        (moderated, followups directed to biz.sco.general).
+
+   biz.sco.sources:	SysV or BSD source code for useful programs and
+			utilities, modified to compile and run with various
+			incarnations of SCO Xenix, UNIX, and/or OpenDesktop.
+
+   biz.sco.binaries:	Binary packages compiled from SCO compatible source
+			code, often from source posted in biz.sco.sources
+			and often installable using the SCO "custom" utility.
+
+   biz.sco.magazine:	Interaction between the SCO Magazine readers, 
+			writers and publishers.
+
+   You should always endeavour to post your article to the most applicable
+   newsgroup.  For example, posting your ODT question to the "general"
+   newsgroup will preclude your question and answers to it from being
+   saved in the public ODT archives.  Appropriate crossposting is allowed.
+
+   The undersigned is solely responsible for administration of the biz.sco
+   namespace.  Suggestions for additional biz.sco.* newsgroups and/or
+   mailing lists should be emailed to the address below.
+--
+  Ed. A. Hew,    <edhew@xenitec.on.ca>    ....!uunet.ca!xenitec!eah
+  XeniTec Consulting Services, Kitchener ON, Canada +1 519 570 9848
+  triOS Training Centres Ltd. Mississauga ON Canada +1 800-387-8649
+          [biz.sco.* newsgroups and mailing lists godfather]

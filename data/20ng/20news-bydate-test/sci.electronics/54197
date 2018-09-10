@@ -1,0 +1,49 @@
+From: scottcr@wkuvx1.bitnet
+Subject: Re: Cable TVI interference
+Organization: Western Kentucky University, Bowling Green, KY
+Lines: 44
+
+In article <1993Apr23.191808.10835@rwwa.COM>, witr@rwwa.COM (Robert Withrow) writes:
+> In article <1qf44aINNll@rave.larc.nasa.gov>, watson@nimbus.larc.nasa.gov (Catherine Watson) writes:
+> 
+> | I gave up after a year of
+> | letters and phone calls.  I got the impression the FCC was powerless and it 
+> | was up to the cable company to correct the situation.
+> 
+> Isn't there some *formal* action a citizen can take that *requires* the
+> FCC to, at least, generate some paperwork?
+> 
+> -- 
+>  Robert Withrow, Tel: +1 617 598 4480, Fax: +1 617 598 4430, Net: witr@rwwa.COM
+>  R.W. Withrow Associates, 21 Railroad Ave, Swampscott MA 01907-1821 USA
+
+For those who are interested, the FCC does indeed care about cable
+leakage, particularly into the aviation nav band, or leakage that
+is "causing interference to other services".
+
+Part 76.611 details specific limits to acceptable leakage, and
+measurement technique.  If you will clearly document your problem,
+and measurement technique (a signal level meter with dipole is the
+normal approach, remember to correct between measurement data and
+microvolts per meter) and fax or mail the details to Mr. John Wong
+Cable Branch, FCC 1919 M st. NW Wash DC, and a copy of your letter
+to the local cable company, you will get results.  In fact the cable
+company will probably start treating you much better when they realize
+you have figured out how to get the FCCs attention.
+
+What is important is to document your case as it relates to the
+applicable rules.  However the cable company *is required* to
+at least check out every complaint of leakage.  They must file
+with the commission and maintain on premises a yearly measurement
+report that details the results of leakage testing.
+
+But remember, call the cable company first, and give them a
+chance to work to correct the problem before contacting
+the commission.
+
+I am in the business of measuring cable system leakage via
+the airborne method.
+
+-- 
+SCOTTCR@WKUVX1.BITNET aka Chris Scott- 
+                 Telco: (502) 745-3834 

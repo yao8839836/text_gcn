@@ -1,0 +1,66 @@
+From: willmore@iastate.edu (David Willmore)
+Subject: Re: IDE vs SCSI
+Organization: Iowa State University, Ames IA
+Lines: 61
+
+wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
+>wayne@amtower.spacecoast.org writes:
+
+>IDE also uses DMA techniques.  I believe floppy controller also uses DMA,
+>and most A/D boards also use DMA.  DMA is no big deal, and has nothing to
+>do directly with SCSI.
+
+No.  The simple $25 style IDE controller does not use DMA.  The CPU performs
+the data transfer with a string move instruction.  This requires that the
+CPU stop what it had been doing and transfer the data.  Only the smart drive
+controllers, be they IDE or SCSI, can transfer via DMA.  These controllers
+tend to cost the same wether they are IDE or SCSI.  To get the DMA benefits,
+IDE must sacrifice it's price advantage *on the controller*.
+
+>> For example, when rewinding or formatting a tape, the command is
+>>issued to the controller and the bus is released to allow access to other
+>>devices on the bus.  This greatly increases productivity or, at least, do
+>>something else while backing up your hard drive :-).  Which happens to be
+>>what I am doing while reading this group.
+
+>You can thank your software for that.  If DOS had a few more brains, it
+>could format floppies etc. while you were doing something else.  The
+>hardware will support it, but DOS (at least) won't.  Again, this has   
+>nothing to do with SCSI.
+
+Floppies aren't on the IDE bus, your arguement makes no sense, this isn't
+an IDE issue.  The floppys have their own processor on their controller
+board which handles all of these commands.
+
+The difference between IDE and SCSI is that all SCSI peripherials are
+intelligent.  They each have their own controller.  They depend on the
+CPU to do fewer things for them, i.e. IDE drives needing a processor
+to transfer their data.
+
+>>Its a long story, but I still use IDE on my 486 except for the CDROM which,
+>>thanks to SCSI, I can move between both machines.  If, and when, SCSI is
+>>better standardized and supported on the ibm-clone machines, I plan to
+>>completely get rid of IDE.
+
+>And if you stick with DOS you'll wonder why you can't multitask.
+
+>Again I ask why can't a UNIX or OS/2 type OS do all the miraculous things
+>with an IDE harddrive that it can with a (single) SCSI hard drive.
+
+The dettach/callback mechanism alows the CPU to make requests of the 
+devices on the SCSI bus and then dettach and go about its business.
+Later, when the device is done, it issues a callback to say that the
+data has arrived or the function has completed.  Most SCSI cards will
+also DMA the data into memory without the interupting the CPU, therefore
+allowing it to continue working uninterupted.  IDE supports no such concept
+as dettach/callback.  
+
+Can you see how this would be a win in any multitasking system?
+
+--David Willmore
+
+-- 
+---------------------------------------------------------------------------
+willmore@iastate.edu | "Death before dishonor" | "Better dead than greek" | 
+David Willmore  | "Ever noticed how much they look like orchids? Lovely!" | 
+---------------------------------------------------------------------------

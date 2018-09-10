@@ -1,0 +1,24 @@
+From: gowen@jade.tufts.edu (G. Lee Owen)
+Subject: Re: Encapsulated Postscript and X
+In-Reply-To: sirosh@cs.utexas.edu's message of 30 Apr 1993 03:26:21 -0500
+Lines: 18
+Organization: Tufts University - Medford, MA
+
+
+> How do I view .eps files on X? I have an image in color encapsulated
+> postscript, and need to view it on my screen.
+
+	Several ways are available -- pageview (which I think came
+with our system, so I can't point), ghostview (with ghostscript), and
+the new xv 3.00 package all do so.  I recommend the latter two,
+especially xv if you want to do any conversion.
+
+> Are there any utilities that will let me convert between encapsulated
+> postscript and plain postscript?
+	I'm not sure offhand, but I will attempt to mail you the
+comp.lang.postscript FAQ, which has a list of utilities.
+
+  Greg Owen  { gowen@forte.cs.tufts.edu, gowen@jade.tufts.edu }
+Systems Programmer and TA, Tufts University Computer Science Dept.
+  Personal info: GCS/GO d++ -p+ c+++ m*/m- s++/- g+ w+/w-- x+
+  email for explanation if interested...

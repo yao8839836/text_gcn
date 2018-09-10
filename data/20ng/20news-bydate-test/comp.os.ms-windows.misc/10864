@@ -1,0 +1,243 @@
+From: jayas@vast.unsw.edu.au (Jayasooriah)
+Subject: Experiences with DOS 6
+Summary: Microsoft Botches it up!
+Nntp-Posting-Host: oyster.vast.unsw.edu.au
+Organization: University of New South Wales, Kensington, Australia
+Lines: 236
+
+(I have been having trouble posting this article from within tin for over
+a week. If you do get multiple copies, my apologies.)
+
+Here is a challenge to Microsoft or Microsort Supporters to defend the
+pathetic state of DOS 6 as an upgrade distribution -- it is a long story
+but would make good reading for those who are interested in knowing the
+potential pitfalls of "upgrading" to DOS 6 that I have been able to
+notice after only about a week of playing around with it.
+
+My envorinment
+==============
+
+TI TravelMate 4000 WinSX (486SX/25) 4M Ram 120M Disk
+System BIOS version 1.03 05/21/92 by Texas Instruments
+CL-GD6420 VGA BIOS v 1.03 a1 by Cirrus Logic & Quadtel
+Advance Power Manager BATTERY.PRO v b6.00 by Texas Instruments
+Smart Drive Cache (WIN3.1/DOS6) Parameters: 2048 1024 a- b-
+Windows Benchmark WinBench(tm) v 3.11 02/11/93 by ZD Labs
+
+After "updgrading" to DOS 6, I could not understand why certain things
+became so slow, especially after I decided to try 'dblspace'.  In the
+process of finding out why, I discovered some interesting things.
+
+
+Disk Performance with Double Space and Smart Drive
+==================================================
+
+While most things did not appear to slow down most of the time, certain
+applications appeared to run very much slower.  What was interesting is
+that commands like 'chkdsk' and 'defrag' were running far too slowly to
+consider them useful by any standards.  I suspected Double Space (DS)
+and decided to measure its impact on my system using WinBench(tm).
+
+The Real Disk WINMARK of 20350 for the original system (as shipped from
+factory with DOS 5 and Windowws 3.1) became 10718 when "upgraded" to
+DOS 6 with DS.  Thus there is an effective performance degradation of
+more than 50 percent which did not really surprise me because I knew
+that DS compression must cost something.
+
+Specifically, for short sequential reads up to 512 bytes, DS actually
+*improves* transfer rates by about 10% (because CPU being faster than
+I/O, more CPU cycles needed for DS is more than compensated by savings
+in I/O cycles).  However, for all other cases, particularly large
+random writes, the transfers take up to three times as long.
+
+While the performance depends on the type of access (i.e random or
+sequential, small or large transfer units), on the average (based on
+WinBench's assumptions), the disk slows down to half its speed.
+
+The tests alone, done in 'real mode' (see WinBench) and with smartdrv
+on, do not say much except that it helps to put into those subjective
+statements like 'there is no noticable difference in performance' or
+even that 'it will speed up disk access when you have a fast CPU and
+slow disk I/O'.
+
+This explained why some applications ran markedly slower, but not why
+'chkdsk' and 'defrag' (the latter especially) too so long.
+
+
+Double Space and Windows
+========================
+
+DBLSPACE will not run at all from within windows, not even if you
+wanted to only to get information, not modify anything, or for that
+matter even check on its usage -- try "fasthelp dblspace" in a dos box
+within windows and you will see what I mean from the error message you
+get.  How narrow minded can a programer get, I wonder.
+
+Yes, this information can be obtained through the mstools.dd add-on to
+file manager, but this 'mstools' dll does not understand a compressed
+floppy!  (Use the DOS 6 supplement utility to create a compressed
+floppy if you dont know how to.)
+
+
+DOS 6 Defragmenter is incompatible with TI APM
+==============================================
+
+Defragmentation seemed to take too much time.  Even so, I waited
+patiently till it finished and then ran it again to just to confirm.
+This confirmation 'dblspace /def' command for the 120M drive should take
+no more than 30 seconds (much faster on other defragmenters I have used)
+but it took 12 minutes.
+
+I discovered that if I moved the mouse, defragmentation checking ran
+faster (the % figure ticked more rapidly).  It dawned on me that this
+had to do with TI's battery saver Advanced Power Management (APM)
+module which slows the clock down when it thinks that the CPU is idle,
+and it obviously thought DS defragmentation was an idle process!  After
+disabling the TI's power saver, this operation took only 20 seconds.
+
+
+Microsft programmers think TI4000 and Gateway NOMAD users are idiots
+====================================================================
+
+In the readme.txt file, you can find the the following
+
+	Running Microsoft Backup with TI4000 and Gateway NOMAD computers
+	----------------------------------------------------------------
+	To avoid a conflict between the Turbo feature and Microsoft Backup
+	for Windows or MS-DOS, add a /L0 switch to the DEVICE command in
+	your CONFIG.SYS that loads the BATTERY.PRO file. Or, before you
+	run Microsoft Backup, type SETPOWER /L0 at the command prompt.
+
+If you checked TI's manual on the /L0 option, you will realise that it
+means "disable all power saving features of your notebook".  Why would
+anyone want to run a driver disabled!  As I have found out, not only
+does TI's power management interfere with Microsoft Backup as the
+readme.txt claims, but 'chkdsk' and 'dblspace' (and who knows what
+else) are crippled by the TI's power saver.
+
+It is obvious that there is not such thing as APM specifications.  If
+there indeed is such a thing, then either Microsoft programmers or TI
+programmers dont know how to read these specifications.  You dont have
+to guess as to who are the idiots.
+
+By the way, if you run the advance power management utility, POWER.EXE
+in DOS6, when you check the status, it says:
+
+	Power Management Status
+	-----------------------
+	Setting =  ADV: MAX
+	CPU: idle 60% of time.
+
+This figure of 60% seems to be the steady state value on my notebook
+when I am running nothing (windows with only program manager in
+iconised form).  Does that mean that Windows takes up 40% of my CPU all
+for itself, and that I have at best only 60% left for useful work?  Is
+such an overhead justified  (whether or not Windows is an operating
+system or just another user interface)?  (In DOS alone, it reports 99%
+idle time.)  Looks like Windows is a good example of busy waiting type
+of package that I like my students to study as the classical 'negative'
+example of our times!
+
+
+Microsoft programmers do not know batch programming
+===================================================
+
+I like to structure my startup script and thus have the equivalent of
+addpath statements like this:
+
+	set PATH=C:\DOS
+	...
+	set PATH=C:\ETC\BIN;%PATH%;C:\BIN
+	...
+	set PATH=C:\ETC\WINDOWS;%PATH%;C:\WINDOWS
+	...
+	set PATH=%PATH%;C:\BCC\BIN
+	...
+	set PATH=%PATH%;%MOUSE%
+
+Even though the new dos was installed in the same directory as the old
+one (i.e. c:\dos), DOS 6 installation program modifes each and every
+path statement, and prepends C:\DOS to its value.  As a result, my
+resultant path has so many DOS's.
+
+If the installation program wanted to remove the old DOS path, and add
+the new DOS path, clearly it has to only scan for the path statement
+containg the old DOS directory and replace it by the new DOS path.
+(Even this should only be done if the new DOS is installed in a
+directory different from the old one being 'upgraded'.)
+
+Instead, the Microsoft programmer (if you can call this person one)
+decided to meddle every path statement I had in the autoexec and
+prepend DOS to the value.  I wonder if Microsoft is so desparate that it
+would not fire programmers who are incapable of the thought process.
+
+I started a thread on this when DOS 4 came up, and the Microsoft
+representative in Singapore called me about this poster.  In fact he
+specifically said his US counterparts saw the poster and relayed the
+information to him as he did not have access to internet.
+
+Now that has not changed one bit.  In fact, if you have a PATH statement
+with %PATH% already in it, is it not obvious that the this statement
+should not be touched for any reason?
+
+As another example of the inability of Microsoft programmers to
+understand batch programming -- I had the mouse driver invoked as:
+
+	set MOUSE=C:\ETC\MOUSE
+	set PATH=%PATH%;%MOUSE%
+	loadhigh %MOUSE%\MOUSE.COM
+
+Guess what MEMMAKER did?  It replaced the last statement with
+
+	LH ... C:\ETC\MOUSE\MOUSE.COM
+
+Why is it so difficult just to replace loadhigh with LH and its
+parameters, without touching the rest of the line, I do not understand.
+
+
+DOS 6 Software Quality
+======================
+
+DOS 6 is the only operating system I know, in which, under normal usage,
+you end up creating a file that you cannot get rid of using of the
+commands that come with it.
+
+I am deliberately being cryptic about this:  I challenge Microsoft to
+use all its programmers to catch this bug and publish it.  If they dont
+within a week, I will post how you can create this "ghost" file.
+
+Surely if I can pick this bug without even looking for it after using a
+particular command only twice, I am sure two dozen Microsoft (idiot)
+programmers randomly banging on their keyboards over a week could find
+it -- that is what I was told how Microsoft "tests the quality" of
+their products.
+
+I think it is funny that Microsoft has found ways to "test quality"
+when it is accepted in the industry that quality cannot be tested, but
+can only be built into the product.  No wonder they cannot provide any
+form of guarantees on their products, not even a decent list of bugs
+that will prevent scores of user from destroying their disks beyond
+repair!
+
+Also, if you run 'dblspace /def' often enough, repeatedly when the disk
+is fully defragmented, you may get errors, that was created by the
+defragmenters.  I got my IO.SYS file size error and it got truncated
+when I did the chkdsk.  This happend only after five successive
+defragmentation efforst after the first one supposedly did its job and
+with no new file creation since.
+
+Microsft, dont you dare reply to this poster on the network until you
+admit that your DS has bugs, and are willing to let us know what we
+should watch out for if we have already used DS.
+
+Jaya
+
+--
+Dr. Jayasooriah  CSE, CS&E, UNSW | Sign in a Paris hotel:                    
+P.O. Box 1, Kensington, NSW 2033 |                                           
+Tel/Fax: +61 2 697-5683/313-7987 |    "A sports jacket may be worn to dinner,
+Internet: jayas@vast.unsw.edu.au |                         but not trousers."
+Dr. Jayasooriah  CSE, CS&E, UNSW | Sign in a Norwegian cocktail lounge:      
+P.O. Box 1, Kensington, NSW 2033 |                      "Ladies are requested
+Tel/Fax: +61 2 697-5683/313-7987 |                       not to have children
+Internet: jayas@vast.unsw.edu.au |                               in the bar."

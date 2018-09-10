@@ -1,0 +1,103 @@
+From: ggruscho@nyx.cs.du.edu (George Gruschow)
+Subject: Re: How to the disks copy protected.
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 98
+
+sehari@iastate.edu (Babak Sehari) writes:
+
+>In <1993Apr20.230749.12821@reed.edu> mblock@reed.edu (Matt Block) writes:
+
+>>In article <sehari.735331566@marge.ecss.iastate.edu> sehari@iastate.edu (Babak Sehari) writes:
+>>>---
+>>>
+>>>I was wondering, what copy protection techniques are avaliable, and how
+>>>effective are they?  Has anyone have any experience in this area?
+>>>
+>>>                      With highest regards,
+>>>                           Babak   Sehari.
+
+>>	Uh oh...
+>>	Umm, there are a number of copy protection schemes.  Some involve
+>>modifying the physical media, and some involve encryption schemes, &c.
+>>	All of the ones that have existed over the course of computing have
+>>been successful for a time.  I recall, however, near monthly releases of new
+>>ways to "crack" the copy protection scheme of the latest releases.  The fact
+>>is, none of them are completely secure, or anywhere near it.  Some are more or
+>>less difficult to crack, and some have already been cracked.
+>>	I guess what I am saying is that your question is difficult, if not
+>>impossible, to answer.  What exactly do you want to know?  Do you need a good
+>>one for a project you are working on?  How secure must it be?  Are you trying
+>>to crack one that someone else has used?  I can probably make suggestions,
+>>assuming the activity is strictly legal.  (In general, it is a BAD idea,
+>>legally, to tamper with copy protection.  It can also lead to corruption of
+>>files which you necessarily do not have back ups of (being as they are copy
+>>protected,) which can be devestating.)  Do you have absolutely no ideas for
+>>practical applications, and are merely curious?
+>>	Please clear up those questions, and I'll try to help as much as I
+>>can.
+
+>>	Incidentally, the "Uh oh..." at the top is indicative of the dread
+>>anyone who has watched their friends hacking equipment be carted off feels
+>>when they are asked how to hack.  The area you are broaching is wrought with
+>>dangers, many of which include breaking the law, or at least addressing it
+>>(from one side or the other.)
+
+>>Matt
+
+>I have written a program and I want to market it.  I would like certain degree
+>of protection, since my main custmers are individuals and not the 
+>cooperations.   I know laser hole burning method, and hardware key method,
+>however, my  software is going to cost only $15.00, so I can not afford that.
+>Also, at this low price I can not afford people make too many copy of my
+>software. Well, I guess say upto %20 illigal copying is ok by me.
+
+>However, I do not want someone to get a copy of PCTools and copy my software.  
+>Off course, I never meant to forbid the true hackers from copying, since they
+>can develope a better program anyway.
+
+>                      With highest regards,
+>                           Babak   Sehari.
+
+
+>-- 
+
+One of the most popular methods of course is the password check where they ask
+you for a word from page x, line y, and word z, but this is pitifully simple to
+remove unless you throw some checksums into the main part of your program, and
+some self-rewriting code to confuse some people.  Also, make sure that your
+program can not be run out a debugger.
+
+Another method of course is to not even make bad sectors on the original disk,
+just write a certain key to a certain unallocated sector.   To help you here,
+you also must do the code protection schemes mentioned in the first paragraph.
+Make sure you also fill the rest of the unallocated parts of the disk with
+garbage as well, or they (wanna be crackers) can just look for the junk in
+some random sector.
+
+Like you mentioned, there are the laser holed disks and hardware keys, but they
+are both expensive and a pain in the butt for the end-user, which you is the
+opposite of what you want.
+
+Another configuration that can be used is to save the configuration of the
+machine that it is being installed to in the most undecipherable format you can
+think of.  If the program does not find that this is the same system, it
+requests being installed by the original disk again.  The original disk should
+be encrypted, compacted, have many sectors that should be checked, and anything
+else you can think of to make sure that the original cannot be copied.  Once
+again, you MUST put code-encryption, self-rewriting code, and multiple CRC
+checks in the program to make sure that it does not get changed.  Among other
+things, this also protects your program from virii.  If the program detects a
+change in its code, tell the user that a virus has been detected in the
+program.  Tell them the program is "VIRUS SECURE", and remember, you have
+helped the world kill some pirating and kill some viruses.  Feel good.
+
+I hope that I have helped.  Have fun.  Knock some cracking out (well, you can't
+do it, everything that can be written can be cracked, but you'll piss'em off in
+the process!). Goodbye.
+
+What is the program that will be sold?
+--
+-------------------------------------------------------------------------------
+George Gruschow                                Death do you gronk.
+ag625@yfn.ysu.edu                              ggruscho@nyx.cs.du.edu
+-------------------------------------------------------------------------------

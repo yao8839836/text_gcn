@@ -1,0 +1,43 @@
+From: bjorn.myrland@sipaa.sintef.no (Bjorn Myrland)
+Subject: Re: Why I'm not using Dos 6 anymore
+Organization: SINTEF
+Lines: 38
+
+In article <1993Apr28.141743.28994@ugle.unit.no> eliza@tigern (Elisabeth Bull) writes:
+>From: eliza@tigern (Elisabeth Bull)
+>Subject: Re: Why I'm not using Dos 6 anymore
+>Date: Wed, 28 Apr 93 14:17:43 GMT
+
+>Mark Woodruff (CDA90038@UCF1VM.BITNET) wrote:
+>> 
+>> This morning at 4 am while I was working on my research paper, I had to
+>> reboot a hung Dos program (that did no disk i/o) from within Windows 3.1.
+>> When my machine finished rebooting, I found my windows directory and about two
+>> thirds of my other directories were irreversibly corrupted.
+>> 
+>(stuff deleted)
+
+>This sounds like what happened to my HD a month ago. My HD was stacked
+>with Stacker v.2.0 (I run Dos5) Suddenly everything hung up, and most of
+>the HD got corrupted (directories changed into unreadable files with
+>'funny' names). In other words: it is probably just the doubledisk part of
+>Dos6 that is troublesome. 
+
+>I now use Stacker v 3.0, and so far I have had no trouble. 
+
+Does this need to have anything to do with disk compression? I have 
+experienced the same thing a couple of times myself, but *without* any disk 
+compression stuff installed. (For example, guess what happened when Norton 
+SpeedDisk once crashed during defragmenting!)
+
+Bjorn-
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+   Bjorn Myrland                  *  bjorn.myrland@sipaa.sintef.no
+   SINTEF Safety and Reliability  *  N-7034 Trondheim, NORWAY
+ -------------------------------------------------------------------
+   SINTEF - The Foundation for Scientific and Industrial Research
+                at the Norwegian Institute of technology
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+

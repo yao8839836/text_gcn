@@ -1,0 +1,26 @@
+From: dr17@crux2.cit.cornell.edu (Dean M Robinson)
+Subject: Re: Buying a high speed v.everything modem
+Nntp-Posting-Host: crux2.cit.cornell.edu
+Organization: Cornell University
+Lines: 20
+
+ejbehr@rs6000.cmp.ilstu.edu (Eric Behr) writes:
+
+>Just a quick summary of recent findings re. high speed modems. Top three
+>contenders seem to be AT&T Paradyne, ZyXEL, and US Robotics. ZyXEL has the
+>biggest "cult following", and can be had for under $300, but I ignored it
+>because I need something with Mac software, which will work without any
+>tweaking.
+
+You shouldn't have ignored the ZyXEL.  It can be purchased with a "Mac
+bundle", which includes a hardware-handshaking cable and FaxSTF software.
+The bundle adds between $35 and $60 to the price of the modem, depending
+on the supplier.  It is true that the modem has no Mac-specific docs,
+but it doesn't require much 'tweaking' (aside from setting &D0 in the
+init string, to enable hardware handshaking).
+
+For more information on the ZyXEL, including sources, look at various files 
+on sumex-aim.stanford.edu, in info-mac/report.
+
+Disclaimer:  I have no affiliation with ZyXEL, though I did buy a ZyXEL
+a U1496E modem.

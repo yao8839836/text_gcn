@@ -1,0 +1,96 @@
+From: burt@chirality.rsa.com (Burt Kaliski)
+Subject: Pseudocollisions in MD5
+Organization: RSA Data Security, Inc.
+Lines: 89
+Distribution: sci
+NNTP-Posting-Host: chirality.rsa.com
+
+Following is a short note commenting on den Boer and Bosselaers'
+recent work on the MD5 message-digest algorithm. Feel free to email
+questions or further comments.
+
+-- Burt Kaliski
+RSA Laboratories
+----------------------------------------------------------------------
+\documentstyle[12pt]{article}
+\begin{document}
+
+\title{On ``Pseudocollisions'' in the MD5 Message-Digest Algorithm}
+\author{Burton S. Kaliski Jr. \\
+{\tt burt@rsa.com} \and
+Matthew J.B. Robshaw \\
+{\tt matt@rsa.com} \and
+RSA Laboratories \\
+100 Marine Parkway \\
+Redwood City, CA  94065}
+\date{April 23, 1993}
+
+\maketitle
+
+A message-digest algorithm maps a message of arbitrary length to a
+``digest'' of fixed length, and has three properties: Computing the
+digest is easy, finding a message with a given
+digest---``inversion''---is hard, and finding two messages with the
+same digest---``collision''---is also hard. Message-digest algorithms
+have many applications, including digital signatures and message
+authentication.
+
+RSA Data Security's MD5 message-digest algorithm, developed by Ron
+Rivest \cite{rfc-md5}, maps a message to a 128-bit message digest.
+Computing the digest of a one-megabyte message takes as little as a
+second.  While no message-digest algorithm can yet be {\em proved}
+secure, MD5 is believed to be at least as good as any other that maps
+to a 128-bit digest.  Inversion should take about $2^{128}$
+operations, and collision should take about $2^{64}$ operations.  No
+one has found a faster approach to inversion or collision.
+
+Recent work by den Boer and Bosselaers \cite{den-boer-md5} presents
+a special kind of ``pseudocollision'' in MD5's
+internal compression function, which maps
+a 512-bit message block $x$ and a
+128-bit input state $s$ to a 128-bit output
+state. They show how to find a message block $x$
+and two related input states $s_1$ and $s_2$ that yield the same
+output state: $f(x,s_1)$ = $f(x,s_2)$. Their well-thought approach
+exploits structural properties of the collision function to find 
+a pseudocollision in about $2^{16}$ operations, much less than one
+would expect.
+
+Practical implications of this pseudocollision work to the security of
+MD5 are not evident. While a real collision in MD5 implies a
+pseudocollision (or a ``pseudo-inversion''), a
+pseudocollision need not imply a real collision. Indeed, a real
+collision, since it involves two different messages, would almost
+always involve {\em different} message blocks $x_1$ and $x_2$ such that
+$f(x_1,s_1) = f(x_2,s_2)$, but the pseudocollisions have the same
+message blocks. Moreover, the input states $s_1$ and $s_2$ would
+generally be unrelated, but the pseudocollisions' input states are
+the same except for four bits.  There does not seem to be any way to
+extend den Boer and Bosselaers' approach to anything beyond the
+special pseudocollisions, a limitation they readily admit.
+
+It is reasonable, therefore, to believe that MD5 remains secure. While den
+Boer and Bosselaers have found interesting structural properties in
+MD5, the properties seem only to lead to special pseudocollisions
+and not anything approaching real collisions. Further research, of
+course, will give a better understanding of the strengths of MD5 and
+other message-digest algorithms, with the eventual hope that
+such algorithms can, in some sense, be proved secure.
+
+\bibliographystyle{plain}
+\begin{thebibliography}{1}
+
+\bibitem{den-boer-md5}
+Bert den~Boer and Antoon Bosselaers.
+\newblock Collisions for the compression function of {MD5}.
+\newblock In {\it Advances in Cryptology --- Eurocrypt '93}, 1993.
+\newblock Preprint.
+
+\bibitem{rfc-md5}
+R.L. Rivest.
+\newblock {\it {RFC} 1321: The {MD5 Message-Digest Algorithm}}.
+\newblock Internet Activities Board, April 1992.
+
+\end{thebibliography}
+
+\end{document}

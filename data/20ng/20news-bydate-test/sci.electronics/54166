@@ -1,0 +1,36 @@
+From: kolstad@cae.wisc.edu (Joel Kolstad)
+Subject: Re: multiple inputs for PC
+Organization: U of Wisconsin-Madison College of Engineering
+Lines: 31
+
+In article <93114.142835U19250@uicvm.uic.edu> <U19250@uicvm.uic.edu> writes:
+>Can anyone offer a suggestion on a problem I am having?
+>I have several boards whose sole purpose is to decode DTMF tones and send
+>the resultant in ASCII to a PC.  These boards run on the serial interface.
+>I need to run * of the boards somwehat simultaneously.  I need to be able to ho
+>ok them up to a PC>  The problem is, how do I hook up 8+ serial devices to one
+>PC inexpensivley, so that all can send data simulataneously (or close to it)?
+>Any help would be greatly appreciated!
+
+
+Are the boards at all intelligent?  (I.e., run by microcontrollers?)  The
+easiest thing would be to have another line that says that one of the
+boards is talking to the PC.  When this line was true, the other boards
+could all hold off and not send their data.  This isn't a perfect solution,
+though, since you have to worry a little about making sure two boards don't
+decide to talk at the _exact same time_.
+
+Other than that, I think you will need to hook up each board to "something"
+that speaks RS-232.  This actually isn't as hard (or as expensive!) as it
+used to be, though.  Assuming the boards talk relatively slowly (9600 BPS
+or slower), the PICs can coordinate things between themselves to multiplex
+the data.  (This is really just forbicly adding the suggestion in the first
+paragraph to your system.  And it assumes that each board doesn't talk more
+than 1/8th of the time, of for very long, since a PIC isn't going to be
+able to buffer more than, maybe 20-some bytes!)
+
+You might want to check into the prices of multi-serial card for your PC,
+though.  I recently bought a Boca Research 2x4 card (2 parallel ports, 4
+RS-232 ports) for a very reasonable $85.
+
+					---Joel Kolstad

@@ -1,0 +1,582 @@
+From: lee@sq.sq.com (Liam R. E. Quin)
+Subject: List of programs with OPEN LOOK User Interface
+Organization: SoftQuad Inc., Toronto, Canada
+Expires: 2 Jun 1993 04:00:04 GMT
+Lines: 576
+
+
+$Id: open-look-programs.faq,v 1.17 93/03/21 17:17:55 lee Exp Locker: lee $
+
+Contents:
+	Subject: Applications: Application Builders
+	Subject: Applications: Graphing Tools
+	Subject: Applications: Utilities
+	Subject: Applications: Other
+	Subject: Tools: Terminal Emulators
+	Subject: Other Commercial Applications
+	Subject: Applications: toolkit Extensions
+	Subject: OpenWindows 3 Ports
+	Subject: XView 3 Ports
+	Subject: XView 2 Ports
+	Subject: Games (free and commercial)
+
+
+Subject: Applications: Application Builders
+
+Commercial: DevGuide 3.0
+Contact: SunPICS
+    lets you use Drag and Drop to create an OPEN LOOK application with
+    XView, OLIT, UIT or TNT.  Very easy to use.
+
+Free: dirt
+    there _might_ be an OLIT port of this UI builder.
+
+Commercial: ExoCode
+Contact: Expert Object
+    one of the first third-party GUI builders to support OPEN LOOK,
+    using the XView toolkit.  It was reviewed in SunExpert magazine
+    in 1990.
+
+Commercial: ObjectBuilder
+Contact: ParcPlace, Debra Frances debra@ParcPlace.COM, +1 303 440 9991
+    uib is a user interface builder which supports building applications
+    that support both OPEN LOOK and Motif.	It generates code for
+    ParcPlace's OI C++ toolkit and can make use of user created
+    subclasses.  Note: `OI' can also display an OSF/Motif GUI at runtime.
+
+Free: wcl
+    Uses X resources to specify an Xt widget hierarchy and actions to
+    user-defined callbacks.  uses OLIT, Xt or Motif.
+
+Commercial: XVT
+Contact: XVT Systems (+1 303-443-4223)
+    Lets you write code to a common subset of OPEN LOOK, Motif, Microsoft
+    Windows, the Macintosh GUI, and even terminals (using curses).  You buy
+    an XVT toolkit for each environment.
+
+
+Subject: Applications: Graphing Tools
+
+Free: dstool
+    XView-based program that plots Lorenz Attractors and other chaotic things
+    in real time.  Also includes a mathematical expression interpreter.
+    ftp: macomb.tn.cornell.edu
+
+Free: ACE/gr --  graph and analysis program, xvgr
+Ftp: ftp.ccalmr.ogi.edu [129.95.72.34]; xvgr-2.09.tar.Z in /CCALMR/pub/acegr
+    Handles x-y scatterplots, lineplots, bargraphs, FFT analysis, running
+    averages, polynomial fits, etc.
+
+Free: robot - a scientific graph plotting and data analysis tool 
+Contact: Robin Corbet <corbet@astro.psu.edu>
+Description:
+    Graph plotting in various styles & axes; Data manipulation - arithmetic,
+    functions, smoothing, folding, sorting; Fitting to data using Gaussians,
+    polynomials, Lorentzians, and/or user defined functions; Annotation of
+    graphs; log files;  Commands with loops etc.; Colour; PostScript output.
+Ftp: astrod.astro.psu.edu (128.118.147.28) in pub/astrod
+Ftp: files: robotx0.35.tar.Z - everything
+Ftp: files: RobotManual.ps.Z - just the documentation.
+Ftp: files: robot.sun4.Z  - binary built on a SPARCstation.
+Requirements:
+    Robot is XView based. User interface portions of code are written in
+    'C'. Data manipulation code is written in FORTRAN. Hence a FORTRAN
+    compiler is also required or the public domain f2c package.
+    Alternatively, a SPARC binary is available by anonymous ftp.
+
+Subject: Applications: Utilities
+
+Free: boss
+Description:
+    An OPEN LOOK UI to the Casio BOSS scheduler
+
+Free: props
+Ftp: export.lcs.mit.edu /pub/R5untarred/contrib/lib/xview3/clients/props/*
+Description:
+    This is the OpenWindows properties editor, that appears when you choose
+    the Properties... item from the WorkSpace menu.
+
+Free: contool
+Ftp: from export.lcs.mit.edu
+Description:
+    a special-purpose console-window that can filter out or take special
+    action on specified console messages; written by Chuck Musciano.
+Requirements: XView
+
+Free: faces
+Description:
+    displays pictures of people who have sent you electronic mail.
+    Violates the Data Protection Act in the U.K.
+
+Subject: Applications: Other
+
+
+Commercial: Bimail 400
+Contact: BIM (+32-2-759.59.25) pge@sunbim.be
+X.400-address: C=be;A=RTT;P=BIM;O=Horizon;S=Geurts;G=Patrick
+Notes:
+    Bimail is a complete X.400 electronic mail system.  It consists
+    in a user interface which gives access to all X.400 services
+    with a consistent look and feel, a message transfer agent (MTA) system
+    which can transfer messages over X.25, TP.4 and TCP/IP (using RFC 1006).
+    A gateway to SMTP mail is also available.
+
+Free: calentool
+Description:
+    a day/week/month/year at-a-glance calendar and almanac.
+Ftp: export.lcs.mit.edu:/contrib/calentool2.2Xp1.tar.Z
+Contact: Bill Randle, Tektronix, Inc. <billr@saab.CNA.TEK.COM>
+
+Free: emacstool
+Description:
+    a SunView program that was converted to XView, and is included with the
+GNU emacs distribution.
+
+Free: Genix
+Contact: Ian Darwin <ian@sq.com>
+    A genealogy program, written in C using Guide.
+    Incomplete as of Jan '93; inquire for details.
+
+Free: WorkMan - Audio CD player for X11 (Sun, Ultrix)
+Requirements: XView libraries
+Ftp: Ultrix binary: ftp.hyperion.com in /WorkMan
+Ftp: ftp.ucsc.edu in "incoming" - database of over 750 CDs
+Contact: koreth@hyperion.com (Steven Grimm)
+
+Free: pan - Postit notes
+
+Free: WAIS
+Ftp: sunsite.unc.edu
+Description:
+    Networked, distributed text-retrieval system.  OLIT-based front end.
+Notes:
+    You might to need to add -lce to the Makefile.
+
+Free: xrolo - Rolodex card index/address book
+
+Free: xv_display
+Description:
+    An XView program for showing a text file, like more(1).
+
+Commercial:  SearchIt 1.0
+Contact: SunSoft or SunExpress 
+    US: 1-800-873-7869;  UK: 0800 89 88 88
+    Germany: 01 30 81 61 91;  France: 05 90 61 57
+Platforms: SPARC, Solaris 1.x
+Price: $249
+Notes:
+    SearchIt is a full text search and retrieval application designed to
+    improve individual and group productivity.  It makes an index to files
+    and can later retrieve documents by words or phrases, ranking the results
+    in relevance order.
+
+Commercial: ShowMe
+Contact: SunSoft
+Notes:
+    Conferencing software that lets multiple connected users share the same
+    drawing screen, with bitmap capture and moveable pointer.
+Requirements:
+    You can only run one ShowMe per computer, so you have to have a CPU per
+    conference member.
+
+Free: xvman - Man Pages viewer
+
+Free: xvtdl - ToDo List manager
+Ftp: export.lcs.mit.edu /contrib/xvtdl-4.0.tar.Z, /contrib/xvtdl-4.0-README
+Requirements: XView libraries
+Contact: Mike Jipping jipping@cs.hope.edu  (BITNET: JIPPING@HOPE)
+Organisation: Hope College Department of Computer Science
+     
+Free: name_finder
+Contact: richard.elling@eng.auburn.edu     +1 (205) 844-2280
+Ftp: ftp.eng.auburn.edu [131.204.10.91] pub/name_finder1.2.tar.Z.
+Patches: pub/name_finder1.2.compile.patch1.
+Requirements: OpenWindows 3.0, C++ 2.1 or greater to recompile
+Description:
+    name_finder was orginally designed as a replacement for the name finder
+    missing from the OpenWindows Version 3.0 mailtool.  It has since grown
+    into a tool for several electronic mail related activities including:
+    interaction with local ListServ robots for handling mail lists,
+    requesting Full.Name style mail aliases from your local PostMaster, and
+    providing mailbox status information ala finger(1).
+
+    name_finder is written in C++ (cfront 2.1) using gxv++ version 1.1.
+    If you don't have access to a C++ compiler, a precompiled sparc
+    executable is included in the distribution.
+
+Free: bibcard	interface for BiBTeX databases
+Requirements: XView
+Ftp: iamsun.unibe.ch [130.92.64.10] in /X11/Bibcard-1.11.tar.Z
+Ftp: 	includes source and SPARC binary for SunOS 4.1.1.
+Version: 1.11
+Description:
+    GUI for mantaining bibliography databases which can be used with
+    LaTeX, TeX and FrameMaker
+
+
+Free: moxftp -- interface to ftp.
+Ftp: ftp.chpc.utexas.edu as file /packages/X/xftp.1.1.tar.Z.
+Contact: Bill Jones jones@chpc.utexas.edu
+Requirements: X11, OLIT or Motif or Athena widgets
+Notes:
+    formerly called xftp.
+    compiles under (at least) Ultrix, AIX 3.1.5, AIX 3.2, Convex OS, SunOS,
+    Unicos 6.1.4, and IRIX.  Uses OLIT.
+    BUG: can also use OSF/Motif and Athena widgets.
+
+
+Free: olvwm -- OPEN LOOK Virtual Window Manager
+contact: Scott Oaks
+Ftp: export.lcs.mit.edu in the contrib directory
+Patches: there are two patches
+Requirements: XView 3
+Description:
+    Olvwm is a version of olwm that manages a `virtual desktop' (hence the
+    `v' in its name).  It shows a little map on the screen, with the
+    currently displayed area represented by a little rectangle.	 You can
+    move around by dragging the rectangle or with the arrow keys.  This
+    lets you run several clients (applications) and move the display around
+    from one to the other.  Olvwm was derived from the OpenWindows 3.0 olwm.
+
+Free: ftptool -- OPEN LOOK front-end to ftp
+Requirements: XView
+Ftp: export.lcs.mit.edu in /contrib
+
+Free: Hyperlook
+Contact: The Turing Institute
+Requirements: OpenWindows 3 (running the xnews server, not X11)
+    Hypertext package written entirely in NeWS.  Runtime from turing.com
+    in /pub or ftp.uu.net (graphics/NeWS/HyperLook1.5-runtime.tar.Z)
+
+Maestro (ftp from sioux.stanford.edu)
+    Multimedia authoring tools, including support for sound, text & video.
+xvnews (ftp from export.lcs.mit.edu)
+    An xview-based newsreader for netnews.
+
+Free: xvttool
+Ftp: cs.dal.ca:/pub/comp.archives
+Ftp: nuri.inria.fr:/X/contrib/clients
+Ftp: lth.se:/pub/netnews/alt.sources/volume92/dec/xvttool*.Z
+Ftp: src.doc.ic.ac.uk:/usenet/comp.archives/x11/terminal/xvttool
+Description:
+    A vt100/102 emulator, in both XView and SunView versions.  Includes
+    buttons for the PF keys, etc.
+
+Subject: PostScript and Graphics Viewers
+
+Commercial: pageview - PostScript previewer
+Contact: Included in OpenWindows as part of DeskSet.
+Notes:
+    Type 1 support only in OpenWindows 3.0.1 under Solaris 2.1.
+    Antialiasing support - with colour OpenWindows 3 try pageview -aa -dpi 150
+    Note that pageview uses the X11/NeWS server to interpret the PostScript,
+    and thus won't run on an X terminal or other non-OpenWindows server.
+    It's *not* enough to be runing an OPEN LOOK UI [tm] window manager such
+    as olwm.
+
+Commercial: xps - PostScript program editor and previewer
+Contact: included with OpenWindows 2.0 under demo and share/src
+Notes:
+    Only runs under OpenWindows 2.
+
+Commercial: psh
+Contact: included with OpenWindows
+	simple interface to NeWS and the OpenWindows server
+
+Free: ralpage
+Ftp: export.lcs.mit.edu in contrib/clients
+Notes:
+    Crispin Goswell's PostScript interpreter, much hacked.
+    Not OPEN LOOK compliant.  No Type 1 font support.
+    There are other versions of this called `xps', `postscript', etc.;
+    don't confuse this `xps' with the one mentioned above.
+
+Free: ghostscript
+(from the Free Software Foundation)
+    Supports Type 1 fonts.  Not OPEN LOOK based.
+
+
+Subject: Tools: Terminal Emulators
+
+Free: cmdtool, shelltool
+Requirements: XView 3 toolkit
+Notes:
+    These are included in the XView source distribution from
+    export.lcs.mit.edu in /contrib; they're also included with Sun's
+    OpenWindows.
+
+Commercial: SwitchTerm
+Contact: Micro Resources Inc., Columnbus, Ohio, USA, +1 614 766-2335
+Notes:
+    A version of Xterm with an OPEN LOOK UI, print interface,
+    ANSI X3.64 colour escape sequences, etc.
+
+Commercial: IsoTerm
+Contact: The Bristol Group Ltd., +1 415 925-9250 and (49) 6105-2945 (Germany)
+Requirements: OpenWindows 3 (??)
+Other Products: IsoTeX, IsoFax, Power Base
+Notes:
+    An OLIT-based terminal emulator.  I couldn't get the demo version to
+    give me a shell prompt, although it did look like it was a pretty fll
+    vt340 emulation, with double-height characters, colour, fonts, grahics
+    and so forth.
+    With the Union Flag (the British flag) as their logo I somehow expected
+    an English address, perhaps in Bristol...
+
+Subject: Other Commercial Applications
+
+    Contact SunSoft (or Sun) and ask for the Catalyst OPEN LOOK guide,
+    which lists over 200 pages of applications.
+
+    You can also get the free CDWare CD/ROM, which contains demo versions
+    of several popular OPEN LOOK UI applications.  Once you've done this,
+    you can often simply contact the vendor concerned to have the license
+    upgraded from demo, and receive the full product documentation.
+
+
+Product Name: Author/Editor - SGML-based text editor/word processor
+Company Name: SoftQuad Inc., +1 416 239 4801, mail@sq.com
+Description:
+    Word processor or text editor that manipulates ISO 8879 SGML documents.
+Interfaces: OPEN LOOK UI (XView), OSF/Motif, Mac, MS/Windows
+ 
+
+Subject: Applications: toolkit Extensions
+
+
+Product Name:     Xtra XWidgets
+Company Name:     Graphical Software Technology
+E-Mail:           info@gst.com
+Phone:            310-328-9338;    Fax: 310-376-6224
+Keywords:         graphics, library, widgets, spreadsheet, help
+Interfaces:       OPEN LOOK, Motif
+Platforms:        SPARC, HP9000s300/400/700, IBM RS6000, Interactive 386
+Requirements:     X11, Xt, Xol (or Xm) libraries and headers; X11
+Price:            $795/single user, $3000/network, $5000/source
+Support-Price:    $400/30 calls
+Source-Available: yes
+Description:
+    The Xtra XWidget library contains a set of widgets that are subclassed
+    from and compatible with either OLIT or Motif widgets.  The library
+    includes widgets that implement the following: Spreadsheet, Bar Graph,
+    Stacked Bar Graph, Line Graph, Pie Chart, XY Plot, Hypertext, Hypertext
+    based Help System, and Data Entry Form.  Widgets have been successfully
+    integrated with both TeleUSE from Telesoft and Builder Xcessory from
+    ICS.  A free demo is available for any of the supported platforms.
+
+Product Name:     XRT/Graph
+Company Name:     KL Group
+E-mail: sun.com!suncan!klg!info, info@klg.com
+Phone: +1 416 594-1026
+Description:
+    XRT/graph is a graph object that extends the XView toolkit;  There are
+    also Xt versions for OLIT and Motif.  XRT/graph supports line plots,
+    scatter-plots, strip-charts, bar charts, stacking bar charts, pie charts
+    and filled-area charts, singly and in combination.  It supports real-time
+    updates, true Postscript output, and intelligent user feedback.  It comes
+    with Builder, a graph prototyping tool, which supports code & resource
+    file generation.  A free demo (vmgraph) is available.
+    There are free integration kits for UIM/X, TeleUSE, and Builder Xcessory
+    (others in progress).
+Availability:
+    XRT/graph for XView and OLIT are only available on SPARC.
+    XRT/graph for Motif is available on a dozen or so platforms.
+
+
+Free: Slingshot XView extension
+
+    Slingshot provides rectangles (like the Xt Intrinsics' RectObj gadget),
+    drag-and-drop support, images, icons and text, trees, lines, arrows...
+
+    Get it by ftp from export.lcs.mit.edu, in /contrib/SlingShot2.0.tar.Z
+    (remember to use binary mode in ftp!).
+    You can also get it by sending mail to archive-server@gazooch.eng.sun.com
+    with the body of each message containing a line like
+	send sspkg2.0 Part01 Part02
+    going up to
+	send sspkg2.0 Part17 Part18
+	send sspkg2.0 DocPart01 DocPart02 DocPart03
+	send sspkg2.0 DocPart04 DocPart05 DocPart06
+    You can ask for one file at a time to reduce the impact on intermediate
+    mail sites.	 Ask the mail server for help with the Subject line: "help".
+    A human can be reached at archive-manager@gazooch.eng.sun.com.
+    Add a line in the message
+	path <your-mail-address>
+    if you think the normal automatic reply address might not work.
+
+
+Ada bindings for XView
+    Sun Ada 1.1 includes among other things an Ada Source Code Generator
+    for Devguide.  It uses the Verdix XView Ada bindings.
+    It does not yet [July 1992] support gfm (the guide file manager).
+
+C++ Bindings for XView
+
+Qualix's XV++.
+
+UIT
+
+
+Subject: OpenWindows 3 Ports
+
+    Sun: SPARC, SunOS 4.1
+    Sun: SPARC, Solaris 2 (actually 3.0.1?)
+    others: none so far...
+
+There are said (by Sun) to be two or three ports of OpenWindows either
+available now or in progress.  Contact Anthony Flynn at Open Vistas
+International (anthony@ovi.com) for more information.  (originally they
+said 35, but perhaps they meant 3.5)
+
+OpenWindows source is available - commercially, it costs about $5,000 for
+the server, including TypeScaler and the toolkits; deskset (filemgr etc) is
+another $25,000; ToolTalk is $40,000 or so.
+
+
+Subject: XView 3 Ports
+
+What: XView 3
+System: Apple A/UX
+Porter: lmj@uncompaghre.jax.org (Lou Jones)
+Ftp: encyclo.jax.org
+Notes:
+    The libraries and utilities (olwm, cmdtool, etc) are available for
+    anonymous ftp from encyclo.jax.org. I used gcc 2.1 to compile the
+    sources. If there is enough interest, I can make the diffs
+    available.
+
+System: Concurrent 7000 (68040 based)
+Porter: sinan@Mtesol.boeing.com (Sinan Karasu)
+
+System: DECStation/Ultrix
+Porter: dscott@ittc.wec.com (Dave Scott)
+Ftp: media-lab.media.mit.edu:~ftp/xview3-ultrix.4.2-mips.tar.Z
+Notes:
+    Let me stress that this is *not* fully tested, but seems to work
+    pretty well.  Please let me know about any problems you find.
+    Problems I already know about:
+	Large buttons under *any* non-Sun X server (non-xnews; i.e. any
+	standard MIT X11R[45] server) have the bottom of the button
+	chopped off.  We're working on this one. :-)
+    XView 3 is also available on the DEC Freeware CD, from DECUS.
+[actually this seems *not* to be Dave Scott's port; please accept my apologies
+ for listing this incorrectly.  A correct entry will appear as soon as I get
+ the necessary information.  -- Lee]
+
+System: HP 720
+Porter: (?)
+Ftp: tesla.ucd.ie [137.43.24.44], /pub
+Notes:
+    Includes HP 720 build, HP XView patch file, Xvgr.
+
+System: HP9000/300 series
+Porter: tjc@ecs.soton.ac.uk (Tim Chown)
+
+System: HP9000/7XX series
+Ftp: ftp.csc.liv.ac.uk (138.253.42.172) hpux/X11/xview-3.part[123].tar.Z
+
+System: Intel (SysVR4/i386)
+Porter: dawes@physics.su.OZ.AU (David Dawes)
+Ftp: ftp.physics.su.oz.au, suphys.physics.su.oz.au  /Esix_4/x11r5 hierarchy
+Notes:
+    His patches were for Esix 4.0.3 but should work on DELL, ISC and Intel
+    SVR4 with no worries. The files are README.xview3 and xview3.diff.Z.
+See Also: linux
+
+System: IBM RS/6000
+Porter: tmcconne@sedona.intel.com (Tom McConnell)
+Compiler: bsdcc
+Ftp: export.lcs.mit.edu:contrib/xview3/Fixes/xview3_rs6k_unofficial.patch.Z
+Notes:
+    There is still a problem with tty support for the RS/6000. For
+    instance, the cmdtool will not work. Still, most everything else works.
+    For those of you who have already installed my previous patch, I have
+    put a separate patch for just the shared library problem. This file is
+    contrib/xview3/Fixes/xview3_rs6k_XView_lib.patch.Z.
+
+System: linux
+Porter: Kenneth Osterberg <lmfken@lmf.ericsson.se>
+ICompiler: gcc 2.3.3, libc4.2
+Ftp: tsx-11.mit.edu /pub/linux/binaries/usr.bin.X11/xview3L2
+Ftp: sunsite.unc.edu
+Notes:
+    Inlcudes olvwm, UIT
+
+System: SGI
+Porter: Rainer Sinkwitz <sinkwitz@ifi.unizh.ch>
+Ftp: export.lcs.mit.edu:/contrib/xview3/Fixes/xview3_sgi_unofficial.patch.tar.Z
+Notes:
+
+System: Solbourne Series 5
+Porter: tmcconne@sedona.intel.com (Tom McConnell)
+
+
+Subject: XView 2 Ports
+
+In general, there is no point in using XView 2 if you have XView 3 available;
+it's a good idea to look for an XView 3 port first.  Moving from XView 2 to
+XView 3 is usually simply a matter of recompiling, unless you've done
+"dirty tricks" or used undocumented calls.
+
+
+System: Stellar GS100 (Stardent 1000) and Stardent 1500 & 3000
+Porter: arvai@scripps.edu (Andy Arvai)
+Ftp: perutz.scripps.edu (137.131.152.27) in the pub/xview directory
+Notes:
+    Stardent is now Kubota Pacific (KPC)
+
+System: Harris Nighthawk 4000 system (CX/UX Unix)
+Porter: andy@harris.nl (Andy Warner)
+Status: Commercial
+
+System: SGI/Iris
+Porter: (?)
+Ftp: wuarchive.wustl.edu:graphics/graphics/sgi-stuff/XView/xview2
+
+System: VAX/VMS
+Porter: TGV Inc (?)
+Notes:
+    Steven Fenger <svfenge@afterlife.ncsc.mil> wrote:
+    A company called TGV makes a product called "XView for VMS".
+    They made XView 2.0 libraries.  I haven't seen them advertising
+    XView 3.0 libraries yet.
+
+Subject: Games (free and commercial)
+
+Commercial: Aviator - flight simulator for GX-equipped SPARCStations
+Contact: Artificial Horizons Inc, aviator-interest@ahi.com;  +1 415 367 5029
+Requirements: OpenWindows (2 or 3), SunOS 4.1 or later, SPARC GX or GXplus
+
+Free: hexsweeper - minesweeper game based on hexagons
+Contact: lee@sq.com, include HexSweeper in Subject
+Requirements: OpenWindows 3.0 or later
+Toolkit: TNT 3
+
+Free: 
+
+Free: sidtool - PacMan game
+Ftp: ftp.uu.net /usenet/comp.sources.games/volume1/sidtool/*
+ 
+
+    an OPEN LOOK PacMan(tm) surrogate that
+    appears as a debugger - the bad guys are code bugs that
+    move around your screen; you (the good guy) chase them
+    with a 19" monitor that eats bugs.
+
+
+Commercial: SimCity
+Contact: Dux Software, Los Altos, CA
+Price: US$89
+Requirements: OpenWindows 3 (uses NeWS).  Doesn't run on a 4/110 with cg4 :-(
+
+Free: Spider (Included in OpenWindows under `demo' and `share/src')
+    A patience-style card game with two packs of cards and
+    excellent bitmap cards.
+    I suggest recompiling to allow the cards to have rounded edges.
+
+Free: Xblackjack (ftp from export.lcs.mi.edu as contrib/xblackjack-2.1.tar.Z)
+    A MOTIF/OLIT based tool constructed to get you ready for the casino.
+
+-- 
+Liam Quin, Manager of Contracting, SoftQuad Inc, +1 416 239 4801 lee@sq.com
+OPEN LOOK UI FAQ; Metafont list; HexSweeper NeWS game; lq-text text retrieval

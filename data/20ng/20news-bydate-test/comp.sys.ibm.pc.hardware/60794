@@ -1,0 +1,32 @@
+Subject: Re: Debugging possible hardware problems
+Organization: Andrews University
+From: hernandz@andrews.edu (Aldy Hernandez)
+Lines: 27
+
+>>I suspect the external cache, but I have no real evidence for this.
+>>
+>>	. Suggestions about the cause of the problem
+>
+>	Bad memory, bad motherboard, bad cache.
+>>
+>>	. Suggestions about how to debug the problem
+>>
+>
+>	turn off cache.
+
+GCC and other big programs seemed to crash about 15% of the time for me.
+gcc gave something like "program as got fatal signal 11" and when doing
+anything past the complexity of elvis, kermit, etc, I got kernel general
+protection faults at *least* once a session.
+
+I disabled my cache as suggested, and bingo, Linux is as stable as a rock
+(it hasn't given me a core dump or kernel error yet).
+
+Does any one know why the cache would do something like this?
+
+Aldy
+--
+hernandz@andrews.edu
+--------------------
+If programmers are paid by the hour, how do you suppose the array
+X [1..1000] is initialized?-- "More Programming Pearls"

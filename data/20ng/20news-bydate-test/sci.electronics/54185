@@ -1,0 +1,22 @@
+From: gsulliva@enuxha.eas.asu.edu (Glenn A Sullivan)
+Subject: Re: How do you build neural networks?
+Summary: How to build neural net hardware
+Organization: Arizona State University
+Lines: 16
+
+mmoss@ic.sunysb.edu (Matthew D Moss) writes:.........
+> In other words, is there some sort of neural network circuit I could build
+> after a visit to a local R-Shack?
+Marvin Minsky (hi there) writes of building "perceptrons?" in the 1950s using
+motor-driven potentiometers to vary the weights. He reported that the circuits
+worked even tho there were wiring errors. (Can you say ROBUST?)
+
+Cadium Sulfide cells vary with light. CMOS or TTL gates provide the SIGMOID
+somewhat-linear-yet-somewhat-limiter transfer function often used. 
+Low power Schottky gates, and earlier gates, has about a gain of X8.
+LEDs probably output enough light to easily control CdS cells, even at a
+few mA. And paper with dark and light regions, controlled by pencil and
+eraser, could also control CdS resistance. The very high input resistance of
+CMOS gates may let you charge up 1uF paper/mylar caps to serve as memory.
+
+Allen Sullivan

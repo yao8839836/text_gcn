@@ -1,0 +1,41 @@
+From: ejen@magnus.acs.ohio-state.edu (Edward K Jen)
+Subject: Re: DX50 vs DX266
+Nntp-Posting-Host: photon.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Lines: 35
+
+In article <C5xw6x.BtB@austin.ibm.com> lance@hartmann.austin.ibm.com (Lance Har
+tmann) writes:
+>In article <33z5zgc@rpi.edu> arnolm2@aix.rpi.edu (Matthew Richard Arnold) writ
+es:
+>>
+>>Would someone be willing to explain to me the 486DX 50MHz is not more
+>>popular than it is?  I would think it would be just as fast, if not
+>>faster than the 486DX 66MHz for certian applications.  Plus, a 50MHz
+>>motherboard would seem better if you had any plans on upgrading the
+>>chip in the future.  I must be missing something, since everyone is
+>>buying the DX2 66...  Many adds don't even mention the DX 50.
+>>
+>
+>One of the things going for the DX2-66 (over the 50) is that it's
+>clock speed complies with the VESA local bus spec.
+>
+>Lance Hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
+
+A couple other problems with the 486DX/50:
+
+1.)  System manufacturers had MAJOR problems solving the electromagnetic 
+interference problems with 486DX/50 systems.  Getting an FCC-B (home use) 
+certification required additional shielding in the system.
+
+2.)  HEAT...a lot of people seem to be installing heat sinks and/or cooling 
+fans on their 486DX2/66 chips.  I would guess that the 486DX/50 ran 
+temperatures inside the case even hotter.  And heat is the enemy of system 
+reliability.
+
+Ed
+-- 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Any above opinions are the sole property of the below named person:
+Edward K. Jen                                   ejen@magnus.acs.ohio-state.edu
+Academic Computing Services                          The Ohio State University

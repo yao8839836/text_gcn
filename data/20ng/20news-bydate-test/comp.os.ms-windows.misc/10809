@@ -1,0 +1,30 @@
+From: tim@kowari.cpsg.com.au (Timothy Fox)
+Subject: Re: Hot-key for Screen Saver?
+Lines: 24
+Nntp-Posting-Host: wpylie.cpsg.com.au
+Organization: Computer Power Software Group Pty Ltd
+
+louray@seas.gwu.edu (Michael Panayiotakis) writes:
+
+
+>Well, renaming screensavers (.scr) to .exe, and running them, as has
+>been pposted, (I haven't tried changing win.ini , but should have same
+>effect) shows me the "setup" dialog. box, butdoesn't enable the saver.
+
+>Mickey
+
+Try .exe /s  (/s for save screen, /c for config, defaults to /c)
+
+--------------------------------------------------------------------------------
+The question is not "If a tree falls in the forest and no one sees or hears,
+did it fall?" but rather "How many koalas can that one tree take out???"
+---------------------------------------------------------------tim@cpsg.com.au--
+--
+
+
+Tim Fox
+CP Software Pty Ltd.  (ACN 006 640 133)               Ph:   +61-3-823-0222
+19 Cato Street, East Hawthorn,                        Fax:  +61-3-822-0089
+Victoria, Australia, 3123                  ACSnet:         tim@cpsg.com.au
+--------------------------------------------------------------------------
+The question is not "If a tree falls in the forest and no-one sees or

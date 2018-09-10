@@ -1,0 +1,56 @@
+From: jim@rand.org (Jim Gillogly)
+Subject: Re: Ideas on Clipper
+Organization: Banzai Institute
+Lines: 50
+Nntp-Posting-Host: mycroft.rand.org
+
+I was annoyed to find that this guy posted my private e-mail response to
+him, but since I believe what I said, I'll defend it anyway.
+
+In article <gfpo=Wu00WC70qOQ4O@andrew.cmu.edu> jb7m+@andrew.cmu.edu (Jon C. R. Bennett) writes:
+>Jim Gillogly <jim@mycroft.rand.org> writes (in private e-mail):
+
+>> They're betting that you can't [cryptanalyze E to get U given N].
+>> ...  But we can't
+>> do this right now with DES, even knowing the encryption method without
+>> doing almost the whole 56-bit search.
+>
+>That is not true, with chosen plaintext attacks DES keys can be determined
+>without the full search.
+
+By "almost" I mean the differential cryptanalysis attack.  The chosen
+plaintext attack requires a detailed analysis of about 2^36 chosen plaintexts
+drawn from a total of about 2^47 that need to be run, if I understand the
+situation correctly.  This is certainly a "break" under the meaning of the
+Act, but does not constitute much less work than the brute force keysearch.
+
+The rest of his article assumes that we can figure out the Skipjack
+encryption algorithm E by choosing the correct data to send through it and
+observe the results.  I wish him joy of it, and choose not to try that attack.
+
+I am not defending the system, and in fact am offended by the ideas of
+escrowed keys or a secret algorithm becoming a de facto industry standard.
+However, I also object to opposing it for the wrong reasons, since that
+weakens the case against it.
+
+I said (in my private e-mail):
+>> It's not clear that the "experts" will be told F.  In fact, I'd be surprised.
+>> I'd expect something more of the form of the FIPS pub describing DES, so that
+>> they could look at the algorithm in general, rather than with the specific
+>> set of keys chosen.
+>
+>Oh come on, thats like saying you could evaluate DES without the S-box
+>constants.....
+
+No, it's quite different.  The government would have no percentage in
+choosing F to be a weak key, since it's not to their advantage to have
+anybody else know it.  The "experts" could thus assume that F is no worse
+than anything else during their analysis.  Totally different situation
+from unknown S-boxes.  Again, I'm not saying it would be good or
+satisfactory for the experts to just be given the raw algorithm without
+the rest of the surrounding details regarding the chip and protocols and
+so on -- simply that I doubt that they <would> be given all the
+information.
+-- 
+	Jim Gillogly
+	Trewesday, 2 Thrimidge S.R. 1993, 03:01

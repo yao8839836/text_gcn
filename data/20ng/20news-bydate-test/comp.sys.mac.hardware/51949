@@ -1,0 +1,48 @@
+From: pedwards@csd.abdn.ac.uk (Pete Edwards x 2270)
+X-Priority: 1 (Highest)
+X-Sender: pedwards@139.133.200.20
+Subject: Centris 610 Font Problems
+Cc: pedwards@csd.abdn.ac.uk, watson@csd.abdn.ac.uk
+Lines: 41
+
+I recently got a Centris 610 4/230 on my desk. It's a vast improvement on
+my previous machine (a IIsi 5/40). However .....
+
+I've encountered a problem with fonts ..
+
+Entries in a Filemaker 2.0 database which looked fine when printed from my
+previous mac using System 7.01 now look wierd !
+
+Spacing between characters has increased greatly - causing lines to be
+truncated. I'm using plain and bold Helvetica in various sizes - the
+increase in character spacing seems to occur for all sizes and styles. 
+
+I'm using a mixture of TrueType and Fixed-Size fonts - exactly as on my
+IIsi - when things worked perfectly.
+
+We've managed to get similar behaviour using Word 5.1.
+
+Apple UK adopted their usual "friendly" approach and told us to call our
+local dealer - God help us !!
+
+Any ideas ??
+
+
+
+----------------------------------------------------------------------
+Dr Pete Edwards
+
+Department of Computing Science 
+King's College
+University of Aberdeen                  Tel.   +44 (0)224 272270/96
+Aberdeen, AB9 2UE                       Fax    +44 (0)224 273422
+SCOTLAND                                Email  pedwards@csd.abdn.ac.uk
+
+ARTIFICIAL FLOWERS:  Pieces of plastic and metal, crudely fashioned to
+  bear a limited, superficial resemblance to real flowers, but with no
+  credible attempt to match their internal complexity in terms of form,
+  function, or behavior.
+
+ARTIFICIAL INTELLIGENCE: Really smart computers.
+----------------------------------------------------------------------
+

@@ -1,0 +1,35 @@
+From: warlord@MIT.EDU (Derek Atkins)
+Subject: Re: Clipper and conference calls
+Organization: Massachusetts Institute of Technology
+Lines: 28
+NNTP-Posting-Host: podge.mit.edu
+In-reply-to: smb@research.att.com's message of Sun, 25 Apr 1993 11:48:20 GMT
+
+In article <1993Apr25.114820.14022@ulysses.att.com> smb@research.att.com (Steven Bellovin) writes:
+
+   In article <122723@netnews.upenn.edu>, feeley@cattell.psych.upenn.edu (Wm. Michael Feeley) writes:
+   > Just curious, how would the Clipper Chip system handle
+   > conference calls?
+
+   It's not Clipper, it's any encryption system.  I've seen a number of
+   designs; they generally involve a multi-line cleartext bridge.
+
+Depending on the encryption system, so long as everyone has the same
+key, it can be done.  For example, I was using "vat", which is an
+Internet Audio tool, for a conference call, and we were encrypting the
+session.  (Unfortunately, one site was doing more work, and didn't
+have the CPU for it, so it didn't sound all that good at a different
+site)
+
+So, you don't neccessarily have to have a clear-text bridge.  But if
+you do, its totally internal to one of the sites involved in the
+conversation....
+
+-derek
+
+
+--
+  Derek Atkins, MIT '93, Electrical Engineering and Computer Science
+     Secretary, MIT Student Information Processing Board (SIPB)
+           MIT Media Laboratory, Speech Research Group
+           warlord@MIT.EDU       PP-ASEL        N1NWH

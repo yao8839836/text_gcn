@@ -1,0 +1,18 @@
+From: brw@yobbo.tusc.oz.au (Brian Wallis)
+Subject: DFI Handy Scanner, How to talk to it?
+Organization: TUSC Computer Systems Pty Ltd.
+Lines: 11
+Distribution: world
+NNTP-Posting-Host: yobbo.tusc.oz.au
+
+I have a DFI Handy Scanner Model HS-3000Plus and a little bit of
+software running under dos to use it. I'd like to make more extensive
+use of this device (in particular, write a driver for it on unix).
+
+So, can anyone give me a description of how to talk to this device. It
+connects to the system via it's own interface card.
+
+Any info would help, it can't be too difficult to talk to :-)
+
+thanks, brian wallis...
+TUSC Computer Systems Pty. Ltd.

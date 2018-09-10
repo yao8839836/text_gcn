@@ -1,0 +1,53 @@
+From: gilley@decvaxrobins.af.mil
+Subject: Re: Looking for drawing packages
+Reply-To: gilley@decvaxrobins.af.mil ()
+Organization: LNEW -- Robins AFB
+Lines: 46
+Nntp-Posting-Host: decvax.robins.af.mil
+
+
+In article <14569@greg>, greg@Software.Mitel.COM (Gregory Lehman) writes:
+|>Path: wrdis01!gatech!howland.reston.ans.net!usc!cs.utexas.edu!utnut!torn!nott!uotcsi2!geovision!software.mitel.com!greg
+|>From: greg@Software.Mitel.COM (Gregory Lehman)
+|>Newsgroups: comp.windows.x,comp.windows.x.motif
+|>Subject: Looking for drawing packages
+|>Message-ID: <14569@greg>
+|>Date: 27 Apr 93 20:08:10 GMT
+|>Organization: Mitel. Kanata (Ontario). Canada.
+|>Lines: 24
+|>Xref: wrdis01 comp.windows.x:36152 comp.windows.x.motif:13750
+|>
+|>Greetings.
+|>
+|>I am developing an application that allows a *user* to interactively
+|>create/edit/view a visual "model" (i.e. topology) of their network, and
+|>I was wondering if anyone knew of any builder tools that exist to
+|>simplify this task.
+|>
+|>In the past I have used Visual Edge's UIM/X product to develop other
+|>GUIs, so I am familiar with UIMSs in general.
+|>
+|>The topology will support objects and connecting links.  Once the
+|>topology is created, I want to provide the user with capabilities to
+|>support grouping, zooming, etc.
+|>
+|>I am looking for some form of a higher abstraction other than X drawing
+|>routines to accomplish this.  Specifically, the zooming and grouping
+|>aspects may prove difficult, and certainly time consuming,  if I have
+|>to "roll my own".
+|>
+|>Suggestions?
+|>
+|>-greg
+|>
+|>greg@software.mitel.com
+|>
+
+
+You don't mention your platform but Digital has a custom widget, NetEd, 
+which does exactly what you want to do. Cost is nominal 300 or so - call your
+local office.  The widget is supported on a variety of platforms and I heard
+rumblings of porting to Sun, etc. so it may be worth the check.
+
+Charlie Gilley
+Digital Equipment Corp.

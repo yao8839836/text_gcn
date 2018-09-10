@@ -1,0 +1,31 @@
+From: asecchia@cs.uct.ac.za (Adrian Secchia)
+Subject: Raytracing Colours?
+Keywords: raytracer colours realism vectors
+Organization: Computer Science Department, University of Cape Town
+Lines: 25
+
+I have a question about recursive, backward raytracing.
+
+When an incident ray (I) strikes an object at point P, first
+the normal (N) is calculated. Light rays are calculated (L1 to Ln 
+where n is the number of light sources) - these being the light
+rays that do not intersect with anything. The reflected ray (R) and
+the transmitted ray (T) is calculated from the formulae.
+
+Calling the routine recursively on R and T will return the colours 
+along the rays (R and T) as rCol and tCol. Each object has its own
+colour oCol and each light source has liCol (1 <= i <= n).
+
+The question is: 
+  How do you combine rCol, tCol, oCol and all the liCol's to get
+  the correct resulting colour to return along the I ray?
+
+All colours are defined as strucures (records) having r, g, b components
+between 0 and 1.
+
+If anyone has done this before could you give me a few hints?
+
+--
+Adrian Secchia
+
+asecchia@cs.uct.ac.za

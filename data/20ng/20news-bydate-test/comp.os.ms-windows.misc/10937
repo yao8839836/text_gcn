@@ -1,0 +1,26 @@
+From: akm@getafix.cs.uoregon.edu (Anant Kartik Mithal)
+Subject: Re: 'Info' menu choice in File Manager
+Organization: University of Oregon Computer and Information Sciences Dept.
+Lines: 21
+
+In article <shenoy.737772666@pv025f.vincent.iastate.edu> shenoy@iastate.edu (Shiva Shenoy) writes:
+>In <1993May18.141451.3443@trintex.uucp> charles@tinman.dev.prodigy.com (Charles R. Emmons) writes:
+>>[Description of file manager Info menu option.
+>Edit the winfile.ini file. If there is a section [AddOns] in it, great! Else, 
+>add the following two lines. If the [AddOns] section exists, then just add 
+>the second line. 
+>[Addons]
+>INfo=filesize.dll
+
+Note that the filesize .dll is a part of the Windows Resource Kit. If
+you install it (and you can download it from Cica), it will make the
+appropriate changes itself.
+
+kartik
+
+
+-- 
+If you quote my article remember to trim it down to the essentials.
+Anant Kartik Mithal, 				akm@cs.uoregon.edu
+Network Manager, Ph.D. Student			(503)346-3989
+Comp. Science, U of Oregon, Eugene, OR 97403  	(503)346-5373 (fax)

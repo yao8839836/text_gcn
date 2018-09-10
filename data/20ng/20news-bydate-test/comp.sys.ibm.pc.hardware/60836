@@ -1,0 +1,28 @@
+From: dudek@acsu.buffalo.edu (The Cybard)
+Subject: MODEM PROBLEM:  "No Dialtone"
+Summary: Comm software reports "no dialtone".
+Keywords: modem, phone
+Organization: UB
+Lines: 20
+Nntp-Posting-Host: autarch.acsu.buffalo.edu
+
+I have a 486DX-33 ISA pc-compatible (Insight) with an Infotel internal
+14.4FAX/14.4data modem with QuickLinkII for Windows.  When I first put the
+modem in, I pulled a phone out of the jack in another room, and ran a phone
+line extension to my surge protector and then my computer.  The modem
+worked fine.  Then I split the line from the jack in the other room, ran
+the line into my room into the surge protector and up to my computer.  Then
+I got a regular phone and plugged that into the phone jack in the modem.
+Now when I try to use the modem, QuickLinkII says "No dialtone".  The phone
+plugged into the back of the computer works fine.  I tried unplugging the
+phone, but still no dice.  Is it that the phone line was split too many
+times?  (I don't understand how this could be a problem, since the phone
+worked fine.)  Please note: none of the software or hardware parameters
+were changed, only the phone line itself.  Is my new modem faulty?  What
+can I do? 
+
+-- 
+David Thomas Dudek /  v098pwxs@ubvms.bitnet     \     __   _ The Cybard
+ State University / dudek@sun.acsu.buffalo.edu   \   /  `-' )      ,,, 
+   of New York   / "If music be the food of love, \  | | ()|||||||[:::}
+    @ Buffalo   /   play on!" - Wm. Shakespeare    \ `__.-._)      ''' 

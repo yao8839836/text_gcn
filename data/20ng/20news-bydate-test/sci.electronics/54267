@@ -1,0 +1,48 @@
+From: warren@eggo.csee.usf.edu (Warren Gaiewski)
+Subject: Re: D,G,&H type Amplifiers
+Organization: University of South Florida, Department of Computer Science and Engineering
+Lines: 41
+Distribution: world
+NNTP-Posting-Host: eggo.csee.usf.edu
+
+in article  <735604750.28979.0@unix5.andrew.cmu.edu>,  Mark Yeck
+writes:
+
+--------->
+
+Hey, can someone clue me in on these and other weird types of amplifiers?  Just
+a brief intro to the concepts behind these would be cool.  I have the clues 
+on type A, B, and AB already and stuff, but these other ones are mentioned 
+occasionally and I dont know what they do.  I think type D is like a PWM scheme
+or something.  Thanx in advanced.
+
+---------->
+The whole point to these weird amplifier types is improved efficiency.
+
+Class D amps *are* PWM (pulse width modulation) amps which work very much like
+switching power supplies. I think I've seen these things called "class S"
+before as well. They're capable of very high efficiencies, and would be suitable
+for very high power. I've yet to see anything like this used in an audiophile
+amp, though.  I've been trying to design a three-kilowatter for the last year
+(to be used as an inverter for an UPS), but have been having serious problems
+with layout parasitics (10 IRF 450's in parallel... any help  with a  do-able
+isolated drive ckt would be appreciated :) ) 
+
+I'm not absolutely positive about this, but I beleive a 'class G' amp is one that
+operates off a variable- or switched power supply rail voltage. The Carver
+amps do something like this. They use some sort of phase-control circuit 
+(I do not fully understand its operation) to reduce the transformer size, and
+I beleive that is patented. I had an M400 apart (trying to fix) and found that
+it had three rail voltages that it switched between. I ran a simulation on
+PSPICE and found that the topology would greatly reduce power dissipation (heat)
+under large-signal conditions, or when driving reactive loads (which draw high
+current at the zero-voltage crossings). 
+
+Think SPEAKER.......             /|              Dr. Diode
+                              ||/ |           ------|>|------
+ "Great sound  starts with    ||  |           warren@eggo.csee.usf.edu
+      The Source"             ||\ |           warren@renoir.cftnet.com
+                                 \|                
+
+
+

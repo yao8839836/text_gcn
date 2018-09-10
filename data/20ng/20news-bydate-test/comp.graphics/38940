@@ -1,0 +1,32 @@
+From: beck@irzr17.inf.tu-dresden.de (Andre Beck)
+Subject: Re: NTSC data to RGB ?  For Video Capture.
+Reply-To: Andre_Beck@IRS.Inf.TU-Dresden.DE
+Organization: Dept. of Computer Science, TU Dresden, Germany.
+Lines: 25
+NNTP-Posting-Host: irzr17.inf.tu-dresden.de
+
+
+
+Usually, you apply
+
+[R]    [ 1     0        1.402   ][Y]
+[G] =  [ 1  -0.34414   -0.71414 ][U]
+[B]    [ 1    1.772     0       ][V]
+
+
+after unlevelshifting U and V (subtracting 128 from them).
+
+This matrix multiplication may give results out of RGB space, so you
+have to clamp the resulting bytes to [0..255].
+The conversion should be done with arbitrary big integers, not floats :)
+
+This applies to YUV data whereas NTSC may have YIQ where a 33 degree
+rotation to U/V is buid in.
+
+
+--
++-o-+--------------------------------------------------------------+-o-+
+| o |                \\\-  Brain Inside -///                       | o |
+| o |                    ^^^^^^^^^^^^^^^                           | o |
+| o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
++-o-+--------------------------------------------------------------+-o-+

@@ -1,0 +1,57 @@
+From: jliukkon@klaava.Helsinki.FI (Juha-Matti Liukkonen)
+Subject: Re: Soundblaster IRQ and Port settings
+Organization: University of Helsinki
+Lines: 52
+
+pdb059@ipl.jpl.nasa.gov (Paul Bartholomew) writes:
+
+<clip clip>
+
+>Interesting.  Would you care to explain to me then, how my SoundBlaster
+>Pro card and my printer card are sharing IRQ 7 successfully?  I assure
+>you that they are both set to IRQ 7 and that I have no problem.  My
+>computer is a DTK 286-12 IBM clone.
+
+Running MS-DOS or a derivative OS, obviously. Please take note that the
+following is not what exactly happens, but a slightly simplified
+explanation.
+
+Technically, the IRQ line is only a means for the device (printer
+adapter, SoundBlaster, modem, hard disk, ...) to signal the CPU that
+"Something's happening here, please take note." How the CPU is
+programmed to handle this signal is usually up to the operating system.
+In MS-DOS, the "interrupt vector" is used to store the address of the
+function that handles each interrupt.
+
+Now, basic DOS doesn't care whether the printer reports that it's ready
+to print some more stuff or not - it simply ignores the interrupt.  When
+DOS prints, it looks at the LPT buffer.  If there's a character there,
+wait a while and check again.  If there's not, copy a new character to
+the LPT port.  Since the IRQ 7 is ignored as a printer interrupt, it's
+free for use for any other adapters - in this case, the SB. 
+
+With any multitasking or otherwise advanced OS, this kind of printing
+approach just doesn't work (or more precisely, it wastes a lot of CPU
+cycles.) Hence, you can't "share" the IRQ 7 with LPT1 and SB if you're
+running Unix or OS/2 or whatnot.
+
+Another issue with the SB is that only the digitized sound uses
+interrupts. When the SB plays plain music, the CPU simply tells it what
+to play until told otherwise. With digitized sound the interrupt is
+required to notify the CPU when the output ends and new data is
+needed.
+
+You can, however, hook two (or more) COM ports to one interrupt, but use
+them only one at a time.  This is because the interrupt handling routine
+is same for both ports, and it can see from which port the data came
+from. This, of course, applies for some other devices (like LPT) as well.
+
+Remember, this was greatly simplified in parts, but I think gives the
+general picture correctly enough.
+
+Cheers,
+
+-- 
+               Juha Liukkonen, aka jliukkon@cc.helsinki.fi
+              University of Helsinki,  Dept. of  Lost Souls
+           "Trust me, I know what I'm doing." - Sledge Hammer

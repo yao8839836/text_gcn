@@ -1,0 +1,22 @@
+From: bgrubb@dante.nmsu.edu (GRUBB)
+Subject: Re: SCSI and IDE: What's the difference?
+Organization: New Mexico State University, Las Cruces, NM
+Lines: 15
+Distribution: world
+NNTP-Posting-Host: dante.nmsu.edu
+
+jhereg@iastate.edu writes:
+>In article <1993Apr21.124531.13053@ac.dal.ca> tominatr@ac.dal.ca writes:
+>>Stupid question from a new IBM PC user:
+>>
+>>I'm going to be selling my Mac and getting a Gateway 2000.
+
+>*retching noises*  Talk about "out of the frying pan and into the fire" :)
+What CPU does this use?  I need the info fro my Thesis.
+
+>>Are SCSI drives faster than IDE?
+>I'm pretty sure SCSI is faster.  Along with a lot better compatability.
+Half right.
+SCSI-1 is SLOWER than IDE {5MB/s vs 8.3MB/s maximum.}
+SCSI-2 {8-bit} has a faster BURST rate than IDE {Quarda}
+SCSI-2 {16 and 32-BIT} are MUCH faster than IDE {Cyclone in June}

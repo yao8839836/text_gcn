@@ -1,0 +1,19 @@
+From: zander@eclipse.sheridanc.on.ca (Mark Zander)
+Subject: Read-Only HardDrive
+Nntp-Posting-Host: eclipse.sheridanc.on.ca
+Organization: Sheridan College, Ontario, Canada
+Lines: 13
+
+   On a few computers which we have here at Sheridan College there are
+files which we would like to make read only.  I have used the Dos attrib command
+but some people, who carry around the attrib program in their pockets,
+have still been able to erase some of the more important files.  Are
+there any software packages which would make an entire drive read-only?
+An example, partition the drive into two partitions and have the first
+drive contain the important files which can be only read and the second
+drive you could both read and write.  
+  Any and all enquiries or help would be appreciated.
+
+thanx.
+mark.zander@sheridanc.on.ca
+ 

@@ -1,0 +1,31 @@
+Subject: Re: Crypto papers on the net.
+From: pgut1@cs.aukuni.ac.nz (Peter Gutmann)
+Organization: Computer Science Dept. University of Auckland
+Lines: 26
+
+In <16BB91429.C445585@mizzou1.missouri.edu> C445585@mizzou1.missouri.edu (John Kelsey) writes:
+
+>   I've recently been reading a paper of Merkle's (publixhed only on the
+>net, I think) discussing three potential replacements for DES.  Was
+>anyting ever done with these?  Are Khufu, Khafre, and/or Snefru still
+>being discussed anywhere?  (I know Snefru is referenced in the RSA
+>FAQ, and I think it may also be in the sci.crypt FAQ.)
+
+The paper was distributed (against the wishes of the NSA - I have a copy
+with a few 'illicit distribution' footnotes scribbled on it :-), and eventually
+published at one of the crypto conferences.  Things were looking good.
+
+Then Xerox patented the algorithms.  <Plonk!>
+
+I don't know of anything which uses them.  Also, Khafre was broken at a
+later conference and from work on a related algorithm I don't think the
+existing Khufu would hold up too well against a converted differential
+cryptanalysis attack, although it can probably be changed to resist this
+type of attack....
+
+Peter.
+
+[In case you don't know what the <Plonk> is about, check _The New Hacker's
+ Dictionary_.  It's the sound someone makes when they fall to the bottom
+ of a killfile]
+

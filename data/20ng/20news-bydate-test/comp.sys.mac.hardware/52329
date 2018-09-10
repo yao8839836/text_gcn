@@ -1,0 +1,65 @@
+From: fredm@media.mit.edu (Fred G Martin)
+Subject: Re: Adapter for IIsi and a vga monitor
+Organization: MIT Media Laboratory
+Lines: 60
+
+In article <1993Apr24.055158.11640@midway.uchicago.edu>
+choi@gsbsrc.uchicago.edu (Dongseok Choi) writes: 
+
+> I understand that if I have a correct adapter then I can
+>use a vga monitor with my IIsi.
+> Are those adapters working with specific brands?
+> Is adapter for NEC or Sony working with other brands?
+> I will be using a vga monitor with IIsi for a month soon.
+> I don't have any clue what monitor will be.
+
+Here's the story:
+
+(1)  The IIsi *cannot* supply a VGA output.  However...
+
+(2) Some VGA-type monitors can adequately deal with the video signal
+the Mac uses to drive the Apple 13 or 14 inch "high resolution color
+display"---i.e., Apple's own 640x480 mode.
+
+So, if you wish to hook one of these monitors up to your IIsi, you
+need (a) an adapter that converts from the Mac DB-15 connector to the
+VGA-style high density DB-15 connector, *but* tells the Mac to use
+it's own 640x480 mode, not the VGA 640x480 mode, and (b) a VGA monitor
+that can deal with the higher bandwidth of the Mac 640x480 mode over
+the VGA 640x480 mode (which as I stated in (1) above, the IIsi cannot
+produce).
+
+As far as (a) above is concerned, contact
+
+ James Engineering, Inc.
+ 6329 Fairmount Ave.
+ El Cerrito, CA  94530
+ 510-525-7350
+ FAX: 510-525-5740
+
+They can probably get you the right adapter.  Remember: you do *not*
+want the run-of-the-mill Mac-to-VGA adapter, because it will try to
+have your IIsi produce the VGA mode, which it cannot (the computer
+will just fail to produce any video signal at all).  Instead, you want
+an adapter that connects between the Mac-style and VGA-style
+connectors, but tells the Mac to use the Apple 640x480 mode.  Sorry
+for the poor terminology available for describing this distinction.
+
+As far as (b) is concerned, make sure to get a monitor that can deal
+with a horizontal bandwidth of 35 KHz and a vertical retrace rate of
+67 Hz.  These are the spec's of Apple's 640x480 mode.  For comparison,
+the VGA-standard 640x480 mode uses a 31.5 KHz horizontal bandwidth and
+a 60 Hz. vertical retrace rate.
+
+The monitor will probably need to have auto-synch'ing capability, as
+the Apple mode you'll be using isn't one of the set of standard modes
+in the PC compatible world.
+
+Good luck!
+
+	-Fred Martin
+
+
+-- 
+Fred Martin | fredm@media.mit.edu | (617) 253-7143 | 20 Ames St. Rm. E15-301
+Epistemology and Learning Group, MIT Media Lab     | Cambridge, MA 02139 USA

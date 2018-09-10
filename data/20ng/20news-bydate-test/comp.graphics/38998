@@ -1,0 +1,22 @@
+From: jdryburn@smt_6.b21.ingr.com (Joe Ryburn)
+Subject: Software Development Libs for Old TARGA-16 Boards
+Organization: Intergraph
+Lines: 17
+
+I am revamping some computer-aided visual inspection systems which
+use the old AT&T Targa-16 Board Set (2 cards) to display images from
+a color CCD camera to a color monitor, providing the option to overlay
+text or a crosshair. No image capture or manipulation is performed, 
+just display. I would like to know if there is still a source for 
+development libraries which would allow me to embed commands in my
+own software to enable the camera, draw crosshairs, print text, etc.
+I'll be glad to pay if they are commercially available. E-Mail if
+possible.
+
+-- 
+
+
+----------------------------------------------------------------
+Joe Ryburn |  CIM Manager               | Intergraph Corporation
+           |  Manufacturing Integration | Huntsville, AL 35894
+----------------------------------------------------------------

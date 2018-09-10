@@ -1,0 +1,41 @@
+From: habl@vision.auc.dk (Hans F. E. Blaasvaer s8 F93)
+Subject: Re: head-to-head win and os/2
+In-Reply-To: z_shererrg@ccsvax.sfasu.edu's message of 15 May 93 03:02:10 CST
+Organization: Laboratory of Image Analysis, University of Aalborg
+Lines: 35
+
+In article <1993May15.030210.4755@ccsvax.sfasu.edu> z_shererrg@ccsvax.sfasu.edu writes:
+   After hearing endless debate (READ: name-calling) over which os is better, dos
+   and windows or OS/2 and finally having enought resourses to play with a couple
+   of different operating systems, I have decided to put the two products to a
+   head to head test, as so many fellow newsposters have suggested.  I have, 
+   however, no desire whatsoever to use a version of os/2 which wont REALLY
+   do what it says (i.e. run windows apps)  OS/2 2.0-2.1 will not run windows
+   apps in 386 enhansed mode, something that most larger windows apps require, but
+   OS/2 2.2, which is supposed to be in beta test, is supposed to.  I have heard
+   that os/2 2.2 beta is available via ftp, and I was wondering if anyone knew
+   where to obtain a copy.  I would appreciate any information, as I would like, 
+   once and for all, to establish for myself which is the best os for my needs.
+
+   ->Robbie<-
+   z_shererrg.sfasu.edu
+
+If you wait until May the 18th you will be able to buy the new OS/2
+2.1 since it will be released at Comdex that day. It will run Windows
+3.1 apps and Windows enh. mode. If you can't wait, then you can ftp a
+6 months old beta version from ftp-os2.nmsu.edu, but this version is
+probably a lot slower than the final product.
+
+When you do your test, please have in mind that a single tasking
+system will always be faster at doing one task. The real power of OS2
+lies in the multitasking and can't really be measured by a stopwatch.
+
+Happy benchmarking.
+Hans
+--
+------------------------------------------------------------- 
+The whales of the Atlantic and the people of the Faroe Islands 
+have coexisted in perfect harmony for the last 1000 years -
+no matter what any urban navel contamplator without any real
+relation to the coherence of the nature says.
+-------------------------------------------------------------

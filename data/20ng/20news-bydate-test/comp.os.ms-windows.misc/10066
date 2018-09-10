@@ -1,0 +1,53 @@
+From: dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman)
+Subject: leaking memory resources in 3.1
+Organization: University of Arizona MIS Department
+Lines: 46
+NNTP-Posting-Host: bpavms.bpa.arizona.edu
+News-Software: VAX/VMS VNEWS 1.41
+
+
+    This may be an FAQ (if so, please direct me to the known answer) but I
+    am getting frustrated and looking for help.
+
+    I am running Win 3.1 with NDW 2.2 on a 486sx with 8 meg of memory and a
+    6 meg perm swap file and am getting exceedingly frustrated that my
+    applications are not giving back system resources when I close them.
+
+    When I load windows I start with about 83% resources available but many
+    of the application programs I run regularly (WPWIN 5.2, VB 2.0, WINQVT
+    2.8, Lotus Organizer, etc.) seem to not return all their resources when
+    I exit them.  After a day or two of work I often find myself down under
+    50% of available resources even when I have no applications other than
+    my shell running.
+
+    I am aware this is a known problem; what I am looking for are some
+    suggestions of what I might do to mitigate it.  
+
+    1. What software is the culprit?  Win 3.1, NDW, my applications?  Are
+    some modes of Win 3.1 (standard, real, enhanced) better than others at
+    plugging this leak?
+
+    2. Are their system.ini switches i can set to help plug this leak?
+
+    3. Do people know of patches or third party software that help with
+    this?  Seems like increasing or better managing system resources is a
+    great market for a third party memory company like QEMM.
+
+    4. If I run Progman instead of NDW will the leak subside?  (I was
+    hoping that NDW 2.2 would have plugged this, but it seems no different
+    than 2.0 in how it deals with memory and resources.)
+
+    5. When I am writing VB code are there things I can do to make it less
+    likely my code will eat resources?
+
+    6. Any other suggestions that I don't know enough to ask for
+    specifically?
+
+    Thanks for your help.  As this is a common problem and I have seen only
+    a little discussion of it on the net there are probably others who
+    would like to read answers so please publish here rather than sending
+    me email.
+
+    danny
+===========================================================================
+daniel david mittleman     -     danny@arizona.edu     -     (602) 621-2932

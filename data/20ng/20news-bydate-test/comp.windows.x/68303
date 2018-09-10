@@ -1,0 +1,54 @@
+From: cek@sdc.boeing.com (Conrad Kimball)
+Subject: Re: Problem with R4 release
+Organization: Boeing Computer Services, Seattle, WA
+Lines: 48
+Nntp-Posting-Host: zulu
+
+In article <MCGARY.93May12172612@mojo.intellection.com>, mcgary@intellection.com (Mike McGary) writes:
+|> In article <1sr3klINNauq@news.u.washington.edu> pramod@stein.u.washington.edu (Pramod Mahadev) writes:
+|> 
+|> >   ld: Unidentified external symbol
+|> >      _get_wmShellWidgetclass
+|> >      _get_applicationshellwidgetclass
+|> >
+|> >     I use -lXaw -lXmu -lXext -lX11 -lXt not in this order but in a proper order
+|> >
+|> >   I am wondering if there has to be some changes in my link libraries or should
+|> >   i include some more libraries.
+|> >
+|> >   ANy help in this matter will be very useful and highly appreciated
+|> >
+|> 
+|> We get this too.  If you put -Bstatic into your options it goes away. 
+|> Things seem to run ok without it...must not be called very often.
+
+From the FAQ:
+
+Subject:  96)! What is this link problem with libXmu on SunOS 4.1.[23]?
+
+        In SunOS 4.1.2 Sun fixed a shared-library bug in ld which conflicts
+with the way X builds the shared Xmu library, causing these symbols, notably,
+to be undefined when building some X11 clients:
+        _get_wmShellWidgetClass
+        _get_applicationShellWidgetClass
+Compiling "-Bstatic -lXmu -Bdynamic" appears to work.
+
+To solve the problem if you are using OpenWindows 3.0 (X11R4-based Xt), please
+contact your local Sun office and request the following patches:
+
+Patch i.d.      Description
+100512-02       4.1.x OpenWindows 3.0 libXt Jumbo patch
+100573-03       4.1.x OpenWindows 3.0 undefined symbols when using
+                        shared libXmu
+
+[Greg Earle, earle@Sun.COM; 7/92]
+
+A source patch for use with the MIT X11R4 libraries was developed by Conrad
+Kimball (cek@sdc.boeing.com); it retrofits into R4 some fixes made in R5 to
+get around this problem. The patch is on export in [1/93]
+        contrib/X11R4_sunos4.1.2_patch_version3.Z
+
+--
+Conrad Kimball        | Client Server Tech Services, Boeing Computer Services
+cek@sdc.cs.boeing.com | P.O. Box 24346, MS 7A-35
+(206) 865-6410        | Seattle, WA  98124-0346

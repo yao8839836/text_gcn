@@ -1,0 +1,26 @@
+From: galen@picea.CFNR.ColoState.EDU (Galen Watts)
+Subject: Re: RF Communications Link
+Nntp-Posting-Host: storm.cfnr.colostate.edu
+Organization: College of Natural Resources, Colo. State Univ.
+Lines: 20
+
+In article <blumenow.7@underdog.ee.wits.ac.za> blumenow@underdog.ee.wits.ac.za (Warren Blumenow) writes:
+>We have to design an RF link for a distance of 250 m.  We're using
+>standard RS232 waves (square pulses) as the modulating waves and the 
+>carrier wave is sinusoidal.  The link has to be bidirectional.
+>We would appreciate any advice on the type of modulating techniques
+>or antennas that we should use.
+
+What frequency is your carrier?
+
+Have you considered using two tones, one for 1 and another for 0?
+
+How high is your RS-232 data rate?
+
+Can you use more than one carrier freq?
+
+Have you considered hiring an RF data transmission consultant?
+
+Just Curious,
+Galen Watts, KF0YJ
+

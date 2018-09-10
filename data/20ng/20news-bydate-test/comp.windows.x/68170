@@ -1,0 +1,22 @@
+From: kaleb@expo.lcs.mit.edu (Kaleb Keithley)
+Subject: Re: Seeking a simple wm
+Organization: X Consortium, MIT Laboratory for Computer Science
+Lines: 17
+
+pmartz@dsd.es.com (Paul Martz) writes:
+
+>In article basile@soleil.serma.cea.fr (Basile STARYNKEVITCH) writes:
+>> I'm seeking a *simple* window manager (ICCCM compliant) with a minimal doc.
+>> I don't want ol*wm twm gwm *twm.
+
+>Whatever happened to uwm? Is it still available in some form? It's
+>been years since I used it or heard anyone talk about it.
+
+I'm 99&44/100% positive that uwm isn't ICCCM compliant.  If you want it,
+the R4 sources are still available on export.lcs.mit.edu (18.24.0.12)
+in /pub/R4.
+
+--
+
+Kaleb
+

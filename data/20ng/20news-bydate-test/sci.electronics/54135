@@ -1,0 +1,34 @@
+From: davidj@rahul.net (David Josephson)
+Subject: Re: Blue LED's
+Nntp-Posting-Host: bolero
+Organization: a2i network
+Distribution: sci.electronics
+Lines: 27
+
+In <C5yqDE.Cq0@ecf.toronto.edu> gladman@ecf.toronto.edu (GLADMAN AVIV) writes:
+
+>In article <Zw6F3B1w165w@inqmind.bison.mb.ca> baden@inqmind.bison.mb.ca (Baden de Bari) writes:
+>> 
+>>        So what's the story here... we're all stuck with the regular
+>>green, red, and off yellow-orange LED's!?  What gives!!??
+>>        Anybody have a 'scoop' on FAIRLY LOW PRICED >BLUE< LED's???
+>>
+
+>In order to emit blue light, a semiconductor must have a band gap energy
+>within the region of 2.6 to 2.8 electron Volts. According to my physical
+>electronics prof, you can't get an LED with that band gap. That's why you
+
+He's mistaken. They exist, the semiconductor is silicon carbide, and they
+are inefficient and expensive. The bandgap is around 2.7 ev.
+
+>don't find blue LEDs or, for that matter, some other colour of LEDs. That
+>is not to say that blue LEDs can't be found.  I've seen 'blue' LEDs sold,
+>but they were just your typical visible light LED in a blue plastic covering.
+>They didn't emit very much light...
+
+The ones I have are clear plastic. Pray tell, what would make a "typical"
+LED emit blue light?
+
+
+-- 
+David Josephson <davidj@rahul.net>

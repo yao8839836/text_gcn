@@ -1,0 +1,69 @@
+From: mcmahan@netcom.com (Dave Mc Mahan)
+Subject: Re: 8x oversampling CD player
+Keywords: oversampling, CD, digitized audio
+Organization:  Dave McMahan @ NetCom Services 
+Lines: 63
+
+ In a previous article, kolstad@cae.wisc.edu (Joel Kolstad) writes:
+>In article <hcbC5un9L.DD0@netcom.com> hcb@netcom.com (H. C. Bowman) writes:
+>>
+>>I just bought a new portable CD player for the office, and I notice that
+>>it proudly proclaims "8 TIMES OVERSAMPLING" on the box.  Now while I think
+>>I understand what oversampling is (the rate of discrete "samples"
+>>exceeds the highest frequency component of interest by some factor),
+>>I don't understand this "8 TIMES" business...  It seems to me that when
+>>I bought my first CD player (was it REALLY 10 years ago?!), the specs
+>>said "4 TIMES" ...  Could someone please tell me whether I'm getting
+>>senile?  If I'm not, then what good does it do for the player to take
+>>samples at a higher rate?  
+
+>The data is only ever read once (barring mistracks and such, of course),
+>and eventually gets turned into 44.1 KHz, 16 bit, two channel data.
+>Oversampling takes two discrete data points, and interpolates n-1 points
+>between them for n times oversampling.  When I asked, people said that the
+>interpolation was not simply linear interpolation, but significantly more
+>complicated.
+
+You are quite correct in your understanding.  The filtering is not
+interpolation, as that would distort the frequency content of the signal
+you are listening to.  Generally, these players run the samples thru an
+all-pass filter network.  I have done this for ECG waveforms from a person's
+heart, and the effect is rather spooky.  It actually reconstructs peaks
+that weren't there (correctly, too!) and fills in the gaps with the
+properly computed values, just as if there had been a real sample taken at
+that point.  I use a CPU to do all the math.  It takes a decent (but not
+unreasonable) amount of CPU time to do this.  You can keep up with things
+in realtime if you write efficient code.
+
+In case you care, the filtering method uses an FIR (finite impulse response)
+filter.  I'd guess that CD makers use the same kind of method.  Anybody out
+there know the real answer?  I'd say that they use a tapped delay line with
+resistor/op-amp weighting to accomplish the filtering.  This strikes me as
+the most cost effective method for volume production runs.
+
+
+>Anyway, then, the purpose of oversampling is to move the "effective"
+>sampling rate up to n times 44.1 KHz, in order to use higher frequency
+>antialiasing filters.  For the same quality filter, higher oversampling
+>lets you build cheaper filters, whereas for the same price filter, higher
+>oversamplings lets you build better filters.  So, assuming the quality of
+>all other components in a CD player remained the same, oversampling should
+>allow a manufacturer to produce _slightly_ better sound due to anti-alias
+>filtering.
+
+Actually, I think the only reason they do this is so that they can say that
+they have a marketting gimic.  I would guess that it is acutally cheaper to
+filter an oversampled signal than not.  You can use sloppier components and
+give the filter a roll-off that isn't so sharp.   It's too bad that they
+charge more for something that (I think) is actually less costly to build.
+
+I seriously doubt that the filters cost the same but are better.  They are
+built to a price spec, and that spec says "cheap as possible!". 
+
+
+>					---Joel Kolstad
+
+  -dave
+-- 
+Dave McMahan                            mcmahan@netcom.com
+                                        37N 17.382    121W 59.190 

@@ -1,0 +1,39 @@
+From: hayesj@rintintin.Colorado.EDU (HAYES JAMES MICHAEL JR)
+Subject: Re: Program Manager kills my Group files!
+Organization: University of Colorado, Boulder
+Lines: 33
+Nntp-Posting-Host: rintintin.colorado.edu
+
+In article <1reiqj$qtr@access.digex.net> bsmith@access.digex.com (Barry Smith) writes:
+>Any clue? Some times when I enter Win 3.1 ProgMan says that I need to rebuild
+>a group! It's quite annoying!
+>
+
+
+I've had the same problem with a Maxtor 7213A.  Turned off
+smartdrive, 32 bit disk access, etc.  This same disk aborts
+Norton Speed Disk (NU 4.5), up to 8 times, requesting NDD to be
+run when attempting to defrag drive.  At Some peoples' suggestion
+I reformatted my drive and reloaded DOS 5.0, Win 3.1 from
+scratch.  A few people found that installing 3.1 on top of 3.1
+beta on top of 3.0 caused a similar problem, So I tried this
+drastic solution.  When the problem reoccurred, I didn't have the
+brains not to load 6.0 and dblespaced the drive.
+
+I get arround the annoyance by copying my *.grp files to *.gro.
+when I get the message, I run file manager and copy the
+offeniding group files from *.gro ove rthe *.grp.  Then I quit
+and restart windows(If the group is an often used important one.)
+
+This really sucks.  But I'm pretty sure that the problem is the
+drive (especially with the NSD problem).  I will be going with
+out over 66% of my memory after finals for 2 to 4 weeks, while
+the guy I bought the disk and system from, goes over it and
+either fixes it or replaces the drive.  I can't wait to have a
+system that will run consistently with all hte goodies!
+
+-- 
+  Mike Hayes             |"Knowledge is good."  - Faber College Motto
+  WWW                    |"Knowledge and Thoroughness" -Rensselear Poly Motto
+  Unemployed Tech,       |"No, thank YOU!"  -Groucho Marx, 'A Day at the Races'
+  Driven to banging my head against engineering physics for 4 years.

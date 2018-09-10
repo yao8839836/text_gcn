@@ -1,0 +1,32 @@
+From: louray@seas.gwu.edu (Michael Panayiotakis)
+Subject: Re: Boot-up sometimes fails.
+Organization: George Washington University
+Lines: 27
+
+In article <dbasson.11.0@mattek.csir.co.za> dbasson@mattek.csir.co.za (Dominique Basson  ) writes:
+>
+>Dos 5 never used the area $E000 - $EFFF, as well as some others. If you have 
+>any cards that use this are (such as a LAN card), you might get this 
+>problem.
+>
+>Use the X=$E000-$EFFF in your EMM386.EXE line in config.sys. If you run 
+>MemMaker then instruct it retain inclusions and exclusions.
+
+
+Speaking of that.....
+My comp has "emmexclude=$e000-$efff" or something of that nature in the
+system.ini file.  Or some system file for *windows*.
+
+I was just wondering if having that line in a *windows* startup file is
+better, as it will give some more memory on dos apps., but disable it
+when you run windows?
+
+(Actually, I *do* think that that line is also in the system.1 file)
+
+peace,
+Mickey
+-- 
+pe-|| ||  MICHAEL PANAYIOTAKIS: louray@seas.gwu.edu 
+ace|| ||                                   ...!uunet!seas.gwu.edu!louray
+|||| \/|  *how do make a ms-windows .grp file reflect a HD directory??*
+\\\\   |  "well I ain't always right, but I've never been wrong.."(gd)

@@ -1,0 +1,38 @@
+From: wnkretz@ikesg1.energietechnik.uni-stuttgart.de (Oliver Kretzschmar)
+Subject: Need C-algorithm, which decide whether a 3D-point is inside a space, defined by 6 planes
+Organization: IKE
+Lines: 31
+Distribution: world
+NNTP-Posting-Host: ikesg1.energietechnik.uni-stuttgart.de
+
+
+
+
+   Hey,
+
+   I am looking for C-algorithm, which decide,whether a 3D-Point is
+   inside a space which was defined by 8 x 3D-points.
+   With a space defined by 8 x 3D-points, I mean a space defined by
+   6 closed 3D meshes defined by 8 points. Like this :
+
+              _____
+             /    /|
+            /____/ |
+            |    | |
+            |    | /
+            |____|/
+
+
+   But in this simple example, the sides are parallel, but my problem,
+   the sides can be non parallel and the opposite sides must not have
+   the same size etc. Please mail me your informations !
+
+   Thanks for your great efforts
+
+      Oliver
+
+-- 
+ NAME : O.Kretzschmar                      Inst.IKE / University Stuttgart
+ PHONE: +49 711 685 2130                           Pfaffenwaldring 31
+ FAX  : +49 711 685 2010                            7000 Stuttgart 80
+ EMAIL: wnkretz@ikesg1.energietechnik.uni-stuttgart.de

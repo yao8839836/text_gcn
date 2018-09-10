@@ -1,0 +1,42 @@
+From: mark@taylor.uucp (Mark A. Davis)
+Subject: Re: xterm fonts
+Organization: Lake Taylor Hospital Computer Services
+Lines: 37
+
+bernward@moepi.do.open.de (Bernward Averwald) writes:
+
+>In article <1993May11.133626.7425@taylor.uucp> mark@taylor.uucp (Mark A. Davis) writes:
+>>I have a problem which many of you might have run into.  We use LOTS of
+>>ASCII terminals and use them to the max.  Meaning lots of attributes, line
+>>
+>>This means needing all attributes to work, including bold and line drawing.
+>>The only fonts which seem to meet these criteria are a pairs of fonts in
+>>which one is bold and the other normal, while both have linedraw, fixed
+>>spacing, and several sizes.
+>>
+>>The only standard fonts which work are the fonts like 9x15 and 9x15B under
+>>"misc".  They work great, except I need a font one size larger, 10x20.  Now
+>>10x20 works well, but there is no bold counterpart!
+>>
+
+>You don't need a 'bold' counterpart. From `man xterm`:
+
+>       -fb font
+>               This  option specifies a font to be used when dis-
+>               playing bold text.  This font  must  be  the  same
+>               height  and width as the normal font.  If only one
+>               of the normal or bold fonts is specified, it  will
+>               be  used as the normal font and the bold font will
+>               be  produced  by  overstriking  this  font.    The
+>               default  is to do overstriking of the normal font.
+
+I have tried that with one font, if your xterm terminfos/termcaps are set up
+to NOT remap bold (which they are be default) to reverse, then nothing happens
+when bold is displayed.  It would appear (at least in X11R4) than you cannot
+display bold in an xterm without specifying two fonts; a normal and a bold.
+I wish someone would prove that incorrect.
+-- 
+  /--------------------------------------------------------------------------\
+  | Mark A. Davis    | Lake Taylor Hospital | Norfolk, VA (804)-461-5001x431 |
+  | Sys.Administrator|  Computer Services   | mark@taylor / mark@taylor.UUCP |
+  \--------------------------------------------------------------------------/

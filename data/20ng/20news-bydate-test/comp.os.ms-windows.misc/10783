@@ -1,0 +1,37 @@
+From: jagrant@emr1.emr.ca (John Grant)
+Subject: Re: head-to-head win and os/2
+Organization: Energy, Mines, and Resources, Ottawa
+Lines: 32
+
+In article <1993May15.030210.4755@ccsvax.sfasu.edu> z_shererrg@ccsvax.sfasu.edu writes:
+>After hearing endless debate (READ: name-calling) over which os is better, dos
+>and windows or OS/2 and finally having enought resourses to play with a couple
+>of different operating systems, I have decided to put the two products to a
+>head to head test, as so many fellow newsposters have suggested.  I have, 
+>however, no desire whatsoever to use a version of os/2 which wont REALLY
+>do what it says (i.e. run windows apps)  OS/2 2.0-2.1 will not run windows
+>apps in 386 enhansed mode, something that most larger windows apps require, but
+>OS/2 2.2, which is supposed to be in beta test, is supposed to.  I have heard
+>that os/2 2.2 beta is available via ftp, and I was wondering if anyone knew
+>where to obtain a copy.  I would appreciate any information, as I would like, 
+>once and for all, to establish for myself which is the best os for my needs.
+
+	I don't think the question is:
+		"will OS/2 X.X run Windows Y.Y apps now?"
+
+	A more important question is:
+		"will subsequent OS/2 versions continue to run apps
+		from subsequent Windows versions in the future?"
+
+	Can it keep up?  Will a future OS/2 3.0 run Windows 4 apps?
+	OLE2 is very complex and is the sign of things to come.
+	After this fall, I believe IBM no longer has any rights to
+	view Microsoft code.  After that, the only way to maintain
+	some sort of compatibility is to reverse-engineer.  Would
+	you want to reverse-engineer an OLE2 application?
+
+
+-- 
+John A. Grant						jagrant@emr1.emr.ca
+Airborne Geophysics
+Geological Survey of Canada, Ottawa

@@ -1,0 +1,81 @@
+From: harden@skate.ics.com (Aub Harden)
+Subject: Re: Did Microsoft buy Xhibition??
+Summary: No.
+Nntp-Posting-Host: skate.ics.com
+Organization: Integrated Computer Solutions, Inc.
+Lines: 74
+
+
+In article <1993May14.191035.19271@vpbuild.vp.com>, jessea@u013.me.vp.com (Jesse W. Asher) writes:
+|> I've been getting mail from Xhibition about the June conference and I was
+|> wondering if Microsoft had bought Xhibition?  The front says "Conference
+|> from Microsoft Windows NT Developers".  What's the deal?  I thought
+|> "X"hibition was for "X-windows"??
+|> 
+|> -- 
+|>       Jesse W. Asher                                          
+
+Yes, Xhibition is for the X Window System.  The X Window System Conference 
+remains the largest and most complete conference devoted to X.  Nineteen full
+and half day tutorials and thirty-six technical sessions over three days
+provide huge amounts of information for X application developers.  Add vendor
+exhibits and a Product Presentation track to provide information on what
+folks can purchase today, and you have a complete show focused on X11.
+
+Speakers at Xhibition 93 include: 
+
+  Bob Schiefler, Lu Abel, Mark Ackerman, Paul Asente, Doug Blewett, 
+  Donna Converse, Jim Fulton, Oliver Jones, Keith Packard, Ralph Swick, 
+  Doug Young, and many others.
+
+Xhibition is growing (fortunately for us:-) and we have added some additional
+conferences.  Surveys that we have given have indicated additional topics of
+interest.  These include: object oriented technologies such as the Object
+Management Group's ORB and CORBA; C++ as it applies to X; client server
+technologies such as DCE; threads; databases- object oriented and relational;
+and (not surprisingly when you look at the audience) Windows NT.
+
+With the bulk of the Xhibition audience (and the UNIX community) developing
+applications for in-house or custom use, a new 32-bit operating system from a
+player as large as Microsoft needs to be evaluated. With MS Windows on so many
+desktops, and the price of computing power dropping, its successor needs to be
+evaluated.  As corporations begin to look at NT, so must their developers and
+suppliers.
+
+The mission of the Xhibition technical conferences is to provide information
+to the application developer and to the technology planner.  The NT Conference
+at Xhibition is designed to do just that.  We worked with Microsoft to provide
+the *only* conference this year specifically designed to show X and UNIX
+developers the capabilities of Windows and NT.  If you aren't sure that NT has
+what you need for your application development or systems deployment, this is
+the place to find out.  Ask the folks from Microsoft, get them to show you
+what you need.  Conference attendees will receive NT Software Development
+Kits- to bang on, evaluate, and generally to see for yourself.
+
+I hope this doesn't sound like an NT commercial (it should sound like an
+Xhibition commercial:-).  I just want to reiterate that the Xhibition audience
+is growing and Xhibition is growing along with it.  The industry is a
+confusing place at the moment with UNIX, COSE, NT, DCE, CORBA, and all of
+the other acronyms sprouting up.  Xhibition can help sort out the confusion.
+
+
+-Aub Harden
+ Technical Program Manager
+ harden@ics.com
+
+
+        X H I B I T I O N   The Conference and Trade
+         ******    *****    Show for Corporate
+        *      *       *    Software Development
+         ******     ***  
+             *         *    201 Broadway
+          ***     *****     Cambridge, MA  02139
+
+              Windows on Distributed Computing
+
+                 June 7 - 11,   San Jose, CA
+
+           xhibit@ics.com  uunet!ics.com!xhibit
+        Voice: (617) 621-0060  Fax: (617) 621-9555
+
+      Presented by Integrated Computer Solutions, Inc.

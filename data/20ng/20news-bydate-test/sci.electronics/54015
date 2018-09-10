@@ -1,0 +1,13 @@
+From: swwynen@undergrad.math.uwaterloo.ca (Steve W. Wynen)
+Subject: 68008 cross compilers and assemblers (Shareware?)
+Organization: University of Waterloo
+Distribution: can
+Lines: 7
+
+Can anyone point me to a cross compiler and/or assembler for the Motorola
+68008, hosted by a PC compatible.  Preferable Free or Shareware.  
+
+Also does anyone know of a GNU CC port to this chip.
+
+Thanks in advance.
+

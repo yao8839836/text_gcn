@@ -1,0 +1,68 @@
+From: myers@hpfcso.FC.HP.COM (Bob Myers)
+Subject: Re: Switching PS questions
+Organization: Hewlett-Packard, Fort Collins, CO, USA
+Lines: 63
+
+> 	Anyways, I've built the basic up & down converters with pretty
+> 	good results (>80% efficiency) but I'm running into problems
+> 	when I try to design & build anything that puts out serious
+> 	amps... I know it can be done (I have some 5V@200A guts on my
+> 	bench) but something puzzles me: I'm using a simple choke as 
+> 	the storage element (basicly a toroid with a single winding)
+> 	but ALL commercial models use transformers with MANY windings.
+> 	I traced a few and they seem to use some of the winding for
+> 	the usual error/feedback but some of the others seem to loose
+> 	me... What are they for? Better than that, anyone have a full
+> 	schematic for one of these that I could get a copy of? I'd
+> 	love to see how they manage to squeeze out so much from such
+> 	low volume :-)
+
+Most commercial switchers do NOT use magnetics for their energy storage;
+that's handled by the big caps on the primary side, those which in a 
+linearly-regulated power supply would be considered the "filter" caps,
+coming right after the bridge.  The transformer is just that - a 
+transformer.  It's there primarily to step the voltage up or down.  (Although
+the inductance seen by the switch transistor on the primary side is NOT
+negligible, as anyone who's zapped said transistor from either failing to
+get one with a high enough breakdown voltage or neglecting to include a
+"snubber" diode across it would tell you.  Actually, many transistors intended
+for switcher use today have the diode built in.)
+
+The basic switched-mode power supply operates something like this (in
+a somewhat simplified manner):  The AC line is rectified to produce a
+high voltage, more-or-less unregulated DC rail.  The energy storage (or
+"filter") caps appear across this rail, as does the switching transistor.
+The transistor chops the current into the primary side of the transformer,
+resulting in stepped-up or stepped-down pulses out the secondary, which 
+are then rectified and filtered.  At least one of the transformer's outputs
+is sampled and fed back to the control circuit for the switching transistor,
+which acts in a "pulse-width modulation" (PWM) fashion to control (by varying
+the pulse width) the amount of energy being dumped into the primary, and
+therefore the voltage coming out at the secondary.  The remaining outputs
+may be allowed to simply run at whatever value they will, more-or-less
+tracking the regulated output, or they may have some additional linear
+regulation added.  You may also note that the feedback between the 
+regulated output and the PWM control (which is most typically an IC)
+is not done via a direct electrical connection; this is due to various
+safety standards which require primary and secondary circuits to be
+electrically isolated.  Often, the feedback path involves an optoisolator
+to meet this requirement.
+
+While the transformer isn't the primary energy-storage device in these
+designs, this does not mean that the energy stored in the transformer can
+be ignored; besides the inductive "kick" giving the switch transistor a
+bad time (as noted above), you also need to worry about getting all the
+energy that went *in* to the transformer back *out* again, one way or another.
+In some designs, this happens more or less automatically - but in others,
+you need to take special care to ensure that the transformer core doesn't
+saturate, which again would have disastrous results (best left to the 
+imagination! :-)).
+
+I'm NOT by any stretch of the imagination a power-supply designer; 
+hopefully, a real one will come along soon and clean up any gross errors
+in the above.
+
+
+Bob Myers  KC0EW   Hewlett-Packard Co.      |Opinions expressed here are not
+                   Systems Technology Div.  |those of my employer or any other
+myers@fc.hp.com    Fort Collins, Colorado   |sentient life-form on this planet.

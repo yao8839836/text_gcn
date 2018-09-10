@@ -1,0 +1,40 @@
+From: paladin@world.std.com (Thomas G Schlatter)
+Subject: Re: SCSI/DOS/adding a 3rd drive..?!@#$
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 35
+
+In article <1993Apr23.070230.9189@physchem.ox.ac.uk> mark@physchem.ox.ac.uk (Mark Jackson) writes:
+>
+>In article <1r74fr$d04@jethro.Corp.Sun.COM>, maf@Corp.Sun.COM (Mike Figueroa) writes:
+>> 
+>> Does anyone know if there are any problems (or if it's possible)
+>> adding a third hard drive(scsi) to a dos pc.
+>> 
+>> I currently have a 386 pc with  Future Domain scsi board  and  2
+>> Maxtor  scsi  drives  installed.  They work great, I haven't had
+>> any problems!
+>> 
+>> Well, now I want more disk space and went out and  got   another
+>> (larger)  scsi   hard  disk  thinking all I had to do was add it
+>> to the chain(50pin ribbon  that  has  3  connectors)   and   run
+>> the   fdisk   program   to format/initialize the disk.
+>> 
+>> That didn't happen.  When the pc boots, the  scsi  prom   shoots
+>> back   the  devices   that   are  attached  to  the board[target
+>> 0/target1/target2].  All three disks are seen.
+>> 
+>> When I run the dos fdisk program to format the disk, I choose to
+>> select another  disk(option  5(dos6)) and voila, it's not there.
+>> The first two disks show up no problem, but the  third  disk  is
+>> no-where to be found....
+>
+>
+>I have got an Adaptec SCSI card, that comes with its own version of FDISK.
+>The problem with DOS is that it will only see two hard disks, any more need to be
+>done by device drivers.
+>
+
+ODD, FDISK works fine for me with 2 IDE drives and a SCSI drive on
+my Ultrastor 14F - only with the device driver loaded, though.
+
+

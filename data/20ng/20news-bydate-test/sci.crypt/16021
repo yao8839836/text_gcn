@@ -1,0 +1,28 @@
+From: ee92jks@brunel.ac.uk (Jonathan K Saville)
+Subject: Re: PGP Where to get it?
+Organization: Brunel University, Uxbridge, UK
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 22
+
+Jeff Hupp (jhupp@shockwave.win.net) wrote:
+:         
+:         I am facinated by the things I have heard about the PGP
+: encryption program.  Does anybody out there know where I might get a
+: version of this program that runs under Windows 3.1, MS-Dos, Unix
+: w/source?  As of this writting I have no UNIX access and am running on a
+: nifty windows implamentation of uucico.
+
+At the moment PGP is available in executable format for MS-DOS and Mac,
+and source code for most other platforms including UNIX. Many FTP sites
+keep a copy (although the Mac version is getting hard to find). Try the
+following site:
+
+soda.berkeley.edu           /pub/cypherpunks/pgp
+
+Jon
+--
+#      Jon Saville       |   Who alive can say, 'Thou art no
+#  ee92jks@brunel.ac.uk  |  Poet, may'st not tell thy dreams?'
+                                 ---  Keats, 1819  ---
+     PGP 2.2 public key available upon request or by finger
+

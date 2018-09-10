@@ -1,0 +1,8 @@
+Computer assisted selection and assessment of antibodies in the diagnosis of lymphomas.
+ With increasing numbers of reagents the problem of selecting appropriate antibodies to solve problems in the diagnosis of lymphoma is becoming more complex.
+ One approach is to use a computer program to optimise the selection process.
+ Such a program was devised, incorporating data from an extensive literature search.
+ When presented with a differential diagnosis it selects the most appropriate antibody panel and when given the results evaluates the relative likelihood of each possible diagnosis.
+ In a retrospective study 81% of the tests used had been non-discriminatory, but using the results of the remaining 19% of the tests, the computer was able to select the "correct" diagnosis with a high degree of certainty.
+ The development and use of this system illustrated several problems in the application of computer assisted diagnostic techniques in histopathology.
+ These problems include incomplete data and lack of understanding of the process of histopathological diagnosis.

@@ -1,0 +1,59 @@
+From: avery@gestalt.Stanford.EDU (Avery Wang)
+Subject: Re: Powerbook Duo Memory system -- SLOW
+Organization: DSO, Stanford University
+Lines: 54
+
+In article <C5yJ3L.3LC@dartvax.dartmouth.edu> Espen.H.Koht@dartmouth.edu  
+(Espen H. Koht) writes:
+> In article <1993Apr23.060059.7894@leland.Stanford.EDU>
+> avery@gestalt.Stanford.EDU (Avery Wang) writes:
+> 
+> > Hi-
+> > Do any of you hardware gurus out there know what kind of memory 
+> > architecture Apple uses in the powerbook Duos?  Or in the powerbook
+> > in general?
+> > 
+> > What are the factors that make the Duo 210 so slow compared to a desktop  
+> > machine running the same processor at the same speed (25MHz 68030)?  How  
+> > many wait states are in the memory system, etc?  What kind of a data 
+> > bus does it use?  32-bit or 16-bit?  
+> > 
+> 
+>    Huh?  Where did you get this idea from?  I think you got this
+> backwards.  The Duo's memory is faster than its equivalent desktop
+> machine by 5-10% (and the rest of the powerboks). I think the
+> explanation for this was that it can refresh faster (in 2 instead of 5
+> cycles I believe).  Things that could affect performance would be
+> factors such as use of functions enhanced in the FPU (which the Duo
+> doesn't have undocked).  Extensions and background applications can
+> slow your computer down too.  Real life differences in speed are likely
+> to be influence by the software you are running, what kind of screen
+> depth you are running etc.
+> 
+> Espen
+> 
+> PS!  The Duo is 32-bit through-out.
+
+
+Thanks for the enlightening post.  Is there a Technical Note on this?
+
+The desktop machine I was referring to was actually not a Mac,
+but rather, any of various workstations that use the
+68030@25MHz, such as old Suns or old NeXTs.  I used to own a NeXT
+68030 cube.   
+
+But I will try rebooting without extensions to see what kind of
+a speed difference I get with my powerbook Duo. I did notice an
+extreme slowdown to unusability with a Mac Plus after
+installing system 7 on it.  Why does the OS suck up so much CPU
+power? 
+
+Also, you're right--software does make a HUGE difference.  I
+have the misfortune of using MS-Works on my Duo.  When editing
+relatively small (40K) files, cut or copy takes several
+seconds, often more than 6 seconds!!  This happens with power
+cycling turned off.  As usual, MS software is maggot-infested
+feces. 
+I'm getting Nisus to replace it for my text editing.
+
+-Avery

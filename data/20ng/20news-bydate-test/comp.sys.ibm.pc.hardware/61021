@@ -1,0 +1,29 @@
+From: Michael.B.Taylor@dartmouth.edu (Michael B. Taylor)
+Subject: Re: Help adding a SCSI Drive (Can it coexist with an IDE?) - 
+ YES
+ <1993Apr22.162835.4286@oracle.us.oracle.com>
+Organization: Dartmouth College, Hanover, NH
+Lines: 21
+X-Posted-From: InterNews 1.0b15@dartmouth.edu
+
+In article <1993Apr22.162835.4286@oracle.us.oracle.com>
+ebosco@us.oracle.com (Eric Bosco) writes:
+
+> > I dont think you can mix the two types of drive, unless you have one of  
+> the
+> > SCSI/IDE cards that is available.  You will have to turn your IDE off.
+> > 
+> 
+> Is this true??? I was under the impression that people on the net had both  
+> SCSI and IDE working together.
+
+I have had a SCSI and IDE drive working together for some years now.
+SCSI is supposedly pretty transparent to other types of drives
+(ESDI,RLL,IDE,etc) - but oftentimes you need to get the correct drivers
+to get it to work with odd environments.
+
+For information purposes, I had:
+
+ST-01 Card + ST296N drive and a MAXTOR 212a drive with generic IDE
+controller running together. I have also had the same SCSI setup work
+in combination with a RLL drive, the ST251-1 drive.

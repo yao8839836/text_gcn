@@ -1,0 +1,47 @@
+From: dks@world.std.com (David K Shute)
+Subject: Re: Rumours about 3DO ???
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 42
+
+johnm@spudge.lonestar.org (John Munsch) writes:
+
+>In article <loT1rAPNBh107h@viamar.UUCP> rutgers!viamar!kmembry writes:
+>>Read Issue #2 of Wired Magazine.  It has a long article on the "hype" of
+>>3DO.  I've noticed that every article talks with the designers and how
+>>"great" it is, but never show any pictures of the output (or at least
+>>pictures that one can understand)
+
+>Gamepro magazine published pictures a few months ago and Computer Chronicles
+>(a program that is syndicated to public tv stations around the nation) spent
+>several minutes on it when it was shown at CES.  It was very impressive what
+>it can do in real time.
+
+>John Munsch
+
+The April 1993 edition of MIX Magazine carries a story on 3DO which
+includes pictures of the unit, a schematic of what's inside and some
+indication from the people at 3DO as to where they intend to go and in
+what stages. (MIX is a trade rag aimed at the professional sound
+engineering community.)
+
+The schematic shows a central DMA Engine connecting and mediating between
+two Graphics Animation processors (32 bit bus), a 32-bit RISC processor
+with math co-processor, Video Decomp module, a control port, an expansion
+port (where 3DO hangs its double-fast CD player), 1Mb DRAM, an optional
+video port (for editing video) and on the outbound side 1MB VRAM to Video
+Processor to TV chain parallel with a DSP to sound chain. 
+
+They promise Red Book CD-quality audio, full 30 fps video and a future
+connection path to your PC via a PC expansion card.
+
+I am not informed enough to have an opinion about the various means and
+methods discussed here. The article, written by Philip De Lancie, does
+cover the other machines mentioned in this thread.  I come from the PC
+TCP/IP world and see a tremendous potential for bringing connectedness to
+the educated consumer; 3DO seems to have the right business partners to
+make this happen. 
+
+Hope this helps.
+
+David Shute
+EMAIL: dks@world.std.com

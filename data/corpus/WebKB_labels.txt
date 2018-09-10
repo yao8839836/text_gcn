@@ -1,0 +1,8 @@
+cours
+facult
+studen
+projec
+project
+course
+student
+faculty

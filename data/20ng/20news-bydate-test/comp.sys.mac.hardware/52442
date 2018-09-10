@@ -1,0 +1,24 @@
+From: m16547@mwunix.mitre.org (Arthur Gorski)
+Subject: Quadra PDS Video Cards
+Summary: How to speed up Quadra video on a heavily loaded system?
+Keywords: Quadra, video, performance
+Nntp-Posting-Host: mwunix.mitre.org
+Organization: The MITRE Corporation
+Distribution: us
+Lines: 15
+
+ 
+A friend is heavily into MIDI and is using a Quadra 900 (maybe 950) with 
+all but one NuBus slot populated with arcane music hardware and a video
+card.  He reports 8 bit video is too slow for good real-time display of
+what he needs to see.  He also reports that the built-in video is even
+worse.  He's not a Mac guru, and I haven't seen the system, so this is
+about all I know.
+
+I suspect that his NuBus is heavily loaded, and think improvements might
+come from a switch to an accelerated PDS slot video card.  Does this
+sound right?  Who makes a PDS accelerated video card for the Quadra thats
+worth looking at?  Any other suggestions?  Thanks in advance!
+--
+email:  agorski@mitre.org        Arthur M. Gorski        (713) 333-0980
+snail:  The MITRE Corporation, 1120 NASA Road One, Houston, Texas 77058

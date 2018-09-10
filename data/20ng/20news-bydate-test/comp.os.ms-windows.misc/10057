@@ -1,0 +1,74 @@
+From: louray@seas.gwu.edu (Michael Panayiotakis)
+Subject: Re: Help with changing Startup logo
+Organization: George Washington University
+Lines: 69
+
+In article <735952415.AA01739@f-454.fidonet.org> C..Doelle@p26.f3333.n106.z1.fidonet.org (C. Doelle) writes:
+>Hello Brad!
+>
+>Monday April 26 1993 17:24, Brad Smalling wrote to (crosspost 1) All:
+>
+> BS> since I don't know your setup):
+>
+> BS> COPY /B WIN.CNF+VGALOGO.LGO+VGALOGO.RLE WIN.COM
+>
+> BS> (I grabbed this from _Supercharging Windows_ by Judd Robbins--great book)
+> BS> This is also how you can put your own logo into the Windows startup
+>
+>Brad,
+>    What is the procedure used to 'specially' compress the BMP file?  I would
+                                         [ to a .rle file   ^^^^^^^]
+>love to use some of my BMP files I have created as a logo screen.  Thanks
+>
+>Chris
+>
+>
+> * Origin: chris.doelle.@f3333.n106.z1.fidonet.org (1:106/3333.26)
+
+ I thought I'd reply to this, though I ain't brad.  AT any case, a lot
+of picture-file viewers that will convert, say, between .gif,etc, to
+.bmp *will* convert to .rle.  I Know for a fact that PaintShop
+(shareware from cica; /desktop, I think, filename psVVV.zip (I think,
+where VVV is the ver. number.  If that's not true, let me know and I"ll
+post a corection).
+
+
+This, however, will write your .rle file with a .bmp extension, so you
+have to rename it.
+
+NOW, another thing....
+this is from the windows' FAQ:
+
+your file has to be less than 64 K
+( at least that's what the faq says, but Mine wont work for more than
+about 30...maybe they mend 32K, I don't know).
+
+Your file has to fit VGA size (480 * 860, or whatever standard vga size
+is.)  If you use a non-vga screen (e.g. Cga, ega, svga, there is also a
+way to do it, but I thing instead of vgalogo.lgo you use another file,
+such as cgalogo.lgo, egalogo.lgo, or something.  I'm not sure about
+this, as I have a vga, but i'm sure you could find it in the faq (a
+windows help ver. of which *is* available at cica, but don't konw the
+filename). 
+
+ALSO....your .bmp has to be 16 COLOURS Or less.
+
+These specs rule out some of the good .bmp's.  I found cartoon drawings
+work quite well as they have the advantage of looking good with little
+memory.
+
+Finally, REMEMBER TO SAVE YOUR CURRENT WIN.COM before, and put your
+new win.com in the windows directory.  Also, don't start windows from a
+directory where another win.com is present, as *that* is used instead of
+the one in the windows dir, and win. won't start.
+
+
+Share this fairly, but don't take a slice of my pie (PF).
+
+Mickey
+
+-- 
+pe-|| ||  MICHAEL PANAYIOTAKIS: louray@seas.gwu.edu 
+ace|| ||                                   ...!uunet!seas.gwu.edu!louray
+|||| \/|  *how do make a ms-windows .grp file reflect a HD directory??*
+\\\\   |  "well I ain't always right, but I've never been wrong.."(gd)

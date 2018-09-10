@@ -1,0 +1,21 @@
+From: sakaria@vipunen.hut.fi (Sakari Aaltonen)
+Subject: aXe/HP-UX Problem
+Nntp-Posting-Host: vipunen.hut.fi
+Reply-To: sakaria@vipunen.hut.fi (Sakari Aaltonen)
+Organization: Helsinki University of Technology
+Lines: 14
+
+I`ve been happy with aXe under Linux. Now I wanted to use it under HP-UX,
+too. However, my attempts have ended in core dumps this far (Bus Error).
+
+Has anybody else been more successful? Jim Wight`s INSTALL file does
+say there have been problems with HP`s...
+
+Data: aXe 5.0; HP-UX 9.01; X11R4 or X11R5 doesn`t seem to matter (shared
+libs); HP 9000/720.
+
+Thanks in advance,
+
+-- 
+Sakari Aaltonen            | Linux is an ftp-able Unix clone for 386/486 PC's.
+sakaria@vipunen.hut.fi     | Boggles *my* mind, it does.

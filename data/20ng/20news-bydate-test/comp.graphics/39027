@@ -1,0 +1,18 @@
+From: abh@genesis.nred.ma.us (Andrew Hudson)
+Subject: Source to create FLI or FLC ?
+Summary: looking for source to create FLI or FLC
+Organization: Genesis Public Access Unix +1 508 664 0149
+Lines: 12
+
+
+Does anyone know if the source is available to create FLI
+or FLC animations? I would ideally like DLL's for Windows
+but would settle for C source.  I've heard they might be 
+available on Amiga forums somewhere.  The libraries
+currently distributed by Autodesk, AAWIN, AAPLAY, do NOT
+have FLI creation capability, only playback.
+
+Any pointers would be appreciated, thanks!
+
+- Andrew  Hudson
+abh@genesis.nred.ma.us

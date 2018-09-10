@@ -1,0 +1,22 @@
+From: jvs@jacks.apana.org.au (Jack Strangio)
+Subject: SVR4 xclients won't work under SVR4.2 (repost)
+Organization: Prospect 5082, AUSTRALIA
+Lines: 17
+
+When I changed from SVR4 to SVR4.2 on my Intel box I discovered that
+some of my SVR4 xclients such as xload, etc would no longer work.
+
+
+They bomb out with the message:
+
+error: can't open display unix:0.0
+
+Is this because they can't find the correct shared libraries, they need
+to be recompiled, or have I not used the correct options?
+
+Both systems use X11R5.
+
+Thanks.
+
+Jack.
+

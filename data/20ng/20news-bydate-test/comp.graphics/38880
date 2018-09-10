@@ -1,0 +1,156 @@
+From: walter@uni-koblenz.de (Walter Hower)
+Subject: Re: PARAMETRIC/VARIATIONAL DESIGN
+Organization: University of Koblenz, Germany
+Lines: 149
+NNTP-Posting-Host: wolf.uni-koblenz.de
+In-reply-to: patel@enuxha.eas.asu.edu's message of Wed, 28 Apr 1993 18:15:40 GMT
+
+Here now some initial references; best regards - Walter.
+@InProceedings{Keirouz:et:al:90,
+  author = 	"Walid Keirouz and Jahir Pabon and Robert Young",
+  title = 	"{Integrating parametric geometry, features, and
+		 variational modeling for conceptual design}",
+  booktitle = 	"International Conference on Design Theory and Methodology",
+  year = 	"1990",
+  editor = 	"{J.\ R.}\ Rinderle",
+  pages = 	"1--9",
+  organization = 	"American Society of Mechanical Engineers (ASME)",
+  OPTpublisher = 	"",
+  OPTaddress = 	"",
+  OPTmonth = 	"",
+  note = 	"Proceedings"
+}
+
+
+@InProceedings{Yamaguchi:Kimura:90,
+  author = 	"Yasushi Yamaguchi and Fumihiko Kimura",
+  title = 	"{A constraint modeling system for variational geometry}",
+  booktitle = 	"{Geometric modeling for product engineering}",
+  year = 	"1990",
+  editor = 	"{Michael J.}\ Wozny and {J.\ U.}\ Turner and {K.}\ Preiss",
+  pages = 	"221--233",
+  organization = 	"IFIP",
+  publisher = 	"Elsevier Science Publishers B.V.\ (North-Holland),
+		 Amsterdam, The Netherlands",
+  OPTaddress = 	"",
+  OPTmonth = 	"",
+  note = 	"Selected and Expanded Papers form the IFIP WG 5.2/NSF
+		 Working Conference on Geometric Modeling, Rensselaerville, NY, U.S.A.,
+		 18--22 September 1988"
+}
+
+@InProceedings{Chung:et:al:88,
+  author = 	"{Jack C.\ H.}\ Chung and {Joseph W.}\ Klahs
+		 and {Robert L.}\ Cook and Thijs Sluiter",
+  title = 	"{Implementation issues in variational geometry and
+		 constraint management}",
+  booktitle = 	"Third International Conference on
+       CAD/CAM, Robotics and Factories of the Future (CARS and FOF'88)",
+  year = 	"1988",
+  OPTeditor = 	"",
+  OPTpages = 	"",
+  OPTorganization = 	"",
+  OPTpublisher = 	"",
+  address = 	"Detroit, Michigan, USA",
+  month = 	" August 14--17,",
+  note = 	"Proceedings, probably: Springer-Verlag,
+		 Berlin/Heidelberg, 1989"
+}
+
+@Article{Kimura:et:al:86,
+  author = 	"Fumihiko Kimura and Hiromasa Suzuki and Toshio Sata",
+  title = 	"{Variational Product Design by Constraint Propagation
+		 and Satisfaction in Product Modelling}",
+  journal = 	"Annals of the CIRP",
+  year = 	"1986",
+  volume = 	"35",
+  number = 	"1",
+  pages = 	"75--78",
+  OPTmonth = 	"",
+  note = 	"(probably) International Institution for Production Engineering Research"
+}
+
+@Article{Kimura:et:al:87,
+  author = 	"{F.}\ Kimura and {H.}\ Suzuki and {H.}\ Ando and {T.}\ Sato and
+		 {A.}\ Kinosada",
+  title = 	"{Variational Geometry Based on Logical Constraints
+		 and its Applications to Product Modelling}",
+  journal = 	"Annals of the CIRP",
+  year = 	"1987",
+  volume = 	"36",
+  number = 	"1",
+  pages = 	"65--68",
+
+@InProceedings{Chung:Schussel:89,
+  author = 	"{Jack C.H.}\ Chung and {Martin D.}\ Schussel",
+  title = 	"{Comparison of Variational and Parametric Design}",
+  booktitle = 	"Autofact '89",
+  year = 	"1989",
+  OPTeditor = 	"",
+  pages = 	"5-27 -- 5-44",
+  OPTorganization = 	"",
+  OPTpublisher = 	"",
+  address = 	"Detroit, Michigan, USA",
+  month = 	"October 30 -- November 2,",
+  note = 	"Conference Proceedings"
+}
+
+
+@Article{Pabon:et:al:92,
+  author = 	"Jahir Pabon and Robert Young and Walid Keirouz",
+  title = 	"{Integrating Parametric Geometry, Features, and
+		 Variational Modeling for Conceptual Design}",
+  journal = 	"International Journal of Systems Automation: Research
+		 and Applications (SARA)",
+  year = 	"1992",
+  volume = 	"2",
+  OPTnumber = 	"",
+  pages = 	"17--36",
+  OPTmonth = 	"",
+  OPTnote = 	""
+}
+
+@Article{Kondo:90,
+  author = 	"Koichi Kondo",
+  title = 	"{PIGMOD: parametric and interactive geometric
+		 modeller for mechanical design}",
+  journal = 	"CAD, computer-aided design",
+  year = 	"1990",
+  volume = 	"22",
+  number = 	"10",
+  pages = 	"633--644",
+  month = 	"december",
+  note = 	"Butterworth-Heinemann Ltd"
+}
+
+
+@InProceedings{Zalik:et:al:92a,
+  author = 	"Borut {\v{Z}}alik and Nikola Guid and Aleksander Vesel",
+  title = 	"{Parametric Design Using Constraint Description Graph}", 
+  booktitle = 	"CAD '92, Neue Konzepte zur Realisierung
+		 anwendungsorientierter CAD-Systeme",
+  year = 	"1992",
+  editor = 	"{Frank-Lothar} Krause and Detlev Ruland and Helmut Jansen",
+  pages = 	"329--344",
+  OPTorganization = 	"",
+  publisher = 	"Informatik aktuell, Springer-Verlag, Berlin/Heidelberg",
+  OPTaddress = 	"",
+  month = 	"14./15.\ Mai",
+  note = 	"GI-Fachtagung, Berlin"
+}
+
+
+@InProceedings{Murtagh:Shimura:90,
+  author = 	"Niall Murtagh and Masamichi Shimura",
+  title = 	"{Parametric Engineering Design Using Constraint-Based Reasoning}",
+  booktitle = 	"AAAI-90, Eighth National Conference on Artificial Intelligence",
+  year = 	"1990",
+  OPTeditor = 	"",
+  pages = 	"505--510",
+  organization = 	"American Association for Artificial Intelligence",
+  publisher = 	"Proceedings, Volume One, AAAI Press, Menlo Park, CA, U.S.A.",
+  address = 	"Boston, MA",
+  month = 	"July 29 -- August 3,",
+  OPTnote = 	""
+}
+

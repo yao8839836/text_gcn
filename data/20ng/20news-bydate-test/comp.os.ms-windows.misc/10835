@@ -1,0 +1,30 @@
+From: ioerger@sophocles.cs.uiuc.edu (Thomas Ioerger)
+Subject: logic of backup?
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 25
+
+I have been backing up my hard drive ever since I had to re-install
+everything from scratch after a crash (learned the hard way, didn't I?!).
+I am using a windows-based backup program (actually Norton), and I 
+began wondering about the logic of this.  Sure, if I accidentally delete
+a file, I can get it from the archive.  But what if my disk crashes again?
+I would not be able to start windows to run the backup program!  (Note,
+by crash, I mean, there was some error message that prevented the machine
+from booting properly.  I think I gave up too early, but I didn't have
+the time/patience/tools to figure out exactly what the problem was.  My
+hard drive needed cleaning up anyway. Yeah right...)  This whole scenario
+is complicated by the fact that I am using Stacker.
+
+So I think there are 2 possibilities:
+
+   1) I'm right.  If my disk really crashes, I would at least have to
+      re-install DOS and Windows to get the backup program working.
+   2) I'm wrong.  There is an easy way to make a "mirror" of a hard disk
+      that can easily restore it's state from scratch.
+
+The polls are open...
+
+Tom Ioerger
+Univeristy of Illinois, CS grad student
+ioerger@cs.uiuc.edu
+

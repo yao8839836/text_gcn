@@ -1,0 +1,142 @@
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Galileo Update - 04/29/93
+Keywords: Galileo, JPL
+Organization: Jet Propulsion Laboratory
+Lines: 134
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+News-Software: VAX/VMS VNEWS 1.41
+
+Forwarded from Neal Ausman, Galileo Mission Director
+
+                                 GALILEO
+                     MISSION DIRECTOR STATUS REPORT
+                               POST-LAUNCH
+                           April 23 - 29, 1993
+
+SPACECRAFT
+
+1.  On April 22 and 23, delta Differenced One-way Range (DOR) passes were
+performed over DSS-14/63 (Goldstone/Madrid 70 meter antennas) and DSS-14/43
+(Goldstone/Canberra 70 meter antennas), respectively.  Initial results 
+indicate the delta DOR pass on April 22 was unsuccessful due to ground
+station hardware problems but the one on April 23 was successfully performed.
+
+2.  On April 23, a cruise science Memory Readout (MRO) was performed for the
+Magnetometer (MAG) instrument.  Analysis indicates the data was received
+properly.
+
+3.  On April 23, the spare power relay contacts were commanded closed via the
+spacecraft stored sequence.  These relays were commanded closed by the CDS
+(Command Data Subsystem) prior to launch and were again commanded closed to
+preclude the possibility at Jupiter of the PPS relays/wiring being a
+source of internal electrostatic charge (IESD).
+
+4.  On April 26, cruise science Memory Readouts (MRO) were performed for the
+Extreme Ultraviolet Spectrometer (EUV), Dust Detector (DDS), and Magnetometer
+(MAG) instruments.  Preliminary analysis indicates the data was received
+properly.
+
+5.  During the period from April 26 to April 27, a navigation cycle was
+performed.  This navigation cycle provided near-continuous acquisition of
+two-way doppler and ranging data during three consecutive passes of the
+spacecraft over DSS-63, DSS-14, and DSS-43.
+
+6.  On April 26, real-time commands were sent to test slew the Radio Relay
+Antenna (RRA) in preparation for the mini-sequence slew test on April 28.
+The RRA was slewed from approximately 3.5 degrees from stow to approximately
+20.3 degrees.  Preliminary analysis indicated the antenna slewed to about 18
+degrees which was well within the predicted range.  The RRA was commanded back
+to approximately 15.2 degrees from stow.  Preliminary analysis indicated the
+antenna reached about 15.8 degrees also well within the predicted range.  The
+RRA motor temperature was at 1 degree C at the start of the activity and had
+increased to 1.6 degrees C at its completion.
+
+     After verifying proper RRA slewing, the RRA slew test mini-sequence was
+uplinked to the spacecraft for execution on April 28.  Upon successful uplink,
+a Delayed Action Command (DAC) was sent which will reposition the stator on
+May 4 to its initial pre-test position.  Also, a DAC was sent to turn the
+Two-Way Noncoherent (TWNC) on April 28 prior to the start of the RRA slew test
+mini-sequence.
+
+7.  On April 27, a NO-OP command was sent to reset the command loss timer to
+264 hours, its planned value during this mission phase.
+
+8.  On April 28, the RRA slew test executed nominally.  The spacecraft under
+stored sequence control performed six RRA slews starting at about 16 degrees
+from stow and going to 53 degrees, back to 25 degrees, then to 51 degrees,
+back to 22 degrees, then to 48 degrees and then back to 21 degrees.  All of
+the slews were well within the predicted range.  The RRA motor temperature was
+at 2.3 degrees C at the start of the activity and had increased to 4.4
+degrees C at its completion.  After completion of the RRA slews, real-time
+commands were sent to reconfigure back to the pre-test configuration.
+
+9.  The AC/DC bus imbalance measurements have not exhibited significant change
+(greater than 25 DN) throughout this period.  The AC measurement reads 17 DN
+(3.9 volts).  The DC measurement reads 134 DN (15.7 volts).  These
+measurements are consistent with the model developed by the AC/DC special
+anomaly team.
+
+10. The Spacecraft status as of April 29, 1993, is as follows:
+
+       a)  System Power Margin -  75 watts
+       b)  Spin Configuration - Dual-Spin
+       c)  Spin Rate/Sensor - 3.15rpm/Star Scanner
+       d)  Spacecraft Attitude is approximately 23 degrees
+           off-sun (lagging) and 4 degrees off-earth (leading)
+       e)  Downlink telemetry rate/antenna- 40bps(coded)/LGA-1
+       f)  General Thermal Control - all temperatures within
+           acceptable range
+       g)  RPM Tank Pressures - all within acceptable range
+       h)  Orbiter Science- Instruments powered on are the PWS,
+           EUV, UVS, EPD, MAG, HIC, and DDS
+       i)  Probe/RRH - powered off, temperatures within
+           acceptable range
+       j)  CMD Loss Timer Setting - 264 hours
+           Time To Initiation - 203 hours
+
+
+GDS (Ground Data Systems):
+
+1.  The first Galileo-GDS test of the MGDS V18.0 Command System (CMD) took
+place April 27, 1993 with DSS-61 (Madrid 34 meter antenna).  The test went
+well and demonstrated that the new command system interfaced with the new DSN
+(Deep Space Network) Group 5 Command Processor Assembly (CPA).  The test was
+successful and the next test for V18.0 CMD is scheduled for May 1, 1993 with
+DSS-15 (Goldstone 34 meter antenna).
+
+2.  The April System Engineers Monthly Report(SEMR)/Ground System Development
+Office (GSDO) MMR was conducted Thursday, April 29.   A review of current
+Project and Institutional (DSN and MOSO) system status was conducted.  On-going
+cruise development plus the GSDO Phase 1 and 2 delivery schedules, past months
+accomplishments  and potential problem areas were discussed.  No significant
+schedule changes or significant problems were reported.
+
+
+TRAJECTORY
+
+     As of noon Thursday, April 29, 1993, the Galileo Spacecraft trajectory
+status was as follows:
+
+	Distance from Earth         187,745,300 km (1.26 AU)
+	Distance from Sun           296,335,800 km (1.98 AU)
+	Heliocentric Speed          89,100 km per hour
+	Distance from Jupiter       522,015,800 km
+	Round Trip Light Time       20 minutes, 58 seconds
+
+SPECIAL TOPIC
+
+1.  As of April 29, 1993, a total of 70259 real-time commands have been
+transmitted to Galileo since Launch.  Of these, 65150  were initiated in the
+sequence design process and 5109 initiated in the real-time command process.
+In the past week, 74 real time commands were transmitted: 73 were initiated
+in the sequence design process and one initiated in the real time command
+process.  Major command activities included commands to perform the initial
+RRA slew test, uplink the RRA slew test mini-sequence, DACs to reposition the
+stator and turn the TWNC on, reset the command loss timer, and execute the
+RRA slew test.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.

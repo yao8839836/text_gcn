@@ -1,0 +1,163 @@
+From: msunde01@mik.uky.edu (Mark  Underwood)
+Subject: Re: How to the disks copy protected.
+Article-I.D.: ms.C5wKKJ.42I
+Reply-To: msunde01@mik.uky.edu
+Organization: University Of Kentucky, Dept. of Math Sciences
+Lines: 155
+Nntp-Posting-Host: nx34.mik.uky.edu
+
+In article <1993Apr22.163605.24784@csus.edu> kschang@sfsuvax1.sfsu.edu  
+(Kuo-Sheng (Kasey) Chang) writes:
+> 
+> There are several types of copy protection, and the point is to make  
+sure the
+> user is using a legitimate copy.  The simplest and virtually fool-proof  
+way is
+> for the program to somehow fixate itself to the machine it was installed  
+on
+> (some sort of checksum, serial number, whatever) so a copy put on a  
+different
+> machine (NOT installed from original disks) will not work.  
+> 
+
+Okay, so what do you do if some part of the machine (presumably the part  
+on which the code number or whatever that the program has fixated itself  
+upon goes bad, you replace that part, and now your program won't run  
+because it's on a "different" computer???
+
+This is, of course, assuming that the program uses something in ROM (like  
+the BIOS serial number, maybe?) and not a disk-based code number.   
+Obviously if the drive goes bad you'll be reinstalling the stuff anyway.
+
+I work in a computer lab which is part of the university microlab system.   
+We have the wonderfully fun task of maintaining well over a hundred  
+machines, both PC and Macintosh, as well as administering a network of  
+over 50 NeXT machines.  I personally am concerned only with a small lab  
+with ten PC's and ten Mac's.  (I'm not the manager, but help him with  
+admin often).  IMHO, copy-protection schemes of ANY sort are nothing more  
+than a major headache for the legitimate user.  Anyone who wants a copy of  
+your program and doesn't care about legality will get a copy.  Period.   
+"Pirate board" or no pirate board.  I too have "friends" who blatantly and  
+quite successfuly "hack" copy protection schemes practically in their  
+sleep.
+
+Let's consider what goes on in our lab.  Almost daily we have at least one  
+machine down, sometimes several, due to some goofball screwing up some  
+setting or other on a piece of software.  Admittedly, we (being students,  
+mostly) are not the world's most efficient and effective network  
+administrators, but we try.  Keeping even the twenty machines that are  
+(partly) my responsibility even vaguely looking and "acting" similar to  
+the average user, and maintaining "behind-the-scenes" consistency is a  
+real headache, but not so bad a headache as trying to remember twenty  
+different folder locations of Norton Utilities when some guy trashes his  
+disk.
+
+Often we have hardware problems at peak "business" times and have to do  
+some parts-swapping to get stuff working temporarily. . . .
+
+Well, I'll cut to the chase and quit boring y'all . . ..
+
+The point is, often we have to re-install software and copy configuration  
+files etc. from machine to machine.  By far the easiest way we have found  
+to do this is to get ONE machine working EXACTLY the way we want to, then  
+COPY the complete setup of this machine to the other nine (of that  
+machine's type).  This ensures us that (for at least ten minutes) we have  
+ten IDENTICAL machines to work with.  Having them networked simplifies  
+this considerably, as our major packages (WordPerfect, Windows, etc.) are  
+all network versions and thus only one copy to mess with.
+
+Often, however, we need to install a package requested by some instructor  
+to one, some, or all of the machines for a special project.  This is  
+usually a hand-written or shareware,etc. program similar to what I believe  
+the original poster was asking about.  The few we have had with "copy  
+protection" schemes have caused nothing but NIGHTMARES for us to maintain  
+ . .
+
+In short, don't waste your time with a copy protection scheme.  It's sort  
+of like outlawing guns.  The criminals will get your program anyway, and  
+you will only be hurting the legitimate, honest user.  Write a good user's  
+guide and tech manual, whatever else for your program (PLEASE do this  
+REGARDLESS of whether you copy protect the thing!!!), and only distribute  
+the manual to LICENSED users.  Jack the price to cut your losses, but  
+please take a cue from the major companies (who can admittedly afford the  
+costs of illegal copies far better than you) and don't burden the  
+legitimate user with a "copy protection" scheme!
+
+
+Sorry for the tirade, but it's been a long day here . . .. :-)
+
+
+Mark S. Underwood
+EE Student, University of Kentucky
+Lab Assistant, Boyd Hall Microlab 
+	(a tiny little division of UK Library Microlabs)
+E-Mail:  msunde01@mik.uky.edu
+
+
+
+
+> The program is definitely backupable, if restored to the same machine  
+(depends
+> on the programmer...  don't use a disk drive characteristic!)  If the  
+user 
+> did an upgrade to the machine, he/she should reinstall all programs any  
+way.
+> No document look-up, no disk wear-and-tear!
+> 
+> I did not say that the originals would allow only one install.  The  
+user's 
+> conscience should do that.
+> 
+> I know, I'll get flamed for this...  But with the increasing number of  
+"casual"
+> users who either unknowingly or don't care about the software copyrights
+> (It's the truth.  I have "friends" who ask me for copies of my latest  
+games
+> all the time, and when I refused, they went after somebody else.),  
+casual
+> pirating is becoming more of a problem.  Some sort of copy protection  
+will
+> discourage the casual copying.  I've seen what some of my "friends" dug  
+up
+> somewhere...  Latest and the greatest games, all cracked, WITHIN days of  
+actual
+> release!  You know how many bytes you need to change in X-wing to  
+disable
+> the quiz?  TWO!  Yes, TWO!  (And don't ask me which ones they are.)   
+Determined
+> pirates are unstoppable, given enough time, but their results do not  
+spread 
+> that far, since pirate boards are not that well-known, and easily  
+tracked once
+> found by authorities.  It is the "casual" pirates that the copy  
+protection is
+> determined to discourage.
+> 
+> What I believe the companies should do is implement the above plus
+> a special patch once the user registers that loudly exclaims upon bootup
+> "REGISTERED TO XXXXX -- address, city, state zip" and disables the  
+above.
+> Two benefits: 1) encourages registration, 2) cuts down on pirating and
+> makes it more traceable, because if the patch's registration message is
+> encrypted, it will be quite hard to change, and therefore provides a
+> stable trail of who allowed their copy out of their hands, and thus
+> violated their license agreement.
+> 
+> This way, the legitimate users who does not register will experience  
+minimal 
+> discomfort (who does major upgrades to their computer frequently?) as  
+only
+> problem they have is they won't be able to restore to another computer.
+> 
+> The registered users would have proven they are legitmate users and  
+therefore
+> gains full rights, and can restore to different machines.  On the other  
+hand,
+> the software company now have a record of where THIS particular copy is 
+> supposed to be.  If this user's copy was found to be somewhere it was  
+not 
+> supposed to be, we know who has broken their license agreement.  Of  
+course,
+> a hacker can break that eventually, but that's not the point, is it?
+> 
+> --Kasey Chang

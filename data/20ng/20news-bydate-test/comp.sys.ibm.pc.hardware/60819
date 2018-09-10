@@ -1,0 +1,34 @@
+From: orville%weyrich@uunet.uu.net (Orville R. Weyrich)
+Subject: WANTED: Floppy controller that can handle multiple floppies
+Reply-To: uunet.uu.net!weyrich!orville
+Organization: Weyrich Computer Consulting
+Distribution: usa
+Lines: 27
+
+I need to duplicate a bunch of floppy disks (3.5") and ideally would like to
+be able to keep 2 to 4 floppies busy simultaneously on a single PC.
+[Yes, I know that services to do this exist.] 
+
+I know that standard ISA bus floppy controllers can only have one drive active
+at a time. I know that some controllers are available that can handle 4 
+floppies with serialized access. I know that microchannel machines can keep 
+more than one floppy active simultaneously. But does anyone have a controller 
+for an ISA bus PC that can simultaneously keep 2 to 4 floppies going?
+How about for an EISA machine?
+
+If the limitation is a software limitation, I can work around that by using
+OS/2 1.3 on my PC-286.
+
+New or used, I'm interested.
+
+
+
+orville
+
+-------------------------------------------      *******************************
+Orville R. Weyrich, Jr.                          Weyrich Computer Consulting
+Certified Data Processor                         POB 5782, Scottsdale, AZ 85261
+Certified Systems Professional                   Voice:    (602) 391-0821
+Certified Computer Programmer                    Internet: orville@weyrich.com 
+No freedom without responsibility.               UUCP:     uunet!weyrich!orville
+-------------------------------------------      *******************************

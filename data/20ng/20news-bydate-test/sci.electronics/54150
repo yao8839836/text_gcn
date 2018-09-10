@@ -1,0 +1,25 @@
+From: jmacphai@cue.bc.ca (James MacPhail)
+Subject:  Help! Need thermal specs for MC68030FE
+Nntp-Posting-Host: cue.bc.ca
+Organization: Computer Using Educators of B.C., Canada
+Lines: 19
+
+I'm doing some work on the Mac IIsi and need some information on the CPU.
+I have the Motorola MC68030UM/AD Rev. 1, but I fear it is out of date as it
+does not have the characteristics for the CPU package type used in the IIsi.
+
+What I need is the Theta (JC) Thermal Characteristic (the Junction to Case
+thermal resistance) for the _PLASTIC_ FE style package.
+
+If you have this info, I would appreciate your sending it by email as postings
+suffer a few days delay here.
+
+If you are keen on this stuff, I am also interested in a more accurate value
+for the typical power dissipation. I'm assuming 2.25 Watts (using the 2.6 W
+maximum at 0 C decreased the way the Pd drops in the 6801x as Ta increases).
+If your manual has a chart of power dissipation, I'd like to know what it
+reads at 25 C and 40 C.
+
+Thanks for reading!
+
+James MacPhail  jmacphai@cue.bc.ca  (on bounce try james@mirg2.phy.queensu.ca)

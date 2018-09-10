@@ -1,0 +1,35 @@
+From: mg@cs.princeton.edu (Michael Golan)
+Subject: clipper serial numbers need 2nd court order?
+Originator: news@nimaster
+Nntp-Posting-Host: atomic.princeton.edu
+Organization: Princeton University
+Lines: 28
+
+something that no one has discussed yet (or I missed it):
+
+The FBI sets up a wiretap AFTER the court order was handed. 
+Only at this point they can access the line and detect 
+the serial number N.
+
+What happens next, does the FBI simply asks for the keys
+for N, and, since a warrant was issued for the line, the FBI 
+simply gets it? What if multiple phones are used from the
+same house, the FBI just asks for N1, N2, etc.?
+
+Exactly who is to prevent the FBI from claiming some
+other serial number, X, was also used over the wirtapped 
+line and get the keys for X? 
+
+Either a second court order (for the specific serial/key)
+is required (and I have seen no indication of this), or
+the FBI can effectively ask for any pair of keys at any
+time, so the escrow key holders are a total fake.
+
+An unrelated issue: if and when all phones always use
+the clipper chip, how are call-transfers going to take 
+place?!
+
+
+ Michael Golan
+ mg@cs.princeton.edu
+

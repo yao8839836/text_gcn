@@ -1,0 +1,48 @@
+From: emstadth@iastate.edu (Eric M Stadtherr)
+Subject: Re: Cache card for IIsi
+Organization: Iowa State University, Ames IA
+Lines: 43
+
+I ran speedometer 3.21's tests (all of them) on my IIsi first with the 64k
+cache enabled, then with the cache disabled.  I put both runs in this
+uuencoded machine record...  the numbers favor the cache, mostly for
+benchmarks with a lot of memory throughput...
+
+-----cut here-------
+
+begin 644 cache.sit
+M  EC86-H92YS:70                                             
+M                          !3251$4TE4(0                ./    
+M *?YO*&G^;RP                              "!@?F"  !3250A  $ 
+M  ./<DQA=0)&    %@#_#0 -8V%C:&4@8V]M<&%R90                  
+M     .7B                                  #_____36-H5'-09#, 
+M *?YNJ"G^;QB   *NP        ,)     !-1          !B.R-$#B(J7T#D
+M1B4[W_S+_4_N?P[?FT"=K_F%1[^T_R_W/^6-2;$49S$MG9%T[@1S7"P5-<+Q
+M^04E-^Y^W_S-PWML1/M9JTU K4-5X*NCX5=3-MM[C2KW<]V0%&9P\]\Y89\5
+MJHQ#1*A8=>?\BHL%2]\J&29KE=6X+Z-K&[=_ZH>"9<OE#O]5^C,H'7R@&BLC
+M&<[C6IJ;7&?S??.(7)=1R;@678ZQB"G%S137]7?=JSNE&&MO-V2KZ4Y'U1E8
+MM+AA?L,?YH#R1RR&6_$9Y_GF-[#:^?.87S;9F<%9O]-3G.9K](E9D1X'/'F,
+MKPEIB+4RJ\;STS'LM!5'^* 7<P0'/^"X'8_Q-8[BRBU4AI0M;>1>M*"!#;(%
+MB_-9,E6HVC=W>_()"YV=:P0O=F0B8D^K;US44,?L95$L&U*OPN-US I<F-?0
+MV;:9M8;7>/\P&YXZ7DII4^G=-Y:>^K$S+W0T>9H\-_S\,]N^<ND63!$1FVDF
+MZJVHXU%?0-V/&8W&)*4"NPWU4).SR?G(M"<_O/&;QQ6!"SN%NP6[Z/O0P,$-
+M:'(T.;ZR8LV$]9^.-X$W#_4=S.W-V*2K5^16Y)Y[>=.,^]MN$CX+H.G=Y&YR
+M?Z32?L@_4';)*:6/_.SV<<T9758PAI&L<<F2]Q:U,B2IFM;W;XT,Y[\])79P
+MD3QZ<JC".C>X.D)PX^[-[,8U:W'&E&DJ6_CW^OX%_E!6VS)H<C7.X\>VOZ>>
+M>R3RW7LD84&??9-TGR(>2^Z1IR?-NVSIIS_TNKA'GOSXY]Q/)(;_$M0JU&FH
+M"U''H>(E_@RFJ 4U&!@N_U?%/7)@X;<W/SIWVU_97.[CV$7? S8<_$!QC[RY
+M\&L?^].__="EX'X#7!_4M=@E/VVB)KI(^=O'*N[\TMG0PGE\5]PC]U?>FSHO
+M%O@;<8^<^/:3?_W-!V=U_EM<]TC'/R/RVENN\E5 3-1-CDBTFP'S[8QUQR 4
+M](5?CNK._!A5"(.()7V,H,/?07_[FVL\(2G-<=M4RVIRPLC6'L)4S5[7_F,<
+M^PZ_"@                                                      
+M                                                            
+;                                    
+ 
+end
+
+
+-- 
+Eric Stadtherr      |   Help Room Consultant,    138 Durham     (515) 294-1314
+Storms 8147 Sage    |   "With a smile upon my face,             home: 296-9201
+Ames IA  50013-0015 |    I never want to leave this place."   -GnR
+-------------------------------------------------------------------------------

@@ -1,0 +1,51 @@
+From: mjones@fenway.aix.kingston.ibm.com (Mike Jones)
+Subject: Re: How does a pitcher get a save?
+Reply-To: mjones@donald.aix.kingston.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: fenway.aix.kingston.ibm.com
+Organization: IBM AIX/ESA Development, Kingston NY
+Lines: 43
+
+mikef@bvc.edu writes:
+>In article <1993Apr23.135139.18749@newshub.ariel.yorku.ca>, cs902060@ariel.yorku.ca (GEOFFREY E DIAS) writes:
+>> 	The subject line says it all. What is the rule that qualifies
+>> a pitcher as making a save?
+>IMHO this is the most untrustworthy, silly stat, by today's rules, in all 
+>of baseball.  My understanding is to qualify as a save a pitcher cannot 
+>pitch more than three innings and the potential tying run must at least 
+>appear in the on-deck circle.  Also, the lead a pitcher enters with cannot 
+>excede three runs.
+
+This is a phenomenon known around work as ready-fire-aim. I am astounded at
+the number of times people post strong opinions about things they not only
+don't understand but publicly admit to not understanding. In fact, there's a
+plausible argument that saves are a more rational stat than wins.
+
+For the record, there are two ways that a reliever can get a save:
+He must finish the game and either
+1. have entered the game with the tying run on base, at bat, or on deck.
+2. have pitched at least three innings effectively.
+A pitcher may not get a win and a save in the same game.
+
+>I believe that the official scorers must assert more of their authority in 
+>determining winners/savers/etc.  For instance, a pitcher can come in in the 
+>ninth with a lead, blow the lead, fall behind, have his team come back in 
+>the next half inning and earn the win.  Has this pitcher earned a win, no 
+>way.
+
+But this is an argument that *wins* is a dumb stat, not saves.
+
+>I guy could pitch five strong innings of middle relief and see his 
+>teammates rally to tie the score.  Assume he came in to start the fourth 
+>and left after the eighth.  His teammate holds the opposition scoreless in 
+>the ninth and they score a run in the bottom of the ninth to win.  The 
+>third pitcher earns the win and the middle reliever gets no "stat" 
+>satisfaction.
+
+This again doesn't support your claim about saves at the beginning of your
+post. 
+
+ Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com
+
+Conceptual integrity is the most important consideration in system design.
+	- Frederick P. Brooks, Jr., The Mythical Man-Month

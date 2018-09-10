@@ -1,0 +1,47 @@
+From: povlphp@uts.uni-c.dk (Povl H. Pedersen)
+Subject: Re: SE/30 8bit card does not work with 20mb..
+Organization: UNI-C, Danish Computing Centre for Research and Education
+Keywords: SE/30 MODE32 System7 PDS
+Lines: 41
+
+In <1r4kve$6cl@news.cs.tu-berlin.de> ossip@cs.tu-berlin.de (Ossip Kaehr) writes:
+
+>I have a SE/30 and a Generation Systems 8bit PDS card for a 17"
+>screen.
+>It worked great until I upgraded from 5 to 20 mb ram.
+>Now with Sys7.1 and MODE32 or 32enabler it does not boot..
+
+>a tech support person said the card does not support these 32bit
+>fixes.
+
+I guess he is right. Early versions of the RasterOps cards did not either,
+but they fixed it, and people with problems can get a free ROM upgrade
+from RasterOps.
+
+>BUT: when pressing the shift key while booting (when the ext. monitor
+>goes black after having been grey) the system  SOMETIMES boots properly!!
+>and then works ok with the 20mb and full graphics.
+
+>WHAT's HAPPENING???
+
+Very easy. If you boot without the MODE32 control panel, then it will
+disable (or rather not reinstall) the 32-bit clean patches. So when
+you run OK you must be in 24-bit adressing mode. Check About this Macintosh
+and see if you havce a 12+MB system.
+
+>Thanks a lot for any advice!!!
+>please answer by mail.
+
+sent seperately.
+>Ossip Kaehr
+>ossip@cs.tu-berlin.de
+>voice: +49.30.6226317
+>-- 
+> __   --------------------------------------------------------------   __
+>/_/\  Ossip Kaehr	Hermannstrasse 32  D-1000 Berlin 44  Germany  /\_\
+>\_\/  Tel. +49.30.6223910 or 6218814     EMail ossip@cs.tu-berlin.de  \/_/
+>      --------------------------------------------------------------
+-- 
+Povl H. Pedersen   -   Macintosh specialist. Knows some DOS and UNIX too.
+pope@imv.aau.dk    -   povlphp@uts.uni-c.dk
+--- Finger me at pope@imv.aau.dk for PGP Public Key ---

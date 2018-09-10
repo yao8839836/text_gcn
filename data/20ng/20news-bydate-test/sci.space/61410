@@ -1,0 +1,25 @@
+From: abdkw@stdvax.gsfc.nasa.gov (David Ward)
+Subject: Re: Command Loss Timer (Re: Galileo Update - 04/22/93)
+News-Software: VAX/VMS VNEWS 1.4-b1  
+Keywords: Galileo, JPL
+Organization: Goddard Space Flight Center - Robotics Lab
+Lines: 18
+
+In article <1993Apr26.193924.1189@bnr.ca>, jcobban@bnr.ca (Jim Cobban) writes...
+>Having read in the past about the fail-safe mechanisms on spacecraft, I had
+>assumed that the Command Loss Timer had that sort of function.  However I
+>always find disturbing the oxymoron of a "NO-OP" command that does something.
+>If the command changes the behavior or status of the spacecraft it is not
+>a "NO-OP" command.
+> 
+I know its semantics, but the "no-op" _doesn't_ do anything.  The
+Command Loss Timer is simply looking for a command, any command.  A
+"no-op" is simply a spacecraft command that drops bits into the big
+bit bucket in the sky.  "No-op" also get used as timekeepers to provide
+millisecond delays between command sequences (used on the thruster preps
+on GRO, er, Compton) and to verify command links at the beginning of
+TDRS events.  All in all, a rather useful command.  And, an intelligent
+FDC test on Galileo (the Command Loss Timer).
+
+David W. @ GSFC
+(still looking for GRO data, even though I'm the wrong David) 

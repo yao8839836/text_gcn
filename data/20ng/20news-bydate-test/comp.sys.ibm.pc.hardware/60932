@@ -1,0 +1,18 @@
+From: idler@cs.tu-berlin.de (Andreas Kuehnel)
+Subject: Delayed-Write-Caches
+Organization: Technical University of Berlin, Germany
+Lines: 8
+Distribution: world
+NNTP-Posting-Host: bohus.cs.tu-berlin.de
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+I'm using Norton Cache 5.0, which is really nice but horrible incompatible.
+Some games won't work it, my streamer software won't work with it and Windows
+doesn't like it at all. But when copying or deleting lots of small files, only
+NCACHE is really fast. You see, to write a file the FAT must be changed. But to
+write 1000 files the FAT must be changed only once. Is there any cache program
+out there which is smart enough to do the same and good enough to run with all my
+applications? Any help is really appreciated.
+ 

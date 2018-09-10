@@ -1,0 +1,98 @@
+From: kschang@sfsuvax1.sfsu.edu (Kuo-Sheng (Kasey) Chang)
+Subject: Re: How to the disks copy protected.
+Organization: San Francisco State University
+Lines: 93
+
+In article <1993Apr23.102935.17390@miavx1.acs.muohio.edu>
+sjmadsen@nextsrv.cas.muohio.edu (Steve Madsen) writes: 
+
+backupable, if restored to the same machine >>(depends>> on the
+programmer...  don't use a disk drive characteristic!) If the user >> did
+an upgrade to the machine, he/she should reinstall all programs any way.
+>> No document look-up, no disk wear-and-tear! > 
+
+> This is not a good idea.. I upgraded my motherboard last fall.  I >would
+have been quite pissed at any software that would have forced me to
+>reinstall simply because I changed motherboards. >
+
+Opinion is understandable.  :-)  I assume you have a tape drive?  Not all
+of us have about 200 floppies around for backup, you know.  
+
+> Any info in the BIOS is too volatile to use as a checksum.  Are you
+>going to require that a user re-install all their software if they add
+4Mb >of RAM to their computer?  I did that a couple of weeks ago.  It's in
+the >BIOS, and if software had told me "this isn't the machine you
+installed me >on" I would never have used that software again.  Really bad
+idea. 
+
+RAM is something you add all the time, so no.  It's more like BIOS
+manufacturer and/or processor type (386/486/etc).  Data cannot be used,
+esp with these new Flash ROM BIOS machines with updates on a diskette.
+
+On the other hand, to make this LESS intrusive it could be disguised as
+"Please Insert Original Disk #XX as I need file YYYYYY for update".  :-) 
+It would be perfectly reasonable...  Sort of.
+
+> >> I did not say that the originals would allow only one install.  The
+user's >> conscience should do that. 
+
+> > This is silly.  It's much easier to loan disks to a friend and let
+>them do an install than to backup your copy already on disk, and then
+give >them that.  Your scheme isn't going to stop anyone. 
+
+Of course it is easier.  Are you saying then the originals SHOULD allow
+only one install?  What is your point?
+
+> >> You know how many bytes you need to change in X-wing to disable >>
+the quiz?  TWO!  Yes, TWO!  (And don't ask me which ones they are.)
+
+> > Do you know any assembly language at all?  All anyone needs to do if
+>find the part of the code that does the quiz, and insert a JMP
+instruction >to just completely skip it.  Not that difficult, really!  And
+there is very >little that commpanies can do to stop this type of thing. 
+Using PKLITE or >some similar utility would help, but only if the
+resulting compressed .EXE >were tagged as uncompressable. 
+
+I know x86 and 680x0 assembly quite well, thank you.  I know exactly which
+two bytes need to be changed, I have the code to do them too.  I just said
+"Don't ask me which ones."  I didn't say I don't know what that means.
+
+Such hacking can be EASILY discouraged by adding anti-patching code which
+does a self-check upon execution and refuse to load if CRC does not match
+value stored (encrypted, of course) in the program.  It could be claimed
+as a part of anti-virus code, and it would not be far from the truth. 
+
+> >> What I believe the companies should do is implement the above plus >>
+a special patch once the user registers that loudly exclaims upon bootup
+>> "REGISTERED TO XXXXX -- address, city, state zip" and disables the
+above. 
+
+> > This is by far the best idea you presented in your post.  Making it
+>plainly obvious who registered is going to stop casual pirates. But, the
+>determined ones are just going to answer "Joe Blow" to the question of
+>"what's your name" so this won't stop them in the long run. 
+
+Did ANYONE read what I wrote?  That is NOT what I wrote! (or meant!)  
+
+What I said was the program should have certain restriction (such as the
+restrict-to-one-machine) UNTIL the program is registered with the
+manufacturer.  The manufacturer will then supply the
+then-proven-legitimate-user with a patch that will disable the restriction
+and PROUDLY PROCLAIM the legal copy with the "Registered to XXX" screen.
+
+> > Pirates are always going to win this fight.  They simply have more
+>time to work on the software and figure out the protection scheme. 
+
+Of course they will, but that was NOT my point.  The purpose of copy
+protection is to discourage casual pirates ("Oh, can I have a copy of
+that?"/"Sure, here.") and the less sophisticated pirates ("Let's look for
+all those calls to INT13H...") .  Any one determined enough to break copy
+protection can and will succeed.  They can always backtrace the entire
+load-sequence of the program.  The point of copy protection is to make
+such attempts take as long as possible while not intruding upon the uses
+(or to minimize such intrusion) of legitimate use.  Pirates who see copy
+protection as a challenge love breaking them, and no amount of copy
+protection will stop them, but the rest of us WILL be stopped.  How many
+of these hardcore pirates are there compared to rest of us?  Not that many.
+
+--Kasey Chang

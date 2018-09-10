@@ -1,0 +1,34 @@
+From: mccullou@snake2.cs.wisc.edu (Mark McCullough)
+Subject: Re: Burden of Proof
+Organization: University of Wisconsin, Madison -- Computer Sciences Dept.
+Lines: 29
+
+In article <1993Apr26.142158.11620@ousrvr.oulu.fi> ktikkane@phoenix.oulu.fi (Kari Tikkanen) writes:
+>In Math exam I have burden of proof when it says:
+>  "Prove that no elements in set A=( n divided by 30 leaves 5 as a remainder,
+>   n prime, n integer) does exist."
+>
+>Well, Mathematics is formal science.  Real world may be different thing.
+>But if entertainment (company) sell computer programs saying they are virus 
+>safe. Doesn`t they have burden of proof that viruses don`t exist in their 
+>floppies ?
+
+I don't think so.  The assumption is there.  If it turns out that
+their software has a virus, then it is up to you to prove that fact
+to a court to get any damages.  You are theoretically suppossed to 
+be able to get damages for that, but you have to give some evidence
+that the virus came from that software.  But since the computer
+company is the defendent, they are uninvolved until proven guilty.
+
+>----------------------- ktikkane@phoenix.oulu.fi -------------------
+>  Kari Tikkanen      !   .  . -#- !      b        !   begin  
+>  SF-90550 OULU      !         !  !  I = / f(x)dx !     s:=s+Eq(i);
+>  FINLAND            ! .  .  Vega !      a        !   end
+>--------------------------------------------------------------------
+Please, not Pascal!  NOOOOO!! ;)
+
+-- 
+***************************************************************************
+* mccullou@whipple.cs.wisc.edu * Never program and drink beer at the same *
+* M^2                          *  time.  It doesn't work.                 *
+***************************************************************************

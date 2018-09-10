@@ -1,0 +1,32 @@
+From: webster@ucssun1.sdsu.EDU (paolini p)
+Subject: xdm-X emul error
+Organization: The Internet
+Lines: 26
+To: xpert@expo.lcs.mit.edu
+
+When attempting to connect to an SGI Indigo from a PC clone using
+a commercial X windows emulation package, the X package hangs in
+a pre-login X screen mode.  The login box won't display.  Using
+the package in 'telnet' mode, I can logon to the SGI, and run any
+none graphic type things.  On the PC I get an error:
+"Read error 0 on socket 1"  (raw socket error)
+
+On the SGI, in xdm-errors:
+I get a termination error when I kill the stalled screen on the PC
+
+On the SGI, in SYSLOG:
+<date><time><SGI> xdm[#]:Hung in XOpenDisplay(<remote>:0, aborting
+  "                  "  :server open failed for <remote>:0, giving up
+
+I have all access control disabled (I believe, SYSLOG message confirms
+this when I login on the SGI).  I believe I have the SGI set up properly
+as described in the X ADm. book by O'Rielly....
+
+The X emul package tech support hasn't been able to solve the problem.
+
+So what I'm looking for is some suggestions on where to look for problems,
+and possible tests to run to narrow down the questions.
+Thanks
+
+webster@ucssun1.sdsu.edu
+

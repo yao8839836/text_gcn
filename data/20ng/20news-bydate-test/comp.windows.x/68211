@@ -1,0 +1,17 @@
+From: mjcarley@unix2.tcd.ie (Michael Carley)
+Subject: DVI Viewers
+Nntp-Posting-Host: unix2.tcd.ie
+Organization: Trinity College, Dublin
+Lines: 11
+
+I need some help in tracking down a dvi viewer for X. I have xdvi but we
+have not got the X libraries and includes installed- so 
+		i) is there a way around this, as we are trying to avoid
+		   installing the stuff (space is at a premium).
+		ii)would someone be prepared to make the binaries
+		   available. We have a HP700 and a HP382.
+
+	Thanks for any help
+	Michael Carley, Dept. of Mech Engineering,
+	TCD
+

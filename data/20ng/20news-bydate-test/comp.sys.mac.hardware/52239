@@ -1,0 +1,39 @@
+From: sunnyt@coding.bchs.uh.edu
+Subject: Re: cd300 question
+Organization: University of Houston
+Lines: 32
+Reply-To: ln63sdm@sdcc4.ucsd.edu
+NNTP-Posting-Host: franklin.bchs.uh.edu
+
+In article <h01sav.dsyibm.desy.de-230493200218@michael.desy.de>  
+h01sav.dsyibm.desy.de (Michael M. Savitski) writes:
+> Hi, there!
+> I have a MAC LC and consider buying CD300. I've been told,
+> however, that:
+> 1. The double speed of CD300 is achievable only on machines
+>    with SCSI-2.
+
+Wrong, the CD300 (external) is just a plain ol' SCSI device.
+
+> 2. The double speed is a prerequisite for PhotoCD multisession
+>    capability, which I need.
+
+No, multisession capability and double speed are two different thing.  Its just  
+that the newer CD ROM drives have both capability.  Multisession means that  
+when you put more pictures on a photo CD after the first session, the drive can  
+read and display them.  Double speeds just transfer ANY type of data (excluding  
+sound) at around double the speed.
+
+> 3. Which means I seem to gain nothing compared with, say CD150.
+ 
+CD150 is not multisession capable.  This means that you lose the ability to add  
+any more pictures after the first time (must buy a new CD).  Finally, since the  
+CD150 is not a double speed drive, it will require twice as long to transfer  
+data (excluding sound).
+
+> Michael M. Savitski                          Tel:   (040) 8998-3560
+> DESY-Deutsches Elektronen Synchrotron        Fax:   (040) 8998-3093 
+> Notkestr. 85, D2000 Hamburg 52, Germany             (040) 8994-4385
+> Internet : h01sav@dsyibm.desy.de 
+> DECNET :   VXDESY::SAVITSKI 
+> ===================================================================

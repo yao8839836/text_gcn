@@ -1,0 +1,45 @@
+From: adaptive@cs.nps.navy.mil (zyda res acct)
+Subject: Re: 3d Head model ... (not again, groan)
+Organization: Naval Postgraduate School, Monterey
+Lines: 40
+
+>O.K., sorry to post a question which seems to crop up
+>quite regularly in this group however I have yet
+>to get a specific and usefull (in my context) answer   
+>to where I can get hold of 3d data for a head.
+>
+>WHAT I AM LOOKING FOR :
+>
+>Simple polyon description of head / face which can be EASILY
+>converted for, or used with, POV (raytracer). 
+>(i.e. <1500 polygons)
+
+Well, I am placing a file at my ftp today that contains several
+polygonal descriptions of a head, face, skull, vase, etc. The format
+of the files is a list of vertices, normals, and triangles. There are
+various resolutions and the name of the data file includes the number
+of polygons, eg. phred.1.3k.vbl contains 1300 polygons.
+
+
+In order to get the data via ftp do the following:
+
+	1) ftp taurus.cs.nps.navy.mil
+	2) login as anonymous, guest as the password
+	3) cd pub/dabro
+	4) binary
+	5) get cyber.tar.Z
+
+Once you get the data onto your workstation:
+
+	1) uncompress data.tar.Z
+	2) tar xvof data.tar
+
+If you have any questions, please let me know.
+
+george dabro
+dabro@taurus.cs.nps.navy.mil
+-- 
+george dabrowski
+Cyberware Labs
+
+dabro@taurus.cs.nps.navy.mil

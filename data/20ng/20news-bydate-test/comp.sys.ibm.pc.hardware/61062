@@ -1,0 +1,32 @@
+From: jwilson@cs.strath.ac.uk (John D Wilson CS92)
+Subject: Re: Need rules for 2 floppy and twisted cable installation
+Organization: Comp. Sci. Dept., Strathclyde Univ., Glasgow, Scotland.
+Lines: 26
+NNTP-Posting-Host: hunter-06.cs.strath.ac.uk
+
+In article <1993Apr21.005911.8032@ncar.ucar.edu> fredrick@acd.ucar.edu (Timothy Fredrick) writes:
+>
+>I am looking for information on how to install a 5.25" floppy as Drive
+>A:, a 3.25" floppy as drive B:, a twisted cable (with the twist between
+>the two floppy connectors), and a controller.  For example, should both
+>drives have drive select=1?  
+Depends on the FDC but generally No.  The drive at the end after the twist 
+should be set as Drive 0
+>What about the terminating resistor pack that's in the 5.25" floppy?  
+>Which connector should go into which drive?
+Since you're using the 5.25 as drive A: it should be at the end after the 
+twist with the resistor pack fitted.
+>Does pin-0 on the connector always correspond with pin-0 on the floppy
+>drive?
+Yes
+> Stuff deleted
+
+Hope this helps.  I had exactly the same problems.  Unfortunately when
+I changed to different machine the problems started again because
+of a different FDC.  Seems (don't flame me, this is mainly guess work
+from practicle experience) that some FDC's do different things with the 
+select.
+
+John.
+
+

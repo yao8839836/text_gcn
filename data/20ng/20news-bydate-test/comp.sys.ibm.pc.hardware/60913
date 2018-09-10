@@ -1,0 +1,30 @@
+From: rabe@akela.informatik.rwth-aachen.de (Ralf G. R. Bergs)
+Subject: Re: UNIX and DOS talking on QIC-150 tapes.
+Organization: Rechnerbetrieb Informatik - RWTH Aachen
+Lines: 21
+NNTP-Posting-Host: akela.informatik.rwth-aachen.de
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+kdq@quest.UUCP (Kevin D. Quitt) writes:
+
+>I have a system with a SCSI drive.  I want to get a QIC-150 tape unit to
+>attach to it, and then run software that will read (and maybe even write)
+>UNIX TAR tapes.  (Or at least just read a stream and dump it to file - I'll
+>take it from there).
+
+>Why is this impossible?
+
+It isn't.  ;-)
+
+Use tar on the Un*x box and gtak110.zip on the DOS box. Needs ASPI driver.
+
+
+Ralf
+
+-- 
+Ralf G. R. Bergs, Aachen University of Technology EE (comp. eng.) student 
+snail: H"uckeswagener Str. 42, D-W5270 Gummersbach, Fed. Rep. of Germany
+phone: (+49) 22 61-2 19 68 (answ. mach.) / Note: new zip (51647) as of July 1st
+email: rabe@pool.informatik.rwth-aachen.de

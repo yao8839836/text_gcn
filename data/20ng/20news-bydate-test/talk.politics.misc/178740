@@ -1,0 +1,36 @@
+From: starowl@rahul.net (Michael D. Adams)
+Subject: Re: Median??? Re: New Study Out On Gay Percentage
+Nntp-Posting-Host: bolero
+Reply-To: starowl@rahul.net
+Organization: D Service Actuarial Consulting
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 28
+
+On 20 Apr 93 13:34:03 GMT, Gary Piatt observed:
+
+: First, the median does not imply that half of the men are
+: above and half below 7.3: it simply means that 7.3 is the mid-point
+: between the maximum number of partners and the minimum (which is most
+: likely zero).  
+
+Actually, the median *is* defined as the 50th percentile.  If the
+median number of sexual partners for men is 7.3, it means that 
+at least 50% of men have had 7.3 or fewer sexual partners, and
+at least 50% of men have had 7.3 or more sexual partners.
+
+(Question: What is 0.3 of a sexual partner?  :)
+
+To confuse matters more, take the following data set:
+
+[5.0, 6.0, 6.0, 7.0, 7.0, 7.3, 8.0, 9.0, 9.0, 9.0, 250.0]
+
+The mean (arithmetic average) of the above set of numbers is 29.4.
+The sample standard deviation is 73.2.
+The mode is 9.0.
+The median is 7.3.
+
+--
+Michael D. Adams          (starowl@a2i.rahul.net)          Enterprise, Alabama
+
+             "It's a strange quirk, but I hardly ever sing along
+                   with people who tie me up."  -- Mork

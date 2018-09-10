@@ -1,0 +1,40 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: Will my 386 RAM work in a 486?
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 34
+
+
+In article <1993Apr23.063043.19602@monu6.cc.monash.edu.au>, s1070627@giaec.cc.monash.edu.au (BrEtT pAtErSoN) writes:
+> 
+> I am wanting to upgrade from a 386SX-25, to a 486DX-33, and are looking at a
+> cheap quote from someone offering me a 486DX-33 motherboard, with no ram in
+> it.  (I will probably sell my old m-board off somewhere)
+> Now, I have 4 meg of RAM in my 386, which consists of
+> 
+> 4 x 9 module 1024KB simms, running at 70 nanoseconds.
+>     ^^^^^^^^                          ^^^^^^^^^^^^^^
+> Would I encounter problems with the pointed out areas, by throwing these from
+> one computer to the other?
+
+There should be no problem with this - just remember to get the number of
+wait states correct!
+
+> 
+> Any comments gratefully (e-mail preferred) appreciated.
+>               _______________________________________________
+>              /\                                              \
+>             /#\\  BrEtT pAtErSoN: <- nO i Am NoT dYsLeXiC.    \
+>            /#\#/----------------------------------------------/
+>           /#\#/   email : s1070627@giaec.cc.monash.edu.au    /
+>           \\#/   Leongatha, Victoria, Australia.            /
+>            \/______________________________________________/
+> 
+> 
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

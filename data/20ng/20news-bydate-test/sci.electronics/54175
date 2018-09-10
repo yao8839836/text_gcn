@@ -1,0 +1,49 @@
+Organization: Queen's University at Kingston
+From: <LEEK@QUCDN.QueensU.CA>
+Subject: Re: How to the disks copy protected.
+Lines: 44
+
+In article <C60DvH.FAn@ucdavis.edu>, ez019654@othello.ucdavis.edu (Victoria
+Milliron) says:
+>
+>  A possibility for the software registration conondrum would be to have the
+>distributor register the copy when the software was sold.  The clerk sticks it
+
+That's kind of extra work that one cannot expect the store people to do.
+IMHO it would be easier if companies sell their software as cheaply as
+possible AND to sell the customers detail manuals (for the brain-deads)
+, quick reference books, how to do books and videos, paid support hot line
+(1-900 :).  For the registered purchasers, these can be part of their package.
+I have seen many books to teach people how to use DOS, WP and other software.  I
+I suspect either users can't read the manuals or they don't have manuals.
+Either way, there is $$$ to be made.   BTW books are quite a bit more
+expensive to reproduce than a $1 disk.
+
+>What is the problem with parallel port security keys? I haven't used anything
+>that had hardware key copy protection schemes, so I don't know what the
+>drawbacks are. I know the companies that make them claim they're uncrackable,
+
+With the popularity of Multitasking and pseudo multitasking systems
+(eg. OS0.5, Windoze, Mack System 7), it is pretty easy to run a debugger
+and figure out the protection schemes by disassembling/tracing/trapping
+the application during run time.  Schemes like compressed software/
+special loaders would be easy pray even to beginner hackers.
+
+Hardware keys (unless well designed and *TOTALLY* transparent) is a
+pain in the b*t.  We having using a piece of software under Windoze
+that uses a hardware key.  The key interfers with the printer stuff
+with other programs and often has to be unplugged for those software
+to work properly.
+
+>but I've seen cracks of AutoDesk 3d-studio floating around (I don't have one
+>so don't ask) and I had heard that it had parralel port keys.
+
+All the hacker has to do is to remove/modify code that communicate with
+the port.
+
+>vamilliron@othello.ucd.edu
+>-my apologies if I rambled, but vi inhibits my communication skills greatly.
+
+K. C. Lee
+Elec. Eng. Grad. Student
+OS0.5, Windoze, Mack are not trademarked...

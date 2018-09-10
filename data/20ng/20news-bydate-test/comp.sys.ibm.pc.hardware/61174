@@ -1,0 +1,29 @@
+From: msfuller@cc.utah.edu (MARC S. FULLER)
+Subject: Re: CPU Fans33
+News-Software: VAX/VMS VNEWS 1.4-b1  
+Organization: University of Utah Computer Center
+Lines: 23
+
+In article <edm.735510069@wrs.com>, edm@wrs.com (Ed McClanahan) writes...
+{Jim_Johnson@abcd.houghton.mi.us (Jim Johnson) writes:
+K{ 
+{<speaking of CPU fans>
+{ 
+{>                      Many use clips - make sure you use heat sink
+{>grease, or heat transfering tape, or you will have wasted your money.
+{ 
+{Do these CPU Fans also have heat sinks?  Do you recommend using both
+{on the same chip (i.e. heat sink sandwiched between CPU and Fan)?
+{ 
+{If we are just talking about a CPU Fan blowing directly on the CPU chip,
+{I can't see how "heat sink grease" is necessary (or even desireable).
+{-- 
+{ 
+{=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+{ 
+{  Edward McClanahan                    edm@wrs.com
+I have a PC Power and cooling fan and it is a heat sink with a built in fan 
+that glues on top of the CPU.  Even if the fan quits you still have the heat 
+sink fins to aid cooling.  The glue, of course, is the type that has high 
+thermal conductivity.
+

@@ -1,0 +1,33 @@
+From: mmc@cs.rit.edu (Mahendra M Chheda)
+Subject: Print from within an application
+Organization: Rochester Institute of Technology
+Lines: 27
+Nntp-Posting-Host: mackinac
+
+Hi,
+
+I have an application which draws graphs, bar charts etc. I need to include
+print support for these from within my application i.e. a user can print
+the graphs from within the applictaion by clicking on a print button. I am 
+not sure if I can invoke xwd & xpr from within my application and specify
+the window id to get my window dump and then send this file for printing or 
+if there are other ways of doing this. I would appreciate any help in this 
+regard. Thanx.
+
+	- Mahendra.
+
+PS : Please mail your replies to me as I am not a regular reader of this 
+news group. I will post a summary if there is sufficient interest.
+
+-- 
+
+***************************************************************************
+	Mahendra Chheda			#
+	mmc@cs.rit.edu			#
+	mmc7274@ritvax.isc.rit.edu	#
+					#
+	Office :			#	Residence :
+	Dept. of Computer Science	#	440 Kimball Drive
+	Rochester Institute of Tech.	#	Rochester, NY 14623
+	Tel. 716-475-2079		#	Tel. 716-292-5726
+***************************************************************************

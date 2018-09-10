@@ -1,0 +1,60 @@
+From: gdmr@dcs.ed.ac.uk (George Ross)
+Subject: twm & greyscale
+Organization: Department of Computer Science, Edinburgh University
+Lines: 55
+
+As distributed, twm thinks everything with three or more colormap cells must
+be a colour screen.  Here's a patch to have it use the screen's visual class.
+
+*** twm.c.DIST	Wed May 12 14:56:55 1993
+--- twm.c	Wed May 12 15:47:53 1993
+***************
+*** 343,352 ****
+--- 343,384 ----
+  
+  	Scr->XORvalue = (((unsigned long) 1) << Scr->d_depth) - 1;
+  
++ #ifdef oldCode
+  	if (DisplayCells(dpy, scrnum) < 3)
+  	    Scr->Monochrome = MONOCHROME;
+  	else
+  	    Scr->Monochrome = COLOR;
++ #else
++ 	{	XVisualInfo template;
++ 		XVisualInfo *visualInfo;
++ 		int nitems;
++ 
++ 		template.visual = DefaultVisual(dpy, scrnum);
++ 		template.visualid = XVisualIDFromVisual(template.visual);
++ 		template.screen = scrnum;
++ 		visualInfo = XGetVisualInfo(dpy, VisualIDMask|VisualScreenMask,
++ 				&template, &nitems);
++ 		if (nitems == 1) {
++ 			switch (visualInfo->class) {
++ 		case StaticColor:
++ 		case PseudoColor:
++ 		case TrueColor:
++ 		case DirectColor:
++ 				Scr->Monochrome = COLOR;
++ 				break;
++ 
++ 		default:	Scr->Monochrome = MONOCHROME;
++ 				break;
++ 			}
++ 		}
++ 		else {
++ 			(void) fprintf(stderr,
++ 					"%d Visual match(es), assuming mono\n",
++ 					nitems);
++ 			Scr->Monochrome = MONOCHROME;  /* assume */
++ 		}
++ 	}
++ #endif
+  
+  	/* setup default colors */
+  	Scr->FirstTime = TRUE;
+
+-- 
+George D M Ross, Department of Computer Science, University of Edinburgh
+     Kings Buildings, Mayfield Road, Edinburgh, Scotland, EH9 3JZ
+Mail: gdmr@dcs.ed.ac.uk      Voice: 031-650 5147      Fax: 031-667 7209

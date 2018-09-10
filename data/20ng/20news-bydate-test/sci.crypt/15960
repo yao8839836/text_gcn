@@ -1,0 +1,32 @@
+From: holland@CS.ColoState.EDU (douglas craig holland)
+Subject: Re: Tempest
+Distribution: na
+Nntp-Posting-Host: beethoven.cs.colostate.edu
+Organization: Colorado State University, Computer Science Department
+Lines: 25
+
+In article <1993Apr25.024032.26935@ringer.cs.utsa.edu> whughes@lonestar.utsa.edu (William W. Hughes) writes:
+>In article <1993Apr24.233742.26839@lehman.com> pmetzger@snark.shearson.com (Perry E. Metzger) writes:
+>>whughes@lonestar.utsa.edu (William W. Hughes) writes:
+>>>Hell, just set up a spark jammer, or some other _very_ electrically-noisy
+>>>device.
+>>
+>>As I've noted, you can likely get around that with a directional
+>>sensor. Phased array systems could completely defeat this scheme.
+>
+>True, but the basic idea behind any communications security system is not
+>to absolutely deny access, but to make access more expensive (in time,
+>money, manpower) than it is worth.
+>
+Another idea: Use a laptop computer.  As mentioned earlier, the LCD screen
+is a lot less noisy than a standard CRT, but since many laptops have power
+supplies that run at 3 volts instead of 5, they would be considerably 
+quieter.
+
+Doug Holland
+
+
+-- 
+|  Doug Holland                | Anyone who tries to take away my freedom  |
+|  holland@cs.colostate.edu    | of speech will have to pry it from my     |
+|  PGP key available by E-mail | cold, dead lips!!                         |

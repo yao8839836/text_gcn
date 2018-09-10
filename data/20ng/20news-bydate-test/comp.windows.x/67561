@@ -1,0 +1,14 @@
+From: Thomas_Richard_Stevenson@mts.cc.wayne.edu (Thomas R. Stevenson)
+Subject: XCOMM in Imakefile files
+Keywords: XCOMM Imakefile
+Distribution: world
+Organization: Wayne State University
+Lines: 6
+Nntp-Posting-Host: 141.217.4.31
+
+I've installed many X apps, and have that many of them Imakefiles that have
+lines startingwith XCOMM in them. When I do a xmkmf to create the Makefile,
+the Makefile also has the XCOMM (comment?) lines in them. I always have
+to edit out these lines because the make command barfs on them. I was
+wondering what these lines were for, and what I might be doing wrong that
+causes the make command to dislike them. Thanks!

@@ -1,0 +1,23 @@
+From: ldo@waikato.ac.nz (Lawrence D'Oliveiro, Waikato University)
+Subject: Re: Spigot on LC III
+Organization: University of Waikato, Hamilton, New Zealand
+Lines: 18
+
+In article <1993Apr15.214724.10871@aristo.tau.ac.il>, isaaci@ccsg.tau.ac.il (barash isaac) writes:
+> A friend of mine has problems running Spigot LC on an LC III.
+> His configuration is:
+>
+> Spigot LC / LC III, System 7.1
+> Video Spigot Extension 1.0
+>
+> I would appriciate if I can get any postitive/negative experience with this
+> setup.
+
+Somebody in comp.multimedia was also having trouble using a Spigot in his
+LC III. It turned out he needed the latest version of ScreenPlay (1.1.1),
+which fixed things.
+
+Lawrence D'Oliveiro                       fone: +64-7-856-2889
+Computer Services Dept                     fax: +64-7-838-4066
+University of Waikato            electric mail: ldo@waikato.ac.nz
+Hamilton, New Zealand    37^ 47' 26" S, 175^ 19' 7" E, GMT+12:00

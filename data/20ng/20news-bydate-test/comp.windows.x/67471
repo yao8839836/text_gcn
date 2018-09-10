@@ -1,0 +1,68 @@
+From: probert@ucsb.edu (Dave Probert)
+Subject: image data format question
+Organization: University of California, Santa Barbara
+Lines: 63
+
+** I am posting this for a friend **
+** please respond to vaughn%sonatech@hub.ucsb.edu **
+
+I'm working on an application where we are creating a dither pattern 
+and rendering it in a window by applying it to the stipple pattern 
+of the GC.  The following code segment almost works if the window width 
+is an even multiple of 8.  If it is not an even multiple it skews the 
+pattern towards the right.  Another problem, whether it is an even 
+multiple of 8 or not, is a series of vertical lines spaced 8 pixels 
+apart.
+
+
+extern	Display	       *dpy;
+extern	Window		xid;
+extern	GC		gc;
+
+extern	int	Max_X, Max_Y;		/* set in resize handler	*/
+
+dither(pixels)
+
+	char	*pixels;		/* dither pattern data		*/
+
+	{
+	char	*bm;			/* bitmap data			*/
+	char    *bmp;
+	long	 I, arraymax;
+
+
+	arraymax = Max_X*Max_Y;
+
+	bm  = (char *)malloc(arraymax);
+	bmp = bm;
+
+	for (I=j=0; I<arraymax; I++)
+		{
+		if (pixels[I] & DITHER_BIT)
+			*bmp |=   2<<j;		/* pixel on		*/
+		else
+			*bmp &= ~(2<<j);	/* pixel off		*/
+
+		if (++j > 7)
+			{
+			bmp++;
+			j = 0;
+			}
+		}
+
+	stipple = XCreateBitmapFromData(dpy, xid, bm, Max_X, Max_Y);
+	free(bm);
+
+	XClearWindow(dpy, xid);
+
+	XSetStipple(dpy, gc, stipple);
+	XSetFillStyle(dpy, gc, FillStippled);
+	XFillRectangle(dpy, xid, gc, 0, 0, Max_X, Max_Y);
+	XSetFillStyle(dpy, gc, FillSolid);
+	}
+
+I suspect the answer is to pad the data.
+
+--
+Mike Vaughn
+Sonatech

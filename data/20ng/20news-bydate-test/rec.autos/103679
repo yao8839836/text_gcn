@@ -1,0 +1,65 @@
+From: callison@uokmax.ecn.uoknor.edu (James P. Callison)
+Subject: Re: .Extensions
+Nntp-Posting-Host: uokmax.ecn.uoknor.edu
+Organization: Engineering Computer Network, University of Oklahoma, Norman, OK, USA
+Lines: 59
+
+In article <1r6omsINNnbk@ctron-news.ctron.com> smith@ctron.com writes:
+>In article <gfpftjW00iV3Q3vWYv@andrew.cmu.edu>, "Daniel U. Holbrook" <dh3q+@andrew.cmu.edu> writes:
+>>>These are the extensions I know of
+>>>ch   Switzerland
+>>>se   Sweden
+>>>fi   Finland
+>>>uk   UK
+>>>Com  US?
+>>>Edu  US?     (are both com and edu US?) 
+>>>fr   France
+>>dk    denmark
+>>no    Norway
+>
+>.com and .edu are both United States, one refers to commercial institutions,
+>the other to mental - I mean, "educational" - institutions.  .gov is also
+>pretty much US, it refers to government institutions.  Internet was built on
+>the AARP backbone, a US Defense contractor network that used the extension
+
+I think you mean ARPA; AARP is the American Association of Retired Persons,
+and I seriously doubt that they'd want young whippersnappers building
+anything on their backbones, what with de-calcification and all :-)
+
+>to identify the type of organisation.  Internet extended the convention for
+>other countries, but the US retained the old conventions.
+
+The general convention is that if it doesn't have a country tag on it, it's
+a US site. That includes:
+	.com	commercial 
+	.edu	educational 
+	.mil	US Military sites 
+	.gov	US Gov't non-military sites (eg NASA sites)
+	.org	anyone who is "none of the above"
+There are sites with such tags that are non-US sites, but they will have
+the country extension (eg xxxx.edu.au is an extension I saw today).
+US sites can also use the .us extension, but, as Mr. Smith pointed 
+out, the Internet was built on the ARPANet backbone, and they default
+to US sites if there's no country code.
+
+I would suggest that anyone who didn't know this (or wants to know
+more about it on a non-system-administrative level) check out
+the book _The_Whole_Internet_User's_Guide_and_Catalog_ by Ed Krol.
+(or is it Catalog and User's Guide? I can never remember, and my copy
+is my desk at home...). It's a very good not-necessarily-technical
+guide to the Internet and the various utilities that lurk on it (including
+USENET). I don't think it's part of the Nutshell series, but it is
+published by O'Reilly and Associates.
+
+This should go to one of the news.* newsgroups, but damned if I
+can figure out which one.... :-)
+
+				James
+
+James P. Callison    Microcomputer Coordinator, U of Oklahoma Law Center 
+Callison@uokmax.ecn.uoknor.edu   /\    Callison@aardvark.ucs.uoknor.edu   
+DISCLAIMER: I'm not an engineer, but I play one at work...
+		The forecast calls for Thunder...'89 T-Bird SC
+   "It's a hell of a thing, killing a man. You take away all he has 
+	and all he's ever gonna have." 
+			--Will Munny, "Unforgiven"

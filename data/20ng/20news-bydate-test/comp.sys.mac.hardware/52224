@@ -1,0 +1,19 @@
+From: Kevin Hester <kevinh@apple.com>
+Subject: Re: IIf & IIg slot?
+X-Useragent: Nuntius v1.1
+Organization: Apple Computer, Inc.
+Lines: 13
+
+In article <1993Apr23.021150.1065@ccu1.aukuni.ac.nz> Mark Perry,
+markp@ccu1.aukuni.ac.nz writes:
+>There seems to be a P
+>PDS slot in the above printers. What is it ?
+
+It is a factory testing slot.  The test rig connects to the connector and
+verifies proper board operation.
+
+Kevin
+---------------------+--------------------------------------------------+
+S. Kevin Hester      | Disclaimer: Nothing I say has anything to do     |
+kevinh@apple.com     | with Apple Computer.  The red zone is for        |
+Portable Beer Brewer | loading and unloading of passenger vehicles only.|

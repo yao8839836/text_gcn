@@ -1,0 +1,24 @@
+From: Pekka.Taipale@hut.fi (Pekka J Taipale)
+Subject: Re: Diamond Stealth 24 giving 9.4 Winmarks?
+In-Reply-To: balog@eniac.seas.upenn.edu's message of 19 Apr 93 23:20:25 GMT
+Nntp-Posting-Host: gamma.hut.fi
+Organization: Helsinki University of Technology, Finland
+	<121477@netnews.upenn.edu>
+Lines: 16
+
+In article <121477@netnews.upenn.edu> balog@eniac.seas.upenn.edu (Eric J Balog) writes:
+>When posting Winmark results, it is a good idea to give the version of 
+>WinBench that you used to obtain the scores, as well as the resolution that
+>you tested and the version of the drivers.
+
+Doesn't anybody actually read the licence agreement of WinBench
+before blindly running it? The licence agreement very clearly says
+that details about hardware configuration, driver, resolution and
+other relevant facts *MUST* be included when giving WinMark results.
+
+Ziff-Davis wants everybody to do this and that requirement makes
+sense, really! Plain numbers are useless when resolution, driver and
+machine are unknown.
+
+--
+Pekka.Taipale@hut.fi

@@ -1,0 +1,132 @@
+From: king@cogsci.ucsd.edu (Jonathan King)
+Subject: teams as organisms; stats or "stats" (was Re: Jack Morris)
+Organization: University of California, San Diego
+Lines: 124
+Distribution: na
+NNTP-Posting-Host: cogsci.ucsd.edu
+Summary: let's talks stats and not "stats"
+
+Note:  I'm not posting this as part of an argument with Roger Meynard,
+but as an independent sort of thread.  I do actually quote some things
+that Roger Meynard wrote, but it might be better to think of this as
+"sampling" his post (in the hip-hop sense) because it fits in with what
+I want to say.
+
+maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
+>But the point is that the only decision making pro-
+>cess  used to determine the "best" is the score of the game and it re-
+>lates to the *teams*.  Not the individual players.  There is no method
+>inherent  in  baseball of comparing individual performances.  And that
+>is how it should be, because, after all, baseball is a team game.
+
+There's an interesting parallel between this way of viewing a baseball
+team and some people's conception of a biological organism.  In the
+biology context, we would very likely read "fitness" for "the score of
+the game" and "organisms" for "teams".  How we interpret "players" is
+trickier, but either "organs", or "genes" might seem reasonable
+choices depending on what point we were trying to make.  A "genes"
+interpretation actually might be really interesting in this case, 
+but that would be a different and probably longer post.
+
+If, however, we take the "organ" view, then our knowledge of biology
+should make us pause before we start saying things like "species X is
+more fit than species Y because of a better organ Z".  Given what we
+know about the interdependence of organs, we would often be suspicious
+of such claims.  (But note that this type of argument is quite often
+made when you map "species X" onto 'humans', and "organ Z" onto
+'brain').  On the other hand, some statements of this kind do seem
+more reasonable than others, as far as we can test them (e.g. 'brain'
+above might be more reasonable than 'pancreas' assuming no gross
+pathology, particularly if species Y is a primate).
+
+Even when you make such statements, you should be concerned with the
+functioning of the whole organism, and the possibility that one organ
+might be more crucial for one species and a second organ in another.
+(Not to mention the possibility that no organ is particularly crucial
+in some third species.)  However, if we are non-vitalists with any
+kind of reductionsit streak, we will want to say that an organism is
+not some completely magical unanalyzable "whole" but an intriguing
+process made up of various subprocesses that interact in ways that are
+potentially observable.  Some of these processes might be localized to
+particular organs, while others may be distributed across multiple
+organs.  In a way, this is just like a baseball team, except that I
+think it is pretty clear that the processes and interactions involved
+in baseball are *much* simpler and less numerous than in most organisms.
+
+>To say that one player is better than another is to be able to say ab-
+>solutely  that  player A's team would have played better with player B
+>in their lineup.  Sheer speculation.  Impossible to ascertain.
+
+One thing that is quite difficult about baseball is that perfectly
+controlled experiments are sometimes very tough to do.  But, of
+course, this has never stopped researchers from doing the best they
+can, and sometimes deriving very powerful conclusions even in the
+absence of certainty.  Most of this goes far beyond sheer speculation,
+but even sheer speculation can motivate further interesting research.
+
+>If you want to select a group of statistics and claim that Clemens
+>has done better [than another pitcher] with those statistics as a
+>criteria, then fine.
+
+In this cases, we're seeing the word "statistics" means "summary of
+observed events", where the events themselves can be viewed as the
+output of some process, and possibly inputs for other processes.
+Thus, if we have any valid notion of how the processes are put together
+into the functioning organism, data in the form of statistics might
+give us a basis to test particular hypotheses.
+
+>But you have to be able to prove that those statistics measure the
+>individual's contribution to winning the WS - because that is the only
+>measure of "best" that has any meaning in the context of baseball.
+
+This statement brings us back to the concept of fitness again.
+Fitness is defined in terms of both an organism and its environment;
+you might be fit in one situation and not another.  Moving to
+baseball, it is clear that each team spends the entire season in an
+environment including all the other teams in the league.  In at least
+a nominal sense, the division winners are the fittest teams in the
+league, in that they (on average) had better fitness scores than any
+of their competing opponennts.  But in a real sense, there is a fairly
+large random component in the performance of each team that is
+difficult if not impossible to account for in terms of factors
+intrinsic to (or interesting for) baseball.  The same is true in
+biology.  But here is also no direct biological equivalent of the
+World Series in basebal.  In the world series, the random component
+may be greatly magnified by the small number of games that are played,
+and both teams suddenly experience huge changes from the environement
+where they were originally successful.  It might be fun to watch, but
+it's unclear what it all really means.
+
+***
+
+Now just one more un-related point:
+
+>I have yet to see that any of you can predict a
+>WS winner with any greater accuracy than Jeanne Dixon.
+
+On the other hand, you have seen some of us who can predict the
+outcome of the divisional races better than a random assignment of
+teams to finishes, and maybe some of us (e.g. me) who can do this
+better than the other participants in this forum on a regular basis.
+But this is probably only due to the fact that a 162-game schedule
+gives you a little hope that bad hops aren't the only difference
+between the winners and the losers.
+
+Moreover, you've had the opportunity to see some analysis of the World
+Series situation that makes the strong claim that *nobody* can predict
+the WS winner with reliably greater accuracy than a coin biased only
+to reflect the well-known home vs. road effect on winning percentage.
+
+>The stats are a nice hobby and that's about it.  There is no new
+>knowledge being produced.  
+
+Since stats are summaries of events, it's true that if you know the
+events you can derive the stats.  But if somebody is trying to
+understand the process behind the stats, then the stats produce new
+knowledge, and some of this might even be reliable, repeatable, and
+useful.  Speaking of which, I should get back to producing knowledge
+in a different field.  That is, of course, if I can produce knowledge
+even though I'm relying on stats to do it.
+
+jking
+

@@ -1,0 +1,41 @@
+From: adaptive@cs.nps.navy.mil (zyda res acct)
+Subject: Re: Human head modeling software
+Organization: Naval Postgraduate School, Monterey
+Lines: 36
+
+>In article <C65wBp.6K4@taurus.cs.nps.navy.mil> adaptive@cs.nps.navy.mil (zyda res acct) writes:
+>>>Hi, there!
+>>>I am interested in facial animation and want to implement some program about this area.
+>>>But I don't have any 3-D information for the face.
+>>>I am looking for some 3D images of face.
+>>
+>>Try getting the Cyberware_demo via ftp which contains 3D images of the
+>>face.
+>>
+>
+>What is the copyright status of this data?  Are there restrictions regarding the
+>uses they can be put to?
+>
+>Kaveh
+>
+>
+>-- 
+>Kaveh Kardan
+>kardank@ERE.UMontreal.CA
+
+Kaveh,
+
+all of the data included with in the Cyberware_demo is
+non-proprietary, use it as you like. I just ask that you give us
+credit if you use it in a research paper/project and send us the
+results.
+
+thanks,
+
+geo
+Cyberware
+-- 
+george dabrowski
+Cyberware Labs
+
+dabro@taurus.cs.nps.navy.mil

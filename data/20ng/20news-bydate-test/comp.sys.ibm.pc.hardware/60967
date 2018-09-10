@@ -1,0 +1,24 @@
+From: Joe Eddy Demers <Coyote+@CMU.EDU>
+Subject: BIOS timer interrupts
+Organization: Sophomore, Math/Computer Science, Carnegie Mellon, Pittsburgh, PA
+Lines: 18
+NNTP-Posting-Host: po2.andrew.cmu.edu
+
+Hello,
+    I'm trying to use the BIOS timer interrupts (which occur every .055
+seconds, or 18.2 times a second) to time people's response times, in a
+psychology experiment, and the response times are on the order of .01
+seconds. Is there any way I can get better precision than by counting
+ticks? Or can I make the ticks occur more frequently? I'm trying to do
+this in DOS 5.0 on a 386, and it would be nice if this could also work
+on our old 8086 machines running DOS 2.1 (I know, I know, I don't like
+them any more than you do) but this is by no means a requirement, just a
+possibility. 
+    So, basically, any information on the BIOS tick scheme and the
+related inrterruots would be appreciated, as well as any information on
+alternate ways of improving accuracy. Email is preferred, as I'm
+planning on posting this to a few boards, and I don't read all of them.
+Thanks
+
+Joe
+

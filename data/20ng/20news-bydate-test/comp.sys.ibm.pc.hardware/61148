@@ -1,0 +1,23 @@
+From: ngadiraj@infonode.ingr.com (Narm Gadiraju)
+Subject: modem
+Keywords: modem
+Organization: Intergraph Corporation, Huntsville, AL.
+Distribution: comp
+Lines: 16
+
+I have a 486/33 IBM clone with two serial ports (com1, com2) and mouse port.
+Both the serial ports are directly sitting on the mother board.  I tried to
+install a 2400 buad Hayes internal modem, but it doesnt work.  Once I dial any
+number the system locks.  I do not hear any click or ring before it the system
+hangs.  The modem has a 2 pin dip switch to select the appropriate port.  Once 
+I change the settings on the dip switch, the system starts working again.
+
+Then I bought a 2400 baud Hayes external modem and checked the system.  It
+works fine with both the serial ports.  The internal modem has been checked on
+another machine and it works fine, but does not work on my machine.
+
+Can anyone please help me to find the problem.
+
+thanks
+Narm Gadiraju
+ngadiraj@infonode.ingr.com

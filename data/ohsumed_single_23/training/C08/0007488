@@ -1,0 +1,7 @@
+Potential usefulness of an artificial neural network for differential diagnosis of interstitial lung diseases: pilot study.
+ An artificial neural network approach was applied to the differential diagnosis of interstitial lung diseases.
+ The neural network was designed to distinguish between nine types of interstitial lung diseases on the basis of 20 items of clinical and radiographic information.
+ A data base for training and testing the neural network was created with 10 hypothetical cases for each of the nine diseases.
+ The performance of the neural network was evaluated by means of receiver operating characteristic analysis.
+ The decision performance of the neural network was high; it was comparable to that of chest radiologists and superior to that of senior radiology residents.
+ The preliminary results strongly suggest that the neural network approach has potential utility in the computer-aided differential diagnosis of interstitial lung diseases.

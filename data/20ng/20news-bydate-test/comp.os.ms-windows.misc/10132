@@ -1,0 +1,27 @@
+From: cmj@acsu.buffalo.edu (christophe m johnson)
+Subject: Re: How Redirect PRINT MANAGER To FILE?
+Nntp-Posting-Host: lictor.acsu.buffalo.edu
+Organization: UB
+Lines: 21
+
+In <70540011@hpcc01.corp.hp.com> reed@hpcc01.corp.hp.com (Perry Reed) writes:
+
+>> / hpcc01:comp.os.ms-windows.misc / u7911093@cc.nctu.edu.tw ("By SWH ) /  9:58 am  Apr 24, 1993 /
+>> Hello,
+>> 
+>> 	Who can tell me   Where can I find the PD or ShareWare   
+>> Which can CAPTURE windows 3.1's output of printer mananger?
+
+If you are planning on using this on a regular basis, conncting the printer
+to file can become bothersome because Windows then asks you for the filename
+that you want to create. I've found that putting a line in system.ini in the
+ports section with just a path and filename works. The only problem is that
+if you send more than one job, the second one deletes the first.
+
+
+Chris
+-- 
+ -------=======  cmj@acsu.buffalo.edu IS Christopher Johnson =======-------
+PGP: Public key encryption for the masses      Disclaimer: I didn't say that!
+PGP encrypted mail WELCOME! PGP public key pgp-public-keys@toxicwaste.mit.edu
+"Orwell may very well have been correct... he just had the year wrong." - me

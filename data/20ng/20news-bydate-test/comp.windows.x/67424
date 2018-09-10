@@ -1,0 +1,10 @@
+From: malik@alvserv-2.dfki.uni-kl.de (Thomas Malik)
+Subject: Re: Overriding default WM Behaviour
+Organization: DFKI Kaiserslautern
+Lines: 3
+Distribution: world
+NNTP-Posting-Host: ws-406.dfki.uni-kl.de
+
+specify RamdomPlacement (or RandomPlace ? )
+in your .tvtwmrc. This places the windows not-interactively
+in pseudo - random positions on your screens.

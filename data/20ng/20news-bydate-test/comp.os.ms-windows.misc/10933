@@ -1,0 +1,21 @@
+From: paladin@world.std.com (Thomas G Schlatter)
+Subject: Re: SMARTDRV AND DBLSPACE
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 16
+
+In article <rcaldrn.737739966@epistat> rcaldrn@med.miami.edu (Richard Calderon) writes:
+>I just received a Gateway 486/33 with Windows and Dos 6.0. I ran it a few times
+>with no apparent problems. I decided to give double Space a try. After 
+>compressing the drive, with no problems, I decided to load windows. It took
+>1 minute 45 Seconds to load after dblspace, 17 seconds before dblspace. I 
+>tinkered a little with the machine and noticed an error message saying 
+
+>Smartdrive 4.0 cannot work with Dblspace. 
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The reason for the change from Smartdrv.exe 4.0 included with
+Windows 3.1 to Smartdrv.exe 4.1 included with DOS 6.0 is
+COMPATABILITY WITH DBLSPACE.  Be sure you are running smartdrv from
+your DOS directory.

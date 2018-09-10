@@ -1,0 +1,34 @@
+From: dnichols@d-and-d.com (DoN. Nichols)
+Subject: Re: Maxtor 2190 info needed (was Re: UNIX PC Software for sale)
+Nntp-Posting-Host: shindig
+Organization: D and D Data, Vienna VA
+Lines: 28
+
+In article <79954@cup.portal.com> thad@cup.portal.com (Thad P Floryan) writes:
+>In article <colinm.735327894@cunews>
+>colinm@max.carleton.ca (Colin McFadyen) writes:
+>
+>|  Does anyone know what the jumpers should be set to on the Maxtor 2190??
+>|  I have a 2190 that came off of a VS2000 that I would like to use on a PC.
+>
+	[ ... Useful info about the Maxtor drive deleted ... ]
+
+>Since the 3B1 "normally" has only one HD, you would jumper betwwwn "C1" to
+>select the first (possible) drive address; if the 2190 is your second drive
+>on the 3B1, then jumper between "2C".
+
+	However, Thad, you should note that he said that he would like to
+use it on a 'PC', not 'UNIX-PC'.  Also note the strange cross-posting (as he
+probably did not), so it is not sure exactly what sort of machine he intends
+to mount it on.  If it *is* a PC (or clone), then the "2C" jumper would be
+the correct choice.
+
+	I've left the cross-posting in effect, since I'm not sure which
+newsgroup he would really be reading this in. :-)
+
+	DoN.
+-- 
+ Email:   <dnichols@d-and-d.com>  |  ...!uunet!ceilidh!dnichols 
+		 <dnichols@ceilidh.beartrack.com>
+ Donald Nichols (DoN.)  |   Voice (Days): (703) 704-2280 (Eves): (703) 938-4564
+	--- Black Holes are where God is dividing by zero ---

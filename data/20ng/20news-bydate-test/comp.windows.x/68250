@@ -1,0 +1,36 @@
+From: brown@ftms.UUCP (Vidiot)
+Subject: Re: viewing postscript files under X windows
+Reply-To: brown@ftms.UUCP (Vidiot)
+Organization: Vidiot's Other Hangout
+Lines: 30
+
+In article <gordons.737605006@mon.sps.mot.com> gordons@mon.sps.mot.com (Gordon Sasamori) writes:
+<In <604@ftms.UUCP> brown@ftms.UUCP (Vidiot) writes:
+<
+<>OW 3.0 is the same.  But, the definition of broken is relative.  Pageview
+<>requires DSC compliant PostScript files, in order to stop at page breaks.
+<>I don't consider that broken.  I say that any program that puts out a
+<>PostScript file that isn't DSC compliant is broken.
+<
+<Well that may be true.  However, the man page for pageview for OW 2.0
+<does not mention about DSC compliance.  In any event, the point here
+<is that if you try to display some PS files using pageview you will
+<find out that it's not a practical tool.
+
+It is true that the man page for pageview does not say that the files need
+to be DSC compliant.  That is the fault of the left hand not knowing what the
+right hand is doing at Sun.  I was informed by a Sun employee that the pageview
+program does require DSC compliant PostScript.  There was the possibility that
+it was going to be changed so that if the file wasn't DSC compliant that it
+would stop at each showpage.  I believe that this method would preclude being
+able to go backwards and forwards through the file, i.e., you could only go
+forward to the next showpage.  This isn't in OW3.0 pageview, but maybe it is
+in the Solaris 2.x version of OW (OW 3.1?).
+
+In any event, I find pageview extremely useful.  Since all of the PostScript
+that I produce IS DSC compliant, I don't have any problems.
+-- 
+harvard\
+  ucbvax!uwvax!astroatc!ftms!brown  or  uu2.psi.com!ftms!brown
+rutgers/
+INTERNET: brown@wi.extrel.com  or  ftms!brown%astroatc.UUCP@cs.wisc.edu

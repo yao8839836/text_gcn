@@ -1,0 +1,24 @@
+From: mpdillon@halcyon.com (Michael Dillon)
+Subject: Re: Looking for polygon "convexifier"
+Organization: "A World of Information at your Fingertips"
+Lines: 17
+Distribution: world
+NNTP-Posting-Host: nwfocus.wa.com
+
+>Does anyone know where I can find a code which would take concave
+>polygons and break them up into a set of convex polygons?
+O
+
+I also would like code or algorithms to do this.
+
+In fact, I am interested in sources for code and/or algorithms that
+convert 2D graphical objects into other 2D graphical objects that
+will render into the same image. i.e. Bezier curves to B splines,
+or splines to circular arc segments, or B splines to polgons, etc...
+
+
+-- 
+Michael Dillon                 Internet: mpdillon@halcyon.halcyon.com
+C-4 Powerhouse                  Fidonet: 1:353/350
+RR #2 Armstrong, BC  V0E 1B0      Voice: +1-604-546-8022
+Canada                              BBS: +1-604-546-2705

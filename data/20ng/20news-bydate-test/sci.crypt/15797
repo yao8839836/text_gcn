@@ -1,0 +1,33 @@
+From: wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705)
+Subject: Re: Do we need the clipper for cheap security?
+Organization: the best minds of a generation, destroyed by madness
+In-Reply-To: pdc@dcs.ed.ac.uk's message of Wed, 21 Apr 1993 20:41:57 GMT
+	<C5upHy.GH7@dcs.ed.ac.uk>
+Nntp-Posting-Host: rainier.ho.att.com
+Lines: 25
+
+In article <C5upHy.GH7@dcs.ed.ac.uk> pdc@dcs.ed.ac.uk (Paul Crowley) writes:
+   How fast do the fastest modems go?
+
+V.FAST is targeted for about 28kbps; 14.4kbps is ~$500, and 19.2 may
+be here soon too.  (Remember to ignore compression figures which make
+your modem go faster on compressible data, because voice gets
+compressed better than that, and encryption makes further compression impossible.)
+
+   How far can voice be compressed?
+
+The STU-III phones on the market from AT&T, Motorola, and (I forget who else),
+give you a choice of 9600, 4800, and 2400 baud.  The 9600 and 4800 are CELP,
+and I think the 2400 is some earlier military vocoder stuff.
+9600 is decent, 2400 is pretty artificial, anything less is Speak&Spell.
+16000 can produce quite adequate sound.  There's also some 8 kbps CELP around.
+DSPs have made it possible to do all this in real time for cheap.
+
+Old-hand government crypto have trouble adjusting to systems faster
+than 9600 baud, because if the voice on the other end sounds good,
+you assume the crypto hasn't been turned on yet :-)
+--
+#				Pray for peace;      Bill
+# Bill Stewart 1-908-949-0705 wcs@anchor.att.com AT&T Bell Labs 4M312 Holmdel NJ
+#	              No, I'm *from* New Jersey, I only *work* in cyberspace....
+# White House Commect Line 1-202-456-1111  fax 1-202-456-2461

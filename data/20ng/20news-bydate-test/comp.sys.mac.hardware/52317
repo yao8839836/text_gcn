@@ -1,0 +1,13 @@
+From: avery@gestalt.Stanford.EDU (Avery Wang)
+Subject: CD300 Audio CD SCSI commands
+Organization: DSO, Stanford University
+Lines: 8
+
+Hi-
+Does anyone out there know how I would get started on writing a
+device driver for the Apple CD300 CD-ROM drive, which *can*
+read audio CD formats out through the SCSI bus? 
+
+Thanks,
+-Avery
+

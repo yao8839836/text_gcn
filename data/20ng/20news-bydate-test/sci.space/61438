@@ -1,0 +1,23 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: U of Toronto Zoology
+Lines: 18
+
+In article <1993Apr29.201036.11256@den.mmc.com> zwork@starfighter.den.mmc.com (Michael Corvin) writes:
+>I expect that retrieving HST would involve 'damaging' it considerably in
+>order to return it to its cradle in the cargo bay.  Most of the deployed
+>items (antennas and, especially, the solar arays) probably are not
+>retractable into their fully stowed position, even by hand...
+
+No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+dictated a rather odd design for the solar arrays, since they had to be
+retractable as well as extendable, and may thus have indirectly contributed
+to the array-flapping problems.
+
+The retrieval problems are exactly as stated:  it would be costly, would
+involve extensive downtime (and the worry of someone finding a reason not
+to re-launch it), and would unnecessarily expose the telescope to a lot
+of mechanical stresses and possibilities for contamination.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

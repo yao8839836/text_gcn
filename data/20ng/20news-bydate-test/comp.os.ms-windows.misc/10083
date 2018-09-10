@@ -1,0 +1,57 @@
+From: wcl@risc.sps.mot.com (Wayne Long)
+Subject: Observation:  Floppy copy works under PGM MGR, but not DOS shell.
+Organization: Motorola (Austin,TX)
+Lines: 51
+NNTP-Posting-Host: ome.sps.mot.com
+
+Has anyone observed this?  If I copy a large, say 800K+ file (a large PKZIP
+file for instance) to my floppy drive (3.5") under MS Windows 3.1 via either
+Program Manager or a DOS Shell, the file copied under the DOS shell 
+has errors whereas the file copied from within Program Manager does not.
+
+The corruption is detected by executing "pkunzip -t b:\file.zip" after 
+both copies.  The file copied via the DOS shell always shows corruption.
+
+
+Now here's the kicker:
+
+
+I have many windows open while doing this; both DOS and WINDOWs apps.
+Supposedly all WINDOWs' apps share the same time slice, whereas the 
+DOS apps get their own equal time slice (unless overriden).
+
+
+So, as an example, I have 5 WINDOWs' apps open, 2 multitasking DOS sessions running,
+and one execution-execlusive DOS shell iconized (inactive).  Under this 
+scenario, CPU time is divided into two major slices:  one for all the Windows
+apps and one slice for the running DOS app.  
+
+When copying under Windows PGM MGR, I'll assume the other Windows and DOS tasks
+are essentially inactive.  Thus PGM MGR gets, say, 80% of the Windows slice and
+95% of the execution-background DOS shell's slices.  Thus it gets (.8)(.95)^2 = 
+.72 or 72% of the total available CPU time. 
+
+When copying in a DOS shell, I activate the execute-exclusive mode DOS shell
+(no other DOS background tasks allowed), full screen, under the Windows task
+manager.  The CPU time available to this shell would be 80% of the Windows slice
+(assumming inactive Windows applications) and 100% of the DOS slice: 
+(1.0)(.8) = .8 or 80% of the total available CPU time.
+
+So why do I get copy errors under DOS if it has the greater amount of CPU
+time?  Is program manager working in a pre-emptive mode during the floppy 
+copy?  It must be!
+
+
+
+Miscellaneous data:  Running Windows on top of DOS 5.0, qemm 5.x, rapidbios.sys,
+                     2.0 mbyte smartdrive (no delayed writes), two ramdrives, 
+                     logitech mouse driver 6.2, full 16mbytes motherboard RAM,
+                     64Kbyte motherboard cache, 386 DX 33 Mhz.
+                     
+                     Running dos-edit.com TSR in the DOS shell.
+                     
+-- 
+-------------------------------------------------------------------
+Wayne Long - OE215              Internet: wcl@risc.sps.mot.com
+6501 William Cannon Drive West  UUCP: cs.texas.edu!oakhill!risc!wcl
+Austin, Texas 78735-8598        Phone (512) 891-4649  FAX: 891-3818

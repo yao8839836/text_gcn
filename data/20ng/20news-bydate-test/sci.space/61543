@@ -1,0 +1,47 @@
+From: isaackuo@skippy.berkeley.edu (Isaac Kuo)
+Subject: Re: Electrical Spacecraft via Magnetic field of earth?
+Organization: U.C. Berkeley Math. Department.
+Lines: 41
+NNTP-Posting-Host: skippy.berkeley.edu
+
+In article <1993May1.044441.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Okay, the earth has a magnetic field (unless someone missed something?)
+>
+>Okay if you put a object in the earth magnetic field, it produces electricty..
+
+No, if you put a conductor in a changing magnetic field, it produces a voltage.
+The two ways you can do that with a permanent magnet is to move the magnet or
+move the conductor.  The slow shifting of the Earth's magnetic field isn't
+really significant, especially when you consider how weak the Earth's magnetic
+field is to begin with.
+
+>Now the question. Can you use electricity to power a space/low earth orbit
+>vehicle? and i fyou can, can you use the magnetic field of the earth to power
+>it??
+
+Well, it would require generating an incredibly large magnetic field to repel
+the Earth's magnetic field (as a magnet can repel another magnet).  Of course,
+this force only works in one direction, and the magnetic field generated has
+to be unimaginably powerful.  Magnetic repulsion drops off as 1/r^3, and the
+earth's magnetic field on the surface is already very weak.  It would require
+some sort of unknown superconductor, and special nonmagnetic construction.
+And seriously hardenned electronics (optical computers, perhaps).  And the
+physiological danger would be significant (due to the iron content in our
+blood, among other things).  In other words, forget it.
+
+>Can the idea of a "dragless" satellite be used in part to create the electrical
+>field?
+>
+>After all the dragless satellite is (I might be wrong), a suspended between to
+>pilons, the the pilons compensate for drag.. I think I know what I want to say,
+>just not sure how to say it..
+>
+>A dragless satellite sounds interestingly enough liek a generator.
+
+I missed out on the "dragless satellite" thread, but it sounds totally bogus,
+from this little bit.
+-- 
+*Isaac Kuo (isaackuo@math.berkeley.edu)	*       ___
+*					* _____/_o_\_____
+*	Twinkle, twinkle, little .sig,	*(==(/_______\)==)
+*	Keep it less than 5 lines big.	* \==\/     \/==/

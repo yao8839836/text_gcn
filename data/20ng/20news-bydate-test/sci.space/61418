@@ -1,0 +1,39 @@
+From: atae@spva.ph.ic.ac.uk (Ata Etemadi)
+Subject: Re: HyperKnowledge
+Organization: Imperial College of Science, Technology, and Medicine, London, England
+Lines: 33
+Nntp-Posting-Host: prawn.sp.ph
+
+In article <29APR199311345485@judy.uh.edu>, wingo%cspara.decnet@Fedex.Msfc.Nasa.Gov writes:
+-| In article <1993Apr28.200843.83413@embl-heidelberg.de>, tuparev@EMBL-Heidelberg.DE (Georg Tuparev) writes...
+-| > 
+-| > 
+-| >ANNOUNCEMENT:	The "HyperKnowledge" PROJECT for NeXTSTEP
+-| 
+-| I know this is kinda off the subject of sci.space, but not really, I want to
+-| answer this for their, as well as everyone else's information.  What these
+-| people are proposing, by and large already exists and can be purchased today.
+-| 
+-| It is called labview by National Instruments. IT is a wonderful object
+-| IT is a wonderful object oriented graphical programming language.
+-| [some lines deleted]
+
+I am afraid you are mis-directed. NeXTSTEP is an operating system as opposed to 
+a package. I have read a little about it but since Steve Jobs does not seem to 
+have the marketing capabilities of Bill Gates my info. is limited. Probably why
+the far inferior Windows NT is going to be more widely distributed (but that
+is another flame-ridden story). Some of the innovative features of NeXTSTEP are
+binary compatibility across platforms (eg you can just copy your program from
+a Sparc to a PC and it would run, as opposed to buying the version of the package
+ported to a PC), graphical object-oriented design (its all WSIWIG postscript), 
+supports parallel hetrogeneous processing, and best of all it is based around 
+the Mach micro-kernel so you can make it look like Unix with X, or DOS, or NT or 
+even VMS if you feel the need. No package out there comes even close. I hope 
+people will subscribe to the HyperKnowledge project and NeXTSTEP finally
+takes off in my lifetime :-)
+-- 
+| Mail          Dr Ata Etemadi, Blackett Laboratory,                          |
+|               Space and Atmospheric Physics Group,                          |
+|               Imperial College of Science, Technology, and Medicine         |
+| Internet/Arpanet/Earn/Bitnet atae@spva.ph.ic.ac.uk or ata@c.mssl.ucl.ac.uk  |
+| Span                              SPVA::atae       or     MSSLC:atae        |

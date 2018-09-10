@@ -1,0 +1,21 @@
+From: seang@ddbeezer.Dundee.NCR.COM (Sean Gordon)
+Subject: Help, I need a Mac SE modem port to PC 25 way serial port cable
+Reply-To: seang@ddbeezer.Dundee.NCR.COM (Sean Gordon)
+Distribution: world
+Organization: NCR E&M Dundee
+Lines: 14
+
+I'm trying to connect a Mac SE modem port to a PC 25 way serial port,
+can someone provide me with a wiring diagram for a null modem lead for
+this setup.
+
+Please use Email since my news feed is a bit quirky.
+
+Thanks in advance
+
+Sean Gordon
+--------------------------------------------------------------------------------
+Sean.Gordon@Dundee.NCR.COM|#include <stdio.h>
+NCR (E&M) Ltd.            |long a=10000,b,c=2800,d,e,f[2801],g;main(){for(;b-c;)
+Tel (0382) 592586         |f[b++]=a/5;for(;d=0,g=c*2;c-=14,printf("%.4d",e+d/a),
+Fax (0382) 622243         |e=d%a)for(b=c;d+=f[b]*a,f[b]=d%--g,d/=g--,--b;d*=b);}

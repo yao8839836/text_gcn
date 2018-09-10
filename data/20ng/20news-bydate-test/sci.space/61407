@@ -1,0 +1,49 @@
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Mars Observer Update - 04/28/93
+Organization: Jet Propulsion Laboratory
+Lines: 40
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+Keywords: Mars Observer, JPL
+News-Software: VAX/VMS VNEWS 1.41    
+
+Forwarded from the Mars Observer Project
+
+                     MARS OBSERVER STATUS REPORT
+                           April 28, 1993
+                            12:40 PM PDT
+
+Flight Sequence C9 is active as of 00:11 AM, Tuesday, April 27.  With
+activities beginning at shortly before 5:00 AM yesterday, C9 commanded
+the spacecraft to execute a series of slews and rolls to provide the MAG
+(Magnetometer) Team data points in varying spacecraft attitudes and
+orientations for the purpose of better characterizing the
+spacecraft-generated magnetic field and its effect on their instrument.
+
+The spacecraft was commanded back to Sun Star Init state at 9:07 AM to
+re-establish Inertial Reference.  Transition back to Array Normal Spin
+began at 11:17 AM, after which the sequence powered on the on-board
+transmitter at 11:18 AM.  Telemetry reacquisition occurred at
+approximately 11:30 AM at the 4 KBS Science and Engineering downlink
+data rate on the High Gain Antenna.  Subsystem engineers report that all
+systems appear to be nominal.  The command to terminate using the Low
+Gain Antenna for uplink was sent at 12:31 PM.  Uplink and Downlink are
+currently via the HGA.
+
+MAG Calibration data has been recorded on Digital Tape Recorders 2 and 3.
+Playback of DTR 2 is scheduled to take place tomorrow morning between
+8:11 AM and 12:42 PM.  Playback of DTR 3 is scheduled to take place
+tomorrow evening beginning at 11:57 PM and ending at 4:28 AM on Friday.
+DTR playback will be performed via the High Gain Antenna at 42,667 bits
+per second.  Upon verification of successful DTR playbacks, downlink will
+be maintained at the 4K S & E rate.
+
+The MAG Cal activity timeline ends at shortly before 5:00 AM on Friday
+morning.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+

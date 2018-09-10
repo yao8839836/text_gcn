@@ -1,0 +1,54 @@
+Subject: Re: Power, signal surges in home...
+From: emd@ham.almanac.bc.ca
+Distribution: world
+Organization: Robert Smits
+Lines: 48
+
+clewis@ferret.ocunix.on.ca (Chris Lewis) writes:
+
+> In article <1r1jmoINN8mb@rave.larc.nasa.gov> kludge@grissom.larc.nasa.gov (Sc
+> >In article <DRAND.93Apr20150701@spinner.osf.org> drand@spinner.osf.org (Doug
+> >>In article <randall.735251839@woof> randall@informix.com (Randall Rhea) wri
+> 
+> >>   Hams can legally run up to 1500 watts.  It is very unlikely, however,
+> >>   that a ham would be running that kind of power from a car.  Ham rigs
+> 
+> >>Not possible either.  You'd need about a 300 amp alternator for
+> >>just the amplifier.  I can just see it.  You need to slow
+> >>down on a downgrade,  so you hit the push to talk button.
+> 
+> >Now, that indeed is possible.  A good friend of mine is running about 1 KW
+> >PeP from his car.  Yes, he does have a second alternator.  Yes, he calls
+> >the rig an "electronic brake" since the engine noticeably slows when the
+> >key is down.
+> 
+> It has been a while since I knew the electronics of ham radio, but I seem
+> to remember that PeP is actually 4x the "real" power.  Which makes 1KW PeP
+> actually around 250W.  Or was it 2x?  I disremember.
+> 
+> "Effective transmitted power" is also "odd", in that it takes into account
+> antenna height and geometry.  Which is why a TV station with a 50KW Klystron
+> might advertise a megawatt (if their antenna is on the top of the
+> CN tower ;-).
+> 
+> This is like Sears HP ;-)
+> 
+> Though, 1500 real watts still isn't impossible.  About 125-150A with
+> a 12V alternator, less if the alternator produces higher voltages.
+> 
+> It's only three horsepower (taking into account inefficiencies).  You'll
+> feel it when you hit the key.  But not too much.
+> -- 
+> Chris Lewis; clewis@ferret.ocunix.on.ca; Phone: Canada 613 832-0541
+> Psroff 3.0 info: psroff-request@ferret.ocunix.on.ca
+> Ferret list: ferret-request@ferret.ocunix.on.ca
+
+
+It sorta depends on what you drive. I remember running a two channel 
+Motorola with a vibrator power supply and about 40 tubes in a 1958 
+Volkwagen. The poor little 6 V generator had a heck of a time, and if you 
+keyed the mic at night, you needed to be stationary, because your lights 
+got AWFUL DIM. Isn't progress wonderful?
+
+
+emd@ham.almanac.bc.ca (Robert Smits Ladysmith BC)

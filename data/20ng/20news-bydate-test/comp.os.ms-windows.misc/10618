@@ -1,0 +1,9 @@
+From: mkr@Comtech.com (Mark K. Reha)
+Subject: 15 bit RGB
+Organization: Comtech Labs Inc, Palo Alto
+Distribution: usa
+Lines: 3
+
+I am working with 24 bit RGB BMP files and need to
+comvert these to 15 and 16 bit images. How do convert
+24 bit images to 15 and 16 bit RGB images? Thanks! 

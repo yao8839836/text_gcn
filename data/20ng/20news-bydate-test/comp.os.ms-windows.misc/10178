@@ -1,0 +1,64 @@
+From: werdna@cco.caltech.edu (Andrew Tong)
+Subject: Re: Challenge to Microsoft supporters.
+Organization: California Institute of Technology, Pasadena
+Lines: 58
+NNTP-Posting-Host: sandman.caltech.edu
+
+rsrodger@wam.umd.edu (Yamanari) writes:
+>	I'd say that the massive crash problems are exceedingly rare.
+>	Windows _itself_ almost never crashes, but it can be crashed by
+>	an errant application (My personal favorite?  Any one of the Corel
+>	3.0 programs).  On the other hand, I have had OS/2 crash randomly
+>	a number of times, mostly just running it's own applications.
+
+I  _do_ know  that  IBM systems, the PS/2 56SLC2, in  particular, have
+absolutely no  problem  with  OS/2--never had  a "random" crash  while
+running any of  my programs under  OS/2.   In fact, I  don't  remember
+_ever_ crashing.
+
+Of course, I really don't run any  OS/2 programs, just the  same bunch
+of DOS and Windows stuff that I've always been running.
+
+And  when  I  had  the  56SLC  (this is  the  386SLC  system)  running
+Dos/Windows, I had only  one crash, and it was consistent.   FTP had a
+tendency  to  crash  whenever  I would  get  large  files (>1mb)  from
+particularly fast  clients  (DTR's  150K-200K/sec), I  figured out the
+problem was with smartdrv's write buffering--if I turned off the write
+buffer, everything would work fine.
+
+FTP under OS/2 has never locked,  though.  I can even format  floppies
+(to use the most often cited example of the superiority of OS/2.)
+
+>	For instance, I'm still wondering why print preview in a windowed
+>	WP 5.1 (DOS) locks up my system.
+
+Yeah, I guess I'm willing to admit that OS/2  is somewhat sensitive to
+specific hardware.  WP51 for DOS works perfectly fine on my SLC2...
+
+>	Please explain.  The only time I wait on anything under Windows is
+>	when I'm copying or formatting a floppy, or when printing (and even
+>	then, not long--I get 9 to 11 pages dumped to the printman per 
+>	minute, and can _still_ go do things--slowly--while it's doing 
+>	this--I've downloaded with PP+ @9600 while printing).
+
+Well,  I save all  my  personal files to floppy,  and when  i did that
+under Windows, a floppy save of a large file hung up the system.
+
+I  also found  it quite bothersome to  have  to  continually tweak the
+tasking options  on fractint for dos whenever I wanted to do a fractal
+computation in the background.
+
+>> and not being able to address your memory better than DOS,
+
+>	Not sure what you mean here.
+
+The idea is  that OS/2's DOS sessions can see more memory than Windows
+DOS  sessions.  I  let  XPL (a  shareware calculus program) see around
+720KB of free _conventional_ memory, which lets me  do bigger symbolic
+manipulations than is possible  under straight DOS (where it would see
+around 610KB of conventional RAM.).  I  also found it really handy for
+my _own_ DOS-based programs, which, without  any re-writing, could now
+handle larger data sets, simulate for more iterations, etc. Of course,
+the  point is  now moot,  since  the OS/2 programs I now write  simply
+_never_ run into memory limitations.  I never programmed  for Windows,
+so I don't have much of a comparison here, though....

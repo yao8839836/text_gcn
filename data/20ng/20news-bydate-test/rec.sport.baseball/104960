@@ -1,0 +1,37 @@
+From: wall@cc.swarthmore.edu (Matthew Wall)
+Subject: Re: mlb.c
+Nntp-Posting-Host: mac8.beardsley.swarthmore.edu
+Organization: Hi, I'm Matt, and I'm a...a...Boston Red Sox fan
+Distribution: usa
+Lines: 30
+
+In article <5086@cvbnetPrime.COM>, cvalcour@ptex.Prime.COM (Sorry I missed
+the posting) wrote:
+> 
+> Could some kind soul please email me a copy of mlb.c
+> 
+> Thanks
+> Chris V.
+> ------------------------------------------------------
+> cvalcour@ptex.Prime.COM
+> ------------------------------------------------------
+
+
+mlb.c is archived on the Internet Baseball Archive
+
+anoymous ftp to eucalyptus.cc.swarthmore.edu (130.58.67.44)
+you must use your full email / username id as a password
+
+cd ./baseball/schedules
+
+it's filed as mlb-schedule-program.c for clarity
+
+schedules pre-generated for east-coast times are there as text files as
+well, and a couple of teams' TV schedules -- please send me more TV info if
+you have it on other teams.
+
+- matt
+
+Matt Wall * wall@cc.swarthmore.edu * Hey, I gotta job here, OK?
+---------------------------------------------------------------
+April 6, 1993: Boston Red Sox seize first place.

@@ -1,0 +1,120 @@
+From: anthony@kurango.cit.gu.edu.au (Anthony Thyssen)
+Subject: Re: Automatically Configuring DISPLAY variable
+Keywords: DISPLAY, X Windows, .cshrc Unix
+Organization: Griffith University.
+Lines: 114
+
+ainman@css.itd.umich.edu (Andrew Douglas Inman) writes:
+| Does anyone out there know of a way to have a UNIX machine automatically
+| set it's display variable to that of the Xterm you're using when it's
+| not the machine that's serving you X? 
+|
+| The best I've been able to come up with has been a rather convoluted 
+| script that extracts your IP # from the whos command, and it 
+| frequently fails, not to mention that it requires having your user
+| name added to it.
+|
+|    -- Andrew Inman, Consultant, ITD Consulting and Support Services
+|       ainman@umich.edu          University of Michigan
+|
+|
+From my own notes on this subject....
+
+Methods to automatically passwd Authorization from one machine to another.
+  This also includes the problem of notifing the remote host of the current
+DISPLAY that is being used.
+
+1/ Use rsh/rexec/on...  (the method in the xauth manual)
+      Set up the your .rhosts file in the home directory on the remote
+  machine so that a password in not required to remotly execute commands.
+
+         xauth extract - $DISPLAY | rsh other xauth merge -
+
+  This method is also used by xrsh to pass authorization. My vampire
+  program also uses a variation, however I wrap it as part of the remote
+  command sequence  (EG:  xauth add $auth)
+
+     Included in this method is the use of `xrlogin' and `xrsh' to do
+  this job for you. These programs usally (the newer ones that is) allow
+  you to pass a secified list of ENVIRONMENT variables which includes
+  the `DISPLAY' and/or a copy of the authorization code required.
+
+     The `xon' program available (if enabled) on sun machines will also
+  pass environment variables, as well as the current directory.  You will
+  however be required to store the Authority in such a variable for
+  passing. Unless you are also have shared home directories.
+
+    WARNING: Environment variables and command line arguments are visible
+  in `ps' listing with the appropiate flags. As such passing authorization
+  information in environment variables or as arguments is not recomended.
+  The recommended method as given in the manual (shown above) is safe from
+  the view of other users.
+
+2/ Wrap it as part of the TERM environment variable.
+      This method uses the fact that most remote command executors do pass
+  the TERM environment variable to the remote host. It is then a matter of
+  an appropiate script in your remote .login file to extract the information
+  from the TERM environment variable and set up things appropiatly.
+    A version of the xrlogin script is available on the network which does
+  this. Basically you change the TERM environment variable before the
+  actual call to rlogin is performed, to include your DISPLAY and your
+  authorization.
+    On the remote machine you then extract this information and return the
+  TERM environment variable to normal BEFORE you use it for reseting or
+  stty'ing your terminal.
+
+  ---8<---
+  script for launching rlogin:
+    #!/bin/sh
+    # ~/bin/rl   --- Rlogin with display:
+    if [ -n "$DISPLAY" ]; then
+      case "$DISPLAY" in
+        :*) DISPLAY=`hostname`$DISPLAY ;;
+      esac
+      TERM="$TERM&$DISPLAY&`xauth nextract - $DISPLAY`"
+      export TERM
+    fi
+    rlogin $*
+  ---8<---
+  add to your .cshrc or .login
+    if ( $?TERM ) then
+      if ( `echo $TERM | tr -cd '&'` != '' ) then
+        echo "$TERM" | cut '-d&' -f3 | xauth nmerge -
+        setenv DISPLAY `echo "$TERM" | cut '-d&' -f2`
+        setenv TERM    `echo "$TERM" | cut '-d&' -f1`
+      endif
+    endif
+  ---8<---
+  xterm command to use
+    xterm -T hostname -e ~/bin/rl hostname
+  ---8<---
+
+3/ NFS.
+     Write it to a file on a shared NFS partition you have access to.
+   Note that if the home directories are NFS mounted, then authorization
+   is automatically passed, Hoever you will still have to pass your
+   DISPLAY environment variable via a file or other means. IE:
+
+      login host:       echo $DISPLAY > ~/.X11host
+      remote host:      setenv DISPLAY `cat ~/.X11host`
+
+4/ Finger for the info in a .plan file
+      This involves encrypting the information into your `.plan' or
+  `.project' and having the remote machine finger for the information.
+  This has the disadvantage of having the information to anyone fingering
+  the user.  Thus requiring a encryption method that is uniq to each
+  individual.  IE: the method of decyrption must not be shared or known
+  by others, nor should it be easy to determine.
+    A improvment is to use the `who fingered me' technique to only give
+  the information only to your own remote accounts and not just to anyone
+  who is asking.
+    This last method was developed last year by a second year here, untill
+  I explained to him the need for the encryption, at which point he gave
+  up this method. It is however a valid method. It is easer than (2) but
+  less secure.
+
+
+  Anthony Thyssen - (SysProg @ Griffith University)     anthony@cit.gu.edu.au
+------------------------------------------------------------------------------
+    "Magic is Real -- unless declared an integer"  ---  John P.Melvin
+------------------------------------------------------------------------------

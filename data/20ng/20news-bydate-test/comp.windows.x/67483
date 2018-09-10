@@ -1,0 +1,35 @@
+From: euamol@eua.ericsson.se (Mats Larsson)
+Subject: Re: SUMMARY: virtual mouse in ol{v}wm
+Reply-To: euamol@eua.ericsson.se
+Organization: Ellemtel Telecom Systems Labs, Stockholm, Sweden
+Lines: 27
+Nntp-Posting-Host: euax1i2c05.eua.ericsson.se
+Nntp-Posting-User: euamol
+
+In article 28858@cas.org, lwv26@cas.org (Larry W. Virden) writes:
+>In article <0frolV200awVI3IV4s@andrew.cmu.edu> "Derrick J. Brashear" <db74+@andrew.cmu.edu> writes:
+>:
+>:I got the following today from Gary Risebrough and it worked fine:
+>:
+>:Excerpts from mail: 29-Apr-93 Re: ol{v}wm 3 virtual keybo..
+>:ITO2@aodc.gov.au (554)
+>:
+>
+>:> I have :
+>:> > OpenWindows.KeyboardCommands:   Full
+>:> > OpenWindows.VirtualGrabKeys :   False
+>:
+>:> which seems to work.
+>:
+>
+>Where can I find man pages about VirtualGrabKeys resource - it doesn't
+>show up in my OpenWindows 3.0 man pages...
+
+VirtualGrabKeys is not an OW resource. It belongs to
+olvwm(1).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mats Larsson                   | Email: Mats.Larsson@eua.ericsson.se
+ELLEMTEL Telecom Systems Labs  | Phone: +46 8 727 3658
+S-125 25 Alvsjo, SWEDEN        | Fax:   +46 8 727 4168
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

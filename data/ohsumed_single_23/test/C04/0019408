@@ -1,0 +1,6 @@
+Systematic computer-aided search of optimal staging system for colorectal cancer.
+ Two hundred and ninety-eight patients with curatively resected colorectal cancer were classified into 12 categories according to the depth of tumour penetration (T1-T4), and lymph node status (N0-N2).
+ Using a computer, these categories were grouped into 2-12 stages in every possible combination, so a total of 146,975 logical classifications were generated.
+ The optimal model was selected for each group of classifications with equal stage number, thus giving the greatest prognostic information on 5-year survival according to the Akaike criterion.
+ The results showed that (1) 13% of the total classifications, including 85% of the 3-stage classifications, were better than the Dukes system in predicting our patients' outcomes; (2) the T-level was a stage-determinant even more important than the N-level; and (3) major changes in prognosis occurred at more advanced stages than the classical "turning points".
+ We conclude that in order to find an optimal staging of cancer, systematic computer-aided search through all the possible classifications is necessary, using the appropriate database.

@@ -1,0 +1,32 @@
+From: hal@cco.caltech.edu (Hal Finney)
+Subject: Re: Let's build software cryptophones for over the internet...
+Organization: California Institute of Technology, Pasadena
+Lines: 26
+NNTP-Posting-Host: alumni.caltech.edu
+
+gtoal@gtoal.com (Graham Toal) writes:
+
+>I forwarded an old posting about CELP speech compression:
+>[...]
+>I've since been told that the source of this is on cygnus.com
+>in /pub/celp.speech.tar.Z
+
+>I'm not in a position to; any Sun tcp/ip gurus out there who think they
+>can marry this with netfone by the end of the week? ;-)  Seriously.  I
+>think someone with real net access and two sparcs could have this running
+>by the end of the week.  Then we ask the pgp guys to add a bytestream
+>crypto filter.  Two weeks at the most.  [Damn, I wish I had my sparc
+>back... I'm stuck on a 25mhz 386sx]
+
+I tried this code yesterday.  On my Sparcstation ELC it takes over
+300 seconds to compress 22 seconds' worth of speech.  This means that it
+needs to be "optimized" by over a factor of 10 before it will be usable
+in even a half-duplex mode.
+
+I question whether CELP is the best approach for this application.  It produces
+great compression but at the expense of tremendous CPU loads.  We want
+something that can be run on ordinary workstations or even high-end PC's
+without DSP cards.  My guess is that some other algorithm is going to be
+a better starting point.
+
+Hal Finney

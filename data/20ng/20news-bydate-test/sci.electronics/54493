@@ -1,0 +1,27 @@
+From: wtm@uhura.neoucom.edu (Bill Mayhew)
+Subject: Re: WD-40 as moisture repellant (was Lead Acid batteries & C
+Organization: Northeastern Ohio Universities College of Medicine
+Lines: 22
+
+I was a bit surprised that the manual for my Fluke-87 multimeter
+suggests applying WD-40 to the test lead sockets, especially the
+current range socket.  The intention is to prevent the
+test-lead-is-in-the-wrong-scocket beeper from going off when there
+is no test lead in that socket.
+
+The manual is a bit vague, but I think I'd apply the WD-40 to a
+swab, then wipe the socket instead of spaying the stuff directly
+from the can.
+
+Speaking of said meters:  I compared the 87 against the 8060A that
+I've had on my bench for almost 11 years.  It has been five years
+since the 8060A has been calibrated.  On the DC scale, they agree
+within .01 mV.  AC scale is within about .1 mV.  The 87 would be
+just about the perfect portable meter if it had the dB scale; I
+didn't feel it was worth the extra $100 for a second 8060 since I
+don't use dB all that much in my work.
+
+-- 
+Bill Mayhew      NEOUCOM Computer Services Department
+Rootstown, OH  44272-9995  USA    phone: 216-325-2511
+wtm@uhura.neoucom.edu (140.220.1.1)    146.580: N8WED

@@ -1,0 +1,39 @@
+From: chyang@engin.umich.edu (Chung Hsiung Yang)
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+Article-I.D.: srvr1.1r7u79INNcbf
+Distribution: world
+Organization: University of Michigan Engineering, Ann Arbor
+Lines: 31
+NNTP-Posting-Host: paronomasia.engin.umich.edu
+
+In article <1r7fp6INNsua@mojo.eng.umd.edu> russotto@eng.umd.edu (Matthew T. Russotto) writes:
+>In article <1r6tscINN5bd@srvr1.engin.umich.edu> chyang@engin.umich.edu (Chung Hsiung Yang) writes:
+>>In article <21APR199323231675@utkvx.utk.edu> ljones@utkvx.utk.edu (Leslie Jones) writes:
+>>>
+>>>A CNN factiod in the last few months stated that 40% of all the computers
+>>>in the U.S. are left on 24 hours a day, 7 days a week.  I don't recall
+>>>CNN's source.
+>>>
+>>
+>>	Yeah, but they probably included industries and educational institutions
+>>that uses mostly work stations (SUNs, DEC, IBM RS600... etc etc)  Which turns
+>>monitor off if left untouched for 5 min.  
+>
+>None of the SUNs, DECs, or RS6000s I've used have turned off the
+>monitor automatically.
+>
+>
+
+	Maybe you should contact your schools officials and make 
+them consider installing the necessary softwares or hardwares that
+allows the Unix works stations to shuts off its monitor when 
+left untouched.  It does save a lot of energy.               
+
+- Chung Yang
+
+>
+>-- 
+>Matthew T. Russotto	russotto@eng.umd.edu	russotto@wam.umd.edu
+>Some news readers expect "Disclaimer:" here.
+>Just say NO to police searches and seizures.  Make them use force.
+>(not responsible for bodily harm resulting from following above advice)

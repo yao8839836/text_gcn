@@ -1,0 +1,16 @@
+From: graeme@labtam.labtam.oz.au (Graeme Gill)
+Subject: Re: HELP: Need 24 bits viewer
+Keywords: 24 bit
+Organization: Labtam Australia Pty. Ltd., Melbourne, Australia
+Lines: 10
+
+In article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
+> Hi,
+> 
+> I'm looking for a program which is able to display 24 bits
+> images. We are using a Sun Sparc equipped with Parallax
+> graphics board running X11.
+
+	xli, xloadimage or ImageMagick - export.lcs.mit.edu [18.24.0.12] /contrib
+
+	Graeme Gill

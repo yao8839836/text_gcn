@@ -1,0 +1,38 @@
+From: cyborg@kauri.vuw.ac.nz (-xivo-Alex Ivopol)
+Subject: Re: How to the disks copy protected.
+Article-I.D.: st-james.1r6uqq$f8d
+Organization: Victoria University of Wellington
+Lines: 31
+NNTP-Posting-Host: kauri.vuw.ac.nz
+
+In article <MCHEN.93Apr22131702@terra.cs.psu.edu> mchen@terra.cs.psu.edu (Michael Chen) writes:
+>If companies compressed their executables with LZW andd did some kind of
+>encryption in the process, this "change two bytes here" thing would go right
+>out the window.
+
+Not entirely true. A friend of mine was having trouble finishing the game
+GODS and asked me for help since he could not find a "trainer" (small
+patch that lets you play without losing lifes). The game is compressed but
+I did find *one* byte which when changed in the original *compressed* file
+would not affect the decompression and would also prevent the "shield" in the
+game from being tured off turning therefore making you invincible.
+
+There are many other progs whose copy protection was defeated one way or
+another and I have seen examples of this with my own eyes. The copy
+protection schemes defeated were various such as using protected mode,
+compressed executables, progs that load and execute other progs (possibly
+compressed), dongles, key disks, etc...
+
+I believe that persistence overcomes even the very best copy protection
+schemes.
+
+>--
+> Michael Chen			| From the depths of our most lucid horrors |
+>				| spring our fond hopes and pure desires... |
+> mchen@cs.psu.edu		| except what comes from HELL! :-) 7/23/92  |
+
+
+-- 
+Alex T. Ivopol                           cyborg@kauri.vuw.ac.nz
+External User - Victoria University of Wellington - New Zealand
+************* I speak for myself and no one else. *************

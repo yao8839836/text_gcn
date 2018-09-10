@@ -1,0 +1,65 @@
+From: grady@netcom.com (1016/2EF221)
+Subject: Re: Subliminal Channels in DSS
+Organization: capriccioso
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 59
+
+May I suggest that any any proposed cipher system
+having less entropy than the user's key and message can have
+an embedded subliminal channel as big as the
+difference in entropies between the entropy of the user
+input (message) and the entropy of the output?
+
+For example, take plain DES.  The unsuspecting
+user inputs a string "PLAINTEXT" to be enciphered.
+
+He cranks the algorithm which has been hacked
+by George Quisling and comes out with j*3H4902d.
+
+Nine char in and nine chars out.  Right?
+
+The unsepecting user ships the ciphertext
+to be decrpyted and the message "PLAINTEXT"
+is produced.  Everything fine, right?  Nope.
+
+
+Imagine the algorithm did a LZ compression
+on PLAINTEXT before DESing. (Compressing is
+down to four characters with more entropy:
+
+9#wj
+
+The opponent now pads the message with his
+own message, also compressed
+
+*3dk@
+
+before applying DES to the concatenated
+compressed pairs.  When decrpyted, the
+first compressed message is stripped off
+and declared sent.  Unbeknowst to the
+receiver, the opponents accomplice collects
+the remaining message in the bit bucket and
+uncompresses to KILL NOW.
+
+And to prevent all such subliminal or covert
+storage channels you would need to have 
+maximal entropy all the time -- which is
+a priori impossible because (for example)
+a stereotypical message might be
+replaced by one bit in the output reserving
+the rest of the output bits for the long
+covert message.
+
+In other words, if you opponent get to muck
+with the algorithm -- you either have got to
+muck with it LAST or concede his possible 
+embedding of covert channels.
+
+In other words, if you present a message
+to an opponet with less than maximal entropy
+then you have given him free bits of storage.
+
+-- 
+grady@netcom.com  2EF221 / 15 E2 AD D3 D1 C6 F3 FC  58 AC F7 3D 4F 01 1E 2F
+

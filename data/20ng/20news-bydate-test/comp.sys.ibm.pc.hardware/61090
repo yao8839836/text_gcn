@@ -1,0 +1,47 @@
+From: jjctc@lhdsy1.lahabra.chevron.com (James C. Tsiao)
+Subject: Re: Diamond Products Boycot?
+Summary: diamond policies
+Keywords: diamond policies
+Organization: Chevron, La Habra, CA.
+Lines: 40
+
+In article <1993Apr23.070117.22214@monu6.cc.monash.edu.au> ins413j@mdw056.cc.monash.edu.au (Markfried Fellensiek) writes:
+>
+>...
+>If you're considering buying a system, with a view to using
+>it to run Unix (Linux, bsd, etc...) or some other special software,
+>there is a good chance that it WILL NOT WORK with the Diamond cards.
+
+That is, if the special software is free, like Xfree86.  There are
+vendors that sells Diamond X drivers for commercial Unices.  But
+then, they charge $$$$.
+
+>This is due to Diamond's propriety attitude to it's hardware:
+>it's impossible to get free information from them about their chips 
+>(specifically their dot-clocks) without paying, and signing non-disclosure
+>agreements.
+
+I think they only need a signing (i.e. no paying).  This still
+violates the FSF's policy of publically available code.
+
+>This made it impossible for the Free Software Foundation to provide
+>X-Windows compatibility with these cards, as diamond didn't want to 
+>divulge programming neccessities.
+
+While this is true, there are fixes for those who have already
+bought Diamond cards.  In Linux, for example, there are utilities
+that will put the card in VESA mode before invoking X.  Of course,
+this means no fine tuning of Diamond cards, but at least this
+will allow those who're stuck with them to use Linux+X.
+
+I agree with Mark's suggestion:  If you are buying a video card
+for specialized free software, avoid Diamond.  But if you already
+have one, there may be a fix that can help you.
+
+James.
+
+-- 
+jjctc@chevron.com                    |   The shortest distance between
+jtsiao@netcom.com                    |   two puns is a straight line.
+-----------------------------------------------------------------------------
+Ask me about Linux, the freely distributable Unix clone for the 386/486.

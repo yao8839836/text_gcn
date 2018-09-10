@@ -1,0 +1,69 @@
+From: jamesc@netcom.com (James Chuang)
+Subject: Re: Any info on Cyrix 486DRu2 chip?
+Organization: Netcom - Online Communication Services (408 241-9760 guest)
+Lines: 64
+
+It seems that there are a lot of questions regarding the Cyrix 386 compatible
+486DLC and 486DRU2.  My info comes directly from Cyrix's Fast Fax service:
+And also from installing one of these chips in an IBM Model 80.
+
+The 486DLC is a 486 instruction set compatible CPU which fits into a 386DX
+socket (Pin Grid Array, or PGA).  The DLC currently is available in 3 speeds.
+the 25, the 33, and the 40.  They do not have a coprocessor on board, but any
+software query will return coproc as present.  I guess they emulate the
+coproc instructions.  Math functions are on the 386DX level without the
+actual coprocessor.
+
+The internal cache on the 486DLC is 1K.  Cyrix literature claims a 85% hit
+rate.  My informal tests show that the cache accounts for a 10% performance
+boost when it is enabled by software.  Overall performance boost from a
+386DX-25 to a 486DLC-25 is about 60%.  The benchmarks I used were NU SI and
+QAPlus Dhrystones and Whetstones.  The performance, with the cache enabled,
+is about on a par with my 386DX-40 with 256K external CPU cache, which is
+around the performance for a 486SX-25.  The computer runs noticebly faster,
+and DOS 6 with Dblspace is not complaining.  The company claims OS/2
+compatibility, but I didn't test it.
+
+The 486DRU2 is not a chip, as commonly thought.  The 486DRU2 is actually
+a small daughterboard slightly larger than the 386DX, which contains
+the logic to manage the clock doubler.  This board plugs into the 386DX
+PGA, and the 486DLC-33 or 40 plugs into this board.  I guess the board
+doubles the frequency apparent to the CPU, and insert wait states when 
+access to the rest of the system is required.  There are no info available
+from Cyrix there.  Anyway, the DRU2 is available for 386DX-16, and 386DX-20
+only.  Double these clock rates, and you get the 32MHZ and the 40MHZ DLCs.
+If Cyrix is planning to do the same thing for the DRU2-50, then they need
+to put out the 50MHz DLC2 first...
+
+I also tested a DLC33 motherboard, along with a Cyrix Coprocessor.  With 64K
+external cache, performance were about 30% faster than the 25, but still
+significantly (25%?) slower than an actual Intel 486DX.
+
+IMHO, the DLC is a great, low price upgrade for people who can't afford, or
+can't install, a new motherboard.  It is definitely worth what I paid for it,
+but if you need 486DX-33 performance, the DLC33 won't cut it.  I'm not sure
+about the DLC-40, but I think even if it matches the performance, it won't
+beat it in any significant way.
+
+The last time I posted info about the DLC, people sent quite a bit of mail,
+asking where I got it.  So here is where I got mine:
+
+Treasure Chest peripherals, they advertise in the Computer Shopper.
+1-800-677-9781
+The 486DLC-25 kit was $179.00
+
+But....
+
+I liked the chip so much that I found the supplier, and became a dealer.
+If you are interested in the chip, e-mail me, and I can fax or mail you
+more info.   I'm well aware of the net's policy against commercial use,
+So I can;t post anymore info here.  However, if there are more questions
+regarding the 486DLC itself, I'll post what I can.
+
+jamesc
+909-396-0408
+
+
+-- 
+=========================================
+If someone asks if you are a God, you say... YES!

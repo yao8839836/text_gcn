@@ -1,0 +1,47 @@
+From: mnemonic@eff.org (Mike Godwin)
+Subject: Re: Dorothy Denning opposes Clipper, Capstone wiretap chips
+Originator: mnemonic@eff.org
+Nntp-Posting-Host: eff.org
+Organization: Electronic Frontier Foundation
+Lines: 40
+
+In article <allen.735873202@well.sf.ca.us> allen@well.sf.ca.us (Allen Barrett Ethridge) writes:
+>In <1993Apr26.063532.10120@eff.org> mnemonic@eff.org (Mike Godwin) writes:
+>
+>>In article <C614BJ.BK6@agora.rain.com> jhart@agora.rain.com (Jim Hart) writes:
+>>>"The security of the system should depend only on the secrecy of
+>>>the keys and not on the secrecy of the algorithms" -- Dorothy Denning
+>
+>>Cite source, please.
+>
+>"Cryptography and Data Security", page 8, perhaps.
+
+Thanks. Got that from two other sources as well. The full quote is as
+follows:
+
+From Dorothy Denning, CRYPTOGRAPHY AND DATA SECURITY, Addison-Wesley
+1982,1983, page 8:
+
+"Cryptosystems must satisfy three general requirements:
+
+"1. The enciphering and deciphering transformations must be efficient for
+all keys.
+
+"2. The system must be easy to use.
+
+"3. The security of the system should depend only on the secrecy of the
+keys and not on the secrecy of algorithms E [enciphering] or D
+[deciphering]."
+
+
+
+--Mike
+
+
+
+
+-- 
+Mike Godwin,    |    Ariel Rose Godwin
+mnemonic@eff.org|    Born 4-15-93 at 4:34 pm in Cambridge 
+(617) 576-4510  |    7 pounds, 1.5 ounces, 19.75 inches long 
+EFF, Cambridge  |    A new citizen of the Electronic Frontier 

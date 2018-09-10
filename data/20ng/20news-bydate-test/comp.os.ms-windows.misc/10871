@@ -1,0 +1,56 @@
+From: andreas@sun0.urz.uni-heidelberg.de (Andreas Helke)
+Subject: Re: Please help an Amiga user find comfort in Windows
+Lines: 51
+Organization: Molekulare Genetik, Universitaet Heidelberg, Germany
+
+In article <1t9ada$og0@fitz.TC.Cornell.EDU> stlombo@eos.acm.rpi.edu (Steve J. Lombardi) writes:
+>From: stlombo@eos.acm.rpi.edu (Steve J. Lombardi)
+>Subject: Please help an Amiga user find comfort in Windows
+>Date: 18 May 1993 00:25:14 GMT
+>By night I'm an Amiga user. By day I work with windows. I'd be much more 
+>comfortable in windows if I had Two things.
+>
+>1. A good Personal information manager. You know- a calendar, address book,
+>reminder list etc... rolled into one clean interface.
+>
+>2. A good file manager. Microsofts is very poor by my standards. How
+>about one that has a left and right window and allows file operations 
+>between them. being able to launch programs from the same interface
+>would be nice. as well as text reading and graphics viewing. Those
+>who are familiar with Directory Opus on the Amiga know what I'm
+>looking for.
+I have written the file manager HFM, wich has two windows which compare
+the files in two directorys to find out wether there are equal or 
+similar files. The 7 most important operations, copy, move, delete,
+show the file, start a progam, navigate in the directory tree can be
+invoked by dragging a directory entry with the mouse. This is very
+convenient, because the selection of the file and the operation to
+be performed, occur in one move. For bitmap graphic viewing the
+program vpic can be integrated, for spreadsheat and database files
+I use the view program from PCTOOLS 7.1. HFM can be configured to
+use arbitrary viewers to show special data formats. It does
+also present archives from pkzip etc. as simulated subdirectorys.
+This filemanager has a somewhat non standart user interface, but
+it is very convienient to use and is the prefered file manager 
+in several labs in our university. 
+The drawback of this filemanager is, it's still a dos program and
+the development of a windows version has not yet begun. I use the
+program package run18.zip, where run tells its windows companion
+sched.exe which windows program should be started. In this way you
+can start a windows program from a dosbox. The new version 3.19
+(to be released soon) includes a new command for automating this
+windows program start.
+FTP archives for the mentioned programs (all these archives have several
+mirror sites)
+Simtel oak.oakland.edu 141.210.10.117
+/filutl/hfm318.zip
+/gif/vpic60e.zip
+Garbo garbo.uwasa.fi 128.214.87.1
+/dirutil/hfm318.zip
+CICA ftp.cica.indiana.edu 129.79.20.17 
+/util/run18.zip
+-
+
+Andreas Helke, Molekulare Genetik, Universitaet Heidelberg, Germany
+email un69ef@genius.embnet.dkfz-heidelberg.de
+The header of this posting does not contain a valid smtp mail address.

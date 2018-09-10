@@ -1,0 +1,61 @@
+From: pla@sktb.demon.co.uk ("Paul L. Allen")
+Subject: Re: Clipper: Two additional possible problems
+Reply-To: pla@sktb.demon.co.uk
+Organization: Chaos
+Lines: 53
+X-Newsreader: Archimedes ReadNews
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+In article <cliftonrC69tvt.4AL@netcom.com> cliftonr@netcom.com (Pope Clifton) writes:
+
+[...]
+> If I want to talk to someone, I don't need to have previously exchanged
+> keys with him, I just call him up, and the phones establish a session key
+> for us using a zero-knowledge algorithm or something of the kind.  (If I've
+> misunderstood this part, it probably invalidates the rest of this notion.)
+> 
+> This lends itself to spoofing.
+[...]
+> I go buy a pair of Clipper phones to go on a pair of phone lines in a back
+> room somewhere, and have the digital switch programmed to redirect his
+> calls to one of my two lines instead of to his, whenever he receives a
+> call.  The two phones are wired back-to-back in the clear.
+
+
+> Anyone see any problem with this scheme, other than to assume that all
+> public officials and phone company employees are totally incorruptible?
+
+As far as I can see, no matter how the session keys are generated (be it
+Diffie-Hellman or whatever), any Cripple conversation which travels in
+whole or in part over a land-line is vulnerable to this scheme.  Law-
+enforcement agencies can do it legally at the telco, or illegally by finding
+some part of the phone line that they can cut into.  The degree of risk
+depends very much on location - not good in the middle of a busy street,
+but not bad on a line in open country (leading to a drug lord's ranch).  The
+only way to defeat it would be if your phone had the equivalent of a public
+key indexed against phone number for every phone you might want to call (all
+of them) - totally impractical, even if some part of the Cripple algorithm
+could be used as a kind of public key (I don't understand enough about these
+things to know).
+
+This sort of encryption scheme is only really workable over a radio link,
+and even then you could probably interevene without causing problems for
+other phones nearby if you were physically close to the target phone.
+
+Gosh, yet another way to get round Cripple encryption.  How many is that
+we've found so far?  And that's without even knowing the details of the
+algorithm.
+
+- --Paul
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.2
+
+iQCVAgUBK+F5hGv14aSAK9PNAQHEFAP6Ap4AhhqHc9ewDJI14/1DP8woO6wpibkO
+B/lrJBT9GRKdgFDSzrc5aYe2aRctnYjFKQO3RHot0uN68Ewv1e7+1CcQDTCTVgaq
+ZaKHkGVkk99BaHEYGYy1Jn/MgKrJWrehIUfvHDp7x84tVPdCeMIMkAU0sZWwN2Kv
+YbqiEgkRBcg=
+=2pPL
+-----END PGP SIGNATURE-----
+

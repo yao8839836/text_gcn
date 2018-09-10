@@ -1,0 +1,30 @@
+From: drohand@cad.gmeds.com (Dominic Drohan)
+Subject: Re: How to prevent ctl-alt-del from windows.
+Organization: EDS/Cadillac
+Lines: 24
+NNTP-Posting-Host: cve385.ttp.cad.gmeds.com
+
+In article <97431@hydra.gatech.EDU> mg15@prism.gatech.EDU (Glynn,Mike) writes:
+>I would like to prevent our Windows users from using
+>ctl-alt-del from within windows. I know there must be
+>a way to do it.
+>Could anyone point me in the right direction?
+>Thanks in advance,
+>Mike Glynn
+
+Are you sure you want to do that?  If a win app locks up for some reason, 
+ctrl-alt-del may be the only way to kill the app and get back to Windows.  
+Granted it doesn't work all that often but it has come in handy on occasion.
+I consider it pretty carefully before I disabled that keystroke.  Just a 
+thought.
+
++-----------------------------------------------------------+
+| "If you'd like to talk for hours . . just go ahead now"   |
+| 			               - The Spin Doctors   |
++-----------------------------------------------------------+
+| Dominic Drohan     Electronic Data Systems (EDS)          |
+| EMAIL: drohand@cad.gmeds.com                              |
++-----------------------------------------------------------+
+| NOTE: The views and opinions expressed herein are mine,   |
+| and DO NOT reflect those of EDS                           |
++-----------------------------------------------------------+

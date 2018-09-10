@@ -1,0 +1,71 @@
+Subject: Re: How to the disks copy protected.
+From: sjmadsen@nextsrv.cas.muohio.edu (Steve Madsen)
+Nntp-Posting-Host: nextsrv.cas.muohio.edu
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 65
+
+Kuo-Sheng (Kasey) Chang (kschang@sfsuvax1.sfsu.edu) wrote:
+> In article <1993Apr23.102935.17390@miavx1.acs.muohio.edu>
+> sjmadsen@nextsrv.cas.muohio.edu (Steve Madsen) writes: 
+
+> > This is not a good idea.. I upgraded my motherboard last fall.  I >would
+> have been quite pissed at any software that would have forced me to
+> >reinstall simply because I changed motherboards. >
+
+> Opinion is understandable.  :-)  I assume you have a tape drive?  Not all
+> of us have about 200 floppies around for backup, you know.  
+
+	Actually, no I don't have a tape drive.  In the event of a total
+hard disk failure, I reinstall the apps from originals, and restore the data
+from the backups I keep of that.  With upwards of 100Mb of stuff on my hard
+disk, there is no way I'm going to try and back it all up without a tape
+drive. :)  Would be nice to have one though!
+
+> RAM is something you add all the time, so no.  It's more like BIOS
+> manufacturer and/or processor type (386/486/etc).  Data cannot be used,
+> esp with these new Flash ROM BIOS machines with updates on a diskette.
+
+	Maybe, maybe not.  Today it doesn't happen as often (I would hope),
+but then if a BIOS is buggy and the user gets an upgrade, the BIOS
+information is going to change, at least the date anyway.  Tagging the BIOS
+manufacturer is still going to falsely tag those users who upgrade the
+motherboard.  This type of upgrade doesn't require a hard disk
+backup/restore.
+
+> On the other hand, to make this LESS intrusive it could be disguised as
+> "Please Insert Original Disk #XX as I need file YYYYYY for update".  :-) 
+> It would be perfectly reasonable...  Sort of.
+
+	As long as it wasn't done too terribly often.  Otherwise I think it
+would get annoying and the user would go looking for other software.
+
+> > > This is silly.  It's much easier to loan disks to a friend and let
+> >them do an install than to backup your copy already on disk, and then
+> give >them that.  Your scheme isn't going to stop anyone. 
+
+> Of course it is easier.  Are you saying then the originals SHOULD allow
+> only one install?  What is your point?
+
+	Of course not.  If something gets corrupted and my app needs to be
+reinstalled, the *worst* thing I want that software telling me is "this
+software has already been registered to <blank> and it is against the law to
+install it on other machines."  Or something similar; Access for Windows
+does this and it only requires a click on "OK" to go away.  Pretty
+non-intrusive, but it gets the point across.
+
+> What I said was the program should have certain restriction (such as the
+> restrict-to-one-machine) UNTIL the program is registered with the
+> manufacturer.  The manufacturer will then supply the
+> then-proven-legitimate-user with a patch that will disable the restriction
+> and PROUDLY PROCLAIM the legal copy with the "Registered to XXX" screen.
+
+	This is a great idea.  I like the key system that some shareware
+products use.  The only problem is that it will be difficult for big
+software companies to implement this without it getting very
+cost-ineffective for them and more of a burden than a benefit to the users.
+
+--
+Steve Madsen
+sjmadsen@nextsrv.cas.muohio.edu
+
+Ask me about Linux, the free 386 unix!

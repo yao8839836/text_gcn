@@ -1,0 +1,124 @@
+From: garyrich@qdeck.com (Gary Rich)
+Subject: Re: DESQview/X on a PC and network Traffic
+Organization: Quarterdeck Office Systems, Santa Monica CA
+Lines: 119
+
+In article <1rkloc$k49@picasso.cssc-syd.tansu.com.au> gpatapis@boyd.tansu.com.au writes:
+>
+>In article 1369@qdeck.com, support@qdeck.com (Technical Support) writes:
+>>In article <1qtk84$rn5@picasso.cssc-syd.tansu.com.au> gpatapis@boyd.tansu.com.au writes:
+>>
+>>>What sort of traffic is generated with the X-calls?  I am curious to find
+>>>out the required bandwidth that a link must have  if one machine running
+>>>DV/X is supporting multiple users (clients) and we require adequate response
+>>>time.  Anyone have any ideas ??  
+>>
+>>I expect the limiting factor will be your server machine, not the network
+>>itself. To give you a real-world example, here at Quarterdeck we have
+>>roughly 100 people using DVX to talk to a bunch of unix boxes, novell
+>>file servers, and each other. It's not _too_ much of a load on our
+>>Ethernet (with maybe 4 concentrators, so you have 20-30 people on each
+>>segment). If you had a badly loaded net, or the apps you wanted to run
+>>were very network intensive, you could run into some slowdowns.
+>>
+>>But the biggest problem would be the machine itself. Say you have a 486
+>>33 with plenty of ram and a fast hard disk and network card. If you have
+>>10 people running programs off it, you're going to see some slowdowns
+>>because you're now on (effectively) a 3.3 MHz 486. Of course, DVX will
+>>attempt to see if tasks are idle and make sure they give up their time
+>>slice, but if you have 10 working programs running, you'll know it.
+>>
+>
+>Well I can buy a bigger and more powerful server machine because of the 
+>significant drop in price year after year.  The link I want to use 
+>though (ISDN 64K) is costly and the bandwidth limited.  That's why my
+>interest lies in seeing if such a link can be used and see what traffic 
+>goes through it.
+
+Since I don't think Tom always gets time to read this group, I'll take the
+liberty of responding to some of this.  If you really want Tom to reply
+you should send mail to support@qdeck.com.
+
+A 64k line is certainly going to restrict you far more than the 10mbps
+ethernet that we typically run.  How restrictive it will be depends on 
+what you run and how you run it.  I would think that a couple of instances
+of some really nasty program like "Smoking Clover" would make the link 
+useless for anyone else.  On the other hand, probably 50 xclocks quietly
+updating every 10 seconds or so wouldn't impact it too much.  In the real
+world, you will be somewhere in between these two extremes.
+
+Going by the way I personally use X on a daily basis, I wouldn't want to have
+to share that 64k link with more than 3-4 other people.
+
+>>Having said that, if you can tweak the programs being run (by adding
+>>in calls to give up time slices when idle and that sort of
+>>thing), you could probably run 15-20 people on a given machine before
+>>you started seeing slowdowns again (this time from network bandwidth).
+>
+>Hmmm.  Has anyone at your centre monitored the traffic at all?  Are you
+>running any standard MS-Windows programs like Word ?  What sort of 
+>packets go blazing through? What size link do you have (2Mb or 10Mb ?).
+>What is the average traffic flow going through your network or do you
+>have few high peaks and then many low points?
+
+Our corporate WAN is as unique as any other.  The usage patterns are not very
+good predictors of how yours will behave.  The only one of our low bandwidth
+links that normally get used in this way is a 56k link to Ireland that they
+often use to run a DOS text based client end of a client-server database 
+remotely from the DVX machine behind me. Since the server end is (or was) always
+at this end (California) it is faster to remotely run the client via DESQview
+X and have a short hop to the server than running the client locally and having
+a long hop to the server.  As I warned you, this tells us very little about
+how you usage pattern will fill a 64k ISDN link.
+
+Running Word for Windows remotely is going to itself be very usage dependent.
+Let's break it into pieces and look at it.  Tracking the mouse pointer is easy
+and efficient to translate from Windows calls into X. Popping up a menu is a
+little more involved and will generate some traffic.  Restoring the screen
+that was covered by that menu may be easy and may not be.  Does the server
+that it's displaying on have backing store?  If so and the server had enough
+memory the display can be updated locally and will generate little network
+traffic. If no backing store, then what was being covered up?  If it was a 
+solid colored rectangle of space we can tell your xserver to draw that quite
+easily.  If it was a full color backdrop of Ren & Stimpy we may have to send
+it back to the X server bit by bit.  DVX will do its level best to only redraw
+that small area, but in some unusual cases the entire screen may need to be 
+repainted.  Assuning a 1024x768 screen with 4 bits per pixel that's 3145728 bits
+that has to be sent.  Worst possible case you're looking at about 50 seconds.
+In reality it would never be this bad since the screen will always have parts 
+that will be tranlatable into higher level X calls.
+
+>
+>
+>>It all really depends on what the programs are doing (ie. you're going
+>>to see a slowdown from X-bandwidth a lot sooner if your apps are all
+>>doing network things also...)
+>>-- 
+>
+>What do you mean by network things?  I vision using MS Windows and other
+>Windows applications over the network were the processes are running on
+>the server and all I am getting are the displays.  I am wondering how 
+>good is the X and subsequently DV/X protocol in transferring these 
+>images with X-calls and displaying them on a client's machine.
+
+X was designed from the ground up to be efficient across a network.  It's 
+pretty good for this.  X programs are best, DOS text programs are almost
+as good (since we conert them to X easily).  Something like WinX is a hybrid.
+We intercept the calls Windows makes to it's graphics driver/ mouse driver
+keyboard driver and convert them to X.  The calls Windows is making are in
+no way designed to be efficient on a packet switched network.  We go to a 
+lot of trouble to convert them to the highes level Xlib calls we can, but
+we are somewhat limited because we only know what Windows and its applications
+tell us.
+
++--------------------------------------------------------------------------+
+|   Quarterdeck Office Systems                    ____________________/_   |
+|         Gary Rich - Problem Resolution Dept.    _________________///__\  |
+|  _____________________________________________  ______________/////___\  |
+|   Anonymous FTP site = qdeck.com                ___________///////____\  |
+|          ---For---          ---Write to---      ________/////////_____\  |
+|    Pricing/Ordering info :  info@qdeck.com      _____///////////______\  |
+|     Technical Questions  : support@qdeck.com    __/////////////_______\  |
+|         Quarterdeck BBS - (310) 314-3227        \\\\\\\\\\\\\\\\\\\\\\\  |
++--------------------------------------------------------------------------+
+

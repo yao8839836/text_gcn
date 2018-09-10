@@ -1,0 +1,16 @@
+From: koontzd@phobos.lrmsc.loral.com (David Koontz )
+Subject: Re: Clipper considered harmful [Restated and amplified]
+Organization: Loral Rolm Computer Systems  
+Lines: 11
+
+>Clipper also allows an extraordinary opportunity for the criminal to
+>conceal use of super-encryption.  An automated full-system surveillance
+>mechanism (quite feasible across radio bandwidth) which knows family key F,
+>can validate Clipper wrappers and N:ESN associations, but it cannot reveal
+>in realtime the use of super-encryption, unless it knows all unit keys,
+>which we are being assured are only to be made available in two separate
+>pieces, upon specific wiretap-like order.
+
+The serial number will be in a 64 bit block, with a 34 bit filler.  Doesn't
+take a lot to check to see if that is correct.
+

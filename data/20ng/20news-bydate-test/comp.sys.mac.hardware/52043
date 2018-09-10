@@ -1,0 +1,24 @@
+From: gengler@tobor.labs.tek.com (Ken Gengler)
+Subject: Re: The 25MHz IIsi
+Organization: Tektronix
+Lines: 17
+X-UserAgent: Nuntius v1.1.1d17
+X-XXDate: Wed, 21 Apr 93 14:12:00 GMT
+
+In article <C5uFzp.Btp@willamette.edu> Thomas A. Herzog,
+therzog@willamette.edu writes:
+>   So I finally decided to risk this upgrade, FAQ in hand I've gathered
+the
+> pieces together.  The only problem is that I haven't been able to find
+> anyone who's even heard of thermal tape/glue (which is what the FAQ
+> recommends for attaching the heat sink)  I am just tempted to use duct
+> tape here.... anyone hae any ideas for me for attaching the heat sink to
+> the processor??  much thanks.
+
+Just use a thin film of epoxy.  That!s what I did.  Epoxy conducts heat
+fairly well.  And my heat sink gets warm to prove it.  I looked for the
+stuff myself & my local EE jocks said to use epoxy.
+
+Have fun.
+
+Ken

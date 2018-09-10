@@ -1,0 +1,58 @@
+From: squish@endor.uucp (Shishin Yamada)
+Subject: Re: blinking LEDs?
+Organization: Aiken Computation Lab, Harvard University
+Lines: 53
+
+In article <199304241801.AA26885@kepler.unh.edu> dmn@kepler.unh.edu (There's a seeker born every minute.) writes:
+>
+>
+>   Where can I buy blinking LEDs besides radio shack? 
+>
+>
+>  * Does anyone sell blinking LEDs with variable flash rate? (by voltage
+>    I guess) If so, what hertz (pulse) rate are they adjustable or set to?
+>
+>     I'd like blinking LEDs that can be set for approx 5 hz, 10 hz, 
+>     15 hz, or 20 hz. Something like that... I'm interested in what's
+>     out there for flash rates. I like the idea of LEDs with flasher 
+>     circuits already in them. I hate soldering ICs in general. Guess I
+>     don't have a hell of a lot of patience. 
+>
+>
+>      Thanks,
+>
+>         Dana
+>
+If you want slow LED flash rates, adjustable by switches (or by a
+4066/4016 digitally controlled switch), I suggest looking at a 555
+oscillator chip. They cost ~$1 at Radio Shack (much cheaper in
+quantity at quality places), and you will be able to find good info
+about simple circuits in a 555 oscialltor notebook (I think Forest
+Mims has one at Radio Shack). You'll have to toy with
+resistor/capacitor values OR you can use your head with a little math
+to get the right frequencies. Any engineer worth his salt, can make a
+555 osciallator... It's in the book, and left up to you to see (I hate
+doing ASCII circuit graphics). The 555 can accurately go from a few Hz
+to about 500 KHz (I think).
+
+About the Tape Recorder gizmo, you could alter a stereo tape deck to
+use one channel as a DATA line (for flashing LED), and one as audio
+line (for voice or music). This would eliminate a lot of noise.
+
+The data line is probably most easily done
+by some kind of PLL or bandpass filter (using just an op-amp). The 565
+chip is a good PLL, and not hard to work with. However if you nothing
+about how a PLL works, I suggest you don't try this. Op-Amp
+information can also be found in the Forest Mims Radio Shack
+info-booklets, and the popular 741 op-amp is a snap to work with.
+Setting frequency and bandpass filter values are not so easy, so I
+would suggest the 555 method firstmost... I have no idea what this is
+going into, so I am really generalizing...
+
+As for manufacturing techniques, if you're only goofing with it, I
+suggest you breadboard the thing... No need to solder. Wire-wrap would
+be the next, more permanent step. And lastly, soldering/PCB making.
+Hope that clears things......
+
+-squish@endor.harvard.edu
+

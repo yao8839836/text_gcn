@@ -1,0 +1,13 @@
+From: glb@uvacs.cs.Virginia.EDU (Gina Bull)
+Subject: Need patches to use /dev/cgtwelve0
+Organization: University of Virginia Computer Science Department
+Lines: 8
+
+The good news is we just got two Sparc10's. The bad news is
+that /dev/cgtwelve0 is apparently not supported in X11R4 or
+X11R5. Does anyone know of a patch (and how I can obtain it)
+to either X version that will enable us to use X11 on our
+Sparc10's? 
+
+adTHANKSvance
+Gina

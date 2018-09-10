@@ -1,0 +1,115 @@
+From: glazer@ohstpy.mps.ohio-state.edu
+Subject: Local Windows .vs. Shared Windows (Discussion)
+Organization: The Ohio State University, Department of Physics
+Lines: 110
+
+I would like to see a serious discussion on the best way to install windows
+from a Novell administrator's point of view.
+ 
+I just got off the phone with MS Access support and was told that they
+(Microsoft) has decided to implement, as a standard for software support,
+the LOCAL setup (described below) as the "most advantageous installation".
+If this is true and Microsoft deems this to be the most prudent installation
+then I will comply but I'd like to hear it from administrators first.
+ 
+The LOCAL Windows Installation:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Windows is fully installed on each workstation hard drive (assuming the
+resources are available).  From a network administrator's implementation,
+he/she would install all windows disks on a network drive using SETUP/A.
+Then install windows on a per/machine bases by running SETUP off the network
+to install the complete system on the local drives.  In this way, all drivers
+are available to the SETUP procedure w/o the need to change disks.
+ 
+Advantages:
+- Reduce Traffic - Running Windows locally reduces network traffic due to
+  the local access of main Windows files.
+- Network independence - If the network fails (and they all do at one point
+  or another), the local installation would allow users to keep producing
+  and reduce the cost of down-time.
+- Faster Windows - Theoretically, Windows will run faster from a local hard
+  drive than over a network.  This may be a hard point to prove if the network
+  has an optical backbone and/or the network drives are significantly faster
+  access than local ones.
+- A user traveling from machine to machine does not need to worry about
+  varying setups (monochrome, color, types of mouse, etc...) since the
+  Windows installation is assigned to the Workstation.
+ 
+Disadvantages:
+- Cost - Installing Windows locally requires a significant amount of disk
+  space.  Workstations now must be purchased with a hard disk that can
+  increase the cost of the workstation from 10 to 30 percent.
+- Administration - Local windows installations are very difficult to
+administer.
+  New drivers for peripherals are constantly being made available, each of
+  which would have to be individually installed on each workstation.
+- Security - Users now have access to erase or corrupt their own system
+  files from simple ignorance.  This could result in quite a headache for
+  administrators who may have to constantly repair damaged installations.
+- Backup - We all know the problems backing up local hard disks.  The backup
+  sets (if done via a centralized tape system) get very large very quickly.
+  Backup individually (to floppy) may not happen at all.  This may be
+  eliminated if it is assumed that local hard disks only contain replaceable
+  applications and *not* user data.
+ 
+The SHARED Windows Installation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Windows is fully installed to a network disk via the SETUP/A procedure
+described above.  Users (or administrators) then install a minimal set of
+files to individual "user" directories.  These directories may be on a
+local hard disk or perhaps a network "home" directory.  The bulk of the
+Windows system files are maintained on the network in a single directory
+(some 400+ files) and are accessed (shared) as-needed by users throughout
+their Windows session.  The user's files consist of a small set of files
+that the user has updated during his/her Windows session.  These include
+group files, .INI files and other regularly updated files.
+ 
+Advantages:
+- A single location for all files makes updates to drives easy.  As
+  an updated driver becomes available, it only needs to be installed in this
+  single directory for all users to be able to take advantage of it.
+- Assuming that the users' files are maintained in network (home) directories,
+  the administrator can easily edit any .INI file as-needed to correct
+  problems that may arise.  This includes WIN.INI and SYSTEM.INI.
+- Backup of all pertinent files is done easily.  Even if the users' files
+  are on a local hard disk, the bulk of the Windows system is backed up with
+  all driver updates.
+ 
+Disadvantages:
+- Network traffic - since all Windows files are being shared in a network
+  directory, traffic on the network can become a problem an effect the
+  speed of Windows.
+- If the network crashes, all production comes to a stop since Window's
+  is reliant upon the network for its files.  Loss of data usually occurs
+  as well since users working in Windows at the time of the crash will
+  usually not be able to save their work.
+- Although minimal, disk space is still a consideration.  If the users' files
+  are maintained on the network, a large number of users can cause a
+  significant utilization of disk space due to their personal Windows
+  files alone.
+- Users cannot easily move from machine to machine unless the workstation
+  hardware are similar.  This is due to the Windows installation being
+  tied to a particular username (in the case of Network user files).
+  
+The Discussion
+~~~~~~~~~~~~~~
+I would like to know, from other administrators with a large Windows
+userbase, how they prefer setting up Windows.  Personally, I have
+setup numerous installations using the SHARED setup.  All Windows and
+application files are on the network with little or no utilization of
+local hard disks.  In fact, I sold a network on the fact that the
+company would no longer need to purchase hard disks for their workstations
+and thus save that much more money.
+ 
+I would also like to see recommendations for applications.  Should
+apps such as Word and/or Excel be installed locally regardless of how
+Windows is installed?  Again, I keep all files on the network for easy
+backup and administration but this is "putting all eggs in one basket";
+if the network crashes, work comes to a halt.
+ 
+Now I am sure Microsoft (and I know your out there) has their own
+ideas about this and their insights would be of great value but I hope to
+hear from people with "actual" working experience with users and network
+administration.
+ 
+

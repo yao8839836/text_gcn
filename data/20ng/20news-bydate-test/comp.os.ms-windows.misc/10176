@@ -1,0 +1,38 @@
+From: mtelles@nyx.cs.du.edu (Matt A Telles)
+Subject: Re: ? Required File format of WORD for MS-WINDOW File ( .Doc )
+X-Disclaimer: Nyx is a public access Unix system run by the University
+	of Denver for the Denver community.  The University has neither
+	control over nor responsibility for the opinions of users.
+Organization: Nyx, Public Access Unix at U. of Denver Math/CS dept.
+Distribution: usa
+Lines: 29
+
+In article <cosmosC6BCz0.KEE@netcom.com> cosmos@netcom.com (cosmos) writes:
+>Hi ! I am trying to develop a utility to view WORD for window file. But 
+>to do that I need to know the format of the DOC ( word for window file 
+>format ) files.Can anybody  tell me what is the format of DOC file or 
+>direct me where can I get it. Or is it proprietory format ?
+>Your help is greatly appriciated.
+>
+>Thanks,
+
+The format for Word for Windows doc files is available from Microsoft.
+Call their Developer Support Services number (sorry, don't have it handy)
+and ask for the Word for Windows binary file format spec.
+
+Warning:  It is not terribly useful, and you will need to do a *lot* of
+looking before you can figure out how the stuff is stored.
+
+General primer:
+
+Word for Windows stores its data in two chunks.  The first chunk is the
+actual text in the file.  This is all stored together and has nothing
+but text and graphics.  The second chunk is the formatting information.
+
+For general use, to read a Word for Windows file, skip the first 384 bytes
+of the file (its a general header).  Then read the remaining text until you
+hit binary data.
+
+Matt
+
+

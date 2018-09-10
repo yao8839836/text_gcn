@@ -1,0 +1,29 @@
+From: smb@research.att.com (Steven Bellovin)
+Subject: Re: New Encryption Algorithm
+Organization: AT&T Bell Laboratories
+Lines: 24
+
+In article <41@shockwave.win.net>, jhupp@shockwave.win.net (Jeff Hupp) writes:
+>     The NSA's charter forbids them from doing any purely domestic
+> intelligence work, I would think that even providing assistance in
+> development of the Skipjack algorithom is a violation of that charter. 
+> But as with any intrenched government agency, they will do what they
+> think is expedent.
+
+There are other laws and directives which bear upon the subject.  For
+example, the National Computer Security Act of 1987 specifically directs
+NBS [sic] to work with NSA on developing security standards for civilian
+Federal computers.  (Pick up the bill from cpsr.org; it also includes
+a report describing it, and some of the legislative history, including
+concerns about NSA's involvement.)  Note also that NSA is specifically
+charged with running the National Computer Security Center,  -- to
+quote the aforementioned report -- ``NSA also will work with industries at
+the DOD Computer Security Center to develop security standards for private
+sector use.''
+
+It may or may not be a good idea to have NSA tinkering with this, but
+I'm pretty sure it's legal.  (Btw -- when it comes to development of
+cryptosystems, there may be two choices.  Either NSA helped develop it,
+in which case maybe they can crack it, maybe not, but probably, no one
+else can; or NSA didn't help, in which case they probably can crack it,
+and maybe others as well...)

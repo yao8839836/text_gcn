@@ -1,0 +1,20 @@
+From: mdong@trumpet.calpoly.edu (Papa Smurf)
+Subject: Re: x86 ~= 680x0 ??  (How do they compare?)
+Organization: California Polytechnic State University, San Luis Obispo
+Lines: 15
+
+In article <1993Apr18.163339.380506@bmug.org> David_A._Schnider@bmug.org writes:
+>The real question here in my opinion is what Motorola processors running system
+>7 on a MAC are comparable to what Intel processors running Windows on a PC?  I
+>recall there being a conversation here that a 486/25 running Windows benchmarks
+>at about the same speed as 25Mhz 030 in system 7.  I don't know if that is
+>true, but I would love to hear if anyone has any technical data on this.
+>
+>-David
+
+That seems about right.  I have a Mac IIsi 5/130 with 64k cache card running
+System 7.1.  My roommate has a 486sx/25 5/200+ running Windows 3.1 and from
+what I've seen, my IIsi is faster in some operations.  In others, they are
+comparable...But keep in mind I'm strictly speaking of operations on the
+desktop level of Windows 3.1 and System 7.1, not actual computational speed
+in other programs...

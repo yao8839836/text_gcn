@@ -1,0 +1,25 @@
+From: brown@ftms.UUCP (Vidiot)
+Subject: Re: program to display .gif files?
+Reply-To: brown@ftms.UUCP (Vidiot)
+Organization: Vidiot's Other Hangout
+Lines: 19
+
+In article <1465@minya.UUCP> jc@minya.UUCP (John Chambers) writes:
+<It seems silly, but while I've located things like tgif that can  edit
+<gif  files, and various tools to convert to/from gif format, I haven't
+<been able to locate a program that just opens a window and displays  a
+<gif file in it.  I've looked thru various faq files, also to no avail.
+<Is there one lurking about in some  archive?   Nothing  sophisticated;
+<just "show the pretty picture"?
+<
+<Alternatively, if I could locate the specs for gif, I don't suppose it
+<would be too hard to write it myself, but I have no idea where to even
+<start looking for the spec.  (Well, actually, I do have an idea - this
+<newsgroup.  ;-)
+
+Get, xv, version 3.0.  It reads/displays/manipulates many different formats.
+-- 
+harvard\
+  ucbvax!uwvax!astroatc!ftms!brown  or  uu2.psi.com!ftms!brown
+rutgers/
+INTERNET: brown@wi.extrel.com  or  ftms!brown%astroatc.UUCP@cs.wisc.edu

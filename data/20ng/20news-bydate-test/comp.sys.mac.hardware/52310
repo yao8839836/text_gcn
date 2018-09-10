@@ -1,0 +1,34 @@
+From: nyp00@cd.amdahl.com (Nicholas Y. Pang)
+Subject: Re: SVGA Monitors and Centris (the real story)
+Distribution: usa
+Organization: Amdahl Corporation, Sunnyvale CA
+Lines: 28
+
+In article <ofpiuYK00WC=A3AW9g@andrew.cmu.edu>, am2o+@andrew.cmu.edu
+(Alexander Samuel McDiarmid) writes:
+|>     having been discusse essentially adnausium the answer is yes. 
+|> at
+|> least for the 600x400 configuration.  you can get an adaptor called
+|> Mac
+|> VGA -Q from James engineering (510) 525 7350 and this will let you
+|> display 600x400 and 800x600 if the monitor is capable.  I think the
+|> 800x600 requires 56Khz horizontal sync.  I use this on my sony 1604.
+|> |> (gives a slightly wider screen than the 832x624 adaptor.
+
+I am using a NEC 4FG with my Centris 610. The cable adapter was provided by
+NEC (you have to call to get this free adapter). I am also sharing it with my
+486 (using a switch box and extra cables).
+
+My questions: 
+
+	How do you tell if it is 600x400 or 800x600 that was displayed?
+	Or how do you change the mode(resolution)? 
+	Is there SW for this or something I have to do with the HW?
+
+I am assuming I am getting 800x600 since I have 1M VRAM and the 4FG can display
+1028x768(?) with my 486.
+
+                                                              
+-- 
+Nicholas Pang         nyp00@cd.amdahl.com       
+Amdahl Corporation    nyp00@outs.ccc.amdahl.com 

@@ -1,0 +1,62 @@
+From: D.J.Nettleton@newcastle.ac.uk (D J Nettleton)
+Subject: HELP: A rectangle and parallelogram
+Nntp-Posting-Host: tuda
+Organization: University of Newcastle upon Tyne, UK NE1 7RU
+Lines: 56
+
+I hope someone can help me with the following problem - I'm sure there
+must be a known solution.
+
+Given a rectangle defined by
+
+-X <= x <= X  and -Y <= y <= Y  where X and Y are constant
+
+and a parallelogram defined by
+
+-C1 <= a*x + b*y <= C1  and -C2 <= c*x + d*y <= C2
+
+where C1, C2, a, b, c, d are constants and b/a != d/c (i.e. not
+parallel lines)                                ^^
+                                          not equal to
+
+what is the area of their intersection?
+
+   What I'm after is some general algorithm suitable for ALL rectangles
+and parallelograms that can be described by the above equations.  At the 
+moment it looks like I'm going to have to look at all possible cases 
+and examine each seperately e.g.
+
+1) rectangle encloses parallelogram. 
+
+2) parallelogram encloses rectangle.
+
+3) two corners of parallelogram inside rectangle
+
+                          ^
+                         / \
+                        /   \
+                       /     \
+           Y -------------------------------  Y
+             |       /         \           |
+             |       \          \          |
+             |        \     .    \         |       . origin
+             |         \          \        |
+             |          \         /        |
+          -Y ------------------------------- -Y
+            -X            \     /           X
+                           \   /
+                            \ /
+                             "
+
+4) two corners of parallelogram outside rectangle
+
+   I hope someone can help.
+
+Many thanks in advance,
+
+Dave Nettleton.
+
+e-mail:  D.J.Nettleton@durham.ac.uk
+
+PS can you please cc me any replies by e-mail.
+

@@ -1,0 +1,32 @@
+From: cpuig@infoserv.com (Carlos M. Puig)
+Subject: Re: Analog switches/Balanced Demodulators
+Organization: Minimax Research Corp.
+X-Newsreader: rusnews v0.98
+Lines: 26
+
+msf@skaro.as.arizona.edu (Michael Fulbright) writes:
+
+> I am trying to build a synchronous demodulator and I've hit a snag.
+> In my application I want to be able to change the gain of an
+> op amp amplifier from 1 to -1, controlable via a digital input.
+> The most obvious way I've come up with is to use analog switches
+> to adjust the gain of the op amp. The only analog switch I have
+> experience with it the 4066. Unfortunately I want to switch an
+> AC signal which goes from about -5V to 5V, and the 4066 is only
+> for positive signals.
+>
+
+     I have recently used the 4066 to switch a bipolar signal.  I simply
+ran the 4066 off a bipolar supply, +/- 8V in this case.   As long as your
+analog input signal stays between the supply rails, the 4066 will work fine.
+Of course, your control (logic) input must use -8V as the logic LOW and
++8V as the logic HIGH reference, so that either (1) all your driving logic
+must be 4000 CMOS with the same bipolar supply or (2) you must provide
+some kind of voltage level shifting circuit between the 4066 and the
+control logic.  In my case, I was able to use the bipolar supply all the
+way.
+
+
+----
+Carlos Puig, KJ6ST             cpuig@infoserv.com
+San Jose, CA                   (408) 289-8174

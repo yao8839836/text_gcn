@@ -1,0 +1,17 @@
+From: selee@hpcc01.corp.hp.com (Lee Say Eng)
+Subject: Re: microstepping
+Organization: the HP Corporate notes server
+Lines: 12
+
+  You can try SGS L6217A, it can achieve 256 current level(microstep),
+teere is a circuit in the SGS-THOMSON - " Smart Power Applicatio
+Manual", order code for the manual is AMSMARTPOWERST/1
+
+Best regards,
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| Moi,Siew Hong                 | email: shmoi@hpmalr65.mal.hp.com             |
+| Hewlett-Packard Malaysia      |                                              |
+| Bayan Lepas Free Trade Zone,  | Tel : 604-830-611     Fax : 604-843117       |
+| 11900 Penang, Malaysia        |                                              |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

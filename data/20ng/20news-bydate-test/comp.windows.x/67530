@@ -1,0 +1,22 @@
+From: schlotz@kestrel.unx.sas.com (David Schlotzhauer)
+Subject: xcutsel or xcb question
+Originator: schlotz@kestrel.unx.sas.com
+Nntp-Posting-Host: kestrel.unx.sas.com
+Organization: SAS Institute Inc.
+Lines: 15
+
+
+i want to do something like this:
+
+  date | xcb -s 0 | xcutsel
+
+to get the output of the date command put into the XPRIMARY selection.
+unfortunately, xcutsel is an interactive little bugger and there isn't a
+command argument to tell it to just do it and not put up its little
+window.  so, is there some other command that i CAN use like this?  or,
+is there an analog to xcb that will put stuff in XPRIMARY instead of cut
+buffer 0?
+
+-- 
+David Schlotzhauer                    Phone: (919) 677-8000
+SAS Institute Inc.                   E-Mail: schlotz@unx.sas.com

@@ -1,0 +1,58 @@
+From: rw@astro.Princeton.EDU (Ralph A.M.J. Wijers)
+Subject: Re: Gamma Ray Bursters. WHere are they.
+Originator: news@nimaster
+Nntp-Posting-Host: astro.princeton.edu
+Organization: Princeton University
+Lines: 51
+
+
+I feel compelled to complain: the statement that recent observations
+rule out merging neutron stars as sources of gamma-ray bursts is
+utterly false, even though it is popular enough to make it to
+BATSE press releases.
+The idea behind the statement is as follows: 
+     "if you smack two neutron
+      stars together, or have a neutron star be gobbled up by a black hole,
+      a lot of energy is released, enough for a gamma-ray burst at a
+      cosmological distance. But, so the reasoning continues, this energy 
+      is released below a lot of matter, so the radiation becomes
+      thermalized and you expect to see roughly a blackbody spectrum.
+      The observed spectra are strongly non-thermal, so this model must
+      be wrong."
+As so often, the fault lies with the imagination of the person who
+was trying to prove the model wrong rather than with the model. It
+may be that the initial energy release is not seen as a gamma-ray
+burst, but the 'fireball' of energy and matter that is created
+may spew out a relativistic flow. When this slams into the surrounding 
+medium, a strong flux of non-thermal gamma rays results, which may
+carry off a substantial fraction of the initial total energy. All
+this is not my idea: it is in a series of papers by Martin Rees,
+Peter Meszaros (sorry for the missing accents:-) and co-workers.
+It is certainly not a complete model, but it may well be the best one
+around (summing over all proposed distance scales). An alternative
+proposal for what creates the initial fireball, by the way, is the 
+so-called 'failed supernovae' scenario by Stan Woosley, in which
+a very massive star at the end of its life collapses to a black
+hole. If the stellar core was rotating, part of the infalling matter
+will be temporarily halted because it is supported by centrifugal
+force, and form a very dense neutron torus that accretes onto the
+black hole. This beast may spew out a jet along the rotation axis,
+which again constitutes relativistic flow. The rate of such
+events may be much higher than that of neutron star mergers,
+but the flux may be more strongly beamed, so that the net rate
+of bursts observed on Earth stays the same between the two
+scenarios, but the energy released per event can be a lot less
+in the failed supernova scenario.
+
+On another note: I do believe that the distance scale must 
+ultimately be resolved via some classical astronomical method
+such as finding counterparts to the bursts at other wavelengths,
+or finding a definitive signature of some known class of
+objects in the distribution of positions and fluxes. Theorists
+have historically not been too successfull in finding the
+distance of any object by proving that there is only one
+possible way in which the object can work, and therefore
+it *must* be so-and-so.
+
+Ralph Wijers
+

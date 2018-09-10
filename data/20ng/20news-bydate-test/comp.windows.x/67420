@@ -1,0 +1,18 @@
+From: oj@world.std.com (Oliver Jones)
+Subject: Re: Xlib timeouts?
+Keywords: Xlib timeouts
+Organization: Shawsheen Software
+Lines: 12
+
+In article <ccdw.735917051@kudu> ccdw@kudu.ru.ac.za (Dave Wilson) writes:
+>I am in the process of modifying an X application that uses Xlib.  I'd
+>like to include a timer-driven facility (for network polling)
+
+You have to do the same sorts of things that Xt does with its main loop.
+That is, you have to rig up a timer queue, and you have to put a 
+select(2) or poll(2) call in your main loop.  You can obtain the 
+file descriptor of the X display connection using 
+    fd = ConnectionNumber (display);
+
+The functionality of the main loop dispatcher in Xt is quite useful.
+The good news is, you can get the source and plagiarize!

@@ -1,0 +1,18 @@
+From: guykuo@carson.u.washington.edu (Guy Kuo)
+Subject: Quadra clock chip - followup
+Organization: University of Washington
+Lines: 10
+NNTP-Posting-Host: carson.u.washington.edu
+Summary: more results of Quadra modification
+Keywords: quadra,clock,oscillator
+
+My recently modified Quadra 700 with a socket for clock oscillators has now
+completed nearly 40 hours of error free operation at 32 mhz (with a 64 mhz
+clock oscillator). I have also tried a 55 mhz CMOS clock and that works as well.
+On the more stupid side, I've discovered you can use a 40 mhz clock and make
+your Q700 as slow as a Centris 610. However, a 25 mhz clock which would have
+yielded a 12.5 mhz Quadra 700 (Who'd want one?) didn't work at all.
+
+Impatiently awaiting a 66 mhz clock,        
+Guy Kuo <guykuo@u.washington.edu>
+

@@ -1,0 +1,48 @@
+From: bnoble+@cs.cmu.edu (Brian Noble)
+Subject: X Server scanline padding question
+Nntp-Posting-Host: bach.coda.cs.cmu.edu
+Organization: School of Computer Science, Carnegie Mellon
+Lines: 42
+
+
+I am *almost* done porting XFree86 1.2 to a new piece of display
+hardware, but have run into a snag I think may be somewhat
+commonplace, so I'm sending a net-feeler.
+
+I have a display that is a non-interlaced, memory mapped, 1-bit
+720x280 display.  The server's view of the world, (obtained via xwd |
+xwud), seems to be exactly what it should be.  However, the displayed
+version of the framebuffer gives the impression that the server is
+using scanlines that are too long.  After a bit of experimentation, it
+seems that the problem was that the server was padding the line out to
+a word boundry, but the scanline size in the buffer is 90 bytes, which
+isn't exactly divisible by four.  Changing the following defines in
+mit/server/include/servermd.h:
+
+----
+
+#define BITMAP_SCANLINE_PAD  32
+#define LOG2_BITMAP_PAD		5
+#define LOG2_BYTES_PER_SCANLINE_PAD	2
+
+---
+
+to:
+
+---
+
+#define BITMAP_SCANLINE_PAD  16
+#define LOG2_BITMAP_PAD		4
+#define LOG2_BYTES_PER_SCANLINE_PAD	2
+
+---
+
+Was not exactly the right solution.  How do I tell the server either
+(a) don't pad the scan lines at all ('cause this server is only being
+built to run on this particular display), or to pad only to byte
+boundries?
+
+I'm using a customized version of XFree86v1.2, under Mach 3.0.
+
+Thanks
+Brian

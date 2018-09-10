@@ -1,0 +1,30 @@
+From: beck@irzr17.inf.tu-dresden.de (Andre Beck)
+Subject: Re: WANTED: 24 bit viewer
+Organization: Dept. of Computer Science, TU Dresden, Germany.
+Lines: 22
+Distribution: world
+Reply-To: Andre_Beck@IRS.Inf.TU-Dresden.DE
+NNTP-Posting-Host: irzr17.inf.tu-dresden.de
+
+
+In article <5731@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
+|> 
+|> Thanks to the people who helped me with the problem of
+|> displaying 24 bit images. All the viewers like xli,
+|> xloadimage and display are converting the 24 bit images
+|> to 8 bit before display them on the screen.
+|> 
+|> What I really want is a viewer with make use of the 24 bit
+|> frame/screen buffer (in our case, the Parallax one).
+|> 
+
+Try ImageMagick. I cannot test it but one told me it does 24bit.
+Anyway, are you SURE your Xserver supports 24bit TrueColor visuals ?
+Check with xdpyinfo !
+
+--
++-o-+--------------------------------------------------------------+-o-+
+| o |                \\\-  Brain Inside -///                       | o |
+| o |                    ^^^^^^^^^^^^^^^                           | o |
+| o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
++-o-+--------------------------------------------------------------+-o-+

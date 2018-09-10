@@ -1,0 +1,25 @@
+From: km@mathcs.emory.edu (Ken Mandelberg)
+Subject: Graphics Text with X?
+Organization: Emory University, Dept of Math and CS
+Lines: 17
+Distribution: world
+Reply-To: km@mathcs.emory.edu
+NNTP-Posting-Host: km-sl.cc.emory.edu
+
+Are there any graphics texts with examples/demos/projects directly in
+X?
+
+The last time I taught the course, I used a popular graphics text that
+uses its own graphics package, with implementations available for
+X/Mac/PC.  The problem was that after the course the students were good
+at programming in the artificial package, but frustrated that they
+couldn't really use their skill for other work.
+
+
+---
+Ken Mandelberg      | km@mathcs.emory.edu          PREFERRED
+Emory University    | {rutgers,gatech}!emory!km    UUCP 
+Dept of Math and CS | km@emory.bitnet              NON-DOMAIN BITNET  
+Atlanta, GA 30322   | Phone: Voice (404) 727-7963, FAX 727-5611
+
+

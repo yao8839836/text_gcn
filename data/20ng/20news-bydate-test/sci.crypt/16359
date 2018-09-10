@@ -1,0 +1,99 @@
+From: ggr@koonda.acci.com.au (Greg Rose)
+Subject: Authentication and one-time-pads (was: Re: Advanced one time pad)
+Summary: presents one-time-pad based MAC
+Organization: Australian Computing and Communications Institute
+Lines: 93
+
+In article <1s1dbmINNehb@elang05.acslab.umbc.edu> olson@umbc.edu (Bryan Olson; CMSC (G)) writes:
+>The one-time-pad yeilds ideal security, but has a well-known flaw in
+>authentication.  Suppose you use a random bit stream as the pad, and
+>exclusive-or as the encryption operation.  If an adversary knows the 
+>plaintext of a message, he can change it into any other message.  
+>Here's how it works.
+>
+>Alice is sending Bob a plaintext P, under a key stream S
+>Alice computes the ciphertext C = S xor P,  and sends it to Bob.
+>
+>Eve knows the plainext P, but wants the message to appear as P'.
+>Eve intercepts C, and computes  C' = C xor P xor P' = S xor P'.
+>Eve sends C' to Bob.
+>
+>Bob decrypts C' by computing  C'xor S = P',  thus receiving the 
+>false message which was substituted by Eve.
+
+Firstly, an aside:
+
+I agree that the weakness exists, but I have a lot of trouble
+believing that it represents a difficulty in real life. Given:
+
+1. the purpose of the one-time pad is to give unbreakable security,
+and the expense of key distribution etc., imply that the clients
+really do want that level of security
+
+2. These same people want to keep P a secret
+
+I find it hard to believe that Eve might happen to have a copy of P
+lying around.
+
+(I am aware that the same argument applies to Eve knowing even a small
+part of the message, but Eve must know EXACTLY where (which bytes) in
+C her known susequence starts, or the result will be garbled. I find
+this at least as surprising.)
+
+Back to the question:
+
+If I had the resources to use a one-time-pad for such transmissions, I
+would also append a Message Authentication Code to the message, using up
+the next bits of the one-time-pad as the key perhaps. Your original
+question basically asked whether there was any way to authenticate the
+message with the same degree of security as the Pad itself provided,
+and I don't know the answer. However, I would propose the following
+for discussion.
+
+Alice and Bob have an arbitrary number of secret, random bits to
+share, which Eve doesn't know. She finds them out (effectively) by
+knowing some P and the corresponding C. It is the fact that they
+CORRESPOND that causes the problem. If a message authentication code was to
+be created using some one-time-pad operation such that Eve could not
+know which parts of the MAC were affected by which parts of the input,
+she would be unable to forge a MAC to correspond.
+
+What is required is a non-linear combiner of parts of the message.
+(Non-linear so that simply xoring or subtracting or whatever doesn't
+have exactly the same effect).
+
+Now, at the end of the encrypted message C, Alice appends a n-bit MAC
+computed as follows (S2 means the next full chunk of the one time pad):
+  1. compute C2 = P xor S2, and pad to an n-bit boundary with more of S
+  2. break C2 into n-bit chunks
+  3. set MAC to 0 (initialisation vector)
+  4. for i in each chunk sequentially
+       set MAC = MAC NLOP C2[i]
+
+At the end of this process MAC is the Message Authentication Code.
+
+(Bob verifies the MAC in the obvious manner; he recovers the
+plaintext P, then uses some more of his pad to reproduce the MAC in
+the same manner.)
+
+NLOP is the non-linear operator, and there is the rub. The simplest
+non-linear operator I can think of is an S-box; that is, have a fixed
+(even published) permutation of the n-bit integers, an indexable table
+called Sbox, and use:
+  x NLOP y = x xor Sbox[y].
+
+Practically speaking, I think this solves your problem, as Eve never
+sees the intermediate output C2, and hence can't deduce S2 or perform any valid
+substitution on it.
+
+Also practically speaking, you want the MAC to be fairly large, say 32
+bits, but you might not want a 4 gigabyte (say) S-box, so you might
+work on 4 byte-sized S-boxes, but I think that is an irrelevant detail
+for the discussion at hand.
+
+Who will be first to point out my errors, or give me a pointer to some
+literature?
+--
+Greg Rose                 Australian Computing and Communications Institute
+ggr@acci.com.au                                              +61 18 174 842
+`Use of the standard phrase "HIJACKED" may be inadvisable' -- CAA

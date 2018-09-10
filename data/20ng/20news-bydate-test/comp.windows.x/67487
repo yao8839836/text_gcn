@@ -1,0 +1,32 @@
+From: rryan@panix.com (Rob Ryan)
+Subject: Efficient PC Clients
+Organization: System Constructs, Inc
+Lines: 27
+
+We're looking at various X11 clients for PC's and we're looking for some
+information about the relative efficiency of different products.  Are any
+notably efficient (fast)?  Are any notably inefficient?  I assume that a
+Graphics Accelerator makes them significantly faster (right now I'm looking
+at ico running on Xoftware/32 for Windows sitting on the Distinct TCP/IP
+platform, and it's (not surprisingly) much slower than ico running on the
+Sparc10's console.  What are the key ways of improving performance for
+PC (presumably Windows) clients?
+
+Also, what about async solutions?  (Yes, I appreciate that it will be 
+*much* slower even with V.42bis.)  I'm in the process of installing PPP
+(with header compression).  How does that compare to cslip?  I've seen
+a product called XRemote by NCD that promises to be pretty efficient, but
+are there comparable products out there?  If we're looking for efficiency
+for async, PC clients, what should we be looking at in addition to standard
+PPP w/ compression and XRemote?
+
+Any information would be greatly appreciated.  I'm still taking in all
+the information in the faq, but any tips about the relative efficiency
+of various product offerings would be great.  (I get the impression
+that discussions about speed are largely application specific, but
+that not withstanding, any comments would be appreciated.)  Thanks.
+
+-- Rob
+-- 
+Rob Ryan, System Constructs Inc.
+    rryan@panix.com

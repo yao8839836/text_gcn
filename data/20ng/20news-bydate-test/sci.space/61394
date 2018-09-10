@@ -1,0 +1,44 @@
+From: palmer@cco.caltech.edu (David M. Palmer)
+Subject: Re: Gamma Ray Bursters. positional stuff.
+Organization: California Institute of Technology, Pasadena
+Lines: 38
+NNTP-Posting-Host: alumni.caltech.edu
+
+henry@zoo.toronto.edu (Henry Spencer) writes:
+
+>In article <1993Apr29.010847.1@vax1.mankato.msus.edu> belgarath@vax1.mankato.msus.edu writes:
+>>        Actually, my advisor, another classmate of mine, and me were talking
+>>the other day about putting just one detector on one of the Pluto satellites.
+>>THen we realized that the satellite alone is only carrying something like 200
+>>pounds of eq.  Well, a BATSE detector needs lead shielding to protect it,
+>>and 1 alone weighs about 200 pounds itself.
+
+>Actually, the situation is even worse than that.  The *total mass* of the
+>Pluto Fast Flyby spacecraft is only 250ish pounds, and most of that is
+>support equipment like power and communications.  The mass available for
+>instruments is maybe 10% of that.  I don't think a BATSE will fit...
+
+From the Pluto Fast Flyby Instrument definition research anouncemnet,
+the instrument payload constraints are:
+    Mass allocation -  7 kilograms (15.4 lbs)
+    Power allocation - 6 watts
+    Required instruments:
+	Visible imaging system (1024x1024 CCD, 750 mm fl, f/10 optics)
+	IR mapping spectrometer (256x256 HgCdTe array, 0.3% energy resolution)
+	UV spectrometer (55-200 nm, 0.5 nm resolution)
+	Radio science (ultrastable oscilator incorporated in telecom system)
+		ultrastable means 10^-14.
+
+This doesn't leave much room for payloads which are totally unrelated
+to the  mission of the spacecraft.  In addition, the power will come
+from a radioisotope thermal generator, and the whole space craft will
+be about 2 feet in diameter, with no booms, which means there will be
+strong gamma-lines from Pu-239 and associated schmutz in the
+background, which tends to reduce sensitivity somewhat.
+
+It would still be nice, and our group here at Goddard is looking
+in to it.
+
+-- 
+		David M. Palmer		palmer@alumni.caltech.edu
+					palmer@tgrs.gsfc.nasa.gov

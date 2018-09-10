@@ -1,0 +1,35 @@
+From: gloster@Inference.COM (Vance M. Gloster)
+Subject: Re: Compositing pictures on PC?
+Organization: Inference Corporation
+Lines: 28
+NNTP-Posting-Host: fourier.inference.com
+In-reply-to: chu@TorreyPinesCA.ncr.com's message of Sat, 15 May 93 00:16:31 GMT
+
+In article <1993May15.001631.7051@TorreyPinesCA.ncr.com> chu@TorreyPinesCA.ncr.com (Patrick Chu 3605) writes:
+
+   I was wondering if anyone knows of a graphics package for the PC that
+   will do compositing of a series of pictures?
+
+   What I mean by "compositing" is, say I have a live video clip
+   (digitized) panning around a living room, and a computer-generated
+   bird flying around the screen.  I want to combine these two series of
+   pictures so that everywhere where the bird frames are black, I want
+   the living room picture to show through.  Yes, I realize I can do this
+   with a genlock, and I do own a genlock, but I want to be able to do
+   manual compositing also.  It's ok if I have to composite one frame at
+   a time; I assumed I'd have to do that anyway.  But being able to
+   composite a series of frames would be even better.
+
+   I've looked around and I haven't found a PC package that will perform
+   this.  Help, please!
+
+If you can get the live animation and the computer-generated animation
+into AutoDesk Animator .FLI or .FLC format, AutoDesk Animator will do
+this for you.  It can take one animation, make a certain color
+"clear", and overlay it over another animation.  I do not have a way
+right now to convert .AVI or .MPG files to animator files.  Animator
+will also import a series of .GIF files to create an animation, so if
+your video capture stuff can create this is might work.
+
+-Vance Gloster
+ gloster@inference.com

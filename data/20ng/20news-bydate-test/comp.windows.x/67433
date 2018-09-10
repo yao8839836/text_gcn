@@ -1,0 +1,104 @@
+From: Wilfred.Hansen@cs.cmu.EDU
+Subject: AIX3.2 version of Andrew 5.1
+Organization: Carnegie Mellon, Pittsburgh, PA
+Lines: 97
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xannounce@expo.lcs.mit.edu
+
+                          The Andrew Consortium
+          of the School of Computer Science at Carnegie Mellon 
+                         is pleased to announce
+
+                          AUIS 5.1.1 for AIX3.2
+                                 4/26/93
+
+The Andrew User Interface System version 5.1 (our CDrom version) was
+developed for AIX  version 3.1 on the IBM RS/6000 and many other
+platforms.  To accomodate AIX version 3.2, we have created a patch to
+the sources.  The patch and accompanying instructions for its
+application can be retrieved at no charge via anonymous-ftp from the
+internet host emsworth.andrew.cmu.edu (128.2.45.40) in the directory
+./aixpatch.  For those without internet access, a 3.5" diskette can be
+ordered for $10 by sending, or faxing, a purchase order to the address
+below. 
+
+The base 5.1 system can be ordered from us as a CDrom or ftp'ed from the
+same host.
+
+Note that this patch adds no additional functionality but simply allows
+AUIS to compile under AIX3.2.
+
+-----------
+
+The Andrew User Interface System (AUIS) is a comprehensive environment
+on top of X11 windows in which you can create, use, and mail multi-media
+applications and documents.   A major advantage of AUIS is the
+capability to recursively embed objects.  Thus, one can edit text that
+not only contains multiple fonts, indentation, and other typography, but
+also  contains embedded raster images, spreadsheets, drawing editors,
+equations, simple animations, and so on. These embedded objects can
+themselves contain other objects, including text.
+
+AUIS has three components:
+
+    The Andrew User Environment is an integrated and extensible set
+    of applications beginning with the ez text editor, a help
+    system, a system monitoring tool, an editor-based shell
+    interface, and other editors corresponding to the various
+    available types of objects. 
+
+    The Andrew Toolkit (ATK) is a portable, object-oriented
+    user-interface toolkit that provides the architecture wherein
+    objects can be embedded in one-another.  With the toolkit,
+    programmers can create new objects that can be embedded as
+    easily as those that come with the system. 
+
+    The Andrew Message System (AMS) provides a multi-media interface
+    to mail and bulletin-boards.  AMS supports several mail
+    management strategies and implements many advanced  features
+    including authentication, return receipts, automatic sorting of
+    mail, vote collection and tabulation, enclosures, audit trails
+    of related messages, and subscription management. It also
+    provides a variety of interfaces that support ttys and
+    low-function personal computers in addition to high-function
+    workstations. 
+
+The current public release of Andrew, Version 5.1,  includes support for
+the new Internet MIME (Multipurpose Internet Mail Extensions) standards
+for multipart, multimedia mail.  A newer release, 5.2, for members of
+the Andrew Consortium has numerous additional features including new
+editors for drawings, images, fonts, and user preferences.
+
+
+Remote Andrew Demo Service
+
+You can try out Andrew from your own work station via the Remote Andrew
+Demo Service.  You need a host machine on the Internet running the X11
+window system.  You'll be able to compose multimedia documents, navigate
+through the interactive Andrew Tour, and use the Andrew Message System
+to browse through a few of CMU's four thousand bulletin boards and
+newsgroups.
+
+To get started with the Remote Andrew Demo service, simply run the
+following command on your machine:
+
+	finger help@atk.itc.cmu.edu
+
+The service will give you further instructions.   
+
+
+More information about Andrew is available from:
+
+    Information Requests
+    Andrew Consortium
+    Carnegie Mellon University
+    Smith Hall 106
+    5000 Forbes Avenue
+    Pittsburgh, PA 15213-3890
+    USA
+    phone: +1-412-268-6710
+    fax: +1-412-682-6938
+    info-andrew-request@andrew.cmu.edu
+
+Contact info-andrew-request@andrew.cmu.edu for additional information.  
+

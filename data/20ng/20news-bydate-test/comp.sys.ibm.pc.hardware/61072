@@ -1,0 +1,21 @@
+From: tovecchi@nyx.cs.du.edu (tony vecchi)
+Subject: Help needed
+Organization: Nyx, Public Access Unix @ U. of Denver Math/CS dept.
+Lines: 16
+
+
+For the past week or so I've been trying to install a QIC-36 tape drive
+and an everex 8bit full size controller in my 486dx50 EISA system with no
+luck. I end up getting an error (miscompare) during the streaming read
+part of the test. I am pretty certain that the port setting, irq & dma are
+set properly since the tape responds properly to all commands, rewind,
+retension, write and erase, I also booted the system clean and still the
+same proble so I also tend to eliminate any memory conflicts. It has been
+suggested that my bus speed is too fast and that I need to slow it down.
+My system has an AMI BIOS and I don't have the advanced chip setting
+option that I have seen on other systems so I cant do this. Am I going to
+have to accept that this set up won't work? or can anyone suggest a work
+around? I will be glad to hear your advice/suggestions.
+Tony
+
+

@@ -1,0 +1,25 @@
+From: theo@walt.caps.maine.edu (Theo M. Alpert)
+Subject: Data Paging Info WANTED
+Organization: UTexas Mail-to-News Gateway
+Lines: 19
+NNTP-Posting-Host: cs.utexas.edu
+
+
+ 
+ 
+    Hello, I'm looking for information on Alphanumeric pagers 
+and *how* the data is sent from the paging transmitter and how 
+I would go about building a device to decode the paging data 
+(like my pager does) and feed it though an RS232 port.
+    I'm planning on seperating different paging messages and 
+different pagers in software to keep amount of hardware I need 
+down....  Does anyone know what chips (Motorola?) are good for 
+decoding Numeric and Alphanumeric paging data (and then stuffing
+it down an RS232 port (basically any baud rate is fine!) ? 
+    (I already have a radio reciever with headphone level 
+output for the audio signal from the paging tower, but I'd be 
+interested in anything you know about pagers, including the 
+type of radio recievers they use!)
+    Thanks in advance!            
+-theo
+EMAIL = theo@walt.caps.maine.edu

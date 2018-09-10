@@ -1,0 +1,57 @@
+Organization: University of Illinois at Chicago, academic Computer Center
+From: Pankaj Saxena <U09416@uicvm.uic.edu>
+Subject: TCP/IP through Windows 3.1
+Lines: 52
+
+I don't know much about computers, so please bear with me. Here's my question:
+
+CONTEXT: I use a package called SLIP on my home computer to connect to the
+         university mainframe (an IBM 3090 running VMS/MVS), and log on to my
+         account. When I installed SLIP on my computer, I had to configure it
+         for my modem (14.4 kbs Etronics internal) and had to supply the phone
+         number to dial to reach the mainframe. The way it works now is that
+         I type "telnet uicvm" or "tn3270 uicvm" (either will work) at the DOS
+         prompt. UICVM is the node name of the mainframe. The program then
+         dials the mainframe, establishes a protocol, and gives me the logon
+         screen. "TELNET" and "TN3270" are the names of batch files in my SLIP
+         directory. I have been told that a kermit protocol is used for the
+         session.
+
+PROBLEM: I would like to be able to do all this under Windows 3.1 because I
+         hardly ever use DOS directly. SLIP will not run under Windows. I
+         talked to the people at our computer center, and they suggested that
+         I use a packet driver called WINPKT.COM with SLIP. They gave me
+         instructions on how to load it before I start Windows, and how to
+         modify the TCPSTART and TCPSTOP batch files (in the SLIP directory)
+         to ensure that it would work. I did all that and I could run SLIP
+         from Windows, but there were other problems. For one thing, SLIP
+         would not hang up the phone when I exited. I had to run my communi-
+         cations program to hang up the phone or reboot the computer when
+         that didn't work. For another, there were too many errors. It often
+         took me 3-4 tries to connect to the mainframe. Our computer center
+         does not support SLIP under Windows, so I can't keep going back to
+         them with more questions.
+
+QUESTION: Is there some other SHAREWARE package that will run under Windows
+         and do what SLIP is supposed to do? I need a package that is not too
+         expensive, which is why I am looking for shareware. I have heard that
+         there are regular commercial packages that do all this, but they cost
+         hundreds of dollars. These are the main requirements:
+
+         1. Must be able to run under Windows 3.1
+         2. Must allow VT100 and IBM TN3270 terminal emulation
+         3. Must allow ftp file transfers, since that's the only kind the
+            mainframe allows. No Y-modem or Z-modem etc. I believe the ftp
+            transfers are made through a kermit protocol, but I'm hazy about
+            that.
+
+         A subsidiary feature (that would be nice to have) if it's a true
+         Windows program (rather than a DOS program modified to run under
+         Windows) is the ability to run the session in a window concurrently
+         with other applications and to cut and paste between the telnet
+         session and other applications.
+
+Any information received is appreciated.
+
+Pankaj Saxena
+u09416@uicvm.uic.edu

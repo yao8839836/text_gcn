@@ -1,0 +1,40 @@
+From: gibanez@dcc.uchile.cl (Gabriel Ibanez C.)
+Subject: key event ----> window
+Originator: gibanez@dcc.uchile.cl
+Nntp-Posting-Host: dcc.uchile.cl
+Organization: Universidad de Chile, Depto. de Ciencias de la Computacion
+Lines: 34
+
+Hi there,
+
+
+  Do someone of you have a program for sending a key event
+to another window but it MUST appear in that window....
+
+I have used xsendevent.tar package but it does not do that !!!
+
+For example, if I get a program executing:
+
+--------------
+#!/bin/sh
+read something
+....
+....
+echo $something
+....
+....
+--------------
+
+and if I send the key event "<KeyPress>a,<KeyRelease>a"
+to that window then I will get:
+
+something=a
+
+
+Thanks in advance.
+
+
+-- 
+
+   Gabriel Iban~ez C.          
+   gibanez@dcc.uchile.cl

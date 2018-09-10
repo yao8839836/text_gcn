@@ -1,0 +1,27 @@
+From: linda@cs.su.oz.au (Linda Distributed Language)
+Subject: help with et4000 hicolor modes
+Organization: Basser Dept of Computer Science, University of Sydney, Australia
+Keywords: video, et4000
+Lines: 21
+
+Can any body tell me where the most significant bit of the total horizontal
+width hides out on the Tseng Labs ET4000 with a 15/16/24 bit dac?
+I am trying to use the 640x480x16M mode under unix (so i cant just call int 10h)I have a program which dumps the contents of the card registers under dos, but I
+am not sure I trust it for the extended registers of the et4000.
+Anyway, the problem is that in this mode, the Horizontal Total Register
+(3d4h index0) is apparently set to 0x27, but 3d4h index 1 (the displayed clocks)
+is set to 0xEF, so 0x27 is nonsense. A resonable value would be 0x0127 - so is
+there a high bit, and if so, where is it?
+Also, how does one set the video dot clock to the appropriate frequency ( and
+what would be an appropriate frequency?). The documentation isn't really very
+clear (tseng.txt from  vgadoc2.zip from some ftp site) about this.
+My card is a MegaVga/1024 1Mb card. Seems to have a Tseng Labs Bios (ver 8.05 I
+think.) Works nicely under dos, and very well under unix (linux) in all the
+non-hicolor modes. Great for running X-windows in up to 1152x900x256ni - if your
+monitor will take it (only just in my case).
+
+Please email the answer, as I can't read news very often.
+
+Thanks very much,
+		David
+ 

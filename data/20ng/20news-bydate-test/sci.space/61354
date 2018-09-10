@@ -1,0 +1,30 @@
+From: dietz@cs.rochester.edu (Paul Dietz)
+Subject: Re: Gamma Ray Bursters. positional stuff.
+Organization: University of Rochester
+Lines: 25
+
+In article <1993Apr29.010847.1@vax1.mankato.msus.edu> belgarath@vax1.mankato.msus.edu writes:
+
+> getting at here.  This puppy is far enough away, that if a bright
+> burst happens nearby, the huge annulus created by it will hopefully
+> intersect the line or general circle given by BATSE, and we can get a
+> moderately accurate position. Say oh, 2 or 3 degrees. That is the
+> closest anyone has ever gotten with it.
+
+
+You can do a whole hell of a lot better than 2 or 3 degrees with
+the differential timing measurements from the interplanetary network.
+Ignore the directional information from BATSE; just look at the time
+of arrival.  With three detectors properly arranged, one can often
+get positions down to ~arc minutes.
+
+BTW, about Oort cloud sources: shouldn't this be testable in the
+fairly near future?  Some of the GRBs have very short rise times (< 1
+ms).  We could detect the curvature of the burst wavefront out to a
+distance of on the order of b^2/(t c) where b is the detector spacing
+and t the time resolution.  For t = 1 ms and b = 2 AU, this is on the
+order of 16 light years.  I understand statistics will reduce this
+number considerably, as would geometry if the burst is coming from the
+wrong direction.
+
+	Paul

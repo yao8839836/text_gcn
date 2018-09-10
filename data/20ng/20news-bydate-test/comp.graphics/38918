@@ -1,0 +1,23 @@
+From: guest@rkw-lan.cs.up.ac.za (Guest user)
+Subject: CGA help wanted
+Organization: Students network, Computer Science Department, University of Pretoria
+Lines: 16
+Distribution: world
+NNTP-Posting-Host: lab2-11.cs.up.ac.za
+
+Hi there,
+
+I'm looking for help on hi-rez CGA modes (hey, i know it sounds crazy but at
+the moment it's got to do). My card's manual says it does something like
+640 by 400 2 colour and 640 by 200 4 colour (the card has 64k memory). Could 
+anyone give me some help on how to implement these modes (Assembly language 
+is fine). Any other usefull tips on the CGA regs will also help.
+
+Thanx in advance...
+
+Frans.
+
+
+My eMail is
+
+leander@up.ac.za

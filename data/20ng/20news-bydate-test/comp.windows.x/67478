@@ -1,0 +1,34 @@
+From: fwr8bv@fin.af.MIL
+Subject: xdm and env. vars
+Organization: The Internet
+Lines: 27
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert%expo.lcs.mit.edu@fin.lcs.mit.edu
+
+Hi,
+
+I am using xdm on X11R5 with OW3 and Xview3 on Sun3s and SPARCs running 
+SunOS 4.1.1.  Prior to using xdm, I used to set PATH and other environment
+variables (like MANPATH, HELPPATH, ARCH, etc) in my .login file.  With xdm,
+the .login file doesn't get executed and therefore neither the olwm
+root-window nor my applications know about these variables.
+
+I used the "DisplayManager._0.userPath" resource in /usr/lib/X11/xdm/xdm-config
+to succesfully pass the PATH variable.  But I am having problems passing anything else!!!  I tried execing $HOME/.login in /usr/lib/X11/xdm/Xsession
+but that didn't help.  I also tried using
+	"DisplayManager.exportList: HELPPATH MANPATH ARCH"
+which didn't work either.
+
+I would appreciate any help on this matter.
+
+Thanks in advance,
+Shash
+
++-----------------------------------------------------------------------------+
++ Shash Chatterjee                           EMAIL:  fwr8bv@fin.af.mil        +
++ EC Software                                PHONE:  (817) 763-1495           +
++ Lockheed Fort Worth Company                FAX:    (817) 777-2115           +
++ P.O. Box 748, MZ1719                                                        +
++ Ft. Worth, TX 76101                                                         +
++-----------------------------------------------------------------------------+
+

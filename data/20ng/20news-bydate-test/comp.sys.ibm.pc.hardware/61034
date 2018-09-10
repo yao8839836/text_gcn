@@ -1,0 +1,32 @@
+From: Randy Ellingson
+Subject: SCSI or IDE: The Bottom Line
+Reply-To: randy@msc.cornell.edu
+Organization: Cornell University
+Lines: 26
+
+Which would YOU choose, and why?
+
+Like lots of people, I'd really like to increase my data transfer rate from
+the hard drive.  Right now I have a 15ms 210Mb IDE drive (Seagate 1239A), and
+a standard IDE controller card on my ISA 486-50.
+
+I'm currently thinking about adding another HD, in the 300Mb to 500Mb range.
+And I'm thinking hard about buying a SCSI drive (SCSI for the future benefit).
+I believe I'm getting something like 890Kb/sec transfer right now (according
+to NU).
+
+How would this number compare if I bought the state-of-the-art SCSI card for
+my ISA PC, and the state-of-the-art SCSI hard drive (the best system I could
+hope for)?
+
+Obviously money factors into this choice as well as any other, but what would
+YOU want to use on your ISA system? And how much would it cost?
+
+Along those lines, what kind of transfer rate could I see with my IDE HD's if I
+were to buy the top-of-the-line IDE caching controller for my 200Mb, 15ms HD?
+And how much would it cost?
+
+Thanks for any comments.
+
+Randy
+  

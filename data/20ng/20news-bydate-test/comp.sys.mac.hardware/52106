@@ -1,0 +1,21 @@
+From: bauer@informatik.uni-ulm.de (Christian Bauer)
+Subject: Quicktime jpeg expansion source needed
+Nntp-Posting-Host: christian.informatik.uni-ulm.de
+Organization: University of Ulm
+Lines: 15
+
+Hello,
+
+we need the code for decompression of Quicktime JPEG Pict files, as they
+don't conform to usual jpeg compressors, which are available in source.
+The code should be in C Pascal or Modula. The code will be used on several
+platforms to view pictures over ISDN. Perhaps a special hardware will be
+put around it (much less then a mac! perhaps only a DSP with some support
+chips)
+If the code is not available, perhaps the algorithm is available to
+decompress
+them.
+
+Christian Bauer
+
+bauer@informatik.uni-ulm.de

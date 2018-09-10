@@ -1,0 +1,37 @@
+From: pgupta@magnus.acs.ohio-state.EDU (Puneet K Gupta)
+Subject: WordBasic - Visual Basic - Macros/Template ???
+Organization: The Ohio State University
+Lines: 31
+NNTP-Posting-Host: charm.magnus.acs.ohio-state.edu
+
+
+I am working with Visual Basic v2.0 for windows.
+Specifically, I am working on an application that generates formatted reports.
+Since, some of these reports can be rather large, my first question is:
+
+1.  Is there a way to increase the size of a list box or text box in
+Visual Basic/windows beyond the 64k limit?
+
+As I have not (as yet - being optimistic :-) come across a way to get
+around the above problem, I am working on the following approach:
+
+I am trying to create my own defined template in MS-Word, using the
+WordBasic Macros so that I can open up Word from Visual Basic(VB) and load
+this template of mine, which will work in the following way:
+
+It will first open MyOwn.INI file (created in VB - at the time when the
+user selected the kind of report he weanted) and read the section from the
+.INI file and jump to the appropriate code in template - which will then
+open and read a file pertaining to the section it read from the .INI file.
+
+1.  When using the GetProfileString function in WordBasic, is there a way
+to specify/change the default .INI file (which is win.ini) to MyOwn.INI file?
+
+2. When using the file Input$ function in WordBasic - is there a way to
+read more than the 32k at one time?
+
+---
+Any help will be appreciated.
+
+pgupta@magnus.acs.ohio-state.edu
+

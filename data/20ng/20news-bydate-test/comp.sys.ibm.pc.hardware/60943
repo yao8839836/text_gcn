@@ -1,0 +1,37 @@
+From: ras3301@ultb.isc.rit.edu (R.A. Schrack)
+Subject: Re: Modems and UARTs
+Nntp-Posting-Host: ultb-gw.isc.rit.edu
+Organization: SalesBook Systems
+
+In article <93042013138@jester.GUN.de> michael@jester.GUN.de (Michael Gerhards) writes:
+>Universal Arithmetic Receiver Transmitter. Normally, the older boards have
+>a 8250 or 16450 UART on board. Those chips generate an IRQ for every char
+>they received. The 16550 UART has an internal 16 byte buffer, so - with the
+>right software installed - it generates an IRQ every 16 chars. 
+
+  close. Universal Asynchronous Receiver Transmitter.
+
+>> 3) Is it necessary for 14.4k or higher throughput?
+>
+>If you ran dos, you don't need a 16550, because dos runs only ONE task at a
+>time and the whole cpu-power could be used for the transfer. 
+
+   Even if you are running DOS, if your CPU can't handle the speed of the
+interrupts, you will still lose characters.  I have one 286/10 machine with
+an external 9600 bps modem attached and can't drive the serial port any faster 
+than 19.2k without losing characters.
+
+>
+>Michael
+>--
+>*  michael@jester.gun.de  *   Michael Gerhards   *   Preussenstrasse 59  *
+>                          *  Germany 4040 Neuss  *  Voice: 49 2131 82238 *
+
+
+                                           Rob
+
+--------------------------------------------------------------------------------
+Robert A. Schrack - Systems Administrator                   ras3301@ultb.rit.edu
+SalesBook Systems                                           Voice (716) 387-7100
+9 Tobey Village Office Park, Pittsford, NY 14534              Fax (716) 387-7100
+"We wrote the book on Sales Force Automation..."

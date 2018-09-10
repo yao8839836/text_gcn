@@ -1,0 +1,24 @@
+From: Lyle_Seaman@transarc.com
+Subject: Re: Off the shelf cheap DES keyseach machine (Was: Re: Corporate acceptance of the wiretap chip)
+Organization: Carnegie Mellon, Pittsburgh, PA
+Lines: 14
+        <1993Apr21.001230.26384@lokkur.dexter.mi.us>
+        <C5uvn4.MF7@austin.ibm.com> <strnlghtC5wCMo.Fx5@netcom.com>
+	<CMM.0.90.2.735554186.jon@gode.ifi.uio.no>
+NNTP-Posting-Host: po5.andrew.cmu.edu
+In-Reply-To: <CMM.0.90.2.735554186.jon@gode.ifi.uio.no>
+
+"Jon \\lnes" <jon@ifi.uio.no> writes:
+> A person I know, belonging to a research lab of a rivate
+> company, claimed to me during a priavte conversation that, given the
+> equipment in his lab, he could crack a Kerberos ticket in 15 minutes to
+> an hour. He had access to rather powerful DES hardware, but not of an
+> extraordinare kind, I believe. The attack was possible because of the
+> amount of known plaintext in the ticket, which itself constitutes a small
+> message. This was two years ago.
+
+That would be a V4 ticket, presumably, not a V5 ticket.  The V4 ticket
+format can even be complicated several more orders of magnitude...
+
+Lyle		Transarc		707 Grant Street
+412 338 4474	The Gulf Tower		Pittsburgh 15219

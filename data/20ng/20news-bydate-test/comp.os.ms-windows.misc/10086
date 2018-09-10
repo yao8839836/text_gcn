@@ -1,0 +1,30 @@
+From: GMILLS@CHEMICAL.watstar.uwaterloo.ca (Phil Trodwell)
+Subject: Re: Windows zip/unzip
+Organization: University of Waterloo
+Lines: 25
+
+In article <1rl9b6$h3c@sol.deakin.OZ.AU> russ@deakin.OZ.AU (Russ Sharp) writes:
+
+>We are using pkzip V2.04 and I am interested to hear from
+>people who have used one of the many Windows programs that
+>call these.
+>Which ones are available and does any one stand out amongst
+>the rest?
+>Is there a full windows version that does not call the DOS 
+>PKZIP/PKUNZIP commands?
+
+Do you mean a prog. that doesn't jump to the DOS display and then back or 
+create a temp. DOS window?
+
+If yes then I might recommend WinZip from ftp.cica.indiana.edu.  I'm afraid 
+I don't have the file name or version but you should be able to find it.
+
+It's fully compatible with ver. 2.04g and very functional.
+
+Later,
+
+Phil Trodwell 
+
+***   This space   ***|   "I'd be happy to ram a goddam 440-volt cattle
+***    for rent.   ***|   prod into that tub with you right now, but not
+***     (cheap)    ***|   this radio!"       -Hunter S. Thompson

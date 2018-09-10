@@ -1,0 +1,31 @@
+From: mark@physchem.ox.ac.uk (Mark Jackson)
+Subject: Re: 386 Motherboard advice needed
+Originator: mark@joule.pcl
+Organization: Physical Chemistry Laboratory, South Parks Road, Oxford OX1 3QZ
+Lines: 25
+
+
+In article <1r42r9$965@jethro.Corp.Sun.COM>, lonewolf@muse.Corp.Sun.COM (Peter Pak) writes:
+> Hi,
+> 
+> Does anyone have a source for 386DX/25 Motherboards?  I've
+> been calling around the local stores and everyone appears
+> to be only stocking the 386DX/33/40 or 386SX/25/33 motherboards.
+> 
+> How difficult is it to modify a 386DX/40 motherboard to run at
+> 25 MHz?  Is it as simple as replacing the system clock with a
+> slower part?
+> 
+> Thanks!
+> 
+> -Peter
+
+
+This is normally the case, but make sure you get a board with a plug in oscillator
+as you will screw up your warranty if you start to solder the board.
+
+
+-- 
+Mark 
+______________________________________________________________________________
+mark@uk.ac.ox.physchem

@@ -1,0 +1,48 @@
+From: david@ganglion.ann-arbor.mi.us (David Hwang)
+Subject: Re: Best Radar Detector - VALENTINE-1?
+Organization: D.J. Services
+Lines: 43
+
+In article <1993Apr21.190251.14371@sequent.com> troy@sequent.com (Troy Wecker) writes:
+>
+>Let me explain why I feel the "bogey" counter feature is a gimmick.
+>Radar waves bounce off objects especially metal.  That is how radar
+>speed measurement works.  A high frequency microwave (X band approx 10
+>GHz and K is approx 24 GHz) is sent out and reflected back to the
+>antenna off of an automobile or other objects.  If an object is moving
+>a Doppler shift (about 34 Hz per MPH on X Band) occurs, is measured
+>and converted to miles per hour.  These waves bounce all over the
+>place and they can reflect many times and go in many directions.
+>
+>From what I understand the Valentine-1 can only tell if these
+>microwaves are coming from the front, rear or both.  There are only
+>two antennas.  If they are coming from both this in interpreted as a
+>"side bogey".  Bogey counts are determined as sources by their
+>relative strength to one another even if they are reflections of the
+>same source.
+>
+I'm certainly no engineer and really have no scientific basis
+on which to make this argument, but don't you answer your own
+question?  Is the reflected signal "shifted" at all from the
+act of being reflected?  If so, wouldn't it then be easy for
+the detector to discriminate between reflections and direct
+sources?
+
+>Here is the problem.  Since the microwaves reflect, how does the unit
+>tell if it is a "source" or a "reflection"?  Take a Valentine-1 and
+>drive to the local grocery store that uses an X-Band radar door
+>opener.  You can tell by the small black box above the door pointed
+>down at about a 45 degree angle and your detector going off when it
+>gets near.  The Valentine-1 will count 7 or 8 bogeys from all
+>directions front, rear and sides (it doesn't say which side).  The
+>count changes as cars drive by and reflections change.  Is there 7 or
+>8 sources?  Not at the store I go to.  As I drive around with a
+>standard detector I can only find one source and that is the door
+>opener for the front door.
+>
+>Troy Wecker
+>troy@sequent.com
+>Sequent Computer Systems
+>Beaverton, OR
+-- 
+David W. Hwang, M.D.                      [david@ganglion.ann-arbor.mi.us]

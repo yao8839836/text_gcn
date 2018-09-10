@@ -1,0 +1,30 @@
+From: strnlght@netcom.com (David Sternlight)
+Subject: Re: The [secret] source of that announcement
+Organization: DSI/USCRPAC
+Lines: 25
+
+In article <1993Apr23.110149.29470@cs.aukuni.ac.nz> pgut1@cs.aukuni.ac.nz
+(Peter Gutmann) writes:
+
+>
+>Something similar has happened to me - ages ago when we were working on PGP
+>we used to send short messages about development issues or simply to test 
+>new features around.  Now at this time PGP (and certainly the newer version)
+>was unknown over here.  Suddenly the admin at the site I was using received
+>a request that I stop sending encrypted email.  Now there is almost no way
+>that some automatic scanner could have found this, since they wouldn't have
+>known about PGP - they *must* have checked for unknown data types in the
+>message, tried to unscramble it, found they couldn't get past the PEM
+>armour part, and then contacted the sysadmin and asked me to stop.  Luckily
+>the current email carriers are less picky about what goes over their
+>networks :-).
+
+Is the sending of encrypted traffic without government permission legal in
+New Zealand?
+
+David
+-- 
+David Sternlight         Great care has been taken to ensure the accuracy of
+                         our information, errors and omissions excepted.  
+
+

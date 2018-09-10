@@ -1,0 +1,25 @@
+From: fvd@ma1ws1.mathematik.uni-karlsruhe.de (M. 'FvD' Weber)
+Subject: Q: Whats _vendorShellWidgetClass ?
+Organization: University of Karlsruhe, Germany
+Lines: 16
+NNTP-Posting-Host: ma1ws1.mathematik.uni-karlsruhe.de
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+We tried to compile an old X11R4/Motif program with X115 and a newer
+Version of Motif.
+
+But we newer succeed. Any ideas?
+
+CC  -o xtrack.new main.o libxtrack.a ../xutils/libxutils.a ../pmshort/libpmshort.a  ../matrix/libmatrix.a  otte/lib_otte.a verb/lib_verb.a /tools/newmotif/lib/libMrm.a /tools/newmotif/lib/libXm.a -L/tools/X11R5/lib -lXaw -lXmu -lXt -lX11  -lL -lm -lXext 
+cXm.a -lXaw -lXmu -lXt -lX11 -lL -lm -lXext -L/usr/CC/sun4/ -lC
+ld: /tools/X11R5/lib/libXaw.sa.5.0(sharedlib.o): _vendorShellWidgetClass: multiply defined
+*** Error code 2
+make: Fatal error: Command failed for target `xtrack'
+
+Thanks FvD.
+--
+       FvD, Markus Weber fvd@ma1ws1.mathematik.uni-karlsruhe.de
+		  Sometimes there's nothing to feel.

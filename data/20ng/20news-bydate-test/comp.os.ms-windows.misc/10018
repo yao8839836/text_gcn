@@ -1,0 +1,28 @@
+From: claebaur@shell.portal.com (Tony S Annese)
+Subject: Re: Trouble with Sound Blaster Pro drivers
+Keywords: SBP
+Nntp-Posting-Host: jobe
+Organization: Portal Communications Company -- 408/973-9111 (voice) 408/973-8091 (data)
+Lines: 21
+
+In article <kaz.736031654@vincent1.iastate.edu> kaz@iastate.edu (Errington Shroud) writes:
+>Recently, Windows has starting giving me the error "Sound Blaster Pro:
+>Requires newer version of Windows 3.1."  It has worked correctly for a long
+>time, and don't know what the problem could be.  Thanks!
+
+
+I had this problem when I initially installed my sound blaster pro and here's
+what the tech support told me.
+
+They told me to look for the files that are stated in the readme file from
+the win31 subdirectory of the soudblaster directory. Now look in the system.ini
+file and if any of them say device=xxxxxxx.386 than change it to 
+device=*xxxxxxx
+Thats should work. Was your system.ini file erased for some reason? That would
+be the only reason that I would think that Windoes is giving you the error now.
+
+--
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+Tony Annese                                    claebaur@shell.portal.com
+                                          -or- claebaur@cup.portal.com
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/

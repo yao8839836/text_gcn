@@ -1,0 +1,14 @@
+From: povlphp@uts.uni-c.dk (Povl H. Pedersen)
+Subject: Re: Products to handle HDTV moving pircture (180MB/sec)
+Organization: UNI-C, Danish Computing Centre for Research and Education
+Lines: 9
+
+How does the 16 bit color of HDTV work ? It can not be 5 bit Red Green and
+Blue like on the Macintosh. This gives only 64 gray levels.
+
+Apple also has developed a point-point network that is around 200MB (not
+sure if it is bits or bytes) per sec.
+-- 
+Povl H. Pedersen   -   Macintosh specialist. Knows some DOS and UNIX too.
+pope@imv.aau.dk    -   povlphp@uts.uni-c.dk
+--- Finger me at pope@imv.aau.dk for PGP Public Key ---

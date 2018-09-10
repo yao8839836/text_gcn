@@ -1,0 +1,35 @@
+From: pdb059@ipl.jpl.nasa.gov (Paul Bartholomew)
+Subject: Re: Soundblaster IRQ and Port settings
+Organization: Jet Propulsion Laboratory
+Lines: 28
+Distribution: world
+NNTP-Posting-Host: kilimanjaro.jpl.nasa.gov
+
+In article <3130@shaman.wv.tek.com>, andrew@frip.WV.TEK.COM (Andrew
+Klossner) wrote:
+> 
+> []
+> 
+> 	"These LPT1, COM1, disk controller are call devices.  There are
+> 	devices that requires exclusive interrupt ownership, eg. disk
+> 	controller (I6) and keyboard (I1).  There are also devices that
+> 	does not require exclusive ownership, ie. it will share an
+> 	interrupt with another device, eg. LPT1"
+> 
+> No.  In a standard ISA bus, the one that almost all non-laptop PCs use,
+> two separate interface cards cannot share an interrupt.  This is due to
+> a screwup in the bus design.  For example, if your Soundblaster wants
+> to drive interrupt number 7, then it must hold a certain bus wire to 0
+> or 1 at all times, depending on whether or not it wants an interrupt.
+> This precludes letting another card assert interrupt number 7.
+> 
+> When two or more devices in an ISA bus PC share an interrupt, it's
+> because they're implemented by a single card.
+
+Interesting.  Would you care to explain to me then, how my SoundBlaster
+Pro card and my printer card are sharing IRQ 7 successfully?  I assure
+you that they are both set to IRQ 7 and that I have no problem.  My
+computer is a DTK 286-12 IBM clone.
+
+Paul Bartholomew
+pdb059@ipl.jpl.nasa.gov

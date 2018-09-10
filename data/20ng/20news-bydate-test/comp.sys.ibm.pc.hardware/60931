@@ -1,0 +1,19 @@
+From: idler@cs.tu-berlin.de (Andreas Kuehnel)
+Subject: Windows Virtual Memory
+Organization: Technical University of Berlin, Germany
+Lines: 9
+Distribution: world
+NNTP-Posting-Host: bohus.cs.tu-berlin.de
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+I've got a 386DX-40, 4MB and I'm using Windows 3.1. Sometimes I wondered why 
+Windows worked endlessly on my HD when I was doing nothing (execpt having lunch
+or something like that). Then I turned this virtual memory swapfile off, and
+Windows became quite faster, but now having less memory free. And so I'm still
+wondering, why windows is reading everything from virtual memory when the
+convertional is sufficient? Any common-sense-explanation is really appreciated.
+
+  

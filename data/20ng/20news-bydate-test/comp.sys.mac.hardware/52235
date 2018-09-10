@@ -1,0 +1,23 @@
+From: opstad@apple.com (David Opstad)
+Subject: Re: QuickDraw GX (was Re: When are the rest of the Inside Mac's due?)
+Organization: Apple Computer Inc, Cupertino, CA
+Lines: 17
+NNTP-Posting-Host: apple.com
+
+In article <1993Apr13.090025.20758@msc.cornell.edu> maynard@leah.msc.cornell.edu (Maynard J. Handley) writes:
+>
+>Does GX take the place of 32 bit QD or add to it? Right now 32 bit is
+>kinda aesthetically a pain in a few places because of hacks upon hacks
+>to maintain compatibility with original QD---I think of things like
+>where you have to cast CGrafPorts to GrafPorts and such. It would be a
+>lot cleaner to ditch this entire mess and start over---do we get that?
+>
+>Maynard
+
+Sorry for the delay in replying; your message only showed up today (23 Apr)
+on apple.com. QuickDraw GX is not a replacement for QuickDraw; the two of
+them live quite happily together. You may write an app that only uses GX
+if you want, or you may write a hybrid app that uses both. Suptayoo.
+
+Dave
+

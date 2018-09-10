@@ -1,0 +1,32 @@
+From: bnc@portia.si.macsch.com (Brian Casey)
+Subject: Re: MAC DISKS IN WINDOWS?
+Organization: The MacNeal-Schwendler Corporation
+Lines: 27
+
+In article <1993May17.045558.14180@seas.gwu.edu> louray@seas.gwu.edu (Michael Panayiotakis) writes:
+>In article <1t6efv$1pj@binkley.cs.mcgill.ca> gel@binkley.cs.mcgill.ca (Gilles KHOUZAM) writes:
+>>>Macsee.zip on ftp.cica.indiana.edu is supposed to read and write Mac disks.  
+>>>I've never tried it, though.  Good luck
+>>
+>>I just tried it, but I can't say that it works, 'cause it doesn't read 800K
+>>disks, it only reads 1.44Mb. If there a program that does read 800K disks,
+>>please let me know.
+>
+>
+>Well, you can't say that it don't work.  The inability to read 800k mac
+>disks is not a SW problem.  Rather, it's a HARDWARE limmitation on PCs. 
+>
+>I have seen a post about a program able to read non-1.44Mb Mac disks,
+>which comes with a watchamacalit <ma memory's faling> card, which you
+>just drop into a com port or something.  Don't remember specifics, tho.
+>peace,
+>Mickey
+
+On all 1.44Mb drives (both Mac and PC), the disk spins at a constant
+RPM.  On 800k Mac disk drives, the spin rate of the disk is varied so 
+that the tracks pass under the head at a constant speed; a slower rotation
+for the outer tracks, and a faster rotation for the inner tracks.  A PC
+needs special controller hardware to make this happen.
+
+Brian Casey
+bnc@macsch.com

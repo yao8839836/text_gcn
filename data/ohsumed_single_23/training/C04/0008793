@@ -1,0 +1,20 @@
+A standard dose of radiation for "microscopic disease" is not appropriate.
+ Elective irradiation of sites of potential occult tumor spread is often part of a patient's radiation therapy program.
+ The required radiation dose (D) depends on the probability that occult disease exists (P(occ)), the number of sites at risk (A), the number of tumor clonogens present (Ni), their radiation sensitivity, and the desired control rate.
+ An exponential model of cell survival is used to quantify the importance of these factors.
+ Control Probability = [1 - Pocc x (1 - e-Ni x (SF2)D/2)]A; SF2 = surviving fraction after 2 Gy.
+ Implications for clinical radiation therapy include: 1.
+ Since the number of clonogens in an occult site may vary from 10 degrees to 10(8), Ni is the major determinant of the required dose.
+ The intrinsic radiation sensitivity of the clonogens (SF2) is also extremely important in determining the dose.
+ Other factors are less influential since they vary less.
+ 2.
+ The variability of Ni (8 logs) is larger than the variation in cell number seen with gross disease (1 cm3 versus 1000 cm3, 3 logs).
+ When Ni approximately 10(8), the required dose approaches that needed for small volume gross disease (10(9) cells, 1 cm3).
+ 3.
+ The dose prescribed to elective sites should reflect the risk of occult disease based on the primary tumor site, stage, and grade.
+ 4.
+ Regions where clinicoradiologic evaluation is difficult (e.g., pelvis and obese neck) require higher doses because macroscopic tumor deposits may exist.
+ 5.
+ Relatively low doses (10 to 30 Gy) are often thought to be inadequate for microscopic tumor.
+ However, similar doses have been reported to sterilize microscopic tumor in ovarian, rectal, bladder, breast, and head and neck carcinomas.
+ Relatively low doses should not be discounted since they may be useful in select cases when normal tissue tolerances and/or previous irradiation treatment limit the radiation dose.

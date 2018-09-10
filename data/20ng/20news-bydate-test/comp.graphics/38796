@@ -1,0 +1,33 @@
+From: peter@gort.trl.OZ.AU (Peter K. Campbell)
+Subject: Re: Virtual Reality for X on the CHEAP!
+Organization: Telecom Research Labs, Melbourne, Australia
+Lines: 28
+
+ridout@bink.plk.af.mil (Brian S.  Ridout) writes:
+
+>In article <1993Apr15.134802.21995@mfltd.co.uk>, sts@mfltd.co.uk (Steve Sherwood (x5543)) writes:
+>|> Has anyone got multiverse to work ?
+>|> 
+>|> I have built it on 486 svr4, mips svr4s and Sun SparcStation.
+>|> 
+>|> There seems to be many bugs in it.  The 'dogfight' and 'dactyl' simply do nothing
+>|> (After fixing a bug where a variable is defined twice in two different modules - One needed
+>|> setting to static - else the client core-dumped)
+>|> 
+>|> Steve
+>|> -- 
+>|> 
+>|>          Extn 5543, sts@mfltd.co.uk, !uunet!mfocus!sts
+
+I've tried compiling it on several SPARCstations with gcc 2.22.  After
+fixing up a few bugs (3 missing constant definitions plus a couple of
+other things) I got it to compile & link, but after starting client
+& server I just get a black window; sometimes the client core dumps,
+sometimes the server, sometimes I get a broken pipe, sometimes it
+just sits there doing nothing although I occassionally get the
+cursor to become a cross-hair in dog-fight, but that's it.  I've
+sent word to the author plus what I did to fix it last week, but
+no reply as yet.
+
+Peter K. Campbell
+p.campbell@trl.oz.au

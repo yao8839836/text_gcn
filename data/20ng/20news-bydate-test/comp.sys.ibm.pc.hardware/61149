@@ -1,0 +1,23 @@
+From: kotsines@ucsu.Colorado.EDU (T. Kotsines)
+Subject: Re: SCSI vs. IDE
+Nntp-Posting-Host: ucsu.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 17
+
+In article <IISAKKIL.93Apr23125341@beta.hut.fi> iisakkil@beta.hut.fi (Mika Iisakkila) writes:
+>randy@msc.cornell.edu writes:
+>>Do all SCSI cards for DOS systems require a separate device driver to
+>>be loaded into memory for each SCSI device hooked up?
+>
+>No. All that I've seen have also an on-board BIOS which enables you to
+>use up to 2 hard drives directly under DOS (2 drives is a DOS
+>limitation and you have the same problem with IDE and all other
+>standards for that matter). Software drivers often allow for better
+>performance, though. You have to use them if you want to use other
+>devices besides hard disks or have more than 2 disks.
+>
+No.  The Always IN-2000, among others requires no drivers for up to 7 SCSI
+hard drives.  DOS does not have a 2 drive maximum, as I already have 3. All
+is done in hardware, there's no software drivers at all.
+
+[/]

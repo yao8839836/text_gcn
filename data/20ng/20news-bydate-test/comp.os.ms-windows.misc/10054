@@ -1,0 +1,40 @@
+From: rick@sundance.SJSU.EDU (Richard Warner)
+Subject: DOS 6 a 'loaded gun' (was Why I'm not using Dos 6 anymore)
+Nntp-Posting-Host: sundance.sjsu.edu
+Organization: San Jose State University - Math/CS Dept.
+Lines: 34
+
+Mark Woodruff <CDA90038@UCF1VM.BITNET> writes:
+
+>I've been running Dos 6 for about a month.  I was generally impressed with
+>the improvements:  the multiple boot configurations were great, the
+>new commands were nice, and DoubleSpace worked fine (twice as slow for
+>large data transfers, twice as fast for small with SmartDrv).
+
+>Until now.
+
+>This morning at 4 am while I was working on my research paper, I had to
+>reboot a hung Dos program (that did no disk i/o) from within Windows 3.1.
+>When my machine finished rebooting, I found my windows directory and about two
+>thirds of my other directories were irreversibly corrupted.
+
+>I cannot afford problems like this.  I'm returning to Dos 5.
+
+>mark
+
+>P.S.  I've also noticed bad sector errors from DoubleSpace where none should
+>      exist.
+
+InfoWorld (April 26, 1993 issue) has two articles about problems with DOS
+6.  A 'Second Look' article calls it a 'loaded gun' and that people
+should exercise extreme caution if they decide to use it.  The point out
+that DoubleSpace and MemMaker are both problem areas that will cause a
+number of folks problems.
+
+MS's response was to the effect that there had been no problems reported
+that they could duplicate (probably are not trying too hard).
+
+Cringely reports that a lot of folks are getting/going to get burned
+on the 900 support lines - his example was a call that cost $67.50, 
+for 3 minutes of tech support after 25 minutes on hold.  I want to see
+the MS spin doctors explain this.

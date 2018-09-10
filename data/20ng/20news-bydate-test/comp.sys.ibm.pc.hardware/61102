@@ -1,0 +1,64 @@
+From: russest@ampex.com (Steve Russell)
+Subject: Re: CPU Fans
+Nntp-Posting-Host: rcs
+Organization: Ampex Corporation, Redwood City CA
+Lines: 58
+
+In article <1993Apr20.122812.2441@mfltd.co.uk> nmp@mfltd.co.uk writes:
+>
+>Just got a 66MHz 486DX2 system, and am considering getting a fan for the
+>CPU. The processor when running is too hot to touch so I think this is a
+>fairly good idea. (long ago when I did some electronics training I read
+>somewhere that the regions within a chip that define junctions/gates etc
+>slowly diffuse over time and this increases with temperature, hence a hot
+>chip goes off-spec sooner)
+>
+>Has anyone out there got a CPU fan??
+
+yes
+
+>Is there more than 1 type?
+
+yes, seen glue-on, tape-on, clip-on, one-inch square and larger.
+my favorite is the 3.5 inch plastic U.S.Toyo fan I use just plopped
+down on top of the chip during open-case service.
+
+>Do you have to remove the CPU from its scoket to install the fan?
+
+depends on the mounting
+
+>Do all CPU fans derive their power from spare drive power lines?
+
+only if the manufacturer was smart
+
+>Anyone had any trouble with CPU fans?
+
+only if it goes out - got that "blanket" effect which doesn't help chip life
+
+>Does anyone have any evidence that CPU fans are a complete waste of money?
+
+longer system life makes good economic sense to me
+
+>How are these fans attached? (glue? clips? melted cheese?)
+
+yes - well, not the melted cheese
+
+>Roughly how much cooler will the CPU be with a fan as opposed to without?
+
+lets you touch the surface - the "rule of thumb" for cooling solid-state
+
+>  (an advert I've read claims 85F vs 185F)
+>
+>Any info appreciated,
+
+the "attached" fans look slick and work well but I'm bothered by the potential
+loss of cooling if the fan goes out. at least with the power supply fan you
+can reach back there every few days and feel the fan blowing.
+
+I prefer to put a stock fan off the drive brackets or front panel
+to blow air across the cpu - depends a lot on case and board layout, though.
+
+on-chip fans from Fry's Electronics in the SF Bay Area are about 30.00. I
+get the stock power supply fans for about 11.00.
+
+-steve

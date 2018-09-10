@@ -1,0 +1,25 @@
+From: jbvb@vax.ftp.com  (James B. VanBokkelen)
+Subject: Re: Jumper settings for Ungermann-Bass PCNIC Ethernet card
+Nntp-Software: PC/TCP NNTP
+Keywords: UB PCNIC
+Lines: 14        
+Nntp-Posting-Host: whipped-cream.ftp.com
+Reply-To: jbvb@ftp.com
+Organization: FTP Software, Inc., North Andover, Massachusetts
+Distribution: na
+
+In article <1993Apr21.215204.18373@ntg.com> dplatt@ntg.com (Dave Platt) writes:
+    The IRQ and interface-select jumpers are pretty straightforward, but I
+    don't grok the settings of W10-W18 (also labelled A15 through A18).
+    Could somebody tell me which settings of these four jumpers correspond
+    to what I/O addresses?
+    
+The U-B PCNIC (also OEMed by IBM for a while) is the only Ethernet card I
+know of that doesn't use I/O addresses.  It only has interrupts and shared
+memory.  The jumpers you see control bits 15-18 in the base address of the
+shared memory.  I can't recall which is 1 and which 0, but that's easy
+to determine with DEBUG.
+
+James B. VanBokkelen		2 High St., North Andover, MA  01845
+FTP Software Inc.		voice: (508) 685-4000  fax: (508) 794-4488
+

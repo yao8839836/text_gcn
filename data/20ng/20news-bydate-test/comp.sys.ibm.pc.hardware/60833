@@ -1,0 +1,15 @@
+From: mcook@cs.ulowell.edu (Michael Cook)
+Subject: CMOS Checksum error
+Organization: UMass-Lowell Computer Science
+Lines: 10
+
+Recently, I have been getting a CMOS Checksum error when I first turn on my
+computer.  It doesn't happen everytime I turn it on, nor can I predict when it
+is going to happen.  I have an AMI BIOS and all of the setting are lost, for
+example the drive types and the password options.  However, the date and time
+remain correct.  If anyone knows what can be causing this, please let me know.
+
+Thank you,
+Mike
+
+

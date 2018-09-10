@@ -1,0 +1,29 @@
+From: Graham Toal <gtoal@gtoal.com>
+Subject: Re: Let's build software cryptophones for over the internet...
+Originator: gtoal@pizzabox.demon.co.uk
+Nntp-Posting-Host: pizzabox.demon.co.uk
+Reply-To: Graham Toal <gtoal@gtoal.com>
+Organization: Cuddlehogs Anonymous
+Lines: 21
+
+In article <1regq0INNn7u@gap.caltech.edu> hal@cco.caltech.edu (Hal Finney) writes:
+:I tried this code yesterday.  On my Sparcstation ELC it takes over
+:300 seconds to compress 22 seconds' worth of speech.  This means that it
+:needs to be "optimized" by over a factor of 10 before it will be usable
+:in even a half-duplex mode.
+
+Ouch!  Thanks for trying it.
+
+:I question whether CELP is the best approach for this application.  It produces
+:great compression but at the expense of tremendous CPU loads.  We want
+:something that can be run on ordinary workstations or even high-end PC's
+:without DSP cards.  My guess is that some other algorithm is going to be
+:a better starting point.
+
+Yes.  I'm not sure if my xposting to comp.speech made it to here too, but
+I've found that a low sample rate (3300 samples/sec at 8 bits per sample)
+plus the pd 'shorten' lossless sound compression code actually does get
+speech into 14.4K with a simdgen left over.  This is *definitely* worth
+working on, folks.  And shorten works in well under real-time.
+
+G

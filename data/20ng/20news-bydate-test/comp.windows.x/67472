@@ -1,0 +1,26 @@
+From: adrian@ora.COM (Adrian Nye)
+Subject: Re: Keyboard mapping and window placement questions
+Reply-To: adrian@ora.com
+Organization: O'Reilly and Associates, Inc.
+Lines: 18
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert@expo.lcs.mit.edu
+
+
+> If I use Xt, all 
+> O'Reilly has to say is '...is automatically handled by Xt...'.  If I use Xlib, ala XNextEvent(), I get nothing.  This all stems from problems with users of 
+> the Sun 4/5 keyboard and the NumLock; plus various Alt/Meta/etc. modifier 
+> requirements.
+
+That's not all it says.  The coverage of modifiers is in Chapter 8
+of Volume Four (or chap 7 in older Athena editions), where there is about 
+10 pages on how to specify translations to capture
+various combinations of keys or buttons.
+
+The Xlib route uses XLookupString and there is a lot of coverage
+of how that works in Volume One,  chapter 9.  You should read this
+to understand how all the mappings work before trying to do anything
+complicated.
+
+Adrian Nye
+O'Reilly and Associates

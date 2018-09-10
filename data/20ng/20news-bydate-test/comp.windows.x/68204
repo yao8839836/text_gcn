@@ -1,0 +1,103 @@
+From: duggan@ecs.umass.edu
+Subject: Creating Your own ColorMap, i.e. Lookup Table in X11 R4
+Lines: 99
+
+Hello,
+
+Below I have the copy of some source I am using to setup a user-specified color-
+map for X R11 V4. I am attempting to create user defined colors in terms of
+RGB color ranges. The calls to XAllocColor prove ineffective. 
+
+Variables are defined are as follows:
+
+    int                 i, j, k, lut_index
+    color_type          min_image, max_image;
+    color_type          image Pixel_Value_Range, last_image, start, end, jump,
+                        lut [ 512 ];
+    unsigned long       pixel;
+    double              red, green, blue;
+
+/*
+ * Data structure used by color operations
+ *
+typedef struct {
+        unsigned long pixel;
+        unsigned short red, green, blue;
+        char flags;  /-* do_red, do_green, do_blue *-/
+        char pad;
+} XColor;
+***************/
+    XColor              rgbcolor, hardwarecolor;
+
+
+With color_type defined as { double red, double green, double blue }.
+
+What I need to know is how to set [is it possible] the values in hardwarecolor
+to work within the call to XAllocColor:
+
+    start.red = (int) 255 * min_image.red;	/* 0..255 */
+    end.red   = (int) 255 * max_image.red;	/* 0..255 */
+    jump.red  = (int) (( end.red - start.red ) / 7);
+
+    start.green = (int) 255 * min_image.green;  /* 0..255 */
+    end.green   = (int) 255 * max_image.green;  /* 0..255 */
+    jump.green  = (int) (( end.green - start.green ) / 7);
+
+    start.blue = (int) 255 * min_image.blue;    /* 0..255 */
+    end.blue   = (int) 255 * max_image.blue;    /* 0..255 */
+    jump.blue  = (int) (( end.blue - start.blue ) / 7);
+
+    lut_index = 0;
+    for (i=0; i<8; i++)
+        for (j=0; j<8; j++)
+            for (k=0; k<8; k++)
+                {
+                if ( i == 0 || jump.red < 1 )
+                    lut [ lut_index ].red = start.red;
+                else
+                    lut [ lut_index ].red = jump.red * i - 1;
+
+                if ( j == 0 || jump.green < 1 )
+                    lut [ lut_index ].green = start.green;
+                else
+                    lut [ lut_index ].green = jump.green * j - 1;
+
+                if ( k == 0 || jump.blue < 1 )
+                    lut [ lut_index ].blue = start.blue;
+                else
+                    lut [ lut_index ].blue = jump.blue* k - 1;
+
+                hardwarecolor.red   = (short) lut [ lut_index ].red;
+                hardwarecolor.green = (short) lut [ lut_index ].green;
+                hardwarecolor.blue  = (short) lut [ lut_index ].blue;
+                hardwarecolor.pixel = lut_index;
+
+printf("HW1: i = %d :  %d %d %d: pixel = %d \n", lut_index, hardwarecolor.red,
+                hardwarecolor.green, hardwarecolor.blue, hardwarecolor.pixel );
+
+                status = XAllocColor ( dpy, colormap, &hardwarecolor );
+printf("HW2: i = %d: %d %d %d: pixel = %d \n", lut_index, hardwarecolor.red,
+                hardwarecolor.green, hardwarecolor.blue, hardwarecolor.pixel );
+                if ( status != 0 )
+                    {
+                    XSetForeground ( dpy, gc, hardwarecolor.pixel );
+                    XFillRectangle ( dpy, win, gc, 1, 1, MAXCOLUMN, MAXROW );
+                    XFlush ( dpy );
+                    sleep (10);
+                printf("%d: %f %f %f at %d \n", lut_index, lut [ lut_index ].re
+                            lut [ lut_index ].green, lut [ lut_index ].blue,
+                            hardwarecolor.pixel );
+                    }
+                lut_index = lut_index + 1;
+                }
+
+Thanks in advance to anyone who can help me with this problem.
+
+Sincerely,
+
+	John F. Duggan
+
+----------------------------------------------------------------------------
+John F. Duggan                               alias    :Genghis Khan
+Engineering Computer Services,               internet : DUGGAN@ecs.umass.edu  
+Univ. of Massachusetts, Amherst, MA 01003    Bitnet     : DUGGAN@umaecs

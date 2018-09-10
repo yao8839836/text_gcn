@@ -1,0 +1,26 @@
+From: Mike Tancsa <mdtancsa@watarts.uwaterloo.ca>
+Subject: Windows and ATI Ultra (mach8 chip)sizing question
+Content-Type: text/plain; charset=US-ASCII
+Originator: mdtancsa@watarts.uwaterloo.ca
+Content-Transfer-Encoding: 7bit
+Organization: University of Waterloo
+Mime-Version: 1.0
+X-Mailer: ELM [version 2.4 PL21]
+Content-Length: 489       
+Lines: 15
+
+
+
+I have just upgraded from a Trident TVGA9000 to an ATI Graphics Ultra (the
+old mach8 chip).  I am quite pleased with the performance so far, but have
+one problem.  When using windows in 800x600, I have noticed that the 
+tile bars and scroll bars are significantly larger than they were when I
+was using the Trident card.  Is there a setting in my .ini files that I can
+change to make these smaller ?  I could not find the FAQ for this list...
+
+		--Mike
+
+MDTANCSA@WATARTS.UWATERLOO.CA
+
+
+

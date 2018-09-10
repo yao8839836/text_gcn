@@ -1,0 +1,57 @@
+From: Jim_Johnson@abcd.houghton.mi.us (Jim Johnson)
+Subject: CPU Fans33
+Organization: Amiga BitSwap Central Dispatch
+Lines: 52
+
+
+N(P>Just got a 66MHz 486DX2 system, and am considering getting a fan for the
+N(P>CPU. The processor when running is too hot to touch so I think this is a
+N(P>fairly good idea. (long ago when I did some electronics training I read
+N(P>somewhere that the regions within a chip that define junctions/gates etc
+N(P>slowly diffuse over time and this increases with temperature, hence a hot
+N(P>chip goes off-spec sooner)
+
+N(P>Has anyone out there got a CPU fan??
+
+I work for a small PC OEM. We offer both a personal and professional
+system line. Our 486 pro machines always have a CPU cooling fan on DX2
+and DX-50 units.
+
+N(P>Is there more than 1 type?
+
+There are several manufacturers.
+
+N(P>Do you have to remove the CPU from its scoket to install the fan?
+
+Sometimes - depends on the specific fan model.
+
+N(P>Do all CPU fans derive their power from spare drive power lines?
+
+All the ones I've seen do; many come with a 'Y' connector, so you don't
+have to have a "spare" connector.
+
+N(P>Anyone had any trouble with CPU fans?
+
+None.
+
+N(P>Does anyone have any evidence that CPU fans are a complete waste of
+money?
+
+Touch a 486DX-50 chip after its been running a few minutes - you won't
+feel the fan is a waste!
+
+N(P>How are these fans attached? (glue? clips? melted cheese?)
+
+Depends on the model. Many use clips - make sure you use heat sink
+grease, or heat transfering tape, or you will have wasted your money.
+
+N(P>Roughly how much cooler will the CPU be with a fan as opposed to
+without? (an advert I've read claims 85F vs 185F)
+
+Tough to tell - I do know the chip sheds a lot of heat.
+
+
+ * SLMR 2.1a * Murphy was an optimist - Is your data backed up?
+
+
+-- Via DlgQWK v0.71a

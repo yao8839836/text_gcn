@@ -1,0 +1,23 @@
+From: mokler@desert.in-berlin.de (Claudius Mokler)
+Subject: Re: True Type or ATM?
+Organization: Private Site
+Lines: 18
+
+Seen from a typographically point of view, ATM using PostScript fonts
+is better than TrueType; the hinting mechanism incorporated in PS is
+gorgeous.
+Multilingual users may see the limit of possible different characters in
+a PS font as problematically; they may have better use of the Unicode
+features of TT fonts (in Windows NT).
+
+I've seen *lots* of really beautiful and printable-in-small-size PS fonts;
+I haven't seen those as TT fonts. Most of them are rendering quite
+inaccurate (in small sizes, esp. as screen fonts).
+Simply compare TimesNewRoman as a PS font with the TT font; the first
+looks better.
+
+I am hoping that there will be ATM/NT ! 
+-- 
+Claudius Mokler
+e-mail mokler@desert.in-berlin.de
+

@@ -1,0 +1,30 @@
+From: gt3635a@prism.gatech.EDU (Greg 'Spike' Bishop)
+Subject: Need an ESDI HDD (for posessed system).
+Distribution: usa
+Organization: National Association for the Free Exchange of Information
+Lines: 24
+
+
+AHHHUUURRRRGGGGHHHH!!!!!   Spinrite says: 80 sectors marked bad in the FAT
+initially, 79 returned to active use, 80 new sectors marked bad, following
+successive runs of spinrite.
+
+I think I need a new ESDI HDD controller.
+
+I know that these two will work:
+DTC 6280
+Adaptec 2322B
+
+Others that MIGHT work:
+DTC 6282
+Ultra Store 12
+WD 1007V
+
+If you own one and will sell it cheaply I'll buy it.
+
+Thanks,
+
+-Greg Bishop
+gt3635a@hydra.gatech.edu
+-- 
+GT: "Designing tommorow the night before with yesterday's technology."

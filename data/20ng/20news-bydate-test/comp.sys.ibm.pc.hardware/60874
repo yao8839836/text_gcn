@@ -1,0 +1,8 @@
+From: kaw@slc1.UUCP (Kwame Workman)
+Subject: Re: WinCIM at 9600 baud
+Reply-To: kaw@slc1.UUCP (KA Workman)
+Organization: Aeronautical Radio, Inc., Annapolis
+Lines: 2
+
+I've had similar problems downloading using WinCIM, I discovered that if I
+disabled data compression on my modem, it works fine.

@@ -1,0 +1,78 @@
+From: "Jon C. R. Bennett" <jb7m+@andrew.cmu.edu>
+Subject: Re: Ideas on Clipper
+Organization: Robotics Institute, Carnegie Mellon, Pittsburgh, PA
+Lines: 71
+NNTP-Posting-Host: andrew.cmu.edu
+In-Reply-To: <9304222254.AA09097@mycroft.rand.org>
+
+Jim Gillogly <jim@mycroft.rand.org> writes:
+> In article <0fpiZBG00WC70qOKYw@andrew.cmu.edu> you write:
+> >suppose i knew how the algorithm worked and knew the N for my chip, but
+> >did not know F, then by cryptanalysis i might be able to determine F from
+> >if law enforcement field 
+> >   E[E[K; U] + N; F]
+> >not knowing N would might make this much harder.
+> 
+> They're betting that you can't do this, even if you know N.  Even if you
+> know E, in fact, which they're trying to keep secret.  If you can find E
+> by grinding down the chip, presumably you can find F as well.  But we can't
+> do this right now with DES, even knowing the encryption method without
+> doing almost the whole 56-bit search.
+
+That is not true, with chosen plaintext attacks DES keys can be determined
+without the full search.
+
+> 
+> >Now suppose that I know F, (either legitimately or not),
+> >If I know K (either because I am involved in the conversation, or I know U
+> >for a party in the conversation), I may now be able to determine U for the
+> >other party.
+> 
+> Again, they're betting that you can't find U given K -- i.e. they claim the
+> encryption is strong.  (Trust us...)
+
+I am not willing to take that bet.
+
+> >If I know F I can also defeat the law enforcement field, since I could
+> >make my own, with a different K then the one I am using. Knowing F also
+> >allows traffic analysis to be performed. So I might not know what you are
+> >saying but I could know who you are saying it too.
+> 
+> I'm not sure there'll be a way to shove arbitrary key and data through your
+> chip, but if so, this part's OK.  (We're assuming E is unknown.)
+
+You can obviously shove arbitrary data through your chip......
+As for the key, it is stated that the sesion key exchange is external to
+the chip, so I can pick my keys too.
+
+> >Now I admit that someone trying to compute U will not have lots of
+> >messages to work from, but since we have no way of knowing that the key
+> >generation method does not (deliberately?) generate weak keys, or for that
+> >matter that the published method is in fact used, perhaps the U's will be
+> >chosen from know weak keys for the system.
+> 
+> They assume that you won't be able to find U no matter how many messages
+> you have.  If <they> could break U, they wouldn't need the key escrow.
+
+BING BING BING BING BING, THAT EXACTLY MY POINT, SINCE WE CANT KNOW THAT
+THEY DO NOT HAVE THIS CAPABILITY, THE ONLY SAFE ASSUMPTION IS THAT THEY
+DO... i admit that most of my cryptographic complaints are probably
+unfounded, but since we cant know one way or the other, im not gonig to
+take their word for it....
+
+> >Obviously the compromise of F would be a disaster, both to law enforcement
+> >for whom this whole thing is designed, and for the people who believe that
+> >it is giving them security. F is but one number, and I sure that alot of
+> >people (more then 1) know what it is (and if some "panel of experts" is
+> >going to check it over for flaws then many more will know F, forget
+> >grinding chips, bribery and blackmail work just fine.
+> 
+> It's not clear that the "experts" will be told F.  In fact, I'd be surprised.
+> I'd expect something more of the form of the FIPS pub describing DES, so that
+> they could look at the algorithm in general, rather than with the specific
+> set of keys chosen.
+
+Oh come on, thats like saying you could evaluate DES without the S-box
+constants.....
+
+jon

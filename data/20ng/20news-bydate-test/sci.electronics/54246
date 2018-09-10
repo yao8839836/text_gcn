@@ -1,0 +1,32 @@
+From: bomr@erich.triumf.ca (Rod Nussbaumer)
+Subject: Re: multiple inputs for PC
+Organization: TRIUMF: Tri-University Meson Facility
+Lines: 24
+Distribution: world
+NNTP-Posting-Host: erich.triumf.ca
+News-Software: VAX/VMS VNEWS 1.41    
+
+In article <93114.142835U19250@uicvm.uic.edu>, <U19250@uicvm.uic.edu> writes...
+>Can anyone offer a suggestion on a problem I am having?
+>I have several boards whose sole purpose is to decode DTMF tones and send
+>the resultant in ASCII to a PC.  These boards run on the serial interface.
+>I need to run * of the boards somwehat simultaneously.  I need to be able to ho
+>ok them up to a PC>  The problem is, how do I hook up 8+ serial devices to one
+>PC inexpensivley, so that all can send data simulataneously (or close to it)?
+>Any help would be greatly appreciated!
+>Abhin Singla
+If you can modify the design of the DTMF decoder, the ideal comunications
+would be over a multi-drop system, like RS-485.  RS-485 boards are available
+for PC's, probably cheaper than a bunch of RS-232 channels, and RS-485 is
+cheaper to build onto your satellite modules, using only a single supply
+8-pin DIP driver chip.  Software at the PC end would be similarly complex
+for either RS-232 or RS-485, in my opinion.  The higher data rates possible
+with RS-485 would permit quasi-simultaneous data transmission.
+Hope this helps.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Rod Nussbaumer, Programmer/Technologist       Bitnet: BOMR@TRIUMFER
+  TRIUMF --- University of British Columbia,  Internet: bomr@erich.triumf.ca
+  Vancouver, BC, Canada.                         Phone: (604)222-1047 ext 510
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

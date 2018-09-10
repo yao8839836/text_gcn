@@ -1,0 +1,79 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: SCSI or IDE: The Bottom Line
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 73
+
+
+In article <1993Apr22.192408.2272@msc.cornell.edu>, Randy Ellingson writes:
+> Which would YOU choose, and why?
+
+I have both!
+
+I have IDE only on my DROS box and IDE and SCSI on my Unix box.
+
+IDE on the DROS box 'cos it only has a hard disk, SCSI on my Unix box 'cos it
+has a SCSI hard disk, CD-ROM and tape.
+
+I bought SCSI as it makes adding many devices easier. For the price of one
+irq and dma I have three different types of device connected up.
+
+Faster drives are also available for SCSI - I have a DEC DSP3085s that realy
+does have a 9ms average seek time. I.E it finds data 25% faster than my 12ms
+Toshiba drive.
+
+> 
+> Like lots of people, I'd really like to increase my data transfer rate from
+> the hard drive.  Right now I have a 15ms 210Mb IDE drive (Seagate 1239A), and
+> a standard IDE controller card on my ISA 486-50.
+
+I don't think that SCSI will increase your data transfer much on an ISA bus :-(
+
+> 
+> I'm currently thinking about adding another HD, in the 300Mb to 500Mb range.
+> And I'm thinking hard about buying a SCSI drive (SCSI for the future benefit).
+> I believe I'm getting something like 890Kb/sec transfer right now (according
+> to NU).
+
+890KB/s is pretty good...
+
+> 
+> How would this number compare if I bought the state-of-the-art SCSI card for
+> my ISA PC, and the state-of-the-art SCSI hard drive (the best system I could
+> hope for)?
+
+Many state of the art SCSI disks use the *SAME* mechanicals as many state of the
+art IDE drives. Only the interface electronis differ - look at the 520MB Fijitsu
+drive for an example!
+
+> 
+> Obviously money factors into this choice as well as any other, but what would
+> YOU want to use on your ISA system? And how much would it cost?
+
+I use an Adaptec 1542B on my Unix box and no-name IDE cards on both.
+
+> 
+> Along those lines, what kind of transfer rate could I see with my IDE HD's if I
+> were to buy the top-of-the-line IDE caching controller for my 200Mb, 15ms HD?
+> And how much would it cost?
+
+Caching controller! Why? What does it give you that smartdrive ( for DOS ) does 
+not? About 30KB extra lower memory! That's about it.
+
+A properly configured main memory cache will produce better results than a caching
+controller! My Unix reads reads data from its main memory cache at 8.5MB/s! That's
+faster than the standards ISA bus can ever sustain!
+
+
+> 
+> Thanks for any comments.
+> 
+> Randy
+>   
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

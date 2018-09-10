@@ -1,0 +1,14 @@
+From: hubich@mercury.cs.uregina.ca (Chad D. Hubich)
+Subject: Asynchronous Receiver Recommendations?
+Organization: University of Regina, SK, Canada
+Lines: 9
+
+
+I am looking for a suitable UART for a project.  What I require 
+is a stand alone device (i.e. not cpu controlled) which will 
+receive 1200 baud RS232.  Also a nice extra would be a received 
+data buffer.  Please reply with any info you have.
+
+Thanks,
+--
+Chad D. Hubich		University of Regina	Dept. of Computer Science

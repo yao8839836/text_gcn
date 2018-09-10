@@ -1,0 +1,30 @@
+From: steve-b@access.digex.com (Steve Brinich)
+Subject: How To Escrow, If Escrowing Were OK
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 24
+NNTP-Posting-Host: access.digex.net
+
+  There is a description of something called a "fair crypto system" in the
+May 1993 issue of BYTE, p. 134, attributed to MIT professor Silvio Micali.
+
+  The way it works is as follows:
+
+  You generate your private key S, and break it up into pieces s1, s2, s3,
+s4, and s5, such that (s1 + s2 + ... + s5) mod p = S.
+  You give each piece s1, s2, etc. to a different escrow agency.
+  The agencies each compute g^sn mod p, and forward the result to the public
+key telephone book keeper.
+  The public key telephone book keeper multiplies all the g^sn mod p, reduces
+the result to mod p, and this will be the user's public key.
+
+  Now, if there were several hundered recognized escrow agencies, and the user
+could give a piece of the key to each of the ones he trusted, the result would
+be something of an improvement over the proposed Clipper system.
+
+  I still don't think key escrow is a good idea, for both philosophical and
+security reasons, but I do offer this suggestion simply to determine whether
+escrow advocates are at all interested in considering alternatives in good
+faith, or whether the goal is to insure the use of only two agencies selected
+for spinelessness in the face of official requests.
+
+

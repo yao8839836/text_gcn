@@ -1,0 +1,54 @@
+From: doug@foxtrot.ccmrc.ucsb.edu (Douglas Scott)
+Subject: Help with porting screensaver function
+Organization: Center for Computer Music Research and Composition, U.C.S.B.
+Lines: 49
+
+This is a question aimed at those who have done some server code hacking:
+
+
+
+I am attempting to add a working SaveScreen function to a new
+server.  I have been able to get the screen to blank out properly, and through
+debugging I can see that my savescreen function is being called with on=0,
+which (for some arcane reason) means to blank the screen.
+
+My problem is that this function is never being called again with on=1, even
+after I have moved the mouse and/or typed some keys.  My question is:  what am
+I likely to be missing that would cause this problem?  I copied the basic
+design of my function from the existing versions:
+
+static Bool next_savescreen(scr,on)
+ScreenPtr scr;
+Bool on;
+{
+
+  /* this was copied from the omron server code -- is it the right way? */
+  if (on != SCREEN_SAVER_ON) {
+		nextSetLastEventTime();
+  }
+
+  if (on == SCREEN_SAVER_ON) { /* Save user's current setting */
+		next_save_screen_brightness = NXScreenBrightness(my_eventhandle);
+		NXSetScreenBrightness( my_eventhandle, 0.0); /* Blank the screen */
+  }
+  else {											 /* Unblank the screen */
+		NXSetScreenBrightness( my_eventhandle, next_save_screen_brightness);
+  }
+
+  return TRUE;
+}
+
+I can see in the server/os code where the screensaver is called to turn on the
+saver, but I cannot find where it "wakes up" the server and unblanks the
+screen.
+
+Any tips/help would be appreciated.
+
+Thanks.
+
+
+-- 
+Douglas Scott                              (805)893-8352
+Center for Computer Music Research and Composition
+University of California, Santa Barbara
+Internet: (NeXTMail ok)   <doug@foxtrot.ccmrc.ucsb.edu>

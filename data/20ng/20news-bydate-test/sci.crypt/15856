@@ -1,0 +1,102 @@
+From: mgr@anhep3.hep.anl.gov (Dr. mike)
+Subject: clipper/freedom/comments
+News-Software: VAX/VMS VNEWS 1.3-4   
+Reply-To: mgr@anhep3.hep.anl.gov
+Organization: Argonne National Laboratory
+Distribution:  world
+Lines: 94
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Gasp!
+
+I've just spent 3 hours catching up on sci.crypt here (slow reader I
+guess) and I really have to put out a few comments too.  First, let me
+flame the famous Dave S. : He's obviously only 10 years old.  Cut him
+some slack. :^}
+
+The joke about Clinton/crypto/drugs slammed me thru the roof.  Nice job
+guys!  I've been working on marijuana legalization for over 5 years
+now, Clinton's actions so far have really helped.  But because of
+government action taken against various other groups, I have developed
+a 64 bit DES based on public literature to protect my mailing list.
+The S-boxes are the critical component, and since I chose 32 out of 57
+based on the key, cracking this DES is going to tough.  (The reason it
+slows you down a touch is that for each key you try you need to use a
+different set of s-boxes, I know it's only a vector, but it sure makes
+random search a pain).  Several marijuana legalization groups have had
+their mailing lists confiscated when people were charged with drug
+use/sales.  It's not a crime to be a member of a legalization org,
+*but* you will be watched.
+
+It really is important to write a letter to every official you
+personally vote for to explain *why* your privacy is being destroyed by
+the "cripple chip".  Amazingly enough they do listen when they get
+*enough* mail.  The Doonsbery jokes about NRA postcards are real, and
+the IMI (Illinois Marijuana Initiative) has grown to the point where we
+*are* seeing some changes.
+
+It's pretty clear that all the hullabaloo is really about the
+implimentation decision being made behind our backs.  As Vesselin
+points out, this was common practice in communist regimes (and may be
+again depending on how the vote goes).  But just as criminals have guns
+and "law abiding" citizens don't, and criminals like me have marijuana
+and "law abiding" subjects don't, criminals like me will have secure
+crypto while "law abiding" robots don't.  PGP is nice, but as time goes
+on we all can do better.  And to save our hides we will.
+
+Someone posted an excerpt from Machiavelli.  He's my favorite dude.
+500 years ago he saw clearly how people *are*, and tried to explain
+that to "princes" who wanted people to *obey*.  One section not quoted
+(I've got "The Prince" at home, so I'll just paraphrase :) ) had to do
+with conquring a free city.  The only way is to *completly destroy*
+it.  Failing that, you must appoint locals to high positions and accept
+the people's customs.  Even after 100 years of oppression, a people
+will remember their heratige and rise up to overthrow the oppresive
+government.  And he gave an example.  And that was 300 years *before*
+Thomas Jefferson.
+
+There were questions about watching traffic.  Only *interesting* traffic
+is watched: stuff that goes overseas and comes back; stuff with keywords
+like marijauana, cryptography, NSA;  certain individuals who are known
+subversives, etc.  It is easy enough to store all that traffic.  So if
+you know how to be *subversive* i.e. how to be unseen, it's pretty easy
+to go unnoticed for a long time.  The stronger your crypto system and the
+less you're noticed, the better your chances of developing an organization
+which can diseminate truth to the masses.
+
+Which gets me to the thread about a "public encrypted conference".
+That's just silly.  The first thing the feds do is send in an
+infiltrator (like Dave S.) and they know what you're doing.  It will be
+fun for teenagers and college students, but for the real world it's
+pretty pointless.  Crypto is useful for more things than hiding where
+you get your marijuana.
+
+Guns, drugs and crypto do have some commonality: there are people in
+government who want you to *obey* their rules.  As Lundquist says in
+alt.drugs "Live free or don't".  Machiavelli pointed out that's just
+how most people actually live, inspite of appearences to the contrary.
+It's true that the decision to shove the clipper (not the same thing as
+Intergraph's!!!) down our throats violates the principles of what the
+U.S. was founded on, but the government is full of idiotic robots
+called bureaucrats and there's less to worry about than one might
+think.  Only really innocent (read naive) subjects of the U.S. will be
+hurt by this, the rest of us *criminals* will live in secure freedom.
+de Toqueville pointed out 150+ years ago that the tyranny of the
+majority will be mitigated by the mediocrity of the government.
+
+And given what I see government officials doing where I work (Argonne
+National Lab.) the level of stupidity makes Dave S. look smart.
+
+Patience, persistence, truth,		work: dvader@hemp-imi.hep.anl.gov
+Dr. mike				home: mrosing@igc.org
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.2
+
+iQBVAgUBK9hETK3mm/E84rLHAQFV+gH9ExvzfXbNR4x0BTg2nQIxB5/ZMaxT289B
+G4QjTsv8mszMrzU1DcJ8eLIQ37BwX53jATBH9U4B/biqmGKiPzHCmA==
+=S3hf
+-----END PGP SIGNATURE-----
+

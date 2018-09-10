@@ -1,0 +1,33 @@
+From: wbarnes@sura.net (Bill Barnes)
+Subject: Re: (Q) SCSI&IDE (i.e. 2 or more hard drives)
+Organization: SURAnet, College Park, MD, USA, NA, Earth, Milky Way
+Lines: 27
+NNTP-Posting-Host: azathoth.sura.net
+
+In article <1993Apr19.220704.18518@news.cs.brandeis.edu> luoma@binah.cc.brandeis.
+edu writes:
+>Has anyone (successfully) put both SCSI and IDE hard drives
+>on the same system?
+
+I would like to know as well, since I just bought a 200MB Seagate IDE
+drive and want to add it to my computer (a four-year-old Gateway
+386/20), which currently has an 80MB Seagate SCSI drive.  The SCSI
+controller is such that the docs told me not to specify it in the CMOS
+setup, i.e. both hard drive settings are listed as "Not installed,"
+and apparently the SCSI controller works its wonders.  I wondering if
+this is a problem.  Also, I remember how, when I helped my cousin
+install his second IDE drive, we had to define a master/slave
+relationship for them; do I need to do something similar here?
+
+>I am particularly interested in having the SCSI as the _boot_ drive.
+
+Same here.
+
+Any help would be appreciated, since I intend to install this drive
+ASAP; I'd like to know what to do (and what not to do) before I start.
+Thanks!
+-- 
+-----------------------
+William Barnes		SURAnet Operations
+wbarnes@sura.net	(301) 982-4600 voice  (301) 982-4605 fax
+Disclaimer:  I don't speak for SURAnet and they don't speak for me.

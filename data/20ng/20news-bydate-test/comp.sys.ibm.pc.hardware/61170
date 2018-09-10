@@ -1,0 +1,38 @@
+From: rnichols@cbnewsg.cb.att.com (robert.k.nichols)
+Subject: Re: COM4 card shows up as COM3 with COM4's address and IRQ!
+Keywords: COM port GURUS, HELP!
+Organization: AT&T
+Distribution: usa
+Lines: 31
+
+In article <C5x2FE.CIE@genesis.nred.ma.us> avinash@genesis.nred.ma.us writes:
+>I have an internal modem that I configure as COM4 with IRQ 3, but
+>when I insert that card into my DOS 5.02 PC, it shows up
+>as COM3, with IRQ3 and COM4's address (2E8)!
+>
+>When I get into debug, and dump the data at 40:0, it shows
+>the address 2E8 as belonging to COM3 - even though the modem
+>should be at COM4.
+...
+
+This is a common misconception, shared my many manufacturers, programmers,
+and users alike.  COM3, for example, is simply the third equipped COMM
+port, not necessarily the one with I/O address 3E8.  The BIOS just
+searches sequentially through a set of potential COMM port addresses.  The
+first equipped port it finds will become COM1, etc.  If you're playing by
+the rules, you can't have a COM4 unless you have a COM3 equipped.  The set
+of "standard" (whatever that means) port addresses merely reflects the
+order in which the BIOS searches the I/O address space in its search for
+serial ports.
+
+So, what you have is indeed COM3 at the non-standard address 2E8.  Were
+this address in the 4th table slot instead, programs which query the BIOS
+to determine the number of installed COMM ports would not find it, as the
+field in the BIOS data area which contains this number would indicate that
+there are but 3 COMM ports installed.  (Frankly, I don't know of a simgle
+program that would actually have a problem with this.)
+
+--
+Bob Nichols
+AT&T Bell Laboratories
+rnichols@ihlpm.ih.att.com

@@ -1,0 +1,39 @@
+From: tlau@cs.ubc.ca (Tony Lau)
+Subject: 3-D widget wish list?
+Organization: University of British Columbia, Vancouver, B.C., Canada
+Lines: 31
+Distribution: world
+NNTP-Posting-Host: cascade.cs.ubc.ca
+Keywords: 3-D widget, manipulation, feedback, user interface design system
+
+I am very interested in hearing from all of you who are using or implementing
+3-D interactive applications what types of 3-D widgets you would
+like to have in your applications.  
+
+A 3-D widget is usually located in the same scene as other 3-D objects of the 
+application.  It may let you
+
+- manipulate application data, the camera,
+  3-D objects in the scene and so on, or
+- view the status of the application or 3-D objects
+  via the widget's shape, color, position, orientation and so on, or
+- do whatever I missed but you think is possible.
+
+For example, a manipulative widget can be virtual trackball (shown as a
+partially transparent sphere) super-imposed on the object to be rotated.
+A feedback widget can be a ruler with ends anchored to 2 objects.  The length
+of the ruler changes as the objects move and a numeric value is shown on the
+ruler indicating the distance.  A widget can provide both manipulation and
+feedback.  For example, the ruler can be used to change the distance between
+the objects along its own axis.
+
+
+Please e-mail me or post your opinions on 3-D interaction.  The information
+I gathered will help me design a 3-D UI construction tool.
+Your help is very much appreciated.
+
+Tony Lau
+<tlau@cs.ubc.ca>
+M.Sc. Student
+Dept. of Computer Science
+

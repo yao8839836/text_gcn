@@ -1,0 +1,34 @@
+From: mcarr@austin.onu.edu (Michael Carr (x1723))
+Subject: Digital->AC Scaling
+Organization: Ohio Northern University
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 28
+
+
+	Being in the "visualization" stage of a circuit design right now,
+I was wondering what the best way to "scale" an AC voltage using an 8-bit
+digital word is. I am thinking of using the common method of sending the
+word through an ADC and then comparing it with the AC voltage (converted
+to a sawtooth wave) to get a duty cycle. However, I am leary of this
+method because it a) requires a lot of parts, and, more importantly, b)
+creates a lot of interference from the switching on the entire AC line. I
+realize that correct filtering could cancel out most of this interference,
+but that would require more parts and boost the price further.
+	Someone mentioned to me that they had seen an IC which input 8
+bits of data and DIRECTLY scaled the AC voltage coming in all on-chip.
+Unfortunately, he couldn't remember the chip number or the manufacturer;
+if anyone else has heard of this chip, please e-mail me.
+	I am building this project as a "dimmer box" for a light
+controller circuit and it is important that the cost of each box remains
+very low because one dimmer is required for each light that the user
+wishes to control (well, each channel, at least). Therefor, if each box
+costs $150, I doubt that an end user will want to dish out ($150 x 16 =
+$2400) for sixteen channels... This is something I have noticed about
+today's dimmer boxes; they are so expensive!
+	Anyway, any help which someone could offer on either a method of
+easily doing this or info about the chip which will do it for me (always
+the preferred method... :) will be greatly appreciated!
+
+	Michael Carr
+	m-carr@onu.edu
+

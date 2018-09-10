@@ -1,0 +1,7 @@
+A target feedback device for ventilatory muscle training.
+ In a previous study, we successfully used a target feedback device, together with an external resistor, to train the ventilatory muscles of patients with chronic obstructive pulmonary disease.
+ In this article, we describe the details of the design and function of the target feedback device.
+ When used in conjunction with an external resistance, the target feedback device provides timing and pressure targets, together with feedback information, on whether these targets are achieved.
+ The target feedback device consists of readily available electronic components and is relatively simple to construct.
+ Adjustment of an external pressure knob permits setting of pressure targets.
+ Adjustment of internal components is possible and allows control of breathing frequency, inspiratory time, and breathing waveform.

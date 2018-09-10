@@ -1,0 +1,34 @@
+From: tfiske@qualcom.qualcomm.com (T.J. Fiske)
+Subject: Re: MAC DISKS IN WINDOWS?
+Nntp-Posting-Host: qualcom.qualcomm.com
+Organization: Qualcomm, Inc., San Diego, CA
+Lines: 28
+
+>You're right.
+
+>You cannot read or write a Mac or Apple II 800K 3.5" disk or Apple II
+>5.25" disk without extra hardware. However, Mac 1.44MB disks can be read
+>and written in a PC 3.5" HD drive with software only. 
+
+>This should probably be added to every PC and Mac FAQ file. It sure gets
+>asked enough.
+
+I agree that this should be added to some sort of FAQ list.  But we have
+strayed from the original topic.  Our computer environment is pretty split
+between Mac's and PC's... I am lucky and get to have both on my desk.  But
+there are people who have PC's and need to share data with the Mac users
+here.  The MAC users have no problems because of package called DOS Mounter
+which AUTOMATICALLy lets the MAC read DOS disks natively.  For the PC there
+is no equivilant... that I know of!  Both mac-ette and macsee have been 
+inconsistant under the dos platform, and requires you to perform the activity
+in a DOS program to selectively transport the files.
+
+The question originally posed was if there is such a program that hooks into
+windows like a .DLL that will interpret the reading of a MAC disk when it is 
+in a PC, and allow access to it through the standard file dialogs.  It is quite
+clear that this would only be available for the 1.44MB flopies.
+
+
+-- T.J. Fiske
+
+tfiske@qualcomm.com

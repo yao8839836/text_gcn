@@ -1,0 +1,29 @@
+From: rick@cs.sunysb.edu (Richard Spanbauer)
+Subject: Re: Luser!
+Organization: State University of New York, Stony Brook
+Lines: 23
+NNTP-Posting-Host: sbrick.cs.sunysb.edu
+
+In article <1993Apr23.205257.10578@sol.ctr.columbia.edu> seema@madvlsi.columbia.edu (Seema Varma) writes:
+>Hi,
+>	I am looking for a very high speed 
+>D/A converter (at least 8bits and 150MHz) for
+>a research application. A paper in  the January
+>issue of IEEE Solid-State Circuits mentions a 
+>GaAs, 1GHz, 8bit DAC - anyone know where I can find
+>such a thing? Even a somewhat slower Si DAC would
+>do.
+>	Needless to say, I have looked in all the
+>conventional places (Vitesse, Motorola, National,
+>etc. etc.). Any pointers would be appreciated.
+
+	Think video.  Brooktree sells a whole line of DACs that can
+	be used, normally for graphics applications, in either 50 or
+	75 ohm systems.  For example, the BT468 can be had in speeds
+	up to about 200 mHz, BT492 to 360 mHz, and 400 mHz with the
+	BT109.  
+
+>--- Seema Varma
+
+					Rick Spanbauer, 
+					SUNY/Stony Brook

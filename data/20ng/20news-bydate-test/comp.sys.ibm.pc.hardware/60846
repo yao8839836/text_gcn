@@ -1,0 +1,35 @@
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Subject: Gateway 2000 & booting fr
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 28
+
+*** On 04-20-93  21:56, Tim King had the unmitigated gall to say this:
+
+ TK> accidentally discovered that if a have a floppy from ONE particular
+ TK> box of diskettets in the A drive when I boot up, rather than getting
+ TK> the "Non-system diskette" message, the machine hangs and the CMOS
+ TK> gets overwritten (luckily, Gateway sends a print of the standard
+
+Just a wild thought here, but how about this: there is a small boot program
+on every formatted diskette, whether or not it contains system files.  It is
+this small program that prints the "Non-System Disk" error, not DOS.  If
+this program tries to transfer control to a BIOS location that is
+nonstandard on the Gateway, then it could clear the BIOS.
+
+I don't think that the BIOS is overwritten, there is usually a small routine
+to clear the CMOS area, in case an invalid configuration prevents the
+machine from booting.  I think that the boot code on the Fuji disks may
+inadvertantly call this routine.
+
+Just a thought.
+
+... Don't hit me, Mr. Moderator... I'll go back on topic... I swear!
+--- Blue Wave/QWK v2.10
+                                                                             
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com

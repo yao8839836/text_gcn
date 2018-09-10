@@ -1,0 +1,19 @@
+From: rickt@sapphire.zed.com (Rickey Thomas Tom)
+Subject: wanted, how to do a screen dump of a VGA screen
+Organization: Project Zed
+Lines: 14
+
+	How can one dump to the printer, the content of a VGA screen. If it were
+a text screen, we can execute a shift printscr. but with graphics, we have
+to do a pixed by pixel print. It would be greatly appreciated if someone can
+supply source code for this. Alternately, are there commercial or shareware
+programs that are available to do this. I must be able to shell out of my 
+program to execute this print screen.  Therefore, it would be prefferable to have source code.
+
+Thank you in advance
+
+-- 
+--------------------------------------------------------------------------------
+Rickey Tom                       | Internet Style: aruba!rickt@uu2.psi.com
+Programmer/Analyst Project ZE    | UUCP          : ...!uunet!uupsi2!aruba!rickt
+--------------------------------------------------------------------------------

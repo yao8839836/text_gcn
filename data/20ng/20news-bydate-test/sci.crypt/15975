@@ -1,0 +1,42 @@
+From: nagle@netcom.com (John Nagle)
+Subject: Re: New Encryption Algorithm
+Keywords: NEA
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 36
+
+artmel@well.sf.ca.us (Arthur Melnick) writes:
+>     Ever since Craig Rowland posted his piece "New Encryption"
+>to sci.crypt there has been some discussion of our company,
+>Secured Communications Technologies, Inc, and on encryption
+>algorithm, NEA.
+
+       The classic comment on new encryption algorithms comes from
+Friedman:
+
+	"No new cypher is worth considering unless it comes 
+	from someone who has already broken a very hard one."
+
+Historically, Friedman has been right.  It's really hard to develop
+a good cypher.  IBM's Lucifer, the precursor to DES, turns out to have
+been fatally flawed.  Most of the DES-like systems other than DES seem
+to be vulnerable to differential cryptanalysis.  The first two tries at
+public key encryption (remember knapsack cyphers?) were broken.  Most
+if not all of the machine cyphers of the electromechanical era were
+broken eventually.  Attempts in the computer era to home-brew encryption
+have been disappointing; the classic "A survey of data insecurity packages"
+in Cryptologia contains analyses and breaking techniques for a few of the
+popular "security packages" of the late 1980s.
+
+        A new, proprietary algorithm?  No way.
+
+        If the US is permitting general export of this thing, it has
+to be weak; that's how the current regulations work.  Currently there's
+a willingness to allow systems with short keys (32 bits appears to be
+no problem; the 56 bits of DES are too many) or weak algorithms
+(I think Word Perfect qualifies under that rule) to be exported.
+I can't believe these guys shepherded their technique through the 
+PTO and the State Department's Arms Control Division without finding that out.
+
+					John Nagle
+
+p.s. No, I'm not thrilled with Clipper either, but that's a different issue.

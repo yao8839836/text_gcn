@@ -1,0 +1,61 @@
+From: dawagner@phoenix.Princeton.EDU (David A. Wagner)
+Subject: Re: viewing postscript files under X windows
+Originator: news@nimaster
+Nntp-Posting-Host: phoenix.princeton.edu
+Organization: Princeton University
+Lines: 54
+
+In article <1sk97rINNptb@polaris.isi.com> kin@isi.com (Kin Cho) writes:
+>
+>I can also live with a utility that converts postscript to plain
+>text, perferably retaining page counts so that I know how many pages
+>the original document contains.
+>
+
+	Well, I know of one hack to sort of do this conversion.  First
+get ghostscript and check out the gs_2asc.ps file that comes with it.
+It prints out some information about where each text string goes on the
+page, and maintains page counts.  I've written a little C program to
+massage the output of gs -dNODISPLAY gs_2asc.ps somewhat, so that you
+can get all the ascii strings in the document.  No guarantees that it
+won't break up words/sentences, though - I've used it with varying
+degrees of success.  Anyways, try this out, it may do what you want.
+
+/*
+ * massager: a filter for use with gs; does crude Postscript->ASCII conversion
+ *
+ * Usage:
+ *	cat file.ps | gs -dNODISPLAY gs_2asc.ps - | massager
+ *
+ * I print a <Ctrl-L> after each new page.
+ *
+ * Put the following source into massager.c and compile it:
+ */
+
+#include <stdio.h>
+#include <string.h>
+
+main()
+{
+	char	line[1000], *p;
+
+	while (fgets(line, sizeof(line), stdin) != NULL)
+		if (line[0] == 'P')
+			printf("\f\n");
+		else if (line[0] == 'S' && line[1] == ' ') {
+			if ((p = strrchr(line, ')')) == NULL)
+				continue;
+			*p = '\0';
+			if ((p = strchr(line, '(')) == NULL)
+				continue;
+			for (p++; *p; p++)
+				if (*p != '\\' || (p[1] != ')' && p[1] != '('))
+					putchar(*p);
+			putchar('\n');
+		}
+
+	return(0);
+}
+
+--------------------------------------------------------------------------------
+David Wagner                                              dawagner@princeton.edu

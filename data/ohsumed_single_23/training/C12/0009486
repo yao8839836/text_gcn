@@ -1,0 +1,13 @@
+Rapid methods of estimating Kt/V: three formulas compared.
+ Three rapid formulas for Kt/V were compared: 1) Kt/V-PRU = 0.04*PRU-1.2; 2) Kt/V-PRUopt = 0.026*PRU-0.46; and 3) KTV-LN = -In(R-0.03-UF/W).
+ Accuracy was compared in a database of 339 3/week modeling sessions in 256 patients.
+ The standard of comparison was Kt/V obtained by 3 point variable volume single pool modeling, using K values estimated from KoA, Qb, Qd, and UF rate.
+ The most accurate formula was Kt/V-LN, which correlated with Kt/V to a high degree (0.994), and with a [%ERROR] of only 2.2 +/- 1.7 (SD).
+ There was no correlation of %ERROR with the modeled Kt/V.
+ The least accurate formula was Kt/V-PRU.
+ Although the correlation of Kt/V-PRU with modeled Kt/V was high (0.962), the [%ERROR] was 12.0 +/- 11, and %ERROR correlated significantly with modeled Kt/V (0.68).
+ The Kt/V-PRUopt showed a high correlation with modeled Kt/V (0.962), and a [%ERROR] of 5.0 +/- 3.8; the latter had a minimal correlation with modeled Kt/V (-0.168).
+ The relative accuracies of the three formulae were: Kt/V-LN vs.
+ Kt/V-PRU = 5.98, Kt/V-LN vs.
+ Kt/V-PRUopt = 2.45.
+ The results suggest that Kt/V-LN is a more accurate estimate of Kt/V than any formula based on PRU alone.

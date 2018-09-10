@@ -1,0 +1,18 @@
+Distribution: world
+From: Mario_Murphy@bmug.org
+Organization: BMUG, Inc.
+Subject: Re: SAD MAC CODE 0F0064 ???
+Lines: 12
+
+I believe that that would be the same as a system error #64. Since there is no
+error #64, then I would guess that it would be a -64 error. Which is a font
+manager error of "error during font declairation".
+
+I would assume that the system that's on the floppy that you are trying start
+up on has a corrupted font in it, or something like that.
+
+Mario Murphy
+
+**** From Planet BMUG, the FirstClass BBS of BMUG.  The message contained in
+**** this posting does not in any way reflect BMUG's official views.
+

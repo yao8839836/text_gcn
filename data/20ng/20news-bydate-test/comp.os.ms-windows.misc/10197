@@ -1,0 +1,24 @@
+From: claebaur@shell.portal.com (Tony S Annese)
+Subject: Re: Need iconized printer utility.
+Nntp-Posting-Host: jobe
+Organization: Portal Communications Company -- 408/973-9111 (voice) 408/973-8091 (data)
+Lines: 18
+
+In article <C6EzHn.JLq@tsoft.net> tedm@tsoft.net (Ted Matsumura) writes:
+>In article <C6EvAL.520@unix.portal.com> claebaur@shell.portal.com (Tony S Annese) writes:
+>>You have one. Minimize the print manager and drag a file to it and it will
+>>print it. You need to associate file extensions with such things as the
+>>notepad for it to do this though.
+>
+>This may work, but won't it involve invoking the applications, e.g. if you
+>drag a .bmp or .txt file to the min. Print Manager icon, won't it RUN
+>Notepad and Paintbrush before printing?  If you just want to drag a file
+>(.txt or .bmp) to a print server icon, with stay at front attributes, you
+>need an intelligent Print Manager drag and drop client like Amish Print 2.0.
+
+Yes it invokes the associated application. That takes but 10 seconds?
+--
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+Tony Annese                                    claebaur@shell.portal.com
+                                          -or- claebaur@cup.portal.com
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/

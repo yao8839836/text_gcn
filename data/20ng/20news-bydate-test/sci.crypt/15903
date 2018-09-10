@@ -1,0 +1,160 @@
+From: brad@optilink.COM (Brad Yearwood)
+Subject: Re: Clipper considered harmful [Restated and amplified]
+Organization: Optilink Corporation, Petaluma, CA
+Lines: 155
+
+In article <1993Apr22.222016.25628@lehman.com>, pmetzger@snark.shearson.com (Perry E. Metzger) writes:
+> You obviously haven't read the information about the system. The chips
+> put out serial number infomation into the cypher stream to allow
+> themselves to be identified. The system does not rely on registering
+> people as owning particular phone units.
+> 
+> I am against the proposal, but lets be accurate in our objections.
+> 
+
+Do not presume to tell me what I have and have not read.  The system may
+not rely upon registering people as owning particular phone units, but
+it is necessary to know which phone units are likely to be used for some
+suspected criminal communication before you can obtain their unit keys
+from escrow.  This necessity raises the stakes in favor of a criminal's
+coercing or colluding use of some other person's Clipper phone.
+
+I will restate my assumptions more explicitly and amplify my argument.
+The original title perhaps should have been "Distinction between legal
+and illegal cipher systems considered harmful", but "Clipper considered
+harmful" is not inaccurate, and is more eye-catching in the current context.
+
+Assumptions:
+
+  1.  Clipper is made available.
+
+  2.  Laws are passed to make use of cipher systems other than Clipper illegal
+      (either on radio systems, or on any common carrier system).  These laws
+      also include enforcement authority to listen across the relevant radio
+      spectrum (or other medium), characterize signals, validate Clipper
+      wrappers, detect probable use of non-Clipper ciphers, and make such
+      detection a cause for further action.
+
+  3.  For escrowed keys to be useful, some specific Clipper chip must be
+      associated with a suspected criminal.  This means that at a minimum
+      some association between the common carrier's unique phone ID (ESN) and
+      the Clipper chip serial number N will be stored in a government database.
+      An observed pairing of N and ESN other than the one recorded raises a
+      red flag.
+
+  4.  To reduce ordinary fraud, the cellphone system which offers Clipper
+      will also be constructed with an ESN mechanism much more tamper-proof
+      and much less spoofable than today's cellphones.
+
+  5.  Criminals want inscrutable communications.  Some criminals are not
+      entirely stupid or ignorant, and will figure out both that Clipper
+      cellphones offer excellent security in normal circumstances, and that
+      they offer no security against law enforcement once a (presumably
+      legitimate) wiretap order exists.  They will also figure out that the
+      wiretap order must necessarily be against a specific cellphone, because
+      each one has a unique unit key.
+
+  6.  Criminals do not want to call attention to themselves.  Because they
+      are not stupid or ignorant (or because they read netnews), and because
+      they know that their open use of a non-Clipper cipher is likely to be
+      detected, they will generally avoid using non-Clipper ciphers directly
+      on some monitorable/tappable channel.  They know that do so would raise
+      a red flag, putting a given cellphone (if not a given person) under
+      immediate suspicion.
+
+  7.  It is impractical to reverse engineer Skipjack, discover family key F,
+      and construct a functional clone of a Clipper chip.
+
+By #2, #3, #4, and #7 it will be very difficult to spoof a given Clipper
+phone without immediate detection.  Because it is difficult to obscure one's
+association to a specific phone by reprogramming or changing chips
+around, the criminal will be motivated to find an intact phone which is
+associated with someone else.
+
+A non-stupid criminal will conclude that they can have Clipper-secure
+communications, at least for some limited time T, if they buy, beg, borrow,
+or steal use of someone's phone in a way that prevents that person from
+reporting compromise of the phone for at least time T.  The encrypted
+communications might have been recorded, and thus be retrievable later,
+but the criminal can delay, and quite likely evade, discovery by destroying
+or abandoning the phone before T elapses.
+
+It would be unusual for an innocent person to volunteer use of their Clipper
+phone to someone else.  The honest subscriber doesn't want to pay someone
+else's bill, and he doesn't want to fall under suspicion.
+
+This leaves two sources of Clipper phones for criminal use: coercion
+and collusion.
+
+Coercion first.  Theft bears a relatively low risk, but also sometimes
+a low time until detection (a few minutes if a phone is stolen from
+a car parked in front of a store, a couple of weeks if a phone is stolen
+from someone who is away on vacation).  Criminal commerce is likely to
+arise in stolen Clipper phones, with phones coming from risk-inured poor
+criminals, and cash coming from risk-averse wealthy criminals.  Someone
+who is extraordinarily motivated to gain a day or two of undetected
+communication (like a terrorist) could kill a person or hold them hostage.
+The limited time (before detection) that a coerced phone is useful means
+that continuing criminal enterprises require a continuing supply of
+freshly coerced phones.
+
+There would also be created a collusive commerce between relatively
+wealthy criminals, and ignorant or don't-care patsies who need money,
+and who will submit to being paid in return for subscribing to Clipper
+phone service for someone else's use.
+
+Criminals will learn that it is more to their advantage to coerce use of a
+Clipper cellphone than it is to apply a non-Clipper cipher to a normal
+cellphone.  They will call much less attention to themselves (or at least to
+their stolen phone) this way.  The fact of a phone's use being coerced must
+first be reported before it can be identified as an interesting phone, and
+have its keys obtained from escrow.
+
+Clipper also allows an extraordinary opportunity for the criminal to
+conceal use of super-encryption.  An automated full-system surveillance
+mechanism (quite feasible across radio bandwidth) which knows family key F,
+can validate Clipper wrappers and N:ESN associations, but it cannot reveal
+in realtime the use of super-encryption, unless it knows all unit keys,
+which we are being assured are only to be made available in two separate
+pieces, upon specific wiretap-like order.
+
+Whereas a criminal's use of any cipher within a normally cleartext medium
+would stand out, a criminal's use of a non-Clipper cipher within a Clipper
+medium would be very difficult to detect, even ex post facto in bulk
+recordings, as long as the association between criminal and specific Clipper
+chip is fractured.
+
+If you make use of this other cipher illegal per se, then you can charge
+the criminal with this (if you can identify the true criminal - he'll be
+using someone else's phone), but you'll have no evidence to help you against
+whatever traditional crime he might have been planning.  You will not even be
+able to detect that unusual (encrypted) communications are occurring until you
+identify specific phones and obtain their keys from escrow.
+
+The gangster and terrorist are thus arguably more, not less, secure than
+they were before Clipper came along.
+
+I therefore consider Clipper harmful because:
+
+  1.  It does not provide absolute privacy to the honest public against
+      aggressive or dishonest government.
+
+  2.  If other ciphers are proscribed, it engenders new types of direct
+      criminal threat to the honest public.
+
+  3.  It provides an extraordinarily effective mechanism for criminals to
+      hide their use of some other cipher, making it more difficult than
+      ever even to gain notice that unusual communications are occurring
+      and that plans for some criminal act might be in progress.
+
+  4.  If other ciphers are proscribed, lazy investigators and prosecutors
+      are more likely to pursue the easily quantifiable cipher-use crime
+      than they are the traditional and directly harmful crimes which key
+      escrow is claimed to help against.
+
+  5.  If other ciphers are proscribed, the stage is set for witch hunting
+      of "illegal" cipher use.  Because any computer can be used as a cipher
+      machine...
+
+Brad Yearwood    brad@optilink.com     {uunet, pyramid}!optilink!brad
+Petaluma, CA

@@ -1,0 +1,15 @@
+From: aron@taos.ced.berkeley.edu (Aron Bonar)
+Subject: Re: GIF to Targa
+Organization: University of California, Berkeley
+Lines: 9
+NNTP-Posting-Host: taos.ced.berkeley.edu
+
+In article <1993Apr28.143057.8335@fuw.edu.pl>, muchor@fuw.edu.pl (Krzysztof Muchorowski) writes:
+|> Hello,
+|>    Subject says it all. I need a GIF to Targa converter, so that my
+|> dta15 could make a .FLI of them.
+|>       Krzysztof
+|> 
+
+DTA will make a .FLI from GIFs as well as Targas. You don't need a converter.
+Also..get the latest version of DTA from wuarchive.wustl.edu in pub/msdos_uploads.

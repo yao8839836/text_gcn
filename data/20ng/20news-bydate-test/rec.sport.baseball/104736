@@ -1,0 +1,84 @@
+From: drw3l@delmarva.evsc.Virginia.EDU (David Robert Walker)
+Subject: Re: Defensive Runs from DA (comments)
+Keywords: DR
+Organization: University of Virginia
+Lines: 78
+
+In article <1qvdrnINNd9f@gap.caltech.edu> shippert@cco.caltech.edu (Tim Shippert) writes:
+>	The reason I bothered doing this DR stuff was to see if I could
+>determine the answer to the age-old question: "Is Jeff Blauser more
+>valuable than Rafael Belliard".
+
+Well, it looks like, just as Doug trumped Tim, beating him to the net
+with his defensive analyses, so Tim has gotten in ahead of me.
+
+The way I was doing it was a little different. Being me, of course, I
+used equivalent averages to work out how many runs a player was worth,
+and I calculated both rate of performance (fielding equivalent
+average) and total performance (fielding equivalent runs). But I
+compared, not to the average player, but the replacement player, and
+here's why: because the positional adjustment comes built in to the
+system. In the AL of 1992, the average SS is 32.9 runs above
+replacement (RAR); cf, 31.6; 2B, 28.8; 3B, 26.3; LF, 26.0; RF, 24.6;
+1B, 16.9. We may quibble with the exact numbers, but the order looks
+substantially right.
+
+In the equivalent average, I have always set league average to .235. I
+had decided in hitting that the replacement level batter has an eqa of
+.180; the name of that replacement level hitter, often as not, is
+"Billy Ripken". I decided to let the replacement level fielder be the
+same distance from .235 as .180, but in the opposite direction as I
+have set it up; that makes for an eqa of .280. (Yes, I can add. Runs
+are proportional to eqa squared; the difference between 180 squared
+and 235 squared equals the difference to 279 squared, and I rounded
+off for simplicity). An all-replacement fielding team would have:
+Randy Milligan at first (.282), Willie Randolph (.269) at second, Leo
+Gomez (.279) at third, Walt Weiss (.269) at short, Kevin Bass (.271)
+in left, HoJo (.257) in center, and Eric Anthony (.277) in right. Ugh.
+
+So, the total number of RAR for a player is the sum of his batting and
+fielding RAR. I can rate them by total RAR, or RAR per some number of
+batting outs, like 400. An average player has a total RAR of about 55,
+30 batting, 25 fielding.
+
+Total RAR (bat/field)
+
+1. Bonds      152 (124/28)  Ventura    124 (66/58)
+2. Sandberg   143 (88/55)   Thomas     122 (110/12)
+3. Van Slyke  122 (91/31)   Anderson   109 (75/34)
+4. Grace      114 (70/44)   Raines     100 (68/32)
+5. Lankford   111 (76/35)   Puckett     98 (76/22)
+6. Pendleton  108 (71/37)   Alomar      98 (75/23)
+7. Finley     104 (70/34)   Martinez E  97 (81/16)
+8. Bagwell    101 (73/28)   Mack        93 (70/23)
+9. Butler      96 (74/22)   McGwire     93 (79/14)
+10 Sheffield   96 (85/11)   Griffey     92 (70/22)
+11 Larkin      96 (65/31)   Devereaux   89 (56/34)
+12 Grissom     95 (57/38)   Henderson   88 (66/23)
+13 Walker      94 (61/33)   Listach     87 (50/37)
+14 Justice     92 (52/40)   Lofton      85 (46/39)
+15 W. Clark    91 (73/18)   Baerga      83 (55/28)
+16 Kruk        82 (78/ 4)   D. White    79 (39/40)
+17 O. Smith    80 (46/34)   Palmeiro    76 (54/22)
+18 Gwynn       80 (47/33)   Sierra      76 (52/24)
+19 Hollins     80 (68/12)   Carter      73 (57/17)
+20 J. Bell     79 (42/37)   Gonzalez    73 (60/13)
+
+Notable entries in a per-400 batting out rating, NL: top 7 are Bonds,
+177, LF; Sandberg, 130, 2b; Van Slyke, 114, cf; Grace, 107, 1b;
+Larkin, 102, ss; Justice, 99, rf; Sheffield, 99, 3B. One at each
+position measured! McGriff, despite +85 batting RAR, fifth in league,
+finishes out of the top 20 due to a -13 in fielding. Last by position: 
+Galarraga 39, Stillwell -10, Hansen 30, Belliard 30 (Blauser gad a 69,
+3rd in league), May 43, Dascenzo 34, Anthony 38.
+
+In the AL, much-maligned Rickey Henderson was worth 120, second only
+to Frank Thomas' 124; Ventura edges Edgar at third, 116-111; Grebeck
+rates a potent 102!; Griffey edges Puckett as top CF, 93-90; Listach
+nudges out Lofton among rookies, 82-80. And Alomar clearly outpoints
+Baerga, 97-73. Last by position: Segui 10, Sojo 29, Palmer 22, Lewis
+31, Polonia 40, Cuyler 26, V. Hayes 39.
+
+All for now.
+
+Clay D.

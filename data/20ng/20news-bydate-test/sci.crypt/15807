@@ -1,0 +1,84 @@
+From: artmel@well.sf.ca.us (Arthur Melnick)
+Subject: New Encryption Algorithm
+Summary: The history of NEA
+Keywords: NEA
+Nntp-Posting-Host: well.sf.ca.us
+Organization: The Whole Earth 'Lectronic Link, Sausalito, CA
+Lines: 76
+
+
+     Ever since Craig Rowland posted his piece "New Encryption"
+to sci.crypt there has been some discussion of our company,
+Secured Communications Technologies, Inc, and on encryption
+algorithm, NEA.
+     I spoke to Craig at length on 4/21/93 and we covered a lot
+of ground.  Some of the information in the posting requires some
+clarification, and I would like to answer some of the questions
+raised on sci.crypt.
+     SCT is a small company based in Silver Spring Maryland.  Our
+two main products at this time are a PC based secure
+communications program called SECOM and a general purpose
+encryption chip which uses the NEA algorithm developed for SECOM.
+     SECOM provides an encrypted secure communication link
+between two PC's connected over dial up telephone lines.  It
+supports simultaneous bi-directional file transfer and keyboard
+to screen "chat".  It has its own proprietary communications
+protocol which is tightly integrated to the encryption.  All
+though it is a packetized link, the data stream appears to be
+continuous because the packet boundaries are hidden.
+     When SECOM was initially developed, it was implemented to
+use DES encryption.  A business decision was made to seek export
+approval for the product because it was perceived that the
+overseas market was a large one and provided a good marketing
+opportunity.
+     We soon found out that we would NEVER be granted general
+export approval for anything using DES.  All though the reason
+for this was never explicitly stated, it seems to have something
+to do with secret government to government agreements which are
+still in effect.
+     In any event, the decision was made to develop a new and
+different algorithm which would take the place of DES.  This was
+the reason NEA (New Encryption Algorithm) was born.
+     At this time NEA is being held as a trade secret.  The
+preliminary work of patenting it has begun, and the plan is to
+make it public once the patent process is complete.  All though
+one can make certain legal arguments for keeping it an ongoing
+secret, I think in the case of an encryption algorithm it is
+necessary to let people "shoot at it" over an extended period of
+time to prove its worth.
+     In order to get export approval for SECOM/NEA, it was
+necessary to go through NSA and to reveal to them the details of
+the program and algorithm.  This was done only AFTER we had a
+finished product to submit.
+     Let me state unequivocally that there is NO "back door" to
+the program or the algorithm.  Secured Communications
+Technologies is a closely held private company and
+NSA/FBI/CIA/NIST/WHATEVER has NO financial interest in any way
+whatsoever with the company or any of the people involved.
+     From a practical business standpoint, we are interested in
+selling chips and software (hopefully in large quantities) and a
+back door to the encryption, if found out, could destroy our
+credibility and our business.
+     With the encryption algorithm approved for export, we set
+out to talk to a number of potential customers for encryption
+products and systems.  We were able to identify several common
+threads of functionality requirements.  This led to the design of
+a chip with the encryption algorithm "cast in silicon" and
+certain other capabilities added so that the chip could fulfill
+the broad range of requirements that we identified.
+     We are strongly opposed to the clipper/capstone chips.  In a
+press release today, our president, Dr. Stephen Bryen stated:
+
+          "It seems as if the government has an unlimited source
+     of funds to use to push its new bugged chips on the American
+     Public.  But do we not understand how the National Security
+     Agency, which is not supposed to be involved in domestic
+     spying, can fund the development of a commercial chip
+     intended to accommodate U.S. government domestic spying
+     activities."
+
+     If they had asked me to put a "back door" in NEA I would
+have told them to g__ f____ed.
+     Can NSA break NEA?  Or for that matter can they break DES,
+RSA, IDEA, Diffy-Hellman, PGP, RC2, RC4, or whatever?  I don't
+know and probably never will.

@@ -1,0 +1,28 @@
+From: envbvs@epb11.lbl.gov (Brian V. Smith)
+Subject: Re: Xfig 2.1pl7 on HP-UX 9.01?
+Organization: lbl
+Lines: 21
+Distribution: world
+NNTP-Posting-Host: 128.3.12.123
+
+In article <1sp51c$8t3@elroy.jpl.nasa.gov>, urban@sideshow (Michael P Urban) writes:
+|> I have compiled xfig 2.1 patchlevel 7 with HP's X11R5 from HP-UX 9.01,
+|> augmented by the Athena and Mu libraries from an X11R5 distribution
+|> from iworks.ecn.uiowa.edu.  It compiles nicely (although for one file
+|> the preprocessor macro definition table size needed to be increased).
+|> But when executed, nothing happens at all except for ever-growing
+|> memory requirements (eventually climaxing in a core dump).  The binary
+|> of the identical program, compiled on 8.07 with X11R4, has no
+|> problems.  Other programs like xtpanel compile, link, and run just
+|> fine with the same libraries.
+|> 
+|> Does this sound familiar, or am I going to have to figure this one out
+|> on my own...?
+
+Please see the post I made yesterday (May 10) which fixes the problem.
+This was posted to comp.windows.x.apps.
+
+-- 
+Brian V. Smith    (bvsmith@lbl.gov)
+Lawrence Berkeley Laboratory
+I don't speak for LBL; they don't pay me enough for that.

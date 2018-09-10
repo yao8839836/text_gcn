@@ -1,0 +1,23 @@
+From: donc@cognos.com (Don Campbell)
+Subject: AVI to FLC converter
+Organization: Cognos Incorporated, Ottawa CANADA
+Lines: 18
+
+I am looking for a small utility that will convert a Microsoft Video (AVI)
+file to an Autodesk Animator Pro (FLC) file. Since AVIs also contain sound,
+it would be nice if this utility also stored the sound track as a WAV or VOC
+file. Currently I'm accomplishing this by saving the AVI as multiple DIBs
+using Video for Windows, then converting each DIB to a GIF, then loading the
+GIFs into Animator. For the sound, I load the original AVI into WavEdit and
+save it as a seperate WAV file. This requires too many steps to be productive.
+
+Any help will be GREATLY appreciated.
+
+          Thanks
+             Don
+
+-- 
+Don Campbell       internet:  donc@cognos.COM
+                       uucp:  cognos!donc  
+Cognos Inc.            mail: P.O. Box 9707, 3755 Riverside Drive, 
+(613) 738-1440               Ottawa Ontario, Canada. K1G 3Z4

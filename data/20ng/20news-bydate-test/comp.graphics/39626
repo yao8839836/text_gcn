@@ -1,0 +1,54 @@
+From: dwilmot@zen.holonet.net (Dick Wilmot)
+Subject: Re: Products to handle HDTV moving pircture (180MB/sec)
+Nntp-Posting-Host: zen.holonet.net
+Organization: HoloNet National Internet Access System: 510-704-1058/modem
+Lines: 48
+
+kazsato@twics.co.jp writes:
+
+
+>Hi,
+
+>I'd like to know if there is any system (CPU + HD array + framebuffer)
+>which can play and record HDTV quality moving picture in realtime.
+
+>HDTV has about 6MB/frame, so recording/playing moving picture will need
+>about 180MB/sec bandwidth. I'm thinking to treat the raw data.. not
+>compressed. 
+
+Finding a disk array that can do 180MB/sec. will be difficult. The fastest
+ones I know about are from Maximum Strategy (IBM also sells these). They
+can attach HiPPI at up to 144 MB/sec. (64 bit). For these kinds of data
+rates you need more than SCSI for connections. Their latest model, the
+RAID 5 model Gen 4 only does 90 MB/sec. but I think this may be a
+limitation only of the HiPPI channel and that customer needs have not
+exceeded that speed since their older model was faster. They are also not
+idle (must be working on newer products that might be faster) and are a
+small company so you might be able to ask about custom interfaces. They
+still marketed the older, faster model as of a few mongths ago.
+
+Maximum Strategy, Inc.
+801 Buckeye Court
+Milpitas, CA 95035-7408
+sales@maxstrat.com
+
+You might still want to look into compression as it will be very difficult
+to keep the HiPPI bus fully working at all times - sustained throughput
+might come close to maximum burst rate.
+
+Interesting problem. Tell us more if you can?
+
+>If anyone can advise me what kind of product I should look into, please
+>e-mail me. I will appriciate it. The vendor's e-mail address, price of
+>the products, actual performance data of the products, any info will 
+>help me.
+
+>Thanks in advance,
+
+>Kaz Sato, Tokyo, Japan
+>e-mail: kazsato@twics.co.jp
+-- 
+          Dick Wilmot
+          Editor, Independent RAID Report
+          (510) 938-7425
+

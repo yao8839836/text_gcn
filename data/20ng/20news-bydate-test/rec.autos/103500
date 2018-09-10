@@ -1,0 +1,26 @@
+From: jafo@miranda.accum.com (Sean Reifschneider)
+Subject: Re: Choice of gauges
+Organization: Observatory Software
+Lines: 21
+
+In article <C5yBo4.E5I@vcd.hp.com> dmunroe@vcd.hp.com (Dave Gauge) writes:
+>If you had free reign to design your own instrument cluster, which
+>gauges would you choose to have beyond the basic set?
+
+Turbo boost is necessary if a turboed car.
+Fuel reserve warning.
+Coolant level warning.
+
+It would also be nice to have a gauge that would cycle across the different
+sensors in the FI system such as O2 sensor, altitude, Air Flow...
+
+I'd love to get Tranny and diff.
+Brake temp would be great...
+
+And a BIG ASS tach.  :)
+
+Sean
+-- 
+From the labs of Balderrama, Mitchell, Reifschneider, and Wahlstedt, Inc.
+Sean Reifschneider, Ruler of the Realm
+jafo@accum.com

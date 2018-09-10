@@ -1,0 +1,27 @@
+From: Christian_Wenk@ac3.maus.de (Christian Wenk)
+Subject: Re: emm386 and windows
+Organization: MausNet (Mitglied im IN e.V.)
+Lines: 21
+X-Gateway: MausGate/News 1.15/ac3
+
+Hallo !
+
+ebosco@us.oracle.com wrote on 28.04.93
+about : emm386 and windows
+
+
+e>Von : ebosco@us.oracle.com (Mi, 28.04.93 18:03)
+e>Name: Eric Bosco
+
+[...]
+e>Should I use emm386 or should I remove it from my config.sys?
+
+Basically:
+Windows prefers extendend memory instead of expanded (more work to do for Win)
+and if no application desperatly needs EMS, you should leave emm386
+with a "REM" in your config.sys.
+
+Bye,
+    Chris
+
+------------------------------------------------------------------------------

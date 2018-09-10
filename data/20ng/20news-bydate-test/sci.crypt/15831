@@ -1,0 +1,60 @@
+From: dougb@comm.mot.com (Doug Bank)
+Subject: Re: REVISED TECHNICAL SUMMARY OF CLIPPER CHIP
+Reply-To: dougb@ecs.comm.mot.com
+Organization: Motorola Land Mobile Products Sector
+Nntp-Posting-Host: 145.1.146.35
+Lines: 53
+
+In article <1993Apr21.192615.3465@guvax.acc.georgetown.edu>, denning@guvax.acc.georgetown.edu writes:
+
+|> The chips are programmed by Mykotronx, Inc., which calls them the
+|> "MYK-78."  The silicon is supplied by VLSI Technology Inc.  They are
+|> implemented in 1 micron technology and will initially sell for about
+|> $30 each in quantities of 10,000 or more.  The price should drop as the
+|> technology is shrunk to .8 micron.
+
+Hmmmmmm.  $30 seems a bit expensive.  How big is the chip?  What kind
+of packages will be used?  3 volt or 5 volt technology?  How much
+current will it draw?  I think there are many practical questions
+that haven't been answered, especially since this chip already exists!
+
+|> All Clipper Chips are programmed inside a SCIF (Secure Compartmented
+|> Information Facility), which is essentially a vault.  The SCIF contains
+|> a laptop computer and equipment to program the chips.  About 300 chips
+|> are programmed during a single session.  The SCIF is located at
+|> Mykotronx.
+|> 
+|> At the beginning of a session, a trusted agent from each of the two key
+|> escrow agencies enters the vault.  Agent 1 enters a secret, random
+|> 80-bit value S1 into the laptop and agent 2 enters a secret, random
+|> 80-bit value S2. These random values serve as seeds to generate unit
+|> keys for a sequence of serial numbers.  Thus, the unit keys are a
+|> function of 160 secret, random bits, where each agent knows only 80.
+
+OK, I've got a big problem with all of this.  How in the world do you
+expect to sell these chips for even $30 after all the overhead involved
+in this programming procedure?  2-4 people, a laptop, only 300 chips at 
+a time:  give me a break.  And how long does all of this take?  Even if
+it is a minute per chip, it will take the greater part of a day to 
+turn out 300 of these things.  How long do you suppose it will take to
+program those 10,000 chips mentioned above?  This is highly impractical!
+
+|> To see how the chip is used, imagine that it is embedded in the AT&T
+|> telephone security device (as it will be).  Suppose I call someone and
+|> we both have such a device.  After pushing a button to start a secure
+|> conversation, my security device will negotiate an 80-bit session key K
+|> with the device at the other end.  
+
+So where can I find info on this AT&T device?  What kind of vocoder
+does it use?  Does it require ISDN phone lines?  If not, is it full
+duplex?  How does it sound?  What kind of synchronization scheme is
+used?  Will all other little black boxes have to conform to AT&Ts choices
+of protocol, etc.?  Will anybody else be allowed to build boxes that
+conform to these specifications?
+
+
+-- 
+Doug Bank                       Private Systems Division
+dougb@ecs.comm.mot.com          Motorola Communications Sector
+dougb@nwu.edu                   Schaumburg, Illinois
+dougb@casbah.acns.nwu.edu       708-576-8207                    

@@ -1,0 +1,30 @@
+From: pmetzger@snark.shearson.com (Perry E. Metzger)
+Subject: Re: Do we need the clipper for cheap security?
+Organization: Partnership for an America Free Drug
+Lines: 25
+
+pdc@dcs.ed.ac.uk (Paul Crowley) writes:
+>How fast do the fastest modems go?
+
+The Shannon limit for voice lines is likely somewhere around 25kbps.
+We are rapidly approaching it. The fastest affordable full-duplex
+modems currently on the market are V32bis, which is 14400bps.
+
+>How far can voice be compressed?
+
+CELP manages to sound decent at 4800 bps.
+
+In theory, if you built a speech recognition system that turned voice
+into ASCII, and a perfect synthesis system on the other end that
+sounded just like the person you were speaking to, you could get it
+down to the information content of the speech.
+
+With various kinds of LPC, you can get it down to 2400 bps or prehaps
+even less, at which point it sounds horrible.
+
+4800 bps is more than adequite for our purposes.
+
+--
+Perry Metzger		pmetzger@shearson.com
+--
+Laissez faire, laissez passer. Le monde va de lui meme.

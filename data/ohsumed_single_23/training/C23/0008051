@@ -1,0 +1,14 @@
+Stress adaptation and low-frequency impedance of rat lungs.
+ At transpulmonary pressures (Ptp) of 7-12 cmH2O, pressure-volume hysteresis of isolated cat lungs has been found to be 20-50% larger than predicted from their amount of stress adaptation (J.
+ Hildebrandt, J.
+ Appl.
+ Physiol.
+ 28: 365-372, 1970).
+ This behavior is inconsistent with linear viscoelasticity and has been interpreted in terms of plastoelasticity.
+ We have reinvestigated this phenomenon in isolated lungs from 12 Wistar rats by measuring 1) the changes in Ptp after 0.5-ml step volume changes (initial Ptp of 5 cmH2O) and 2) their response to sinusoidal pressure forcing from 0.01 to 0.67 Hz (2 cmH2O peak to peak, mean Ptp of 6 cmH2O).
+ Stress adaptation curves were found to fit approximately Hildebrandt's logarithmic model [delta Ptp/delta V = A - B.log(t)] from 0.2 to 100 s, where delta V is the step volume change, A and B are coefficients, and t is time.
+ A and B averaged 1.06 +/- 0.11 and 0.173 +/- 0.019 cmH2O/ml, respectively, with minor differences between stress relaxation and stress recovery curves.
+ The response to sinusoidal forcing was characterized by the effective resistance (Re) and elastance (EL).
+ Re decreased from 2.48 +/- 0.41 cmH2O.ml-1.s at 0.01 Hz to 0.18 +/- 0.03 cmH2O.ml-1.s at 0.5 Hz, and EL increased from 0.99 +/- 0.10 to 1.26 +/- 0.20 cmH2O/ml on the same frequency range.
+ These data were analyzed with the frequency-domain version of the same model, complemented by a Newtonian resistance (R) to account for airway resistance: Re = R + B/ (9.2f) and EL = A + 0.25B + B .
+ log 2 pi f, where f is the frequency.

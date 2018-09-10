@@ -1,0 +1,54 @@
+From: koontzd@phobos.lrmsc.loral.com (David Koontz )
+Subject: Is key escrow enough?
+Organization: Loral Rolm Computer Systems  
+Distribution: world 
+Lines: 48
+
+>From: denning@guvax.acc.georgetown.edu
+>                           Revised, April 21, 1993
+
+>The chips are programmed by Mykotronx, Inc., which calls them the
+>"MYK-78."  The silicon is supplied by VLSI Technology Inc.
+
+>All Clipper Chips are programmed inside a SCIF (Secure Compartmented
+>Information Facility), which is essentially a vault.  The SCIF contains
+>a laptop computer and equipment to program the chips.  About 300 chips
+>are programmed during a single session.  The SCIF is located at
+>Mykotronx.
+
+>ACKNOWLEDGMENT AND DISTRIBUTION NOTICE.  This article is based on
+>information provided by NSA, NIST, FBI, and Mykotronx.  Permission to
+>distribute this document is granted.
+
+So, who is Mykotronx, Inc.?  It would be nice to know that they are
+not a front company used by an intelligence or other agency of the 
+U.S. government.
+
+While we are at it, the chip design(s) should be examined and verified
+against silicon to insure no trap doors or hidden protocols exist in silicon,
+regardless of the security level of the encryption algorithm.  There is
+no proof that the chip won't squeel and role over for someone with the
+proper knowledge to interrogate it via the communications link.
+
+The design examination should be done to the gate level.  Also, how does one
+verify that what you are looking at is reflected in tapeout, or masks?
+
+The silicon should be examined as well, the design in hand (a clean room
+publicly defined clipper chip) can be merged with another design later, or
+changed between completion and mask out.  There is little proof that what
+you are told is in the chip is all that is in the chip.
+
+Put the (verified) masks in escrow, and use them for chip production,
+use a third escrow party for programming the chips. 
+
+The government is asking for a lot of blind trust:  the encryption algorithm, 
+operating protocols, the agency having physical control of the devices, the 
+silicon implementation.  If the  government is so trustworthy, why escrow
+anything?
+
+
+
+
+
+
+

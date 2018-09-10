@@ -1,0 +1,26 @@
+From: ferch@ucs.ubc.ca (Les Ferch)
+Subject: Re: Where to get power cord to plug Non-Apple monitor into Quadra power supply?
+Organization: The University of British Columbia
+Lines: 20
+NNTP-Posting-Host: swiss.ucs.ubc.ca
+
+In <1r7t6fINNq4c@senator-bedfellow.MIT.EDU> thewho@athena.mit.edu (Derek A Fong) writes:
+
+>Is there an extension cord type cable I can buy which allows me to plug
+>my existing power cord into and then plug this "extension cable" into my
+>Quadra? 
+
+There are two approaches:
+
+1. If your power cord is the kind that detaches from the back of the
+monitor (most common) you can get a *replacement* power cord that will go
+from the monitor to the back of the computer.
+
+2. You can get an adpater that connects to the plug end of the existing
+power cord and provides the proper end that plugs into the back of the
+computer.
+
+Both cost about the same (aprox. $5) and are available from many computer
+stores (clone dealers are usually better at having these things and at
+good prices). Power cords are standard, so you don't have to go looking
+for some special thing at a Mac store.

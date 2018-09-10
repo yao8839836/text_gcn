@@ -1,0 +1,50 @@
+From: neilson@pmin28.osf.org (Peter Neilson)
+Subject: Re: solvent for duct-tape adhesive?
+Organization: Open Software Foundation
+Lines: 45
+
+In article <1993Apr27.030226.16016@uvm.edu> me170pjd@emba-news.uvm.edu.UUCP (Peter J Demko) writes:
+>From article <1993Apr27.004240.24401@csi.jpl.nasa.gov>, by eldred@rrunner.jpl.nasa.gov (Dan Eldred):
+>> In article <1rh9b0INN2r4@snoopy.cis.ufl.edu> ruck@beach.cis.ufl.edu (John Ruckstuhl) writes:
+>>>I know this is a long shot, but does anyone know what solvent I should 
+>>>use to clean duct-tape adhesive from carpet?
+>>>Someone taped wires to the carpet, and now it is time to move out.
+>>>
+>> I don't know for sure that this will work, but you might try MEK (methyl
+>> ethyl keytone?).  It worked getting the stickum left over from shelf paper,
+>> and is available at paint stores.  Use a carbon gas mask and lots of
+>> ventilation--this stuff really stinks!
+>> 
+>> 	- Dan
+>> 
+>
+>For those who don't know, methyl ethyl ketone is more commonly known 
+>as ACETONE and can be found as the major active ingredient in
+>NAIL POLISH REMOVER.  YOUR WIFE'S PROBABLY GOT SOME HANGIN' AROUND....
+
+Oh dear, time for me to try to remember my chemistry.  Let's see if I
+can find the formulae somewhere in the dim recesses of my mind.
+<sounds of gears>  <fumes of overheated oil>  <unmistakable stench of
+the Nasal Chromatograph>   Ha!  I knew there was a double bond!  Now
+how shall I show that in ASCII? 
+
+          MEK:                                 Acetone:
+
+          C - C - C - C                        C - C - C
+              #                                    #
+              O                                    O
+
+The hydrogens are not shown, and # represents double bond.  MEK has a
+methyl (CH3) on one side, and an ethyl (C2H5) on the other.  Acetone
+has two methyls.  So acetone is not methyl ethyl ketone, but instead
+is dimethyl ketone.  Both solvents have similar properties.  I think
+that MEK may be a little less flammable but a lot worse to breathe.
+It's a lot harder to buy MEK than it once was.  Use acetone.
+
+Nail polish remover consists almost entirely of acetone.  If you buy
+some for your workshop, get the very cheapest, because the more
+expensive kind has oils and perfumes that you don't need.
+-- 
+Nothing is so foolish that it has not been posted to some net newsgroup.
+         >>> Peter Neilson --- neilson@osf.org <<<
+Quote changed daily.  If you've seen this one before, burn your calendar.

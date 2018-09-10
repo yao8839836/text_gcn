@@ -1,0 +1,18 @@
+From: scholten@epg.nist.gov (Robert Scholten)
+Subject: Re: How hot should the cpu be?
+Organization: NIST
+Distribution: na
+Lines: 12
+
+The temp on my 486DX2/66 is over 96C (measured with a K-type thermocouple 
+and Fluke 55 dig thermometer).  This is an "idle" temp - not doing lots of
+bus i/o, not doing floating point, not doing 32-bit protected mode etc.  This
+is in a Micron computer, without heatsink.
+
+I recently put a heatsink/fan on the chip, but I might take the fan off.  It
+makes a horrible whine at times, and I wonder what the vibration is doing to
+the pins on the cpu etc...
+
+-- 
+Rob Scholten
+scholten@epg.nist.gov

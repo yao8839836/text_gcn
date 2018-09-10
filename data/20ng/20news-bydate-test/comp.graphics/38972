@@ -1,0 +1,89 @@
+From: bill@solaria (Bill Neisius)
+Subject: Re: RGB to HVS, and back
+Reply-To: bill@solaria.hac.com
+Lines: 83
+X-Newsreader: TIN [version 1.1 PL6]
+
+Remco Hartog (remcoha@htsa.aha.nl) wrote:
+: I have a little question:
+: 
+: I need to convert RGB-coded (Red-Green-Blue) colors into HVS-coded
+: (Hue-Value-Saturnation) colors. Does anyone know which formulas to
+: use?
+
+Lets see if I have this right... HSV == HSB == HSL ... and none of those
+are the same as HLS.  Hopefully, HVS is just a transposition of HSV, and
+not yet another color model... 
+
+The following code should do the HSV (HSL) coding (I haven't tried it yet)
+(Thanks to bultman@dgw.rws.nl)
+
+Another possibility is /mirrors/msdos/graphics/graphgem.zip on
+wuarchive.wustl.edu.
+
+Bill Neisius
+bill@solaria.hac.com
+
+----------------
+
+The following code is from the starbase (HP) manual:
+(all coordinates noralised at 0-1 interval)
+
+     hsl_to_rgb(hue, saturation, luminosity, red, green, blue)
+     float   hue, saturation, luminosity;    /* input in HSL */
+     float   *red, *green, *blue;            /* output in RGB */
+     {
+         float       frac, lx, ly, lz;       /* temporaries */
+
+         hue = 6 * hue;
+         frac = hue - (int) hue;
+         lx = luminosity * (1 - saturation);
+         ly = luminosity * (1 - saturation * frac);
+         lz = luminosity * (1 - saturation * (1 - frac));
+ 
+         switch ((int) hue) {
+             case 0: case 6:
+                 *red = luminosity; *green = lz; *blue = lx; break;
+             case 1:
+                 *red = ly; *green = luminosity; *blue = lx; break;
+             case 2:
+                 *red = lx; *green = luminosity; *blue = lz; break;
+             case 3:
+                 *red = lx; *green = ly; *blue = luminosity; break;
+             case 4:
+                 *red = lz; *green = lx; *blue = luminosity; break;
+             case 5:
+                 *red = luminosity; *green = lx; *blue = ly; break;
+         }
+     }
+     /******************************************************************************/
+     rgb_to_hsl(red, green, blue, hue, saturation, luminosity)
+     #define max(a, b, c)    ((a>b?a:b)>c?(a>b?a:b):c)
+     #define min(a, b, c)    ((a<b?a:b)<c?(a<b?a:b):c)
+     float   red, green, blue;               /* input in RGB */
+     float   *hue, *saturation, *luminosity; /* output in HSL */
+     {
+         float       x, tempr, tempg, tempb; /* temporary values */
+
+         *hue = 0.0;
+         *saturation = 1.0;
+         *luminosity = max(red, green, blue);
+         x = min(red, green, blue);
+         if (*luminosity != 0.0) {           /* calculate only if necessary */
+             *saturation = (*luminosity - x) / *luminosity;
+             if (*saturation != 0.0) {       /* calculate only if necessary */
+                 tempr = (*luminosity - red  ) / (*luminosity - x);
+                 tempg = (*luminosity - green) / (*luminosity - x);
+                 tempb = (*luminosity - blue ) / (*luminosity - x);
+                 if (red == *luminosity)
+                     *hue = (green == x ? 5 + tempb : 1 - tempg);
+                 else if (green == *luminosity)
+                     *hue = (blue == x ? 1 + tempr : 3 - tempb);
+                 else
+                     *hue = (red == x ? 3 + tempg : 5 - tempr);
+                 *hue /= 6;
+             }
+         }
+     }
+
+

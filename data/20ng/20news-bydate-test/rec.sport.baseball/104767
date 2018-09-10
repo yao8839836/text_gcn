@@ -1,0 +1,111 @@
+From: steph@pegasus.cs.uiuc.edu (Dale Stephenson)
+Subject: Hits Stolen -- Left Field 1992
+Keywords: defense left
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Lines: 105
+
+Disclaimer -- This is for fun.
+
+In my computerized baseball game, I keep track of a category called
+"stolen hits", defined as a play made that "an average fielder would not
+make with average effort."  Using the 1992 Defensive Averages posted
+by Sherri Nichols (Thanks Sherri!), I've figured out some defensive stats
+for the leftfielders. Hits Stolen have been redefined as "Plays Kevin
+Bass would not have made."
+
+OK, I realize that's unfair.  Kevin's probably the victim of pitching staff,
+fluke shots, and a monster park factor.  But let's put it this way:  If we
+replaced every leftfielder in the league with someone with Kevin's 49.4% out
+making ability, how many extra hits would go by?
+
+To try and correlate it to reality a little more, I've calculated Net
+Hits Stolen, based on the number of outs made compared to what a league
+average fielder would make.  By the same method I've calculated Net Extra 
+Bases (doubles and triples let by).
+
+Finally, I throw all this into a a formula I call Defensive Contribution, or
+DCON :->.  Basically, it represents the defensive contribution of a player.
+I add this number to OPS to get DOPS (Defense + Onbase Plus Slug), which
+should represent the player's total contribution to the team.  So don't
+take it too seriously.  The formula for DCON appears at the end of this
+article.
+
+The short version -- definition of terms
+HS -- Hits Stolen -- Extra outs compared to Kurt Stillwell
+NHS -- Net Hits Stolen -- Extra outs compared to average fielder
+NDP -- Net Double Plays -- Extra double plays turned compared to avg fielder
+NEB -- Net Extra Bases --  Extra bases prevented compared to avg. fielder
+DCON -- Defensive Contribution -- bases and hits prevented, as a rate.
+DOPS -- DCON + OPS -- quick & dirty measure of player's total contribution.
+
+National League
+
+Name            HS   NHS   NEB   DCON    DOPS
+Gonzalez, L.    63    28    20   .192    .866
+Gilkey, B.      52    23    14   .150    .941
+Clark, G.       46    11    11   .065    .726
+Alou, M.        20     3    12   .052    .835
+Bonds, B.       54     9    -7   .019   1.099
+May, D.         21     0    -7  -.020    .659
+Gant, R.        31    -5    -2  -.021    .715
+Bass, K.         0   -24    -4  -.126    .600
+
+Ordered by DOPS
+
+1.099 Bonds
+ .941 Gilkey
+ .866 Gonzalez
+ .835 Alou
+ .726 Clark
+ .718 *NL Average*
+ .715 Gant
+ .659 May
+ .600 Bass
+
+
+American League
+---------------
+
+Name            HS   NHS   NEB   DCON    DOPS
+Raines, T.      53    22    20   .111    .896
+Anderson, B.    65    30     8   .102    .924
+Henderson, R.   43    20     4   .101    .984
+Vaughn, G.      55    27    -3   .095    .817
+Gladden, D.     25     4     8   .038    .699
+Hall, M.        29     6    -2   .017    .756
+Mack, S.        38     6    -8   .005    .866
+Polonia, L.     10   -11    10  -.019    .647
+McReynolds, K.  13    -8    -9  -.064    .711
+Maldanado, C.    9   -21   -12  -.105    .714
+Reimer, K.       5   -18   -16  -.102    .671
+
+
+Order by DOPS
+
+.984 Henderson
+.924 Anderson
+.896 Raines
+.866 Mack
+.817 Vaughn
+.756 Hall
+.733 *AL Average*
+.714 Maldanado
+.711 McReynolds
+.699 Gladden
+.671 Reimer
+.647 Polonia
+
+More discussion --
+
+DCON formula:  ((NHS + NDP)/PA) + ((NHS + NDP + NEB)/AB)
+Why such a bizzare formula?  Basically, it's designed to be added into the
+OPS, with the idea that "a run prevented is as important as a run scored".
+The extra outs are factored into OBP, while the extra bases removed are 
+factored into SLG.  That's why I used PA and AB as the divisors.
+
+For more discussion see the post on Hits Stolen -- First Base 1992
+-- 
+Dale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Baseball fanatic
+
+  "It is considered good to look wise, especially when not 
+   overburdened with information" -- J. Golden Kimball

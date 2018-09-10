@@ -1,0 +1,34 @@
+From: dpp@cray.com (David Peterschmidt)
+Subject: Re: Can't set COM4
+Lines: 27
+Nntp-Posting-Host: artilect.cray.com
+Reply-To: dpp@cray.com
+Organization: Cray Research, Inc.
+
+In article mtc@fnnews.fnal.gov, uchima@fncrdh.fnal.gov (Mike Uchima) writes:
+>I also am having a problem with COM4 on a G2K system.  I have a Gateway 2K 486DX/33 system with the ATI Ultrapro video card (identical to the system mentioned in the original posting, except 33MHz instead of 66).  For some reason, the system refuses to recognize COM4.  For example, if I configure the on-board (motherboard) COM ports for COM1/COM2, everything is fine; if I configure them for COM3/COM4, COM3 works OK, but COM4 is not recoznized.  The diagnostics shipped with the system, the MSD utility
+>
+>
+>
+>
+>
+>Windows all act as if the port isn't there.  It's not an IRQ conflict, because I can swap the IRQs for COM3 and COM4, and COM3 still works (and COM4 still doesn't).
+>
+>I actually noticed this problem when trying to install 2 additional ports (a BOCA high speed 2S/1P card).  The behavior with the BOCA card was exactly the same (e.g. it would work as COM1, COM2, or COM3, but not as COM4).
+>
+>This has the smell of an I/O port conflict, but I can't imagine with what.  There are no other expansion cards installed in the machine other than the video card, and Gateway would have to be pretty stupid to have the on-board COM4 conflict with something else on the motherboard!
+>
+>Has anybody else had this problem?
+
+
+I ran into this about six months ago.  My system is a GW2000 486DX/66V,
+8 megs RAM, 1Meg ATI GUP VLB. It seems the problem is that the ATI
+Graphics Ultra Pro card consumes the COM4 port for some reason, so only
+COM1-3 are available.  I believe this is documented somewhere in the
+system manuals, but I can't recall where.
+ 
+
+Dave Peterschmidt
+
+
+

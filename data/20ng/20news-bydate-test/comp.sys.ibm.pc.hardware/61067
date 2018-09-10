@@ -1,0 +1,24 @@
+From: adrie@ica.philips.nl (Adrie Koolen)
+Subject: Re: Monitors - Nanao?
+Organization: Philips Consumer Electronics, Eindhoven, The Netherlands
+Lines: 19
+
+In article <C5wKx1.Frv@news.iastate.edu> schauf@iastate.edu (Brian J Schaufenbuel) writes:
+>What tube does the Viewsonic 17 use?  Does is support 1600x1280?  I've been
+>looking a a Philips 1762DT which uses a Sony Trinitron tube, has digital
+>controls, supports up to 1280x1024NI, and has .25mm dot pitch - It can be
+>found for under $1000.
+
+The original poster, John Navitsky, said that he might use the monitor on
+a SparcStation LX. The LX is able to generate a picture at 1280*1024 at
+76 Hz. Not officially, but I tried to set this resolution and refresh rate
+and the LX came up with a non-syncing screen. Our tube obviously couldn't
+handle this speed. At 67 Hz, it worked perfectly.
+
+When buying a third party monitor that's going to be used on a SparcStation
+LX, you might consider a monitor that's fast enough to do 1280*1024 at 76Hz.
+I don't know for sure whether the LX supports this (Sun certainly won't tell
+you) so you'll have to check.
+
+Adrie Koolen (adrie@ica.philips.nl)
+Philips Consumer Electronics, Eindhoven, the Netherlands

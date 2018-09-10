@@ -1,0 +1,23 @@
+From: Kevin Boyce <boyce@lheavx.gsfc.nasa.gov>
+Subject: Re: Using SetWUTime() with a PB170
+X-Xxmessage-Id: <A7FB03BB22017D13@sofa.gsfc.nasa.gov>
+X-Xxdate: Wed, 21 Apr 93 18:59:23 GMT
+Organization: NASA/GSFC
+X-Useragent: Nuntius v1.1.1d20
+Lines: 15
+
+In article <C5s96u.L4p@world.std.com> Andrew E Page, aep@world.std.com
+writes:
+>One way to tell is to
+>go and open the PowerBook control panel(7.1).  There is a setting
+>there that allows you to set the time to wake up the Mac.  If it
+>is present when you open the control panel, then you can assume that
+>SetWUTime will work.  
+
+Gee, nice of them to tell us.  Like, how about a Gestalt response bit for
+the
+GestaltPowerManagerAttributesFoodSpreadProduct selector?  Well, at least
+now I know why it doesn't work (I assume; I 'm using a PB 145).
+
+-Kevin		boyce@lheavx.gsfc.nasa.gov
+"Argle Bargle Morble whoosh? "   --Moxie (or was it Pepsi?)

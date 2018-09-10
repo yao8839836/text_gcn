@@ -1,0 +1,158 @@
+From: guykuo@carson.u.washington.edu (Guy Kuo)
+Subject: Quadra Clock Modification - Long
+Summary: Quadra 700 Clock Acceleration Instructions
+Keywords: Quadra,clock,acceleration,oscillator
+Article-I.D.: shelley.1r577lINNjks
+Organization: University of Washington
+Lines: 149
+NNTP-Posting-Host: carson.u.washington.edu
+
+Here is how I modified my Quadra 700 for higher speed. Previously I
+had been using a Variable Speed Overdrive for accelerating my CPU
+but this modification is testing out as more stable at higher speeds.
+
+Your mileage may vary. The top speed you achieve cannot be predicted
+before hand. My personal Q700 has tested fine up to 32 mhz thus far.
+I didn't have higher speed clock oscillators on hand to test higher
+speeds.
+
+Parts
+
+	Clock Oscillators (4 pin TTL variety) You will need a selection of
+	speeds beginning at 50 mhz on up. The CPU will run at 1/2 the
+	oscillator speed. The original one is a 50 mhz unit. I recommend
+	getting a 50 mhz clock in case you damage the existing one.
+
+	   I obtained my clock oscillators from DigiKey 1-800-344-4539 for
+	   less than $5.00 each. Some of their part numbers are:
+
+		   50 mhz TTL Clock Oscillator (part # X121)
+		   62 mhz TTL Clock Oscillator (part # X136)
+		   66 mhz TTL Clock Oscillator (part # CTX137)
+
+	   Don't get the half size clock oscillators. They won't fit.
+
+	   There are also CMOS clock oscillators. I haven't tried one in a
+	   Quadra. (They work fine in IIsi's)
+	   
+	Socket: Obtain a 4 pin socket which is in the same form factor as
+	   a 14 pin DIP package. Alternatively, use 4 machined socket pins
+	   from an Augat style socket. Just cut them out of the socket.
+
+	Cooling Fan: A very small 12 volt fan to keep the CPU cool is a 
+	   must. My VSO came with a specially modified heatsink which had
+	   a fan built onto it. It had a pass-through connector which
+	   tapped into the hard drive power cable. You should rig up 
+	   something similar or risk frying your CPU.
+	   
+Procedure
+
+1)  Insert usual disclaimer and antistatic warnings here.
+
+2)  Remove the top lid of the machine. You will see the floppy disk and
+    hard drive mounted in a plastic tower. Follow the usual anti-static
+    precautions and of course make sure the machine is OFF when you do
+    this. Unplug ALL cables, wall and monitor power supply cords from
+	the back of the mac.
+ 
+3)  Remove the power supply by pulling the plastic interlocking tab on the
+    tower forward and simultaneously pulling the power supply straight up.
+    The tab is a piece of plastic from the left posterior aspect of the
+    tower which extends downward to hook on to the power supply. You may
+    also feel a horseshoe shaped piece at the right portion of the power
+    supply. Leave that alone. The plastic tab from the tower is all you
+    need release.
+ 
+4)  Look at the rear of the tower assembly. You will see the flat ribbon
+    SCSI connector to the hard drive, a power cable and a flat ribbon cable
+    leading to the floppy drive. Disconnect all these from the motherboard.
+    The hard drive power cable connector has a tab which must be squeezed
+    to release it.
+                                            
+5)  Unplug the drive activity LED from its clear plastic mount
+
+6)  Look down the posterior, cylindrical section of the plastic tower. A
+    phillips head screw is at the base. Remove it, taking care not to drop
+    it into the case. A bit of gummy glue on your screwdriver is helpful
+    here.
+
+7)  Remove the tower assembly by pulling medially the plastic tab on the
+    right side of the tower. This tab prevents the tower from sliding
+	posteriorly. Slide the entire tower assembly 1 cm posteriorly then
+	lift the tower assembly straight up and out of the case.
+
+8)  Remove the interrupt switch assembly. It is a strangely shaped plastic
+    device at the left, front edge of the motherboard. Pull the middle,
+	rear plastic prong up and forward. The entire device will release.
+	
+9)  Unplug the speaker cable. Squeeze the plastic tab on the speaker to
+    free it then swing it backwards to free it from the case.
+	
+10) Remove the motherboard form the case. Lift the front right corner of
+    the motherboard about 1 mm. This allows it to clear the clear plastic
+	Power light guide. Slide the motherboard forward about 1 cm. The
+	motherboard then comes directly out.
+	
+11) Locate the 50 mhz clock crystal. It is a small metal box near the
+    CPU chip. Note and remember its orientation. The new clock oscillators
+	must be aligned with pin 1 in the same orientation.
+	
+	Very carefully desolder and remove the old clock oscillator. Some of
+	the pins may be bent over. Simply desolder then unbend them. Be sure
+	your desoldering iron is hot enough before heating the board.
+	
+	I used a suction desoldering iron to accomplish this task. This is
+	NOT appropriate for a first soldering experience. The motherboard is
+	a multi-layer design with very fine traces - easily damaged without
+	proper care.
+	
+12) Install your socket or socket pins where the old oscillator once was.
+
+13) Put a 50 mhz clock oscillator into the new socket. You could use the
+	old clock but it has solder on its pins. This may come of inside the
+	socket and cause corrosion problems later. I suggest using a new
+	50 mhz clock.
+	
+14) Install your cooling fan system to complete the modification.
+	
+14) Reinsert the motherboard and slide it into place.
+
+15) Snap in the interrupt switch assembly and speaker to lock the mother
+    board firmly. Plug the speaker wire back into the motherboard.
+	
+16) Reinstall the tower assembly by first placing the right wall of the
+    tower against the right wall of the case with the tower assembly about
+	1 cm posterior of its intended position. Lower the tower assembly into
+	place while maintaining contact with the right wall of the case.
+    Once fully down, slide the tower assembly anteriorly until it clicks
+    into place.
+	
+17) Reconnect the motherboard ends of the cables. DONT'T FORGET THE FLOPPY
+    DRIVE CABLE.
+
+18) Replace the phillips head screw
+
+19) Drop the power supply straight down into place until it clicks in.
+
+20) Plug the hard drive activity light back into its clear plastic mount.
+
+21) Reattach your cables and power cords. Cross your fingers and turn 
+    on the Mac. It should make the usual power on chord. If it doesn't,
+	something is amiss. Immediately turn of the power and recheck your
+	handiwork. If all is not well, you have my sincere condolences.
+	
+	Hopefully, all will work normally. Turn the machine back off and
+	replace the 50 mhz clock oscillator with a faster one. Reboot and
+	be astounded. 
+	
+	You will need to fully test the machine for many hours before deciding
+	a particular speed is truly usable. With my VSO, a machine lock-up
+	might take 8 hours of operation to occur. In the brief time since
+	modifying my clock oscillator (36 hours) I have not had a single
+	problem.
+	
+Good Luck to all who attempt this modification. There is a small but real
+risk, but you could well reach Quadra 950 speeds or higher with less than
+$50 in parts.
+
+Guy Kuo <guykuo@u.washington.edu>

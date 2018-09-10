@@ -1,0 +1,25 @@
+From: dietz@cs.rochester.edu (Paul Dietz)
+Subject: Re: Gamma Ray Bursters. Where are they?
+Organization: University of Rochester
+
+In article <1rmh4eINN95h@gap.caltech.edu> kwp@wag.caltech.edu (Kevin W. Plaxco) writes:
+
+> resolving power of the optics.  BATSE is an altogether different
+> beast, effectively just 8 coincidence counters, one on each corner of 
+> the craft.  Positional information is triangulated from the 
+> differential signal arrival times at each of the detectors.
+
+Obviously not.  Count rates are too low and signal rise times too long
+for this to be possible.  The CGRO, is, what, 10 meters long?  You'd
+need to time to an accuracy of nanoseconds to do this.
+
+What BATSE actually does is measure the relative strength in each of
+the detectors (also as a function of photon energy).  Each of the
+detectors does not have isotropic response.  To do this right one must
+model the scattering of photons in the material around each detector,
+and even scattering of photons off the Earth's atmosphere back onto
+the spacecraft.  I believe they have now reduced the error to about 2
+degrees.
+
+	Paul F. Dietz
+	dietz@cs.rochester.edu

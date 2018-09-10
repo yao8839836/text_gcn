@@ -1,0 +1,21 @@
+From: cfw@world.std.com (Christopher F Wroten)
+Subject: Problem on DOS box from Windows - "this file is compressed..."
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 16
+
+I've started getting a message from Windows 3.1 whenever I try to execute
+a DOS program from Windows, either thru the Program Manager or the File
+Manager. A message box comes up and says "This program or one of its
+components is compressed. Use the MS-DOS expand command to expand the
+file."
+
+Now, I know this is bogus, because I can always execute the program
+from DOS when not running windows. The program in question is COMMAND.COM
+(yup, the basic DOS command line shell...) And, the expand command tells
+me that the file is already expanded.
+
+All my windows apps work just fine - I only get this message when trying
+to execute a DOS program from Windows.
+
+Clues anyone?  Thanks!!   Christopher Wroten, cfw@world.std.com
+

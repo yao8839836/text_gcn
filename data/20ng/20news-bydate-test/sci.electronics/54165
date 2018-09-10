@@ -1,0 +1,13 @@
+Organization: University of Illinois at Chicago, academic Computer Center
+From: <U19250@uicvm.uic.edu>
+Subject: multiple inputs for PC
+Lines: 8
+
+Can anyone offer a suggestion on a problem I am having?
+I have several boards whose sole purpose is to decode DTMF tones and send
+the resultant in ASCII to a PC.  These boards run on the serial interface.
+I need to run * of the boards somwehat simultaneously.  I need to be able to ho
+ok them up to a PC>  The problem is, how do I hook up 8+ serial devices to one
+PC inexpensivley, so that all can send data simulataneously (or close to it)?
+Any help would be greatly appreciated!
+Abhin Singla

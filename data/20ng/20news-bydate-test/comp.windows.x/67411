@@ -1,0 +1,50 @@
+From: sherman@lea.csc.ncsu.edu (Chris Sherman)
+Subject: Re: XV 3.00 has escaped!
+Organization: NCSU
+Lines: 45
+
+In <123645@netnews.upenn.edu> bradley@grip.cis.upenn.edu (John Bradley) writes:
+
+>Batten down the hatches, hide the women, and lock up the cows, XV 3.00 has
+>finally escaped.  
+
+It really bums me out that xv went shareware.
+
+ * XV is shareware for PERSONAL USE only.  You may use XV for your own
+                       ^^^^^^^^^^^^
+                       What does this mean anyway?  Can I sit in a company
+                       and look at pictures off the net in my spare time?
+
+ * amusement, and if you find it nifty, useful, generally cool, or of
+ * some value to you, your non-deductable donation would be greatly
+ * appreciated.  $25 is the suggested donation, though, of course,
+ * larger donations are quite welcome.  Folks who donate $25 or more
+ * can receive a Real Nice bound copy of the XV manual for no extra
+ * charge.
+ *
+ * Commercial, government, and institutional users MUST register their
+ * copies of XV, for the exceedingly REASONABLE price of just $25 per
+ * workstation/X terminal.  Site licenses are available for those who
+ * wish to run XV on a large number of machines.  Contact the author
+ * for more details.
+
+Now since universities are institutions (right?), doesn't this mean that
+most everyone in the world is affected by this?  (I don't believe there
+are that many running X windows at home yet, relatively speaking).
+
+Can the author legally sell xv?  Xv uses tiff and jpeg code developed
+by others.  Did the author get permission to sell these works?  Did
+the author also get permission from all the people who contributed to
+xv to sell their work as well?
+
+My guess is that now nobody is going to want to help the author
+maintain the code anymore now that xv has become a commercial product,
+and support for xv will begin to slide downhill.
+
+If this is the case, then that's a bummer.  I really liked xv.
+
+-- 
+     ____/     /     /     __  /    _  _/    ____/
+    /         /     /     /   /      /     /          Chris Sherman
+   /         ___   /        _/      /          /
+ _____/   __/   __/   __/ _\    _____/   _____/        sherman@lea.csc.ncsu.edu

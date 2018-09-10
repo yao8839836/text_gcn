@@ -1,0 +1,54 @@
+From: hildjj@jupiter.fuentez.COM (Joe Hildebrand)
+Subject: Re: Help needed: callbacks, actions and events
+Organization: The Internet
+Lines: 47
+To: soenke@wiwi12.uni-bielefeld.de (Soenke Voss)
+Cc: xpert@expo.lcs.mit.edu
+
+
+> 
+> I understood that there are two methods to connect application code
+to widgets:
+> 
+>                        callbacks and actions
+> 
+> The problem I face now is that I have a quite long piece of
+application code
+> that performs a lot of drawing into a window. I want to connect this
+to a
+> widget. No problem so far. I could use a callback function or an
+action to do this, processing any events afterwards.
+> 
+> But because the drawing takes some while, I want the application code
+sequence
+> to be able to be interrupted by events. Then I want to handle the
+events
+> and resume with processing the application code at the point it was
+> interrupted.
+> It seems to me that this isn't possible, but how can I give the user
+the
+> impression that his inputs are immediately processed ?
+ 
+Use a workProc.  See XtAppAddWorkProc(3Xt).
+
+You should split your drawing routnie up into small chunks (this
+is the hard part).  Then, in the callback that starts the drawing,
+you call XtAppAddWorkProc() to call your workProc the first time. 
+Your workProc should be a function that returns a boolean...
+TRUE when you are finished, and FALSE when you want to keep
+processing.  If you return FALSE, the workProc is automatically
+re-installed.  
+
+Note that this method is better that using a time-out loop, since
+events get processed in a more precedence-oriented manner.  If you
+are using the same Ada bindings I am, however, you are hosed, and
+should look into XtAppAddTimeout(3Xt).
+
+----------
+Joe Hildebrand
+hildjj@fuentez.com
+Software Engineer
+Fuentez Systems Concepts
+(703)273-1447
+
+Standard disclaimers apply

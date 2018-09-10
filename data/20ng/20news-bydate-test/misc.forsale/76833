@@ -1,0 +1,43 @@
+From: jtobias@cs.tamu.edu (Jason T Tobias)
+Subject: 4SALE: 486 Localbus MB w/CPU, Weitek, ET4k video, IDE, etc.
+Organization: Computer Science Department, Texas A&M University
+Lines: 35
+Distribution: world
+NNTP-Posting-Host: photon.tamu.edu
+Keywords: SUN 3
+
+CAD Setup For Sale:
+
+G486PLB Local Bus Motherboard
+  Can use up to 32MB of SIMMS (256k/1M/4M)
+  9 expansion slots (8 16-bit slots, 1 32-bit slot)
+  Weitek 4167 co-processor socket
+
+33 Mhz Intel CPU
+
+33 Mhz Weitek 4167 Math Co-processor
+
+G-Host4000 Local Bus ET4000 Video Card
+  Based on Tseng Labs' ET4000 chip design
+  Supports resolutions up to 1280x1024 interlaced or non-interlaced
+  Uses RAMDAC to allow up to 32k colors in 800x600, 65k colors in 640x480
+  Register level compatible with CGA, EGA, VGA, MDA
+  Software drivers available for 1-2-3, Symphony, Autocad, Autoshade,
+   Windows, Wordperfect, VESA and 8514/A Emulation
+  also contained on the card:
+    Local Bus IDE controller
+    Floppy Disk controller
+    Two fully configuarable serial ports
+    1 Parallel port
+    1 Game port
+
+  I used this setup to run AutoCad and 3D Studio.  The combination of
+ Local Bus and the Weitek co-processor made for VERY fast CAD and modeling
+ work.  The Weitek coprocessor can cut 3D Studio render times in half and
+ sometimes more.  It also increases redraws and regens when modeling in
+ both 3D Studio and Autocad.  Everything is less than a year old.  I am
+ asking $950.00 + shipping for the whole package.  Please respond via email.
+ Thanks.
+
+ - Jason Tobias
+ jtobias@photon.tamu.edu

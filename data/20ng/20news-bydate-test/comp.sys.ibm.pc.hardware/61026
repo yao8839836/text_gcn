@@ -1,0 +1,49 @@
+From: phil@howtek.MV.COM (Phil Hunt)
+Subject: Motherboard manufacturer & What is this slot for?
+Organization: Howtek, Inc.
+Reply-To: phil@howtek.MV.COM (Phil Hunt)
+X-Mailer: uAccess - Macintosh Release: 1.6v2
+Lines: 42
+
+Hi,
+
+I bought, on the net here, a mini-tower 386dx25 system.  It works fine, but
+I have no docs on the motherboard.
+
+Does anyone know who a manufacturer named WPI is?  That is the only marking
+on the board that is not related to a chip/connector name.  It says
+(c)1991, WPI
+
+Also, this board has a connector at the other end of the motherboard, it looks
+like this:
+
+
+  +---------------------------------+
+  |  Batt                           |
+  |                        387      |  Socket for 387 math coprocessor
+  |                                 |
+  |                     386         |  386 chip is about here
+  |                                 |
+  | ========= ====                J |  = signs are the ISA slots
+  | ========= ====                M |
+  | =========                     P |  Jumpers for turbo/kb etc are where
+  | ========= ====         ------ E |  marked
+  | ========= ====         ------ R |
+  | ========= ====         ------ S |  - signs are 8 banks of SIMM sockets
+  | ========= ====                  |
+  | =========          ==== ======= |  <<<These connectors are the mystery
+  +---------------------------------+     connectors!!!!
+                       ^^^^ ^^^^^^^
+                       What is this connector?
+
+Is this a place to plug an extra memory board in?  I've seen thatr mentioned
+in some motherboard docs.  Some allow an 8-meg card and 8 meg in simms.  Is
+this what it is for?
+
+Phil
+
+--------------------------------------------------------------------
+Phil Hunt                          "Wherever you go, there you are!"
+Howtek, Inc.		                   
+
+Internet: phil@howtek.MV.COM   uucp: {decvax|harvard}!mv!howtek!phil

@@ -1,0 +1,43 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: Cached Hardrives
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 37
+
+
+In article <1993Apr23.142720.25002@spartan.ac.BrockU.CA>, tmc@spartan.ac.BrockU.CA (Tim Ciceran) writes:
+> 
+> After reading many postings concerning hard drives I'm still unclear
+> about one thing.  These new "cached hard drives" - is the cache on the
+> drive itself or is it separate, like on the controller or something?
+> Thanks to anyone who can clear this up.
+
+I have two SCSI hard drives, each has 512KB of 'cache'.
+
+There several reasons for this :-
+
+When the drive has read requested data from the disk the SCSI bus may be
+busy. This data needs to be stored some where until the bus is free and
+the data can be transmitted.
+
+When the drive receives data to be written, the data can come down the bus
+faster than the drive can write it to the disk. It needs to be stored
+somewhere while the disk is writing it out.
+
+In these situations the memory is being used as a buffer NOT a cache!
+
+May be the drive does some read-adead caching as well...
+
+> 
+> -- 
+> 
+> TMC
+> (tmc@spartan.ac.BrockU.ca)
+> 
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

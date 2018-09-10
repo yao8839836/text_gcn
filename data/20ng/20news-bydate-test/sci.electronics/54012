@@ -1,0 +1,32 @@
+From: johne@vcd.hp.com (John Eaton)
+Subject: Re: Can Radio Freq. Be Used To Measure Distance?
+Organization: Hewlett-Packard VCD
+X-Newsreader: Tin 1.1 PL5
+Lines: 26
+
+Robert G. Carpenter (rgc3679@bcstec.ca.boeing.com) wrote:
+: I'm wondering if it's possible to use radio waves to measure the
+: distance between a transmitter(s) and receiver?
+: 
+: Seems to me that you should be able to measure the signal strength
+: and determine distance. This would be for short distances (2000 ft),
+: and I would need to have accuracy of 6 inches, or so.
+: --------------------
+You might try looking at whats available in laser locating systems. They
+work best for close work( 1 mile and under).
+
+RF is used for much longer distances in two major modes. Transponder and
+phase measurment. Transponder requires you send a pulse to another station
+and it returns it to you and you measure the round trip time minus the
+receiver time.
+
+Phase measurements require two or more transmitting stations sending the
+same frequency signal multiplexed in time. A receiver can pick them up and
+measure the phase shift between signals. Maps can be drawn that plot the
+Lines of Position that correspond to a certain phase shift between two
+stations. 
+
+John Eaton
+!hp-vcd!johne
+
+

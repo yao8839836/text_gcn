@@ -1,0 +1,236 @@
+From: Greg.Onufer@Eng.Sun.COM (Greg Onufer)
+Subject: Re: Let's build software cryptophones for over the internet...
+Organization: Sun Microsystems Computer Corporation, Mtn. View, California
+Lines: 229
+Distribution: usa
+NNTP-Posting-Host: cheers
+
+In <C622A1.7t6@demon.co.uk> Graham Toal <gtoal@gtoal.com> writes:
+>In article <1regq0INNn7u@gap.caltech.edu> hal@cco.caltech.edu (Hal Finney) writes:
+>:I tried this code yesterday.  On my Sparcstation ELC it takes over
+>:300 seconds to compress 22 seconds' worth of speech.  This means that it
+>:needs to be "optimized" by over a factor of 10 before it will be usable
+>:in even a half-duplex mode.
+
+>Ouch!  Thanks for trying it.
+
+The following program is a very quick hack I created a few months
+ago to determine whether a Sun Sparcstation IPC could perform
+real-time, full-duplex encrypted audio with resulting data rates
+sustainable by today's modems.
+
+This test program reads linearly-encoded audio from the audio device,
+compresses it with GSM 06.10 (compresses frames of 160 13-bit samples
+recorded at 8kHz into 260 bits resulting in a 50 Hz frame rate), encrypts
+it with DES, then reverses the process and sends the reconstructed audio
+back to the audio device.  The compressed, encrypted audio stream
+is 13 kbits/s (!).
+
+My Sparcstation IPC (not exactly a very fast machine these days,
+certainly slower than an ELC) would just barely sustain this activity
+(audio underruns would occcur but the speech was very intelligible).  I
+ran it as a real-time process to get the best results.  Remember,
+though, that this program is a quick hack and the performance can
+certainly be improved.
+
+The audio compression routines can be ftp'd from tub.cs.tu-berlin.de,
+I believe (look for gsm or toast).  I used Eric Young's DES
+implementation but I no longer know where I got it from.
+
+Cheers!greg
+
+<--------------------------- CUT HERE ----------------------------->
+/*
+ * Test program to see how much CPU it takes for secure digital audio.
+ * Written by G. Onufer (greg@cheers.Bungi.COM).
+ *
+ * Written on a Sun IPC running Solaris 2.2 with a Sun ISDN S-Bus card
+ * and a SpeakerBox.
+ */
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/audioio.h>
+#include <stropts.h>
+
+#include <gsm.h>
+#include <des.h>
+
+boolean_t
+svs_audio_init(int fd, audio_info_t *prev_info)
+{
+	audio_info_t info;
+
+	if (prev_info != NULL) {
+		if (ioctl(fd, AUDIO_GETINFO, prev_info) < 0) {
+			perror("AUDIO_GETINFO");
+			return (B_FALSE);
+		}
+	}
+
+	AUDIO_INITINFO(&info);
+
+	info.record.pause = B_TRUE;
+	info.play.pause = B_TRUE;
+
+	info.play.sample_rate = 8000;
+	info.play.encoding = AUDIO_ENCODING_LINEAR;
+	info.play.channels = 1;
+	info.play.precision = 16;
+	info.record.sample_rate = 8000;
+	info.record.encoding = AUDIO_ENCODING_LINEAR;
+	info.record.channels = 1;
+	info.record.precision = 16;
+
+	info.record.buffer_size = 320 * 4;
+
+	if (ioctl(fd, AUDIO_SETINFO, &info) < 0) {
+		perror("AUDIO_SETINFO");
+		return (B_FALSE);
+	}
+
+	if (ioctl(fd, I_FLUSH, FLUSHRW) < 0) {
+		perror("I_FLUSH");
+		return (B_FALSE);
+	}
+
+	
+	AUDIO_INITINFO(&info);
+
+	info.record.pause = B_FALSE;
+	info.play.pause = B_FALSE;
+
+	if (ioctl(fd, AUDIO_SETINFO, &info) < 0) {
+		perror("AUDIO_SETINFO");
+		return (B_FALSE);
+	}
+
+	return (B_TRUE);
+}
+
+
+boolean_t
+svs_in(int ifd, gsm handle, gsm_byte *buf)
+{
+	gsm_signal sample[160];
+
+	if (read(ifd, sample, sizeof (sample)) != sizeof (sample)) {
+		fprintf(stderr, "svs_in: short read\n");
+		return (B_FALSE);
+	}
+
+	gsm_encode(handle, sample, buf);
+
+	return (B_TRUE);
+}
+
+
+boolean_t
+svs_out(int ofd, gsm handle, gsm_byte *buf)
+{
+	gsm_signal sample[160];
+
+	if (gsm_decode(handle, buf, sample) < 0) {
+		fprintf(stderr, "svs_out: gsm_decode failed\n");
+		return (B_FALSE);
+	}
+
+	if (write(ofd, sample, sizeof (sample)) != sizeof (sample)) {
+		fprintf(stderr, "svs_out: short write\n");
+		return (B_FALSE);
+	}
+
+	return (B_TRUE);
+}
+
+
+main()
+{
+	gsm handle;
+	gsm_frame frame;
+	int audiofd;
+	int option;
+	des_cblock key, ivec_in, ivec_out;
+	des_key_schedule ks_in, ks_out;
+	des_cblock cbuf_in[4], cbuf_out[4], cbuf_buf[4];
+
+	audiofd = open("/dev/audio", O_RDWR);
+	if (audiofd < 0) {
+		perror("open");
+		exit(4);
+	}
+
+	/*
+	 * Initialize GSM compression code
+	 */
+	if ((handle = gsm_create()) == NULL) {
+		fprintf(stderr, "svs: gsm_create failed\n");
+		exit(4);
+	}
+
+	option = B_TRUE;
+	if (gsm_option(handle, GSM_OPT_FAST, &option) < 0) {
+		fprintf(stderr, "svs: gsm_option (FAST) failed\n");
+		exit(4);
+	}
+
+	/*
+	 * Initialize DES code
+	 */
+	des_random_key(&key);
+
+	if (des_set_key(&key, ks_in) < 0) {
+		fprintf(stderr, "svs: des_set_key failed\n");
+		exit(4);
+	}
+	if (des_set_key(&key, ks_out) < 0) {
+		fprintf(stderr, "svs: des_set_key failed\n");
+		exit(4);
+	}
+	memset(ivec_in, 0, sizeof (ivec_in));
+	memset(ivec_out, 0, sizeof (ivec_out));
+
+	/*
+	 * Open audio device and configure it
+	 */
+	if (!svs_audio_init(audiofd, NULL))
+		exit(3);
+
+	for (;;) {
+		/*
+		 * Get 160 samples (16-bit linear 8000Hz) and
+		 * convert to a 33 byte frame
+		 */
+		if (!svs_in(audiofd, handle, frame))
+			exit(1);
+
+		/*
+		 * Encrypt/Decrypt block
+		 */
+		des_cbc_encrypt(frame, cbuf_out, (long)32, ks_in, ivec_in,
+		    DES_ENCRYPT);
+		des_cbc_encrypt(cbuf_out, cbuf_buf, (long)32, ks_out, ivec_out,
+		    DES_DECRYPT);
+
+		memmove(frame, cbuf_buf, 32);
+
+#if 0
+		if (memcmp(cbuf_in, cbuf_buf, 32) != 0) {
+			fprintf(stderr, "svs: memcmp failed\n");
+			exit(4);
+		}
+#endif
+
+		/*
+		 * Take 33 byte frame and convert to 160 samples
+		 * and play
+		 */
+		if (!svs_out(audiofd, handle, frame))
+			exit(2);
+	}
+
+	gsm_destroy(handle);
+}
+<--------------------------- CUT HERE ----------------------------->

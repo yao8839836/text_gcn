@@ -1,0 +1,20 @@
+From: ferch@ucs.ubc.ca (Les Ferch)
+Subject: Re: When is Apple going to ship CD300i's?
+Organization: The University of British Columbia
+Lines: 14
+NNTP-Posting-Host: swiss.ucs.ubc.ca
+
+In <1r1d2r$baf@umcc.umcc.umich.edu> dlc@umcc.umcc.umich.edu (David
+Claytor) writes: 
+
+>BTW, I've heard that the System Install CD can be used to boot the mac;
+>however, my drive will NOT accept a CD caddy is the machine is off.  How can
+>you boot with it then?
+
+The supplemental manual that comes with the Quadra 800 explains it. I
+don't have the manual in front of me, but as I recall, you insert the CD
+while the machine is running, select Restart from the special menu, and
+then hold down a special sequence of keys to force it to boot from the CD
+instead of the hard disk. I think the key combination is
+Command-Option-Delete or Command-Ctrl-Del. 
+

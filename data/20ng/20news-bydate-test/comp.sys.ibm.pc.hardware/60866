@@ -1,0 +1,22 @@
+From: hamish@waikato.ac.nz
+Subject: Need info on WD7000
+Organization: University of Waikato, Hamilton, New Zealand
+Lines: 17
+
+
+I need to find how to program the WD7000 FAAST SCSI controller (A 16 bit DMA
+SCSI controller for the PC (ISA bus)). Can somebody point me in the direction
+of some low level docs on the net? Or will I have to get hold of the
+manufacturers? Who did actually make this anyway? Who will have the docs?
+
+TIA.
+
+PS> I don't ant the BIOS docs, I want to know how to attack this sucker from
+the ground level (ie send my own SCSI commands out it from OS/2)
+
+-- 
+Hamish Marson, Computer Services, University of Waikato|
+hamish@waikato.ac.nz.  Fax +64 7 8384066               | Computers are only 
+Disclaimer: Remember. You heard it here first!         |   Human.....
+		  
+Facts are stubborn, but statistics are more pliable.

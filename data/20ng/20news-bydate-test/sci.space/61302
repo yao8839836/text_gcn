@@ -1,0 +1,31 @@
+From: carl@SOL1.GPS.CALTECH.EDU (Carl J Lydick)
+Subject: Re: Command Loss Timer (Re: Galileo Update - 04/22/93)
+Organization: HST Wide Field/Planetary Camera
+Lines: 23
+Distribution: world
+Reply-To: carl@SOL1.GPS.CALTECH.EDU
+NNTP-Posting-Host: sol1.gps.caltech.edu
+
+In article <1993Apr26.193924.1189@bnr.ca>, jcobban@bnr.ca (Jim Cobban) writes:
+=Having read in the past about the fail-safe mechanisms on spacecraft, I had
+=assumed that the Command Loss Timer had that sort of function.  However I
+=always find disturbing the oxymoron of a "NO-OP" command that does something.
+=If the command changes the behavior or status of the spacecraft it is not
+=a "NO-OP" command.
+
+Using your argument, the NOOP operation in a computer isn't a NOOP, since it
+causes the PC to be incremented.
+
+=Of course this terminology comes from a Jet Propulsion Laboratory which has
+=nothing to do with jet propulsion.
+
+Of course, the complaint comes from someone who hasn't a clue as to what he's
+talking about.
+--------------------------------------------------------------------------------
+Carl J Lydick | INTERnet: CARL@SOL1.GPS.CALTECH.EDU | NSI/HEPnet: SOL1::CARL
+
+Disclaimer:  Hey, I understand VAXen and VMS.  That's what I get paid for.  My
+understanding of astronomy is purely at the amateur level (or below).  So
+unless what I'm saying is directly related to VAX/VMS, don't hold me or my
+organization responsible for it.  If it IS related to VAX/VMS, you can try to
+hold me responsible for it, but my organization had nothing to do with it.

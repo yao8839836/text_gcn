@@ -1,0 +1,244 @@
+From: pvtmakela@hylkn1.Helsinki.FI (M{kel{ Veikko)
+Subject: Astro FTP list - April issue
+Organization: University of Helsinki
+Lines: 239
+
+#                     
+#                        A S T R O - F T P   L I S T
+#                             Updated 28.04.1993
+#
+# This  is  a  short  description  of  anonymous-ftp  file  servers  containing
+# astronomy  and space research related material.  I have  included only  those
+# servers  where  there are  special subdirectories  for  astro stuff  or  much
+# material  included into  a general  directories.  This list is not a complete
+# data set of possible places,  so I would be very happy of all kind of notices
+# and information depending on this listing.
+#
+# The newest version of this file is available via anonymous-ftp as:
+#
+#                nic.funet.fi:/pub/astro/general/astroftp.txt
+#                                       
+# There are also many mirror (copy) archives  for  simtel-20.army.mil (PC)  and 
+# sumex-aim.stanford.edu (Mac) which are not included into this list. Only some
+# of mirroring sites are listed.
+#
+#
+#                                              Veikko Makela
+#                                         Veikko.Makela@Helsinki.FI
+#                                    *Computing Centre of Univ. Helsinki*
+#                                      *Ursa Astronomical Association*   
+
+
+# Server, IP                          # Contents                               
+# Directories                                                                  
+                                                                               
+ames.arc.nasa.gov                     Spacecraf data and news,images,NASA data,
+128.102.18.3                          Spacelink texts,VICAR software,FAQ
+/pub/SPACE
+     
+arp.anu.edu.au                        Images
+130.56.4.90
+/pub/images/nasa
+
+atari.archive.umich.edu               Atari                                    
+141.211.164.8                                                                  
+/atari/applications/astronomy                                                  
+                                                                               
+archive.afit.af.mil                   Satellite software,documents,elements
+129.92.1.66
+/pub/space
+                                                                               
+baboon.cv.nrao.edu                    AIPS document and patches,radioastronomy
+192.33.115.103                        image processing,FITS test images
+/pub/aips
+
+c.scs.uiuc.edu                        ROSAT,Starchart(PC)                      
+128.174.90.3                                                                   
+/pub                                                                           
+                                                                               
+ccu1.aukuni.ac.nz                     PC
+130.216.1.5
+/msdos/astronomy                      (*) overseas connections refused
+
+chara.gsu.edu                         Electronical Journal of ASA, Journal of
+131.96.5.10                           ASA, SAC news
+/
+
+explorer.arc.nasa.gov                 Magellan, Viking and Voyager CDROMs
+128.102.32.18
+/cdrom
+
+export.lcs.mit.edu                    XEphem distribution
+18.24.0.12
+/contrib/xephem
+
+epona.physics.ucg.ie                  Some software, predictions, images,
+140.203.1.3                           FITS info, miscellaneous
+/pub/astro
+/pub/space
+/pub/fits
+
+fits.cv.nrao.edu                      FITS documents, OS support, sample data,
+192.33.115.8                          test files, sci.astro.fits archive
+/FITS
+                                                                               
+ftp.cicb.fr                           Images
+129.20.128.27
+/pub/Images/ASTRO
+
+ftp.cco.caltech.edu                   Astronomy magazine index 1991                                         
+131.215.48.200                                                                 
+/pub/misc                                                                      
+                                                                               
+ftp.cs.tu-berlin.de                   PC,Amiga,Mac,Unix,images,general
+130.149.17.7
+/pub/astro
+
+ftp.funet.fi                          PC,Mac,CP/M,Atari,Amiga,databases,Unix,
+128.214.6.100                         HP48,OS/2,texts,News,solar reports,images,
+/pub/astro                            Satellite elements,FAQ
+                                                                               
+ftp.uni-kl.de                         iauc,Vista image reduction,asteroids
+131.246.9.95
+/pub/astro
+
+garbo.uwasa.fi                        PC
+128.214.87.1
+/pc/astronomy                                                                  
+                                                                               
+gipsy.vmars.tuwien.ac.at              images
+128.130.39.16
+/pub/spacegifs
+
+hanauma.stanford.edu                  Unix, satellite program, images
+36.51.0.16                                                                      
+/pub/astro                                                                     
+/pub/astropix
+
+hysky1.stmarys.ca                     ECU distribution
+140.184.1.1
+/pcstuff
+
+idlastro.gsfc.nasa.gov                IDL routines 
+128.183.57.82
+/
+                                                                               
+iraf.noao.edu                         IRAF Software                            
+140.252.1.1                                                                    
+/iraf                                                                          
+                                                                               
+julius.cs.qub.ac.uk                   Space Digest
+143.117.5.6
+/pub/SpaceDigestArchive
+
+rata.vuw.ac.nz                        Astrophysical software
+130.195.2.11
+/pub/astrophys                                                                 
+                                                                               
+kilroy.jpl.nasa.gov                   Satellite elements,spacecraft info
+128.149.1.165
+/pub/space
+
+ns3.hq.eso.org                        Test images, Standards
+134.171.11.4
+/pub/testimages
+/pub/standards
+
+nssdca.gsfc.nasa.gov                  HST,IUE,Astro-1,NSSDCA info,Spacewarn,
+128.183.36.23                         FITS standard                       
+/                                                                         
+                                                                               
+plaza.aarnet.edu.au                   images,docs,Magellan
+139.130.4.6
+/graphics/graphics/astro
+/magellan
+
+pomona.claremont.edu                  Yale Bright Star Catalog
+134.173.4.160
+/YALE_BSC
+
+pubinfo.jpl.nasa.gov                  JPL news, status reports, images
+128.149.6.2
+/
+
+ra.nrl.navy.mil                       Mac
+128.60.0.21
+/MacSciTech/astro
+
+rascal.ics.utexas.edu                 Mac                                      
+128.83.138.20
+/mac                                                                           
+                                                                               
+rigel.acs.oakland.edu                 PC
+141.210.10.117
+/pub/msdos/astronomy
+
+rusmv1.rus.uni-stuttgart.de           Atari                                    
+129.69.1.12                                                                    
+/soft/atari/applications/astronomy                                             
+                                                                               
+simtel20.army.mil                     PC,CP/M                                  
+192.88.110.20
+/msdos/educ                                                                    
+/cpm                                                                           
+                                                                               
+sol.deakin.oz.au                      garbo.uwasa.fi c.                        
+128.184.1.1                                                                    
+/pub/PC/chyde/astronomy                                                        
+                                                                               
+solbourne.solbourne.com               some PC programs
+141.138.2.2
+/pub/rp/as-is/astro
+
+stardent.arc.nasa.gov                 Martian map                              
+128.102.21.44                                                                  
+/pub                                                                           
+                                                                               
+stsci.edu                             HSTMap(Mac),HST info                                       
+130.167.1.2                                                                    
+/Software                                                                      
+                                                                               
+sumex.stanford.edu                    Mac                                      
+36.44.0.6                                                                      
+/info-mac/app                                                                  
+                                                                               
+sun0.urz.uni-heidelberg.de            PC,misc
+129.206.100.126
+/pub/msdos/astronomy
+
+techreports.larc.nasa.gov             NASA Langley technical reports
+128.155.3.58
+/pub/techreports/larc
+
+tetra.gsfc.nasa.gov                   FITSIO subroutines                             
+128.183.8.77                                                                   
+/pub
+                                                                               
+unbmvs1.csd.unb.ca                    Space geodesy,solar activity info
+131.202.1.2
+pub.canspace
+
+vmd.cso.uiuc.edu                      Weather satellite images
+128.174.5.98
+/wx
+
+world.std.com                         PC; source codes
+192.74.137.5
+/pub/astronomy
+
+xi.uleth.ca                           Solar reports,auroral activity forecast
+142.66.3.29                           maps,solar images,x-ray plot,coronal
+/pub/solar                            emission plots
+
+# Some abbreviations:
+#
+#   c = copy (mirror) of other archive
+
+
+
+
+# -----
+# My other e-communication projects:
+# * E-mail contact addresses of interest groups in amateur astronomy
+# * European astronomy and space-related bulletin boards
+# * E-mail catalogue of Finnish amateur astronomers

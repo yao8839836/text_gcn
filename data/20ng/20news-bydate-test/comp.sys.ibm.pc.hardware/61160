@@ -1,0 +1,18 @@
+From: iisakkil@beta.hut.fi (Mika Iisakkila)
+Subject: Re: DX50 vs DX266
+In-Reply-To: arnolm2@aix.rpi.edu's message of Wed, 21 Apr 1993 23:55:12 GMT
+Nntp-Posting-Host: beta.hut.fi
+Organization: Helsinki University of Technology, Finland
+Lines: 11
+
+arnolm2@aix.rpi.edu (Matthew Richard Arnold) writes:
+>chip in the future.  I must be missing something, since everyone is 
+>buying the DX2 66...  Many adds don't even mention the DX 50.
+
+The 50 MHz external bus speed provides a hell for cache designs. Most
+of the DX-50 boards have too slow caches that make them effectively
+DX2-50:s. Also as someone else pointed out, local bus boards are
+better off at 33 MHz bus speed. The 8k internal cache allows the
+DX2-66 to be generally faster anyway.
+--
+Segmented Memory Helps Structure Software

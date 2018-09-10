@@ -1,0 +1,48 @@
+From: wng@geop.ubc.ca (William Ng)
+Subject: Re: (Q) SCSI&IDE (i.e. 2 or more hard drives)
+Organization: University of B.C. Geophysics & Astronomy
+Lines: 41
+Distribution: world
+NNTP-Posting-Host: gafs.geop.ubc.ca
+
+In article <1993Apr19.220704.18518@news.cs.brandeis.edu> 
+& wbarnes@sura.net (Bill Barnes) writes:
+
+>>Has anyone (successfully) put both SCSI and IDE hard drives
+>>on the same system?
+
+>I would like to know as well, since I just bought a 200MB Seagate IDE
+>drive and want to add it to my computer (a four-year-old Gateway
+>386/20), which currently has an 80MB Seagate SCSI drive.  The SCSI
+>controller is such that the docs told me not to specify it in the CMOS
+>setup, i.e. both hard drive settings are listed as "Not installed,"
+>and apparently the SCSI controller works its wonders.  I wondering if
+>this is a problem.  Also, I remember how, when I helped my cousin
+>install his second IDE drive, we had to define a master/slave
+>relationship for them; do I need to do something similar here?
+
+>>I am particularly interested in having the SCSI as the _boot_ drive.
+
+>Same here.
+
+>Any help would be appreciated, since I intend to install this drive
+>ASAP; I'd like to know what to do (and what not to do) before I start.
+>Thanks!
+
+I have been using both IDE (or MFM) and SCSI drives for years.  I have 2
+IDE and 1 SCSI on one system and the other with 2 IDE, 2 SCSI disk, and 
+1 SCSI CDROM.  I currently using ALWAYS IN2000 SCSI card, but I also have
+a Future Domain, a Western Digital SCSI card, and I work with an ADAPTIC 
+before.  As I recall, all these cards can support boot and floppy drive.
+However, to use with other controller (IDE, MFM...) the boot drive has to
+be the IDE (or MFM).  You CAN NOT boot from the SCSI if you have other 
+controller in the system.  If you guys only have 2 drives (1 IDE, 1 SCSI).
+just set up the IDE in your CMOS setup.  Make sure you can boot from it.
+Then, set up the SCSI controller (IRQ, DMA, etc). Set the SCSI drive to 
+ID 0.  Just plug and play for all the cards I seen so far.  Only if you 
+have more than 2 drives then you need driver for the third drive and so
+on.  If you have more question, email me, I will try to answer it.
+Good Luck!
+
+William
+

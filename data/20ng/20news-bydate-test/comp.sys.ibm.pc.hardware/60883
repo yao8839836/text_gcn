@@ -1,0 +1,35 @@
+From: jbayer@ispi.COM (Jonathan Bayer)
+Subject: Re: Problems with Toshiba 3401 CDROM
+Organization: Intelligent Software Products, Inc.
+Lines: 30
+
+imj1@cunixa.cc.columbia.edu (Imad M Jureidini) writes:
+
+>Hi!
+>	I recently purchased the Toshiba 3401 CDROM.  I own an Adaptec 1542B
+>SCSI card, and I have so far failed to get the CDROM to work under DOS.  It
+>works very well under OS/2, so I know that the drive is not faulty.
+>In my config.sys, I have aspi3dos.sys, aspidisk.sys, aspicd.sys.  In my 
+>autoexec.bat, I have MSCDEX, which came with DOS 6.0.  MSCDEX seems to find
+>and install the drive as drive F:, but when I switch to that drive and try a
+>dir, I get an error message telling me the drive is not ready or something
+>like that.  The CDROM is locked too, and the adaptec utilities don't seem to
+>recognize that I have a CDROM at that point.
+
+
+The current Adaptec drivers do not support the Toshiba 3401.  you should
+get the Corel SCSI drivers, which do support it.
+
+This is the method that I used, and it works well.
+
+Corel's phone number is 1(613) 728-3733
+
+Just a satisfied user.
+
+
+
+JB
+-- 
+Jonathan Bayer		Intelligent Software Products, Inc.
+(908) 248-1853		37 Winthrop Rd. 
+jbayer@ispi.COM		Edison, NJ   08817

@@ -1,0 +1,41 @@
+From: dmsilev@athena.mit.edu (Daniel M Silevitch)
+Subject: Re: Word for Windows Problems
+Organization: Massachusetts Institute of Technology
+Lines: 34
+Distribution: world
+NNTP-Posting-Host: w20-575-40.mit.edu
+
+In article <1993May16.043242.1973@lugb.latrobe.edu.au>, cleeve@lucifer.latrobe.edu.au (Jason Cleeve) writes:
+|> In trying to use the Equation editor in Word for Windows 2.0 I get
+|> a couple of error messages along the lines of:
+|> 
+|> >Can't find font MT Extra for default printer. Some characters my not be
+|> >displayed or printed.Try installing Equation editor again or reinstall a 
+|> >new printer.
+|> 
+|> Similar for the font Fences.
+|> 
+|> I know I have these fonts on my system but are unable to use them.
+|> I have tried both of these solutions to no avail.
+|> 
+|> If anyone has had similar problems and has found a way to fix this, could 
+|> they let me know. It is urgently required !!
+|> 
+|> Thanks ,
+|> 
+
+IT'S BACK!!!!!!
+
+Congratulations, you've just discovered a very nasty, and very frequently
+ecountered, bug in the Word Setup program. Once you know what is wrong, it
+is quite easy to fix. Go into the Fonts dialog under Control Panel, and select
+the two fonts MT Extra and Fences. Delete them, but only delete the list
+entries, not the disk files. Now select Add, and add the fonts MT Extra Plain
+and Fences Plain. Close the Font box, close Control Panel, and restart Word.
+Everything should be alright now.
+
+Does anyone know if Microsoft has fixed this thing yet? They HAVE to know
+about it by now, it's been so frequently reported.
+
+Daniel Silevitch                                dmsilev@athena.mit.edu
+Massachusetts Institute of Technology

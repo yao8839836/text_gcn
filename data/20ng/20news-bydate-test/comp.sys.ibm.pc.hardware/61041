@@ -1,0 +1,26 @@
+From: nelson@crynwr.com (Russell Nelson)
+Subject: IP numbers on Ethernet Cards 
+Distribution: world
+Organization: Crynwr Software
+Lines: 16
+
+In article <1993Apr21.162512.217@uvm.edu> djohnson@moose.uvm.edu writes:
+
+   Is it possible through either pin configuration or through software
+   programming to change the IP numbers on an ethernet card?
+
+The Ethernet card doesn't use the IP number (32-bits, usually
+#.#.#.#); it uses the Ethernet address (48-bits, usually
+#:#:#:#:#:#). I have never run across an Ethernet controller that
+cannot be programmed to use an address that is not assigned to it.
+DECNET requires this feature.
+
+However, that said, there is no reason to ever change the Ethernet
+address.  They are globally unique, the first three bytes being
+assigned to the manufacturer by the IEEE, and the last three by the
+manufacturer.
+
+-russ <nelson@crynwr.com> What canst *thou* say?
+Crynwr Software           Crynwr Software sells packet driver support.
+11 Grant St.              315-268-1925 Voice  |  LPF member - ask me about
+Potsdam, NY 13676         315-268-9201 FAX    |  the harm software patents do.

@@ -1,0 +1,22 @@
+From: dplatt@ntg.com (Dave Platt)
+Subject: Jumper settings for Ungermann-Bass PCNIC Ethernet card
+Organization: New Technologies Group
+Distribution: usa
+Lines: 16
+
+Does anybody have a data-sheet handly for the above-mentioned card?  I
+bought one, sans manual at a local surplus shop, and want to try it out
+with the Crywyr packet driver suite.  
+
+The IRQ and interface-select jumpers are pretty straightforward, but I
+don't grok the settings of W10-W18 (also labelled A15 through A18).
+Could somebody tell me which settings of these four jumpers correspond
+to what I/O addresses?
+
+Is there anything else about this card I should know, before I
+plug&play?
+
+-- 
+Dave Platt                                                VOICE: (415) 813-8917
+              Domain: dplatt@ntg.com      UUCP: ...netcomsv!ntg!dplatt
+ USNAIL: New Technologies Group Inc. 2470 Embarcardero Way, Palo Alto CA 94303

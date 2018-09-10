@@ -1,0 +1,45 @@
+From: Carr-C10973@email.comm.mot.com (Eric Carr)
+Subject: Re: help with phone wire: which ones are "tip" & "ring"?
+Distribution: usa
+Organization: SmartNet Trunked Systems
+Lines: 38
+Nntp-Posting-Host: 145.1.160.178
+
+In article <1993Apr22.103922.23177@husc3.harvard.edu>,
+mlevin@husc8.harvard.edu (Michael Levin) wrote:
+> 
+> 
+> I just bought a little gizmo that is supposed to be installed "in
+> series with the tip or ring lines" of the phone wire. Which ones are
+> those? Suppose I am holding a regular phone wire, such that the little
+> plastic tooth (on the little plastic square thing with the naked lead
+> ends that you plug into the phone) is facing down, and away from me.
+> Which of the 4 wires that I see is the "tip" and which is the "ring"?
+> Please reply to mlevin@husc8.harvard.edu.
+> 
+> Mike Levin
+
+Assuming you are refering to standard POTS or ground start lines:
+
+If you are looking at loop start lines under idle conditions, the RING
+conductor is the one with approximately -48 to -52 vDC with respect to
+ground while the TIP conductor is at or very near ground potential (be sure
+to reference the telco ground when taking your measurements).  
+
+If you are dealing with ground start lines under idle conditions, the RING
+conductor will be the one with approximately -48 to -52 vDC while the TIP
+conductor would look like it's floating (you may see some potential from
+line capacitance it will bleed off over time).  Remember to use the telco
+ground as your reference when making measurements. 
+
+
+
+                                   _________
+                            ______/        /_______
+                           /     '67 Caprice      /
+                          /_____ Sport Coupe_____/
+                                /_________/
+
+
+                              
+                                          

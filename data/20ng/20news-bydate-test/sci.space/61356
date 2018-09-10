@@ -1,0 +1,40 @@
+From: dietz@cs.rochester.edu (Paul Dietz)
+Subject: Re: What planets are habitable
+Organization: University of Rochester Computer Science Dept
+Lines: 35
+
+> I would appreciate any thoughts on what makes a planet habitable for
+> Humans.  I am making asumptions that life and a similar atmosphere
+> evolve given a range of physical aspects of the planet.  The question
+> is what physical aspects simply disallow earth like conditions.
+
+This is a good question.  There are major blind spots in our understanding
+of what makes the earth habitable.  For example, why does the earth's
+atmosphere have the concentration of oxygen it does?  The naive
+answer is "photosynthesis", but this is clearly incomplete.  Photosynthesis
+by itself can't make the atmosphere oxygenated, as the oxygen produced
+is consumed when the plants decay or are eaten.  What is needed
+is photosynthesis plus some mechanism to sequester some fraction of
+the resulting reduced material.
+
+On earth, this mechanism is burial in seafloor sediments of organic
+matter, mostly from oceanic sources.  However, this burial requires
+continental sediments (in the deep ocean, the burial rate is so slow
+that most material is consumed before it can be sequestered).
+
+This suggests that a planet without large oceans, or a planet without
+continents undergoing weathering, will have a hard time accumulating
+an oxygen atmosphere.  In particular, an all-ocean planet may have a
+hard time supporting an oxygen atmosphere.
+
+There is also the problem of why the oxygen in the earth's atmosphere
+has been relatively stable over geological time, for a period at least
+2 orders of magnitude longer than the decay time of atmospheric O2 to
+weathering in the absence of replenishment.  No convincing feedback
+mechanism has been identified.  Perhaps the reason is the weak
+anthropic principle: if during the last 500 MYr or so, the oxygen
+level had dropped too low, we wouldn't be here to be wondering about
+it.
+
+	Paul F. Dietz
+	dietz@cs.rochester.edu

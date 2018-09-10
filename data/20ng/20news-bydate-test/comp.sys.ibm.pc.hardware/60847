@@ -1,0 +1,24 @@
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Subject: Com ports 5-8.
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 17
+
+*** On 04-21-93  04:54, Mark had the unmitigated gall to say this:
+
+ Ma> Does anyone know what the standard port addresses are for COM ports 5
+ Ma> through 8? (If there is a standard of any sort!)
+
+There are no standards for PC COM ports above COM2.  While there are "de
+facto" standards for COM 3-4, they are not guarenteed to work.  The PS/2 can
+use up to 8 ports, I think, but I don't know the specs.  Good luck!
+
+... I tried to contain myself, but I escaped.
+--- Blue Wave/QWK v2.10
+                         
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com

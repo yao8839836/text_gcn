@@ -1,0 +1,22 @@
+From: hades@coos.dartmouth.edu (Brian V. Hughes)
+Subject: Re: DESI PB upgrade
+Reply-To: hades@Dartmouth.Edu
+Organization: Dartmouth College, Hanover, NH
+Disclaimer: Personally, I really don't care who you think I speak for.
+Moderator: Rec.Arts.Comics.Info
+Lines: 14
+
+David_A._Schnider@bmug.org writes:
+
+>Does anyone know exactly how Digital Eclipse does their upgrades?  Someone was
+>suggesting to me that some chips may not be able to perform at 33MHz.  Is this
+>true, and if so, how does DESI deal with that?
+
+    Would you believe that there is a letter in MacWEEK this week from
+one of the hardware types at Digital Eclipse. He says that they run
+tests on all of the components to see if they will perform at the
+upgraded speed. If they do not then DESI replaces them with ones that
+do.
+
+-Hades
+

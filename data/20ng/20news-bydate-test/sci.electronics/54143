@@ -1,0 +1,25 @@
+From: gsulliva@enuxha.eas.asu.edu (Glenn A Sullivan)
+Subject: Re: Need help with video detection circuit
+Summary: Build a cheap video detector
+Organization: Arizona State University
+Lines: 19
+
+verity@jack.sns.com (Steve Verity) writes:
+> I am trying to build a circuit that detects the presence of video (Vs.
+> a blank screen) by monitoring the R,G, and B outputs of a graphics
+> card.  It should be able to detect the presence of a single pixel at
+> 65 MHz, which would mean detecting a 15 NS pulse.  It should also be
+> able to tell the difference between a blank screen (about 300 mv)
+> and a dim screen (say, around 310 mv).  Oh yes, it also needs to be
+> cheap.  ............... In 
+> fact the difference between completely black and completely white is
+> only 650 mv.  I am wondering if I am going to have to amplify the
+> video signals to make this work.  
+
+Try a differential amplifier. Put back-to-back diodes between the collectors
+restrict the voltage swing. Have 10 mA flow, with 500 ohm collector Rs, and
+keep the stray C below 10 pF. Try 2N5179s. Run collector to your logic.
+Allen Sullivan     
+
+
+

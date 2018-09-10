@@ -1,0 +1,30 @@
+From: jak@fff.chem.utah.edu (Mr. Stress)
+Subject: Hosed HD?
+Organization: University of Utah Computer Center
+Lines: 25
+
+
+
+Hey All-
+
+We have an old (1990) external HD attached to the Plus in our lab.  It had  
+given us flawless service until last week.  The problem: Someone in our lab  
+has an old 512 that was upgraded a couple years ago to a Plus with an  
+aftermarket SIMM/SCSI setup (Digigraphics "SIMMer").  the DB25 SCSI plug runs  
+through the back of the machine and attaches to the board with a 26-pin  
+rectangular connector.  Well, this guy had removed the back from the machine,  
+to put more memory in, and had disconnected the the SCSI plug.  Since the  
+26-pin connector is symmetrical (not keyed) he may have reinstalled it upside  
+down, essentially reversing the pins on the DB25.  He came in and asked if he  
+could try out our HD on his SCSI port (it had never been used).  Naive fools  
+that we are, we said o.k..  His computer failed to recognize the drive.  Now,  
+none of the computers in our lab will recognize it.  We tried Disk Doctor, and  
+it doesn't recognize anything on the SCSI chain.  Could installing the SCSI  
+upside down have wrecked the HD's driver board?  The drive seems to spin up  
+all right and unpark itself upon powerup.  The events are too coincidental to  
+attribute the problem to stiction.
+
+Any help greatly appreciated-
+
+James
+jak@fff.chem.utah.edu  (NeXT Mail)   

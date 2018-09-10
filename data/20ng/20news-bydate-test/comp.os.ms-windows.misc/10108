@@ -1,0 +1,24 @@
+From: ebosco@us.oracle.com (Eric Bosco)
+Subject: emm386 and windows
+Nntp-Posting-Host: monica.us.oracle.com
+Reply-To: ebosco@us.oracle.com
+Organization: Oracle Corp., Redwood Shores CA
+X-Disclaimer: This message was written by an unauthenticated user
+              at Oracle Corporation.  The opinions expressed are those
+              of the user and not necessarily those of Oracle.
+Lines: 14
+
+
+On my PC I almost exclusively run windows. The only dos based application  
+I have is ProcommPlus.  In my config.sys I have emm386 loaded with the  
+option noems (no expanded memory). Following a thread in one of the comp  
+newsgroups, I read that it was no necessary to have emm386 loaded. Indeed,  
+in the manual, it says that emm386 is used to get expanded memory out of  
+extended memory. Since I have the noems option, it seems to me that the  
+emm386 device is useless in my case. 
+
+Should I use emm386 or should I remove it from my config.sys?
+
+Thanks for your help,
+
+-Eric

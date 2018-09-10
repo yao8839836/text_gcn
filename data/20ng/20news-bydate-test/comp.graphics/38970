@@ -1,0 +1,33 @@
+From: eball12@ursa.calvin.edu (Edward Ball)
+Subject: IBM: Writing to screen memory (graphics)
+Nntp-Posting-Host: ursa
+Organization: Calvin College
+Lines: 27
+
+Can anyone give me information or lead me to electronic information (not
+books; I'm too poor...) regarding programming the standard graphics modes?
+320x200x4 and 640x200x2 are easy enough, but I'm not so sure about the
+rest.  Something about planes or something, and writing to ports and the
+like, but I don't know the numbers or anything -- for the 16 color modes, I
+think.  If I'm wrong, let me know.  Also, 320x200x256 is just one byte/pixel;
+that's easy enough, but are there any other ways to write to the screen,
+perhaps bytes at a time, or something like that?
+
+Of course, I'd appreciate any information about any mode....  which reminds
+me of another question -- do the SuperVGA modes work the same, generally,
+as the normal 16 and 256 color modes, or is not only the mode numbers
+for various cards different, but the methods for writing to the screen
+different as well?
+
+Thanks for any help you can give me...  I'm developing a screen class for
+C++ and find myself searching for information.  Oh, I do have Ralf Brown's
+Interrupt List, which has given me tons of invaluable information already.
+It just doesn't go into the screen programming details (except for the
+read/write pixel BIOS calls...
+
+Thanks again.
+
+--
+///////////////////////////////////////////////////////////////////////////
+// Edward Ball, .sigless Knight                       eball12@calvin.edu //
+///////////////////////////////////////////////////////////////////////////

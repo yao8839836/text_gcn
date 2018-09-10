@@ -1,0 +1,24 @@
+From: arm1@cbnewsm.cb.att.com (arlen.r.martin)
+Subject: Re: Mitsumi and SB Pro
+Organization: AT&T
+Distribution: usa
+Lines: 18
+
+In article <21APR199311301194@elroy.uh.edu> st1r8@elroy.uh.edu (B.J. Guillot) writes:
+>In article <1993Apr20.074447.26955@zip.eecs.umich.edu>, grover@emunix.emich.edu (Grover Thomas) writes...
+>>Just poke out the little pins in the connector, and then replace them in
+>>the correct slots.
+>
+>Is this reverisible?  You can unpoke as easy as you poke?
+>
+
+Yep.  I've done this, too.  The trick is to use a tiny screwdriver and push
+down on the "latch" of each pin and then pull it out of the connector.  Label
+each one first with tape so you don't get them confused after you've pulled
+them out.  Compare the pinout tables in the Mitsumi and Soundblaster manuals
+to get the correct orientation.
+
+
+Arlen Martin
+AT&T
+att!attme!stcarm

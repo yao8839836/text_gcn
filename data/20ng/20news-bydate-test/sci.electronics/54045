@@ -1,0 +1,37 @@
+From: rdell@cbnewsf.cb.att.com (richard.b.dell)
+Subject: Re: Lead Acid batteries & Concrete?
+Organization: AT&T
+Distribution: na
+Lines: 31
+
+In article <1993Apr21.204556.21262@cronkite.ocis.temple.edu> camter28@astro.ocis.temple.edu (Carter Ames) writes:
+>
+>   I was just wondering one thing, actually two. ( I hope that this is the
+>proper place to post this subject)
+>
+>  Why does a lead acid battery discharge and become dead (totally unuseable)
+>when stored on a concrete floor?  
+>  I decided to bring the battery in from the lawn mower and the motorcycle
+>from the unheated garage this year, *to preserve them* and I just
+>went to use them and noticed that not only do they not work, but 
+>they act like the two terminals are shorted.  I asked a friend
+>and he said that you should never do that, 'cause it ruins them,
+>but he couldn't tell me why.
+>
+>thanks
+>camter28@astro.ocis.temple.edu
+
+I am not a battery expert, but from recent reading, a lead acid battery
+will self discharge at a relatively high rate, and if stored in a discharged
+state, will develop a condition I think is called sulfation.  In storage,
+either the electrolyte should be removed and replaced for use (fat chance
+I'd ever do that at home), or the battery should be stored on a trickle
+charge.  I have also (I think) read that the condition may be reversable
+if hooked up to a current limited charging circuit fro a LONG period of time.
+The refernce I remember is to use C/50 (where C is the amp hours) as the
+charging circuit, and leave it hooked up for weeks.  Some of this may
+only apply to Gel type cells, but I suspect the same applies to the liquid
+type.
+
+Richard Dell
+

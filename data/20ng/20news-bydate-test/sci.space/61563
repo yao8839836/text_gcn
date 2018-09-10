@@ -1,0 +1,44 @@
+From: abdkw@stdvax.gsfc.nasa.gov (David Ward)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+News-Software: VAX/VMS VNEWS 1.4-b1  
+Organization: Goddard Space Flight Center - Robotics Lab
+Lines: 38
+
+In article <1rs8hlINN8he@gap.caltech.edu>, palmer@cco.caltech.edu (David M. Palmer) writes...
+>  
+>You may want to put Hubble back in the payload bay for a reboost,
+>and you don't want to clip off the panels each time.
+
+The "artist renderings" that I've seen of the HST reboost still have
+the arrays fully extended, with a cradle holding HST at a ~30 degree
+angle to the Shuttle.  I think the rendering was conceived before the
+array replacemnet was approved, so I'm not sure if the current reboost
+will occur with the arrays deployed or not.  However, it doesn't 
+appear that an array retraction was necessary for reboost.
+> 
+>For the Gamma-Ray Observatory, one of the design requirements was that
+>there be no stored-energy mecahnisms (springs, explosive squibs, gas shocks,
+>etc.) used for deployment.  This was partially so that everything could
+>be reeled back in to put it back in the payload bay, and partially for
+>safety considerations.  (I've heard that the wings on a cruise missile
+>would cut you in half if you were standing in their swath when they opened.)
+> 
+
+Thanks for the input on GRO's S/A design constraints.  That would 
+explain the similar design on UARS.
+
+>Back when the shuttle would be going up every other day with a cost to
+>orbit of $3.95 per pound :-), everybody designed things for easy servicing.
+> 
+
+Heck, the MMS project used to design _missions_ with servicing in mind.
+The XTE spacecraft was originally designed as an on-orbit replacement
+for the instrument module on EUVE.  That way, you get two instruments
+for the price of one spacecraft bus (the Explorer Platform).  A 
+second on-orbit replacement was also considered, with the FUSE telescope.
+
+>-- 
+>		David M. Palmer		palmer@alumni.caltech.edu
+>					palmer@tgrs.gsfc.nasa.gov
+
+David W. @ GSFC

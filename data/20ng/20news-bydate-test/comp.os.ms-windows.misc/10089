@@ -1,0 +1,70 @@
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: leaking memory resources in 3.1
+Organization: Texas Instruments Inc
+Lines: 65
+
+In <29APR199309371113@bpavms.bpa.arizona.edu> dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:
+
+>    This may be an FAQ (if so, please direct me to the known answer) but I
+>    am getting frustrated and looking for help.
+
+>    I am running Win 3.1 with NDW 2.2 on a 486sx with 8 meg of memory and a
+>    6 meg perm swap file and am getting exceedingly frustrated that my
+>    applications are not giving back system resources when I close them.
+
+>    I am aware this is a known problem; what I am looking for are some
+>    suggestions of what I might do to mitigate it.  
+
+>    1. What software is the culprit?  Win 3.1, NDW, my applications?  Are
+>    some modes of Win 3.1 (standard, real, enhanced) better than others at
+>    plugging this leak?
+
+It's the applications that do this.  Unfortunately, even the applets
+that ship with Win31 seem to have this problem (I've seen it in
+Solitaire, for example).  
+
+>    2. Are their system.ini switches i can set to help plug this leak?
+
+None that I know of.  If an application doesn't give back the
+resources, they are lost and gone forever, pending a restart of
+Windows. 
+
+>    3. Do people know of patches or third party software that help with
+>    this?  Seems like increasing or better managing system resources is a
+>    great market for a third party memory company like QEMM.
+
+If the applications don't free up the memory (and a lot of them
+don't), there's bugger all that any other piece of software can do
+about it.
+
+>    4. If I run Progman instead of NDW will the leak subside?  (I was
+>    hoping that NDW 2.2 would have plugged this, but it seems no different
+>    than 2.0 in how it deals with memory and resources.)
+
+No.  This is a problem with the applications, usually.
+
+>    5. When I am writing VB code are there things I can do to make it less
+>    likely my code will eat resources?
+
+There are books written on this one.  In general, just be sure to free
+up everything that you ask for before you exit.  Unfortunately, I
+understand that VB will *internally* lose resources for you, so
+there's no way to avoid this entirely.
+
+>    6. Any other suggestions that I don't know enough to ask for
+>    specifically?
+
+>    Thanks for your help.  As this is a common problem and I have seen only
+>    a little discussion of it on the net there are probably others who
+>    would like to read answers so please publish here rather than sending
+>    me email.
+
+There's little discussion because it's 'inevitable' until MS manages
+to come up with an OS that will do garbage collection or something on
+the resource pool.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.

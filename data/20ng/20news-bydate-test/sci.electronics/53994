@@ -1,0 +1,32 @@
+From: u009@csx.cciw.ca (G. Stewart Beal)
+Subject: Re: Can Radio Freq. Be Used To Measure Distance?
+Organization: Canada Centre for Inland Waters
+Lines: 27
+
+In article <C5v13M.C37@bcstec.ca.boeing.com> rgc3679@bcstec.ca.boeing.com (Robert G. Carpenter) writes:
+>I'm wondering if it's possible to use radio waves to measure the
+>distance between a transmitter(s) and receiver?
+>
+>Seems to me that you should be able to measure the signal strength
+>and determine distance. This would be for short distances (2000 ft),
+>and I would need to have accuracy of 6 inches, or so.
+>
+This would be susceptible to fading, multi-path etc. We used to use a
+system at the shop made by Tellurometer in South Africa. It used a
+10 GHz signal between 2 units across the distance to be measured.
+The 10 GHz was just the carrier: the real signals were several switched
+ones around 7.5 MHz or so, whose relative phases at the receiver would
+read out the digits of the distance down to 10 cm if needed. The units
+came with psychrometers (sp?) to measure the relative humidity and
+instructions for correction of the measurements due to RH and temp.
+They were rather heavy and required an operator at each end.
+Current technology uses polarized reflectors, dual polaization TX/RX
+and psuedo-random coding of a radar pulse. about the same resolution
+at X band, much better at 47GHz. (Only one end is heavy :-)  ).
+ 
+Regards, Stu Beal, VE3MWM, U009@CSX.CCIW.CA,
+National Water Research Institute, Burlington, Ontario, Canada.
+ 
+"We'd made it through yet another nuclear winter and
+ the lawn had just trapped and eaten it's first robin." - Kyle J. Spiller
+

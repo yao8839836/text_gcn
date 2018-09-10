@@ -1,0 +1,19 @@
+From: ortmann@plains.NoDak.edu (Daniel Ortmann)
+Subject: Re: VGA Graphics Library
+Keywords: C, library, graphics
+Article-I.D.: ns1.C72u68.H6y
+Organization: North Dakota Higher Education Computing Network
+Lines: 11
+Nntp-Posting-Host: plains.nodak.edu
+
+In article <2054@mwca.UUCP> bill@mwca.UUCP (Bill Sheppard) writes:
+)Many high-end graphics cards come with C source code for doing basic graphics
+)sorts of things (change colors, draw points/lines/polygons/fills, etc.).  Does
+)such a library exist for generic VGA graphics cards/chips, hopefully in the
+)public domain?  This would be for the purpose of compiling under a non-DOS
+)operating system running on a standard PC.
+
+Check the server code for X11R5.  (or "XFree86")
+-- 
+Daniel "un?X" Ortmann    (talmidim)  NDSU Electrical Engineering
+ortmann@plains.nodak.edu   shalom    Fargo, North Dakota

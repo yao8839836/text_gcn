@@ -1,0 +1,20 @@
+From: rja14@cl.cam.ac.uk (Ross Anderson)
+Subject: Re: hardware hash function
+Keywords: hash, MD5, DES, hardware, software
+Nntp-Posting-Host: ely.cl.cam.ac.uk
+Organization: U of Cambridge Computer Lab, UK
+Lines: 13
+
+In article <C6DEo6.uyE@watson.ibm.com>, basturk@watson.ibm.com (Erol Basturk) 
+writes:
+
+|>                          So, the question is: has a "fast" hash
+|> function been designed for hardware implementation ? 
+
+Yes, you can use a stream cipher chip to hash data with only slight 
+modification. See:
+
+`A fast cryptographic checksum algorithm based on stream ciphers', X Lai,
+RA Rueppel, J Woolven, Auscrypt 92 pp 8-7 to 8-11.
+
+Ross

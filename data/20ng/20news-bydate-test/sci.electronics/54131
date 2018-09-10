@@ -1,0 +1,43 @@
+From: maynard@selway.umt.edu (Robert L Maynard)
+Subject: Re: How to the disks copy protected.
+Summary: WHY make backups ???
+Organization: University of Montana
+Lines: 37
+
+> noeler@xanth.CS.ORST.EDU (Eric Richard Noel) writes:
+> >
+[Discussion on Piracy Deleted]
+> 
+> Off deeper end-> Why does everyone think they need to be able to make a 
+> backup copy? Almost all new software must be installed to the hard disk,
+> so you are left with the originals as your backups. I think its a waste
+> of time, space, and money, as well as it makes it to tempting to "lend"
+> out the backups. 
+> 
+My own practice with new software :
+
+make a copy of the original floppies to a second set of floppies.
+
+install to hard drive from second set of floppies.
+
+put originals in a box in room number one.
+
+put copies in box in room number two.
+
+1) Accidents DO happen to original floppies.
+2) Accidents CAN happen to the installation floppy.
+3) Sometimes software goes out on floppies that are JUST marginally good.  Or
+   gets too close to a magnet in shipping or storage.
+
+I've had experience with SOMETHING like the last.  I purchased a compiler from
+a reputable vendor.  THe debugger in the package just would NOT install to the
+hard drive. NO WAY.  Repeated floppy-to-floppy copies FINALLY got a clean read
+of the disk.  I DON'T recall if I used "diskcopy", "copy/b", or "xcopy".
+
+I made a second copy of the marginal floppy and installed from that.  No problenms ( except with my typing :-)  ) since.
+
+I regard backup floppies as CHEAP insurance.
+
+Just my side of the question...
+
+Bob

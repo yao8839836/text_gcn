@@ -1,0 +1,27 @@
+From: simardde@ERE.UMontreal.CA (Simard Denis)
+Subject: Re: Windows zip/unzip
+Organization: Universite de Montreal
+Lines: 22
+
+pwb@aerg.canberra.edu.au (Paul Blackman) writes:
+
+>In article <1rl9b6$h3c@sol.deakin.OZ.AU> russ@deakin.OZ.AU (Russ Sharp) writes:
+>>We are using pkzip V2.04 and I am interested to hear from
+>>people who have used one of the many Windows programs that
+>>call these.
+>>
+>>Which ones are available and does any one stand out amongst
+>>the rest?
+>>
+>>Is there a full windows version that does not call the DOS 
+>>PKZIP/PKUNZIP commands?
+
+>Yes Russ, there is. 
+>QuinZip is a Windows version but I don't think it handles
+>all the functions available in the DOS version.
+
+The problem is that QuinZip is very very slow.  So I think that WinZip 4.0
+is still the best choice to use pkzip in Windows!
+
+						Denis Simard, Montreal
+						(simardde@ere.umontreal.ca)

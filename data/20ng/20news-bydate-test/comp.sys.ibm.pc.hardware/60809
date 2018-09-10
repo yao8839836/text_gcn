@@ -1,0 +1,49 @@
+From: cisko@d0tokensun.fnal.gov (Greg Cisko)
+Subject: Re: Modem/Windows problems
+Organization: Fermi National Accelerator Laboratory, Batavia IL
+Lines: 42
+Distribution: world
+NNTP-Posting-Host: d0tokensun.fnal.gov
+
+In article <1993Apr12.174632.29009@magnus.acs.ohio-state.edu>, nstassen@magnus.acs.ohio-state.edu (Nicki A Stassen Lantz) writes:
+|> What a weekend... :( ... I replaced my motherboard, upgraded to DOS 6, MS
+|> Windows 3.1, and now experience lockups in any windows application using the
+|> modem.
+|> 
+|>        386DX/DXL-40 CPU  (AMD?)
+|>        AMI BIOS
+|>        I/O card with 2 serial, 1 parallel and 1 game ports (generic cheapo)
+|>        IDE controller (two HD, two FD)
+|>        internal packard bell 2400 modem
+|>        mouse
+|> 
+|> The mouse is set to COM1, IRQ4 (via jumper on the I/O board and parms on the
+|> mouse driver). The modem is set to COM2, IRQ3 (jumpers on modem board). In
+|> addition, I think I have disabled the second serial port on the I/O card since
+|> it is unused. Mouse works fine.
+|> 
+|> Here's the deal: Procomm DOS version works fine through the modem.
+|>                  Procomm for Windows, (CIM) Compuserve for windows, and
+|>                      Terminal all lockup when I try to do anything with the
+|>                      modem. The screen just freezes, no sound comes from the
+|>                      modem, nor any messages on the screen.
+|> 
+|> I'm getting REAL frustrated. Could the second port on the I/O card still be
+|> enabled? Would this cause a problem? I've been through most of the software
+|> routes, so I'm beggining to believe that maybe this is a hardware problem.
+|> Anybody been through a similar experience? Anybody have any ideas I could try??
+|> Please???
+|> 
+|> Thanks in advance....
+|> 
+|> N A Stassen Lantz
+
+I ran into the same problem when I upgraded from a 2400 modem to a 14400
+modem. Any time I give the modem a reset command [ATZ] while, in windows.
+The computer locks up. If I give the ATZ command in DOS, it will work. My solution 
+was to not give the modem the [ATZ] command thru windows. In the PROCOMM +
+install process I told the program I have a hayes compatible 2400 modem. ATZ
+was not included in the initialization string & it works fine. I called MS
+about this, & they didn't have a clue as to what the memory/interupt conflict 
+could be. The lockup accures using ANY windows comm program that gives the ATZ
+command.

@@ -1,0 +1,15 @@
+From: rgb@roadnet.ups.com (Rudy Bonefas)
+Subject: Need X Win PopUp Menu package
+Reply-To: rgb@roadnet.ups.com
+Organization: Roadnet Technologies, Inc.
+Lines: 9
+
+
+Rather than write my own, can anyone direct me to a package that will let me create
+cascaded popup menus in X windows.  For reasons of portability, the package should 
+not rely on any X toolkit other than XLib and the XT Intrinsics.  Something written
+in C++ would be nice, too.
+
+Thanks
+
+

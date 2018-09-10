@@ -1,0 +1,15 @@
+From: jin@spdcc.com (Jerry Natowitz)
+Subject: PD code for crypt(1) like encryption
+Organization: Guest of Stephen Dyer Consulting
+Distribution: usa
+Lines: 9
+
+I am looking for some Public Domain (and exportable) code for
+encryption.  Nothing elaborate, just something that will satisfy
+a marketing need :-)
+Oh yes, UNIX platform.
+-- 
+     Jerry Natowitz
+     Guest user on:
+ARPA jin@ursa-major.spdcc.com
+UUCP {ima,harvard,rayssd,linus,m2c}!spdcc!jin

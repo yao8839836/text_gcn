@@ -1,0 +1,31 @@
+From: jussi@tor.abo.fi (Jussi Laaksonen DC)
+Subject: Lasergraphics Language ?
+Organization: ]bo Akademi University, Finland
+Distribution: comp.graphics
+Lines: 25
+
+Hi!
+
+We have an old Montage FR-1 35mm film recorder. When connected to a PC with
+its processor card it can directly take HPGL, Targa and Lasergraphics Language
+files. 24 bit Targa is quite OK for raster images, but conversion from 
+whatever one happens to have can be quite slow. This Lasergraphics Language
+seems to be (got the source file for one test image) a vector-based language
+that can handle one million colors. It does some polygons too, and perhaps
+something else ?
+
+The question is, where can I find some information about this language ?
+A FTP site, a book, a company address,.... ?
+
+(OK, it would be nice to have a Windows driver for it, but I'm not THAT
+optimistic...)
+
+Thanks in advance for any help!
+
+	jussi
+
+
+--
+	Jussi Laaksonen
+        Computing Centre / ]bo Akademi University,  Finland
+

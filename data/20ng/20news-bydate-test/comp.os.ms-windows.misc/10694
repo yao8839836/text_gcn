@@ -1,0 +1,72 @@
+From: "Nathan Gregory" <p00211@psilink.com>
+Subject: Upgrading to Windows NT
+Nntp-Posting-Host: 127.0.0.1
+Organization: Performance Systems Int'l
+X-Mailer: PSILink-DOS (3.3)
+Lines: 65
+
+I'd like to appeal to the net's NT wizards for a bit of advice.
+
+First a general description of the machine as follows:
+ Motherboard: Utron 33 mhz Opti chipset, 20 meg memory, 256kb cache
+      (soon I hope to drop a DX2 chip into it)
+ Fahrenheit 1280 video (1 meg, 1024x768x256)
+ ProAudio Spectrum 16 sound board
+ primary disk = Connor CP30174 on a caching IDE controller
+ secondary disk = Conner CP30174 as slave on same controller
+ tertiary disk = Fujitsu ??? 650 meg on Superstore ESDI controller
+ planned future disks include SCSI HD and CD ROM on PAS16 SCSI port
+ Tape drive is a Colorado Jumbo 250 on the Floppy controller
+  future tape drive may be a DAT on the SCSI interface.
+ Other hardware includes modem/fax, serial ports, and a teletext board
+ (ugly dos software drives the latter)
+
+Applications used include normal windows stuff (excel, word, Quicken
+and Turbo Pascal/Windows) but the important stuff is my Audio
+work environment which includes Turtle beach Wave for Windows, MCS Stereo,
+and other misc stuff for dinking around with audio files.  Also I use
+Stacker on the primary drive, HP Newwave (for my wife's use, and she 
+won't let me get rid of it!), and a product called Infinite Disk from 
+Chili Pepper Software for hierarchical storage management of my seldom 
+used offline files.  
+
+I plan to upgrade to NT, when it becomes a released product.  I was stongly
+tempted to become a beta user early on, but I don't have time to mess around
+with the hassles of beta software.  I expect to buy it, tear off the 
+shrink wrap, and use it without hassle (I know, unrealistic, but I can
+hope can't I, after all, I have work to do).
+
+The advice I want concerns the state of NT regarding device drivers, and 
+hardware specific stuff in general.  How smoothly can I expect the 
+upgrade to go?  Can I expect support for all my stuff, or do I
+still need to scramble around downloading drivers (PAS?, Orchid?, Colorado?) 
+from some bbs, etc.  What steps should I take to ensure the installation
+goes smoothly.  Note that I want to nuke dos totally from the system.  I'm
+allergic to command lines!  I plan to run a "pure" NT system.  Also, will 
+NT communicate with the workgroups lan?  What about stacker?  I currently 
+have stacker on the first disk drive.  Without Stacker, and the Infinite 
+Disk product, I will have great difficulty fitting everything I have on the 
+system (It's cramped now).
+
+I realize Stacker will be incompatible with NT, but will there be an NT 
+version?  Or will NT support compression a la Dos 6?  I know Infinite Disk
+will be incompatible with NT, but will they offer (or does anybody else)
+a comparable product for NT and at what cost?  (perhaps I need to ask 
+Chili Pepper that question)  I can live without ID if I have to, but I'd
+rather not.  Will NT run my DOS apps (the teletext board mainly) without
+DOS on the system?  What do I need to keep around?
+
+Any feedback or advice (including "forget NT" with good reasons) is much
+appreciated.  My only significant reason for moving to NT is I need a better
+multitasking environment than Windows (among other reasons, WAVE locks up
+the machine for hours and hours doing DSP processing on large audio files),
+and I want better lan support than I now have (Internet access, etc).  Maybe
+there are better solutions than NT and if so, I would appreciate hearing 
+about them (OS/2?  What's it's status these days?)
+
+Pls respond by email and if there is interest I'll summarize for the net.
+
+Thanks,
+Nathan Gregory
+p00211@psilink.com
+

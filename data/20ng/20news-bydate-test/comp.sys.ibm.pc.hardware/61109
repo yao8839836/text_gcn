@@ -1,0 +1,34 @@
+From: al@col.hp.com (Al DeVilbiss)
+Subject: Re: CPU Fans
+Organization: HP Colorado Springs Division
+Lines: 28
+NNTP-Posting-Host: reptile4.col.hp.com
+
+russest@ampex.com (Steve Russell) writes:
+  {deletions}
+> the "attached" fans look slick and work well but I'm bothered by the potential
+> loss of cooling if the fan goes out. at least with the power supply fan you
+> can reach back there every few days and feel the fan blowing.
+> 
+Yes, this is a valid concern IMHO.  With the directly attached fan units I've
+seen, it looks like if the fan were to stop the chip cooling would be 
+a good bit worse than no heat sink at all.  In other words, if the fan stops
+the unit turns into an insulator and the chip might get hot enough to
+suffer permanent damage, not just stop working temporarily.
+
+> I prefer to put a stock fan off the drive brackets or front panel
+> to blow air across the cpu - depends a lot on case and board layout, though.
+> 
+My Zeos 486DX2/66 (tower case) has a passive heat sink on the cpu, and it's
+located so the front fan, which sucks air into the case, blows right on the
+heat sink.  If that fan stops the heat sink is still cooled by convection air
+flow so should not see too dramatic a temperature rise.  Essentially the 
+arrangement you're talking about and a good idea IMHO.
+
+> on-chip fans from Fry's Electronics in the SF Bay Area are about 30.00. I
+> get the stock power supply fans for about 11.00.
+> 
+> -steve
+-- 
+Al DeVilbiss
+al@col.hp.com

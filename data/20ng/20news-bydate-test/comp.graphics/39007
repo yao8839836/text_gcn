@@ -1,0 +1,166 @@
+From: svec5@menudo.uh.edu (T.C. Zhao)
+Subject: Full Color Image Editor for SGI Workstations
+Organization: University of Houston
+Lines: 159
+Distribution: world
+NNTP-Posting-Host: menudo.uh.edu
+
+
+   I am happy to announce the first public release of the bit program,
+   an INTERACTIVE, FULL COLOR image viewer and editor based on SGI GL.
+   Besides typical touchup tasks, such as crop, rotate, smooth, etc,
+   bit offers some unique features not available in similar programs,
+   such as text and vector support and the separation of text and image.
+
+   The following is the relevant sections from the man page. 
+   -----------------------------------------------------------------
+
+Pre-Release of May, 1993                                       BIT(1L)
+
+NAME
+   bit - Bitmap Image Touchup for SGI Workstations
+
+DESCRIPTION
+  bit is an interactive full color image viewer and editor based on
+  Silicon Graphics GL. As a full color program, bit handles images of both
+  24bits and color index in a natural and efficient manner.
+
+  As an image viewer, bit allows list of images to be displayed in their
+  original type (24bits or color index) in any order and in any of the
+  many built-in styles of display. You can walk up and down the list using
+  mouse and keyboard, or you can let bit do the walk for you (The
+  SlideShow).  With the pan and zoom features, large images can be viewed
+  in full without being limited by the window or screen size.
+
+  As an image editor, bit performs a large number of image editing and
+  processing tasks accurately and efficiently. It keeps information loss
+  at any stage of the editing process at an absolute minimum by performing
+  subpixel sampling automatically while conserving the input image type
+  whenever possible to avoid unnecessary promotion and/or quantization of
+  input images. You can also cut a piece of an image and paste it into
+  another.  In addition, arbitrarily colored and sized text and simple
+  geometric figures can be rendered on top of an image for annotation with
+  the option to make them part of the bitmap or output separately to take
+  advantage of the higher printer resolutions (e.g. PostScript).
+
+  Bit can also be used as a graphical user interface to many existing
+  image processing programs by defining external bindings which in essence
+  turn command line oriented programs into bit subfunctions and can be
+  accessed by a press of a button, and best of all, the processed image
+  will be read back and displayed immediately. Convolution using exter-
+  nally defined matrices of arbitrary order can be performed dynamically
+  giving great flexibility in processing an image.
+
+FEATURES
+
+  Bit performs all of its image manipulations interactively with a
+  continuous progress report, and once the processing is complete, 
+  the processed image will be displayed.
+
+  Current features include
+
+  o Rotates an image by an arbitrary angle with the option of anti-aliasing
+    and filling the "rotated out" region with an arbitrary color.
+
+  o Scales an image by arbitrary factors in x- and/or y-directions with
+    the option of subpixel sampling.
+
+  o Renders text of arbitrary color, size or orientation on top of an
+    image with the option of rendering directly into the raster or saving
+    the text and raster separately, such as into a PostScript file, to
+    take advantage of a higher printer resolution. Besides normal text
+    strings, many predefined special symbols can be input conveniently as
+    in TeX(1), e.g., $\alpha$\small$\beta$ produces Greek alphabet alpha
+    followed by a slightly smaller Greek alphabet beta.
+
+  o Presents graphically the histogram of an image.
+
+  o Performs arbitrary 1-to-1 pixel transformation.  The transformation
+    function can be specified interactively and can be of arbitrary
+    forms. Further, the transformation can be applied to RGB channels
+    separately or simultaneously and to the entire image or a portion of
+    it. Many difficult tasks, such as thresholding, can be accomplished
+    rather easily by 1-to-1 transformation in combination with the avai-
+    lability of graphical histograms of the image.
+
+  o Places simple geometric figures (SGFs), e.g., arrows, circles, trian-
+    gles etc., of arbitrary color, size and orientation into an image at
+    arbitrary locations addressed either in absolute pixels or in some
+    user definable coordinate system units, with the option of rendering
+    directly into the raster or save the sgfs and raster separately (e.g,
+    PostScript file). All SGFs can be scaled in x- and y-directions
+    independently or simultaneously (this is how to get an ellipse from a
+    circle).
+
+  o Performs edge detection. In combination with image histograms and 1-
+    to-1 transformation, very accurate result can be obtained.
+
+  o Performs histogram equalization.
+
+  o Performs convolution with externally defined (square) matrices of
+    arbitrary order.
+
+  o Crops a rectangular portion of an image.
+
+  o Cuts and pastes across images.
+
+  o Magnifies any portion of an image by any amount.
+
+  o Displays a list of images in sequence with a user specifiable pause
+    interval between images. (SlideShow)
+
+  o Measures RGB intensities of a pixel at any location or all pixels
+    along an arbitrary line with the result presented as RGB intensities
+    or as an intensity vs. distance plot.
+
+  o Performs image type conversions.
+
+  o Converts image formats.
+
+  o Smoothes an image (Special convolution).
+
+  o Filters an image by external programs and read the filtered image
+    back and display it.
+
+  o Modify an individual pixel's RGB values.
+
+  o Performs FFT on the entire image or a portion of it and display the
+    resulting power spectra.
+
+  o Spray and brush paint in full color (unavailable in this pre-release).
+
+ SUPPORTED FORMATS
+      o  IRIS RGB, native to SGI IRIS
+      o  JPEG(JFIF) format
+      o  CompuServ GIF
+      o  PNM(Portable Any Map), including PPM, PGM and PBM.
+      o  XBM (X Window Bitmap)
+      o  TIFF
+      o  PostScript(Write only)
+
+Hardware requirements:
+---------------------------------------------------------------
+   Any SGI workstation that supports RGBmode(), including indigoes.
+
+Where to get it:
+---------------------------------------------------------------
+   anonymous ftp to monte.svec.uh.edu   /pub/bit/bitxxx.tar.Z
+   where xxx is the version number. Current version is 0.73
+
+   Read src/01Readme for installation instructions after unpacking
+
+Acknowledgement:
+---------------------------------------------------------------
+   JPEG support is based on the Independent JPEG groups's library Version 4.
+   FORMS library, developed by Mark Overmars, is used for GUI.
+   Both JPEG and FORMS library are included in this release.
+
+---------------------------------------------------------------
+  Bit is the program you will ever need to view and annotate
+  images; The built-in editing features will satisfy most of
+  your editing needs. In addition, the external filter and dynamical
+  kernel will utilize any program you already have. So try it
+  (and you will like it).
+  
+  As always, any comments/bug reports are welcome.
+

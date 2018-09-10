@@ -1,0 +1,21 @@
+From: <34AEJ7D@CMUVM.BITNET>
+Distribution: usa
+Subject: Re: Encryption Chip Availibility
+Lines: 16
+
+In article <ofppPcS00iUy0_k3Mr@andrew.cmu.edu>, "Stephen J. Ludwick"
+<sl3b+@andrew.cmu.edu> says:
+>
+>Hi everybody!
+>
+>Does anyone know of companies that are currently manufacturing
+>encryption chips for sale to the general public?  Get them while you
+>can!  Some pointers would be greatly appreciated.
+>
+>Thanks
+>
+>Steve
+
+I believe Fisher(sp?) International, makers of the Watchdog(tm) PC
+security package offers a hardware implementation of DES as an add-on
+to that package.

@@ -1,0 +1,108 @@
+From: david@pop (David E. Smyth)
+Subject: Re: R5 table widget causing trouble with XtQueryGeometry
+Nntp-Posting-Host: pop
+Organization: Jet Propulsion Laboratory (NASA)
+Lines: 102
+
+I just got a bug report and a fix for this exact problem from
+fisher@iscp.bellcore.com (Greg Fisher):
+
+> ... the most serious problem I have identified has not
+> been incorporated.  This problem occurs when the Table widget's
+> GeometryManager is invoked by a child.  This will work correctly if
+> the table widgets parent complies with the Xt protocols.  However, if
+> they do not, as is the case for some Motif widgets, and they ignore
+> XtCWQueryOnly, then the sizing will be incorrect.
+>         In order to see this problem, the following events must
+> happen:
+> 1. A child of the table widget must request a new size.
+> 2. The table widget must query its parent for a new size having set
+>    XtCWQueryOnly.
+> 3. The parent must ignore the XtCWQueryOnly bit and resize the table
+>    widget.  As part of the resize, XmpTableForgetProposedLayout is
+>    called.  This will set tw->table.current_cols and
+>    tw->table.current_rows to zero.
+> 4. The table will continue setting up the new size, working under the
+>    assumption that it is working with a proposed and not actual
+>    layout.  At the end, it will call XmpTableSaveProposedLayout.  This
+>    will save tw->table.cols and tw->table.rows and restore their
+>    values from tw->table.current_cols and tw->table.current_rows.
+>    However, these have already been set to zero.
+> 5. Since the table widget has already been resized, it will not need a
+>    second resize.
+> 6. Next, another widget managed by some ancestor of the table is
+>    resized.  This results in the parent of the table requesting the
+>    tables preferred size.  Since tw->table.cols and tw->table.rows are
+>    zero, this will return 0x0 as the preferred size.
+> 7. The parent is very likely to grant this request, resulting in a
+>    loss of the whole table from the display.
+> 
+
+He isolated the problem a proposed a workaround which seems precisely
+correct.  Here is the new implementation of XmpTableNewProposedLayout
+which will be released with the next update in 5 weeks:
+
+Xmp/Table.c:
+
+void XmpTableNewProposedLayout( tw )
+    XmpTableWidget tw;
+{
+    XmpTableConsiderSameSize(       tw );
+    XmpTableProposedColsAndRows(    tw );
+    XmpTableQueryParentForResize(   tw );    /* query only, no resize */
+
+    /*
+     * Since we only made a query, we *should* still need to continue.
+     * However, Motif is broken so that we actually may already have
+     * been resized.  In that case, the proposed layout is already
+     * forgotten, so we should just quietly exit.
+     */
+    if ( tw->table.resize_status == RSdueToRequest )
+    {
+        XmpTableMakeColsFitQueryWidth(  tw );
+        XmpTableMakeRowsFitQueryHeight( tw );
+        XmpTableGetProposedChildSize(   tw );
+        XmpTableSaveProposedLayout(     tw );
+    }
+    /* else the resize has already been done.  Our proposed layout would
+     * have been forgotten in the process.
+     */
+}
+
+The XpTable the fix is identical, except of course for the names:
+
+Xp/Table.c:
+
+void XpTableNewProposedLayout(  tw )
+    XpTableWidget  tw;
+{
+    XpTableConsiderSameSize(       tw );
+    XpTableProposedColsAndRows(    tw );
+    XpTableQueryParentForResize(   tw );    /* query only, no resize */
+    /*
+     * Since we only made a query, we *should* still need to continue.
+     * However, some manager widgets are broken so that we actually may
+     * already have * been resized.  In that case, the proposed layout
+     * is already forgotten, so we should just quietly exit.
+     */
+    if ( tw->table.resize_status == RSdueToRequest )
+    {
+        XpTableMakeColsFitQueryWidth(  tw );
+        XpTableMakeRowsFitQueryHeight( tw );
+        XpTableGetProposedChildSize(   tw );
+        XpTableSaveProposedLayout(     tw );
+    }
+    /* else the resize has already been done.  Our proposed layout would
+     * have been forgotten in the process.
+     */
+}
+
+-------------------------------------------------------------------------
+David Smyth				david@jpl-devvax.jpl.nasa.gov
+Senior Software Engineer,		(818)306-6193 (do NOT use v-mail yet!)
+CCCP, X and Object Guru.		office: 525/C165
+Jet Propulsion Lab, M/S 525-3660 4800 Oak Grove Drive, Pasadena, CA 91109
+------------------------------------------------------------------------- 
+	"That Sun Windows thingy, what's it called?  You know, its
+	really awful.  X?  Motif?  That's it - Motif! Yuck!"
+-------------------------------------------------------------------------

@@ -1,0 +1,33 @@
+From: sriram@tcs.com (Sriram Srinivasah)
+Subject: Re: Animation with XPutImage()?
+Organization: Teknekron Communications, Inc
+Lines: 28
+
+In article <1993Apr21.154620.16330@infodev.cam.ac.uk>, dcr@mail.ast.cam.ac.uk (Derek C. Richardson) writes:
+|> Hi, I'm new to this group so please bear with me!
+|> 
+|> Two years ago I wrote a Sunview application for fast animation
+|> of raster files. With Sunview becoming rapidly obselete, I've
+|> finally decided to rewrite everything from scratch in XView.
+|> I put together a quick test, and I've found that XPutImage()
+|> is considerably slower (factor of 2 on average?) than the
+|> Sunview command pw_rop() which moves image data from memory
+|> pixrects to a canvas. This was on a Sparc IPX. It seems that:
+|> (1) the X protocol communication is slowing things down; or
+|> (2) XPutImage is inefficient...or both! My question is, what
+|> is the fastest way in X11R5 to dump 8 plane image data to
+|> a window? Can I take advantage of the fact that the client is
+|> running on the same machine as the server? Or am I stuck with
+|> XPutImage() (in which case I might as well give up now...)?
+|> 
+|> All help appreciated...thanks!
+|> 
+|> Derek
+|> 
+
+The *fastest* way is to use an X server with shared memory extension. It uses
+shared memory if it is a local X server (hence images don't have to be duplicated),
+and defaults to the regular image routines if either the shared mem extension
+is not available, or if it's  not the localhost.
+
+Sriram

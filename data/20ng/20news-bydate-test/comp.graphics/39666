@@ -1,0 +1,42 @@
+From: d34863@puff.pnl.gov (Annette Koontz)
+Subject: Graphics software needed
+Organization: Battelle Pacific Northwest Labs, Richland, WA
+Lines: 34
+Distribution: world
+NNTP-Posting-Host: puff.pnl.gov
+Originator: d34863@puff.pnl.gov
+
+
+Hello,
+
+We are looking for a graphics package (preferably complete
+with source code) that will run on our UNIX operating system
+(a Sequent running DYNIX 3.2).  This graphics package must 
+support a wide variety of character based graphics devices 
+(PC's running a terminal emulator, primarily).  
+At this point, X11 graphics is not an option.
+
+This graphics program should, if possible, support these
+sorts of graphics operations (minimum requirements):
+
+   1) Complicated axes (log, linear, etc.) with fairly
+      precise axis labels (multi-line labels, etc.)
+      Major and minor tickmarks on axes, etc.	
+  
+   2) It would be nice if some limited amount of color
+      plotting were available, if the output device
+      supported it.
+
+We have a copy of gnuplot and are currently using it, but
+gnuplot has some limitations.  We are looking for something
+more robust than gnuplot.
+
+At this point, I'm looking for information about packages that
+might solve our problems.  If you have any information, please
+contact me at the above email address.  If the product you know
+about is a commercial software package, please send a phone number
+or email address so that I can contact them about pricing, etc.
+
+Annette Koontz
+Battelle Pacific Northwest
+Richland, WA 99352 USA

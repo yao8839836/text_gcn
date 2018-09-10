@@ -1,0 +1,19 @@
+From: wjeuerle@athena.mit.edu (William J. Euerle)
+Subject: Re: Centris 610 flaky?
+Organization: Massachusetts Institute of Technology
+Lines: 12
+Distribution: world
+NNTP-Posting-Host: auditorium.mit.edu
+
+I've been playing with a centris 610 (8/230) for the last couple weeks.  The only
+problem that I have seen is that a couple of the applications I run are
+incompatible with the 040's processor cache, so I have to run with it turned off.
+Actually, the main thing I don't like it is that it doesn't have a software
+powerup/powerdown, and the power switch is DIRECTLY UNDER THE FLOPPY DRIVE!  (I
+haven't hit it thinking it would eject the disk, but some tired night I'm going
+to be really upset with that design decision.....)
+
+In all, no problems with it. floppy and printing have been just fine.  (printing
+is done across a localtalk net, not a directly connected printer)
+
+Bill

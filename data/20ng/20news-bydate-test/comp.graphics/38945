@@ -1,0 +1,54 @@
+From: jk87377@lehtori.cc.tut.fi (Kouhia Juhana)
+Subject: Re: XV problems
+Organization: Tampere University of Technology
+Lines: 47
+Distribution: world
+NNTP-Posting-Host: cc.tut.fi
+
+In article <1993Apr27.143603.9351@nessie.mcc.ac.uk>
+C.C.Lilley@mcc.ac.uk writes:
+>
+>2) Yes XV is an 8 bit program. This is not a bug.
+
+Never claimed it is a bug.
+
+
+>XV can import 24 bit images and quantises them down to 8 bits. This is a handy
+>facility, not a bug.
+
+Never claimed it is a bug.
+
+
+>How would you suggest doing colour editing on a 24 bit file? How
+>would you group 'related' colours to edit them together? Only global
+>changes could be done unless the software were very different and
+>much more complicated.
+>If you want to do colour editing on a 24 bit image, you need much
+>more powerfull software - which is readily available commercially.
+
+I guess I edited my note on this away from the article I posted to
+many newsgroups.
+
+I wrote something about making color modifications quickly
+with 8bit quantized images and only at the saving the image to file
+process we have to make the modifications to the 24bit image.
+This makes sense, because the main use of XV is only viewing images.
+
+Doing many changes to image, we should keep all modifications
+in a buffer; and then before making the operations to 24bit image,
+we should simplify the operation list for unnecessary operations.
+
+
+>And lastly, JPEG is a compression algorithm. It can be applied to any
+>image of arbitrary bit depth. Again, this is not a bug.
+
+Never claimed it is a bug.
+I tried kept sure I don't claim that JPEG is noting else than
+a compression algorithm, because I know what the JPEG is.
+(You propably misunderstood what I wrote as you have done in many
+places so far.)
+
+You also missed what is (were) wrong with XV. However, I did wrote it.
+
+
+Juhana Kouhia

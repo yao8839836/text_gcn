@@ -1,0 +1,43 @@
+From: lhighley@gozer.idbsu.edu (Larry Paul Highley)
+Subject: More Info on Windows Help Files
+Nntp-Posting-Host: gozer
+Organization: Boise State University
+Lines: 37
+
+Here is the latest on relocating your help files to a server.  
+The WinHelp() function, as I am told by MS, does search your path so 
+relocating MS windows helpfiles won't be a problem as long as you include
+the path to where you move them to, however, if an application has 
+hardcoded the path into their code so that when WinHelp is invoked it
+searches the given path (i.e. WinHelp(hwnd, c:\amipro) for example) then
+WinHelp does not search your path and instead looks only to that directory
+where you have installed your software.
+
+I tested this out on a variety of software packages.  I moved all my 
+helpfiles to the drive z:\ and included this in the path statement.
+Here is the results for different software packages:
+
+
+Norton Desktop			Found Helpfiles
+Windows V3.1 for WorkGroups	Found Helpfiles
+Windows V3.1			Found Helpfiles
+MS Powerpoint V3.0		Found Helpfiles
+MS Word				Found Helpfiles
+MS Excel V4.0a			Did Not Find Helpfiles (strange)
+MS Foxpro V2.5 for Windows	Found Helpfiles
+Lotus Amipro V3.0		Did Not Find Helpfiles
+Procomm Plus for Windows	Did Not Find Helpfiles
+
+
+I guess this is better than nothing but it would make sense to be able to 
+specify a global path for helpfiles.  
+
+If anyone has any comments or If I can help anyone or if I left something
+out please let me know.
+
+		lhighley@gozer.idbsu.edu
+
+thanks for the help from everyone especially jagrant@emr1.emr.ca
+
+More info on this topic as it develops
+

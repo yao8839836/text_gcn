@@ -1,0 +1,22 @@
+From: m14494@mwvm.mitre.org (Mike White)
+Subject: I've lost COM4... !  Help!!!
+Nntp-Posting-Host: smassimini-mac.mitre.org
+Organization: The MITRE Corporation
+Distribution: na
+Lines: 15
+
+I have a 386 clone, and an internal modem set to COM4.
+It worked fine until I upgraded to DOS 6.0 and at the
+same time reloaded Windows 3.1  Now the system can't
+find COM4; MSD says COM4 is "N/A", and three of my
+four comm programs say "hardware not present" or some
+similar error message.  Procomm, however, finds the modem
+no problem and works fine!  Curiouser and curiouser.  Any
+hints/help?  Thanks.
+
+Mike
+m14494@mwvm.mitre.org
+
+******************************
+* These are my opinions only.*
+******************************

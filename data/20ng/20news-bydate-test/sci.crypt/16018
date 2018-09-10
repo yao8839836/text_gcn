@@ -1,0 +1,39 @@
+From: eachus@spectre.mitre.org (Robert I. Eachus)
+Subject: Re: Keeping Your Mouth Shut (was: Hard drive security)
+In-Reply-To: smk5@quads.uchicago.edu's message of Wed, 21 Apr 1993 02:33:19 GMT
+Nntp-Posting-Host: spectre.mitre.org
+Organization: The Mitre Corp., Bedford, MA.
+	<1993Apr13.214520.2075@magnus.acs.ohio-state.edu>
+	<1993Apr14.055903.5358@qualcomm.com>
+	<1993Apr21.023319.13965@midway.uchicago.edu>
+Lines: 29
+
+In article <1993Apr21.023319.13965@midway.uchicago.edu> smk5@quads.uchicago.edu (Steve Kramarsky) writes:
+
+  > OK, I should have read the thread before posting my own $0.02.  I would
+  > just add to Phil's very infomative discussion the following caveat: the
+  > fifth amendment applies ONLY in crinial cases.  ("...nor shall any person .
+  > . . be compelled in any criminal case to be a witness against himself...").
+
+    Maybe you are using the wrong amendment.  If someone were to seize
+a safe containing your (paper) records, and demand that you produce
+the combination, the applicable defense would be on grounds of
+unreasonable search and seizure.  The police would be entitled to
+subpoena documents relating to a specific matter, but any broad search
+such as implied by impounding all your records would be unconstitutional.
+In the case of the safe, they would probably get a locksmith and
+assert that they ONLY examined documents covered by the warrent.
+(Sure!)  In the cryptographic case, their only resort would be
+rubber-hose cryptography.
+
+    (This would also make a good "mental experiment" to use in
+choosing escrow agents.  Would you trust this proposed agent with a
+key to your hard disk?--or half the key for that matter.)
+
+--
+
+					Robert I. Eachus
+
+with Standard_Disclaimer;
+use  Standard_Disclaimer;
+function Message (Text: in Clever_Ideas) return Better_Ideas is...

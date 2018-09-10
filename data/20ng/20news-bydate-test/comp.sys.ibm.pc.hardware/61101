@@ -1,0 +1,32 @@
+From: ez005997@othello.ucdavis.edu (Oppy)
+Subject: Re: DX50 vs DX266
+Organization: Computing Services, UC Davis
+Lines: 27
+
+In article <1r92s5$mec@usenet.INS.CWRU.Edu> ab245@cleveland.Freenet.Edu (Sam Latonia) writes:
+>From: arnolm2@aix.rpi.edu (Matthew Richard Arnold)
+>Subject: DX50 vs DX266
+>Date: Wed Apr 21 19:55:12 1993
+>
+>
+>Would someone be willing to explain to me the 486DX 50MHz is not more
+>popular than it is?  I would think it would be just as fast, if not 
+>faster than the 486DX 66MHz for certian applications.  Plus, a 50MHz 
+>motherboard would seem better if you had any plans on upgrading the
+>chip in the future.  I must be missing something, since everyone is 
+>buying the DX2 66...  Many adds don't even mention the DX 50.
+> Thanks a lot,
+>   -Matt
+>
+>Yes its realy simple, no one makes a mother board that runs the
+>bus at more than 33MHZ....Sam
+>-- 
+This isn't quite true - depending on the number of local bus slots, and
+whether or not the device is integrated into the mother board, it is
+possible to run local bus at up to 40 and 50 mhz. I've also spoken to a few 
+people who run standard local bus video cards at 50 mhz without trouble
+(and a couple of people who couldn't get a lb card to work at that speed).
+
+-Brian
+bjoppy@ucdavis.edu
+

@@ -1,0 +1,23 @@
+From: cs173sbw@sdcc5.ucsd.edu (cs173sbw)
+Subject: <****Video Benchmarks Wanted****>
+Lines: 18
+Nntp-Posting-Host: sdcc5.ucsd.edu
+
+Hi, I am trying to compile a chart for Windows and DOS performance
+of local bus video card .  So if you have a DX2-66V and one
+of the local bus video cards below, please email me your Winbench
+3.11 and 3dbench(obtainable in ftp.wustl.edu, pub/MSDOS_UPLOADS)
+scores.   Please give me Winmark score at 800x600x256 and
+800x600x64K.  I will post the chart if enough response if received.
+
+Tseng ET-4000/W32 VLB
+CL 5426 VLB
+S3 805/928 based local bus card.
+ATI Ultra Pro VLB
+Orchid Celsius 9000 VLB
+AGX based VLB cards(do they exist?)
+Matox MGA based video cards
+
+Thanks all.
+
+

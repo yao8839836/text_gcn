@@ -1,0 +1,17 @@
+From: simun@unity.ncsu.edu (Josip NMI Simunovic)
+Subject: IBM 5272 ColorDisplay for 3270PC ?
+Article-I.D.: ncsu.1993Apr22.212557.27590
+Organization: NCSU
+Lines: 10
+X-Newsreader: TIN [version 1.1 PL8]
+
+
+I have one of these monitors. It appears to function OK, but is unhookable
+to anything standard (CGA,EGA,VGA) - it will plug in but gives fuzzy
+diagonal noise. 
+I also have a graphics board that is apparently a 3270 graphic board
+(double card with 2 8-bit bus connectors, and a 9-pin female connector
+with a picture of monitor). I tried plugging these two into a standard AT
+to no avail. How can one connect these to (the monitor seems to
+be of relatively high quality, so I'm curious)? Any special drivers and/or
+setup needed - I can't locate any jumpers on the card.

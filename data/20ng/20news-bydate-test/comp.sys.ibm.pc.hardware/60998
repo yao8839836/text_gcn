@@ -1,0 +1,17 @@
+From: biernat@rtsg.mot.com (Tim Biernat)
+Subject: Re: Gateway Flash BIOS Upgrade
+Nntp-Posting-Host: tophat1
+Organization: Motorola, Inc., Cellular Infrastructure Group
+Lines: 11
+
+In article <1993Apr20.183959.1@utxvms.cc.utexas.edu> dcoleman@utxvms.cc.utexas.edu (Daniel M. Coleman) writes:
+>Gateway 2000 has released a new Flash BIOS update for their local bus systems. 
+>Because I'm such a nice person, I uploaded them to wuarchive.wustl.edu.  Look
+>for glb05.exe in the msdos_uploads section.  Enjoy!
+
+i also noticed this was out.  the readme that comes with it
+doesn't tell you squat, except to warn you that bad things may
+happen.  anyone have any idea what these can do for me in terms 
+of, say, performance ?
+
+-- tim

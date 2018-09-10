@@ -1,0 +1,21 @@
+From: tomh@metrics.com (Tom Haapanen)
+Subject: Re: Can OS/2 talk to Windows for Workgroups?
+Organization: Software Metrics Inc.
+Lines: 16
+
+tomh@metrics.com (Tom Haapanen) writes:
+> Can I run WFW 's NET utilities in a DOS box?  Or is there a way to actually
+> get OS/2 to talk to WFW?  Will OS/2 LanMan clients talk to WFW?
+
+Following up to my own article...  I found that several people say that 
+LAN Server clients can talk to WFW.  Is this, then, also true for LAN
+Manager?  (Don't LAN Server and LAN Manager share common roots?)
+
+> Dazed and confused,
+
+Somewhat less so now...  :)
+
+-- 
+[ /tom haapanen -- tomh@metrics.com -- software metrics inc -- waterloo, ont ]
+[       "stick your index fingers into both corners of your mouth.  now pull ]
+[          up.  that's how the corrado makes you feel."  -- car, january '93 ]

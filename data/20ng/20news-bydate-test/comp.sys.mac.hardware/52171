@@ -1,0 +1,33 @@
+From: long@mcntsh.enet.dec.com (Rich Long)
+Subject: Good APS experience
+Organization: Digital Equipment Corporation
+Lines: 28
+
+
+ I just thought I would pass along my experience with APS. I recently ordered
+ an external Quantum 240. The salesperson was friendly and knowledgeable, the
+ order came when promised, and the invoice was at the price quoted. 
+
+ Installing the drive was simple; I didn't even have to read the manual. The
+ SCSI address is set by a pushbutton arrangement. I daisy-chained the drive
+ from my Syquest (also from APS) and booted up with no problems. 
+
+ I'm still going through all the shareware that comes on the drive. It's a
+ pretty good assortment.
+
+ The drive/fan is a bit noisier than I would like, but I think it'll be OK.
+ The speed seems very good, although I haven't run any objective tests. It
+ also seems to spin up pretty quickly; I can hit the power switch for it, and
+ almost immediately power the Mac without any problems booting from the drive.
+
+ Some observations: the case is plastic (good quality, though) while my older
+ Syquest case is metal. There is one LED, which is normally green, and
+ flickers red as the drive is accessed.
+
+ Just a data point,
+ Rich
+
++-----------------------------------------------------------------------------+
+Richard C. Long		                  | long@mcntsh.enet.dec.com
+          "Ludicrous speed!! GO!!!!"      | ...!decwrl!mcntsh.enet.dec.com!long
+                      -- Dark Helmet      | long%mcntsh.dec@decwrl.enet.dec.com

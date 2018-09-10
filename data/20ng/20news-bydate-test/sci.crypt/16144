@@ -1,0 +1,18 @@
+From: lsnyder@fig.ucsb.edu (Lowell R. Snyder)
+Subject: Re: Tempest
+Distribution: na
+Lines: 13
+
+angel@Foghorn_Leghorn.coe.northeastern.edu (Kirill Shklovsky) writes:
+
+>In article <1993Apr26.104320.10398@infodev.cam.ac.uk> rja14@cl.cam.ac.uk (Ross Anderson) writes:
+>I heard somewhere (can't name the source) that TEMPEST does not necessarily
+>pick-up just CRTs, but it can pick up emissions from almost any chip.  If
+>that is true, the kind monitor would not make any difference becuase everything
+>on the screen can be picked-up from the video controller.  Can anybody verify
+>or refute this?
+
+Anything can be an emissions problem, right down to the video cable.  Given
+the right equipment, you can pick the screen paint from the cable.  But,
+given any cable, you must know what is being sent through it to know the
+format of the signal, as well as how many wires, etc.

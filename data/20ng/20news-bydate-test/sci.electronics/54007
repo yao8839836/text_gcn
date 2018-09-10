@@ -1,0 +1,14 @@
+From: mchen@terra.cs.psu.edu (Michael Chen)
+Subject: Re: How to the disks copy protected.
+In-Reply-To: kschang@sfsuvax1.sfsu.edu's message of Thu, 22 Apr 1993 16:36:05 GMT
+Nntp-Posting-Host: terra.cs.psu.edu
+	<1993Apr21.141137.863@imag.fr> <1993Apr22.163605.24784@csus.edu>
+Lines: 7
+
+If companies compressed their executables with LZW andd did some kind of
+encryption in the process, this "change two bytes here" thing would go right
+out the window.
+--
+ Michael Chen			| From the depths of our most lucid horrors |
+				| spring our fond hopes and pure desires... |
+ mchen@cs.psu.edu		| except what comes from HELL! :-) 7/23/92  |

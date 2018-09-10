@@ -1,0 +1,53 @@
+From: baalke@kelvin.jpl.nasa.gov (Ron Baalke)
+Subject: Mars Observer Update - 04/30/93
+Organization: Jet Propulsion Laboratory
+Lines: 44
+Distribution: world
+NNTP-Posting-Host: kelvin.jpl.nasa.gov
+Keywords: Mars Observer, JPL
+News-Software: VAX/VMS VNEWS 1.41    
+
+Forwarded from the Mars Observer Project
+
+                       MARS OBSERVER STATUS REPORT
+                             April 30, 1993
+                              11:30 AM PDT
+
+DSS-65 (Madrid 34 meter antenna) did not acquire the expected Mars Observer
+Spacecraft signal at the scheduled beginning of track yesterday morning (4/29)
+at approximately 6:00 AM.  Indications were that the spacecraft had entered a
+Fault Protection mode sometime between that time and receipt of normal
+telemetry at the end of the previous station pass (DSS-15 - Goldstone 34
+meter antenna) at approximately 8:00 PM the evening before.  Entry into
+Contingency Mode was verified when signal was reacquired and telemetry
+indicated that the spacecraft was sun coning.  After subsystem engineers
+reported all systems performing nominally, fault protection telemetry modes
+were reconfigured and memory readouts of command system Audit Queue and
+AACS (Attitude and Articulation Control Subsystem) Starex performed.  These
+readouts verified that Contingency Mode entry occurred shortly after 1:30 AM
+yesterday, 4/29/93.  Preliminary indications are that a Sun Ephemeris Check
+failure triggered fault protection.  However, the Flight Team will be
+determining the precise cause over the next few days.
+
+As of last evening, the spacecraft had been commanded back to Inertial
+Reference and was stable in that mode.  The Flight Team is planning to
+command the spacecraft back to Array Normal Spin state today.
+
+Magnetometer Calibration activities had completed prior to Contingency
+Mode entry.  MAG Calibration data has been recorded on Digital Tape
+Recorders 2 and 3.  Playback of DTRs 2 and 3, scheduled to be completed
+yesterday, was postponed when Contingency Mode entry halted Flight
+Sequence C9 execution.  The Flight Team is developing a strategy to restart
+C9 to complete data playback.  Present planning is to perform playbacks
+between  as soon as Wednesday, or as late as Friday of next week (5/5-
+5/7), dependent on Contingency Mode recovery activity.  DTR playback will
+be performed via the High Gain Antenna at 42,667 bits per second.  Upon
+verification of successful DTR playbacks, downlink will be maintained at
+the 4K S & E rate.
+     ___    _____     ___
+    /_ /|  /____/ \  /_ /|     Ron Baalke         | baalke@kelvin.jpl.nasa.gov
+    | | | |  __ \ /| | | |     Jet Propulsion Lab |
+ ___| | | | |__) |/  | | |__   M/S 525-3684 Telos | The aweto from New Zealand
+/___| | | |  ___/    | |/__ /| Pasadena, CA 91109 | is part caterpillar and
+|_____|/  |_|/       |_____|/                     | part vegetable.
+

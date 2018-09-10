@@ -1,0 +1,40 @@
+From: wynapse@indirect.com (Dave Campbell - WynApse)
+Subject: Re: leaking memory resources in 3.1
+Organization: Internet Direct Inc. -- (602) 274-0100
+Lines: 35
+
+dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:
+
+>    This may be an FAQ (if so, please direct me to the known answer) but I
+>    am getting frustrated and looking for help.
+
+>    I am running Win 3.1 with NDW 2.2 on a 486sx with 8 meg of memory and a
+>    6 meg perm swap file and am getting exceedingly frustrated that my
+>    applications are not giving back system resources when I close them.
+
+>    <many lines deleted>
+
+>    danny
+>===========================================================================
+>daniel david mittleman     -     danny@arizona.edu     -     (602) 621-2932
+
+Danny...
+
+While working on my shareware toolbar, I found myself 'eating' resources,
+and a very wise person pointed me to the SDK, and specifically the debug
+kernel. Once you have all the SDK stuff installed, (this also comes with
+VC++), you run 'n2d' which does a 'normal-to-debug' swap. The debug kernel
+runs C O N S I D E R A B L Y slower, but you then execute the command
+DBWIN, and let it report to you what is going on. You are going to find
+out a lot more about your Apps than you cared to, and possibly about other
+peoples Apps (is that OPA?..I'm sorry). 
+
+If this doesn't make sense, repost, or e-mail me
+
+dave
+
+-- 
+------------------------------------------------------------------------------
+Dave Campbell at WynApse |                       WynApse
+  wynapse@indirect.com   |        The Shareware Custom Control Source
+------------------------------------------------------------------------------

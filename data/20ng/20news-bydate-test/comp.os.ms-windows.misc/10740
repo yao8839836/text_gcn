@@ -1,0 +1,23 @@
+From: rhudson@gomez.intel.com (Ron A. Hudson)
+Subject: Re: SOLUTION: Multi-setups on standalone EASY!!!
+Nntp-Posting-Host: gomez
+Organization: Software Technology, Intel Corp, Santa Clara, CA
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 16
+
+Peter Goudswaard (goudswaa@fraser.sfu.ca) wrote:
+>-- Setup deleted...
+> Finally, in order to run _your_ specific version of Windows, you
+> must simply change the path to include C:\WINMASTR *and* your
+> specific configuration path, e.g. C:\WINWIFE.  You could get
+> fancy and use batch files, environment variables, or a menuing
+> system to do this.
+--- other stuff delete...
+If you happen to be running the new msdos 6, you could use multi-
+setup to provide a menu with a menu choice for each person using
+the machine ... power up, select your name,  the menu will use your
+personal sections of config.sys and autoexec.bat thus setting up the
+path, then running your windows copy!  
+Ron
+------------ Temp at Intel, views are my own -----------------------
+

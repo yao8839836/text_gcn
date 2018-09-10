@@ -1,0 +1,47 @@
+From: mek@hydrox.enet.dec.com (Mark Klamerus)
+Subject: re: TIFF complexity
+X-Received: by usenet.pa.dec.com; id AA16780; Tue, 27 Apr 93 10:55:53 -0700
+X-Received: by enet-gw.pa.dec.com; id AA23355; Tue, 27 Apr 93 10:55:51 -0700
+X-Received: from hydrox.enet; by decwrl.enet; Tue, 27 Apr 93 10:55:52 PDT
+X-To: comp.graphics.usenet
+X-Apparently-To: comp.graphics.usenet
+Lines: 38
+
+
+	Anyone who thinks that TIFF is too complex hasn't dealt with
+	CGM, ASN.1, CDA, DCA, SGML, or any one of a number of other
+	very successful file format.  People seem perfectly capable
+	dealing with these others.  Dealing with the format of TIFF
+	is frankly less difficult than dealing with the DCT, LZW, and
+	FAX encoding of the image data.  The majority of the libraries
+	which deal with TIFF are dedicated to these other issues rather
+	than with simply decoding the tags and parameters.
+
+	Perhaps people are overwhelmed in comparison with some rather
+	simpleminded formats such as GIF, PCX, and BMP, but to suggest
+	that TIFF is so complex as to be doomed to failure is ludicrous.
+
+	That doesn't mean that GIF isn't fine, but don't even thing about
+	using it in many instances.  GIF is very nice for use in low-end
+	photos applications and for screen grabs and such, but it would
+	never do for high-volume or high-resolution systems.  FAX is nice,
+	but it doesn't do color (and GIF doesn't do B&W all that well).
+	JPEG is nice for high-resolution color, but is slow for low-end.
+
+	The advantage TIFF brings to the table is its ability to handle
+	all these situations (and then some).  Naturally it's more complex.
+	But I'ld rather propose TIFF imaging solutions over imaging
+	systems based on having to deal with 3-4 file formats anyday.
+
+	You may find that TIFF is too complicated for your personal tastes
+	but please don't wrail against it's complexity.  The complexity
+	it contains is required to provide the functionality it does and
+	doesn't come close to the complexity found in most commercially
+	viable file formats.
+
+
+	If we're in philosophical arguments against complexity, let's all
+	go program in scheme and forth and do imaging with run length
+	encoding.
+
+

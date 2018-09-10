@@ -1,0 +1,72 @@
+From: dtmedin@catbyte.b30.ingr.com (Dave Medin)
+Subject: Re: Suggestions  on Audio relays ???
+Reply-To: dtmedin@catbyte.b30.ingr.com
+Organization: Intergraph Corporation, Huntsville AL
+Lines: 66
+
+In article <C5qsBF.IEK@ms.uky.edu>, billq@ms.uky.edu (Billy Quinn) writes:
+|> I built a little project using the radio shack 5vdc relays to switch
+|> audio.  I got pretty bad 'clicks' when the thing switched.  I was doing
+|> most of the common things one is supposed to do when using relays and
+|> nothing seemed to get rid of the clicks.
+|> 
+|> My question is:
+|> 
+|> 	Is there a good relay/relay circuit that I can use for switching
+|> audio, so that there will be *NO* noise of any kind on the audio lines.
+|> 
+|> I will appreciate any advice or references to advice.  Also, exact part
+|> numbers/company names etc. for the relays will help!
+
+The first step is to make sure that there is no DC component, intentional
+or not, on the audio lines to be switched. If neither the output or
+input presents an unintentional DC level (let's say they're capacitively
+coupled), then putting a 22 K resistor from each input to ground, and
+from the output to ground is a good precaution against leakage in any
+coupling caps presenting a DC level that is GUARANTEED to cause a click.
+
+If the device presents an unintentional DC level that is from more than
+just coupling capacitor leakage, then you need to remove the DC before
+switching with coupling capacitors of your own.
+
+If you have more than one relay (each relay switching one input
+through to a common output), you can use make-before-break switching
+where for a brief instant both sources are connected during a switch
+change. This may mask the switch click.
+
+An audio switch that is clickless is made by taking a light bulb and
+making your own ersatz opto-isolator with a light-dependent resistor (LDR)
+sealed inside a piece of black heatshrink. Many broadcast consoles
+use this older, but time-honored technique. Claro actually makes
+a complete optisolator like this, but I don't have a part number handy.
+Radio Shack has a LDR grab-bag (276-1657) you might want to try.
+
+For a simple, solid state clickless switch that is cheap, you might try 
+looking at the CD4066 analog switch that is commonly available (or its
+older predecessor, the 4016). Again, the DC component must be removed
+prior to switching. Other alternatives include JFET switches (both discrete
+and IC) and diode switching (which works relatively well, surprisingly).
+All the above, with their pitfalls and application tips could easily
+make a subject for a multi-page article.
+
+Solid state switches may induce a click of their own when turned on
+due to charge being injected into the audio line through device
+capacitance when the control signal changes state. Techniques to
+minimize this include lowering the impedance of the signal paths through
+the switch, differential switching, and slowing the risetime of the
+control pulse. With the 4016, cutting the click can be as simple as
+putting 10K - 47K resistors in series with the control pins.
+
+Hope this helps at least get you started.
+
+-- 
+--------------------------------------------------------------------
+       Dave Medin			Phone:	(205) 730-3169 (w)
+    SSD--Networking				(205) 837-1174 (h)
+    Intergraph Corp.
+       M/S GD3004 		Internet: dtmedin@catbyte.b30.ingr.com
+  Huntsville, AL 35894		UUCP:  ...uunet!ingr!b30!catbyte!dtmedin
+
+   ******* Everywhere You Look (at least around my office) *******
+
+ * The opinions expressed here are mine (or those of my machine)

@@ -1,0 +1,43 @@
+From: rsrodger@wam.umd.edu (Yamanari)
+Subject: Re: Diamond Products Boycot?
+Nntp-Posting-Host: rac2.wam.umd.edu
+Organization: University of Maryland, College Park
+Lines: 37
+
+In article <C5xwrI.2npE@austin.ibm.com> lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com writes:
+>In article <1993Apr23.070117.22214@monu6.cc.monash.edu.au> ins413j@mdw056.cc.monash.edu.au (Markfried Fellensiek) writes:
+>
+>Come to think of it, though, I hear and see a lot of complaints about
+>the ATI boards too, though recent word looks like the build 59 code looks
+>much better.
+
+
+	Build 59 still has a number of problems--sheared fonts, for 
+	instance, if you have Crystal Fonts enabled.  Some other problems--	
+	"color darkening" and some others.  I don't use the drivers in 
+	any mode other than 1024x768x256, so if there are bugs in the
+	other modes I can't say.
+
+
+>Does ANYONE have an accelerated video board with drivers for Windows
+>(OS/2?) where ALL the modes function properly?  Anyone?  Anyone?
+
+
+	To be honest, up until now, I have only found one bug in the 
+	Diamond Viper drivers, and it seems innocuous.
+
+	That is, under Microsoft Word, select Format Border, click
+	shading and take a look at the patterns.  The 5% pattern
+	has been swapped with the 90%, and so on.  The whole list
+	is _completely_ reversed--looks right onscreen, but take
+	it to another machine (i.e., a GUP or ss24x machine) or
+	print it and iy shows--badly!  
+
+	Keep in mind that I use mainly 1024x768x65k mode, so I can't
+	speak for the others, but otherwise these drivers seem pretty 
+	solid.
+
+-- 
+	"What's big, noisy and has an IQ of 8?"
+
+	"Operation Rescue."

@@ -1,0 +1,35 @@
+From: sherwood@adobe.com (Geoffrey Sherwood)
+Subject: Hercules VLB?
+Article-I.D.: adobe.1993Apr22.183309.25247
+Organization: Adobe Systems Incorporated
+Lines: 28
+X-Newsreader: TIN [version 1.1 PL9]
+
+A couple of months ago I tried out a Hercules Graphite card.  A pretty nice
+board.  Fairly fast, and seemed quite compatible -- even seemed to handle the
+SVGA modes I have whined about here on occasion.  At the time I was just
+buying a VLB system, so after checking out the card I sent it back.  I wanted
+a VLB card, and purchased a Fahrenheit VLB card.  This card is fairly fast,
+will do 70 Hz refresh at 1024x768, but is not compatible with my CD-ROMS
+(the SVGA thing -- I think; I have merely conjectured that is the cause of
+an old graphics board being able to run in a higher resolution with those
+programs than the modern boards I have tried.  I have not gotten a straight
+answer out of anybody...).  The monitor I am using it with is a 17" Magnavox,
+which also tops out at 1024x768x70 Hz so its really a pretty good match.
+
+But...
+
+That is for my wife.  I just purchased a Viewsonic 17 for myself, and am
+looking for a graphics card to drive it.  I want > 70Hz refresh,
+and would really like it to handle my CD-Roms.  I tried the Orchid P9000,
+which did neither of those things (though Robert at Wietek did say that the
+>70Hz was possible if I modifed the driver data base).  So my thoughts go back
+to Hercules.  They were supposed to be coming out with a VLB version of the
+Graphite around the end of March.  I have heard precisely ZERO about it since
+then.  Does anyone know if the card was actually released, and what capabilities
+(and price) it has?
+
+Any info would be most appreciated.
+
+
+Geoff Sherwood

@@ -1,0 +1,22 @@
+From: emeinfel@fomalhaut.gb.nrao.edu (Edmond L. Meinfelder)
+Subject: Re: Fitting straight line (or curve) to data points
+Organization: National Radio Astronomy Observatory
+Lines: 17
+
+In article  warda@land.vf.ge.com (Andrew Ward) writes:
+|>      I am looking for a graphing program that will fit my data to a straight     
+|>  line.  Any program that estimates a closest fit curve or gives any
+|> statistics would be helpful.     
+
+
+Many spreadsheets do regression analysis.  The topic is also well covered
+in most undergraduate statistic books.  Cubic Splines are usually well
+covered in any undergraduate computer science numerical analysis text.
+I am sure ge/mm has a well stocked library.
+
+I have never used mathematica, but I would be surprised if it could not do a 
+spline.
+
+-- 
+Edmond L. Meinfelder                         Programmer, Virtual Guy,
+"My aardvark is bigger." -Anon.              Hack for hire.

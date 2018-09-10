@@ -1,0 +1,19 @@
+From: mcorbin@oucsace.cs.ohiou.edu (Max Corbin)
+Subject: 1-bit A/D converter
+Organization: Ohio University CS Dept,. Athens
+Lines: 14
+
+Once upon a time, long long ago in this news group, someone
+posted a schematic for a 1-bit A/D converter.  Well I just found a use
+for the little monster.  Anyone out there still got this text file?
+It had a flip-flop, a resistor and a cap, and a comparator/op-amp I 
+think.  I would be extremely thankful to anyone who could mail me the 
+schematic or post it to the news-group.
+
+
+
+-- 
++-----+---\ +-----+ 	O O 	Beware the light at the end of the
+| | | | -- >|  ---+	 +	tunnel.  It may be an oncoming Dragon.
++-+-+-+---/ +-----+     \_/
+   M   	 D     C	 U      mcorbin@oucsace.cs.ohiou.edu

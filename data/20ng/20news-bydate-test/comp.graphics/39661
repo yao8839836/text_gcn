@@ -1,0 +1,68 @@
+From: mckinley@fed3005.ne1300.ingr.com (Chuck McKinley)
+Subject: Ray-Bezier Intersection Problem
+Keywords: bezier
+Organization: Intergraph Corp., Reston, VA
+Lines: 62
+
+
+If some kind person has access to a mathematical package such as Mathematica,
+Maple,... I would like to ask you for the solution to the following problem.
+I sometimes have algebra problems like this where I would like a simplified
+symbolic solution. Is there a FTP-able package out there that can handle such
+beasts?
+
+    I would like to solve the following ray - Bezier patch intersection
+    for the scalar constant t in:
+
+        P                    + t * V                =  Q(u,w)
+         (origin point in 3D)       (dir vector 3D)
+
+    in terms of only:
+       
+          P            V            P                     and various scalars
+           (origin) ,   (dir 3D) ,   (i,j) 0 <= i,j <= 3
+
+    where:
+
+                            T
+    Q(u,w) = [U] [N] [B] [M]  [W]
+
+
+
+               n  n-1  n-2   n-3
+      [U] = [ u  u    u     u ....     u  1 ]      ( 0.0 <= u <= 1.0 )
+               3  2
+          = [ u  u  u 1 ]    ( in my particular case )
+
+
+               n  n-1  n-2   n-3             T
+      [W] = [ w  w    w     w ....     w  1 ]      ( 0.0 <= w <= 1.0 )
+
+               3  2      T
+          = [ w  w  w 1 ]    ( in my particular case )
+
+
+                   T
+      [ N ] = [ M ]   =  | -1  3 -3  1 |     ( for my particular case )
+                         |  3 -6  3  0 |
+                         | -3  3  0  0 |
+                         |  1  0  0  0 |
+
+
+      [ B ] =  | P       P       P       P      | (control points in 3D space)
+               |  (0,0)   (0,1)   (0,2)   (0,3) |
+               |                                |
+               | P       P       P       P      |
+               |  (1,0)   (1,1)   (1,2)   (1,3) |
+               |                                |
+               | P       P       P       P      |
+               |  (2,0)   (2,1)   (2,2)   (2,3) |
+               |                                |
+               | P       P       P       P      |
+               |  (3,0)   (3,1)   (3,2)   (3,3) |
+
+
+
+                                        Thanx,
+
+                                    chuck@elwood.reston.ingr.com

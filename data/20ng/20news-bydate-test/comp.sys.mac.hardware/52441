@@ -1,0 +1,20 @@
+From: jacobs@cerritos.edu
+Subject: Problem printing Quark on a SWII
+Organization: Cerritos College, Norwalk CA
+Lines: 15
+
+Iv'e got a problem printing with a StyleWriterII. I am printing from a IIvx
+with 20 megs ram. I am trying to print a Quark file that has 2 fonts a couple
+of boxes and 3 gradient fills. 
+
+Two things happen: I get a " Disk is full" error, that I can't find documented,
+I also have parts of letters that are over one of the gradient fills get cut
+off. This only happens to the text over the fill. Text adjecent in a different
+box is uneffected.
+
+Any ideas?
+
+Thanks for the help...-- 
+_______________________________________________________________________________
+Karl Jacobs / jacobs@cerritos.edu ---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

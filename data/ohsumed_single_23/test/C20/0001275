@@ -1,0 +1,7 @@
+On the use of laboratory markers as surrogates for clinical endpoints in the evaluation of treatment for HIV infection.
+ There are strong ethical and practical reasons for hastening decision-making about the efficacy of new treatments for human immunodeficiency virus (HIV) infection.
+ One strategy is to use early markers of disease progression, such as CD4+ lymphocyte levels, as surrogates for ultimate clinical endpoints, such as the development of acquired immune deficiency syndrome (AIDS) or death, in the evaluation of new therapies.
+ We used a simple model of transitions among three health states (well; alive but with an adverse marker; and having experienced a definitive clinical endpoint) to examine the extent to which treatment comparisons based on the surrogate endpoint predict ultimate clinical benefits.
+ With parameters chosen to model the treatment of HIV infection, computer simulations of clinical trials demonstrated substantial time savings by use of the surrogate endpoint.
+ However, reliance on the surrogate led to serious overestimates of ultimate clinical benefit if treatment entailed delayed toxicity or had only transient beneficial effects.
+ Likewise, reliance on the surrogate led to serious underestimates of ultimate clinical benefit when the treatment had no effect on the transition from well to the marker state but did reduce the rates of transition from the marker state to the ultimate clinical endpoint and directly from the well state to the ultimate clinical endpoint.

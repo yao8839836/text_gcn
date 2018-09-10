@@ -1,0 +1,31 @@
+Subject: Re: Resource/Widget toolkit required for X-Windows applications
+From: cvadrmes@vmsb.is.csupomona.edu
+Distribution: world
+Organization: California State Polytechnic University, Pomona
+Nntp-Posting-Host: acvax1
+Nntp-Posting-User: cvadrmes
+Lines: 23
+
+In article <1sijn0$mi2@werple.apana.org.au>, jamie@zikzak (Jamie Scuglia) writes:
+> 
+> Does anyone know of any public domain toolkits for creating X-Windows
+> applications?  I have used the "Xt toolkit", but I would like to
+> create pop-up windows/dialog boxes, etc, using some sort of drawing editor
+> instead of trying to specify what I want, sizes, positions, etc,
+> within actual source code.  Basically, I am looking for something
+> similar to Borland's "WHITEWATER RESOURCE TOOLKIT" for MS-WINDOWS,
+> expect I need one for X-Windows instead.
+> 
+> Any help would be much appreciated.
+
+   
+     I recently found an excellent source for X-windows programs. I've seen
+quite a few x-windows toolkits up there. The place is:  
+
+                     export.lcs.mit.edu
+
+go to the contrib directory. Its full of x-windows programs.
+
+                                           Hope this Helps!
+
+

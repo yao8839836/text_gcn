@@ -1,0 +1,1052 @@
+From: erh0362@tesla.njit.edu (Elliotte Rusty Harold)
+Subject: Introductory Macintosh frequently asked questions (FAQ)
+Supersedes: <macintosh/general-faq_734155204@GZA.COM>
+Organization: Department of Mathematics, NJIT
+Lines: 1037
+Expires: 19 May 1993 04:00:07 GMT
+Reply-To: erh0362@tesla.njit.edu (Elliotte Harold)
+NNTP-Posting-Host: pad-thai.aktis.com
+Summary: This document answers a number of the most frequently asked 
+	questions about Macintoshes on Usenet.  To avoid wasting bandwidth
+	and as a matter of politeness please familiarize yourself with 
+	this document BEFORE posting.
+Keywords: FAQ, Macintosh, Mac, macintosh, mac, general, introduction
+X-Last-Updated: 1993/04/19
+
+Archive-name: macintosh/general-faq
+Version: 2.1.3
+Last-modified:  April 16, 1993
+
+Copyright 1993, Elliotte Harold
+
+
+Changes:
+
+	2.1: Where can I FTP Macintosh software?
+
+		I added the ftp site anl.anl.fr.
+
+
+    2.5: What is .bin?  .hqx?  .cpt?  .image? .etc.?
+
+    	Disk Doubler will decode Packit archives.  Binhex 5.0
+    	will decode MacBinary files, NOT StuffIt files as the
+    	last version erroneously indicated.
+    	
+    2.7: I added the question 
+     
+    How can I get Binhex, StuffIt etc. from a PC?
+
+    
+
+
+                          comp.sys.mac.faq
+          Part 1: An Introduction to the Macintosh Newsgroups
+
+
+I.   Introduction
+      1. How do I use this document?
+      2. What other information is available?
+      3. Which newsgroup should I post to?
+      4. Someone just asked why the System was taking up sixteen 
+      megabytes on their IIcx.  Shouldn't I display my knowledge 
+      to the world by posting the seventeenth response to 
+      their question?
+II.  FTP
+      1. Where can I FTP Macintosh software?
+      2. Can I get shareware by E-mail?
+      3. Where can I find Application X?
+      4. Can someone mail me Application X?
+      5. What is .bin?  .hqx?  .cpt?  .image? .etc.?
+      6. How can I get BinHex?  StuffIt?  etc.?
+      7. How can I get BinHex, StuffIt, etc. from a PC?
+III.  Troubleshooting.  What to do when things go wrong
+      1. Identify the problem.
+      2. Read the READ ME file.
+      3. Check for viruses.
+      4. Reinstall the application and all its support files.
+      5. Reinstall the system software.
+      6. Isolate the problem.
+      7. Contact technical support.
+IV.  Preventive Maintenance
+      1. Trash Unneeded Files
+      2. Reevaluate Your Extensions
+      3. Rebuild the desktop.
+      4. Zap the PRAM and Reset the Clock
+      5. Resize the system heap.
+      6. Reinstall the system software.
+      7. Disk Utilities
+      8. Backing Up 
+      9. Disk Defragmentation
+     10. Reformatting and partitioning your hard disk
+
+Other FAQ lists currently available:
+
+B.    comp.sys.mac.system:
+
+I.   Memory
+      1. Why is my system using so much memory?
+      2. What is Mode 32?  the 32-bit enabler?  Do I need them?
+      3. Cache and Carry (How much memory should I allot to my cache?)
+II.  System Software
+      1. Why does Apple charge for System 7.1?
+      2. What does System 7.1 give me for my $35 that System 7.0 doesn't?
+      3. Where can I get System 7.1?
+      4. How can I use System 6 on a System 7 only Mac? 
+      5. Non-US scripts and systems
+      6. What is System 7 Tuneup?  Do I need it?
+      7. Why do my DA's disappear when I turn on MultiFinder?
+      8. Do I need System 7.0.1?
+      9. How can I get System 7.0.1 on 800K disks?
+III. Hard Disks, Filesharing, and the File System
+      1. Help! My folder disappeared!
+      2. Why can't I throw this folder away?
+      3. Why can't I share my removable drive?
+      4. Why can't I eject this SyQuest cartridge?  CD-ROM?  etc.
+      5. Why can't I rename my hard disk?
+IV.  Miscellaneous:
+      1. What does System Error XXX mean?
+      2. What is a Type 1 error?
+      3. What is A/ROSE?
+      4. Easy Access or One Answer, Many Questions
+
+
+C.    comp.sys.mac.misc:
+
+I.   Viruses
+      1. Help!  I have a virus!
+      2. Reporting new viruses
+II.  Printing and PostScript
+      1.  How do I make a PostScript file?
+      2.  How do I print a PostScript file?
+      3.  Why won't my PostScript file print on my mainframe's printer?
+      4.  Why are my PostScript files so big?
+      5.  How can I print PostScript on a non-PostScript printer?
+      6.  How do I make my ImageWriter II print in color?
+      7.  Why doesn't PrintMonitor work with the ImageWriter?
+      8.  Why did my document change when I printed it?
+      9.  How can I preview a PostScript file?
+      10. How do I edit a PostScript file?
+III. DOS and the Mac
+      1. How can I move files between a Mac and a PC?
+      2. How can I translate files to a DOS format?
+      3. Should I buy SoftPC or a real PC?
+IV.  Security
+      1. How can I prevent users from changing the contents of a folder?
+      2. How can I password protect my Mac?
+V.   No particular place to go  (Miscellaneous Miscellanea)
+      1. Are there any good books about the Mac?
+      2. How do I take a picture of the screen?
+      3. How do I use a picture for my desktop?
+      4. Can I Replace the "Welcome to Macintosh" box with a picture?
+      5. What is AutoDoubler? SpaceSaver? More Disk Space?  Are they safe?
+      6. How do they compare to TimesTwo, Stacker and eDisk?
+      7. Where did my icons go?
+      8. Where can I find a user group?
+
+      This work is Copyright 1993 by Elliotte M. Harold.  Permission
+  is hereby granted to distribute this unmodified document provided
+  that no fee in excess of normal on-line charges is required for
+  such distribution.  Portions of this document may be extracted and
+  quoted free of charge and without necessity of citation in normal
+  on-line communication provided only that said quotes are not
+  represented as the correspondent's original work.  Permission for
+  quotation of this document in printed material and edited on-line
+  communication  (such as the Info-Mac Digest and TidBITS) is given
+  subject to normal citation procedures (i.e. you have to say where
+  you got it). 
+  
+    Disclaimer:  I do my best to ensure that information contained 
+  in this document is current and accurate, but I can accept no
+  responsibility for actions resulting from information contained
+  herein.  This document is provided as is and with no warranty of 
+  any kind.  Corrections and suggestions should be addressed to
+  erh0362@tesla.njit.edu. 
+  
+    Apple, Macintosh, LaserWriter, ImageWriter, Finder, HyperCard and
+  MultiFinder are registered trademarks and PowerBook is a trademark
+  of Apple Computer, Inc.  Linotronic is a registered trademark of
+  Linotype-Hell AG, Inc.  PostScript is a registered trademark and
+  Illustrator and Photoshop are trademarks of Adobe Systems, Inc. 
+  Microsoft is a registered trademark of Microsoft Corporation. 
+  PageMaker is a registered trademark of Aldus Corp.  AutoDoubler 
+  and DiskDoubler are trademarks of Fifth Generation Systems, Inc. 
+  StuffIt and StuffIt Deluxe are trademarks of Raymond Lau and
+  Aladdin Systems, Inc.  StuffIt SpaceSaver is a trademark of Aladdin
+  Systems, Inc.  More Disk Space is a trademark of Alysis Software
+  Corporation.  TimesTwo is a trademark of Golden Triangle Computers,
+  Inc.  UNIX is a registered trademark of AT&T.  All other tradenames
+  are trademarks of their respective manufacturers.
+  
+      This is the FIRST part of the this FAQ.  The second part is 
+  posted to comp.sys.mac.system and features many questions about
+  system  software.  The third part is posted every two weeks in
+  comp.sys.mac.misc.  Tables of contents for those two pieces are
+  included above. Please familiarize  yourself with all three
+  sections of this document  before posting. 
+  
+         All pieces  are available for anonymous ftp from
+  rtfm.mit.edu (18.172.1.27) in the directory 
+  pub/usenet/news.answers/macintosh.  Except for this introductory
+  FAQ which appears in multiple newsgroups and is stored as
+  general-faq.Z, the name of each file has the format of the last
+  part of the group name followed by "-faq.Z", e.g the FAQ for
+  comp.sys.mac.system is stored as system-faq.Z and the FAQ for
+  comp.sys.mac.misc is stored as misc-faq.Z.  RTFM stores files as 
+  compressed (.Z) BINARY files.  If you leave off the .Z at the end
+  of  the file name when "getting" the file, rtfm will automatically 
+  decompress the file before sending it to you.  You can also have 
+  these files mailed to you by sending an E-mail message to 
+  mail-server@rtfm.mit.edu with the line:  send
+  pub/usenet/news.answers/macintosh/"name"  in the body text where
+  "name" is the name of the file you want as  specified above (e.g.
+  general-faq).  You can also send this server a message with the
+  subject "help" for more detailed instructions.   
+
+    
+
+ ==================== 
+ I HAVE A QUESTION...  (1.0)
+ ====================
+  
+       Congratulations!  You've come to the right place.  Usenet is 
+  a wonderful resource for information ranging from basic questions
+  (How do I lock a floppy disk?) to queries that would make Steve
+  Jobs himself run screaming from the room in terror.  (I used
+  ResEdit to remove resources Init #11, WDEF 34, and nVIR 17 from my
+  system file and used the Hex Editor to add code string #A67B45 as a
+  patch to the SFGetFile routine so the Standard File Dialog Box
+  would be a nice shade of mauve.  Everything worked fine until I
+  installed SuperCDevBlaster, and now when I use the Aldus driver to
+  print from PageMaker 5.0d4 to a Linotronic 6000 my system hangs. 
+  P.S.  I'm running System 6.0.2 on a PowerBook 170.) 
+  
+       Since the Macintosh newsgroups are medium to high volume, we
+  ask that you first peruse this FAQ list including at least the
+  table of contents for the other pieces of it, check any other
+  relevant on-line resources listed below in question 1.2, especially
+  the FAQ lists for the other Macintosh newsgroups, and RTFM (Read
+  the Friendly Manual) before posting your question.  We realize that
+  you are personally incensed that the System is taking up fourteen
+  of your newly-installed twenty megs of RAM, but this question has
+  already made its way around the world three hundred times before,
+  and it's developing tired feet.  Finally, before posting to any
+  newsgroup (Macintosh or otherwise), please familiarize yourself
+  with the basic etiquette of Usenet as described in the newsgroup
+  news.announce.newusers.
+
+
+ HOW DO I USE THIS DOCUMENT?  WHERE CAN I GET IT?  (1.1) 
+     
+         comp.sys.mac.faq is currently divided into multiple pieces,
+  a general introduction which you're reading now, and specific lists
+  for the newsgroups comp.sys.mac.system and comp.sys.mac.misc.  FAQ
+  lists for comp.sys.mac.wanted, comp.sys.mac.apps and
+  comp.sys.mac.hardware are in development.  When ready each part
+  will be available in its respective newsgroup.  All pieces are
+  available via anonymous ftp from rtfm.mit.edu in the
+  pub/usenet/news.answers/macintosh directory. Except for this
+  document itself which is named general-faq.Z the pieces are named
+  as per the last part of the newsgroup they cover  followed by
+  "-faq", e.g. system-faq.Z, misc-faq.Z.  The .Z means the  file is
+  stored compressed so you'll need to ftp it in binary mode and use
+  either MacCompress, StuffIt Deluxe, or the UNIX uncompress command 
+  to decompress it.  However if you leave off the ".Z" extension when
+   you "get" the file, rtfm will automatically decompress the file
+  before sending it to you. 
+  
+         This introductory document is posted to all of the concerned
+  newsgroups.  The tables of contents for each of the specific FAQ
+  lists are at the beginning of this file so you should be able to
+  get  at least some idea whether your question is answered anywhere
+  else in the FAQ even if you don't have the other parts at hand. 
+  It's not always obvious, especially to newcomers, where a
+  particular question or comment should be posted.  Please
+  familiarize yourself with the FAQ lists in all the major Macintosh
+  newsgroups before posting in any of them.  Which questions appear
+  in which FAQs can serve as a basic guide to what posts belong
+  where. 
+  
+         To jump to a particular question search for
+  section-number.question-number enclosed in parentheses.  For
+  example to find "Where can I FTP Macintosh software?" search for
+  the string  "(2.1)".  To jump to a section instead of a question
+  use a zero for  the question number.
+
+
+ WHAT OTHER INFORMATION IS AVAILABLE?  (1.2)
+
+      comp.sys.mac.faq provides short answers to a number of 
+  frequently asked questions appropriate for the Usenet newsgroup
+  comp.sys.mac.misc and comp.sys.mac.system.  Four other files are
+  worthy of particular note: Daryl Spitzer maintains a FAQ list
+  covering Macintosh programming for the newsgroup
+  comp.sys.mac.programmer.  It's posted to that group weekly and 
+  available for anonymous ftp from ftp.cs.uoregon (128.223.8.8) in 
+  /pub/mac.  Eric Rosen maintains a frequently asked questions list 
+  for comp.sys.mac.comm available in that newsgroup and from
+  rascal.ics.utexas.edu in mac/faq (where the file you're reading now
+  is also irregularly archived).  This list answers many frequently
+  asked questions about networking, UNIX and the Mac,
+  telecommunications, and foreign file formats.  Norm Walsh has
+  compiled an excellent FAQ for comp.fonts that answers a lot of
+  questions about the various kinds of fonts and cross-platform
+  conversion and printing.  It's available in comp.fonts or by ftp
+  from ibis.cs.umass.edu in /pub/norm/comp.fonts/FAQ*.  Finally Jim
+  Jagielski maintains a FAQ for comp.unix.aux covering Apple's UNIX
+  environment, A/UX.  It's posted every 2 to 3 weeks in comp.unix.aux
+  and news.answers. It's available for anonymous ftp at
+  jagubox.gsfc.nasa.gov.
+
+
+ WHICH NEWSGROUP SHOULD I POST TO?  (1.3)
+  
+      There are no stupid questions, but there are misplaced ones. 
+  You wouldn't ask your English teacher how to do the definite
+  integral  of ln x between zero and one, would you?  So don't ask
+  the programmer newsgroup why your system is so slow when Microsoft
+  Word is in the background.  Ignorance of basic netiquette is not an
+  excuse. If you want people to help you, you need to learn their
+  ways of  communicating.  
+  
+      Posting questions to the proper newsgroup will fill your
+  mailbox with pearls of wisdom (and maybe a few rotten oysters too
+  :-) ).  Posting to the wrong newsgroup often engenders a thundering
+  silence.  For instance the most common and glaring mispost, one
+  that seems as incongruous to dwellers in the Macintosh regions of
+  Usenet as would a purple elephant to Aleuts in the Arctic, asking a
+  question about networking anywhere except comp.sys.mac.comm,
+  normally produces no useful responses.  Posting the same question
+  to comp.sys.mac.comm ensures that your post is read and considered
+  by dozens of experienced network administrators and not a few
+  network software designers.
+  
+         Please post to exactly ONE newsgroup.  Do not cross-post. 
+  If a question isn't important enough for you to take the extra
+  minute to figure out where it properly belongs, it's not important
+  enough for several thousand people to spend their time reading. 
+  For the same reason comp.sys.mac.misc should not be used as a
+  catch-all newsgroup.
+  
+         The breakdown of questions between different newsgroups in
+  this document can also serve as a reasonable guide to what belongs
+  where.  Specifically questions about productivity applications
+  (software you bought your Macintosh to run, not software you bought
+  to make your Macintosh run better) should go to comp.sys.mac.apps
+  unless the application is covered in a more specific newsgroup. 
+  Communications programs, games, HyperCard, compilers and databases
+  all have more topical comp.sys.mac.* newsgroups.  Post questions
+  about non-communications hardware including questions about what
+  software is necessary to make particular hardware work to
+  comp.sys.mac.hardware.  Questions about MacOS system software
+  belong in comp.sys.mac.system.  Questions about utilities and
+  extensions normally belong in comp.sys.mac.misc.  Questions about
+  A/UX go to comp.unix.aux.  Detailed questions about Appletalk
+  belong in comp.protocols.appletalk.
+  
+         Direct questions about HyperCard to comp.sys.mac.hypercard. 
+  Non-HyperCard programming questions and questions about development
+  environments should go to comp.sys.mac.programmer.  ResEdit
+  questions may be posted either to comp.sys.mac.misc,
+  comp.sys.mac.system, or comp.sys.mac.programmer; but generally the
+  netters who inhabit the darker recesses of comp.sys.mac.programmer
+  are considerably more practiced at the art of resource hacking. 
+  
+         A general exception to the above rules is that any VERY
+  technical question about an application that actually begins to
+  delve into the how's of a program as well as the what's (Recent
+  example: How does WriteNow which is written entirely in assembly
+  compare to other word processors written in high level languages?)
+  might be better addressed to the programmer newsgroup.
+    
+         For Sale and Want to Buy posts should go to
+  comp.sys.mac.wanted and misc.forsale.computers.mac ONLY.  We
+  understand that you're desperate to sell your upgraded 128K Mac to
+  get the $$ for a PowerBook 180; but trust me, anyone who wants to
+  buy it will be reading comp.sys.mac.wanted.  Political and
+  religious questions (The Mac is better than Windows! Is not! Is
+  too! Is not! Is too! Hey! How 'bout the Amiga! What about it? Is
+  Not! Is too!) belong in comp.sys.mac.advocacy.  Anything not
+  specifically mentioned above probably belongs in comp.sys.mac.misc.
+  
+         Finally don't be so provincial as to consider only the
+  comp.sys.mac newsgroups the appropriate forums for your questions. 
+  Many questions about modems in comp.sys.mac.comm are much more
+  thoroughly discussed in comp.dcom.modems.  Questions about Mac MIDI
+  are often better handled in comp.music even though it's not a
+  Macintosh specific newsgroup.  Shop around.  Usenet's a big place
+  and not everything relevant to the Macintosh happens in
+  comp.sys.mac.
+
+
+ 4. SOMEONE JUST ASKED WHY THE SYSTEM WAS TAKING UP SIXTEEN OF
+ THEIR  TWENTY MEGABYTES OF RAM.  SHOULDN'T I PUT MY BRILLIANCE AND
+ WIT ON  DISPLAY FOR THE WORLD BY POSTING THE SEVENTEENTH RESPONSE?
+
+      No.  Frequent answers are just as boring and uninteresting as
+  frequent questions.  Unless you really have something new to add to
+  the traditional answers (such as the recent discovery that fonts in
+  System 7.1 could eat memory) private E-mail is a much better medium
+  for answering common questions like this one.
+   
+         You might want to add a mention of this FAQ in your E-mail
+  response and a polite suggestion that your correspondent read it
+  before posting future questions.  I do read all the newsgroups
+  covered here and have written a small script in MicroPhone II that
+  lets me send PWFAQ's (people with frequently asked questions) the
+  section of this document that answers their question with just the
+  click of a button so please don't feel obligated to respond to
+  someone who cares so little about the answer to their question they
+  can't be troubled to read the FAQ list to get it.
+
+    
+
+ === 
+ FTP  (2.0) 
+ ===
+
+ WHERE CAN I FTP MAC SOFTWARE?  (2.1)
+
+      The three major North American Internet archives of shareware,
+  freeware, and demo software are sumex-aim.stanford.edu (36.44.0.6),
+  mac.archive.umich.edu (141.211.165.41), and wuarchive.wustl.edu
+  (128.252.135.4) which mirrors the other two sites and several
+  others. Wuarchive often holds on to files after other sites remove
+  them for space concerns, and still has files that were deleted from
+  the formerly important site, rascal.ics.utexas.edu.  Rascal was
+  notable for storing its files in MacBinary format rather than the
+  less efficient BinHex format common at the other archives.  Unless
+  otherwise noted shareware and freeware mentioned in this document
+  should be available at the above sites.
+  
+       To keep traffic on the Internet manageable, Scandinavians 
+  should try connecting to ftp.funet.fi (128.214.6.100), ftp.lth.se
+  (130.235.20.3), or sics.se (192.16.123.90) instead.  Those in 
+  the U.K. should look first at src.doc.ic.ac.uk (146.169.2.1). 
+  Continental Europeans can try nic.switch.ch (130.59.1.40),  
+  ezinfo.ethz.ch (129.132.2.72), and anl.anl.fr(192.54.179.1). 
+  Australian users should try to find what they want at archie.au
+  (139.130.4.6) which mirrors info-mac and mac.archive.  Japanese
+  users will find sumex mirrored at ftp.u-tokyo.ac.jp
+  (130.69.254.254). 
+
+         A fourth very important site is ftp.apple.com (130.43.2.3). 
+  This is Apple's semi-official repository for system software,
+  developer tools, source code, technical notes, and other things
+  that come more or less straight from Apple's mouth.  Some material
+  at this site may not be distributed outside the U.S. or by other
+  sites that don't have an official license to distribute Apple
+  system software.  Please read the various README documents
+  available at ftp.apple.com for the detailed info if you're
+  connecting from outside the U.S. or if you wish to redistribute
+  material you find here.
+
+
+ CAN I GET SHAREWARE BY E-MAIL?  (2.2)
+
+      The info-mac archives at sumex-aim are available by E-mail from
+  LISTSERV@RICEVM1.bitnet (alternately listserv@ricevm1.rice.edu). 
+  The listserver responds to the commands $MACARCH HELP, $MACARCH
+  INDEX, and $MACARCH GET filename.  Mac archive files are available
+  from mac@mac.archive.umich.edu.  Send it a message containing the
+  words "help" and "index" (no quotes) on the first two lines of your
+  message for instructions on getting started and a list of the files
+  you may request.  You can retrieve files from other sites by using
+  the server at ftpmail@decwrl.dec.com.  For details send it a
+  message with just the text "help" (no quotes).
+
+
+ WHERE CAN I FIND APPLICATION X?  (2.3)
+
+      If you can't find what you're looking for at one of the above
+  sites, try telnetting to your nearest archie server or sending it
+  an E-mail message addressed to archie with the subject "help." 
+  Archie servers are located at archie.rutgers.edu (128.6.18.15,
+  America), archie.mcgill.ca (132.206.2.3, the original archie server
+  in Canada), archie.au (139.130.4.6, Australia), archie.funet.fi
+  (128.214.6.100, Scandinavia), and archie.doc.ic.ac.uk (146.169.3.7,
+  the U.K. and the continent).  These sites index the tens of
+  thousands of files available for anonymous ftp.  Login as "archie"
+  (no password is needed) and type "prog filename" to find what
+  you're looking for or type "help" for more detailed instructions. 
+  For instance you would type "prog Disinfectant" to search for a
+  convenient ftp site for Disinfectant.  If the initial search fails
+  to turn up the file you want, try variations on and substrings of
+  the name.  For instance if you didn't find Disinfectant with "prog
+  Disinfectant", you might try "prog disi" instead.  Substring
+  searches often hide the gold in a pile of dross.  To avoid many
+  erroneous matches add a ".*\.hqx" to the end of the substring, e.g.
+  "prog disi.*\.hqx"  Most Mac software available on the net ends in
+  .hqx but almost no UNIX or PC software does. 
+
+         Please check the above archives and ARCHIE personally BEFORE
+  asking where you can find a particular piece of shareware.  If you
+  follow the above advice, you should almost never have to ask the
+  net where to find a particular piece of software.
+
+
+ CAN SOMEONE MAIL ME APPLICATION X?  (2.4)
+
+      No.  Nor will anyone mail you a part of a file from
+  comp.binaries.mac that was corrupt or missed at your site.  Please
+  refer to the first questions in this section to find out about
+  anonymous FTP, archie, and automatic E-mail servers.
+
+
+ WHAT IS .BIN? .HQX? .CPT? .ETC?  (2.5)
+
+      Most files available by FTP are modified twice to allow them to
+  more easily pass through foreign computer systems.  First they're
+  compressed to make them faster to download, and then they're
+  translated to either a binhex (.hqx) or MacBinary (.bin) format
+  that other computers can digest.  (The Macintosh uses a special
+  two-fork filing system that chokes most other computers.)  BinHex
+  files are 7-bit ASCII text files, while MacBinary files are pure
+  8-bit binary data that must always be transferred using a binary
+  protocol.
+  
+         How a file has been translated and compressed for
+  transmission is indicated by its suffix.  Normally a file will have
+  a name something like filename.xxx.yyy.  .xxx indicates how it was
+  compressed and .yyy indicates how it was translated.  To use a file
+  you've FTP'd and downloaded to your Mac you'll need to reverse the
+  process.  Most files you get from the net require a two-step
+  decoding process.  First change the binhex (.hqx) or MacBinary
+  (.bin) file to a double-clickable Macintosh file; then decompress
+  it.  Which programs decode which file types is covered in the table
+  below.  Also note that most Macintosh telecommunications programs
+  will  automatically convert MacBinary files to regular Macintosh
+  files as they are downloaded.
+
+***************************************************************************
+Suffix:      .sit  .cpt  .hqx  .bin  .pit  .Z  .image  .dd  .zip .uu  .tar 
+Extractors
+--------------------------------------------------------------------------
+StuffIt 3.0|   X     X     X     X     X                  
+Compact Pro|         X     X 
+Packit     |                           X
+UUTool     |                                                      X 
+MacCompress|                                X 
+SunTar     |               X     X     X                                X 
+BinHex 5.0 |                     X 
+BinHex 4.0 |               X 
+DiskDoubler|                           X                X 
+UnZip      |                                                   X 
+DiskCopy   |                                     X 
+macutil    |         X     X           X                X
+***************************************************************************
+
+     A few notes on the decompressors:
+
+      StuffIt is a family of products that use several different
+  compression schemes.  The freeware StuffIt Expander will unstuff
+  all of them.  Versions of StuffIt earlier than 3.0 (StuffIt 1.5.1,
+  StuffIt Classic, UnStuffIt, and StuffIt Deluxe 2.0 and 1.0) will
+  not unstuff the increasing number of files stuffed by StuffIt 3.0. 
+  You need to get a more recent version of StuffIt or StuffIt
+  Expander. 
+    
+         StuffIt 3.0.5 (Lite and Deluxe) consistently makes smaller
+  archives than any other Macintosh compression utility.  To allow
+  maximum space for files on the various ftp sites and to keep
+  net-bandwidth down, please compress all files you send to anonymous
+  ftp sites with StuffIt 3.0.5.
+   
+         UUTool, MacCompress, and SunTar handle the popular UNIX
+  formats of  uuencode (.uu), compress (.Z), and tar (.tar)
+  respectively.  The UNIX versions are often more robust than the Mac
+  products, so use them instead when that's an  option.  Translators
+  that allow StuffIt Lite to expand uuencoded and tar files are also
+  available by anonymous ftp. 
+  
+         Macutil is dik winter's package of UNIX utilities to
+  decompress and debinhex files on a workstation before downloading
+  them to a Mac. Since UNIX stores files differently than does the
+  Mac, macutil creates MacBinary (.bin) files which should be
+  automatically converted on download.  It can't decompress
+  everything. In particular it can't decompress the new StuffIt 3.0
+  archives. :-(  However, if you need only one or two files out of an
+  archive--for instance if you want to read the README to find out if
+  a program does what you need it to do before you download all of
+  it--macutil is indispensable.  It can be found at sumex-aim in the
+  info-mac/unix directory.
+
+     A few notes on the compression formats:
+
+      .bin:  These are MacBinary files.  Always use a binary file
+  transfer protocol when transferring them, never ASCII or text. 
+  Most files on the net are stored as .hqx instead.  Only rascal
+  stores most of its files in .bin format.  Most communications
+  programs such as ZTerm and MacKermit are capable of translating
+  MacBinary files on the fly as they download if they know in advance
+  they'll be downloading MacBinary files.
+  
+      .image: This format is normally used only for system software,
+  so that on-line users can download files that can easily be
+  converted into exact copies of the installer floppies.  Instead of
+  using DiskCopy to restore the images to floppies, you can use Steve
+  Christensen's freeware utility  MountImage to treat the images on
+  your hard disk as actual floppies inserted in a floppy drive. 
+  MountImage has a reputation for being buggy, so you should have
+  some blank floppies and a copy of DiskCopy handy just in case.
+  
+      .sea (.x, .X):  .sea files don't merit a position in the above
+  table because they're self-extracting.  They may have been created
+  with Compact Pro, StuffIt, or even DiskDoubler; but all should be
+  capable of decompressing themselves when double-clicked.  For some
+  unknown reason Alysis has chosen not to use this industry standard
+  designation for self-extracting archives created with their 
+  payware products SuperDisk! and More Disk Space.  Instead they 
+  append either .x or .X to self-extracting archives.
+
+
+ HOW CAN I GET BINHEX?  STUFFIT?  ETC.?  (2.6)
+
+      By far the easiest way to get these programs is to ask a human
+  being to copy them onto a floppy for you.  If you're at a
+  university there's absolutely no excuse for not finding someone to
+  give you a copy; and if you're anywhere less remote than McMurdo
+  Sound, chances are very good that someone at a computer center,
+  dealership, or user group can provide you with a copy of StuffIt. 
+  Once you have StuffIt (any version) you don't need BinHex.
+    
+         If you're such a computer geek that the thought of actually
+  asking a living, breathing human being instead of a computer 
+  terminal for something turns you into a quivering mass of 
+  protoplasmic jelly, you can probably download a working copy  of
+  StuffIt from a local bulletin board system. 
+  
+         If you have religious objections to software gotten by any 
+  means other than anonymous ftp, then I suppose I'll mention that 
+  you can in fact ftp a working copy of StuffIt though this is by 
+  far the hardest way to get it.  Ftp to wuarchive.wustl.edu and 
+  login.  Type the word "binary."  Hit return.  Type "cd
+  mirrors/rascal.ics.utexas.edu/compression" and hit return.  Then
+  "get StuffIt_Expander_1.0.1_SEA_bin"  and hit return.  Of course
+  it's always possible that by the time you read this StuffIt
+  Expander will have been updated and the name changed so if this
+  fails look for something similar.  If you've ftp'd straight onto
+  your Mac you should now have a self-extracting archive which will
+  produce a working copy of StuffIt Expander when double-clicked.  If
+  you've ftp'd to your mainframe or UNIX account first, you still
+  need to use a modem program to download it to your Mac.  Just make
+  sure that the Mac is receiving in MacBinary mode and the mainframe
+  is sending in binary mode.  If you need more details on the last
+  step, consult the FAQ list for comp.sys.mac.comm and the manuals
+  for both your mainframe and Macintosh telecommunications software.
+  
+  
+  HOW CAN I GET BINHEX, STUFFIT, ETC. FROM A PC?  (2.7)
+
+       You can't.  There is absolutely NO way to get an executable
+  Macintosh file from an ftp site onto a PC and then onto your Mac
+  without some software obtained by means other than anonymous ftp.
+  You MUST beg, borrow, or steal the necessary software such as
+  Binhex or StuffIt Lite from another person.  I realize this may 
+  terrify those among you who haven't left your parents' basement 
+  since you got an  Apple II+ in 1980, but eventually you're going 
+  to need to link up with some human being other than your mother.  
+  (though I suppose if you're this much of  a nerd you could send 
+  your mother out to get it for you.)  While you're gathering
+  your nerves for a venture into the strange and terrifying world 
+  of daylight, please don't bother the net by asking this question
+  again.  There simply is no way to move executable Macintosh
+  programs from a PC or other non-Macintosh computer onto a 
+  Mac without software that is not bundled with most Macs.
+
+
+
+=================================================================
+TROUBLESHOOTING: WHAT TO DO (BEFORE POSTING) WHEN THINGS GO WRONG (3.0)
+================================================================= 
+
+         While the various FAQ lists cover a lot of specific
+  problems, there are far more problems that aren't covered here. 
+  These are a few basic techniques you should follow before asking
+  for help.  You should probably also perform the ten-step
+  preventative maintenance routine described in section four,
+  especially rebuilding the desktop (4.3) and resizing the system
+  heap (4.5).  Following these steps may  or may not solve your
+  problem, but it will at least make it easier  for others to
+  recommend solutions to you.
+
+ IDENTIFY THE PROBLEM.  (3.1)
+
+      "Microsoft Word is crashing" doesn't say much.  What were you
+  doing when it crashed?  Can you repeat the actions that lead to the
+  crash?  The more information you provide about the actions
+  preceding the crash the more likely it is someone can help you. 
+  The more precisely you've identified the problem and the actions
+  preceding it (Step 1) the easier it will be to tell if the
+  following steps fix the problem.  For example, "Sometimes
+  QuarkXPress 3.0 crashes with a coprocessor not installed error." is
+  not nearly as helpful as "QuarkXPress 3.0 crashes when I link two
+  text boxes on a master page when copies of those text boxes already
+  contain text."  The former will leave you wondering whether the bug
+  remains after a given step.  The latter lets you go right to the
+  problem and see if it's still there or not.
+
+
+ READ THE READ ME FILE.  (3.2)
+
+      Many companies include a list of known incompatibilities and
+  bugs in their READ ME files.  Often these aren't documented in the
+  manual. Read any READ ME files to see if any of the problems sound
+  familiar.
+
+
+ CHECK FOR VIRUSES.  (3.3)
+
+      Run Disinfectant or another anti-viral across your disk.  Virus
+  infections are rarer than most people think, but they do occur and
+  they do cause all sorts of weird problems when they do.
+
+
+ REINSTALL THE APPLICATION AND ALL ITS SUPPORT FILES.  (3.4)  
+   
+       For half a dozen reasons (external magnetic fields,
+  improperly written software, the alignment of the planets) a file
+  on a disk may not contain the data it's supposed to contain.  This
+  can cause all types of unexplained, unusual behavior.  Restoring
+  from original masters will normally fix this.
+
+
+ REINSTALL THE SYSTEM SOFTWARE.  (3.5)  
+
+      Bits are even more likely to get twiddled in the system file
+  than in the application and the effects can be just as disastrous. 
+  See question 4.6 for a detailed procedure for performing a  clean
+  reinstall. 
+  
+         If the problem continues to occur after you've taken these
+  steps, chances are you've found either a conflict between your
+  application and some other software or a genuine bug in the
+  program.  So it's time to
+
+
+ ISOLATE THE PROBLEM.  (3.6)  
+ 
+         You need to find the minimal system on which the problem
+  will assert itself.  Here are the basic steps of isolating the
+  cause of a system or application crash:
+  
+     a.	Run only one application at a time. Occasionally applications do
+     conflict with each other.  If the problem does not manifest itself
+     without other applications running simultaneously, you can begin
+     launching other applications until you find the one that causes 
+     the crash.
+     
+     b.	If you're running System 6, turn off MultiFinder.  If you're
+     running System 7, allot as much memory to the application as you 
+     can afford.  Sometimes programs just need more memory, especially 
+     when performing complicated operations.
+     
+     c. If you're running System 7, turn off virtual memory and 32-bit
+     addressing.  There's still an awful lot of System 7 hostile
+     software out there including some from companies that really 
+     have no excuse.  (Can you say Microsoft Word 5.1, boys and girls?  
+     I knew you could.)  Some of this software only expresses its 
+     incompatibilities when certain uncommon actions are taken.
+     
+     d.	Boot from a virgin system floppy.  If the problem disappears
+     you likely have an init conflict.  You need to progressively remove
+     extensions until the problem vanishes.  Use a little common sense
+     when choosing the first extensions to remove.  If the problem occurs
+     when you try to open a file, remove any inits that mess with the
+     Standard File Open procedure such as Super Boomerang first.  If the
+     problem remains after the obvious candidates have been eliminated,
+     either remove the remaining extensions one at a time or, if you have
+     a lot of them, perform a binary search by removing half of the
+     extensions at a time.  Once the problem disappears add half of the
+     most recently removed set back.  Continue until you've narrowed the
+     conflict down to one extension.  When you think you've found the
+     offending init restart with only that init enabled just to make 
+     sure that it and it alone is indeed causing the problem.
+
+
+ CONTACT TECHNICAL SUPPORT.  (3.7)
+
+      By now you should have a very good idea of when, where, and why
+  the conflict occurs.  If a tech support number is available for the
+  software, call it.  If you're lucky the company will have a work
+  around or fix available.  If not, perhaps they'll at least add the
+  bug to their database of problems to be fixed in the next release.
+
+    
+
+ ====================== 
+ PREVENTIVE MAINTENANCE  (4.0)
+ ======================
+
+      You wouldn't drive your car 100,000 miles without giving it a
+  tune-up.  A computer is no different.  Regular tune-ups avoid a lot
+  of problems.  Although there are Mac mechanics who'll be happy to
+  charge you $75 or more for the equivalent of an oil change, there's
+  no reason you can't change it yourself.  The following nine-step
+  program should be performed about every three months. 
+
+
+ TRASH UNNEEDED FILES  (4.1)
+
+      Many of the operations that follow will run faster and more
+  smoothly the more free disk space there is to work with so spend a
+  little time cleaning up your hard disk.  If you're at all like me,
+  you'll find several megabytes worth of preferences files for
+  applications you no longer have, archives of software you've
+  dearchived, shareware you tried out and didn't like, announcements
+  for events that have come and gone and many other files you no
+  longer need.  If you're running System 7 you may also have several
+  more megabytes in your trash can alone.  Throw them away and empty 
+  the trash.
+
+
+ RETHINK YOUR EXTENSIONS  (4.2)
+
+      Some Macintoshes attract inits like a new suit attracts rain. 
+  Seriously consider whether you actually need every extension 
+  in your collection.  If you don't use the functionality of an
+  extension at least every fifth time you boot up, you're probably
+  better off not storing it in your System Folder where it only takes
+  up memory, destabilizes your system, and slows down every startup. 
+  For instance if you only read PC disks once a month, there's no
+  need to keep AccessPC loaded all the time.  Cutting back on your
+  extension habit can really help avoid crashes. 
+
+
+ REBUILD THE DESKTOP  (4.3)
+
+      The Desktop file/database holds all the information necessary
+  to associate each file with the application that created it.  It
+  lets the system know what application should be launched when you
+  open a given file and what icons it should display where. 
+  Depending on its size each application has one or more
+  representatives in the desktop file.  As applications and files
+  move on and off your hard disk, the Desktop file can be become
+  bloated and corrupt.  Think of it as a Congress for your Mac. 
+  Every so often it's necessary to throw the bums out and start with
+  a clean slate.  Fortunately it's easier to rebuild the desktop than
+  to defeat an incumbent. 
+  
+         One warning: rebuilding the desktop will erase all comments
+  you've stored in the Get Info boxes.  Under System 7 Maurice
+  Volaski's freeware init CommentKeeper will retain those comments
+  across a rebuild.  CommentKeeper also works with System 6 but only 
+  if Apple's Desktop Manager extension is also installed. 
+  
+         To rebuild the desktop restart your Mac and, as your
+  extensions finish loading, depress the Command and Option keys. 
+  You'll be presented with a dialog box asking if you want to rebuild
+  the desktop and warning you that "This could take a few minutes." 
+  Click OK. It will take more than a few minutes. The more files you
+  have the longer it will take.  If you're running System 6 you may
+  want to turn off MultiFinder before trying to rebuild the desktop.
+   
+          If you're experiencing definite problems and not just doing
+  preventive maintenance, you may want to use Fifth Generation's
+  freeware init Desktop Reset.  Desktop Reset completely deletes the
+  Desktop file before rebuilding it, thus eliminating possibly
+  corrupt data structures.    
+
+
+ ZAP THE PRAM AND RESET THE CLOCK  (4.4)
+
+      All Macs from the original 128K Thin Mac to the Quadra 950
+  contain a small amount of battery powered RAM to hold certain
+  settings that properly move with the CPU rather than with the disk
+  such as which disk to boot from.  Unfortunately this "parameter
+  RAM" can become corrupted and cause unexplained crashes.  To reset
+  it under System 7 hold down the Command, Option, P, and R keys
+  while restarting your Mac.  Under System 6 hold down the Command,
+  Option, and Shift keys while selecting the Control Panel from the
+  Apple menu. Click Yes when asked if you want to zap the parameter
+  RAM.  Since you've erased almost all the settings in the General
+  Control Panel, you should now reset them to whatever you want.
+   
+         The one setting that zapping the PRAM does not erase is the 
+  date and time; but since the internal clock in the Macintosh is
+  notoriously inaccurate you'll probably want to take this
+  opportunity to reset it anyway.
+
+
+ RESIZE THE SYSTEM HEAP  (4.5) 
+
+      Even after rethinking their extensions as per step two most
+  people still have at least half a row of icons march across the
+  bottom of their screen every time they restart.  All these
+  extensions (and most applications too) need space in a section of
+  memory called the System Heap.  If the System Heap isn't big enough
+  to comfortably accommodate all the programs that want a piece of
+  it, they all start playing King of the Mountain on the system heap,
+  knocking each other off to get bigger pieces for themselves and
+  trying to climb back on after they get knocked off.  All this
+  fighting amongst the programs severely degrades system performance
+  and almost inevitably crashes the Mac.
+  
+         If you're using System 7, your Macintosh will automatically
+  resize the system heap as necessary; but if you're running System 6
+  it's important to set your system heap size large enough to manage
+  all your extensions and applications.  By default this size is set
+  to 128K, way too small for most Macs with any extensions at all. 
+  The system heap size is stored in the normally non-editable boot
+  blocks of every system disk.  Bill Steinberg's freeware utility
+  BootMan not only lets you resize your system heap but even checks
+  how much memory your heap is already using so it can tell how much
+  needs to be allocated.  If you're running System 6, get BootMan,
+  use it, and be amazed at how infrequently your Macintosh crashes.
+
+
+ REINSTALL THE SYSTEM SOFTWARE  (4.6)
+
+      System files can become corrupt and fragmented, especially if
+  you've stored lots of fonts and desk accessories inside them. 
+  Merely updating the System software will often not fix system file
+  corruption.  I recommend doing a clean reinstall.  Here's how:
+
+    1.  Boot from the installer floppy of your System disks.  
+    2.  Copy any non-standard fonts and desk accessories out 
+        of your System file into a temporary suitcase.
+    3.  Trash the System file on your hard disk.  Also trash the 
+        Finder, MultiFinder, DA Handler, and all other standard Apple 
+        extensions like Control Panel and Chooser.  These will all be 
+        replaced in the new installation.  If you're running or 
+        installing System 7, move everything in the Extensions, 
+        Control Panels, and Preferences folders into the top level 
+        of the System Folder.
+    4.  Rename the System Folder.  Any name other than System Folder 
+        is  fine.
+    5.  Double-click the installer script on your System disk.  Then 
+        choose Customize...  Select the appropriate software for your 
+        model Mac and printer.  You could do an Easy Install instead, 
+        but that will only add a lot of extensions and code you don't 
+        need that waste your memory and disk space.
+    6.  Once installation is finished, move everything from the 
+        temporary folder you created in step 4 into the new System 
+        folder.  If you're asked if you want to replace anything, you 
+        forgot to take something out in step 3.  You'll need to replace 
+        things individually until you find the duplicate piece. 
+    7.  Reinstall any fonts or DA's you removed in step 2.
+    8.  Reboot.  You should now have a clean, defragmented System file 
+        that takes up less memory and disk space and a much more stable 
+        system overall.
+
+
+     DISK UTILITIES  (4.7)
+
+      Much like system files hard disks have data structures that
+  occasionally become corrupted affecting performance and even
+  causing data loss.  Apple includes Disk First Aid, a simple utility
+  for detecting and repairing hard disk problems, with its System
+  disks. It's also available for anonymous ftp from ftp.apple.com in
+  the  directory dts/mac/sys.soft/hdsc.  Even if you have an earlier 
+  version, you should get the latest version (7.1) from ftp.apple.com
+  and run it on all your hard disks.
+     
+         Several companies have released payware disk utilities that
+  detect and repair considerably more problems than Disk First Aid
+  though, interestingly, none of them detect and repair everything
+  that Disk First Aid does.  The three most effective for general
+  work are Central Point's MacTools Deluxe 2.0, Fifth Generation's
+  Public Utilites, and Symantec's Norton Utilities for the Macintosh
+  2.0.  A department or work group should have all of these as well
+  as Disk First Aid since none of them fix everything the others do. 
+  For individuals MacTools ($48 street) is about half the price of
+  Norton ($94 street) or Public Utilities ($98 street) so, features
+  and ease of use being roughly equal, I recommend MacTools.
+   
+         All of these products occasionally encounter problems they
+  can't fix.  When that happens it's time to backup (4.7) and
+  reformat (4.9).
+
+
+     BACKING UP  (4.8)
+
+      This is one part of preventative maintenance that should be
+  done a LOT more often than every three months.  The simplest back
+  up is to merely copy all the files on your hard disk onto floppies
+  or other removable media.  If you keep your data files separate
+  from your application and support files then it's easy to only back
+  up those folders which change frequently.  Nonetheless every three
+  months you  should do a complete backup of your hard disk. 
+  
+         A number of programs are available to make backing up
+  easier.  Apple included a very basic full backup application with
+  System 6.  With the Performas Apple ships a new Apple Backup
+  utility that can backup the entire disk or just the System folder
+  onto floppies.  The previously mentioned Norton Utilities for the
+  Mac and MacTools Deluxe 2.0 include more powerful floppy backup
+  utilities that incorporate compression and incremental backups.
+  
+         Finally if you're lucky enough to have a Tape Drive, network
+  server, or removable media device to use for backups, you should
+  check out the more powerful payware utilities Redux ($49 street,
+  doesn't support tape drives) and Diskfit Pro ($74 street).  There
+  are NO freely available backup utilities other than the old HD
+  Backup from System 6.  
+
+
+ DISK DEFRAGMENTATION  (4.9)
+
+      As disks fill up it gets harder and harder to find enough free
+  space in the same place to write large files.  Therefore the
+  operating system will often split larger files into pieces to be
+  stored in different places on your hard disk.  As files become more
+  and more fragmented performance can degrade.  There are several
+  ways to defragment a hard disk.
+  
+         The most tedious but cheapest method is to backup all your
+  files, erase the hard disk (and you might as well reformat while
+  you're at it.  See question 4.10.), and restore all the files.
+   
+         A number of payware utilities including Norton Utilities for
+  the Mac and Mac Tools Deluxe can defragment a disk in place, i.e.
+  without erasing it.  Although the ads for all these products brag
+  about their safety, once you've bought the software and opened the
+  shrink-wrap they all warn you to back up your disk before
+  defragmenting it in case something does go wrong.  There are NO
+  freeware or shareware disk defragmenters so please don't annoy the
+  net by asking for one. 
+
+
+ REFORMAT YOUR HARD DISK  (4.10)
+
+      Just as a floppy disk needs to be initialized before use, so a
+  hard disk must be formatted before it can hold data.  You don't
+  need to reformat every three months; but when your system is
+  crashing no matter what you try, reformatting is the ultimate means
+  of wiping the slate clean.  Reformatting your hard disk may even
+  gain you a few extra megabytes of space.  Not all hard disks are
+  created equal.  Some can hold more data than others.  To facilitate
+  mass production and advertising without a lot of asterisks (* 81.3
+  megabytes is the average formatted capacity.  Your mileage may
+  vary.)  Apple often formats drives to the lowest common denominator
+  of drive capacity.  When you reformat there's no reason at all not
+  to reclaim whatever unused space Apple's left on your disk.
+     
+         Unlike floppies hard disks need a special program to
+  initialize them. Most hard disks come with formatting software. 
+  Apple's disks and System software ship with HD SC setup, a minimal
+  disk formatter which will format Apple brand hard drives ONLY. 
+  Most other manufacturers ship appropriate formatting software with
+  their hard drives.  Normally this will be all you need to reformat
+  your hard disk.
+  
+         A number of general-purpose formatters are also available
+  which go beyond the bundled software to include features like
+  encryption, password protection, multiple partitioning, faster disk
+  access, System 7 compatibility, and even compression.  Two of the
+  best are the payware Drive7 and Hard Disk Toolkit Personal Edition
+  ($49 street for either).  While there are one or two freeware
+  formatters available, none are likely to be superior to the ones
+  bundled with your hard disk. 
+  
+         PowerBook users should be sure to turn off Sleep and
+  processor cycling before reformatting their hard drives no matter
+  what software they use.  Otherwise disk corruption, crashes, and
+  data losses are a very good possibility.
+  
+
+
+  Elliotte Rusty Harold         Department of Mathematics
+  elharo@shiva.njit.edu         New Jersey Institute of Technology
+  erh0362@tesla.njit.edu        Newark, NJ 07102
+

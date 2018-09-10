@@ -1,0 +1,65 @@
+From: ajayshah@almaak.usc.edu (Ajay Shah)
+Subject: (Some info) The DOS/MSW meltdown is progressing nicely
+Organization: University of Southern California, Los Angeles, CA
+Lines: 59
+NNTP-Posting-Host: almaak.usc.edu
+
+"The Preferred Applications Development Platform"
+according to 432 of the Fortune 1000 corporations
+Survey by Sentry Market Research Survey
+(All percentages)
+
+                1992            1993
+
+Unix              18              28
+Mainframe         35              22
+DOS & MSW         24              18
+OS/2               8              17
+Midrange          14              14
+
+This is from `Corporate Computing', May 1993, page 28.
+It's interesting to see how the greatest vapour-project of the world
+has not been able to make much of a difference here :-)
+
+Before you think it's a interesting rag, they have this incredibly
+incompetent article/opinion piece by someone named Robert Ziff which
+has preposturous statements like "Sun has sold around 300
+multiprocessing servers"!!!!!!  (In that case USC has around 4% of all
+Sun MP servers on earth :-)) He is off by a factor of 50? 100?  
+I thought of sending them a "factual disaster" email message; they have
+a column titled "how to contact us" but being silly PCheads they seem
+to have never heard of the Internet.
+
+These may also be of interest:
+
+World computer market share by broad category (%)
+
+                                1991            1996
+
+DOS, Windows, Netware           37.0            40.0
+Unix                            11.6            21.0
+IBM Mainframe                   17.4            14.4
+VAX/VMS                          3.7             2.6
+IBM minis                        4.1             4.0
+Macintosh                        3.6             4.6
+Other                           22.6            13.4
+
+Totally                 $155 billion
+
+1996 projections are by IDC
+Source: Unix World, Jan 1993
+
+
+
+1993 Unix hardware sales by category
+
+                             $billion        installed-base
+
+Workstations                 14.1            3 million
+Midrange                      7.4            1 million
+Large-scale                   1.8
+PC Unix                       0.6            2 million
+
+Total                        23.9
+-- 
+Ajay Shah, (213)749-8133, ajayshah@rcf.usc.edu

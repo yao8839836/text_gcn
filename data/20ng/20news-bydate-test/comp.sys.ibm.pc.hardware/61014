@@ -1,0 +1,41 @@
+From: himb@iniki.soest.hawaii.edu (Liz Camarra)
+Subject: Re: Hercules VLB?
+Organization: School of Ocean and Earth Science and Technology
+Lines: 36
+
+In article <1993Apr22.183309.25247@adobe.com> sherwood@adobe.com (Geoffrey Sherwood) writes:
+>That is for my wife.  I just purchased a Viewsonic 17 for myself, and am
+>looking for a graphics card to drive it.  I want > 70Hz refresh,
+>and would really like it to handle my CD-Roms.  I tried the Orchid P9000,
+>which did neither of those things (though Robert at Wietek did say that the
+>>70Hz was possible if I modifed the driver data base).  So my thoughts go back
+>to Hercules.  They were supposed to be coming out with a VLB version of the
+>Graphite around the end of March.  I have heard precisely ZERO about it since
+>then.  Does anyone know if the card was actually released, and what capabilities
+>(and price) it has?
+
+  Hmm your CD-Rom program must be using some oddball VGA modes.
+
+  I think they are trying to get it out by the end of this month, when
+it is released though it'll be in limited quantities, I think they
+have quite a back order right now (the 2 megs version will come out
+a bit later).
+
+  Since you have a Viewsonic 17 (I think it has a 78khz horizontal
+frequency right?), you're gonna love the 2 megs version.  It can
+do 1280x1024x256 at 75Hz, 1152x900x256 at 80Hz, 1024x768x256 at 90Hz(!),
+1024x768x65536 at 75Hz.  It can also do 640x480x16 mil. and
+800x600x16 bit at 90Hz, too bad I don't have such a high bandwidth 
+monitor like yours ;) ;) (most of those modes need a 78khz monitor,
+otherwise you'll have to use a lower refresh rate)
+
+  If you want more info. about the coming Graphite VL, you should
+go to the IBM hardware section on Compuserve (IBMHW), in the
+video sig.  There're several Hercules reps there that are very
+helpful.
+
++----------------------------------------------------------------+
+Stephen Lau, Elec. Engineering, Univ. of Hawaii
+ don't have my own account until grad. school starts (autumn 93)
++              Death to FM synthesis! Go Gus!                    +
+

@@ -1,0 +1,20 @@
+From: dbrooks@osf.org (David Brooks)
+Subject: Re: XV 3.0 author is on vacation till May 10 or so
+Reply-To: dbrooks@osf.org (David Brooks)
+Organization: Open Software Foundation
+Lines: 14
+
+amir@matis.ingr.com writes:
+>For all those people flaming John Bradley, the author of xv - he's on
+>vacation till May 10 (or 15, I don't remember). Maybe we all should slow
+>down and wait to hear his side wrt copyrights, fees, etc.
+
+While I have respect for John's ability and integrity, I really regret his
+leaving just after a major release (or, more accurately, making the release
+just before leaving).  Several of us are having problems with xv-3.00, and
+in particular I have issues with all the fixes that have so far been made
+to the Imakefiles and xv.h.  Without John to adjudicate, and everybody
+posting fixes that work for *them*, chaos is inevitable; let's hope it is
+temporary.
+-- 
+John "Guile Skywalker" Brooks using his Dad's account

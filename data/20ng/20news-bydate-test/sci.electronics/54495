@@ -1,0 +1,23 @@
+From: kludge@grissom.larc.nasa.gov (Scott Dorsey)
+Subject: Re: Accelerometer request re-specified
+Organization: NASA Langley Research Center and Reptile Farm
+Lines: 17
+NNTP-Posting-Host: grissom.larc.nasa.gov
+
+In article <1993Apr27.190648.26436@walter.bellcore.com> deaddio@ski.bellcore.com (Michael DeAddio) writes:
+>
+>Basically, I am looking for something to operate in the
+>ranges of accelerations found in an automobile environment.
+>I would like the device to operate as a trigger for other
+>systems when the car's deceleration reaches a threshold value
+>(which is how I assume some seat belt lock mechanisms and air
+>bag deployment systems work?).
+
+Open up one of the airbag control boxes.  They have inexpensive piezoelectric
+accelerometers in them.  I know that the GM cars use the Setra units.  The
+cheapest way to get such an accelerometer is to cannibalize an existing
+automotive unit.
+
+Incidentally, these things aren't very linear, but for the application they
+would do a fine job.
+--scott

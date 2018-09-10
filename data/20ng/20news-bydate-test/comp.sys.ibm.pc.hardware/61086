@@ -1,0 +1,34 @@
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Subject: Re: HELP:IDE Drive installation problems
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 28
+NNTP-Posting-Host: slc10.ins.cwru.edu
+
+
+
+
+
+Article #61175 (61302 is last):
+>Newsgroups: comp.sys.ibm.pc.hardware
+From: qwerty@tunisia.ssc.gov (Kris Schludermann)
+Subject: HELP:IDE Drive installation problems
+Date: Thu Apr 22 12:11:58 1993
+
+I'm having trouble with installing a second IDE drive on a Promise IDE caching
+controller. The first drive is a conner 3204 and works fine. The second drive
+is a conner 30174, it is currently unjumpered  to be the slave drive. The
+problem is the slave drive is recognized but is reported back as having no
+free space. Disabling cache has made no effect. What else should I check for?
+
+krispy
+End of File, Press RETURN to quit
+
+Krispy,
+Lets start with what Promise controller that you have. Ther are only
+about 4 or 6 of them made. The one that I have the DC-99m needs
+nothing done but install it as stated. As to the 2th. hd you do know
+about running FDISK on it and partisitions and then formatting it
+after your finished with the fdisk operation right!....Sam
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...

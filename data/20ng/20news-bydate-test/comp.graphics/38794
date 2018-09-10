@@ -1,0 +1,22 @@
+From: dgodden@st.nepean.uws.edu.au (Daniel Godden)
+Subject: Fast Polygon Routines needed.
+Organization: University of Western Sydney, Nepean
+X-Newsreader: Tin 1.1 PL4
+Lines: 16
+
+I am looking for some fast polygon routines (Shaded or Texture
+Mapped) in ASM (compile with MASM) or in Turbo Pascal (compile with
+TP6). It has to be able to run on a 286, but does not have to look
+super fast on a 286, but must look good on a 386.  
+
+If anyone has any such code could you please mail it to me. Or tell
+me where it can be got. 
+
+Thanks in advance.
+
+
+--
+------------------------------------------------------------------------------
+Daniel Godden                                  #Genius is only one step away
+University of Western Sydney,Nepean            #from InSaNiTy! 
+AARNet/Internet:dgodden@st.nepean.usw.edu.au   #But me, I am already there!

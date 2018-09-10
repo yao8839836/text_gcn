@@ -1,0 +1,22 @@
+From: dhliu@solar.csie.ntu.edu.tw (Der-Hua Liu)
+Subject: keycode wrong for XKeyReleasedEvent ??
+Nntp-Posting-Host: jupiter.csie.ntu.edu.tw
+Organization: The Dept. of Computer Science and Information Engineering of NTU
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 15
+
+I am writing a X-based dosemu which requires XKeyReleasedEvent. 
+I found the keycode of XKeyReleasedEvent is wrong.   If I run the program on
+a Linux host(XFree1.2) with  DISPLAY set to the local Linux and to
+the Sun host (X11R5), the two keycodes from the two Xservers are different. 
+Of course, the keycode of XKeyPressedEvent is O.K.
+
+Can anybody verify this ?     Did I do anything wrong ? 
+	
+Thanks.
+
+--
+Edward Der-Hua Liu
+CS department
+National Taiwan University, Taiwan
+dhliu@solar.csie.ntu.edu.tw

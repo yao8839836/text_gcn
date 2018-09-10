@@ -1,0 +1,25 @@
+From: gowen@forte.cs.tufts.edu (Gregory Owen)
+Subject: Re: Sun 4 as X terminal
+In-Reply-To: dimitri@ee.ubc.ca's message of Wed, 12 May 1993 22:15:46 GMT
+Organization: Tufts University Department of Computer Science
+Lines: 19
+
+
+>> Xkernel is available for Sun 3/50s.  Is there a similar package available
+>  ^^^^^^^
+> 
+> Is this public domain? If yes, where can one obtain a copy from?
+	Yes, it is.  It is available at ftp.ctr.columbia.edu, probably
+in pub/xkernel.  
+
+	In response to the earlier gentlemans question, you could
+theoretically recompile xkernel on a sun4.  The binaries available are
+for the sun3/50, but the author says it could be used on most
+architectures, and he does have a 'do-it-yourself' type distribution.
+
+	We use Xkernel for about 7 machines here.  email me if you
+have any questions I can help you with...
+
+  Greg Owen  { gowen@forte.cs.tufts.edu, gowen@jade.tufts.edu }
+Systems Programmer and TA, Tufts University Computer Science Dept.
+  Personal info: GCS/GO d-- -p+ c+++ l++ m*/m- s++/- g+ w+/w-- t+ r-- x+

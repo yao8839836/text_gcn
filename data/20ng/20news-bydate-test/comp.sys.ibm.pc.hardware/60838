@@ -1,0 +1,141 @@
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Subject: Re: HOW is a Null Modem Cable?
+Organization: Ford Motor Company Research Laboratory
+Lines: 134
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+Kevin Kimmell - Computer Science/German Undergrad (ke_kimmell@vax.cns.muskingum.edu) wrote:
+: 
+: 	I am interrested in the extrodinarily simple concept of the null modem
+: cable. (Actually I have NO idea, so don't count that last statement.)  What I'm
+: asking is what pins does it use (or what are it's specifications?)  I just want
+: to solder one myself instead of buying one.  I don't even know what port is
+: used.
+: 
+: Help me please (at ke_kimmell@vax.cns.muskingum.edu)
+: 
+: Kevin
+: 
+: p.s.  I'm intending to use the cable for PC-to-PC transfers (via Lap-Link or
+: Telix.  Ideas and info gladly accepted.)
+
+I do not have specific knowledge of Lap-Link or Telix, but my recommendation
+for ANY package is to follow each one's instructions for making the null-
+modem cable.  The reason is that each one may be different since there isn't
+really a standard for PC to PC communications.  The following is a tutorial
+I wrote up that will give you an understanding about RS-232 and null modems,
+but you should still check your software!
+
+I will eplain a couple of details of RS-232.  RS-232 is
+a commumications specification for communicating between a computer and a
+modem.  Actually it can be between any end system and any communications
+hardware.  The terminology used is Data Terminal Equipment (DTE) and DATA
+Communications Equipment (DCE).  RS-232 spells out the voltage levels, the
+connector type, the pinouts, and the signal protocols.  The connector is
+a "DB-25" but IBM has set an alternative "standard" of DB-9.  The primary
+signals are Transmit Data (TD), Recieve Data (RD), and Signal Ground (SG).
+There are other signals that provide control between the DTE and the DCE.
+For example, the DTE announces that it is powered up and ready to participate
+in communications via the Data Terminal Ready (DTR) signal.  DTR is an
+output on the DTE and an input on the DCE.  Similarly, the DCE announces that
+it is ready to participate in communications via the Data Set Ready (DSR)
+signal.  DSR is an input on the DTE and an output on the DCE.  Ok that's
+five signals; there are only four more of interest.  The Request To Send (RTS)
+signal is an output from the DTE (and an input to the DCE) that is used
+to ask the DCE permission to send data.  If the DCE agrees, it sends an ok
+via the Clear To Send (CTS) signal.  (For completeness, the CTS is an input
+to the DTE and an output from the DCE).  The other two signals (of interest)
+are Ring Indicator (RI) and Data Carrier Detect (DCD).  These are both inputs
+to the DTE and outputs from the DCE.  RI is just what you would expect -
+a signal to the DTE saying that someone is attempting to establish a connection
+to the DCE.  This is rather specific to the modem / telephone line setup.
+DCD is a way for the DCE to announce that the "connection" has been established
+i.e. the local DCE is talking to some remote DCE.  There - that's it.  Oh
+there are many other RS-232 signals defined, but they are obsolete.  I have
+explained the nine signals that are on a PC.  The pinouts are as follows:
+
+Name    DB-9     DB-25
+ SG       5        7
+ TD       3        2
+ RD       2        3
+DTR       4       20
+DSR       6        6
+DCD       1        8
+RTS       7        4
+CTS       8        5
+ RI       9       22
+
+Now to address your problem at hand.  When you connect a PC to a PC (a DTE
+to a DTE), there is no DCE pair in the middle and therefore the RS-232
+signal definitions don't work out quite right.  There is no DCE to assert
+the CTS, DSR, DCD, or RI.  So the common thing to do is to not use these
+signals at all - and also forget about the DTR and RTS outputs as well.  If
+this is done you simply make a null modem (a cable) that passes through SG,
+and crosses TD and RD (i.e. pin 2 of one end connects to pin 3 at the other
+end, etc).  The problem with this solution is that a PC that wants to send
+data has no way of knowing if the other PC is ready.  It would have to just
+send the data and hope it got through.  Therefore a better null modem would
+include the DTR/DSR pair crossed.  A particular point a confusion is in the
+software area.  Just because you run the wires does not mean that the soft-
+ware will use them.  If you are using the built-in BIOS to control the
+serial port, then the BIOS dictates what wires you need and how they are to
+be used.  But if you have a comm. package such as Brooklyn Bridge, or Lap-
+Link or Telix, then those packages dictate the cabling requirements.  The
+only thing you can guess reliably is the SG, TD, and RD.  The DTR/DSR is also
+fairly common.  There is one more issue that needs to be addressed here.  And
+that is flow control.  In the RS-232 scenerio, the DCE's are responsible for
+flow control and it is assumed that the DCE couldn't possible over-run the
+DTE.  By this I mean that as long as the DTE has its DTR line asserted, the
+DCE will send data - without requesting permission first.  Note the contrast
+to the other direction of data flow: the DTE must request permission by
+asserting the RTS line and it must wait for the CTS signal before it can
+send.  And now in the DTE to DTE scenerio, the question is do you need flow
+control?  The answser is usually.  But how?  For non-binary communications,
+one common technique is XON - XOFF which is implemented in software - no
+wires are dedicated to flow control; the TD and RD carry the XON and XOFF
+commands.  This type of flow control can be used in addition to hardware
+flow control, but the problem is that you can't send binary data because
+your data might include the XON or XOFF codes and cause erroneous conrol
+signals.  (A work around is to have the software insert and extract "escape"
+codes, but the hardware flow control is prefered).  The problem with hard-
+ware flow control is that there is no standard.  There are lots of ways to
+do it and I bet they have all been tried.  One cornerstone of all the methods
+is to use the RTS/CTS for one direction.  But beyond that anything is fair
+game.  Again, you must look to you comm package for cabling requirements.
+But I bet you'll find that one cable (if wired properly) could work with
+all of the packages as long as they are of the same vintage.  By the way,
+I am familiar with one package that uses RTS/CTS and DTR/DSR for flow control
+the RTS is request to send and the DTR is ready to recieve, the CTS is the
+clear to send and the DSR is the request to recieve.  This does not mean a
+differnt cable - it is just software.  The clincher to all of this cabling
+stuff is that it is common to have the UART directly controlled by the CTS
+signal which means that the CTS must be present even if you are not support-
+ing it in software.  For these cases you will find cables that short the
+RTS to the CTS at the same end (or perhaps the DTR to the CTS).  Other
+possible shorting might be done just because the software expects certain
+signals that you don't have (or don't feel like providing because it would
+mean additional wires).  Specifically I am talking about the DSR.  Shorting
+the DTR to the DSR is not a good idea in general but you may find cables like
+this.  It is a bad idea because it defeats the whole purpose.  One more
+"gotcha" signal is the DCD.  Some software (including the PC BIOS) expects to
+see the DCD before it will work.  This signal sometimes gets shorted with the
+DTR.  But my favorite null modem has the RTS and CTS shorted at each end, but
+the RTS is also connected through to the other end and connected to DCD.  And
+of course the DTR/DSR are crossed as are the TD/RD and of course the SG must
+pass through.  This null modem works with most software.  The flow control,
+if any, can use the RTS/DCD with the DTR/DSR.  If your comm. package does not
+specify the cable required for PC to PC connection, then I suggest you use
+this one.
+
+    TD  ------  RD
+    RD  ------  TD
+    DTR ------ DSR
+    DSR ------ DTR
+    DCD ------ RTS-\
+  /-RTS ------ DCD |
+  \-CTS        CTS-/
+
+
+Gordon Lang
+

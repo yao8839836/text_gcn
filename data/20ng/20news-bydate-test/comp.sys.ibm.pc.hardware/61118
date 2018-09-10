@@ -1,0 +1,37 @@
+From: tcking@uswnvg.com (Tim King)
+Subject: Re: Gateway Monitor Problem--Again! Help
+Distribution: usa
+Organization: U S WEST NewVector Group, Inc.
+Lines: 30
+X-Newsreader: Tin 1.1 PL5
+
+Joshua Smith (jlredd@ravel.udel.edu) wrote:
+: 
+: Once again, someone else with a Gateway Monitor problem, anyone who can
+: help, please do, it would be much apprieciated.  Thanks in advance.
+: 
+: Ok, I have a Local Bus 486/66 machine, with the Crystal Scan 15inch
+: monitor.  I have 1 meg of loca memory on the ATI ultra pro, w/ the
+: mach32 driver (the newest release).
+: 
+: My problem is in Windows when I use the 1024 mode. I get shadows down
+: the sides of the screens, and very blurry type in the corners.  The
+: types on the screen are all out of focus. I've gotten replacement video
+: cards, and a replacement monitor.  None of that has helped though.
+: Could someone pleae help me with this very frustruating problem.
+
+I have the 1 meg card with the Crystal Scan 15 inch also.  I see very
+faint shadows on the left side of the screen only in 1024 x 768 mode,
+but not enough to really bother me.  The characters on the screen
+are clear until I turn on the Crystal Fonts, then they become blurry.
+
+I have a friend who has 2 meg on the video card who has the same shadows,
+but says the Crystal Fonts are, well, crystal clear.
+
+We are both using build 59 of the mach32 drivers. Neither of us has a monitor
+extension cable.  I tried the build55 driver and found no difference.
+
+--
+Tim King, tcking@uswnvg.com
+US West NewVector Group Inc.
+Bellevue, Washington

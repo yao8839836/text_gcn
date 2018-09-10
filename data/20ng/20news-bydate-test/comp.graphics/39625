@@ -1,0 +1,20 @@
+From: brennan@hal.hahnemann.edu
+Subject: .GIFs on a Tek401x ??
+Organization: Hahnemann University
+Lines: 14
+NNTP-Posting-Host: hal.hahnemann.edu
+
+
+      I was skimming through a few gophers and bumped into one at NIH
+   with a database that included images in .GIF format.  While I have
+   not yet worked out the kinks of getting the gopher client to call
+   an X viewer, I figure that the majority of the users here are not
+   in an X11 environment - instead using DOS and MS-Kermit.
+
+      With Kermit supporting Tek4010 emulation for graphics display,
+   does anyone know of a package that would allow a Tek to display a
+   .GIF image?  It would be of more use to the local population to
+   plug something of this sort in as the 'picture' command instead of
+   XView or XLoadImage ...
+
+      andrew.  (brennan@hal.hahnemann.edu)

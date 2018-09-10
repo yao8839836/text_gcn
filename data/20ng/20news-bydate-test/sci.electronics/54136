@@ -1,0 +1,16 @@
+From: ptorre@hardy.u.washington.edu (Phil Torre)
+Subject: How to drive an array of LEDs?
+Article-I.D.: shelley.1raa9vINNd1l
+Distribution: world
+Organization: University of Washington, Seattle
+Lines: 8
+NNTP-Posting-Host: hardy.u.washington.edu
+
+I have a project in mind that requires an array of LEDs that can be addressed
+individually by a microprocessor (say, 16x16 or so).  Is there an LSI that
+is designed to drive an LED array (including RAM to hold the array state),
+or failing that, some way of multiplexing the display so I don't have to
+latch a bit for each LED using a discrete latch?  (I want to avoid having
+a huge board covered with 373s if possible!)  Thanks in advance...
+
+Phil Torre (ptorre@u.washington.edu)

@@ -1,0 +1,21 @@
+From: gsulliva@enuxha.eas.asu.edu (Glenn A Sullivan)
+Subject: Re: Long distance IR detection
+Summary: Results of IR beacon tracking hardware tests  
+Organization: Arizona State University
+Lines: 15
+
+sburton@dres.dnd.ca (Stan Burton) writes:..........
+> I would like to be able to detect the angular position (low accuracy) of an
+> IR emitting source at a distance of about 100 meters (more is better) in
+> daylight.  The IR source could be emitting a signature; I'm leaning toward
+> 30 KHz square wave with 50% duty cycle.
+> 
+I designed and built hardware in 1988 that would output a logic level (from
+a 567 tone detector) upon detecting a 500 microwatt LED 28 feet away.
+Used a Motorola MRD360, biased linearly  in a DC-feedback loop to servo out
+variations in sunlight (and 60Hz from lights). Used no lenses.
+
+Allen Sullivan
+
+
+

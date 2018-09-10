@@ -1,0 +1,96 @@
+From: J.K.Wight@newcastle.ac.UK (Jim Wight)
+Subject: aXe 5.0 is available
+Organization: Computing Laboratory, U of Newcastle upon Tyne, UK NE17RU
+Lines: 89
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xannounce@expo.lcs.mit.edu
+
+I have placed a new release of my aXe editor in aXe-5.0.tar.Z on
+export.lcs.mit.edu (18.24.0.12) and arjuna.ncl.ac.uk (128.240.150.1).
+
+The significant change this time, and the justification for the hike
+in the major version number, is:
+
+  o undo has been implemented.
+
+    By default only the last change can be undone, but a resource is
+    provided to allow the user to specify how many, including unlimited,
+    levels of undo information should be kept. Also, undo of undo is
+    supported.
+
+There is no truth in the rumour that the next version will be EmaXe 19 :-)
+
+                          -=-=-=-=-=-=-=-=-=-
+
+For those who have not encountered aXe before here is a summary of
+what it is all about:
+
+aXe is a simple to use text editor for X that represents a significant
+improvement over xedit. Also built around the Athena Text Widget it
+features, amongst other things,
+
+   o multiple windows
+   o multiple buffers
+   o default menu interface
+   o optional button interface, with choice and layout of buttons 
+     under user control
+   o minibuffer for expert use and access to external filters
+   o provision for defining a keyboard macro
+   o geometry specification and resizing in terms of characters
+   o file selection via a browser
+   o knowledge of line numbers
+   o parenthesis matching
+   o regular expression searching
+   o restricted or unlimited undo
+   o ability to change font
+   o easy entry of control codes
+   o xterm-like keymap feature
+   o easy runtime setting of selected preferences (resources)
+   o both brief and comprehensive on-line help
+   o server mode with cooperating client programs
+   o optional extension language using Tcl
+   o optional Xaw3d widget set compatability
+   o collection of reusable widgets that embody the functionality of aXe
+
+I have personally built and run core aXe, i.e. without the Tcl and
+Xaw3d options, on the following systems:
+
+   Sun SPARC        SunOS 4.1.x     MIT X11R5
+   Sun SPARC        SunOS 5.1       MIT X11R5
+   Encore Multimax  UMAX 4.3        MIT X11R5
+   DEC 5000/120     ULTRIX 4.2      MIT X11R5
+   HP 9000/710      HP-UX 8.07      MIT X11R5
+   MAC IIci         AU/X 3.0        MIT X11R5
+   
+but not all have been subject to the same level of testing. I have
+only tested the Tcl and Xaw3d options on the first.
+
+A number of '#ifdef SYSV'-isms that have been fed back to me have been
+incorporated into the code and a possible scandir replacement is
+provided for those systems that do not have one.
+
+Although aXe will probably build under R4 run-time problems have been
+encountered in the past. I have not bothered to try this version under
+R4, and have not put any effort into solving previously known
+problems.  Therefore, if you are at R4 you very much take pot luck. If
+it doesn't work the only alternative is to try the last release,
+2.1.1, of version 2 which should still be around. It doesn't have as
+many features and uses the Widget Creation Library (Wcl). Not only
+that, it requires an old version of Wcl, 1.06 or 1.05. Version 3 of
+aXe was nearing completion when version 2 of Wcl came out so aXe 2
+never got converted to make use of it.
+
+aXe is available by anonymous ftp from export.lcs.mit.edu (18.24.0.12)
+and arjuna.ncl.ac.uk (128.240.150.1) initially, and probably in due
+course from several other ftp sites.  Check your nearest using
+xarchie.
+
+If you can't ftp, try sending email to ftpmail@decwrl.dec.com with the
+word "help" alone in your message body.  You will receive instructions
+on how to ftp via email.
+
+Jim
+---
+J.K.Wight@newcastle.ac.uk
+Department of Computing Science, University of Newcastle,  Tel: +44 91 222 8238
+Newcastle upon Tyne, NE1 7RU, United Kingdom.              Fax: +44 91 222 8232

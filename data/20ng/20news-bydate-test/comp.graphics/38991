@@ -1,0 +1,12 @@
+From: wbdst+@pitt.edu (William B Dwinnell)
+Subject: Re: Intel's PCI standard???
+Organization: University of Pittsburgh
+Lines: 7
+
+
+vamilliron:  Yes, Intel's PCI is (another) Local Bus standard, which
+can be used for graphics, although I believe Local Buses can be used
+for other things, too.  As far as I know, though, PCI Local Bus 
+would compete with VESA Local Bus, not the VESA graphics standard, but
+others more enlightened might be able to shed more light on this
+matter.

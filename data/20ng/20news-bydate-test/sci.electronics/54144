@@ -1,0 +1,42 @@
+From: kolstad@cae.wisc.edu (Joel Kolstad)
+Subject: Re: Blue LED's
+Organization: U of Wisconsin-Madison College of Engineering
+Distribution: sci.electronics
+Lines: 36
+
+In article <C5yqDE.Cq0@ecf.toronto.edu> gladman@ecf.toronto.edu (GLADMAN AVIV) writes:
+>
+>In order to emit blue light, a semiconductor must have a band gap energy
+>within the region of 2.6 to 2.8 electron Volts. According to my physical
+>electronics prof, you can't get an LED with that band gap. That's why you
+>don't find blue LEDs or, for that matter, some other colour of LEDs. That
+>is not to say that blue LEDs can't be found.  I've seen 'blue' LEDs sold,
+>but they were just your typical visible light LED in a blue plastic covering.
+>They didn't emit very much light...
+
+Um...
+
+1) Your Professor if just plain wrong.  Although blue LEDs are one heck of
+a lot less efficient than red ones.
+2) "Typical visible light LEDs" don't really exist.  LEDs have a fairly
+narrow region of transmittence.  (Since the Fermi energy around either side
+of the band gap falls off exponentially, blah, blah...)
+
+>Source: Solid State Electronic Devices (Ben G. Streetman, 3d ed., Prentice
+>Hall)
+
+You might want to check the copyright date on that. :-)
+
+Blue LEDs most certainly do exist, I've got a bunch at work.  Cree Research
+makes them (probably along with other companies...  Cree is big in
+materials science, though; they advertise in the stuff like Physics Today,
+etc.).  You can buy them from JameCo (I think), DigiKey (definitely), and
+plenty of other distributors.
+
+Actually, these days you _can_ get a "typical visible light" LED -- it's
+called a "rainbow LED", and I've forgotten who makes it (they advertise in
+EDN and many of the other trade rags, though).  It combines a reg, green,
+and blue LED all on one chip (and has four leads).  Nifty device, although
+it's probably fairly expensive.
+
+					---Joel Kolstad

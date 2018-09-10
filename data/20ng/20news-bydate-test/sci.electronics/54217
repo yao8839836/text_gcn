@@ -1,0 +1,77 @@
+From: billn@hpcvaac.cv.hp.com (bill nelson)
+Subject: Re: Power, signal surges in home...
+Organization: Hewlett-Packard Company, Corvallis, Oregon USA
+Lines: 72
+
+brian@ucsd.edu (Brian Kantor) writes:
+: While it's possible that it's a ham radio transmitter that you're
+: hearing, it isn't likely - every bit of signal that doesn't go out the
+: antenna is wasted, as far as a ham is concerned, and most hams are
+
+It is the radiated signal that would cause the problem.
+
+: technically competent to ensure that they don't waste any signal if they
+: can possibly avoid it.  To get their ham license, they had to pass a
+: government exam that tests them on that point, among others.
+: 
+: However, you could be hearing a radio transmitter for sure - there are
+: lots of other services where the operators AREN'T required to be
+: technically competent - Citizens Band ("CB"), for example.
+
+There is nothing in the Amateur Radio Tests that requires an technical
+competence at all. It is a simple matter to memorize all the questions
+and answers.  However, that said, most Hams that I know do spend quite
+a bit of time gaining some technical skill.
+
+: Listen to the interference.  If you hear voices clearly, it almost
+: certainly ISN'T ham radio, and might well be CB.  If you can record a
+
+Don't count on that.
+
+: bit of it, you could take the tape over to a local ham operator's house
+: and ask him for his opinion of what you're hearing.  Most communities
+
+You cannot do that legally. However, you can ask a ham over to listen.
+If the interference occurs at a specific time each day, then it would
+be possible to do such scheduling.  If nothing else, you could invite
+the ham over to transmit from your driveway, to see if he interferes.
+If he does, then you probably need to have your equipment worked on to
+make it immune to rf interference.
+
+: have a ham radio interference committee whose members are most willing
+: to help you resolve interference complaints.  Look in the phone book, or
+: ask at the local ham radio store, or call the FCC for contact info.
+
+The FCC may, or may not, have such information. They have enough to do
+without getting calls for such information. If nothing else, call your
+city offices or police department (general business number). They should
+have the name of a local ham contact.
+
+: If it's a ham, he's more than likely willing to help get rid of the
+: problem.  After all, it would be his signal he's wasting.  If it isn't,
+: the interference committee or the FCC may be able to suggest solutions.
+
+See above - your concept of wasted signal is erroneous. If his rig is
+transmitting properly, then the chance of interference (with the exception
+of harmonic television interference) is the greatest - since he is putting
+out the strongest signal.
+
+: It is unfortunately the case that a transmitting station that is
+: operating perfectly legally could possibly cause intereference to a
+: piece of consumer audio or TV equipment just because the manufacturer of
+: the consumer equipment cut corners on one little section of the device
+: that wouldn't affect one person in a thousand, but which bites you.
+: Often that can be remedied for just a few pennies by a knowledgeable
+: person, perhaps even the person operating the transmitter you're
+: hearing.
+
+Unfortunately, most consumer equipment is succeptable - it is all poorly
+designed.
+
+: (BTW: hams are ALLOWED amplifiers; CB isn't.  "illegal ham amplifier"
+: doesn't compute.)
+
+It does, but not for a mobile radio. There are very few mobile rigs that
+could power a 1500 watt amplifier.
+
+Bill

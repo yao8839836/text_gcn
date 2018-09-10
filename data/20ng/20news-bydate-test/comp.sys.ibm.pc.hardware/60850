@@ -1,0 +1,87 @@
+From: rmitch@irus.rri.uwo.ca (Ross Mitchell)
+Subject: 66DX2 ISA,VLB xor 50DX EISA ??  Advice wanted...
+Organization: University of Western Ontario, London
+Nntp-Posting-Host: vega.irus.rri.uwo.ca
+Lines: 81
+
+
+Hi:
+
+I need some advice (opinions?) regarding which PC would best suit my needs!
+I want to use this (proposed) beast for basically four things:  
+
+     -	Editing documents using WordPerfect 5.1 (under dos)
+
+     -	Creating graphs/analyzing data using Sigmaplot V5.0 (under dos)
+
+     -	Editing/playing with images using Aldus PhotoStyler, running under 
+	Windows 3.1 - these images can be large, say 2k x 2k, 24bits/pixel
+
+     -	Using the PC as an Xterminal, running DesqView/X 1.1 and Sun PC-NFS, 
+	talking to our network of Sparcstation's - this is where a lot of
+	the images/data come from, and is the most demanding of these tasks.
+
+I've read, read, read PC magazines, performed benchmarks, read this newsgroup,
+and decided that a "nice" system (price/performance) would be:
+
+	486DX-50 256k cache, ISA, VLB, 16meg ram
+	ATI Graphics Ultra Pro, 2 meg ram, local bus
+	15" monitor, 1280x1024 NI
+	3Com Etherlink III 16bit
+	Maxtor 240MB IDE hard drive
+
+However, the parts don't fit!  Our local retailer apparently put one of these
+together, only to discover that the ATI card wouldn't run at 50MHz - surprise
+surprise.  Actually, after reading this group, I'm surprised that they even
+have a 50MHz local bus running...
+
+I have a choice now between basically the above system but with a
+486DX2-66 with ISA and VLB,  or,   a 486DX-50 with EISA and no VLB (and thus
+the non-local bus version of the ATI card).  Which is better, keeping in mind
+that I'm primarily interested in the last two tasks?  
+
+Any help would be greatly appreciated!  (I need to decide quickly, so any 
+speedy help would be appreciated even more!!)
+
+
+
+BTW: We have a system now to perform these tasks, it has the following 
+configuration:
+
+	486DX-33 64k cache, ISA, 8 meg ram
+	ATI Graphics Ultra+, 2 meg ram
+	14" monitor, 1024x768 NI
+	SMC Ethercard 8 bit
+	Maxtor 120MB IDE hard drive
+
+We're quite happy with the ATI card - very fast, ONCE the data gets to it!!
+~Slow~ repainting images under PhotoStyler that have moved off screen, or
+been uncovered!  
+
+There doesn't seem to be enough raw cpu when running DesqView/X!  Its sluggish
+running the local window manager.  Also, many functions under PhotoStyler take
+a long time (even when the images fit entirely in ram).
+
+There's not enough memory in the system - DesqView/X and a 1 meg SmartDrive
+don't leave much room for other apps.  Photostyler will page to disk with
+medium size images.
+
+I have performed a number of benchmarks on the ethernet transfer rates.  This
+machine sustains only 120k/sec over ethernet while our Sparcs sustain 600k/sec 
+on the same network.  Going to the 16 bit version of the SMC card increases
+transfer rates to 160k/sec - still very slow (especially when moving large 
+images).  Is there such a thing as a local-bus ethernet card coming??  Will it
+make a difference?  I'm hoping so, and leaning towards the 486DX2-66 choice 
+(above), for that reason.
+
+Also, are there DX2-100's on the horizon?  What about DX3-99's?  DX3-150's ???!
+
+Any information is greatly appreciated.
+
+-----
+Ross Mitchell, Imaging Research Lab, |   rmitch@irus.rri.uwo.ca
+John P. Robarts Research Institute   |
+P.O. Box 5015, 100 Perth Drive       |   office: (519) 663-3833
+London, Ontario, Canada  N6A 5K8     |   home: (519) 657-4437
+
+

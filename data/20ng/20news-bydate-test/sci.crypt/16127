@@ -1,0 +1,48 @@
+From: h2o@dmi.ens.fr (Philippe Hoogvorst)
+Subject: Re: Clipper chip
+Nntp-Posting-Host: chene.ens.fr
+Organization: Ecole Normale Superieure, PARIS, France
+Lines: 42
+
+In article <19930426.113215.145@almaden.ibm.com>, jbs@watson.ibm.com writes:
+|>          Is it realistic for the government to try to keep the details
+|> of the encrytion algorithm secret if it intends to use evidence from...
+|>                           James B. Shearer
+
+I do not think they can use the eavesdropping as evidence at all. However,
+using the info they gather while listening, they can go searching THE right
+place and find good, strong evidence, which they can use in court. 
+
+Question : currently, it is easy to wire-tap, from the technical point of
+view, at least. Anybody using the appropriate radio receiver can listen
+to communications between a car-telephone and the ground station. The police
+also, obviously. The clipper chip will make it much more difficult for the
+non-authorized person to eavesdrop (note that I DO NOT write << impossible>> ).
+The privacy will thus improve from the current situation. Poeple who REALLY
+have something to hide already DO NOT use the phone to speak of these things.
+If an illegal operation is really worth, one can afford having critical data
+carried by a person rather than sending it electronically. 
+The clipper chip will not change this. 
+
+The problem is more politic. Foreign countries will never accept the clipper
+chip is the access to the escrow cannot be directly granted to their own
+police following their OWN law, not the US law. i.e. each country will have
+its own escrow. How then will it be possible to monitor the international
+traffic? or, will encrypted international traffic be possible ? or will there
+be an international escrow, some kind of U.N. thing ?
+
+Forbidding crypted communication is impractical: how is it possible to spot
+a crypted communication in the thousands of megabytes of data which circulate
+on the various existing networks. What about private networks ? And this will
+be more and more impossible as the volume of electronic traffic will increrase
+in the next years.
+
+I think that the clipper chip can only be an interesting device to limit the
+risk of , for instance, one's girlfriend's husband listening to his wife's
+communications. It will bring no more as regards to security. Is it worth ?
+I think so if its cost is limited, I think that many privacy invasions are done
+not only by official services, but also by private entities. The clipper can
+help reducing these. Provided we do not hope too much of it, it is not a real
+danger and it can be helpful.
+
+Ph. HOOGVORST

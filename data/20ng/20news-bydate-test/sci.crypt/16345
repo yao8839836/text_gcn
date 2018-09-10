@@ -1,0 +1,49 @@
+From: tenney@netcom.com (Glenn S. Tenney)
+Subject: Re: HELP! Some nut is threatening to sue!
+Organization: Netcom - Online Communication Services (408 241-9760 guest)
+Lines: 44
+
+I don't wish to rehash the PGP patent issue at all, but I do feel
+that some potential misconceptions in interpretting intellectual property
+laws need to be raised.
+
+In article <a_rubin.736125803@dsg4.dse.beckman.com> a_rubin@dsg4.dse.beckman.com (Arthur Rubin) writes:
+>
+>If PGP violates RSAs patents, then only executing PGP could be a violation.
+>Distributing PGP could be contributory infringement, but the PGP
+>documentation seemed sufficient to me to protect distributors (before I
+>deleted it -- using PGP might be a patent violation in the US, so I have no
+>need to keep it.)
+
+You are correct that executing PGP would be a violation (unless the patent
+were declared invalid by the courts), but...  there is a question as
+to when, how, or if distributing PGP would be a violation.  If the person
+or company distributing PGP receives money for doing so, then it is
+clearly a sale (for example, if it were on Compuserve, they charge you
+for access so they would be selling PGP).  When there is no charge for
+PGP things get less clear, but there would still be a reasonable view
+that it is inducing an infringement.
+
+> ... [nb re: Jim Bidzos]
+>You have no legal action you can take, unless you believe you can prove
+>someone is using PGP in the US, for a purpose other than that specifically
+>allowed by patent laws.  (Not entirely correct, anyone can sue for any
+>reason, but, you cannot prevail unless you can prove that by a prepoderance
+>of evidence).  Under patent laws, PGP does have legitimate uses, as a means
+>to study your algorithm, in order to produce improvements (which would
+>still require your approval to execute, until the patent runs out around
+>2000).
+
+This is a common misconception.  The patent laws do not mention any valid
+purpose for infringing a patent.  Although it is clear that in order to
+create a new invention either based on a prior patent or to avoid infringing
+a prior patent, one must perform research on an existing patent.  To
+just say that you infringed a patent (assume we're not talking the RSA
+patent) only for research purposes (wink wink, nudge nudge) and then never
+develop any related invention (ie. only use it), would be a clear
+infringement.
+
+-- 
+Glenn Tenney
+voice: (415) 574-3420      fax: (415) 574-0546
+tenney@netcom.com          Ham radio: AA6ER

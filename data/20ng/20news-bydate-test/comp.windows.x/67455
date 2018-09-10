@@ -1,0 +1,16 @@
+From: ktz@lrs.e-technik.uni-erlangen.de (Martin Kreutzer)
+Subject: Problem with German keyboard on a Sparc10
+Organization: LRS, University of Erlangen, Germany
+NNTP-Posting-Host: lw010.lrs.e-technik.uni-erlangen.de
+Lines: 9
+Keywords: keyboard special characters
+
+Yesterday I changed the US-Keyboard of my Sparc10 with a german keyboard.
+And now I cannot get any "Alt Graph" characters ('tilde' usw.).
+When I exit from X I can get the characters, but not under X.
+
+Can anybody give me some hints, where to check for the correct installation
+of the keyboard.
+
+Martin Kreutzer
+

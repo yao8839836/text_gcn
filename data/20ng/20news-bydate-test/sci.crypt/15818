@@ -1,0 +1,17 @@
+From: C445585@mizzou1.missouri.edu (John Kelsey)
+Subject: PGP ideas for IBM systems
+Nntp-Posting-Host: mizzou1.missouri.edu
+Organization: University of Missouri
+Lines: 11
+
+   I've been thinking about how difficult it would be to make PGP available
+in some form on EBCDIC machines.  The message authentication would be ugly,
+but I think at least the IDEA encryption could work, if PGP had a switch
+to tell it to use IDEA in OFB-mode or ECB-mode.  In OFB-mode, errors in
+translating EBCDIC-->ASCII-->EBCDIC would only affect their byte, not the
+16 bytes that would be affected under CBC.
+   Is PGP set up to use different IDEA modes?  I don't recall notincing it
+in the executable, but I haven't gone through it as carefully as I probably
+should....
+ 
+   --John Kelsey

@@ -1,0 +1,34 @@
+From: dino@inqmind.bison.mb.ca (Tony stewart)
+Subject: Re: Making up odd resistor values required by filters
+Organization: The Inquiring Mind BBS  1 204 488-1607
+Lines: 29
+
+idh@nessie.mcc.ac.uk (Ian Hawkins) writes:
+
+> When constructing active filters,  odd values of resistor are often required 
+> (i.e. something like a 3.14 K Ohm resistor).(It seems best to choose common 
+> capacitor values and cope with the strange resistances then demanded).
+> 
+> Is there a PD program out there that will work out how best to make up such
+> a resistance, given fixed resistors of the standard 12 values per decade?.(1,
+> 1.2,1.5,1.8,2.2,3.3 etc ).  It is a common enough problem,  yet I cant 
+> recall seing a program that tells that Rx+Ry//Rz gives Rq,  starting with 
+> q and finding prefered values x,y and z.
+> 
+> 
+> 			Cheers
+> 				Ian H  
+> 
+
+WHen trying to choose a resistor with a tolerance better than 1%, you 
+need a trimmer or to screen devices, it can't be made from adding 2 
+resitors of 1% value in parallel, since the smaller device will have the 
+error of 1% to cope with. 
+You have 3 choices;
+a) live with the error of 1% tolerance devices for low Q circuits or low 
+sensitivity designs
+b) buy resistors with better than 1% tolerance (Vishay/Dale)
+c) use trimmers or SOT's (Select-On-Test)
+
+dino@inqmind.bison.mb.ca
+The Inquiring Mind BBS, Winnipeg, Manitoba  204 488-1607

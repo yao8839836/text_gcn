@@ -1,0 +1,51 @@
+From: koberg@spot.Colorado.EDU (Allen Koberg)
+Subject: Re: DOS 6.0
+Nntp-Posting-Host: spot.colorado.edu
+Organization: University of Colorado, Boulder
+Lines: 45
+
+In article <199304201011.AA00801@mosque.cs.huji.ac.il> dny@cs.huji.ac.il (Danny Halamish) writes:
+>
+>Well, I've installed DOS 6.0 in three different systems, with and without 
+>stacker; A friend installed it in two other systems, both with stacker.
+>
+>Not a single problem. (except perhaps some minor bugs with config.sys
+>menus)
+
+He's right ya know.  I've helped to install Dos 6 on about 4 computers now,
+mine included.  On one, he bought the Stacker to Doublespace converter,
+and it worked fine (rather, he sent in the coupon for the converter).
+
+In other cases, I've run the doublespace installation without a problem
+when compressing a new drive, compressing free space, or whatever else.
+Seems to work for me.
+
+>Ofcourse, we did NOT, repeat, NOT run any program called "install" 
+>or "setup" or "a very sophisticated AI auto-configuring setup 
+>installation program that will think for you and do what you never wanted to
+>do but couldn't stop it from doing"
+
+Well, I ran the normal SETUP thing and it worked fine for whatever that's
+worth.
+
+>Also, DBLSPACE is crap. It writes about 40% slower than stacker, reads about
+>20% slower, and compresses about 10% LESS. All tests were made on the same
+>computer with the same disk, no cache, and the same (big) files were used.
+
+Couldn't agree more.  On my 486-50 I don't miss the speed.  It's still
+faster than a normal disk read would be.  As for the less compression,
+I've sacrificed that in favor of the convenience of having the dblspace.bin
+load before anything else.  With Stacker, any changes to your config.sys
+or autoexec.bat meant rebooting twice so it could update those.
+
+Personally, I'm waiting for Stacker 4.0 to come out and implement those
+hooks and stuff.  Plus, the DEFRAG that comes with DOS is okay, but I
+much prefer COMPRESS from PC-TOOLS for sheer bells and whistles.  Plus,
+defrag is sooooo sloooow on a dblspace drive.
+
+>But, DOS 6 is quite good; reformat disks? I honestly don't understand WHY
+>you had to do this.
+
+Ditto.
+
+koberg

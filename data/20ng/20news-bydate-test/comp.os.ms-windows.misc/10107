@@ -1,0 +1,34 @@
+From: ebosco@us.oracle.com (Eric Bosco)
+Subject: Where to put my swap file (IDE or SCSI)
+Nntp-Posting-Host: monica.us.oracle.com
+Reply-To: ebosco@us.oracle.com
+Organization: Oracle Corp., Redwood Shores CA
+X-Disclaimer: This message was written by an unauthenticated user
+              at Oracle Corporation.  The opinions expressed are those
+              of the user and not necessarily those of Oracle.
+Lines: 24
+
+
+I have a 486 sx 25 and I recently added a SCSI drive to my system using an  
+Adaptec 1522 (non busmastering) controller. Yesterday I ran coretest to  
+find out drive performance and these are the values I got
+
+Seagate 106 Meg: 875.1kb/Sec	14.5ms avg seek   3.7ms track to track 
+Quantum 400 Meg SCSI: 991.2 Kb/sec  12.7 avg seek 3.6 track to track.
+
+First off all are these good results? I don't know what typical values  
+are.
+
+What I'm wondering now is the following. My swap file is currently on the  
+IDE. I could move it to the SCSI which is 13% faster, but then I would not  
+be able to use 32-bit access which might actuall make it slower. So on  
+which drive should I put my swap file to get best results? Is there a swap  
+file speed test program out there?
+
+Finally, I also ran the above tests with the ASPI2DOS driver loaded and I  
+got no difference whatsoever in performance. Is there any reason at all  
+why I should load this driver?
+
+Thanks in advance, I will post a summary if I get enough responses.
+
+-Eric

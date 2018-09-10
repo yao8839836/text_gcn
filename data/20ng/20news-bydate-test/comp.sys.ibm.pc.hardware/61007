@@ -1,0 +1,21 @@
+From: robl@sr.hp.com (Rob Laddish)
+Subject: Re: Gateway Flash BIOS Upgrade
+Organization: Division of the month club
+X-Newsreader: TIN [version 1.1 PL9.2]
+Lines: 15
+
+Daniel M. Coleman (dcoleman@utxvms.cc.utexas.edu) wrote:
+: Gateway 2000 has released a new Flash BIOS update for their local bus systems
+: Because I'm such a nice person, I uploaded them to wuarchive.wustl.edu.  Look
+: for glb05.exe in the msdos_uploads section.  Enjoy!
+
+I blindly installed it and I haven't had any problems or noticed any
+differences yet! Note that I did not backup my previous BIOS, you can with
+the tool that they ship.
+
+Rob "I live on the edge" Laddish
+---------___----------------------------------------------------------
+        /  /        Robert Laddish              AT&T:    707-577-3767
+HEWLETT/hp/PACKARD  HP Santa Rosa, Ca.          Telnet:  1-577-3767
+      /__/          mail stop 4USR              robl@sr.hp.com           
+----------------------------------------------------------------------

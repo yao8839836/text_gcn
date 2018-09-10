@@ -1,0 +1,22 @@
+From: ps@rzu.unizh.ch (Sezgey Pachkovsky)
+Subject: Re: SVGA -> Hicolor?
+Organization: University of Zurich, Switzerland
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 16
+
+Johan Conroy (572391) (jconroy@babel.ee.up.ac.za) wrote:
+: I have a question about SVGA cards.  I have a Tseng 4000 SVGA with 1MB
+: memory and 3x 6-bit DACs as far as I know.  To display a 640x480x32768, 
+: Now:  Can I display 640x480, 15bit/pixel bit-maps on this card?
+
+You can. At the least, your _hardware_ is capable of supporting this mode.
+I do know nothing about your video BIOS, though...
+
+: If so, how?
+
+Silly (but fool-proof ;) way: Install Windows with 640x480x32K colors
+wideo driver and display your pictures under windows...
+
+Cheese,
+
+/Serge.P

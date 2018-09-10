@@ -1,0 +1,95 @@
+From: wtm@uhura.neoucom.edu (Bill Mayhew)
+Subject: Re: Laser vs Bubblejet?
+Organization: Northeastern Ohio Universities College of Medicine
+Lines: 90
+
+There is a cartridge capping upgrade for older deskjet printers
+available from hewlett-packard.  Older original deskjet and
+possibly deskjet 500 units may have a black plastic slide with
+rubber capping components in the cartrige parking area on the right
+side (viewed from front) of the printer.  Newer printers have a
+gray or white plastic slide.  The black plastic slide can allow
+your cartridge to dry out.  There was and may still be information
+packaged with ink cartridges explaining the situation.  HP placed a
+coupon for a free upgrade kit to modernize old deskjets to the new
+capping mechanism.  I did this on my printer and did indeed find
+that the cartidges now last longer.
+
+I don't have the information handy.  I suggest contacting your
+nearest HP service center for information on obtaining the kit.
+
+HP has upgrade kits that consist of electronics and mechanical
+components that vary depending on the starting level printer and
+the level to which you wish to upgrade.  I upgraded my original
+desket to a dekjet 500.  The kit was fairly expensive.  You are
+likely better off selling your old printer and purchasing a new
+deskjet 500 now that prices have declined so much.  Upgrading an
+original deskjet to 500 requires a fair amount of skill, but no
+soldering.  Upgrading a deskjet plus to a 500 is involves swapping
+the processor card and changing a few minor parts.  Contact your HP
+service center for further information.
+
+The PCL language used by Deskjets is considerably different from
+the PCL used by laser printers, especially the newer laser
+printers.  The biggest problem is dumb laser drivers that send a
+raster end command after each scan line.  This makes no material
+difference for lasers, but causes the deskjet to print the
+accumulated raster.  As you might guess, the result is hideously
+slow printing.  The new DOS Wordperfect print deskjet drivers are
+still guilty of this particular behavior.  From the way Wordperfect
+works, this would not be easy to change.  Windows Wordperfect works
+efficiently unless you use the DOS drivers instead of Windows'.
+
+The PCL4 dialect used in the Laserjet IIIP allows compression that
+permits a full page 300 dpi image to be rendered with only one
+megabyte of memory.  An uncompressed image could be as large as
+about 909 Kbytes, but the printer needs about 300K of memory for
+its internal house-keeping.  Laserjet IV models support banded
+printing that allows incrmental download of the image with
+compression in limited memory situations.  Deskjet downloadable
+fonts are not compatible with laserjet fonts.
+
+A single page from a laserjet only requires about 20 seconds.  This
+is faster than any but the most trivial printing from a deskjet
+printer.  The presumption, of course, being that the laser printer
+has completed its warm-up cyle.
+
+Until ink chemistry is changed, wicking resulting in image
+deterioration is unavoidable.  I won't use the word impossible, but
+matching laser quality output from a deskjet printer is unlikely.
+Chosing an appropriate paper type helps, but does not eliminate the
+problem.
+
+Laser printers are more wastful of energy and consumable
+components.  HP does accept return of spent toner cartridges,
+mitigating the material waste problem to a degree.  Energy waste
+could use more work.  Warm-up times have decreased, allowing
+stand-by current consumption to be significantly reduced in the
+laserjet IV.
+
+Kyocera produces a laser print engine that employs an amorphous
+silicon imaging drum with a replacable toner system.  The image
+drum is good for approximately 100K copies.  It is a very nice
+print engine.  I wish HP used the Kyocera engine.  Kyocera also has
+a neat modular paper source and stacker system.
+
+The recommended duty cycle for a deskjet is significantly lower
+than any of HP's laser printers.  The pick-up pressure rollers are
+subject to wear and I case confirm eventually do wear out.  The
+usual symptom is that the printer becomes reluctant to feed paper.
+The paper feed is integrated in a transport mechanism that is a
+single part from HP service.  Replacement cost for the transport is
+almost $200.  The feed rollers are not separately replacable,
+though it would not be a difficult job for a competent technician.
+I have disassembled and reassembled the transport on my own printer.
+
+It depends upon the application which printer is best for you.  If
+you only print 5 or 10 pages a day and are satisfied with the
+appearance of output, the deskjet is a very good choice.  As noted,
+the deskjet 500 is my choice for personal use.
+
+
+-- 
+Bill Mayhew      NEOUCOM Computer Services Department
+Rootstown, OH  44272-9995  USA    phone: 216-325-2511
+wtm@uhura.neoucom.edu (140.220.1.1)    146.580: N8WED

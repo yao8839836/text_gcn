@@ -1,0 +1,18 @@
+From: queloz@bernina.ethz.ch (Ronald Queloz)
+Subject: Integration of HP46021A-Keyboard into SCO ODT 2.0
+Organization: Swiss Federal Institute of Technology (ETH), Zurich, CH
+Lines: 13
+
+SCO ODT allows to adapt the X-Server to any non-standard (AT) keyboard 
+using the Xkeyboard configuration compiler xsconfig. SCO provides some
+configuration files in /usr/lib/X11/xsconfig/*.kbd, e.g. for 
+Siemens WX200.
+
+Question:
+Is there anywhere a configuration file for the HP46021A keyboard
+available ? 
+I am especially interested in using the HP specific keys such as 
+"InsertLine", "Menu".
+
+Thanks  -Ron.
+

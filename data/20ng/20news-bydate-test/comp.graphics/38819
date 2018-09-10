@@ -1,0 +1,21 @@
+From: s127@ii.uib.no (Torgeir Veimo)
+Subject: C++ classes for graphics
+Organization: Institutt for Informatikk UIB Norway
+Lines: 16
+
+I'm planning on writing several classes to build a raytracing/radiosity library
+on top of, and i'm wondering if anythink like this is freely available on the
+net before i go to it. What i need is classes like rays, vectors, colors,
+shaders, surfaces, media, primitives, worlds (containing primitives) and
+views/images.
+
+Please post or mail.
+-- 
+Torgeir Veimo
+
+Studying at the University of Bergen
+
+"...I'm gona wave my freak flag high!" (Jimi Hendrix)
+
+"...and it would be okay on any other day!" (The Police)
+

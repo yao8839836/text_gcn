@@ -1,0 +1,23 @@
+From: vixie@pa.dec.com (Paul A Vixie)
+Subject: Re: 17" monitor with RGB/sync to VGA ??
+Organization: DEC Network Systems Lab
+Lines: 15
+Distribution: usa
+NNTP-Posting-Host: cognition.pa.dec.com
+In-reply-to: rash@access.digex.com's message of 18 Apr 1993 18:46:08 -0400
+
+Yes, but what if my monitor only has 3 BNC's on it, and is expecting
+to get a composite sync signal on the "green"?  There ought to be a
+little black box that takes the VGA signalling (which has horiz, vert,
+and composite sync on different pins, plus the R, G, and B pairs) and
+merges the green and composite sync together in the output.  It's all
+1V analog, as far as I know.  I can build this with op-amps but I don't
+think I can get the shielding done well enough to handle the frequencies
+involved without lots of shadows and junk on the screen.
+
+Does anyone know of a VGA->RGB(composite sync on green) converter?
+--
+Paul Vixie, DEC Network Systems Lab	
+Palo Alto, California, USA         	"Don't be a rebel, or a conformist;
+<vixie@pa.dec.com> decwrl!vixie		they're the same thing, anyway.  Find
+<paul@vix.com>     vixie!paul		your own path, and stay on it."  -me

@@ -1,0 +1,42 @@
+From: oscar@oscar.austin.ibm.com (Oscar R. Mitchell)
+Subject: Development tools for 65C816?
+Organization: IBM, Austin
+Lines: 37
+
+In article <1ree36INNdmp@darkstar.UCSC.EDU> speth@cats.ucsc.edu (James Gustave) writes:
+>
+>Could someone point me toward a source (FTP/BBS/whatever) for development
+>tools for the 8051 microprocessor.  I specifically am looking for a Macintosh
+>cross-assembler/disassembler.  Also, is there a mailing-list dedicated to
+>discussing the 8051?  Thanks.
+>
+>-- 
+>________________________________________________________________________________
+>james speth       email for pgp compatible public-key        speth@cats.ucsc.edu
+
+I have the same question for any tools for the 6502 derivative processor
+the 65C816 processor (designed by Western Design Center).
+
+Thanks,
+Oscar.
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Oscar R. Mitchell
+  IBM Advanced Workstations and Systems Division
+   RISC System/6000(tm) - Future Systems Hardware Architecture and Design Group
+   Mail Stop: ZIP 9461
+   11400 Burnet Road
+   Austin, Texas   78758                               USA Phone: (512)823-0000
+   IBM Tieline:  678-8513                              USA "FAX": (512)838-8561
+
+   IBM VNet: OSCAR at AUSVM6
+   IBM InterNet: oscar@oscar.austin.ibm.com
+
+     USA InterNet: oscar@austin.ibm.com
+
+#include <standard.disclaimer>   /* I DO NOT speak for IBM, only for MYSELF */
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+-- 
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ IBM Corporation - Advanced Workstations and Systems Division
+ RISC System/6000(tm) - Future Systems Hardware Architecture and Design Group
+                  USA InterNet: oscar@austin.ibm.com

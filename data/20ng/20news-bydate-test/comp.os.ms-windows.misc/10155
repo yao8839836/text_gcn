@@ -1,0 +1,40 @@
+From: mongwa@acsu.buffalo.edu (Kan Mongwa)
+Subject: Re: How to change an icon for a program in windows
+Nntp-Posting-Host: lictor.acsu.buffalo.edu
+Organization: UB
+Distribution: usa
+Lines: 33
+
+In article <1993Apr30.184917.16823@uenics.evansville.edu> toelle@uenics.evansville.edu (Chad Toelle) writes:
+>Suppose you want to change the particular icon for a program in
+>windows such as the MS-DOS one.  Would someone let me know how you can
+>do this?
+>
+
+
+It depends on wether you are going to replace this with an icon that
+comes standard with windows, or with an icon from some other icon manager.
+
+Well, if it is one of those that comes with windows, just highlight the 
+item by clicking once on it, click on 'File' and then on 'Properties'.
+You should see a box which says 'Change icon'. Click on it. You are going
+to be presented with some icons (sometimes just one). If you don't like
+any of those presented, click on the 'browse' box, and look for the file
+'moricons.dll' Select it. Browse through the icons presented, and just
+double click on your desired icon.
+
+If you want to replace it with an icon from some other icon manager,
+say iconPower for instance, open the icon manager at the bottom of your
+screen, where it will not block the application icon you wish to replace.
+When you have found your desired icon, click on it once, and while holding
+the mouse button down, pull this icon over the one you wish to change.
+And thats it!
+
+regards
+
+___________________________________________________________________________
+| Kan Mongwa            \ mongwa@acsu.buffalo.edu   \                     /
+| State Univeristy       \  BITNET   v143wxkp@ubvms  \   HUMPTY DUMPTY   /
+| of New York @ Buffalo   \            c143wxkp@ubvm  \                 /
+------------------------------------------------------------------------
+

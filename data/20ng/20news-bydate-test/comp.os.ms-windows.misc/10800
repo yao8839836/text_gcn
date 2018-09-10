@@ -1,0 +1,13 @@
+From: gel@binkley.cs.mcgill.ca (Gilles KHOUZAM)
+Subject: Re: MAC DISKS IN WINDOWS?
+Lines: 6
+Nntp-Posting-Host: binkley.cs.mcgill.ca
+Organization: SOCS - Mcgill University, Montreal, Canada
+Lines: 6
+
+>Macsee.zip on ftp.cica.indiana.edu is supposed to read and write Mac disks.  
+>I've never tried it, though.  Good luck
+
+I just tried it, but I can't say that it works, 'cause it doesn't read 800K
+disks, it only reads 1.44Mb. If there a program that does read 800K disks,
+please let me know.

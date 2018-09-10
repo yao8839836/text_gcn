@@ -1,0 +1,32 @@
+From: cmh@eng.cam.ac.uk (C.M. Hicks)
+Subject: Re: Making up odd resistor values required by filters
+Nntp-Posting-Host: club.eng.cam.ac.uk
+Organization: cam.eng
+Lines: 26
+
+idh@nessie.mcc.ac.uk (Ian Hawkins) writes:
+
+>When constructing active filters,  odd values of resistor are often required 
+>(i.e. something like a 3.14 K Ohm resistor).(It seems best to choose common 
+>capacitor values and cope with the strange resistances then demanded).
+
+>Is there a PD program out there that will work out how best to make up such
+>a resistance, given fixed resistors of the standard 12 values per decade?.(1,
+>1.2,1.5,1.8,2.2,3.3 etc ).  It is a common enough problem,  yet I cant 
+>recall seing a program that tells that Rx+Ry//Rz gives Rq,  starting with 
+>q and finding prefered values x,y and z.
+
+I once wrote such a program (in BBC basic...) It was very crude, and took
+around 5 seconds to do an exhaustive search (with a small amount of 
+intelligence), and told you the best combination >Rq and the best below Rq.
+
+If you want to write one, just store the prefered values in an array, and
+then search the solution space using three nested loops. I'm sure you
+could knock this up in an hour.
+
+Christopher
+--
+ ==============================================================================
+  Christopher Hicks    |      Paradise is a Linear Gaussian World
+  cmh@uk.ac.cam.eng    |    (also reported to taste hot and sweaty)
+ ==============================================================================

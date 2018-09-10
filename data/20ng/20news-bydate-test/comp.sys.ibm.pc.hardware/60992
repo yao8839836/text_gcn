@@ -1,0 +1,58 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: Help adding a SCSI Drive
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 52
+
+
+A couple of points :-
+
+In article <1993Apr22.094851.27323@physchem.ox.ac.uk>, mark@physchem.ox.ac.uk (Mark Jackson) writes:
+> 
+> In article <1993Apr19.195301.27872@oracle.us.oracle.com>, ebosco@us.oracle.com (Eric Bosco) writes:
+> > 
+> > 1- Buy a SCSI contoler.  Which one? I know Adaptec is good, but they are  
+> > kind of expensive.  Are there any good boards in the $100 region? I want  
+> > it to be compatible with OS2 and Unix if possible.  Also, I have seen on  
+> > the net that there are SCSI and SCSI2 drives. Is this true? Does the  
+> > adapter need to be the same as the drive? What type of drive is the  
+> > quantum?
+> 
+> 
+> I have tried others, but I think that the Adaptec is best value for money.
+
+I have an Adaptec 1542B and am very happy with it.
+
+> 
+> 
+> > 2- connect the drive to the adapter via a SCSI cable and the power cable.
+> > Do i have to worry about the power supply? I think I have 200 watts and  
+> > all I'm powering are two floppies and the seagate drive.
+> 
+> 
+> I dont think you can mix the two types of drive, unless you have one of the
+> SCSI/IDE cards that is available.  You will have to turn your IDE off.
+
+Not so! I have both IDE and an Adaptec1542B in the same box and can use both
+disks at the same time, eg. IDE to SCSI disk copy.
+
+> 
+> > Well that seems to be all. Is there anythiing I'm forgetting? 
+> > Any help is *really* appreciated, I'm lost...
+> > 
+> > -Eric
+> > 
+> > ebosco@us.oracle.com
+> -- 
+> Mark 
+> ______________________________________________________________________________
+> mark@uk.ac.ox.physchem
+
+Well, one statement and one correction!
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

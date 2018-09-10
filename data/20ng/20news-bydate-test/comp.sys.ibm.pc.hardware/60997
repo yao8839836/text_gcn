@@ -1,0 +1,18 @@
+From: d3e855@calvin.pnl.gov (JV Ramsdell)
+Subject: RE: Adding a second IDE drive
+Article-I.D.: oracle.1993Apr22.214158.11952
+Organization: Battelle Pacific Northwest Labs, Richland, WA
+Lines: 11
+Originator: d3e855@calvin.pnl.gov
+
+
+>I just bought a Western Digital/Caviar 340MB IDE drive and I want to add it to
+>my system which already has a WD120 IDE drive.  The controller says it 
+>supports 2 hard drives, but when I plug in the cables, do the BIOS setup,
+>and try to start the system, it pauses and then I get an invalid drive D:
+>error message.  The system boots, but I cannot access the new hard drive.
+...
+
+There are jumpers on each drive that must be set for both to work.  The C: drivemust be set to be the master drive, and D: must be set to be the slave drive.
+The actual settings should be in info with the drives or is available from
+Western Digital.

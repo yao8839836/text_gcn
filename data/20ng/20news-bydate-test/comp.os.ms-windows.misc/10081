@@ -1,0 +1,38 @@
+From: bwana@daktari.Corp.Sun.COM (Don Finch)
+Subject: Windows 3.1 and IMF Boards ?
+Organization: Sun Microsystems Computer Corp.
+Lines: 29
+Distribution: world
+Reply-To: bwana@daktari.Corp.Sun.COM
+NNTP-Posting-Host: daktari.corp.sun.com
+Keywords: Windows, sound, IMF, midi
+
+
+
+I am interested to know if there is know procedure/document to
+configure an IBM Musci Feature (IMF) card to work as the sound device
+with MS-Windows 3.1.  I believe the IMF uses the same FM synth chip as
+the Soun Blaster, but didn't know what driver to use or how to
+configure the MIDI-mapper.
+
+Any help, past success, suggestions?
+
+Thanks,
+
+Don.
+
+==============================================================================
+        /\				
+        \ \				|	Donald Finch
+       \ \ /        /\  | | |\ |	|	
+      \ \ / /       \   | | |\ |	|	Technical Support Engr.	
+     / \/ \/ /\      \  | | | \|	|	N. American Solution Centers
+    / /     / /     \/  \_/ | \|	|
+    \/ /\ /\ /				|	Voice: (415)336-2796
+      / / \ \	    MICROSYSTEMS	|	FAX #: (415)960-0943
+       / \ \				|	Email: Don.Finch@Corp.Sun.COM
+        \ \				|	M/S:   MTV07-04
+         \/
+==============================================================================
+
+

@@ -1,0 +1,44 @@
+Subject: Re: Gamma Ray Bursters How energetic could they be?
+From: belgarath@vax1.mankato.msus.edu
+Organization: Mankato State University
+Nntp-Posting-Host: vax1.mankato.msus.edu
+Lines: 38
+
+In article <1rgvjsINNbhq@senator-bedfellow.MIT.EDU>, jfc@athena.mit.edu (John F Carr) writes:
+> 
+> If gamma ray bursters are extragalactic, would absorption from the
+> galaxy be expected?  How transparent is the galactic core to gamma
+> rays?
+> 
+> How much energy does a burster put out?  I know energy depends on
+> distance, which is unknown.  An answer of the form _X_ ergs per
+> megaparsec^2 is OK.
+> 
+> 
+> --
+>     John Carr (jfc@athena.mit.edu)
+        I had to turn to one of my problem sets that I did in class for this
+little problem.  I don't have a calculator, but I DO have the problem set that
+we did not too long ago, so I'll use that, and hope it's what you wanted.  
+This is a highly simplified problem, with a very simple burst.  Bursts are
+usually more complex than this example I will use here.
+        Our burst has a peak flux of 5.43E-6 ergs cm^-2 sec^-1 and a duration
+of 8.95 seconds.  During the frst second of the burst, and the last 4 seconds,
+its flux is half of the peak flux.  It's flux is the peak flux the rest of the
+time.  Assume that the background flux is 10E-7 erg cm^-2 sec^-1.
+        Then we had to find the integrated luminosity of the burst, for several
+different spheres: R=.25pc(Oort Cloud Radius), R=22.5pc(at the edge of the
+galaxy), R=183.5pc or the edge of the galactic corona, and lastly at a
+R=8800Mpc.  
+        We integrated the flux over all time to find the fluence, then used the
+old standby formula:
+                        Luminosity=4(pi)(r^2)Fpeak
+        For a radius of .25 pc, we found an L around 10^32 erg/sec.  Pretty
+energetic for close by.  for the coronal model, we found around 10^43 erg/sec.
+And lastly, for the cosmological model an L=10^53. That's what you'd call
+moderately energetic, I'd say.  Any suggestions about what could put out that
+much energy in one second? 
+                                                -jeremy
+
+
+

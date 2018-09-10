@@ -1,0 +1,44 @@
+From: lars@cs.sun.ac.za (Lars Michael)
+Subject: jpeg fif specification
+Reply-To: lars@itu.sun.ac.za
+Organization: University of Stellenbosch, South Africa
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 37
+
+
+
+I recently got a document describing the JPEG FIF (JFIF) file
+format. I was looking thru it, but I didn't get the idea how
+to determine the size of a pic in pixel without decoding the
+whole image.
+
+How do you get the height and width of a JPEG in a JFIF?
+
+How do you determine wether it is a color or a greyscale
+picture?
+
+I wrote a small tool (lsgif) for GIF that returns the
+filesize, picture size and color resolution by analizing
+the header chunks. The output looks like this:
+
+  157605  bla.gif                                  640x 480  248C24
+
+I use this lsgif to create index files of my archive and since
+JPEG are getting more and more popular I would like to have a
+similar tool for JFIF, with an output like this:
+
+   57605  bla.jpg                                  640x 480     C24
+
+Please respond by email, because I don't read this news
+group very often. I'll post a summary if it is useful.
+
+Thanx in advance,
+								Larry
+
++-------------------------------------+------------------------------+
+|    Lars "Larry" Michael (Mr. GIF)   | "If Murphy's Law             |
+|          lars@itu.sun.ac.za         |      can go wrong, it will." |
+| lsmichae@informatik.uni-erlangen.de +--------------+---------------+
+| Spec. Stud. at Univ. of Stellenbosch  South Afrika | HAM: ZR/DB3BW |
+| Grad. Stud. at Univ. of Erlangen/Nuremberg Germany | IRC: Pit      |
++----------------------------------------------------+---------------+

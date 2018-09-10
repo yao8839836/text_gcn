@@ -1,0 +1,28 @@
+From: lioness@maple.circa.ufl.edu
+Subject: Re: Kubota Kenai/Denali specs
+Organization: Center for Instructional and Research Computing Activities
+Lines: 21
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+In article <1993Apr28.151652.23080@dsd.es.com>, pmartz@dsd.es.com (Paul Martz) writes:
+|>Does this mean they can either do alpha or stenciling, but not both
+|>simultaneously?
+
+I don't know the answer the to this one, although with 8-bits I would assume
+that it was one or the other.
+
+|>
+|>> Stereo support	yes			yes
+|>> Other:			both machines will double buffer or do
+|>                                                                 ^^
+|>> 				stereo output per window.  Both have an
+|>> 				auxiliary video output that is RS-170A,
+|>> 				NTSC, and PAL
+|>Same question again, does this mean they can either do double
+|>buffering or stereo, but not both simultaneously?
+
+According to the literature, it will do quadruple buffering so that you
+can have double buffered stereo output.
+
+Brian

@@ -1,0 +1,36 @@
+From: rtparies@b8.b8.ingr.com (Randy Paries)
+Subject: :Help with XClearArea
+Keywords: XDraw,XClearArea
+Organization: Intergraph
+Lines: 30
+
+Hi, 
+	Could some please tell me the errors of my ways. 
+	I am trying to update a drawable. This drawable 
+	happens to be a Pixmap on a button. 
+	
+	The problem is that after I do the :
+XClearArea(XtDisplay(m_usr[0]),XtWindow(m_usr[0]), 80, 8, 40, 40, True);
+
+	This appears to work. I then do
+
+sprintf(tmp_str,"R=%d",++fun);
+XDrawString(XtDisplay(m_usr[0]), bmaps[0] ,my_gc, 78, 10, tmp_str, (strlen(tmp_str)) );
+
+	The problem is that the new info is drawn but the old info is
+	still there. Even if I pass XClearArea a False and see it clear
+	when it redraws the new info, the old info is still there.
+
+
+Help Please!!!
+        Thanks
+-- 
+------------------------------------------------------------------------     
+Randy Paries           rtparies@turq.b8.ingr.com
+x6191  cr041           Intergraph, Huntsville Alabama
+------------------------------------------------------------------------     
+
+
+
+	
+	

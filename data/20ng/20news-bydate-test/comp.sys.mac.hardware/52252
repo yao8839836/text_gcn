@@ -1,0 +1,32 @@
+From: purwinc@woods.ulowell.edu
+Subject: <None>
+Lines: 27
+Organization: University of Massachusetts Lowell
+
+-- 
+I would like to find out about the ADB connector on the back of the
+macintosh powerbooks.    
+
+	After seeing several products that use it for powering devices
+	on the powerbook I also thought up of something to power from
+	the ADB connector (the keyboard/mouse connector)
+	Does anyone have spex on it....  I know it has voltage on it
+	and a serial i/o of some sort if some kind soul could tell
+	me the way you talk to the mac through it (ie packet info)
+	IT would BE APPRECIATED GREATLY!!!!!
+
+	on a second note,   What are the pin outs of the 
+	MAC powerbook  modem connector ..   I have would like to
+	know which pins are +5V, data  ETC...  
+
+		AGAIN THANKS!  
+			Charles
+
+
+
+================================================================================
+Charles Purwin    Internet: purwinc@woods.ulowell.edu
+Actually, unix is a very user-friendly system.  Its just that it is
+     particular about which users it chooses to be friendly with.   -The Oracle
+Programmers and programs alike need die gracefully upon failure, and exit with
+     no system disruption.

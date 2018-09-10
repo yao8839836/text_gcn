@@ -1,0 +1,88 @@
+From: Wales.Larrison@ofa123.fidonet.org
+Subject: Boeing TSTO (Was: Words from Chairman of Boeing)
+X-Sender: newtout 0.08 Feb 23 1993
+Lines: 83
+
+games@max.u.washington.edu  writes:
+Re; Response from CoB of Boeing on SSTO ...
+>"As far as single stage to orbit technology, we think that we have
+>a better answer in a two stage approach, and we are talking to some
+>of our customers about that.  As far as commercialization, that is
+>a long ways off.  ...
+> Anybody know anything further? Is this really news? Does this
+>threaten further work on DC-? ?
+  
+   Boeing has been looking at several TSTO vehicles and has carried
+out extensive conceptual studies of advanced launch systems for some
+time.  A good reference on this might be: "Comparison of Propulsion
+Options for Advanced Earth-To-Orbit (ETO) Applications (IAF-92-
+0639)." by V.A. Weldon and L.E. Fink from Boeing.   The paper
+describes a propane-fueled TSTO launch system claimed to achieve
+aircraft-like operational efficiencies without the problems
+associated with liquid hydrogen fuel.  Basically, it's a high-speed
+airplane launching a Hermes-type spaceplane
+   The design (the concept is also called "Beta") as laid out in the
+paper can launch at least 10,000 pounds into polar orbit, or 20,000
+pounds to space station orbit including a crew of eight persons and
+life support.  System design reliability is .9995.
+   Beta is a 360-foot-long first stage powered by two large ramjets
+and 12 high- speed civil transport (HSCT) turbofans.  A 108-foot-
+long reusable orbiter is trapeze-mounted in the belly of the first-
+stage aircraft, which also could accommodate a longer and heavy
+payload on an expendable second stage.
+   To launch the orbital vehicle, the first stage takes off like a
+normal HSCT and accelerates to Mach 3.  At that point the turbofans,
+modified to burn catalyzed JP-7, would shut off and the ramjets,
+would take over.  At Mach 5.5 the orbiter or the ELV would swing
+out, ignite and proceed to orbit. Both vehicles would land like
+aircraft at the conclusion of their respective missions.
+   Estimated total weight of the combined configuration at takeoff
+is about 1.5 M lbs, roughly equivalanet to a fully loaded An-225.
+The orbiter stages weighs about 400,Klbs including 335 Klbs
+of LOX and subcooled propane to power two 250 Klbs vacuum thrust
+rocket engines. Propellants would be stored at 91 degrees Kelvin,
+with the propane in a spherical tank mounted forward of the 15-by-
+25-foot cargo bay and the two-seat orbiter crew station. LOX would
+be stored aft.  Weldon and Fink claim the key to this design's
+success is the structurally efficient airframe and the compact
+tankage allowed by the high-density supercooled hydrocarbon fuel.
+     The paper compares TSTO design to SSTO design.  They conclude
+while a SSTO has a slightly lower recurring cost, a TSTO is easier,
+cheaper, and less risky to develop, simpler to build, has greater
+safety and mission versatility and doesn't carry the hard-to-handle
+and bulky hydrogen fuel. The conlcude "In conjunction with its major
+use of airplane type engines and fuel, as well as its inherent self-
+ferry capability, it is probably the system most likely to provide
+as close to airline-like operations as possible with a practical
+configuration, until a single stage airbreather/rocket concept can
+be shown to be operationally viable."
+  
+>Is this really news? Does this threaten further work on DC-?
+   Weldon and others at Boeing have been working on TSTO designs for
+some time.  I expect this, or a similar concept (perhaps the HTHL
+SSTO they proposed for the SDIO SSTO first phase) is being re-
+examined as a basis for a bid on the first phase of SpaceLifter.
+   Does it threaten DC-???.  Possibly -- There is a set of on-going
+studies trying straighten out the government's future space
+transportation strategy.  MDC and Boeing (as well as other firms)
+are providing data to a joint study team back in DC.  There are
+various factions and options vying for attention -- including
+shuttle upgrades, shuttle replacement (what was called the "4-2-3"
+architecture), SpaceLifter, ELV upgrades, and various advanced
+vehicles (ALES, Beta, DC-??, NASP, FSTS, SSTOs of several types,
+etc.)  NASA/DOD/DOT are trying to put together a coherent strategy
+for future US gov't space transportation systems, and trying to
+juggle near-term launch needs (like for DoD and NASA) against
+medium-term needs (including commercial considerations), and against
+the investment and risk of going to "leap frog" new technologies
+like SDIO/SSTO and NASP and Beta.
+   It's a heck of a problem.  The worst part of the problem isn't
+that there aren't promising ideas and concepts -- there are dozens
+of them -- but how they balance cost and risk versus real needs in
+the near term.  They should have a draft report in mid-June, with a
+final report coming by the end of the fiscal year.
+ ------------------------------------------------------------------
+ Wales Larrison                           Space Technology Investor
+  
+
+--- Maximus 2.01wb

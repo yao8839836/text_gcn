@@ -1,0 +1,27 @@
+From: schaerer@isi.ethz.ch (Thomas Schaerer)
+Subject: Re: Voltage regulation and current limiting
+Organization: Swiss Federal Institute of Technology (ETH), Zurich, CH
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 21
+
+Andy Collins (acollins@uclink.berkeley.edu) wrote:
+: One not-so-quick question to throw out there for you guys...
+
+: For our class project, we need to design and build a power supply
+: to the following specs:
+
+: Voltatge:  adjustable from 1-12V
+: Current:   *limited* at 1A
+
+: Voltage must stay within 2% of designated value for I from 0-1A
+: AC ripple less than 5 mV (rms)
+
+To decide which kind of circuit you must know the initialprecission of
+the limiter-current and the allowed temp-drift.
+
+In the first case, you can use a Ube of a transistor as a voltage-reference
+of about 0.7 VDC with a temp-drift of 2mV/K. In the second case its better
+you use a bandgap-ref and a opamp-circuit to detect the maximum-current.
+The output of this opamp controlls the outputstage to limit the current.
+
+Bye Thomas

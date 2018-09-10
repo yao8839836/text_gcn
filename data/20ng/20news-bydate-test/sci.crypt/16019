@@ -1,0 +1,39 @@
+From: patl@golem.mit.edu (Patrick J. LoPresti)
+Subject: Re: S1, S2
+Organization: Massachvsetts Institvte of Technology
+Lines: 32
+NNTP-Posting-Host: golem.mit.edu
+In-reply-to: steve-b@access.digex.com's message of 22 Apr 1993 07:52:46 -0400
+
+
+>>>>> In article <1r60ue$102@access.digex.net>,
+>>>>> steve-b@access.digex.com (Steve Brinich) writes:
+
+ > Second question: Why!?!? Why is such a strange procedure used, and
+ >not a real RNG ? This turns those S1,S2 in a kind of bottleneck for
+ >system- security.
+
+	>> The only theory that makes any sense is that S1 and S2 are
+	>> either the same for all chips, or vary among very few
+	>> possibilities, so that anyone trying to break the encryption
+	>> by brute force need only plow through the possible serial
+	>> numbers (2^30, about one billion), multiplied by the number
+	>> of different S1, S2 combinations.
+
+
+Suppose instead that S1 and S2 can be reconstructed given 3 or 4 of the
+unit keys generated in a single batch (through some sort of known
+plaintext attack, say).  Suppose further that 3 or 4 of the chips
+programmed in each session never find their way into commercial
+products, but instead end up "elsewhere".
+
+Suppose the folks at "elsewhere" can determine a unit key, given
+physical access to one of these chips.  Then those same folks can
+determine S1 and S2 for the whole batch...
+
+Too many suppositions?  Yeah, probably.
+
+- Pat
+
+
+

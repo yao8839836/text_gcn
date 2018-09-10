@@ -1,0 +1,29 @@
+From: matt@consent.uucp (Matthew)
+Subject: Implementing a Diffie-Hellman key exchange.
+Keywords: Diffie-Hellman encryption DES 64bit
+Organization: a unix box, where else?
+X-Newsreader: TIN [version 1.1 PL9]
+Reply-To: matt%Consent.Uucp@uts.EDU.AU
+Lines: 21
+
+
+I want to add link encryption to a module that multiplexes upper
+level routines into a single data link. The upper levels won't know
+about this, and thus key exchange shall only need to occur once (at
+the initial link establishment). I figure that I can do this with
+DES and a Diffie-Hellman key exchange.
+
+Is using a Diffie-Hellman exchange to establish a 64 bit DES key
+acceptable, in other words, what are the pro's and con's of such a 
+setup? Are there any important issues to watch out for (aside from
+filtering out unacceptable keys)?
+
+And in order to achieve this, I guess I will need to use 64bit math
+routines (for probable prime number calculation, exponentiation etc),
+so could someone point me towards a good package (this is strictly
+non-commercial).
+
+Matthew.
+-- 
+matt%consent@uts.EDU.AU - 
+'The power of one man seems like a small squirt ...' -- tDHoH

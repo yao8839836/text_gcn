@@ -1,0 +1,51 @@
+Subject: Source code/help on IP packages(Please)!
+From: ashlin@ironbark.ucnv.edu.au (Vance Ashlin)
+Distribution: world
+Organization: Dept Computing, UCNV, Bendigo, Australia
+NNTP-Posting-Host: ironbark.ucnv.edu.au
+Lines: 44
+
+Greetings this is a general call for information regarding Image
+Processing. I am looking for any material related to the field, and am
+also trying to get my hands on some easy to use packages related to the
+field. In particular source code for general use packages.
+
+I already have several texts on the subject, but would appreciate more
+input from people more knowledgable in the field than myself. I'm not
+mathematically literate (ie. I don't have a degree in mathematics), so
+any material that is suggested I would prefer that it was not
+mathematically intensive.
+
+The best book I have found on the subject at the moment is:
+
+"Practical Digital Image Processing"
+by Rhys Lewis
+ISBN: 0-13-683525-2
+Published by Ellis Horwood (c)1990.
+
+Likewise I am trying to get a fair sample of programs that demonstrate
+Image Processing techniques. So far I have 'xv', and 'khoros' for Unix.
+'Dcview 2.1' for the IBM PC, and various related smatterings of C code
+to help describe topics like, contrasting, dithering, image enhancement
+via convolution etc.
+
+If anyone could kindly supply me with some public domain software
+pertinent to this area, or better still if they could tell me where I am
+most likely to find it on the AARNET (Internet). If I can I would prefer
+source code in C or Turbo Pascal that includes some Image Processing
+code/algorithms, that I can readily alter/manipulate for the purposes of
+demonstration it would be most helpful.
+
+All the above information will contribute to my post-graduate studies,
+and will be liberally used in my paper, and seminar on the subject.
+
+
+          Thanks in advance Vance Ashlin
+          Diploma Advanced Computing
+
+-------------------------------------------------------------------
+Thinking is dangerous, subversive, mindnumbing and leads you astray
+
+ashlin@ironbark.ucnv.edu.au
+i880429@redgum.ucnv.edu.au
+-------------------------------------------------------------------

@@ -1,0 +1,20 @@
+From: abh@genesis.nred.ma.us
+Subject: Creating FLI/FLC Animation Files?
+Organization: Genesis Public Access Unix +1 508 664 0149
+Lines: 15
+
+
+I am looking for a means to add FLI and FLC animation creation
+to a Windows application.  I was hoping for something along the lines
+of AAWIN or AAPLAY by Autodesk but for the creation of these delta 
+compressed animations.  I have FLILIB but this seems to be coded for 
+the Large memory model of DOS with Turbo C. Ideally I would
+like a DLL or Medium model object library, but would settle
+for anything, really.  I've seen other Windows apps with
+FLI/FLC creation, did they hack the FLILIB code into submission?
+
+Any pointers would be appreciated, please send mail directly
+to me and I will summarize the results if there is interest.
+
+- Andrew Hudson
+abh@genesis.nred.ma.us

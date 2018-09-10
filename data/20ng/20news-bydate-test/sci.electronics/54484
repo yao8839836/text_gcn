@@ -1,0 +1,41 @@
+From: gsulliva@enuxha.eas.asu.edu (Glenn A Sullivan)
+Subject: Re: Long distance IR detection
+Summary: More facts on LONG DISTANCE IR DETECTION
+Organization: Arizona State University
+Distribution:  na
+Lines: 34
+
+jvannes@vms.macc.wisc.edu writes:....
+> >I designed and built hardware in 1988 that would output a logic level (from
+> >a 567 tone detector) upon detecting a 500 microwatt LED 28 feet away.
+> >Used a Motorola MRD360, biased linearly  in a DC-feedback loop to servo out
+> >variations in sunlight (and 60Hz from lights). Used no lenses.
+> >Allen Sullivan
+> I would be interested in knowing more about the sensing hardware.  What did
+> you use for the detector?  Could you detect the angle of location, or did
+> the system simply respond to the presence of the transmitter in the sensors
+> field of view?
+ 
+Phototransistor-> X100 -> X100 -> NE567
+with 330Kohm              Limiter 
+feedback to base                  
+to control operating point (I expect this really hurts Noise Figure! Any
+comments from Phototransistor experts?)
+
+We intended to use this atop a stepper motor, to provide headings to the
+beacons. The plan was to have 3 or 4 beacons, of different frequencies, in 
+each room, and tell the 567 what frequency to phase-lock to. We did not do so.
+One challenge was that the available stepper had 8 degree steps!
+Knowing the headings to each beacon, we would have used the surveyor 
+technique of RESECTION to determine robot location. (No, I ain't going to
+explain resection over the net.)
+
+Given hindsight, I would digitize the amplified output of the self-nulling
+phototransistor circuit, and correlate in-phase & quadrature square-waves at
+the several expected frequencies, to extract AMPLITUDE of each beacon.
+By doing this at the numerous steps, even with  8 degree steps, with knowledge
+of the angular response of the phototransistor, you SHOULD be able to
+rather more accurately determine the heading to each beacon.
+Allen Sullivan
+
+

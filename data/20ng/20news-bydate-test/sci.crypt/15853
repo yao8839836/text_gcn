@@ -1,0 +1,34 @@
+From: smb@research.att.com (Steven Bellovin)
+Subject: Re: Off the shelf cheap DES keyseach machine (Was: Re: Corporate
+Organization: AT&T Bell Laboratories
+Lines: 29
+
+In article <CMM.0.90.2.735554186.jon@gode.ifi.uio.no>, "Jon \\lnes" <jon@ifi.uio.no> writes:
+> A person I know, belonging to a research lab of a rivate
+> company, claimed to me during a priavte conversation that, given the
+> equipment in his lab, he could crack a Kerberos ticket in 15 minutes to
+> an hour. He had access to rather powerful DES hardware, but not of an
+> extraordinare kind, I believe. The attack was possible because of the
+> amount of known plaintext in the ticket, which itself constitutes a small
+> message. This was two years ago.
+> DES is no longer usable for encryption of really sensitive data. For a
+> lot of purposes, however, it is still very adequate.
+
+This sounds an awful lot like a password-guesser, not a weakness in
+DES.  Merritt and I pointed out this weakness in Kerberos in a paper
+that came out about 2.5 years ago, in both Computer Communications
+Review and Usenix.  For that matter, it was loudly discussed on the
+Kerberos mailing list even earlier.
+
+The problem has nothing whatsoever to do with DES, and everything to do
+with bad password selection.
+
+I'm perfectly willing to believe that there are cryptanalytic attacks
+possible on DES.  I'm quite dubious that private research labs know
+them.  And the parameters of a brute-force attack are quite well
+established; see, for example, the Garon and Outerbridge paper in the
+July '91 Cryptologia.  You're not going to do it in an hour with only
+``rather powerful DES hardware''.  I'll leave the arithmetic as an
+exercise for the reader.  On average, you'll need to do 2^55 trials.
+Pick your own parameters for how fast the DES engine runs, and for
+how many such engines are used.

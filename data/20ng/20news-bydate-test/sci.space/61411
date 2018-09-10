@@ -1,0 +1,29 @@
+From: abdkw@stdvax.gsfc.nasa.gov (David Ward)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+News-Software: VAX/VMS VNEWS 1.4-b1  
+Organization: Goddard Space Flight Center - Robotics Lab
+Lines: 23
+
+In article <1993Apr27.094238.7682@samba.oit.unc.edu>, Bruce.Scott@launchpad.unc.edu (Bruce Scott) writes...
+>If re-boosting the HST by carrying it with a shuttle would not damage it,
+>then why couldn't HST be brought back to earth and the repair job done
+>here?
+> 
+>Is it because two shuttle flights would be required, adding to the alredy
+>horrendous expense?
+> 
+
+I don't think a reboost exercise is analogous to a shuttle landing/launch
+in terms of stresses/misalignments/etc.  I would think of the reboost as
+a gentile push, where a landing, then launch as two JOLTS which would
+put more mechanical stress on the instruments.  Additionally, there might
+be a concern about landing loads to the shuttle in the event of a laden
+landing.  Finally, probably some thought went into possible contamination 
+problems if the instruments came back to earth.
+
+Of course, the cost of two shuttle launches _is_ a good reason to avoid
+something that might be done in one shuttle launch.  Here's hoping
+Cepi's gang gets the job done right the first time.
+
+David W. @ GSFC
+(I used to work for Frank Cepollina)  

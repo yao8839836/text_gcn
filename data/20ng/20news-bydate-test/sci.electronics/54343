@@ -1,0 +1,56 @@
+From: me170pjd@emba-news.uvm.edu.UUCP (Peter J Demko)
+Subject: Re: PC parallel I (!= I/O)
+Originator: me170pjd@freehold.emba.uvm.edu
+Organization: University of Vermont -- Division of EMBA Computer Facility
+Lines: 50
+
+From article <qekN3B4w165w@sys6626.bison.mb.ca>, by baden@sys6626.bison.mb.ca (baden de bari):
+> erickson@azure.nmt.edu (Alan Erickson) writes:
+> 
+>> 	I'm trying to bring in 8+ bits to a PC, and would like
+>> 	to use interrupt-driven routines. Without buying an IO
+>> 	board or making a new port, _where_ can I bring in these
+>> 	bits? LPT seems to have only a few inputs, but I've heard
+>> 	rumours that some LPTs have bidirectional lines. Anybody
+>> 	know fer sure? If any bi-d LPTs, which boards have them
+>> 	(I'll be running a new 386DX-33)?
+> 
+>  
+>         Yes, it is possible.  I'm making a 7 stepper controller board, 
+> with 7 digital inputs, and (up to) 18 digital outputs from the // port.
+>    One main thing that will tell you whether the // port is 
+> bi-directional or not is the bus tranceiver on it.  Look for a chip 
+> numbered 74LS245.  If you don't have this, then it's probably a 74LS244, 
+> which will do you NO good for reading in.
+>   
+>           Now, if you do have the '245 then do the following:
+>   First, find the address of the port, (decimal) either 888, or 632.
+>   In pascal, you would "Write(Port[xxx]);" where xxx is the address in 
+> either hex or decimal.  The status lines, pins 14, 16, 17, as well as the 
+> strobe, pin 1, are bi-directional lines, and are read by base address +2, 
+> so for 888, to read from status, then read from 890.  You can also output 
+> to these lines in the same fashion as to the data lines.  In pascal, 
+> do "Port[xxx]:=value
+> ".
+>  
+>                 Hope this helps.
+>         Let me know if you need more help.
+>  
+>  
+>   _________________________________________________
+>   Inspiration  |   ___                             |
+>   comes to     |  \   o  baden@sys6626.bison.mb.ca |
+>   those who    | (  ^  ) baden@inqmind.bison.mb.ca |
+>   seek the     |   /-\      =] Baden de Bari [=    |
+>   unknown.     |                                   |
+>   ------------------------------------------------- 
+>  
+
+AS IT HAPPENS, YOU'VE HELPED ME QUITE A BIT. I'M CONSIDERING BUILDING
+A VERY SIMILAR DEVICE JUST FOR SOMETHING TO DO THIS SUMMER.
+THE IDEA IS TO CODE THE 8 OUTPUT BITS INTO MULTIPLE 2-BIT 
+CURRENT-AMPLIFIED OUTPUT CHANNELS.  SOFTWARE WILL HANDLE THE WAY THE 
+AMPLIFIED OUTPUTS ARE MANIPULATED SO THAT THIS MAGIC BOX CAN HANDLE
+MORE APPLICATIONS THAN JUST STEPPER MOTORS.  ALSO LOOKING FOR A ROBOT ARM
+(CHEAP) TO ATTACH THIS BOX TO SO I CAN WOW AND IMPRESS MY FRIENDS.
+    ANY HINTS?       PETER J DEMKO ME170PJD@UVM.EDU 

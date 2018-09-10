@@ -1,0 +1,48 @@
+Organization: Queen's University at Kingston
+From: <JIANGY@QUCDN.QueensU.CA>
+Subject: Please Help: Point in concave Polyhedra
+Lines: 43
+
+Dear Netters:
+
+
+I am looking for C source code to test if a 3D point lies within a
+
+concave polyhadra. I have read a few articles about this and know
+
+that two solutions exist: parity counting and angle sumation. Both
+
+
+ideas are pretty simple but coding is not. So I wonder if there exists
+
+public domain source code for this.
+
+    Another 'rough' solition (don't care special cases) is ray-casting
+
+which is reported to be more or less independent of number of faces
+
+consisting the polyhedra if a special space indexing is used
+(M. Tamminen, et. al., 1984. "Ray-casting and block model conversion
+using a spatial index". Computer-Aided-Designs. 4, 1984, 60-65).
+But the prerequirement is that all the facets of polyhedra have their
+normal pointing outside of polyhedra. How this could be done in practice ?
+I have a set of trangles consisting the polyhedra. How could I ensure their
+normals pointing outside the polyhedra ? The paper mentioned above assumed
+this is already the case.
+
+
+   I have also read some standard computer graphics textbook about hidden
+line removal. It says "if we make the rule that the normal of a facet pointing
+
+toward viewer standing far away from the polyhedra...". Again how to make
+sure ?
+
+
+   Any pointers are welcome ?
+
+
+   Yaohong Jiang
+   Queen's University
+   Kingston, Ont.
+
+   Jiangy@qucdn.queensu.ca

@@ -1,0 +1,29 @@
+From: actor@telerama.pgh.pa.us (Philip R. Spagnolli)
+Subject: More than 1 type of controller
+Organization: Telerama Public Access Internet, Pittsburgh, PA
+Lines: 22
+NNTP-Posting-Host: localhost
+X-Newsreader: TIN [version 1.1 PL9]
+
+Is it possible to put more than 1 controller in a PC.  By this I mean of 
+different types.  ie.  RLL and MFM.  If so how do you access the drives
+in the CMOS setup.  Do they just show up to be configured or do you 
+have to do low level writes to the controller.  
+
+As an example put 1 RLL controller with 2 drives in a machine.  Put
+a MFM controller and 2 more drives connected to it.  I now have 4
+drives with 2 controllers of different types.  Also can you 
+put 2 controllers of the same type into a PC and again how do you access 
+them.  
+
+I was asked this question and never tried to do it so if anyone has
+done this and can supply me with info I would very pleased
+
+Thanx in advance for any info...
+
+
+-- 
+***** Philip R. Spagnolli                             actor@telerama.pgh.pa.us
+***** Aliases: Actor, Mentor, Poet, Relfkin
+***** Hobbies: RPG, Writing, Computers, Acting, reading, Philosophy, Mudding
+***** Disclaimer: Since I can only know my own existance I can offend no one.

@@ -1,0 +1,66 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: IDE vs SCSI, DMA and detach
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 60
+
+
+In article <1993Apr19.034517.12820@julian.uwo.ca>, wlsmith@valve.heart.rri.uwo.ca (Wayne Smith) writes:
+> In article <RICHK.93Apr15075248@gozer.grebyn.com> richk@grebyn.com (Richard Krehbiel) writes:
+> >>     Can anyone explain in fairly simple terms why, if I get OS/2, I might 
+> >>   need an SCSI controler rather than an IDE.  Will performance suffer that
+> >>   much?  For a 200MB or so drive?  If I don't have a tape drive or CD-ROM?
+> >>   Any help would be appreciated.
+> 
+> >So, when you've got multi-tasking, you want to increase performance by
+> >increasing the amount of overlapping you do.
+> >
+> >One way is with DMA or bus mastering.  Either of these make it
+> >possible for I/O devices to move their data into and out of memory
+> >without interrupting the CPU.  The alternative is for the CPU to move
+> >the data.  There are several SCSI interface cards that allow DMA and
+> >bus mastering.
+>  ^^^^^^^^^^^^
+> How do you do bus-mastering on the ISA bus?
+> 
+> >IDE, however, is defined by the standard AT interface
+> >created for the IBM PC AT, which requires the CPU to move all the data
+> >bytes, with no DMA.
+> 
+> If we're talking ISA (AT) bus here, then you can only have 1 DMA channel
+> active at any one time, presumably transferring data from a single device.
+> So even though you can have at least 7 devices on a SCSI bus, explain how
+> all 7 of those devices can to DMA transfers through a single SCSI card
+> to the ISA-AT bus at the same time.
+
+Think!
+
+It's the SCSI card doing the DMA transfers NOT the disks...
+
+The SCSI card can do DMA transfers containing data from any of the SCSI devices
+it is attached when it wants to.
+
+An important feature of SCSI is the ability to detach a device. This frees the
+SCSI bus for other devices. This is typically used in a multi-tasking OS to
+start transfers on several devices. While each device is seeking the data the
+bus is free for other commands and data transfers. When the devices are
+ready to transfer the data they can aquire the bus and send the data.
+
+On an IDE bus when you start a transfer the bus is busy until the disk has seeked
+the data and transfered it. This is typically a 10-20ms second lock out for other
+processes wanting the bus irrespective of transfer time.
+
+> 
+> Also, I'm still trying to track down a copy of IBM's AT reference book,
+> but from their PC technical manual (page 2-93):
+> 
+> "The (FDD) adapter is buffered on the I.O bus and uses the System Board
+> direct memory access (DMA) for record data transfers."
+> I expect to see something similar for the PC-AT HDD adapter.  
+> So the lowly low-density original PC FDD card used DMA and the PC-AT
+> HDD controller doesn't!?!?  That makes real sense.
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

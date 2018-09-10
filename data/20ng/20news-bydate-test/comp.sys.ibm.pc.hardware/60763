@@ -1,0 +1,50 @@
+From: mhall@habu.b11.ingr.com (Mark Hall)
+Subject: Re: S3 video card at different address
+Keywords: s3 video diamond addressing
+Reply-To: ingr!b11!mhall!mhall
+Organization: Intergraph Corportation
+Distribution: usa
+Lines: 42
+
+In article <C5Myzn.puE@austin.ibm.com>, lance@hartmann.austin.ibm.com (Lance Hartmann) writes:
+|> In article <1qmrdd$70h@umcc.umcc.umich.edu> jon@umcc.umcc.umich.edu (Jon Zeeff) writes:
+|> >I'd like to add a second S3 based video card to my system.  Does anyone
+|> >know of a company that sells a card that can coexist with another one?
+|> >All I really need is color text on one monitor and fast color graphics
+|> >on the other.
+|> >
+|> >Probably just a configurable address would do it.
+|> >
+|> 
+|> For what it's worth (I haven't confirmed it), a Diamond tech-rep told
+|> me that ALL S3-based video cards use port addresses 0x2E0 and 0x2E8.
+|> If this is true, it appears that you canNOT use more than one S3 card
+|> in your system.
+|> 
+	Actually there is an S3-based card on the market that supports
+	multiple adapters in one system. Unfortunately, It is VL-Bus
+	only (They may have an ISA version by now...?) from a company
+	called Metheus. The address and phone number is:
+
+			Metheus Corp
+			OGC Science Park
+			1600 NW Compton Dr.
+			Beaverton, OR  97006-6905
+			(503)-690-1550
+	Be aware, this is a very high-end card, capable of 4MB of VRAM,
+	so it does not come CHEAP. But, I have personally seen TWO of
+	these boards running a dual screen Windows 3.1.
+
+
+|> Lance Hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
+|>                Yes, that IS a '%' (percent sign) in my network address.
+|> ------------------------------------------------------------------------------
+|> All statements, comments, opinions, etc. herein reflect those of the author
+|> and shall NOT be misconstrued as those of IBM or anyone else for that matter.
+
+-- 
+Mark Hall
+Intergraph Corporation
+Huntsville, AL
+mhall@habu.b11.ingr.com
+(205) 730-6145

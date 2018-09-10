@@ -1,0 +1,81 @@
+From: richmond@spiff.Princeton.EDU (Stupendous Man)
+Subject: Interstellar T _is_ 3-4K; notes on Pluto/Charon talk and Pluto Mission
+Originator: news@nimaster
+Keywords: I goofed
+Nntp-Posting-Host: spiff.princeton.edu
+Organization: Princeton University
+Lines: 73
+
+   (sci.space readers can skip the first paragraph)
+
+  Yesterday, in response to Henry Spencer's question about the 
+temperature of a blackbody in interstellar space, I said "Dust grains
+acts as blackbodies, and they're at 40-150 K."  Well, I was dead
+wrong.  Our local interstellar dust expert, Bruce Draine, has
+informed me that dust grains _aren't_ good radiators in the far IR,
+which is why they are so warm; actually, the ambient radiation field
+from distant stars can bring a true blackbody to only 3 or 4 Kelvin.
+Sorry, Henry, and anyone else I misled.  Obviously, time for me to
+take another ISM class :-(
+
+  In other news, Alan Stern of the Southwest Research Institute gave
+a talk on the Pluto-Charon binary system yesterday.  He gave a brief
+overview of the currently-accepted system parameters (volume ratio of
+about 8:1, mass ratio about 15:1 or so, plus lots more...) and then
+gave his thoughts on the formation of Pluto-Charon.  His idea is 
+that there were lots and lots of small planetesimals in the outer
+solar system, with masses distributed as a power law of some kind;
+over time, the planetesimals accreted into larger bodies.  Most got
+scattered out of the solar system by close encounters with Jupiter
+and Saturn, but many accreted into the gas giants, especially
+Uranus and Neptune.  A large planetesimal was captured by Neptune -
+we call it Triton [captured how?  Perhaps by a collision with a smaller,
+already-existing Neptunian moon, perhaps by a very close passage through
+Neptune's atmosphere - mondo aerobraking!].
+
+  He notes that the two recently discovered "Kuiper Belt" objects,
+1992 QB1 and 1993 FW, plus Chiron and Pholus, are all about the same 
+mass, and he identifies this group as one-accretion-down from the
+larger bodies of Triton and Pluto/Charon.  Pluto/Charon, he thinks,
+formed when an impacting body hit proto-Pluto, knocking some material
+into a ring around Pluto which later accreted in Charon; similar to
+ideas about the formation of Earth's moon.  There is good evidence
+from spectra that the surfaces of Pluto and Charon are very different
+(Pluto has methane frost, Charon doesn't), which can be used as evidence
+for the impact theory.
+
+  He believes that there may be around 1000 Pluto-to-Chiron-sized objects
+remaining in a relatively stable dynamical zone just outside Neptune's 
+orbit, beyond 35 AU or so.  1992 QB1 and 1993 FW are the first members
+of this population to be found, in his model.  Note that such bodies
+will be very dark, since if their surfaces are covered with methane 
+frost, it will have photolyzed into very dark, long-chain hydrocarbons
+by now.  The reason that Pluto has such a high albedo (around 0.5, I think)
+is that its surface warms up JUST enough around perihelion to sublimate,
+and when the atmosphere freezes out again, thirty years later, it forms
+bright, new frost.  So any bodies much farther away than 30 AU are going
+to be very hard to see.
+
+  I hope I haven't made any errors in the transcription; if you see
+a howling mistake, it's undoubtedly mine, not his.
+
+  By the way, he's one of the top guns behind the Pluto Fast Flyby
+mission (I think), and said that the current plans are to use a
+Titan 4 to send the probe on "just about a rectilinear trajectory"
+to Pluto (we were speaking loosely at the time...).  He'd like
+to use a Proton, which gives a slightly smaller velocity but costs
+MUCH less.  His figures: $500 Million for 2 Titan 4 launches (there
+will be two separate probes, launched separately), or $120 Million
+for 2 Proton launches.  He told a story about how the Soviets originally
+offered to sell Proton launches for $30 Million each, but were forced
+to increase their prices in the US in order to be allowed in the
+marketplace.
+
+  I'm just telling you what he said.
+
+                          Michael
+
+-- 
+-----                                                    Michael Richmond
+"This is the heart that broke my finger."    richmond@astro.princeton.edu
+

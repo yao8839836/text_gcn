@@ -1,0 +1,48 @@
+From: ferch@ucs.ubc.ca (Les Ferch)
+Subject: Re: Ethernet card that uses A/Rose?
+Organization: The University of British Columbia
+Lines: 42
+NNTP-Posting-Host: swiss.ucs.ubc.ca
+
+In <1993Apr20.074018.9336@csu.edu.au> mantolov@golum.riv.csu.edu.au (Michael Antolovich) writes:
+
+>In article <aaron_bratcher-140493082909@fpm-mac-1.uchicago.edu> aaron_bratcher@fpm.uchicago.edu (Aaron Bratcher) writes:
+>>Does anyone know if there is an ethernet card that takes advantage of the
+>>A/Rose extension?
+
+>	Hey what does the A/Rose extension do anyway ?
+
+Newsgroups: comp.sys.mac.system
+From: probulf@Informatik.TU-Muenchen.DE (Frank Probul)
+Subject: Re: A/ROSE with Centris and Quadra models
+Organization: Technische Universitaet Muenchen, Germany
+Date: Mon, 19 Apr 1993 14:33:26 GMT
+
+A/ROSE = Apple Real Time Operating System Environment
+
+This is a system extension for these NuBUS cards using the 
+MCP (= Macintosh Coprocessor Platform). The MCP-cards are NuBUS cards with a
+Motorola 68000-Processor and 512 KB RAM (expandable to 1 Meg).
+MCP is a development platform for hardware-designers so they can use a card
+with an own processor and thus the main processor isn't needed for these cards.
+Currently the only cards I know are
+
+- the Apple TokenRing-Card
+- the new Apple Ethernet-Card
+- the Apple NuBUS serial card
+
+Perhaps there are some third-party-cards, but I don't know.
+
+
+---------------------------------------------
+Frank Probul
+Emanuelstr. 17, D-8000 Munich 40, Germany
+
+AppleLink: Probul.F@AppleLink.Apple.COM
+internet:  probulf@informatik.tu-muenchen.de
+
+Munich University of Technology
+Department of Computer Science
+Germany
+---------------------------------------------
+

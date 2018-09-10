@@ -1,0 +1,10 @@
+An application of probability theory to a group of breath-alcohol and blood-alcohol data.
+ Many jurisdictions have "per se" driving-while-intoxicated (DWI) status expressed in terms of a blood-alcohol concentration (BAC) standard (in grams per 100 mL or the equivalent).
+ Since breath-alcohol (BrAC) analysis is typically employed to determine BAC, there is often challenge to the use of an assumed 2100:1 conversion ratio.
+ This concern may be relevant in light of considerable data that show a low percentage of cases in which BrAC greater than BAC, and this concern increases when the BrAC is used to predict BAC in the context of "per se" legislation.
+ Probability theory provides a basis for estimating the likelihood of an individual having a BrAC greater than or equal to g/210 L with a corresponding BAC less than 0.10 g/100 mL.
+ Actual field data from the state of Wisconsin (n = 404) were evaluated to determine the probability of this occurrence.
+ The probability for this occurrence involves the multiplication law for independent events.
+ The computed probability from the data was 0.018.
+ The actual number of occurrences where BrAC greater than or equal to 0.10 g/210 L and BAC less than 0.10 g/100 mL was 5, resulting in a probability of 0.012.
+ The concern of having BrAC greater than BAC at the critical "per se" level has a very low probability of occurrence, which thus supports the reasonableness of "per se" DWI legislation based upon a blood-alcohol standard determined by breath-alcohol analysis.

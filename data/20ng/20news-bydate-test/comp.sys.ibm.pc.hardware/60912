@@ -1,0 +1,33 @@
+From: davidb@deimos.ucs.umass.edu (DAVID BESONEN)
+Subject: H E L P !!!   how can I get my COM3 port working?
+Organization: University of Massachusetts, Amherst
+Lines: 25
+Distribution: world
+NNTP-Posting-Host: deimos.ucs.umass.edu
+News-Software: VAX/VMS VNEWS 1.41    
+
+hello,
+
+for 2 months I've unsuccessfully attempted to get either
+a 3rd or 4th serial port working on my system.
+
+various systems diagnostics (e.g., MSD, Norton) tell me
+it's there, but anything I hook up to it can't use it
+
+I have two serial ports on the motherboard
+
+if I set my internal FAX/modem for com4 the utility
+programs report a COM3
+
+I've checked to make sure all the IRQs and addresses are
+correctly (as listed in most manuals) set
+
+am I missing something very basic?
+
+where should I go from here?
+
+any help, even a point in the right direction, would be
+most appreciated.
+
+David Besonen
+"davidb@student.umass.edu"

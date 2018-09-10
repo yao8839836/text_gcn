@@ -1,0 +1,22 @@
+From: pramod@stein.u.washington.edu (Pramod Mahadev)
+Subject: Problem with R4 release
+Article-I.D.: news.1sr3klINNauq
+Distribution: world
+Organization: University of Washington, Seattle
+Lines: 14
+NNTP-Posting-Host: stein.u.washington.edu
+
+ld: Unidentified external symbol
+   _get_wmShellWidgetclass
+   _get_applicationshellwidgetclass
+
+  I use -lXaw -lXmu -lXext -lX11 -lXt not in this order but in a proper order
+
+I am wondering if there has to be some changes in my link libraries or should
+i include some more libraries.
+
+ANy help in this matter will be very useful and highly appreciated
+
+Thanks
+Pramod
+.

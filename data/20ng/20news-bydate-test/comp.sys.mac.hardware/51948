@@ -1,0 +1,51 @@
+From: johnston@me.udel.edu (Bill Johnston)
+Subject: Re: IIci ROM Offers 32-bit Clean ROM for IIx
+Nntp-Posting-Host: me.udel.edu
+Organization: University of Delaware
+Lines: 45
+
+In article <mdavis.735319596@crash.cts.com> mdavis@crash.cts.com (Morgan Davis) writes:
+
+>Last week's MacWEEK article by Ric Ford indicated that David Ramsey's
+>Mac IIx has been running nicely with a Mac IIci ROM in it, offering
+>clean 32-bit ROM code (liberating his IIx from the virtual memory
+>nightmare caused by Apple's 32-bit System Enabler).
+
+[ This would make me a bit suspect of Mr. Ramsey's qualifications
+as a self-styled "expert", in fact, when I read about anybody
+using virtual memory regularly I kind of wonder ... ;-) ]
+
+Yes, one can sometimes get away with running a newer ROM (of the 
+correct size, obviously) in an older machine, but one should be 
+prepared for problems if running software that checks for machine 
+type rather than ROM trap availability and then draws incorrect 
+conclusions when special-casing - especially timing-dependent
+and driver-related stuff.
+
+In this particular case I see no reason to go to the trouble 
+of ROM-swapping.  The Apple 32-bit enabler has problems, but
+MODE32 works just fine with 7.0, 7.0.1, and 7.1.
+
+>Does anyone know of a source for these ROMs?  
+
+Sure.  Buy a used IIci motherboard.  Call Pre-Owned Electronics,
+Shreve, or other parts dealers (see the back of Computer Shopper
+or one of the Mac trades for phone numbers) and ask for a price
+on a IIci ROM.  Everything has a price.  If you happen to find
+somebody who salvaged a IIci with a dead motherboard, you might
+get a decent price.  There is probably a market for used mother-
+boards as well, so they might sell a ROM anyway.
+
+>Needless to say, I'm interested in purchasing such a ROM.  What would
+>be a reasonably price to offer?
+
+Ask for a quote and then try offering less?  Pre-Owned and
+Shreve have been known to dicker.  Their ads in various trade
+magazines often list considerably different prices for the 
+same items, and their phone quotes tend to vary as well.
+
+Still, I'm not aware of any technical reason for upgrading 
+the ROM in a IIx.  
+-- 
+-- Bill Johnston (johnston@me.udel.edu)
+-- 38 Chambers Street; Newark, DE 19711; (302)368-1949

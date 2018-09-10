@@ -1,0 +1,33 @@
+From: cant@world.std.com (jim cant)
+Subject: msdos prompt problem
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 28
+
+I am having a really bothersome problem using the MSDOS prompt in Windows 3.1
+to open a dos box.  When I am done with the dos box, I cant get back to windows.
+If I do Alt enter to shrink the box or use 'exit' to close it, the screen goes
+black and I have to control-alt-delete until I kill windows.  I get a couple
+of screens about app not responding.
+
+I think things are still alive under the black screen because if I alt-tab
+to cycle through the running apps, I get flashes of text but then the
+black returns.
+
+This persists even if the machine is powered on and off.
+
+I am working with an app developed using Borland's 3.1 application frameworks
+and c++.  It seems to work fine.
+
+Hardware is a 486 with 16meg ram; not on a network.  Video is a TSENG 
+vga.  dos 5.0.
+
+I reinstalled windows a couple of time but the problem comes back.  I am
+using temporary swapping for virtual memory.
+
+I would really REALLY appreciate any hints anyone might offer.
+
+Thanks,
+
+Jim Cant
+
+

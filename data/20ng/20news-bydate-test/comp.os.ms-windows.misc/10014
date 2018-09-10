@@ -1,0 +1,23 @@
+From: louray@seas.gwu.edu (Michael Panayiotakis)
+Subject: Re: What does the .bmp format mean?
+Organization: George Washington University
+Lines: 18
+
+In article <robertsa.735922084@unix2.tcd.ie> robertsa@unix2.tcd.ie (Andrew L. Roberts) writes:
+>What exactly does the windows bitmap format look like? I mean, how is
+>the data stored: width, height, no. of colours, bitmap data? I couldn't
+>find anything in ths user manual, is there any other reference material
+>which would give me this information?
+>
+>Thanks,
+>Andrew
+
+
+Well, this is *only* a guess:  If it goes by the "true" meaning of "bit
+map", then it holds (x,y,c) where x pixel number in th ex-direction, y:
+pixel-number in the y-dir, c: colour.
+-- 
+pe-|| ||  MICHAEL PANAYIOTAKIS: louray@seas.gwu.edu 
+ace|| ||                                   ...!uunet!seas.gwu.edu!louray
+|||| \/|  *how do make a ms-windows .grp file reflect a HD directory??*
+\\\\   |  "well I ain't always right, but I've never been wrong.."(gd)

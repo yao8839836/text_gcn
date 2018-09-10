@@ -1,0 +1,41 @@
+From: kxn3796@hertz.njit.edu (Ken Nakata CIS stnt)
+Subject: Re: VL-bus HDD/FDD controller or IDE HDD/FDD controller?
+Organization: New Jersey Institute of Technology, Newark, N.J.
+Lines: 35
+Nntp-Posting-Host: hertz.njit.edu
+
+In article <1993Apr21.030410.22511@grebyn.com> richk@grebyn.com (Richard Krehbiel) writes:
+>In article <62890018@hpsgm2.sgp.hp.com> taybh@hpsgm2.sgp.hp.com (Beng Hang TAY) writes:
+>
+>>   Hi,
+>>       I am buying a Quantum LPS240AT 245 MB hardisk and is deciding a
+>>       HDD/FDD controller. Is 32-bit VL-bus HDD/FDD controller faster 
+>>       than 16 bit IDE HDD/FDD controller card?
+>
+>No, VL-bus IDE is no faster than ISA IDE.  The IDE interface is
+>fundamentally nothing more than an extension of the ISA bus, and if
+>you hook it to VL-bus it'll work as fast as the slower of the two,
+>meaning ISA speed.
+
+It's not true.  IDE bus uses signals which has similar name and same
+meaning to the counterpart of ISA bus but its (IDE bus) signal timing
+doesn't have to be same to ISA signal timing.  My VL-IDE bus card has
+a set of jumpers to set its transfer rate from 3.3MB/sec up to 8.3MB/
+sec (the manufacturer might have to correct these numbers as 3.3
+*milion* byte/sec and 8.3 *milion* byte/sec respectively).   You
+cannot transfer data at a rate of 8.3MB/sec on the ISA bus.
+
+>>       I hear that
+>>       the VL bus controller is SLOWER than a IDE controller?
+>
+>On the other hand, I wouldn't expect it to be *slower*...
+>-- 
+>Richard Krehbiel                                 richk@grebyn.com
+>OS/2 2.0 will do for me until AmigaDOS for the 386 comes along...
+
+Ken Nakata
+-- 
+/* I apologize if there are incorrect, rude, and/or impolite expressions in
+this mail or post. They are not intended. Please consider that English is a
+second language for me and I don't have full understanding of certain words
+or each nuance of a phrase.  Thank you. -- Ken Nakata, CIS student, NJIT */

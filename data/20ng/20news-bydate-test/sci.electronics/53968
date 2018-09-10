@@ -1,0 +1,43 @@
+From: ritterbus001@wcsub.ctstateu.edu
+Subject: Re: IR remote control receiver
+Lines: 37
+Nntp-Posting-Host: wcsub.ctstateu.edu
+Organization: Yale University, Department of Computer Science, New Haven, CT
+
+In article <wb9omc.735429954@dynamo.ecn.purdue.edu>, wb9omc@dynamo.ecn.purdue.edu (Duane P Mantick) writes:
+> ab616@Freenet.carleton.ca (Marc Dion) writes:
+> 
+> 
+>>For a project of my own, I would like to build a Infra-Red Remote control
+>>receiver (for regular VCRs and TVs remotes).  Does anybody have any info
+>>or tips on how to build such receiver ?
+>>In particular,
+>>a) which photo detector should I use (which wavelength do remotes use) ?
+>>b) which ICs or circuit should I use ?
+>>c) any suggestions for circuit layout
+> 
+> 	Another suggestion - find a brand of TV that uses an IR remote,
+> and go look at the SAMS photofact for it.  You can often find some very
+> detailed schematics and parts list for not only the receiver but the
+> transmitter as well, including carrier freq. specs. and tone decoding
+> specs. if the system uses that.
+> 
+Probably won't help.  I'd be willing to bet that _every_ manufacturer
+used those little self-contained modules.  I think Sharp made them.
+Radio Shack used to sell them for a few bucks (maybe they still do.)
+
+The module had 3 leads:  power, ground and demodulated output.  It
+contained the photo-detector, amplifier, integrator and demodulator
+all in a tiny metal can.
+
+If you want to buy one, try Radio Shack, or else a TV repair shop can
+probably order one.  BTW - the carrier frequency is 40 KHz, and each
+different TV/VCR/cable box/stereo manufacturer uses a unique pulse
+scheme to perform each different function on their equipment.
+
+
+Jim Ritterbusch
+ritterbus001@wcsu.ctstateu.edu    - or - ne22@radiomail.net  (temp, rf)
+There is an art, the Guide says, or rather a knack to flying.  The
+knack lies in learning how to throw yourself at the ground and miss.
+

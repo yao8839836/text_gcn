@@ -1,0 +1,38 @@
+From: thomsonal@cpva.saic.com
+Subject: Drag-free satellites
+Organization: Science Applications Int'l Corp./San Diego
+Lines: 33
+
+On Sat, 1 May 1993 23:13:39 GMT, henry@zoo.toronto.edu (Henry Spencer) said:
+
+> No.  A "dragless" satellite does not magically have no drag; it burns fuel
+> constantly to fight drag, maintaining the exact orbit it would have *if*
+> there was no drag.  
+
+     Well, almost. It turns out that clever orbital mechanics can 
+engineer things so that resonant interactions with the higher order 
+harmonics of the Earth's gravitational field can pump energy into a 
+satellite, and keep it from experiencing drag effects for periods of 
+months to years. 
+
+     My favorite example of this is the Soviet/Russian heavy ELINT 
+satellites of the Cosmos 1603 class, which are in 14:1 resonance. In 
+particular, C1833 has undergone two periods of prolonged *gain* in 
+altitude, the current one having started in June 1991; the mean altitude 
+of the satellite is now as high as it has ever been since launch on 18 
+March 1987. (Looking at the elements for C1833 also shows the 
+limitations of NORAD's software -- but that's another story.) 
+
+    This probably has little relevance to space stations, since the 71 
+degree orbits of the C1603 satellites are at 850 km, which is 
+unacceptably far into the inner van Allen belt for manned platforms. But 
+it's kind of interesting from the point of view of the physics of the 
+situation. 
+
+    (Orbital elements for these satellites are available on request.) 
+
+
+Allen Thomson                  SAIC                       McLean, VA
+----------------------------------------------------------------------
+Is there an opinion here? If so, it's mine, not SAIC's
+

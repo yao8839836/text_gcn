@@ -1,0 +1,190 @@
+From: graeme@labtam.labtam.oz.au (Graeme Gill)
+Subject: Re: gamma correction
+Organization: Labtam Australia Pty. Ltd., Melbourne, Australia
+Summary: Here is a FAQ contribution on gamma:
+Lines: 184
+
+In article <1t31meINNrc8@gap.caltech.edu>, madler@cco.caltech.edu (Mark Adler) writes:
+> 
+> Can someone who knows what they're talking about add a FAQ entry
+> on gamma correction?  Thanks.
+
+I get regular questions about gamma correction since I go to great pains to
+deal with it properly in xli (the image loader program I maintain).
+
+Here is an explanation I often use to answer these questions.
+
+This might be suitable for inclusion in the FAQ.
+
+	Graeme Gill.
+
+###########################################################################
+"A note on gamma correction and images"
+
+Author: Graeme W. Gill
+        graeme@labtam.oz.au
+
+Date: 93/5/16
+
+
+"What is all this gamma stuff anyway ?"
+--------------------------------------
+
+Although it would be nice to think that "an image is an image",
+there are a lot of complications. Not only are there a whole bunch of
+different image formats (gif, jpeg, tiff etc etc), there is a whole
+lot of other technical stuff that makes dealing with images a bit
+complicated. Gamma is one of those things. If you've ever downloaded
+images from BBS or the net, you've probably noticed (with most image
+viewing programs) that some images look ok, some look too dark, and some
+look too light. "Why is this ?" you may ask. This, is gamma correction
+(or the lack of it).
+
+Why do we need gamma correction at all ?
+--------------------------------------
+
+Gamma correction is needed because of the nature of CRTs (cathode
+ray tubes - the monitors usually used for viewing images). If you
+have some sort of real live scene and turn it into a computer
+image by measuring the amount of light coming from each point of
+the scene, then you have created a "linear" or un-gamma-corrected
+image. This is a good thing in many ways because you can manipulate
+the image as if the values in the image file were light (ie. adding
+and multiplying will work just like real light in the real world).
+Now if you take the image file and turn each pixel value into a voltage
+and feed it into a CRT, you find that the CRT _doesn't_ give you
+an amount of light proportional to the voltage. The amount of light
+coming from the phosphor in the screen depends on the the voltage
+something like this:
+
+Light_out = voltage ^ crt_gamma
+
+So if you just dump your nice linear image out to a CRT, the image
+will look much too dark. To fix this up you have to "gamma correct"
+the image first. You need to do the opposite of what the CRT
+will do to the image, so that things cancel out, and you get
+what you want. So you have to do this to your image:
+
+gamma_corrected_image = image ^ (1/crt_gamma)
+
+For most CRTs, the crt_gamma is somewhere between 1.0 and 3.0.
+
+If that is all it is, why does it seem so complicated ?
+-----------------------------------------------------
+
+The problem is that not all display programs do gamma correction.
+Also not all sources of images give you linear images (Video cameras
+or video signals in general). Because of this, a lot of images
+already have some gamma correction done to them, and you are 
+rarely sure how much. If you try and display one of those images
+with a program that does gamma correction for you, the image gets
+corrected twice and looks way to light. If you display one of those
+images with a program that doesn't do gamma correction, then it will
+look vaguely right, but not perfect, because the gamma correction is
+not exactly right for you particular CRT.
+
+Whose fault is all this ?
+-----------------------
+
+It is really three things. One is all those display programs
+out there that don't do gamma correction properly. Another is
+that most image formats don't specify a standard gamma, or
+don't have some way or recording what their gamma correction is.
+The third thing is that not many people understand what gamma
+correction is all about, and create a lot of images with varying
+gamma's.
+
+At least two file formats do the right thing.
+The Utah Graphics Toolkit .rle format has a semi-standard way of recording
+the gamma of an image. The JFIF file standard (that uses JPEG compression)
+specifies that the image to be encoded must have a gamma of 1.0 (ie. a
+linear image - but not everyone obeys the rules).
+
+Some image loaders (for instance xli - an X11 image utility)
+allow you to specify not only the gamma of the monitor you
+are using, but the individual gamma values of image you are trying to
+view. Other image viewers (eg. xv another X11 image program) and
+utilities (eg. the pbm toolkit) provide ways of changing the gamma
+of an image, but you have to figure out the overall gamma correction
+yourself, allowing for undoing any gamma correction the image has,
+and then the gamma correction you need to suite your CRT monitor.
+
+[ Note that xv 2.21 doesn't provide an easy way of modifying the
+gamma of an image. You need to adjust the R, G and B curves to the
+appropriate gamma in the ColEdit controls. Altering the Intensity
+in the HSV controls doesn't do the right thing, as it fails to
+take account of the effect gamma has on H and S. This tends
+to give a tint to the image. ]
+
+How can I figure out what my viewer does, or what gamma my screen has ?
+---------------------------------------------------------------------
+
+The simplest way to do that is to try loading the file chkgamma.jpg
+(provided with xli distribution), which is a JFIF jpeg format file
+containing two grayscale ramps. The ramps are chosen to look linear
+to the human eye, one using continuous tones, and the other using
+dithering.  If your viewer does the right thing and gamma corrects
+images, then the two ramps should look symmetrical, and the point
+at which they look equally bright should be almost exactly half
+way from the top to the bottom. (To find this point it helps if
+you move away a little from the screen, and de-focus your eyes a
+bit.)
+
+If your viewer doesn't do gamma correction, then left hand ramp will have
+a long dark part and a short white part, and the point of equal brightness
+will be above the center.
+
+If your viewer does have a way of setting the right amount of gamma correction
+for a display, then if the equal brightness point is above center increase the
+gamma, and decrease it if it is below the center. The value will usually be
+around 2.2 
+
+[with xli for instance, you can adjust the display gamma with the
+-dispgamma flag, and once you've got it right, you can set the DISPLAY_GAMMA
+environment variable in your .profile]
+
+How do I figure out what the gamma of an image is ?
+-------------------------------------------------
+
+This is the most tricky bit. As a general rule it seems that a lot of
+true color (ie. 24 bit, .ppm .jpg) images have a gamma of
+1.0 (linear), although there are many about that have some gamma
+correction. It seems that the majority of pseudo color images
+(ie. 8 bit images with color maps - .gif etc.) are gamma corrected
+to some degree or other.
+
+If your viewer does gamma correction then linear images will
+look good, and gamma corrected images will look too light.
+
+If your viewer doesn't do gamma correction, then linear images will
+look too dark, and gamma corrected images will ok.
+
+Why Linear images are sometimes not such a good thing
+-----------------------------------------------------
+
+One of the reason that many high quality formats (such as
+Video) use gamma correction is that it actually makes better
+use of the storage medium. This is because the human
+eye has a logarithmic response to light, and gamma correction
+has a similar compression characteristic. This means images 
+could make better use of 8 bits per color (for instance),
+if they used gamma correction. The implication though, is that
+every time you want to do any image processing you should
+convert the 8 bit image to 12 or so linear bits to retain
+the same accuracy. Since little popular software does this, and
+none of the popular image formats can agree on a standard
+gamma correction factor, it is difficult to justify gamma corrected
+images at the popular level.
+
+If some image formats can standardize on a particular gamma,
+and if image manipulation software takes care to use
+extra precision when dealing with linearized internal data,
+then gamma corrected distribution of images would be a good thing.
+
+(I am told that the Kodak PhotoCD format for instance, has a
+standard gamma correction factor that enables it to get the
+highest quality out of the bits used to hold the image).
+
+###########################################################################
+
+

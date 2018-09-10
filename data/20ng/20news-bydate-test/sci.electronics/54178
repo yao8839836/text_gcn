@@ -1,0 +1,13 @@
+Subject: PC BOARD Layout Help
+From: <EH1QC@CUNYVM.BITNET>
+Organization: City University of New York
+Lines: 8
+
+Hi,  I have a few questions about laying out a PCB. I am using easytrax for dos
+which is a great program. But what my question is When laying out traces what
+thickness should they be? I am mainly designing low voltage low current boards
+for micro controller apps. What should pad sizes be for resistors? I will be
+turning to a commercial PCB maker to produce 1's of these boards and I was
+wondering what is the minimum distance traces should be from each other. Well
+any info would be great. Thanks.
+                                                 Anton

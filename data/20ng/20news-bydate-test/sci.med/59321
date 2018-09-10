@@ -1,0 +1,48 @@
+From: rhaller@ns.uoregon.edu (Rich Haller)
+Subject: ReSound hearing aid theory as I understand it
+Organization: University of Oregon
+Lines: 41
+Distribution: world
+NNTP-Posting-Host: rhaller.cc.uoregon.edu
+
+The following is based on copies I was given of some articles published in
+Hearing Instruments. I would appreciate any comments about this and other
+'new' technology for hearing aids.
+
+The ReSound system was developed on the basis of some research at AT&T and
+appears to take a different approach from other aids. It appears to me that
+a new 'programmable' aid like the Widex just uses a more flexible (and
+programmable) version of the classical approach of amplifying some parts of
+the spectrum more than others and adding some compression to try and help
+out in 'noisy' situations.
+
+The major difference in the ReSound approach is that it divides the
+spectrum into low and high frequencies (splitting point is programmable),
+apparently based on the fact that lots of vowel information can be found in
+the low frequencies, while the important consonant information
+(unfortunately for me) is in the high frequencies. The two bands then are
+treated with different compression schemes which are programable. They have
+also developed a new fitting algorythm that builds on what they call
+'abnormal growth of loudness'.
+
+This latter is interesting and fits my own personal experience, though I
+think the phrase is missleading. What appears to be the case is that as you
+exceed the minimum threshold for a person with hearing loss, the deficit
+becomes progresslively less compared to normals and by the time you reach
+the 'too loud' point the sensitivity curves appear to converge.  This means
+that if you just boost all sound levels, you are overloading at the high
+end for people with hearing losses. Hence what you want is progressively
+less amplification as the signal get closer to the maximum tolerable point.
+You want to boost low volume sounds more than high and do so potentially
+differently for the low and high frequency parts of the spectrum (specially
+for someone like me who is relatively normal up to 1000 cps and then falls
+off a cliff).
+
+Aids with simple compressors don't descriminate between energy in the low
+and high frequencies and can therefor 'compress' useful high frequency
+information because of high volume of low frequency components.
+Particularly impressive was the ReSound performance with whispered speech
+and in simulated restaurant noise situations. 
+
+-Rich Haller <rhaller@ns.uoregon.edu>   University of Oregon, Eugene, OR,
+USA

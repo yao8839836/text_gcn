@@ -1,0 +1,50 @@
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Subject: Re: HELP: LED connectors for motherboard
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 44
+NNTP-Posting-Host: slc10.ins.cwru.edu
+
+
+
+
+
+Article #61153 (61302 is last):
+>Newsgroups: comp.sys.ibm.pc.hardware
+From: nstassen@magnus.acs.ohio-state.edu (Nicki A Stassen Lantz)
+Subject: HELP: LED connectors for motherboard
+Date: Thu Apr 22 09:02:48 1993
+
+
+I bought a 386DX-40 motherboard for 50$... no documentation at all. Everything
+appears to work, except I'm having trouble getting a few of the LED connectors
+working. I've looked at the manuals for 4 other motherboards, but the pin
+configuration doesn't look anything like what is on this board. Does this
+pin arrangement look familiar to anyone out there??? Any hints on where I
+can find this information?
+
+                 1                 10
+      "speaker"  . . . . . . . . . .
+      "keylock"  . . . . . . . . . .
+                 11          ^     20
+                       J23   |
+                             |The board came with a jumper vertically across
+                              these two pins.
+
+I can get the power/keylock to work across pins 11-15, reset across pins 9 and
+Shown 82%, press <SPACE> for more, 'q' to quit, or 'h' for help
+                                                                                
+19, but would prefer not to blow something up by further experimentation.
+The date on the board itself is 6/92, opti chips.
+
+I would really appreciate any help, and thank you in advance.
+
+N A Stassen Lantz
+End of File, Press RETURN to quit
+
+Nicji,
+It would realy realy help if you said what chipset and if the board
+was an upgradable or not board and how old it and the bios is???
+Sam
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...

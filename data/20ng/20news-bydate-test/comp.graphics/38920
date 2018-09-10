@@ -1,0 +1,38 @@
+From: iharkest@Lise.Unit.NO (Inge Harkestad)
+Subject: Tangent vectors of Kochanek-Bartels splines
+Organization: University of Trondheim
+Lines: 33
+
+I'm working on a system which uses a given set of 3D key frame
+positions (x,y,z) to control an imaginary camera movement.  I'm
+using Kochanek-Bartels splines (as described in the SIGGRAPH '84
+proceedings) to create a variable number of inbetweens between
+the key frames.  I want the inbetweens to be given in the form
+(x,y,z,dx,dy,dz) where the last three argumentsa are the x, y and
+z component of the viewing direction vector of the camera when
+positioned at (x,y,z).
+
+The method presented by Kochanek and Bartels only deals with the
+positions of the inbetween view points to be generated.  I've
+tried to set the viewing direction at a view point equal to the
+chord between the two adjacent view points (which in general are
+not key frames), but this causes a sligt discontinuity of the
+viewing direction vector at the key frame positions (although
+the spatial movement seems to work fine; and I'm quite certain
+- I think :) - that I've not simply made an implementation
+error...)
+
+Now I wonder if anyone out there has used this spline form for
+similar purposes and how they decided the viewing vectors.
+I'd appreciate replies to be emailed to me at
+  iharkest@lise.unit.no
+Anyone else interested in the answer will be sent a summary of
+the replies if they contact me.
+
+-- 
+ _________     __________________
+\\        \\  \\
+ \\ N G E  \\==\\ A R K E S T A D     iharkest@lise.unit.no         Comp. Sc.
+  \\________\\  \\_______________     NTH (Norwegian Institute of Technology)
+
+          "Some people play hard to get, I play hard to want" (Ford Fairlane)

@@ -1,0 +1,20 @@
+From: hades@coos.dartmouth.edu (Brian V. Hughes)
+Subject: Re: Quadra 900/950
+Reply-To: hades@Dartmouth.Edu
+Organization: Dartmouth College, Hanover, NH
+Disclaimer: Personally, I really don't care who you think I speak for.
+Moderator: Rec.Arts.Comics.Info
+Lines: 12
+
+armani@edgeway.wimsey.bc.ca (Anand Mani) writes:
+
+>Besides the faster processor, the 950 has SCSI 2, and as far as I know,
+>faster I/O due to separate processors handling those functions.
+
+    Mostly. The Q950 does have a SCSI2 controller chip as it's SCSI
+chip, but it does not have the chips to use the Wide or Fast SCSI-2
+modes and therefore doesn't offer much more in the way of SCSI
+performance over the Q900. It does, howrever, have a faster I/O
+controller than the Q900; this is where the real speed boost comes from.
+
+-Hades

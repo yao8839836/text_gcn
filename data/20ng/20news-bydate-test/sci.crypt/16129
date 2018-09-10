@@ -1,0 +1,19 @@
+From: steve-b@access.digex.com (Steve Brinich)
+Subject: Re: Dorothy Denning opposes Clipper, Capstone wiretap chips
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 13
+NNTP-Posting-Host: access.digex.net
+
+ > I believe there is no technical means of ensuring key escrow without the
+ >government maintaining a secret of some kind.
+
+  Not necessarily.  For instance, in the system outlined in the May 1993
+issue of "Byte", the process of getting one's public key listed for general
+use involves giving pieces of your private key to escrow agencies, which
+do calculations on those pieces and forward the result to the publishers of
+the public key directory, which combines these results into your listed
+public key.  If you try to give the escrow agencies pieces which -don't-
+yield your private key when they are all put together, the result is that
+the public key listed for you is wrong and you can't read messages encrypted
+to you.
+

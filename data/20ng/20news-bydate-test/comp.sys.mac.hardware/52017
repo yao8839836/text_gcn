@@ -1,0 +1,12 @@
+From: snyder@ttb.jsc.nasa.gov (russ snyder)
+Subject: How fast is M6775 LL/A (Apple FPU)?
+Organization: nasa-jsc
+Distribution: usa
+Lines: 6
+
+What is the maximum rate of the 6882 FPU that Apple sells directly (Apple
+Part No. M6775 LL/A)?  The Apple literature labels the FPU for Classics and
+LC III's so I assume it will do at least 25MHz.  My question is can I put
+it in a Performa 600 (68030 @ 32MHz)?  The Apple price is cheap at $78
+compared to ~$135 from mail order houses.  Any one know the answer to this
+one?

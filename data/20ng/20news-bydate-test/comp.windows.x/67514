@@ -1,0 +1,52 @@
+From: jessea@u013.me.vp.com (Jesse W. Asher)
+Subject: Compiling mh-6.8 (and xmh) on SCO 3.2.4.
+Organization: Varco-Pruden Buildings
+Lines: 47
+
+I'm trying to get MH compiled (and then xmh) and I'm having some problems.
+I've got mh-6.8, using gcc on SCO 3.2.4.  My MH file is listed below.  Does
+anyone have any suggestions on what I can add to get it to compile??
+
+===========
+
+bin             /usr/local/bin
+debug           off
+etc             /usr/local/lib/mh
+mail            /usr/mail
+mailgroup       mail
+mandir          /usr/man
+manuals         gen
+chown           /bin/chown
+editor          prompter
+remove          /bin/mv -f
+# if no TCP/IP sendmail is available: change mts entry to sendmail
+mts             sendmail/smtp
+bboards         off
+bbdelivery      off
+bbhome          /usr/spool/bboards
+mf              off
+pop             off
+# options       SEE BELOW
+cc              gcc
+ccoptions       -O -ansi -D__STDC__=0 -DSYSV -DSYSV386 -DSCO -D_SVID
+curses          -lcurses
+ldoptions       -s
+ldoptlibs
+lex             lex
+sprintf         int
+sharedlib       off
+slibdir         /usr/local/lib
+oldload         off
+ranlib          off
+
+# define BIND only of the BSD4.3 named (TCP/IP) is used
+# define SOCKETS only if the system has BSD4.3 sockets (TCP/IP)
+options         ATZ BIND DUMB MHE MHRC MORE='"/usr/bin/more"'
+options         OVERHEAD SHADOW SOCKETS SYS5 SYS5DIR
+options         TZNAME WHATNOW
+
+-- 
+      Jesse W. Asher                                          (901)762-6000
+                             Varco-Pruden Buildings
+                 6000 Poplar Ave., Suite 400, Memphis, TN  38119
+    Internet: jessea@vpbuild.vp.com                   UUCP: vpbuild!jessea

@@ -1,0 +1,35 @@
+From: ez019654@othello.ucdavis.edu (Victoria Milliron)
+Subject: Re: How to the disks copy protected.
+Organization: University of California, Davis
+X-Newsreader: Tin 1.1 PL3
+Lines: 29
+
+Hmmm...
+  A possibility for the software registration conondrum would be to have the
+distributor register the copy when the software was sold.  The clerk sticks it
+in the store PC and asks for the buyers ID. Later, if pirated versions showed up they could be tracked to the original purchaser. In addition copies which were
+sent to distributors/stores would have a vendor reg # or serial # in order to
+track in store piracy.
+
+Possible additional program security schemes would be:
+1. having monthly password changes which necessitate user call in
+   and registration. (inconvenient)
+2. taking dire legal action on anyone caught (expensive)
+3. encryption, crc check, self modifying code (limited effectiveness)
+4. have an independent watchdog program in the installation/setup config or
+   memory manager, etc. which would check the main program's crc. 
+   (only as effective as above methods at best.)
+5. have the above watchdog circulating as a virus which would trash cracked 
+   copies of the program and/or the offenders hard drive. (risky, and probably
+   illegal, certainly immoral)
+
+my new ideas aren't terribly feasible to implement as presented, but I thought
+if I threw them out people could think of variations that might be effective.
+What is the problem with parallel port security keys? I haven't used anything
+that had hardware key copy protection schemes, so I don't know what the
+drawbacks are. I know the companies that make them claim they're uncrackable,
+but I've seen cracks of AutoDesk 3d-studio floating around (I don't have one
+so don't ask) and I had heard that it had parralel port keys.
+
+vamilliron@othello.ucd.edu
+-my apologies if I rambled, but vi inhibits my communication skills greatly.

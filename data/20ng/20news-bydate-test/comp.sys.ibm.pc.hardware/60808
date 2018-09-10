@@ -1,0 +1,21 @@
+From: tdbear@dvorak.amd.com (Tom Barrett)
+Subject: Re: The "P24T"
+Organization: Advanced Micro Devices, Inc.; Austin, Texas
+Lines: 16
+
+In article <1r29td$17r@usenet.INS.CWRU.Edu> rrn@po.CWRU.Edu (Robert R. Novitskey) writes:
+>    Has anyone out there heard of any performance stats on the fabled p24t.
+> I was wondering what it's performance compared to the 486/66 and/or
+>pentium would be.  Any info would be helpful.
+
+An advertisement in MicroTimes (a bay area mini-Computer Shopper) from
+ENCY systems in Fremont has a graphic for the P24T performance based
+on MIPS (power meter v1.7):  the 486DX-33 raked in about 14-15, the 
+486DX2-66 got about 24, and the P24T-66 got about 44-45.
+
+Tom
+-- 
+|Tom Barrett (TDBear), Sr. Engineer|tom.barrett@amd.com|v:512-462-6856 |
+|AMD PCD MS-520 | 5900 E. Ben White|Austin, TX  78741  |f:512-462-5155 |
+|...don't take no/take hold/don't leave it to chance ---Tasmin Archer  |
+|My views are my own and may not be the same as the company of origin  |

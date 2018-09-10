@@ -1,0 +1,33 @@
+From: ashok@biochemistry.cwru.edu (Ashok Aiyar)
+Subject: Re: Telnet Terminal for Windows ???
+Organization: CWRU School of Medicine
+Lines: 26
+NNTP-Posting-Host: axa12-slip.dialin.cwru.edu
+Keywords: TCP IP telnet FTP
+
+In article <1993Apr30.211839.21296@leland.Stanford.EDU> kocks@chemistry.Stanford.EDU (Peter Kocks) writes:
+
+>I'm looking for a good terminal program that will connect to
+>TCP/IP using windows. Some basic MS-Window that is connect to
+>a unix host would be great.
+
+>Any suggestions?
+
+Take a look at WinQVT/net -- the latest version is QVT/net 3.4
+It comes in versions that are direct to packet driver, as well as a PC NFS 
+version.
+
+It is priced quite low; registration = $40, student registration = $20, and is 
+a nice package -- comes complete with VT220 terminal emulation, FTP, POP3 
+client, LPR, and NNTP client.
+
+You can FTP it from "biochemistry.bioc.cwru.edu" /pub/qvtnet/qvtnet34.zip
+
+It was also uploaded to ftp.cica.indiana.edu recently.
+
+Ashok
+
+--
+Ashok Aiyar                        Mail: ashok@biochemistry.cwru.edu
+Department of Biochemistry                       Tel: (216) 368-3300
+CWRU School of Medicine, Cleveland, Ohio         Fax: (216) 368-4544

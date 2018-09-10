@@ -1,0 +1,36 @@
+From: oueichek@imag.fr (Ibaa Oueichek)
+Subject: Re: Help identifying this card
+Nntp-Posting-Host: gram2
+Organization: IMAG Institute, University of Grenoble, France
+X-Newsreader: Tin 1.1 PL5
+Lines: 29
+
+Chad Jones (cjones@physci.ucla.edu) wrote:
+: In article <C5xpzK.F46@imag.fr> Ibaa Oueichek, oueichek@imag.fr writes:
+: >	I have an Ethernet card that i took out off an old LC. The card
+: >	is manufactured by Asante. On it i can read:
+: >	"Asante Tech, inc. Copyright 1991. MACCON + LC REV.B".
+: >	The card has an fpu socket on it. It provides thin Ethernet connector
+: >	and there's another connector on it which resembels to phone connectors.
+: >
+: >	My questions are:
+: >	- Will this card work on any other model than LC-serie ?, given that
+: >	it's a PDS card, will it work with the IIsi PDS slot ?. I think there
+: >	may be a probleme because the LC has 16 bit wide slots.
+: It probably won't work with any other LC.  The ones I have for the LC II
+: are Rev. D.  No, it won't work in the IIsi's PDS slot since it's a 68030
+: PDS, while the LC has the 68020 PDS.  The IIsi and SE/30 share the same
+: kind of card.
+
+  Ok, i see. Does Asante propose any upgrade for their cards ?. Do they have
+  an email adress so i can ask them directly ?. Their Phone number will be
+  Ok, even if i pay the overseas call i'm really willing to know what to do
+  with this card.
+
+--
+Sham(u) ya tha (s)seif(u) lam yaghib(i) | Ibaa Oueichek. oueichek@imag.imag.fr
+    Ya jamal(al) majd(i) fi(l) kutub(i) |Lab de Genie Informatique (LGI). 
+Kablak(i) (t)tareekh(u) fi thulmaten    |IMAG, INPG. 
+    Baadak(i) staula ala (sh)shuhub(i)  |46, Av. Felix Viallet, Grenoble. 
+					
+

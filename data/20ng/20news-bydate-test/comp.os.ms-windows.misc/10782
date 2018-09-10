@@ -1,0 +1,35 @@
+From: ccastco@prism.gatech.EDU (Costas Malamas)
+Subject: Re: Windows 3.1 vs. Communication Proagrams
+Distribution: usa
+Organization: Georgia Institute of Technology
+Lines: 29
+
+In article <10377@lee.SEAS.UCLA.EDU> victorf@wright.seas.ucla.edu (Victor Friedman) writes:
+ >Can anybody tell me what exactly Windows 3.1 does to the COM ports???
+ >Why can't I run a single communication program under Windows? I have ProComm+,
+ >QuickLink, {COMMO} - neither of them respond to modem commands after the
+ >connection has finally been established, although I'm still able to manage
+ >								Vick.
+ >							(victorf@seas.ucla.edu)
+	This is one of the trickiest problems w/ Win 3.1 ... Personally I run
+Telix 3.2 for DOS under Windows just fine (and 've been waiting for the Win
+version froever... :) ), but I have to admit I am the exception to the rule:
+I have tried installing various DOS comm progs on friends' machines, most of
+them w/ big problems... Some of the stuff you have to lookout for: 
+1) ALWAYS run the prog thru a .PIF, never by calling its .exe, 2) In the .PIF
+_always_ toggle on _lock_application_memory_ --actually this is something
+MS points out in the readme.wri file, and is especially critical for downloading
+3) Go under Ctrl Panel/386 enh and check for _all_ your COM ports 'Alway Warn'
+--it will help u w. debugging this thing and it's 'healthier' 4) Check where
+are u running the mouse from - com port - 5) check the com port addresses from
+your BIOS setup and from Ctrl Panel/Ports/(Setup?)/Advanced..
+These might help u... If yu still have problems, get $100 and buy Procomm+Win..,
+:) Hope it helps somehow...
+
+
+
+-- 
+Costas Malamas ____________________________________________________________
+Georgia Institute of Technology 
+OIT UA -- OIT doesn't pay me enough to share their opinions... 
+Internet: ccastco@prism.gatech.edu

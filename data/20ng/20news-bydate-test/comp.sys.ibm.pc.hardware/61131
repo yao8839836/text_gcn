@@ -1,0 +1,15 @@
+From: gkoh@athena.mit.edu (Glenn Koh)
+Subject: Re: Gateway Monitor Problem--Again! Help
+Organization: Massachusetts Institute of Technology
+Lines: 9
+NNTP-Posting-Host: w20-575-129.mit.edu
+
+
+I'm afriad that's not true.  The monitor problem seems to occur whenever
+the 15" Mag monitor is put into 1024x768 mode.  I'm running OS/2 at 1024 and
+the same symptoms appear.
+
+It does not seem like a video card problem as the Cirrus Logic 5426 chip and
+the ATI GUP seem to cause these problems... two VERY  different cards.
+
+						Glenn

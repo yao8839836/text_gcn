@@ -1,0 +1,7 @@
+Cardiovascular disease risk profiles.
+ This article presents prediction equations for several cardiovascular disease endpoints, which are based on measurements of several known risk factors.
+ Subjects (n = 5573) were original and offspring subjects in the Framingham Heart Study, aged 30 to 74 years, and initially free of cardiovascular disease.
+ Equations to predict risk for the following were developed: myocardial infarction, coronary heart disease (CHD), death from CHD, stroke, cardiovascular disease, and death from cardiovascular disease.
+ The equations demonstrated the potential importance of controlling multiple risk factors (blood pressure, total cholesterol, high-density lipoprotein cholesterol, smoking, glucose intolerance, and left ventricular hypertrophy) as opposed to focusing on one single risk factor.
+ The parametric model used was seen to have several advantages over existing standard regression models.
+ Unlike logistic regression, it can provide predictions for different lengths of time, and probabilities can be expressed in a more straightforward way than the Cox proportional hazards model.

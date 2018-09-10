@@ -1,0 +1,28 @@
+From: ngai@nova.bellcore.com (John Ngai)
+Subject: Questions on installing PAS16 in GW2K DX2-66V
+Nntp-Posting-Host: nova.bellcore.com
+Reply-To: ngai@apostle.bellcore.com
+Organization: Bellcore
+Lines: 21
+
+I went out and bought the PAS16 yesterday, and installed it into my Gateway
+DX2-66V. I followed the instructions and set the SB side with DMA 1 and IRQ5
+(the default) and then the PAS side with DMA 5 and IRQ 10. My question is how
+should I configure for MPU-401 compatibility. The manual and installation
+program recommended IRQ2, but on my machine it is configured to [cascade] to
+IRQ8-15. So can I still use IRQ2, or should I choose a different one? Right now
+I have the MPU-401 emulation mode turned off. Actually what is this "cascade to
+IRQ8-15" business?  
+
+A related questions (to other GW or VL-bus machine owners) I was told that 
+only DMA 5, 6, 7 are 16 bit DMAs, and 0-4 are 8 bit DMAs. Now what about
+32-bit VL-bus mastering DMAs?? Which DMA channel(s) is used by the VL-bus
+extension to do 32-bit DMA?
+
+Yet another question, after installing PAS16, my Links (golf game) will hang
+the machine when I select SB mode and run, but works with Adlib mode??
+Civilization however works fine ( at least so far). Any body knows what I might
+have done wrong? 
+
+Thanks (I am obviously a newbie) -- John
+

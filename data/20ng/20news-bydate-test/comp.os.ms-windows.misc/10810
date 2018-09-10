@@ -1,0 +1,20 @@
+From: miyamoto@ucsee.Berkeley.EDU (Carleton A. Y. Miyamoto)
+Subject: Re: MAC DISKS IN WINDOWS?
+Organization: University of California, Berkeley
+Lines: 14
+NNTP-Posting-Host: ucsee.berkeley.edu
+
+In article <1t6efv$1pj@binkley.cs.mcgill.ca> gel@binkley.cs.mcgill.ca (Gilles KHOUZAM) writes:
+>>Macsee.zip on ftp.cica.indiana.edu is supposed to read and write Mac disks.  
+>>I've never tried it, though.  Good luck
+>
+>I just tried it, but I can't say that it works, 'cause it doesn't read 800K
+>disks, it only reads 1.44Mb. If there a program that does read 800K disks,
+>please let me know.
+
+I'm not sure that this is possible due to the way the Mac writes the 800k
+disk.  I think the way the sectors are set up are different enough that a
+PC 3.5" can't read it.  This is a hardware problem which software cannot
+correct.  Hope this helps and correct me if I'm wrong.
+
+

@@ -1,0 +1,36 @@
+From: mppa3@syma.sussex.ac.uk (Alan Richardson)
+Subject: xvertext version 5.0 released
+Organization: University of Sussex
+Lines: 31
+
+Now available: xvertext 5.0 
+---------------------------
+
+Another day, another xvertext release...
+
+Summary                                  
+-------
+xvertext provides you with several functions to draw strings at any angle in   
+an X window (previous versions were limited to vertical text). 
+
+What's new since 4.0?
+---------------------
+o Existing bitmap fonts can be magnified to give reasonable fonts at large
+  sizes.
+o Bounding boxes can be obtained.
+o The GC's stipple bitmap is honoured.
+o Font IDs can be cached when font names are unavailable.
+o An Imakefile is present.
+o The demos are better (including a ransom note like the 
+  comp.sources.postscript one)
+
+Where can I get it? 
+-------------------
+comp.sources.x (soon...)
+export.lcs.mit.edu : contrib/xvertext.5.0.shar.Z  (now)
+
+-- 
+Alan Richardson,                             * "You don't have to be *
+School of Maths & Physical Sciences,         *  old to be wise"      *
+Univ. of Sussex, Brighton BN1 9QH, ENGLAND   * ******Judas Priest*****
+UK: mppa3@uk.ac.sussex.syma         elsewhere: mppa3@syma.sussex.ac.uk

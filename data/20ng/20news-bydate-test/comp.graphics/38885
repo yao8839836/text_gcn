@@ -1,0 +1,35 @@
+From: 9130037@golum.riv.csu.edu.au (CHAN Yin Mei)
+Subject: help! colour display restriction/limitation
+Originator: 9130037@golum.riv.csu.edu.au
+Organization: Charles Sturt University - Riverina, Wagga Wagga, NSW, Australia
+Lines: 29
+
+hi netters,
+
+	I'm doing a project which is about image analysis.  Firstly, I
+have to find out any restrictions or limitations on the colour display
+on various kind of workstations, they are DECstation, HP, Amiga, Apollo.
+
+	Secondly, I read from some graphic texts that image is displayed
+in 24 bites(please point out to me if I got it wrong).  But, the images
+which I will deal with are displayed in 16 bites by the software they
+are using currently.  So, will there be any problems to display them
+under X-windows in the future? Because we are thinking to implement the
+GUI by X-windows for our project
+
+
+	Is there any person here can help me to solve the problem or
+query above?  Or, give me some advice or suggestion where I can find
+them out. 
+
+	Please send me an e-mail if there are any.  Thanks in advance.
+
+
+
+						Yours
+			
+						Christine Chan
+
+
+my address : 9130037@golum.riv.csu.edu.au
+						

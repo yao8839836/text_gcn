@@ -1,0 +1,25 @@
+From: tkelso@afit.af.mil (TS Kelso)
+Subject: Two-Line Orbital Element Set:  Space Shuttle
+Keywords: Space Shuttle, Orbital Elements, Keplerian
+Organization: Air Force Institute of Technology
+Lines: 18
+Nntp-Posting-Host: scgraph.afit.af.mil
+
+The most current orbital elements from the NORAD two-line element sets are
+carried on the Celestial BBS, (513) 427-0674, and are updated daily (when
+possible).  Documentation and tracking software are also available on this
+system.  As a service to the satellite user community, the most current
+elements for the current shuttle mission are provided below.  The Celestial
+BBS may be accessed 24 hours/day at 300, 1200, 2400, 4800, or 9600 bps using
+8 data bits, 1 stop bit, no parity.
+
+Element sets (also updated daily), shuttle elements, and some documentation
+and software are also available via anonymous ftp from archive.afit.af.mil
+(129.92.1.66) in the directory pub/space.
+
+STS 55     
+1 22640U 93 27  A 93119.24999999  .00041555  00000-0  12437-3 0    90
+2 22640  28.4657 249.3697 0008512 260.9747 152.1416 15.90732913   425
+-- 
+Dr TS Kelso                           Assistant Professor of Space Operations
+tkelso@afit.af.mil                    Air Force Institute of Technology

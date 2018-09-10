@@ -1,0 +1,53 @@
+From: roy@mchip00.med.nyu.edu (Roy Smith)
+Subject: Re: Why does Illustrator AutoTrace so poorly?
+Organization: New York University, School of Medicine
+Lines: 47
+NNTP-Posting-Host: mchip00.med.nyu.edu
+
+mac@utkvx.bitnet (Richard J. McDougald) writes:
+> Since there's no (not really) such thing as a decent raster to vector
+> conversion program, this "tracing" technique is about it.  Simple stuff,
+> like b&w logos, etc. do pretty well, while more complicated stuff goes
+> haywire.
+
+	The first and only thing I've ever tried to auto-trace was a piece
+of a USCG nautical chart using Adobe Illustrator 3.2.  I wanted to get the
+outline of the coast for Western Long Island Sound.  I was simultaneously
+suprised at how good a job it did and disappointed at how poorly it did.  I
+suspect what I gave it was a very difficult thing; not only is the coastline
+very irregular, but overlaid on the chart are numerous sets of gridlines
+(not only lattitude and longitude, but loran grids as well).  The most
+common mistake it make was whenever the coastline was roughly parallel and
+tangent to a grid line, it would take off following the gridline instead of
+the coast.  I think the best improvement would be some sort of interactive
+algorithm that would let you step in and say "no, dummy, you're going the
+wrong way".
+
+	Steve Reisberg, a friend of mine a few years back(*), did his
+doctoral work analysing electron micrographs of filimentous phage (virii).
+A good chunk of the work was writing a program to take a digitized
+micrograph and automatically trace the centerline of the virus particles.
+This is essentially the same problem that Illustrator tries to solve with
+its auto-trace tool.
+
+	In some respects the problem Steve worked on was harder, since he
+was trying to do quantitative analysis of the virus structure and finding a
+good centerline was only the first step, but a step on which all future
+analysis depended.  However, in other respects, it was an easier problem
+since the program could be written with a lot of knowledge about what the
+virus particles were supposed to look like, and the analysis could be
+restricted to those particles which happend to be relatively straight,
+clean, and well imaged; you don't always have that freedom auto-tracing real
+life images.  In any case, it gave me some insight into just how difficult
+this problem is to solve in the general case.
+
+	(*) Steve is no longer with us.  He and his wife disappeared while
+on vacation in Hawaii a couple of years after they graduated.  Their last
+known location was hiking in a densely wooded in a mountainous area.  While no
+bodies were ever found, they are presumed to have been the victim of some
+sort of fall or accident in the woods.
+-- 
+Roy Smith <roy@nyu.edu>
+Hippocrates Project, Department of Microbiology, Coles 202
+NYU School of Medicine, 550 First Avenue, New York, NY 10016
+"This never happened to Bart Simpson."

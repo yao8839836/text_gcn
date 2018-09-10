@@ -1,0 +1,8 @@
+The estimation of post-test probability of coronary disease following exercise testing using the sequential application of two Bayesian methods.
+ Recent studies have revealed that Bayesian methods to estimate post-test probability following exercise testing differ in their sensitivity and specificity across the range of post-test probability.
+ To take advantage of the relative strengths of each method, we combined two of these methods into a single method (DUAL BAYES) and compared it with the two original methods in 436 patients who underwent stress testing followed within 2 months by coronary arteriography.
+ All patients had post-test probabilities determined using CADENZA (better sensitivity).
+ Those CADENZA-derived probabilities greater than or equal to 50% were substituted with post-test probabilities determined by Diamond and Forrester's original TABULAR method (better specificity).
+ Mean post-test probabilities were as follows: TABULAR 34, CADENZA 48, DUAL BAYES 37 (actual incidence 38%).
+ Comparison of sensitivity and specificity at every fifth percentile of post-test probability revealed that the sensitivity of DUAL BAYES was better than that of TABULAR and equal to that of CADENZA at thresholds less than or equal to 10 and that the specificity was better than that of CADENZA and equal to that of TABULAR at thresholds greater than or equal to 60.
+ Therefore using both methods as indicated above was better than using either method alone.

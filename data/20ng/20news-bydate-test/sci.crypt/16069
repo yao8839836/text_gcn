@@ -1,0 +1,39 @@
+From: anton@hydra.unm.edu (Stanton McCandlish)
+Subject: Re: PGP Where to get it?
+Organization: University of New Mexico, Albuquerque
+Lines: 33
+NNTP-Posting-Host: hydra.unm.edu
+
+>At the moment PGP is available in executable format for MS-DOS and Mac,
+>and source code for most other platforms including UNIX. Many FTP sites
+>keep a copy (although the Mac version is getting hard to find). Try the
+>following site:
+>
+>soda.berkeley.edu           /pub/cypherpunks/pgp
+
+For those with out FTP access, try NitV-BBS (see .sig).  I have the following:
+(all from nic.funet.fi, garbo.uwasa.fi, sony.com, and ftp.uni-erlangen.de)
+
+PLATFORM    EXECS   SOURCE   PATCH4SRC   XTRAS  BBS FILE AREA    FIDO FREQNAME
+
+DOS           x       x                    x      LOGIN         PGPDOS, PGPSDOS
+MAC           x       x                           NONIBM        PGPMAC, PGPSMAC
+AMIGA         x       ?                           NONIBM        PGPAMI
+ARCHIMEDES    x       ?                           NONIBM        PGPARC
+OS/2          x       ?                           WIN           PGPOS2
+NeXT                            x                 NONIBM        PGPNXT
+UNIX          x       x                           NONIBM        PGPUNX
+
+? = haven't looked in the archive to see if it has source or not (usually 
+because I can't handle the format).  For FidoNet FREQ magic-names, the
+PGPS??? names are source code, others are either execs or execs + src 
+[+ extras], or in the case of NeXT, just a patch (you still need one of
+the full source code packages).
+
+NitV-BBS is FREE.  This is not an ad, it is a public service announcement.
+
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)

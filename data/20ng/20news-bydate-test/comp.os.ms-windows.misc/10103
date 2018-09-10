@@ -1,0 +1,15 @@
+From: charlea@eng.clemson.edu (charles allen)
+Subject: Re: Why I'm not using Dos 6 anymore
+Organization: Clemson University
+Lines: 10
+
+Regarding the horror stories about DOS6/DOUBLEDISK and STACKER 2.?
+killing hard drives:
+
+I was wondering if the dos 6 MIRROR command works on the doubled
+drive info as well as the normal fat table and partition table.
+If it records the vital DoubleDisk info, then using it daily
+should go a long way toward protecting yourself against the
+type of catastrophic failure discussed.  If it doesn't, then
+shame on Microsoft.
+

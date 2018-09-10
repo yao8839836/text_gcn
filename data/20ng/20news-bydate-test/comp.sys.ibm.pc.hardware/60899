@@ -1,0 +1,67 @@
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Subject: Re: Upgrading the processor on 386/486 machines
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 61
+NNTP-Posting-Host: slc10.ins.cwru.edu
+
+
+Boy am I glad that I didn't start out with one of thos PS/2 computers.
+I started the upgrade operation out by spending $235 for a AMD386DXL-40
+Forex upgradable mother board from Midwest Micro. When it was time to
+upgrade I bought a Intel 486DX2-50 cpu for $350 and was finished.
+I still don't see why they ever made the 486\50 cpu at all. Its to
+fast for both ISA and LB and VESA boards.. 
+
+Some test results taken on my mb and 486DX2-50 cpu and some others...
+
+------------------------------------------------------------------------------
+X-TAL UPGRADES & SPECS - TURBO MODE TESTS - WITH FAN & HEATSINK KIT - ISA BUS
+
+X-TAL MHZ                    CPU MHZ   CPU SPEED MHZ    FPO MHZ   VIDEO CHR/MS
+
+40.00 -386AND /3=13.33MHZ     40.544     62.37            ---       6510.00
+40.00 -386AMD /4=10.00MHZ     40.544     62.37            ---       6467.00 *
+
+50.000-486DX2-50 /2=12.5MHZ   50.041     167.22          441.53     6105.00
+52.361-486DX2-50 /2=13.1MHZ   52.703     176.03          464.81     6425.00 *
+54.058-486DX2-50 /2=13.5MHZ   54.120     180.81          477.40     6642.00
+56.644-486DX2-50 /3=9.37MHZ   56.220     189.46          500.25     4593.00
+66.666-486DX2-50 /3=11.1MHZ   66.759     222.99          588.81     5401.00
+
+WITH ALL TESTS THE 486DX2-50 RAN ICE COLD! NOT EVEN UP TO ROOM TEMP DID IT GO!
+------------------------------------------------------------------------------
+50.000-486DX50   /?           49.998     167.12          408.89     2463.00
+??.???-486DX2-66 /?           84.234     224.00          372.00    10570.00
+------------------------------------------------------------------------------
+CPU/ISA BUS        X-TAL MHZ      BUS SPEED/MHZ       SPEEDSTAR 24X VIDEO CARD
+
+AMD386DXL-40       40.000         /2 = 20.00 MHZ      INOPERATIVE
+AMD386DXL-40       40.000         /3 = 13.33 MHZ      6510.00 CHR/MS
+AMD386DXL-40       40.000         /4 = 10.00 MHZ      6467.00 CHR/MS
+AMD386DXL-40       40.000         /5 =  8.00 MHZ      4020.00 CHR/MS
+AMD386DXL-40       40.000         /6 =  6.66 MHZ      NOT TESTED
+------------------------------------------------------------------------------
+486DX2-50          50.000         /2 = 12.51 MHZ      6105.00 CHR/MS
+486DX2-50          50.000         /3 =  8.34 MHZ      NOT TESTED
+486DX2-50          50.000         /4 =  6.25 MHZ      NOT TESTED
+486DX2-50          50.000         /5 =  5.00 MHZ      NOT TESTED
+486DX2-50          50.000         /6 =  4.16 MHZ      NOT TESTED
+-----------------------------------------------------------------------------
+486DX2-50          56.64          /2 = 14.16 MHZ      6826.00 CHR/MS
+486DX2-50          56.64          /3 =  9.44 MHZ      4593.00 CHR/MS
+486DX2-50          56.64          /4 =  7.08 MHZ      NOT TESTED
+486DX2-50          56.64          /5 =  5.66 MHZ      NOT TESTED
+486DX2-50          56.64          /6 =  4.72 MHZ      NOT TESTED
+----------------------------------------------------------------------------
+486DX2-50          66.66          /2 = 16.67 MHZ      NOT TESTED
+486DX2-50          66.66          /3 = 11.11 MHZ      5401.00 CHR/MS
+486DX2-50          66.66          /4 =  8.33 MHZ      NOT TESTED
+486DX2-50          66.66          /5 =  6.67 MHZ      NOT TESTED
+486DX2-50          66.66          /6 =  5.56 MHZ      NOT TESTED
+----------------------------------------------------------------------------
+486DX2-50          54.12          /2 = 13.53 MHZ      6642.00 CHR/MS
+486DX2-50          52.36          /2 = 13.17 MHZ      6425.00 CHR/MS
+ 
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...

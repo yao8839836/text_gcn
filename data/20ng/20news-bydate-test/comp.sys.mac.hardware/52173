@@ -1,0 +1,34 @@
+From: douce@tfsquad.mn.org (Andrew Geweke)
+Subject: Re: LC II Slowdowns?
+Organization: tfsquad public access usenet, St Paul MN (+1 612 291 2632)
+Lines: 29
+
+drg@biomath.mda.uth.tmc.edu (David Gutierrez) writes:
+
+> In article <L3sB3B4w165w@tfsquad.mn.org> douce@tfsquad.mn.org (Andrew
+> Geweke) writes:
+> >        I am currently managing, among many other labs, a lab with three 
+> >LC IIs, a Mac Plus with 45 MB external HD, and a LaserWriter II NTX. My 
+> >problem? The LC IIs seem to intermittently slow to a snail's pace.
+> 
+> 
+> This happens intermittently to Macs in our department, ranging from IIsi's
+> to a Quadra 950.
+> 
+> I can end the slowdown immediately by unplugging the Ethernet cable from
+> the Mac. It seems that something on the network puts out these packet
+> storms every few days. These storms have the effect of making our Macs
+> slow down to a crawl.
+
+        Thank you very much. These computers behave exactly like what 
+you're describing. Now, my question. I am running on the lowest of all 
+budgets, public education. How can I analyze this? All I need is some 
+sort of packet counter. Do any exist, and where are they?
+        Thanks again,
+
+                                -- Andrew Geweke
+
+---
+douce@tfsquad.mn.org (Andrew Geweke)
+The Firing Squad BBS, public access Usenet mail and news.  +1 612 291 2632
+Saint Paul, Minnesota

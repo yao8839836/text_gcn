@@ -1,0 +1,27 @@
+From: zhang@gmsds.ms.ornl.gov (Xiaoguang Zhang)
+Subject: Need spec of miniscribe hard drive
+Reply-To: zhang@gmsds.ms.ornl.gov (Xiaoguang Zhang)
+Organization: Oak Ridge National Laboratory
+Lines: 21
+
+I need info regarding a miniscribe 3.5" half-height drive. There is a
+sticker on it with the following,
+    MODEL   HDA    PCBA   UNIQUE   TDA
+    8425F   09AA   03AB   03AA     -
+But the sticker on the biggest chip on the MFM interface has this,
+    MODEL   PCBA   TDA
+     FXX    03AB
+
+What is the spec of the drive (# of cyl, heads, etc)?
+How fast is this drive? Can I use it as a RLL drive? 
+I also have a SCSI interface that seems to match all the connectors
+for this drive. It has this description,
+    MODEL   PCBA   E-P   TDA
+     AXX    01A    29A
+Can I replace the MFM interface by the SCSI interface and use the drive
+as a SCSI drive? What would the drive size be? There is a set of jumpers
+on the SCSI interface with "6SEL" besides it. What is the use of it?
+
+Could someone also send me specs for Seagate ST4096 (5" full-height) drive?
+My e-mail is zhang@whbws.ms.ornl.gov
+Thanks

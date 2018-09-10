@@ -1,0 +1,25 @@
+From: rlr@panix.com (Richard L. Rosen)
+Subject: System 6.0.7 on a Macintosh IIfx cannot run Multifinder (beeps)
+Summary: machine beeps continuously with Multfinder running on 6.0.7 IIfx
+Keywords: repeated beeping, 6.0.7, IIfx, MultiFinder
+Reply-To: smh@vaxf.acdnj.itt.com
+Organization: RLRCLC
+Lines: 17
+
+My friend has a Macintosh IIfx on which he is running System 6.0.7 (not enough
+memory yet to run Sys7 adequately), and he noticed that when he tries to use
+Multifinder on this machine, the machine will beep every few seconds
+incessantly, nonstop.
+
+Now, this friend has a tendency to "install" things on his machine rather
+haphazardly, but he *did* rebuild his System from scratch and it still occurs. 
+Does this problem sound familiar at all to anyone?  For all I know the problem
+is caused by something really obscure but if this is a known simple thing
+(yeah, right...) that someone is familiar with (like "System 6.0.7 Multifinder
+doesn't run on a Mac IIfx"), or if someone here knows what he should be looking
+for, please send e-mail either to me or to him (smh@vaxf.acdnj.itt.com).
+Thanx in advance.
+-- 
+"Digging in the dirt, stay with me I need support		
+ Digging in the dirt, find the places I got hurt		Rich Rosen
+ Open up the places I got hurt..."				rlr@panix.com

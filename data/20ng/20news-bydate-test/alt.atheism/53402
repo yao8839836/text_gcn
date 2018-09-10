@@ -1,0 +1,36 @@
+From: mccullou@snake2.cs.wisc.edu (Mark McCullough)
+Subject: Re: Amusing atheists and anarchists
+Organization: University of Wisconsin, Madison -- Computer Sciences Dept.
+Lines: 31
+
+In article <timmbake.735294667@mcl> timmbake@mcl.ucsb.edu (Bake Timmons) writes:
+>mccullou@whipple.cs.wisc.edu writes:
+>
+>>The line about atheists haveing something up their sleeves is what seemed
+>>to imply that.  Sorry, been reading too much on the CLIPPER project lately,
+>>and the paranoia over there may have seeped in some.
+>
+>;)  What is the CLIPPER project BTW?
+
+The CLIPPER initiative is an announcement by Clinton that all the 
+"secure" voice phones will use the same crypto chip, as a de-facto
+government standard.  Problem is, the government is admitting that
+they hold the keys to break the code easily, and the Justice department
+will be using the keys to listen in on "illegal activities."  Many
+people are really scared about such an initiative because it is
+a major step towards outlawing real crypto protection on things
+like email if you read the press release.  The project was developed
+by NSA and given to NIST.  It uses two keys S1 and S2 that the
+government claims are needed to break the code.  They claim that
+these keys will be handed to two different companies, and when they
+get a warrant to do a wiretap (the chip is nicknamed the wiretap chip),
+they have to get the keys from both companies.  People have poked holes
+through and through the press release official version and shown how
+it is nowhere near as nice as it sounds, and I have given the simplified
+version.  People over on sci.crypt are really scared about this
+proposal it seems.
+-- 
+***************************************************************************
+* mccullou@whipple.cs.wisc.edu * Never program and drink beer at the same *
+* M^2                          *  time.  It doesn't work.                 *
+***************************************************************************

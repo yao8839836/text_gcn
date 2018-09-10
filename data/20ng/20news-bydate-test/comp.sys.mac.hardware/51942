@@ -1,0 +1,34 @@
+From: faceman@ccwf.cc.utexas.edu (Faisal M. Bhamani)
+Subject: Powerbook Serial Ports
+Organization: The University of Texas at Austin, Austin TX
+Lines: 25
+Distribution: world
+Reply-To: faceman@ccwf.cc.utexas.edu (Faisal M. Bhamani)
+NNTP-Posting-Host: flubber.cc.utexas.edu
+Originator: faceman@flubber.cc.utexas.edu
+
+Hello. I have a question (or two) about the serial ports for the
+powerbooks (specifically the 145 with system 7.0.1). Is there a
+difference between the serial ports on the powerbooks versus
+any other mac, say plus or ii?? I have heard, though not confirmed
+by apple that the serial ports have problems at high speeds.
+
+I also heard that sys 7.1's new power manager 'fixes' this problem
+allowing speeds just as any other serial port.
+
+My particular use is that I have a 6811 EVB board that I need to
+interface with my powerbook via the modem port at 9600 baud. 
+Currently, we are interfacing using mac pluses.  I set everything
+up just as in lab and nothing.  In fact, the powerbook locks up.
+
+Can anyone help, inform, advise? I would appreciate it.  
+I would prefer email since I don't read the news at all.
+I will post a summary if enough response is generated.
+
+Thanks. 
+
+Faisal M. Bhamani
+faceman@ccwf.cc.utexas.edu
+
+ps. If this topic has been discussed already, please excuse me and
+direct me to the appropriate places. thanks.

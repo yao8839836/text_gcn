@@ -1,0 +1,172 @@
+From: hanson@kronos.arc.nasa.gov (Robin Hanson)
+Subject: Estimating Wiretap Costs/Benefits
+Nntp-Posting-Host: jabberwock.arc.nasa.gov
+Organization: NASA/ARC Information Sciences Division
+Lines: 166
+
+              WOULD WIRETAP CHIP BE COST-EFFECTIVE?
+
+                        by Robin Hanson
+                     Draft, April 21, 1993
+
+  SUMMARY: Compared to an average monthly phone bill of sixty dollars,
+  wiretaps are only worth two cents a month to police.  So the
+  proposed wiretap chip must raise phone costs by less than one part 
+  in three thousand to be cost-effective. 
+
+BACKGROUND
+
+Until now, phones have happened to allow the existence of "wiretaps",
+detectors which could pick up conversations on a phone line.  And over
+time, law enforcement agencies have come to rely on this capability to
+aid in criminal investigations.  However, powerful new encryption
+technologies threaten this status quo, by making possible truly
+private communication.  A small chip in each phone could soon make it
+literally impossible to overhear a conversation without physical
+microphones at either end.
+
+In order to preserve the ability of law enforcement agencies to tap
+phone conversations, the U.S. government announced on April 16, 1993
+that it had developed and begun manufacturing a special "wiretap" chip
+to be placed in future phones, instead of the total privacy chips
+which have been under private development.  The same day, AT&T
+announced it would use these chips "in all its secure telephone
+products".
+
+Each chip would be created under government supervision, when it would
+be given a fixed indentifier and encryption key.  Periodically during
+each conversation, the chip would broadcast its identifier and other
+info in a special "law enforcement block".  Law enforcement officers
+with a court order could then obtain the key corresponding to the
+indentifier from special trust agencies, and could thereby listen in
+on any future or previously recorded conversations on that phone.
+
+To date, most concerns voiced about this plan have been about its
+security.  The government won't disclose the encryption algorithm, and
+many suspect the government will not limit its access in the way it
+has claimed.  The track record of previous governments does not
+inspire confidence on this point [1].
+
+However, this paper will neglect these concerns, and ask instead
+whether this new wiretap chip is a cost-effective tool for police
+investigation.  That is, which is a cheaper way for society to
+investigate crime: force phone communications to support wiretaps, or
+give police agencies more money to investigate crimes in other ways?
+Or to put it another way, would police agencies be willing to pay for
+each wiretap, if they had to pay their share of the full social cost
+of forcing phones to support wiretaps?
+
+To start to answer this question, we might compare the current
+benefits wiretaps provide to law enforcement agencies with projected
+costs of implementing the new wiretap chip plan.  And since current
+benefits are easier to estimate, we begin there.
+
+WIRETAP BENEFITS
+
+1990 is the latest year for which wiretap statistics are available
+[2].  In that year, 872 wiretap installations were requested, and no
+requests were denied.  (This figure does not include wiretaps obtained
+with the consent of a party to the conversation.)  2057 arrests
+resulted from wiretaps started the same year, 1486 arrests came from
+wiretaps in previous years, and 55% of arrests led to convictions.
+76% of the wiretaps were for phones (vs pagers, email, etc.), 60% were
+regarding drug offenses, and 40% were requested by federal
+authorities.  Each wiretap installation heard an average of 1487
+calls, 22% of them incriminating, among 131 people, and cost an
+average of $45,125 (extrapolating from the 794 installations
+reporting costs), mostly for labor.
+
+Thus a total of about $40 Million was spent on wiretaps, to obtain
+about 4000 arrests, at $10,000 per arrest.  Thus these arrests are at
+least four times more expensive than the $2500 per arrest figure one
+gets by dividing the $28 Billion spent by all police nationally by the
+total 11 Million non-traffic arrests [3].  Thus the $30 Million per
+year spent on phone taps is only one thousanth of the total police
+expenditures.  And if we divide this by the 138 Million phone "access"
+lines in the country [3], we get about 23 cents spent per year per
+phone line, or about two cents a month.
+
+In general, we deter a given class of criminals through a combination
+of a perceived probability of being caught and convicted, and some
+expected punishment level if convicted.  So the social value of having
+wiretaps is no more than the amount that we would have to pay to get
+the same criminal deterrence through other means.  If unable to
+wiretap a particular suspect's phone, police might instead use hidden
+microphones, or investigate that suspect in other ways.  Or police
+might focus on suspects more easily investigated without wiretaps.  Or
+we might raise the fine or prison time for certain types of crime.
+
+If we generously assume that these substitutes for wiretaps would be
+on average twice as expensive as wiretaps, then the annual social
+benefit of phone wiretaps is about equal to the current spending level
+of two cents a month per phone line.
+
+WIRETAP COSTS
+
+Let us for the moment optimistically assume that the US government
+encryption scheme is as secure as whatever private enterprise would
+have offered instead, protecting our conversations from the spying
+ears of neighbors, corporations, and governments, both foreign and
+domestic.  Even so, the need to support wiretaps would add many
+additional costs to build and maintain our communication system.
+
+Extra law enforcement blocks would be added to phone transmissions,
+increasing traffic by some unknown percentage.  A special process must
+be used to add encryption keys to chips, while securely distributing
+these keys to special agencies, which must be funded and monitored.
+The chips themselves are designed by a military contractor, whose
+design is to remain secret, and are manufactured through a special
+process so that the chip becomes nearly impossible to take apart.
+(Chips are now offered at the relatively high price of $30 a peice in
+lots of 10,000 [4].)  Private encryption systems not supporting
+wiretaps would require none of these extra costs.
+
+Perhaps most important, government degree would at least partially
+replace private marketplace evolution of standards for how voice is to
+be represented, encrypted, and exchanged in our future phones.  It is
+widely believed that governments are less efficient than private
+enterprise in procuring products and standards, though they may perhaps
+perform a useful brokering role when we choose between competing private
+standards.  How much less efficient is a matter of debate, some say
+they pay twice as much, while others might say only 10% more.    
+
+Currently, a total of $96 Billion is spent as operating expenses of
+U.S. phone companies [3], which comes out to about $60 per month per
+access line.  If we compare this to the wiretap value of two cents per
+month, we see that if wiretaps raise average operating costs by even
+as much as one part in 3000, then wiretaps are not cost effective!
+And this doesn't even include extra costs phone owners pay because
+their encryption chips are more expensive.  Of course most phones
+wouldn't have encryption chips for a while, but the wiretap benefit
+per phone is still the same, so this argument still applies.
+
+CONCLUSION
+
+Given this dramatic difference between the total cost of running the
+phone system and the value of wiretaps, we can justify only the
+slightest modification of the phone system to accommodate wiretaps.
+When the only modification required was to allow investigators in to
+attach clips to phone wires, wiretap support may have been reasonable.
+But when we consider substantial modification, the burden of proof is
+clearly on those proposing such modification to show that the costs
+would really be less than the benefits.  
+
+If consensus cannot be obtain on this cost/benefit estimate, a
+compromise might be to tax phones which do not support wiretaps at a
+rate of say five cents per month, a tax payable to police agencies
+nationwide to compensate them for their loss of wiretap abilities.
+
+[1] The Invisible Weapon, Oxford Press, ISBN 0-19-506273-6
+
+[2] Report on Applications for Orders Authorizing or Approving the
+    Interception of Wire, Oral, or Electronic Communications, 1990,
+    Administrative Office of U.S. Courts, Washington, DC 20544.
+
+[3] U.S. Statistical Abstracts, 1992.  
+
+[4] Dorothy Denning, "The Clipper Chip: A Technical Summary",
+    distributed to sci.crypt newsgroup April 21, 1993. 
+-- 
+Robin Hanson  hanson@ptolemy.arc.nasa.gov 
+415-604-3361  MS-269-2, NASA Ames Research Center, Moffett Field, CA 94035
+510-651-7483  47164 Male Terrace, Fremont, CA  94539-7921 

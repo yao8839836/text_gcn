@@ -1,0 +1,45 @@
+From: smarks@trantor.Eng.Sun.COM (Stuart Marks)
+Subject: Re: Xt intrinsics: slow popups
+Organization: Sun Microsystems, Inc.
+Lines: 37
+Distribution: world
+Reply-To: smarks@Eng.Sun.COM
+NNTP-Posting-Host: trantor
+
+In article <1993Apr20.114824.9110@alex.com>, bryan@alex.com (Bryan Boreham) writes:
+|> 
+|> The shell is waiting for the window-manager to respond to its
+|> positioning request.  The window-manager is not responding because
+|> it thinks the window is already in the right place.
+|> 
+|> Exactly *why* the two components get into this sulk is unclear to
+|> me; all information greatly received.
+
+This problem is caused by a bad interaction between the way olwm reparents
+windows, a misfeature of the X protocol, and a bug in the Xt intrinsics.  
+
+The Intrinsics bug is that it ignores the (x,y) position given in
+ReparentNotify events.  Olwm is structured in such a way that, when a window
+is popped down, the last event the client receives is a ReparentNotify event. 
+At this point, the Intrinsics' notion of the shell's location is out of date.
+
+If a SetValues is done using the same (x,y) position, the Intrinsics thinks it
+needs to move the shell, so it issues a ConfigureWindow request to move it
+there.  However, a (mis)feature of the X protocol is that a ConfigureWindow
+request that has no effect will generate no ConfigureNotify event.  The
+Intrinsics thus waits for an event that will never arrive, and times out after
+wmTimeout has expired.  (Actually, things are somewhat more complex because
+the request is redirected to the window manager, but the net result is the
+same.)
+
+The solution is for the Intrinsics to note the (x,y) positioning information
+in ReparentNotify events.  This has been implemented and is available in X11R5
+public fix 20.  This is XBUG 5513 for those of you who are interested in
+gorier details.
+
+s'marks
+
+-- 
+Stuart W. Marks				stuart.marks@eng.sun.com
+Window Systems Technology		2550 Garcia Ave. M/S 21-228
+SunSoft, Inc.				Mountain View, CA 94043

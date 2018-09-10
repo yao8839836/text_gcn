@@ -1,0 +1,52 @@
+From: wingo%cspara.decnet@Fedex.Msfc.Nasa.Gov
+Subject: Re: HyperKnowledge
+Organization: University of Houston
+Lines: 45
+NNTP-Posting-Host: judy.uh.edu
+News-Software: VAX/VMS VNEWS 1.41
+
+In article <1993Apr28.200843.83413@embl-heidelberg.de>, tuparev@EMBL-Heidelberg.DE (Georg Tuparev) writes...
+> 
+> 
+>ANNOUNCEMENT:	The "HyperKnowledge" PROJECT for NeXTSTEP
+> 
+>Motivation
+> 
+>We are a heterogeneous group of scientists and students who feel that our  
+>work is continuously hindered by computer environments dominated by  
+>incompatible scientific tools and monstrous software packages (too often  
+>claiming to do everything).  
+
+>What we need is an object-oriented scientific environment where the tools  
+>we choose to use are integrated without being parts of a closed system,  
+>highly interactive, and extendable (both by the addition of our own  
+>specialized objects and by combining the available tools - graphically).   
+>The use of such an environment should be a natural extension of our work,  
+>requiring a very short learning phase and practically no  
+>user-documentation.  
+
+
+I know this is kinda off the subject of sci.space, but not really, I want to
+answer this for their, as well as everyone else's information.  What these
+people are proposing, by and large already exists and can be purchased today.
+
+It is called labview by National Instruments.  IT is a wonderful object
+oriented graphical programming language.  IT has been implemented on
+both Mac's PC's and VME unix boxes.  IT is fare superior to any programming
+approach that I have ever seen and allowed us to decrease the software
+development time for our shuttle payloads by 90 percent.  This program is
+not dependendant on specific hardware and already has exensive analysis 
+capability.
+
+Why re-invent the wheel on a platform that may not exist? It is a great
+idea but look out there at what is available today.  The Hydrogen leak on
+the Shuttle was found using this software. All SSME control and simulation
+studies, along with the real testing at MSFC is handled with LabVIEW.  There
+are tons of applications, with the ability to create "virtual" instruments
+that can accomplish any specific custom task the maker desires.  With the
+addition of IEEE-488 support, the computer becomes a virtual control station,
+allowing the graphic representation of remote instrumentation. With serial
+I/O support that instrument can be anywhere.  The ground control software
+for the main control of SEDSAT 1 will utilize this approach.
+
+Dennis, University of Alabama in Huntsville

@@ -1,0 +1,27 @@
+From: ttknock@SantaFe.edu (Boss Hogg)
+Subject: POV animating
+Organization: The Santa Fe Institute
+Lines: 20
+NNTP-Posting-Host: sanjuan.santafe.ede
+X-Newsreader: TIN [version 1.1 PL8]
+
+
+  In an attempt to do animation with POV I have created two little
+programs. One is a C program that will perform a "morph" between
+any two points given the amount of frames for the morph. And then
+it will write the points, and the function (translate, rotate, etc.) out
+to a file. Then I have a Perl script that will read the list of functions
+and insert them into a .pov file at a given line. I had hoped this would
+let me do simple animation. However, I have discovered that simply
+performing incremental rotations on an object will not spin a stationary
+object but will actually rotate the object about the axis. Now I know
+an easy way around this would be to first translate the object to the
+origin perform the rotation and then move it back but I know there 
+must be another way around this. I had thought perhaps it was because
+I had created objects at the origin and then translated them to a new
+point and then done the rotation, which could cause this behavior. However
+this occurs on objects that are not translated at all. Any help is 
+appreciated.
+
+ttknock@bbs.santafe.edu
+

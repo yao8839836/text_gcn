@@ -1,0 +1,64 @@
+From: spang@nbivax.nbi.dk (Karsten Spang)
+Subject: Cannot create 24 plane window
+Organization: Niels Bohr Institute and Nordita, Copenhagen
+Lines: 59
+
+    Hello X'ers
+
+I have a problem: I am not able to create a window with 24 bit planes. The
+following code illustrates the problem:
+
+#include <stdio.h>
+#include <X11/Xlib.h>
+#include <X11/Xutil.h>
+
+main()
+{
+        Display *display;
+        Window win;
+        XVisualInfo vinfo;
+        Colormap colormap;
+        XSetWindowAttributes attributes;
+        XEvent event;
+        Status status;
+
+        display=XOpenDisplay(NULL);
+        status=XMatchVisualInfo(display,DefaultScreen(display),24,TrueColor,
+                &vinfo);
+        if (!status){
+                fprintf(stderr,"Visual not found\n");
+                exit(1);
+        }
+        colormap=XCreateColormap(display,DefaultRootWindow(display),
+                vinfo.visual,AllocNone);
+
+        attributes.colormap=colormap;
+
+        win=XCreateWindow(display,DefaultRootWindow(display),0,0,100,100,
+                0,24,InputOutput,vinfo.visual,CWColormap,&attributes);
+        XMapWindow(display,win);
+        for (;;){
+                XNextEvent(display,&event);
+        }
+}
+
+I tried this with an SGI with 24 plane TrueColor server, and with an HP
+9000-700 24 plane DirectColor server (with the obviously neccessary change),
+both running X11R4. On the client side, I have tried with X11R4 Xlib on
+HP 9000-700 and DECstation, and with X11R3 Xlib on DECstation. All the
+combinations gave BadMatch error on the CreateWindow request.
+
+As far as I can tell from the manual, the only attribute which may give
+a BadMatch, is the colormap, if it belongs to a wrong visual. But the
+visual was correctly matched, as I did not get the error message. What
+am I doing wrong? For information I can tell that xwud aborts with the
+same error.
+
+                                   Karsten
+-- 
+--------------------------------------------------------------------------------
+InterNet:       krs@kampsax.dk                             Karsten Spang
+Phone:          +45 36 77 22 23                            Kampsax Data
+Fax:            +45 36 77 03 01                            P.O. Box 1142
+                                                           DK-2650 Hvidovre
+                                                           Denmark

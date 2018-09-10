@@ -1,0 +1,35 @@
+From: tgl+@cs.cmu.edu (Tom Lane)
+Subject: Re: XV 3.00 has escaped!
+Nntp-Posting-Host: g.gp.cs.cmu.edu
+Organization: Independent JPEG Group
+Lines: 29
+
+sherman@lea.csc.ncsu.edu (Chris Sherman) gripes:
+> It really bums me out that xv went shareware.
+
+xv's been shareware for about a year ... hadn't you noticed?
+I don't have a problem with this.  John Bradley has put a *hell*
+of a lot of work into xv, and if he feels that it's time to get
+some monetary reward from it, that's surely his right.
+
+> Can the author legally sell xv?  Xv uses tiff and jpeg code developed
+> by others.  Did the author get permission to sell these works?
+
+Had you bothered to consult the distribution terms of the IJG JPEG
+code (which are right there in the xv distribution), you would have
+observed that we specifically grant permission for use in shareware
+and commercial software.  Sam Leffler's libtiff copyright also grants
+permission for unrestricted use including resale.
+
+> My guess is that now nobody is going to want to help the author
+> maintain the code anymore now that xv has become a commercial product,
+
+"Commercial"?  There's a big difference between a polite request
+for a voluntary donation and commercial, it's-illegal-to-copy-this-
+and-we'll-sic-our-lawyers-on-you software.
+
+I do agree that John's readme file could be a little clearer about
+what he means by personal use.
+
+			regards, tom lane
+			organizer, Independent JPEG Group

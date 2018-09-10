@@ -1,0 +1,9 @@
+In vitro and in vivo testing of an electrocatalytic glucose sensor.
+ A prerequisite for the development of an implantable artificial pancreas is the availability of a stable, long-life glucose sensor.
+ Platinum (Pt) catalyzed electrodes have been demonstrated in vitro to show high sensitivity to glucose and long cycle life but are more sensitive to co-reactants compared with enzymatic methods.
+ The authors developed a special data processing method (compensated net charge ratio, or CNCR) in which the measured electrode response is very sensitive to glucose, completely insensitive to urea, and only moderately sensitive to amino acids.
+ Other endogenous and exogenous co-reactants show only minor interferences.
+ The CNCR method involves the determination of the ratio of net oxidation charge to total charge during one complete cycle of a cyclic voltammogram.
+ Prototype electrodes tested in vitro in spiked plasma have shown typical sensitivities of greater than 2 x 10(-4) CNCR units per 1 mg/dl change in glucose concentration, with linear response up to 400 mg/dl.
+ For in vivo testing, a modified 5 F vascular catheter with membrane covered surface mounted electrodes was used at a vena cava site in swine.
+ Several sensor designs were tested in vivo, with sensitivities of 1-5 x 10(-4) CNCR units (mg/dl).

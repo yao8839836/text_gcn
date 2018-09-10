@@ -1,0 +1,32 @@
+From: mock@abell.mit.edu (Patrick C. Mock)
+Subject: Re: Gamma Ray Bursters. Where are they?
+Organization: MIT Center for Space Research
+Lines: 24
+Distribution: world
+NNTP-Posting-Host: abell.mit.edu
+Originator: mock@abell
+
+
+In article <1rmh4eINN95h@gap.caltech.edu>, kwp@wag.caltech.edu (Kevin W. Plaxco) writes:
+> In article <27APR199320210230@stdvax.gsfc.nasa.gov> abdkw@stdvax.gsfc.nasa.gov (David Ward) writes:
+> 
+> But I believe that there is a fundamental difference here.  The other x
+> three instruments are focusing instruments, that, more or less, form
+> an image, so positional errors are limited by craft attitude and the 
+> resolving power of the optics.  BATSE is an altogether different
+> beast, effectively just 8 coincidence counters, one on each corner of 
+> the craft.  Positional information is triangulated from the 
+> differential signal arrival times at each of the detectors.
+
+This is not quite right.  The differential arrival time techinique
+requires interplanetary baselines to get good positions.  The
+differential arrival at the eight detectors differ by 10's of nanoseconds.
+This is smaller than BATSE's microsecond timing capabilities.
+BATSE, Ulysses, and Mars Obsverver are used for this technique.
+
+Each BATSE detector does not have a full sky field of view.
+The sensitivity of each detector decreases with increasing 
+angle of incidence.  The burst position on the sky is determined by
+comparing the count rates in different detectors.
+
+Pat

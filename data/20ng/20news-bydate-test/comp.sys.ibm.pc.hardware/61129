@@ -1,0 +1,29 @@
+From: tp923021@fir.canberra.edu.au (ben elliston)
+Subject: Floppy problems
+Lines: 25
+
+Organization: Compact Solutions, Canberra ACT Australia
+
+I have a floppy drive which has developed "General failure" errors. (It's a Teac 1.44Mb 3.5" drive).
+
+I took it out of the machine and noticed it was very dusty. I used a high powered air can to blow all this dust out and it's quite clean now.
+
+However, it didn't help the problem.  I've also identified that when the machine boots (and the drive seeks for a boot disk), the head movement during this process is now approximately half the length of the original time.  What I mean is the period when the drive light comes on and the heads move from their retracted position out to the track containing the boot sector.
+
+Is there anything more I can do to try and save this drive? I'd prefer not to shell out $100 for a new one if I can help it.
+
+Thanks!
+
+Cheers, Ben
+------------------------------------------------------------------------------
+Ben J. Elliston
+Bachelor of Engineering (Computer Engineering)                     \\\//
+University of Canberra                                             (@ @)
+                                                             ___ooO_( )_Ooo__
+Email:      compsol@fir.canberra.edu.au                              V
+Also:       ellib@cbr.cpsg.com.au
+UUCP:       ..!uunet!munnari!sserve.adfa.oz.au!compsol!root
+FidoNet:    3:620/262
+------------------------------------------------------------------------------
+
+ * Origin: % Compact Solutions % Canberra ACT Australia % (3:620/262)

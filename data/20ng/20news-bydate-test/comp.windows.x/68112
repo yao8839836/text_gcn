@@ -1,0 +1,18 @@
+From: casper@fwi.uva.nl (Casper H.S. Dik)
+Subject: Re: Patch for X11R5 under solaris 2.1
+Organization: FWI, University of Amsterdam
+Lines: 11
+Distribution: inet
+NNTP-Posting-Host: adam.fwi.uva.nl
+
+cfl@buc.edu.au (Colin Linahan) writes:
+
+>Hi,
+>	Sorry if this is a FAQ but : could someone please tell me where I 
+>can get the patch(es) for X11R5 so that I can compile it under Solaris2.1
+
+export.lcs.mit.edu:/contrib/R5.SunOS5.patch.tar.Z
+
+Get Xsun.multi-screen.tar.Z while you're at it.
+
+Casper

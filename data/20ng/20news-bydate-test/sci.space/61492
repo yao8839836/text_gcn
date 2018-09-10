@@ -1,0 +1,21 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: U of Toronto Zoology
+Lines: 16
+
+In article <1rrgu7$9lp@access.digex.net> prb@access.digex.net (Pat) writes:
+>>No, the thing is designed to be retrievable, in a pinch.  Indeed, this
+>>dictated a rather odd design for the solar arrays, since they had to be
+>>retractable as well as extendable...
+>
+>Why not design the solar arrays to be detachable.  if the shuttle is going
+>to retunr the HST,  what bother are some arrays...
+
+They can be detached in an emergency.  But expensive hardware is not thrown
+away casually (bearing in mind that nobody knew the design was defective).
+If the deployment crew had found some nasty flaw -- the lid failing to open,
+for example -- it would have been a bit embarrassing to have to throw the
+solar arrays away to get the thing back in the payload bay.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

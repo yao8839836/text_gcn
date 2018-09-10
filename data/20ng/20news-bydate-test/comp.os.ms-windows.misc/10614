@@ -1,0 +1,32 @@
+From: mazz@pluto (Richard Mazzaferri)
+Subject: Problem: wallpaper display corrupt for bitmaps > 512k
+Keywords: problem wallpaper bitmap win3.1
+Organization: Uni of Newcastle, Australia
+Lines: 26
+
+I have a problem with the wallpaper on my desktop, in 1024x768x256 mode.  
+For bitmap files bigger than about 512k (slightly less sometimes depending 
+on the exact dimensions), the wallpaper display is badly corrupted.  The 
+rest of the desktop is fine.  For wallpaper bitmaps smaller than this, I 
+have no problem.  I have a friend who has an 800k bitmap which he has no 
+problems with, so it is possible.  It is also possible to display these
+bitmaps using CShow in 1024x768x256 mode with no problem, so the video 
+card is not at fault.
+
+How can I remedy this?
+
+My system:
+
+     386DX40, 4Mb ram.
+     DOS 6.0, Windows 3.1.
+     Oak 1Mb 077 Video card, 1024x768x256 mode, using supplied drivers.
+     Windows has a permanent 11,288kb swap file.
+
+Please reply via e-mail, and _use the address in my .sig_, as our post 
+software always seems to mangle the address in the header.
+
+    Thanks,
+          Mazz.
+--
+Richard Mazzaferri        Ph.D. student          Uni. of Newcastle 
+  Ph (049) 216254   mazz@faceng.newcastle.edu.au     Australia.

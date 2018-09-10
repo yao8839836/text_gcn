@@ -1,0 +1,42 @@
+From: tvtjet@eua.ericsson.se (Jorgen Eriksson)
+Subject:  ######### Drawing networks, graphs ? ###########
+Nntp-Posting-Host: euas59c56.eua.ericsson.se
+Nntp-Posting-User: tvtjet
+Reply-To: tvtjet@eua.ericsson.se
+Organization: Ellemtel Telecom Systems Labs, Stockholm, Sweden
+Lines: 34
+
+
+	Are there any widgets, function 
+	librarys for drawing networks, 
+	graphs etc ? (Not tree views) 
+	Freeware, shareware, comercial...
+	Like this, for instance:
+                                                               
+                          O
+                          |
+                          |
+                O---------O=======>O
+               / \        |
+              /   \       |
+        O----O.....O      O
+            / \
+           /   \ 
+          O     O
+
+	* Just by giving the associations 
+	  between the nodes. Automatic
+	  layout generation.
+
+	* It would be nice if any node 
+	  symbols could be used. Maybe 
+	  even to insert widgets as nodes.
+
+	* Using different line styles etc.
+	  for describing associations.
+
+	Any information would be appreciated,
+	thanks in advance,
+
+			Jorgen (Jorgen.Eriksson@eua.ericsson.se)
+

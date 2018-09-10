@@ -1,0 +1,41 @@
+X-To: mek@hydrox.enet.dec.com comp-graphics
+Subject: Re: TIFF complexity
+Organization: I.E.C.C.
+X-Cc: 
+From: johnl@iecc.cambridge.ma.us (John R. Levine)
+Lines: 34
+
+In article <9304271755.AA23355@enet-gw.pa.dec.com> you write:
+>Anyone who thinks that TIFF is too complex hasn't dealt with
+>CGM, ASN.1, CDA, DCA, SGML, or any one of a number of other
+>very successful file format.  People seem perfectly capable
+>dealing with these others.
+
+Well, yeah, but unlike TIFF they all do substantially more than encode
+rectangular bitmaps.  And the others are hardly trouble free.  I hear that
+it is quite common for CGM implementations not to interoperate.
+
+The annoying thing about TIFF is that is that along with the 50 useful
+options, there are 100 stupid options.  The most egregious example is that
+rather than picking a byte order and bit order and using it consistently
+in all TIFF files, byte and bit order are options and all TIFF readers on
+all machines, no matter what their natural byte order, have to be prepared
+to do byte swapping.  There are four slightly different FAX formats --
+again, any one of them would have been adequate.  RGB images can be stored
+by pixel or by component, complexity without function, etc, etc.  I also
+note that the TIFF doc says that Aldus' experiments show that LZW reliably
+compresses as well or better than any of the FAX formats, suggesting that
+none of the FAX formats are really useful.
+
+What's worse, a lot of the formats aren't even implemented very well,
+e.g., LZW limits code words to 12 bits, while 14 or 16 bits would have
+provided substantially better compression.  And the LZW method compresses
+bytes rather than pixels.
+
+But the absolute worst thing about TIFF is that any vendor can register
+proprietary TIFF codes and formats without even publicly documenting them.
+This means that there is NO WAY to write a TIFF reader that can reliably
+read all incoming TIFF files.  Some standard.
+
+Regards,
+John Levine, johnl@iecc.cambridge.ma.us, {spdcc|ima|world}!iecc!johnl

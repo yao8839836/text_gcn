@@ -1,0 +1,41 @@
+From: kwp@wag.caltech.edu (Kevin W. Plaxco)
+Subject: Re: Gamma Ray Bursters. Where are they?
+Organization: California Institute of Technology, Pasadena, CA
+Lines: 35
+NNTP-Posting-Host: sgi1.wag.caltech.edu
+
+In article <27APR199320210230@stdvax.gsfc.nasa.gov> abdkw@stdvax.gsfc.nasa.gov (David Ward) writes:
+
+>Given that fact, and the spacecraft attitude knowledge
+>of approx. 2 arcmin, we might be able to figure out how well BATSE can
+>determine the location (rotational) of a Gamma Ray burster from knowledge
+>of the all-sky map's accuracy.  PR material for the other three instruments
+>give accuracies on the order of "fractions of a degree", if that's 
+>any help.
+
+But I believe that there is a fundamental difference here.  The other x
+three instruments are focusing instruments, that, more or less, form
+an image, so positional errors are limited by craft attitude and the 
+resolving power of the optics.  BATSE is an altogether different
+beast, effectively just 8 coincidence counters, one on each corner of 
+the craft.  Positional information is triangulated from the 
+differential signal arrival times at each of the detectors.
+Positional error would be predominantly determined by timing errors
+and errors in craft attitude. Since none of the 8 BASTE detectors have
+any independant angular resolution whatsoever, they can not be used to
+determine parallax.  Indeed, parallax would just add a very small 
+component to the positional error.  
+
+Demonstrating that these puppies are beyond the oort cloud would 
+require resolution on the order of arcseconds, since the oort 
+cloud is postulated to extend to about 0.5 parsec (all together 
+now: "Parallax ARc SECond", a parsec is the distance of an object 
+that demonstrates one arc second of parallax with a 2 AU base line).
+If the 3 degree accuracy reported above is true, we're going to 
+have to add a BASTE to the pluto fast flyby to get enough baseline.
+
+The beauty of BASTE is that it both gives positional information and
+watches the entire sky simultaneously, a realy handy combination
+when you have no idea where the next burst is coming from.
+
+-Kevin

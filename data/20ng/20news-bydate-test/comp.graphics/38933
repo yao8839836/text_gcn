@@ -1,0 +1,181 @@
+Subject: PHIGS User Group Conference
+From: hamlin@ug.eds.com (Griff Hamlin)
+Reply-To: hamlin@ug.eds.com (Griff Hamlin)
+Distribution: world
+Organization: EDS Unigraphics, Cypress CA
+Nntp-Posting-Host: 134.244.15.158
+Lines: 173
+
+
+
+                FIRST ANNUAL PHIGS USER GROUP CONFERENCE
+
+          The First Annual PHIGS User Group Conference was held March 21-24
+          in Orlando, Florida.  The conference was organized by the Rensse-
+          laer Design Research Center in co-operation with  IEEE  and  SIG-
+          GRAPH.   Attendees  came  from five countries spanning three con-
+          tinents.   A  good  cross-section  of  the  PHIGS  community  was
+          represented  at this conference with participants including PHIGS
+          users, workstation vendors, third-party PHIGS implementors, stan-
+          dards  committee  members,  and  researchers  from  industry  and
+          academia.  The opening speaker, Dr. Richard Puk, challenged PHIGS
+          users  to  "take  charge of your PHIGS" by participating in PHIGS
+          standardization activities and communicating their needs to PHIGS
+          implementors.    The   closing  speaker,  Dr.  Andries  Van  Dam,
+          described his vision of the future of graphics standards  "beyond
+          PHIGS".
+
+          Technical paper sessions in the conference covered the  following
+          topics:  PHIGS  and  X, Application Toolkits, Application Issues,
+          Texture Mapping, NURBS,  PHIGS  Extensions,  and  Object-Oriented
+          Libraries and Frameworks.  Panel sessions on PHIGS and PEX, PHIGS
+          Non-Retained Data, Real-World CAD Applications Using  PHIGS,  and
+          Portability  Issues generated enthusiastic discussions and formed
+          a good forum for exchange of ideas, needs, and experiences.   The
+          conference  also included a day full of tutorials on topics rang-
+          ing from mathematics for 3D  graphics  to  object-oriented  tools
+          based on PHIGS.
+
+          Next year's conference is planned for March, 1994.
+
+          PHIGS EVERYWHERE
+
+          At the conference, PHIGS  vendors   described   and  demonstrated
+          PHIGS  products  that  run on all types of computers, from PCs to
+          mainframes.
+
+          Megatek Corporation demonstrated their PHIGS extensions including
+          conditional traversal, composite logical input devices, texturing
+          and translucency.
+
+          Template Graphics  Software  launched  FIGARO+  PRO,  the  Photo-
+          Realistic  Option  for  PHIGS+.  FIGARO+  PRO  is designed to add
+          advanced rendering to the existing PHIGS+ API, with features like
+          ray   tracing,  materials,  anti-aliasing  and  texture  mapping.
+          Radiosity support is also planned.
+
+          FIGARO+ is an example of how TGS continues to add newly  emerging
+          graphics  features to their products.  FIGARO+ supports immediate
+          mode extensions to PHIGS and also supports SUN XGL,  HP  Starbase
+          and SGI GL/OpenGL. FIGARO+ for NT will be released this summer.
+
+          TGS also demonstrated the latest versions of FIGraph, a  powerful
+          "2-call"  charting  system  based on PHIGS+, and FIGt, an object-
+          oriented utility library for PHIGS/PEX developers.
+
+          G5G and Gallium Software demonstrated a new version of GPHIGS  on
+          Silicon  Graphics  workstations. Scheduled for summer, 1993, Ver-
+          sion 3.0 of GPHIGS, the company's  PHIGS+  library  for  worksta-
+          tions,  will include an advanced PHIGS debugger that allows PHIGS
+          developers to display and browse PHIGS structures and other PHIGS
+          internal  state.  G5G  also  described  their Non-Duplicated Data
+          Store that stores pointers to application data in the GPHIGS  CSS
+          for  more  efficient  use  of  memory. In addition, G5G described
+          their application GSE that allows application callback  functions
+          during  GPHIGS traversal.  GPHIGS and PHIGURE, G5G's data visual-
+          izer and application development toolkit, are currently available
+          on  all  major  workstations  that support GL, X Windows, PEX, or
+          Starbase.
+
+          Wise Software presented a slide show of  Z-PHIGS  for  MS-Windows
+          and ARENA, a PHIGS based modeller/render. Z-PHIGS implements most
+          of the PHIGS+ primitives.  In addition Z-PHIGS has built in  many
+          advanced  rendering features like texture mapping, shadow genera-
+          tion, area quick updates and ray tracing. A demo disk of  Z-PHIGS
+          or ARENA is available on request.
+
+          ATC exhibited GRAFPAK-PHIGS, their full-featured PHIGS  implemen-
+          tation  based  on  DEC  PHIGS. GRAFPAK-PHIGS is available on most
+          workstation platforms with C, FORTRAN and Ada bindings and incor-
+          porates PEX support.
+
+          Within the booth sponsored by Advanced Technology Center, Digital
+          Equipment  Corporation demonstrated DEC PHIGS V2.4 running on the
+          DEC 3000/400 AXP PXG. ATCs' GRAFPAK-PHIGS is a port of DEC PHIGS.
+          DEC  PHIGS  V2.4 contains most PHIGS and PHIGS PLUS features with
+          support for PEX V5.1  protocol.  DEC  PHIGS  also  contains  most
+          GM/EDS   PHIGS  extensions  including  post-to-view  as  well  as
+          proprietary extensions to support immediate  mode  rendering  and
+          the use of PHIGS in an X11 environment.
+
+          AXP, DEC, and DEC PHIGS are trademarks of Digital Equipment  Cor-
+          poration.  GRAFPAK-PHIGS and ATC are trademarks of Advanced Tech-
+          nology Center. PEX and X11 are trademarks of Massachusetts Insti-
+          tute of Technology.
+
+          The IBM exhibit featured a GTO accelerator attached to an IBM 340
+          workstation running graPHIGS and PEX.
+
+          Hewlett Packard and SHOgraphics demonstrated at the conference. A
+          Hewlett  Packard  machine was coupled to display on a SHOgraphics
+          PEX terminal. HP showcased their latest  PHIGS  product  enhance-
+          ments.
+
+
+          PHIGS USER GROUP
+
+          The PHIGS Users Group was formed to aid the development of  PHIGS
+          applications  and provide user feedback to PHIGS implementors and
+          PHIGS standards bodies.  For more  information  about  the  PHIGS
+          Users Group, send e-mail to:
+
+                    phigsug@cadrt10.me.vt.edu
+
+          or write to:
+
+                    Sankar Jayaram
+                    Virginia Polytechnic Institute
+                    114 Randolph Hall
+                    Blacksburg, Va. 24061-0238
+                    FAX: 703-231-9100
+
+
+          VENDOR CONTACTS
+
+          Megatek Corporation
+          TEL (619) 455-5590
+          FAX (619) 453-7603
+
+          Template Graphics Software
+          TEL (800) 544-4847
+          FAX (619) 452-2547
+
+          WISE software GmbH
+          TEL +49-451-3909-413
+          FAX +49-451-3909-499
+
+          G5G - North American Sales
+          TEL (800) 267-2626
+          FAX (613) 592-1278
+
+          Advanced Technology Center
+          TEL (800) 999-5711
+          FAX (714) 583-9213
+
+          Digital Equipment Corporation
+          TEL (603) 884-5111
+
+          International Business Machines Corporation
+          TEL (800) 426-3333
+
+          Hewlett Packard Company
+          TEL (303) 229-3800
+
+          COPIES OF THE CONFERENCE PROCEEDINGS
+
+          Copies of the conference proceedings may be obtained by  contact-
+          ing Mary Johnson at:
+
+                    Johnson, Mary
+                    Design and Manufacturing Institute
+                    Rensselaer Polytechnic Institute
+                    110 Eighth Street
+                    Building CII, Room 7015
+                    Troy, NY  12180-3590
+                    Tel:  (518)276-6754
+                    Fax:  (518)276-2702
+                    Email:  mjohnson@rdrc.rpi.edu
+
+
+          The cost is $75.00 per binder.
+

@@ -1,0 +1,230 @@
+From: helleset@solar.usc.edu (Tor Helleseth)
+Subject: PROGRAM EUROCRYPT'93, MAY 23-27, LOFTHUS, NORWAY
+Organization: University of Southern California, Los Angeles, CA
+Lines: 223
+Distribution: world
+NNTP-Posting-Host: solar.usc.edu
+
+
+PROGRAM EUROCRYPT'93, MAY 23-27, LOFTHUS, NORWAY
+------------------------------------------------
+General chair : Kaare Presttun 
+                email: eurocrypt93@alcatel.no                
+
+Program chair : Tor Helleseth
+                Department of Informatics 
+                University of Bergen
+                N-5020 Bergen
+                NORWAY
+                email: torh@ii.uib.no
+
+=========================================================================
+
+                      MONDAY,  May 24
+                      ---------------
+                 
+              SESSION 1 : AUTHENTICATION
+              --------------------------
+              Chair: J. Seberry
+
+ 9.00- 9.30   Welcome and opening remarks
+ 9.30-10.00   On the Relation Between A-codes and Codes Correcting Independent 
+              Errors, T. Johansson, B. Smeets (Lund University, Sweden), 
+              and G. Kabatianskii (Institute for Problems of Information 
+              Transmission, Russia)
+10.00-10.20   Optimal Authentication Systems, R. Safavi-Naini and L. Tombak 
+              (University of Wollongong, Australia)
+
+10.20-10.50   Coffee or tea
+
+
+              SESSION 2 : PUBLIC KEY
+              ----------------------
+              Chair: A. Odlyzko
+
+10.50-11.10   Factoring Integers using SIMD Sieves, B. Dixon (Princeton 
+              University, USA) and A.K. Lenstra (Bellcore, USA)
+11.10-11.30   A New Elliptic Curve Based Analogue of RSA, 
+              N. Demytko (Telecom Research Laboratories, Australia)
+11.30-11.50   Weaknesses of a Public-Key Cryptosystem Based on Factorization 
+              of Finite Groups, J. Stern (ENS, France)
+
+11.50-14.00   Lunch
+
+
+              SESSION 3 : BLOCK CIPHERS
+              -------------------------
+              Chair: A. De Santis
+
+14.00-14.20   Differentially Uniform Mappings for Cryptography, 
+              K. Nyberg (Technical University of Vienna, Austria)
+14.20-14.40   On Permutations Against Differential Cryptanalysis, 
+              T. Beth and C. Ding (EISS, University of Karlsruhe, Germany)
+14.40-15.10   Two New Classes of Bent Functions, 
+              C. Carlet (INRIA, France)
+15.10-15.30   Boolean Functions Satisfying a Higher Order Strict Avalanche
+              Condition, T.W. Cusick (SUNY, Buffalo, USA)
+
+15.30-16.00   Coffee or tea
+
+
+              SESSION 4 : SECRET SHARING
+              --------------------------
+              Chair: Y. Desmedt
+
+16.00-16.30  Size of Shares and Probability of Cheating in Threshold Schemes, 
+             M. Carpentieri, A. De Santis and U. Vaccaro (University of 
+             Salerno, Italy)
+16.30-17.00  Nonperfect Secret Sharing Schemes and Matroids, K. Kurosawa,
+             K. Okada, K. Sakano, W. Ogata and S. Tsujii (Tokyo Institute of
+             Technology, Japan)
+     
+
+                      TUESDAY, May 25
+                      ---------------
+
+             SESSION 5 : STREAMCIPHERS I
+             ---------------------------
+             Chair: T. Helleseth 
+
+ 9.00-10.00 From the Memoars of a Norwegian Cryptolog, E. Selmer (University 
+            of Bergen, Norway) (Invited talk)
+10.00-10.20 On the Linear Complexity of Products of Shift-Register Sequences, 
+            R. Gottfert and H. Niderreiter (Austrian Academy of Sciences, 
+            Vienna, Austria)
+
+10.20-10.50 Coffee or tea
+
+
+             SESSION 6 : STREAMCIPHERS II
+             ----------------------------
+             Chair: D. Gollman
+
+10.50-11.20  Resynchronisation Weaknesses in Synchronous Stream Ciphers,
+             J. Daemen, R. Govaerts and J. Vandewalle (ESAT, KU Leuven, 
+             Belgium)
+11.20-11.40  Blind Synchronization of m-Sequences with Even Span,
+             R. Games and J.J. Rushanan (MITRE, USA)
+11.40-12.10  On Constructions and Nonlinearity of Correlation Immune Functions,
+             J. Seberry, X. Zhang and Y. Zheng (University of Wollongong, 
+             Australia)
+
+12.10-14.00  Lunch
+
+
+             SESSION 7 : DIGITAL SIGNATURES
+             ------------------------------
+             Chair: C. Schnorr
+
+14.00-14.30  Practical and Provable Secure Release of a Secret and Exchange of
+             Signatures, I.B. Damgard (Aarhus University, Denmark)
+14.30-14.50  Subliminal Communication is Easy Using the DSA, 
+             G.J. Simmons
+14.50-15.10  Can OSS be Repaired, D. Naccache (Gemplus, France)
+
+15.10-15.40  Coffee or tea
+
+
+             SESSION 8 : PROTOCOLS I
+             -----------------------
+             Chair: K. Kurosawa
+
+15.40-16.00  Limitations of Logical Analysis of Cryptographic Protocols,  
+             C. Boyd and W. Mao (University of Manchester, United Kingdom)
+16.00-16.30  Practical Anonymous and Secure Voting Scheme, K. Itoh, C. Park 
+             and K. Kurosawa (Tokyo Institute of Technology, Japan)
+16.30-16.50  Untransferable Rights in a Client-Independent Server Environment,
+             J. Domingo-Ferrer (University of Barcelona, Spain)
+16.50-17.20  Interactive Hashing Simplifies Zero-Knowledge Protocol Design,
+             R. Ostrovsky (UC Berkeley, USA), R. Venkatesan (Bellcore, USA) and
+             M. Yung (IBM T. Watson, USA)
+
+             RUMP SESSION
+             -------------
+             Chair: I. Ingemarsson     
+
+20.00-24.00  Accepted paper: 
+             Security in Digital Mobile Communication Systems,
+             C. Park, K. Kurosawa, T. Okamoto and S. Tsujii (Tokyo
+             Institute of Technology, Japan)
+
+
+                     WEDNESDAY, May 26
+                     -----------------
+
+             SESSION 9 : HASH FUNCTIONS
+             ---------------------------
+             Chair: B. Preneel
+
+ 9.00- 9.20  One-Way Accumulators: A Decentralized Alternative to Digital
+             Signatures, J. Benaloh and M. de Mare (Clarkson University, USA)
+ 9.20- 9.40  Some Attacks on the ARL Hash Function, I.B. Damgard and 
+             L.R. Knudsen (Aarhus University, Denmark)
+ 9.40-10.10  Collisions for the Compression Function of MD5, B. den Boer and
+             A. Bosselaers (ESAT, KU Leuven, Belgium)
+10.10-10.30  How to Find and Avoid Collisions for the Knapsack Hash Function, 
+             J. Patarin (Bull CP8, France)
+  
+10.30-11.00  Coffee or tea
+
+
+             SESSION 10: PAYMENT SYSTEMS
+             ---------------------------
+             Chair: I.B. Damgard
+
+11.00-11.20  Single Term Off-Line Coins, N.T. Ferguson (CWI Amsterdam,
+             The Netherlands)
+11.20-11.40  Improved Privacy in Wallets with Observers,
+             R.J.F. Cramer (CWI Amsterdam, The Netherlands) and 
+             T.P. Pedersen (Aarhus University, Denmark)
+11.40-12.10  How to Prevent the Mafia Fraud Using Distance-Bounding Protocols,
+             S. Brands and D. Chaum (CWI Amsterdam, The Netherlands)
+           
+12.10-14.00 Lunch
+ 
+
+             SESSION 11: CRYPTANALYSIS
+             --------------------------
+             Chair: G.J. Simmons
+
+14.00-14.20 On the Distribution of Characteristics in Bijective Mappings,
+            L. O'Connor (University of Waterloo, Canada)
+14.20-14.40 On the Security of the IDEA Block Cipher, 
+            W. Meier (HTL, Switzerland)
+14.40-15.10 Linear Cryptanalysis Method for DES Cipher,
+            M. Matsui (Mitsubishi, Japan)
+15.10-15.40 New Types of Cryptanalytic Attacks Using Related Keys, 
+            E. Biham (Technion, Israel)
+
+15.40-16.10 Coffee or tea
+ 
+
+             SESSION 12 : PROTOCOLS II
+             -------------------------
+             Chair: P. Landrock
+
+16.10-16.40  Reconciliation on a Secret Key Through Public Discussion,
+             G. Brassard and L. Salvail (University of Montreal, Canada)
+16.40-17.10  Global, Unpredictable Bit Generation Without Broadcast,
+             D. Beaver and N. So (Penn State University, USA)
+17.10-17.40  IACR Business meeting
+
+==========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Keywords: 
+

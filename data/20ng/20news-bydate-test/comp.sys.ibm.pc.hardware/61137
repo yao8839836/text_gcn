@@ -1,0 +1,35 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: ISA bus:  SCSI or IDE??!!
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 29
+
+
+In article <1993Apr19.145456.20462@msc.cornell.edu>, randy@msc.cornell.edu (Randy Ellingson) writes:
+
+[ Questions deleted ]
+
+> I actually have a PAS-16, and could (what a waste I guess it would be...) hook
+> up a SCSI HD through it's SCSI port which yields an optimum of 690Kb/sec.
+> Actually, I have a borrowed 12ms Fujitsu HD hooked up through it now (and
+> own the Trantor HD drivers for the PAS-16 SCSI port).  Is this SCSI port a
+> SCSI-2 port?  How could I tell?  Is the Fujitsu 2623A a SCSI-2?  Are all SCSI
+> HD's SCSI-2?
+
+Does any one know what the PAS16 SCSI port is? I counted the pins on the board
+displayed in their ad and it only got 40! What happened to the other 50?
+
+Did they junk a whole bunch of grounds or what?
+
+> 
+> Thanks for any comments.
+> 
+> Randy
+>   
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

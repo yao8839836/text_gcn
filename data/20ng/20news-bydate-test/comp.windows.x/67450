@@ -1,0 +1,35 @@
+From: dcr@mail.ast.cam.ac.uk (Derek C. Richardson)
+Subject: XView 3.0 window positioning problems
+Nntp-Posting-Host: ioas09.ast.cam.ac.uk
+Reply-To: dcr@mail.ast.cam.ac.uk
+Organization: Institute of Astronomy, Cambridge
+Lines: 28
+
+I don't seem to be able to get window positions reliably through
+the XView xv_get() function:
+
+   x = (int) xv_get(my_frame, XV_X);
+   y = (int) xv_get(my_frame, XV_Y);
+
+For example, if I set XV_X & XV_Y to 50,50 the frame comes up
+in the correct position, with the top left corner (the size
+handle) at 50,50. xv_get() returns 50,50 as well. But later on
+xv_get() returns 5,25 without any intervening xv_set(my_frame,
+XV_?). My frame is fitted around a canvas, and it turns out
+(by measuring on the screen) that 5,25 is the position of the
+first pixel in my canvas relative to the frame's origin. What
+gives? Any help most appreciated!
+
+Derek
+
+P.S. On a related subject, is there any way of querying the
+window manager as to the thickness of borders it puts around
+frames, etc.?
+
+-----------------------------------------------------------
+| Derek C. Richardson    | Tel: (0223) 337548 x 37501     |
+| Institute of Astronomy | Fax: (0223) 337523             |
+| Cambridge, U.K.        |                                |
+| CB3 0HA                | E-mail: dcr@mail.ast.cam.ac.uk |
+-----------------------------------------------------------
+

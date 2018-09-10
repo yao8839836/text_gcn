@@ -1,0 +1,33 @@
+From: stephens@rd1.interlan.com (Jack Stephenson)
+Subject: Re: What is this .GL file?
+Distribution: usa
+Organization: Racal-Datacom, Sunrise, FL
+Lines: 27
+
+From article <1suntv$3km@watson.mtsu.edu>, by csjohn@watson.mtsu.edu (John Wallace):
+> I've got this animation file with a .GL extension.
+> What is this?  Are there anu MS-DOS or OS/2 programs
+> which will run this file?  Thanks.
+> 
+
+The GL file is an archive containing individual frames or pieces of
+frames (usually stored as .PIC or .CLP files), fonts, and a .TXT file
+that tells the GRASP animation system how to display it.  GL stands
+for Grasp Library.  There is probably a detailed discussion of this subject
+in the alt.binaries.pictures FAQ.
+
+There are freely distributable viewers for GL files, and they are usually
+named GRASPRT?.EXE (replace the ? with a version digit or letter).  Most
+GL files contain frames that are hardware-specific to particular modes
+of the CGA, EGA, or VGA adapters on PCs.  I think that there are some
+copies of GRASPRT available by anonymous ftp (I know that I got one there
+a long time ago).
+
+		Good Luck
+		Jack
+
+-- 
+== Jack Stephenson          main e-mail: j_stephenson@isuv1.interlan.com  ==
+|| Racal-Datacom            alternate e-mail: stephens@souv1.interlan.com ||
+|| P.O. Box 407044                                                        ||
+== Ft. Lauderdale, FL  33340  USA     Phone: (+1) 305-846-6137            ==

@@ -1,0 +1,25 @@
+Organization: Penn State University
+From: Christopher Sacksteder <CJS@psuvm.psu.edu>
+Subject: Re: Windows NT und X-Windows?
+ <1993Apr29.220709.7347@mksol.dseg.ti.com> <C69yBv.8wI@acsu.buffalo.edu>
+Lines: 19
+
+In article <C69yBv.8wI@acsu.buffalo.edu>, mongwa@acsu.buffalo.edu (Kan Mongwa)
+says:
+>
+>>>does anybody here know whether Windows NT does/will include a X
+>>>Windows server . . .
+
+>Could you add some information to 'No it does not'.
+>Say for instance your source of information.
+
+Source for "does not" comment: the CD-ROM and manuals for the March beta
+-- there *is* no X windows server there.
+
+Will there be?  Of course.  (Even) if Microsoft supplies one with NT,
+other vendors will no doubt port their's to NT.
+
+According to a recent newsletter from Hummingbird Communications Ltd.,
+they announced eXceede/NT at UNIFORUM 93.  The announcement reads like it
+is "here now", but there is no order or price info.  I would guess it
+must be RSN.  There is a dev kit too.

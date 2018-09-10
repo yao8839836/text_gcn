@@ -1,0 +1,34 @@
+From: rick.zeman@his.com (Rick Zeman)
+Subject: Mac SCSI spec?
+Lines: 30
+
+On 4/20/93, Tim Keanini was heard to say regarding "Mac SCSI spec?:" 
+
+  TK> From: blast@nntp.crl.com (Tim
+  TK> Keanini)
+  TK> 
+  TK> I have a MacIIFX and I know that it is wired about its SCSI chain.
+  TK> 
+  TK> I just bought a drive and I need to find out a few hardcore SCSI
+  TK> question:
+  TK> 
+  TK> Does the IIFX SCSI chain want to see active or passive termination?
+  TK> 
+  TK> Does the IIFX SCSI spec want me to enable the initiation of the SDTR
+  TK> message?
+  TK> 
+  TK> WHat does the IIFX SCSI spec want as far as parity checking?
+  TK> 
+  TK> These are some very good questions for the FAQ. If someone does not
+  TK> have time to answer these questions but does know where I can look
+  TK> them up please let me know and I will repost the answers for everyone
+  TK> to see.
+  TK> 
+
+      Read TechNote #273...it deals with more than any sane person wants to
+know about the IIfx's SCSI....
+
+  TK> thanks, Tim Keanini        <timk@broder.com>  or  <blast@crl.com>
+  TK> Sound Engineer         Broderbund Software
+  TK> 
+  

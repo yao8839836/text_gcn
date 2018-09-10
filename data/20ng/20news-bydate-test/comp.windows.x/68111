@@ -1,0 +1,31 @@
+From: casper@fwi.uva.nl (Casper H.S. Dik)
+Subject: Re: Problems with xdm (?) under X11R5/Solaris
+Organization: FWI, University of Amsterdam
+Lines: 25
+NNTP-Posting-Host: adam.fwi.uva.nl
+
+db@sunbim.be (Danny Backx) writes:
+
+>Yes, that is a bug in the X11r5 port of xterm. You sometimes get this when
+>you start from XDM. I have reported this to Casper but don't know whether
+>it made it into his set of patches yet.
+
+>Basically in mit/clients/xterm/main.c, there is a test at line 1598 which
+>checks errno after attempting to open /dev/tty. Add the "errno == EINVAL"
+>case to it and you should be fine.
+
+It's actually a bug in the Solaris 2.1 kernel. We could add a workaround to
+xterm. open should never return EINVAL, but it does :-(
+
+I didn't have time to update the R5.SunOS5 patch lately, but non
+of the existing problems seem to warrant a new set of patches.
+
+>Since .xsession is a Bourne shell script anyway, you might as well add a line
+>	. /etc/TIMEZONE
+>as it is done in /etc/profile.
+
+XDM coulda also keep the XDM environment variable. It should have inherited
+it from the environment.
+
+
+Casper

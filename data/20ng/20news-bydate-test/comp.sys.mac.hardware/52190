@@ -1,0 +1,55 @@
+From: Alexander Samuel McDiarmid <am2o+@andrew.cmu.edu>
+Subject: Re: SVGA Monitors and Centris (the real story)
+Organization: Sophomore, Mechanical Engineering, Carnegie Mellon, Pittsburgh, PA
+Lines: 48
+NNTP-Posting-Host: po2.andrew.cmu.edu
+In-Reply-To: <C5wxqG.H93@news.claremont.edu>
+
+    THe origional bit is missing but long/short follows:
+
+    The origional poster asked if he/she could use any old vga/svga
+monitor with a centris (hence title).  
+
+    The answer ot this question is an unqualified yes.  You can use any
+old vga/svga monitor with a centris.  You do need an adaptor (I use a
+Mac vga-q from james engineering (510) 525-7350) to run between the two
+machines.  THe adaptor I have mentioned will convert a centris to a
+three row vga/svga 25(?) pin adaptor for your monitor.
+
+    NOW, the special interest disclaimer.
+ The above answer is correct for using a vga monitor at 600x400
+resolution.  IF your monitor will sync to 56Khz horizontal the above
+adaptor will allow you to choose 800x600 resolution (I prefer this on my
+1604s).
+
+THen You have the question of matching adaptors and sync rates.  I would
+advocate calling James engineering because they seem to have a clue.  As
+to the comment by the person who said don't bother calling Apple because
+they will treat you like an idiot this is totally untrue.
+    APPLE WILL TREAT YOU LIKE A F**KING ASSANINE IDIOT FOR EVEN
+CONSIDERING GOING THIRD PARTY AND IF YOU WANT THIS TREATMENT WANTS YOU
+TO PAY FOR THEIR THECH SUPPORT LINE (the supposedly compitantly one) AND
+THEN STILL HAS NO FU***** CLUE.
+
+personal experience.  also the tech suppport for the vga monitor makers
+doesn't see to extend to Macs (Sony, Magnavox).  In addition to this to
+find out the info you will have to call dealers unless you can find the
+sync rates elsewhere as ads like Hardware that fits
+(*&^%&%^%$$(&**&^(%&%^$!) that rate monitor resolutions give the most
+favorable rating (which usually means you can get this if you use a
+specialized application video card).(i.e. "well you can get a resolution
+1168x832 on this $5,  9" "super smelly sock" monitor that will let you
+display TWO FULL PAGES side by side.  All you need is our reasonably
+priced "oder eater" video board for $27,000 and it will give you an
+ultra fast horizontal sync rate of SIX fast kilohertz and three Khz
+vertical.")
+
+
+
+Note:  with the sony 1604 at least on the centris 610 built in video
+board using an 832x624 adaptor, there is a boarder of an inch + to the
+sides of the image after adjusting the horizontal width as favorably as
+possible.  Using a 800x600 adaptor this can be reduced to about half an
+inch.
+
+                                                                    -A.

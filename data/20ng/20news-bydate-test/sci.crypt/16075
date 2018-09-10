@@ -1,0 +1,55 @@
+From: TSOS@uni-duesseldorf.de (Detlef Lannert)
+Subject: Re: Clipper considered harmful [Restated and amplified]
+Organization: Universitaetsrechenzentrum, Heinrich-Heine-Universitaet, Duesseldorf
+Lines: 47
+Distribution: inet
+NNTP-Posting-Host: lannert.rz.uni-duesseldorf.de
+Summary: You can't fool it.
+
+In article <WCS.93Apr26141950@rainier.ATT.COM> wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705) writes:
+
+>   The serial number will be in a 64 bit block, with a 34 bit filler.  Doesn't
+>   take a lot to check to see if that is correct.
+>
+>Depends on whether the filler is a constant (makes checking easy,
+>but susceptible to replay), or variable (e.g. timer, counter, random),
+>which makes replay harder and can also make it easier for the
+>inquisitors to know if they've missed messages, or gotten them out of
+>sequence, or other interesting things that sort of person might care about.
+
+I'd use a secret (nope, obscure) cryptographic encoding to expand the 
+30 bit serial number to a 64 bit block. The redundancy hereby introduced 
+can be used to detect tampered Clipper signals where some public enemy 
+replaced the L.E. block by random data. 
+
+And of course the L.E. block would be used to initialise the encryption 
+of the user data so that at the receiving end the correct L.E. block must 
+be processed in order to have any chance of getting the plaintext back. 
+
+For those of you who might want to mangle the L.E. block (e.g. by xor-ing 
+a constant pattern) on the transmission line and restore it before feeding 
+it into the receiving Crippler Chip I would add further encrypted copies 
+of this block (perhaps created by repeated application of the encryption 
+algorithm or so) at regular intervals during the transmission. If the 
+receiving chip detects a mismatch it must assume that the line is bad and 
+it will cease to work; in your own interest you are protected from getting 
+faulty plaintext, you know -- it's just like a checksum for your own 
+safety ;-(. 
+
+The `monitoring agencies' won't have the famous black box which is needed 
+for actual decryption and will be kept by the FBI; but nothing prevents 
+them from using special boxes which will do the redundancy check for the 
+serial number block and consistency checks on the embedded L.E. blocks 
+within the transmission. These boxes will turn a red light on as soon as 
+they detect a bitstream that violates the correct protocol.
+
+So don't anyone think that you can use the chip and fool L.E. about the 
+tapping key -- I bet the developpers have provided much better checks 
+than those suggested above. Of course it's absolutely crucial that the 
+algorithms (and protocols) remain secret. Personally I doubt they will.
+
+--
+Detlef Lannert       DC3EK       E-Mail: tsos@rz.uni-duesseldorf.de
+PGP 2.2 key via server or finger lannert@clio.rz.uni-duesseldorf.de
+"I am Psmith." - "Oh, you're Smith, are you?" - "With a preliminary
+P. Which, however, is not sounded."                   P.G.Wodehouse

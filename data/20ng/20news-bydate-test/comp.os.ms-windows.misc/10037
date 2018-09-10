@@ -1,0 +1,33 @@
+From: wild@access.digex.net (wildstrom)
+Subject: Re: Standard and Enhanced question
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 27
+NNTP-Posting-Host: access.digex.net
+
+ak333@cleveland.Freenet.Edu (Martin Linsenbigler) writes:
+
+
+>Why is Win 3.1 sometimes so finicky?
+>I have a new DELL 486DX2/66mhz  8 megs RAM.
+>Windows was working just great.  I had a Bus mouse and mother board problem.
+>DELL replaced the mouse, gave me a newer mouse driver for windows
+>and replaced the motherboard.  Just prior to this problem windows would
+>]only load up every other time.  I would get the LOGO and either it would
+>go on into windows or LOCK UP.  This was very consistent EVERY OTHER TIME.
+
+<much deleted>
+>ANY THOUGHTS OR COMMENTS 
+
+Sounds like a memory conflict problem, which can cause truly weird symptoms 
+like these. Call Dell tech support (or better, post to them on CSERVE if you
+have an account) and get the memory range(s) used by video RAM on your
+machine. The block windows from using those ranges with an
+EMMEXCLUDE= statement in the 386Enh section of SYSTEM.INI. You probably
+should include a statement excluding the same range from EMM386 or whatever
+memory manager you use in CONFIG.SYS.
+
+Dell "installs" Windows on the machines they ship, but the installation doesn't
+consist of much more than  copying the files to a hard disk. You still have
+to do the work. And the fact that you have the problem in Enhanced
+mode but not standard strongly suggests a high memory conflict.
+

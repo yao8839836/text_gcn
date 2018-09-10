@@ -1,0 +1,80 @@
+From: kschang@sfsuvax1.sfsu.edu (Kuo-Sheng (Kasey) Chang)
+Subject: Re: How to the disks copy protected.
+Organization: San Francisco State University
+Lines: 75
+
+In article <1993Apr21.141137.863@imag.fr> schaefer@imag.imag.fr (Arno Schaefer) writes:
+>In article <1993Apr21.085848.12704W@lumina.edb.tih.no>, ketil@edb.tih.no (Ketil Albertsen,TIH) writes:
+>|> In article <1993Apr20.230749.12821@reed.edu>, mblock@reed.edu (Matt Block) writes:
+>>>	I guess what I am saying is that your question is difficult, if not
+>>>impossible, to answer. What exactly do you want to know?  Do you need a good
+>>>one for a project you are working on? How secure must it be?  Are you trying
+>>>to crack one that someone else has used?  I can probably make suggestions,
+>>>assuming the activity is strictly legal.  (In general, it is a BAD idea,
+>>>legally, to tamper with copy protection.  It can also lead to corruption of
+>>>files which you necessarily do not have back ups of (being as they are copy
+>>>protected,) which can be devestating.)  Do you have absolutely no ideas for
+>>>practical applications, and are merely curious?
+>>>	Please clear up those questions, and I'll try to help as much as I
+>>>can.
+>> 
+>> May we interpret this as an offer to volunteer as editor for a
+>> "Copy protection FAQ" ? I am quite sure that I am not alone welcoming such
+>> an initiative! *I* will volunteer to ask some of the questions, if you will
+>> provide the answers :-)
+>> 
+>Hey, now will you stop encouraging him? Copy protection only serves one pur-
+>pose: to keep the honest buyer from making (legal) backup copies. It will
+>definitely not stop any pirates. If you want to protect you soft, supply a
+>good documentation and support. This is IMHO the *only* way of effectively 
+>protecting software.
+
+There are several types of copy protection, and the point is to make sure the
+user is using a legitimate copy.  The simplest and virtually fool-proof way is
+for the program to somehow fixate itself to the machine it was installed on
+(some sort of checksum, serial number, whatever) so a copy put on a different
+machine (NOT installed from original disks) will not work.  
+
+The program is definitely backupable, if restored to the same machine (depends
+on the programmer...  don't use a disk drive characteristic!)  If the user 
+did an upgrade to the machine, he/she should reinstall all programs any way.
+No document look-up, no disk wear-and-tear!
+
+I did not say that the originals would allow only one install.  The user's 
+conscience should do that.
+
+I know, I'll get flamed for this...  But with the increasing number of "casual"
+users who either unknowingly or don't care about the software copyrights
+(It's the truth.  I have "friends" who ask me for copies of my latest games
+all the time, and when I refused, they went after somebody else.), casual
+pirating is becoming more of a problem.  Some sort of copy protection will
+discourage the casual copying.  I've seen what some of my "friends" dug up
+somewhere...  Latest and the greatest games, all cracked, WITHIN days of actual
+release!  You know how many bytes you need to change in X-wing to disable
+the quiz?  TWO!  Yes, TWO!  (And don't ask me which ones they are.)  Determined
+pirates are unstoppable, given enough time, but their results do not spread 
+that far, since pirate boards are not that well-known, and easily tracked once
+found by authorities.  It is the "casual" pirates that the copy protection is
+determined to discourage.
+
+What I believe the companies should do is implement the above plus
+a special patch once the user registers that loudly exclaims upon bootup
+"REGISTERED TO XXXXX -- address, city, state zip" and disables the above.
+Two benefits: 1) encourages registration, 2) cuts down on pirating and
+makes it more traceable, because if the patch's registration message is
+encrypted, it will be quite hard to change, and therefore provides a
+stable trail of who allowed their copy out of their hands, and thus
+violated their license agreement.
+
+This way, the legitimate users who does not register will experience minimal 
+discomfort (who does major upgrades to their computer frequently?) as only
+problem they have is they won't be able to restore to another computer.
+
+The registered users would have proven they are legitmate users and therefore
+gains full rights, and can restore to different machines.  On the other hand,
+the software company now have a record of where THIS particular copy is 
+supposed to be.  If this user's copy was found to be somewhere it was not 
+supposed to be, we know who has broken their license agreement.  Of course,
+a hacker can break that eventually, but that's not the point, is it?
+
+--Kasey Chang

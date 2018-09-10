@@ -1,0 +1,17 @@
+From: pdc@dcs.ed.ac.uk (Paul Crowley)
+Subject: Re: Clipper and conference calls
+Reply-To: pdc@dcs.ed.ac.uk (Paul Crowley)
+Organization: Edinburgh University
+Lines: 11
+
+Quoting dougb@ecs.comm.mot.com in article <1993Apr26.150434.227@lmpsbbs.comm.mot.com>:
+>You would have to use something other than the AT&T black box - in other
+>words, I don't think public key would work.  The session key would have 
+>to be agreed upon prior to the conversation and distributed to all 
+>sites beforehand.
+
+Why can't one site decide a session key and send it to the other sites
+by public key encryption?
+  __                                  _____
+\/ o\ Paul Crowley   pdc@dcs.ed.ac.uk \\ //
+/\__/ Trust me. I know what I'm doing. \X/  Fold a fish for Jesus!

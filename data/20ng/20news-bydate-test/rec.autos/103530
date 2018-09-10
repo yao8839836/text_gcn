@@ -1,0 +1,50 @@
+From: ak954@yfn.ysu.edu (Albion H. Bowers)
+Subject: Re: Drag CoefficientsVx?s?
+Organization: St. Elizabeth Hospital, Youngstown, OH
+Lines: 43
+Reply-To: ak954@yfn.ysu.edu (Albion H. Bowers)
+NNTP-Posting-Host: yfn.ysu.edu
+
+
+In a previous article, gwm@spl1.spl.loral.com (Gary W. Mahan) says:
+
+>Could someone explain how to make sense of drag coefficients (i.e Cd) mentioned in magazines.  I understand that lower numbers signify better aerodynamics but
+>what does this mean in the real world.  Is there a way to calculate new top speeds(assuming the car is not rev limited at top speed) or mileage benefits if a identical car had the Cd reduced from .34 to .33.
+
+It's pretty complex, and Cd isn't the whole story either.  Cd for cars is
+usually calculated based on the frontal area of the car.  So a large car
+with a good Cd could get the same drag force as a smaller car with a
+poorer Cd. 
+
+To calculate drag use this formula:
+
+D = 1/2 * rho * v^2 * Cd * S
+
+Where D is the drag force (lbs), rho is the local air density (slugs/ft^3),
+V is the velocity (ft/s), and S is the frontal area (ft^2).  Note that the
+pieces called 1/2 * rho * v^2 are sometimes called qbar or dynamic pressure
+(a fancy aero term for air pressure or force). 
+
+Note that power is:
+
+P = F * v
+
+Where P is power (lbf-ft/s), F is the force, drag in this case (lbf) and v
+is velocity (ft/s). 
+
+Note that if you put the whole equation into one (by substituting D for
+force) you get a velocity _cubed_ term.  That's why huge increases in power
+result in little increases in speed.  Ditto for decreases in Cd. 
+
+So if you have a 100 mph car and reduce Cd from .34 to .33, your new top
+speed is:  (sound of trumpet fanfare)
+
+101 mph
+
+Sorry to dissappoint.
+
+
+-- 
+Al Bowers  DOD #900  Alfa  Ducati  Hobie  Kottke  'blad  Iaido  NASA
+"Well goodness sakes...don't you know that girls can't play guitar?"
+                                             -Mary Chapin-Carpenter

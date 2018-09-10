@@ -1,0 +1,33 @@
+From: car@access.digex.net (Mr. Blue)
+Subject: Some rookie questions
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 27
+NNTP-Posting-Host: access.digex.net
+
+Im new to Xlib programming. Im having a problem I hope someone here can
+help me with. I create a window, and I want it to have some background color,
+say red, and draw an oval in it. Further, when I resize the window, I want
+to be able to redraw the image so that is fills the new window (whether it
+is larger or smaller.) Im using AIXwindows on an RS6000.
+
+My problem is this: when I resize the window, only the "original" part of the
+window that was part of the window creation gets drawn into. Everything else
+is a grey..the oval "tries" to redraw itself but gets clipped. I can see that
+it WOULD be the right size if I could see all of it, but it only shows up in
+the region that was the original size of the window when created.
+
+For example, I start out the window at 200x200 in width and height. If I
+resize it to 400x400, the only part that has any color drawn into it is
+is from the origin out to 200x200..the rest is grey. Further the oval
+only shows up in that 200x200 area.
+
+What am I doing wrong?? How can I get a window to resize and redraw a 
+re-scaled image in it to take up the full size of the window?
+
+Second question:
+Could someone tell me what Xaw and Xmu are???
+
+Thanks,
+Chris
+
+

@@ -1,0 +1,25 @@
+Reply-To: jhupp@shockwave.win.net (Jeff Hupp)
+From: jhupp@shockwave.win.net (Jeff Hupp)
+Subject: Re: Clipper and conference calls
+Lines: 20
+
+ 
+>In article <122723@netnews.upenn.edu>, feeley@cattell.psych.upenn.edu (Wm. Michael Feeley) writes:
+>> Just curious, how would the Clipper Chip system handle
+>> conference calls?
+>
+>It's not Clipper, it's any encryption system.  I've seen a number of
+>designs; they generally involve a multi-line cleartext bridge.
+>
+        A 'multi-line cleartext bridge?"
+                      ^^^^^^^^^
+        And just were would you put that bridge?  If it isn't at one of
+the receiptants location, forget encryption at all.  You have blown any
+security you thought you might have had. 
+
+_____________________________________________________________________
+\Jeff Hupp                      |Internet: jhupp@shockwave.win.net   \
+|9797 Medowglen, Apt. 1807      |Ad:    Contract Programming, Novell |
+|Houston, Texas  77042          |       Network Design and Support.  |
+|Voice: (713) 780 - 9419        |"The best govenment doesn't" -- me. |
+\_____________________________________________________________________\ 

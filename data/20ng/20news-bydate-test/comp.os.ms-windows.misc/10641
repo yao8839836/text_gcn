@@ -1,0 +1,75 @@
+From: sasswb@unx.sas.com (Scott Bass)
+Subject: Re: Creating a batch file from Windows NT
+Nntp-Posting-Host: k2.unx.sas.com
+Organization: SAS Institute Inc.
+Lines: 69
+
+In <sasswb.737135699@k2> sasswb@unx.sas.com (Scott Bass) writes:
+
+>1.  For Windows NT, is there an alternative to the archane, fairly useless
+>DOS batch programming language?  For OS/2, IBM introduced the REXX language
+>as an alternative to .BAT.  Surely Windows NT should do the same thing,
+>right?
+
+>2.  In lieu of the above, is there ***ANY*** way to escape the CR/LF in a
+>.BAT file and continue a single command across multiple lines?  I have an
+>application which exits to the system and submits a batch file.  The batch
+>file is created on the fly from site-specific code stored within the
+>application.  As currently designed, the line length for the stored code
+>and the output file (.BAT file) is 80 characters, which is not enough for
+>all the options that must be specified on a particular command.  It would
+>help tremendously if I didn't have to redesign my code to kludge around the
+>lack of a true batch/"shell" programming language.
+
+< rest deleted >
+
+As a followup to my post let me add that:
+
+I'm not really a Windows or Windows NT user, so please excuse my ignorance.
+However, I'm a developer at SAS Institute, and one component of the
+application that I support is the ability to submit a (SAS) batch job from
+within an interactive SAS session.  The user site can enter their
+site-specific "batch profile" into a dataset within our product, specifying
+the pathname to the SAS executable, specifying site specific SAS options,
+etc.  At run time certain variables are resolved, and the resolved file is
+written to an external ascii file.  Then I exit to the operating system and
+run the job asynchronously, returning to the interactive session as soon as
+the job is submitted.  The batch job then runs concurrently with the
+interactive session.
+
+As currently designed, the internal dataset has a record length of 80
+characters.  But, to run the batch job, the command to reinvoke SAS in
+batch mode requires more than 80 characters.  Up til NT this has not been a
+problem, since every job control/shell language up til NT (eg.
+MVS/CMS/VMS/UNIX/OS2) had a way to escape the CR/LF and enter a single
+command across multiple lines (OS/2 via their REXX language, which is
+*STANDARD* with OS/2).
+
+The gist of all this is, since this application is for end-users, not
+within my company, I have to try to develop this process using native NT.
+Since my first posting I've learned that there are several third party
+companies that provide alternative script languages for Windows/Windows NT.
+And I'm sure a company that licenses our product would use that alternative
+script language if they had it, but I can't develop under the assumption
+that they have anything other than what comes with NT.
+
+I saw another post on this list (the subject was something like "Is vi
+available for Windows?") in which someone said that vi, make, awk, and
+***ksh*** was available with Microsoft TOOLKIT.  What is that product?  Is
+it a separate product or part of Windows?  ksh would do what I need if I
+could count on it at all NT sites.
+
+One last question:  I've heard that NT has remote processing capabilities,
+i.e. I could shove this batch job off to a server machine and have it run
+there.  If these are native NT commands rather than network specific
+commands, this would also help me improve this process.  If you can comment
+on these commands, I would appreciate it.
+
+Thanks again for the help,
+
+--
+------------------------------------------------------------------------------
+Scott Bass                           |  SAS Institute Inc.
+Integrated Systems, A216, x6975      |  SAS Campus Drive, Cary, NC  27513-2414
+sasswb@k2.unx.sas.com                |  (919) 677-8001 x6975
+------------------------------------------------------------------------------

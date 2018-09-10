@@ -1,0 +1,19 @@
+From: zyeh@caspian.usc.edu (zhenghao yeh)
+Subject: Re: RGB/HLS/HSV conversion routines wanted
+Organization: University of Southern California, Los Angeles, CA
+Lines: 12
+Distribution: world
+NNTP-Posting-Host: caspian.usc.edu
+
+
+In article <9304280923.AA26702@sun4nl.nluug.nl>, bultman@dgw.rws.nl (G.W.Bultman) writes:
+|> Hi,
+|> 
+|> I'm looking for RGB (cube) --> HLS (double hexcone) --> HSV (cylinder) 
+|> conversion routines. I have RGB <--> HSV, but miss the HLS <--> RGB/HSV.
+|> 
+	Have you checked Foley's book? The solutions are in chapter 13.
+
+	Yeh
+	USC
+

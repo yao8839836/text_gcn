@@ -1,0 +1,33 @@
+From: srg055@cck.coventry.ac.uk (Crowley)
+Subject: Re: 3.5 floppy only reads what IT wrote
+Nntp-Posting-Host: cc_sysk
+Organization: Coventry University
+Lines: 27
+
+In article <1434@netxcom.netx.com> pdressne@netxcom.netx.com (Peter Dressner) writes:
+>I have a Gateway with a 3.5 floppy. The drive only reads files it
+>wrote to the floppy. Floppies that have been formatted and 
+>contain files from other machines are unreadable. Also, 3.5 floppies
+>that were written by this defective floppy drive a long time ago are
+>also unreadable.
+>
+>This sounds like a head alignment problem. How does one go about
+>fixing it? Are there alignment screws that you can adjust?
+>
+>Thanks in advance for your responses.
+>
+>Peter
+
+A friend of mine had the same problem, it turned out that his floppy was
+set up as a 5 1/4 1.2Mb drive instead of 3.5 1.44Mb.....
+
+might help...
+
+
+Matt.
+
+-- 
+---------------------------------------------------------------------------
+         Crowley          |'Just remember I'll have known that, deep down 
+srg055@uk.ac.coventry.cck |inside, you were just enough of a bastard to be     
+__________________________ worth liking.'__________________________________

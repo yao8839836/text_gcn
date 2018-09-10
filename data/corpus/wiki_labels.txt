@@ -1,0 +1,10 @@
+Building
+Album
+School
+City
+Athlete
+Plant
+Scientist
+Village
+Company
+Film

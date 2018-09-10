@@ -1,0 +1,21 @@
+From: ppan@celsiustech.se (Per Andersson)
+Subject: X, shared libraries, and replacing modules in them?
+Organization: CelsiusTech AB
+Lines: 16
+
+
+Hi.
+
+I'm wonderring if it is possible to replace a single module, as XKeybind.o
+in a shared library, as libX11.so in Suns OpenWindows. I tried to RTFM, but
+I didn't get any wiser that way. Also, can I do the same on an RS6000 machine
+running 3.2.2 (if it is possible at all). I know how to do it with real 
+libraries (ar). I am trying to replace XLookupString in the delivered
+libraries, with another that does a few special things.
+
+/Per
+-- 
+-----------------------------------------------------------------------------
+Per Andersson - ppan@celsiustech.se (perand@stacken.kth.se on free time)
+Managing networks ( and occasionally SUNs) at, but not speaking for:
+CelsiusTech AB, J{rf{lla, Sweden

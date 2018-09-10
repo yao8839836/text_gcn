@@ -1,0 +1,31 @@
+From: mek@hydrox.enet.dec.com (Mark Klamerus)
+Subject: EventHandlers on XmPushButtons
+X-Received: by usenet.pa.dec.com; id AA29453; Wed, 19 May 93 06:20:27 -0700
+X-Received: by enet-gw.pa.dec.com; id AA05560; Wed, 19 May 93 06:20:22 -0700
+X-Received: from hydrox.enet; by decwrl.enet; Wed, 19 May 93 06:20:22 PDT
+X-To: comp.windows.x.usenet
+X-Apparently-To: comp.windows.x.usenet
+Lines: 22
+
+
+	Help,
+
+	I've got an applications with a series of pushbuttons across
+	the top (a toolbar).  I wanted to add eventhandlers to these
+	pushbuttons on EnterWindowMask and LeaveWindowMask so that
+	I can put up some descriptive text about the function of each
+	pushbutton as the pointer crosses over it.
+
+	I've done this fine, but I've turned up the following problem:
+
+	When the pushbuttons are sensitive I get callbacks on both of
+	the above events, but when they are not sensitive I only get
+	callbacks on LeaveWindow events.  This seems odd.  I would
+	expect this to be an all-or-nothing type of thing.
+
+	Is this a bug?  If not, can someone explain this behavior?
+
+	thanks,
+
+	Mark
+

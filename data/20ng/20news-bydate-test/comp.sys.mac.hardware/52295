@@ -1,0 +1,31 @@
+From: hiroki@limerick.cbs.umn.edu (Hiroki Morizono)
+Subject: Tones o' death 
+Nntp-Posting-Host: limerick.cbs.umn.edu
+Reply-To: hiroki@limerick.cbs.umn.edu
+Organization: University of Minnesota
+X-Newsreader: Tin 1.1 PL5
+Lines: 23
+
+Hi, I just test installed kanjitalk 6.07 on my IIci 
+and got a black screen, a way sick looking mac icon, and when hitting the
+programmers reset, a tone sequence that I guess is the infamous "tones of
+death." 
+I was able to reboot off a floppy, removed the japanese system, and
+set up the system folder on the hard drive to get system 7.01 back.
+Now have no overt problems with the mac.
+Any idea what caused the tones?  I forget the numbers but 7fff comes to mind.
+If it is some self diagnostic, why would an older system version catch it,
+and not 7. ?
+(I'll be moving up to 7.1 and worldscript by-and-by)
+Thanks in advance,
+Hiroki
+--
+Hiroki Morizono
+Department of Biochemistry		612.624.4938
+University of Minnesota			612.625.5780 (fax)
+1479 Gortner Avenue			hiroki@limerick.cbs.umn.edu
+St Paul MN 55108
+
+
+
+

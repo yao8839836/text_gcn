@@ -1,0 +1,28 @@
+From: eposnak@dale.ksc.nasa.gov (Ed Posnak)
+Subject: what is a client's DISPLAY variable set to?
+Keywords: DISPLAY, environment
+Organization: NASA
+Lines: 22
+
+
+Is there an easy (ie via shell commands) way to tell what the DISPLAY 
+environment variable is for any given client process?  Sometimes I can 
+get what I want by typing ps -axe if:
+   a. the client was invoked with a -display argument
+      or
+   b. DISPLAY is one of the first few variables defined in the environment
+      (actually I've never seen b. but it's there to illustrate the type 
+      of thing I'm looking for)
+
+Ultimately I wish to determine the number of displays that are simultaneously 
+running a given X application.
+
+my system: SunOS 4.1.2 sun4c
+
+thanks for any help,
+
+
+-- 
+Ed Posnak
+Harris Space Systems Corporation
+eposnak@core1.hssc.ksc.nasa.gov

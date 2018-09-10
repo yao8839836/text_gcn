@@ -1,0 +1,15 @@
+From: "kwansik kim" <kkim@cs.indiana.edu>
+Subject: Triangulized Data Wanted : with texture to be mapped.
+Organization: Indiana University Computer Science, Bloomington
+Lines: 10
+
+I need triangulized data of some nice looking model with some
+texture mapping. It would be better if the parametric values
+of each vertex( for the surface before triangulized ) are
+avaliable along with the Euclidean points so that we
+could use them for texture mapping.
+
+Thanks, Kwansik
+
+
+

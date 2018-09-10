@@ -1,0 +1,42 @@
+From: avinash@genesis.nred.ma.us
+Subject: COM4 card shows up as COM3 with COM4's address and IRQ!
+Keywords: COM port GURUS, HELP!
+Distribution: usa
+Organization: Genesis Public Access Unix +1 508 664 0149
+Lines: 35
+
+I have an internal modem that I configure as COM4 with IRQ 3, but
+when I insert that card into my DOS 5.02 PC, it shows up
+as COM3, with IRQ3 and COM4's address (2E8)!
+
+When I get into debug, and dump the data at 40:0, it shows
+the address 2E8 as belonging to COM3 - even though the modem
+should be at COM4.
+
+Now, I know the modem is working correctly since I have tested
+it in a different PC - and it shows up correctly as COM4, 2E8, IRQ3.
+
+To make it work in the DOS 5.02 PC, I have to configure the
+modem as COM3, 2E8, IRQ3---but though I have a comm program that
+allows that, the FAX program that came with the modem does not work.
+Anyway, I would like the computer to display the modem as it is set,
+as COM4...
+I did run a few diagnostic programs, and they did not help at all:
+a few displayed the modem as COM4, and others displayed it as
+being COM3.
+
+I am not using Windows, this is just a DOS problem...Any help
+or pointers appreciated....
+For various reasons, I must have this modem work at COM4, thus
+switching COM ports is not an answer...
+
+(Last time I posted this, I did not get any DOS specific answer,
+this time I have included all the specific information....please help!)
+
+-----
+Avinash Chopde
+avinash@acm.org
+-- 
+Avinash Chopde
+avinash@acm.org
+avinash@genesis.nred.ma.us

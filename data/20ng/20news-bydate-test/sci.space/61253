@@ -1,0 +1,669 @@
+From: klaes@verga.enet.dec.com (Larry Klaes)
+Subject: Electronic Journal of the ASA (EJASA) - April 1993
+Keywords: Venus, Venera, Soviet, probes
+Organization: Digital Equipment Corporation
+Lines: 663
+
+                          THE ELECTRONIC JOURNAL OF
+                  THE ASTRONOMICAL SOCIETY OF THE ATLANTIC
+
+                       Volume 4, Number 9 - April 1993
+
+                         ###########################
+
+                              TABLE OF CONTENTS
+
+                         ###########################
+
+          * ASA Membership and Article Submission Information
+
+          * The Soviets and Venus, Part 3 - Larry Klaes
+
+                         ###########################
+
+                         ASA MEMBERSHIP INFORMATION
+
+        The Electronic Journal of the Astronomical Society of the Atlantic
+    (EJASA) is published monthly by the Astronomical Society of the
+    Atlantic, Incorporated.  The ASA is a non-profit organization dedicated
+    to the advancement of amateur and professional astronomy and space
+    exploration, as well as the social and educational needs of its members.
+
+        ASA membership application is open to all with an interest in
+    astronomy and space exploration.  Members receive the Journal of the
+    ASA (hardcopy sent through United States Mail - Not a duplicate of this
+    Electronic Journal) and the Astronomical League's REFLECTOR magazine.
+    Members may also purchase discount subscriptions to ASTRONOMY and
+    SKY & TELESCOPE magazines.
+
+        For information on membership, you may contact the Society at any
+    of the following addresses:
+
+        Astronomical Society of the Atlantic (ASA)
+        c/o Center for High Angular Resolution Astronomy (CHARA)
+        Georgia State University (GSU)
+        Atlanta, Georgia  30303
+        U.S.A.
+
+        asa@chara.gsu.edu
+
+        ASA BBS: (404) 321-5904, 300/1200/2400 Baud
+
+        or telephone the Society Recording at (404) 264-0451 to leave your
+    address and/or receive the latest Society news.
+
+        ASA Officers and Council -
+
+        President - Eric Greene
+        Vice President - Jeff Elledge
+        Secretary - Ingrid Siegert-Tanghe
+        Treasurer - Mike Burkhead
+        Directors - Becky Long, Tano Scigliano, Bob Vickers
+        Council - Bill Bagnuolo, Michele Bagnuolo, Don Barry, Bill Black, 
+                  Mike Burkhead, Jeff Elledge, Frank Guyton, Larry Klaes, 
+                  Ken Poshedly, Jim Rouse, Tano Scigliano, John Stauter, 
+                  Wess Stuckey, Harry Taylor, Gary Thompson, Cindy Weaver, 
+                  Bob Vickers
+
+
+                             ARTICLE SUBMISSIONS
+
+        Article submissions to the EJASA on astronomy and space exploration
+    are most welcome.  Please send your on-line articles in ASCII format to
+    Larry Klaes, EJASA Editor, at the following net addresses or the above
+    Society addresses:
+
+        klaes@verga.enet.dec.com
+        or - ...!decwrl!verga.enet.dec.com!klaes
+        or - klaes%verga.dec@decwrl.enet.dec.com
+        or - klaes%verga.enet.dec.com@uunet.uu.net
+
+        You may also use the above addresses for EJASA back issue requests,
+    letters to the editor, and ASA membership information.
+
+        When sending your article submissions, please be certain to include
+    either a network or regular mail address where you can be reached, a
+    telephone number, and a brief biographical sketch.
+
+        Back issues of the EJASA are also available from the ASA anonymous 
+    FTP site at chara.gsu.edu (131.96.5.29).  Directory: /pub/ejasa
+
+                                DISCLAIMER
+
+        Submissions are welcome for consideration.  Articles submitted,
+    unless otherwise stated, become the property of the Astronomical
+    Society of the Atlantic, Incorporated.  Though the articles will not
+    be used for profit, they are subject to editing, abridgment, and other
+    changes.  Copying or reprinting of the EJASA, in part or in whole, is
+    encouraged, provided clear attribution is made to the Astronomical
+    Society of the Atlantic, the Electronic Journal, and the author(s).
+    Opinions expressed in the EJASA are those of the authors' and not
+    necessarily those of the ASA.  This Journal is Copyright (c) 1993
+    by the Astronomical Society of the Atlantic, Incorporated.
+
+
+                             THE SOVIETS AND VENUS
+                                     PART 3
+
+                       Copyright (c) 1993 by Larry Klaes
+
+	The author gives permission to any group or individual wishing
+	to distribute this article, so long as proper credit is given,
+        the author is notified, and the article is reproduced in its 
+        entirety.
+
+        To the North Pole!
+
+        On June 2 and 7, 1983, two of the Soviet Union's mighty PROTON 
+    rockets lifted off from the Tyuratam Space Center in the Kazakhstan 
+    Republic.  Aboard those boosters were a new breed of VENERA probe 
+    for the planet Venus. 
+
+        Designated VENERA 15 and 16, the probes were meant not for landing
+    yet more spherical craft on the Venerean surface but to radar map the
+    planet in detail from orbit.  To accomplish this task, the basic
+    VENERA design was modified in numerous areas.  The central bus core
+    was made one meter (39.37 inches) longer to carry the two tons of
+    propellant required for braking into orbit, double the fuel carried by
+    the VENERA 9 and 10 orbiters eight years earlier.  Extra solar panels
+    were added on to give the vehicles more power for handling the large
+    amounts of data which would be created by the radar imaging.  The
+    dish-shaped communications antennae were also made one meter larger 
+    to properly transmit this information to Earth. 
+
+        Atop the buses, where landers were usually placed, were installed
+    the 1.4 by 6-meter (4.62 by 19.8-foot), 300-kilogram (660-pound)
+    POLYUS V side-looking radar antennae.  The radar system, possibly a
+    terrain-imaging version of the nuclear-powered satellites used by 
+    the Soviets for Earth ocean surveillance, would be able to map Venus'
+    surface at a resolution of one to two kilometers (0.62 to 1.2 miles). 
+
+        The Soviet probes' imaging parameters were a vast improvement over
+    the United States PIONEER VENUS Orbiter, which could reveal objects 
+    no smaller than 75 kilometers (45 miles) in diameter.  And while the
+    VENERAs' resolution was comparable to that of similar observations 
+    made by the 300-meter (1,000-foot) Arecibo radio telescope on the 
+    island of Puerto Rico, the orbiters would be examining the northern
+    pole of Venus.  This region was unobtainable by either Arecibo or 
+    PIONEER VENUS and appeared to contain a number of potentially 
+    interesting geological features worthy of investigation.
+
+        On October 10, 1983, after an interplanetary journey of 330 
+    million kilometers (198 million miles) and two mid-course corrections, 
+    VENERA 15 fired its braking rockets over Venus to place itself in a 
+    polar orbit 1,000 by 65,000 kilometers (600 by 39,000 miles) around 
+    the planet, completing one revolution every twenty-four hours.  VENERA 
+    16 followed suit four days later.  The twin probes thus became Venus' 
+    first polar-circling spacecraft.
+
+        Radar operations began on October 16 for VENERA 15 and October 20 
+    for VENERA 16.  For up to sixteen minutes every orbit over the north
+    pole, the probes would make a radar sweep of the surface 150 kilometers 
+    (ninety miles) wide and nine thousand kilometers (5,400 miles) long.  
+    The craft would then head out to the highest part of their orbits over 
+    the south pole to recharge their batteries and transmit the data back 
+    to two large Soviet antennae on Earth.  Each strip of information took 
+    eight hours to process by computer.  By the end of their main missions 
+    in July of 1984, the VENERAs had mapped 115 million square kilometers 
+    (46 million square miles), thirty percent of the entire planet.
+
+        VENERA 15 and 16 revealed that Venus has a surface geology more
+    complex than shown by PIONEER VENUS in the late 1970s.  Numerous hills, 
+    mountains, ridges, valleys, and plains spread across the landscape, 
+    many of them apparently formed by lava from erupting volcanoes in the 
+    last one billion years.  In planetary terms this makes the Venerean 
+    surface rather young.  Hundreds of craters were detected as well, the 
+    largest of which had to have been created by meteorites (planetoids 
+    would be a better term here) at least fourteen kilometers (8.4 miles) 
+    across, due to Venus' very dense atmosphere.
+
+        There were some disagreements between U.S. and Soviet scientists
+    on the origins of certain surface features.  For example, the probes' 
+    owners declared that the 96-kilometer (57.6-mile) wide crater at the 
+    summit of 10,800-meter (35,640-foot) high Maxwell Montes, the tallest 
+    mountain on the planet, was the result of a meteorite impact.  American 
+    scientists, on the other hand, felt the crater was proof that Maxwell 
+    was a huge volcano sitting on the northern "continent" of Ishtar Terra.  
+
+        In any event, the U.S. decided to wait on making verdicts about
+    Venus until the arrival of their own radar probe, scheduled for later
+    in the decade.  Originally named the Venus Orbiting Imaging Radar
+    (VOIR), its initial design was scaled back and the craft was redesig-
+    nated the Venus Radar Mapper (VRM).  Eventually the machine would be 
+    called MAGELLAN, after the Portuguese navigator Ferdinand Magellan 
+    (circa 1480-1521).  This vehicle would map the entire planet in even 
+    finer detail than the VENERAs.  For the time, however, the Soviet 
+    probes maintained that distinction.
+
+        Radar imaging was not the only ability of the VENERAs.  Bolted
+    next to the POLYUS V radar antenna were the Omega altimeter and the 
+    Fourier infrared spectrometer, the latter for measuring the world's
+    temperatures.  The majority of the areas covered registered about
+    five hundred degrees Celsius (932 degrees Fahrenheit), but a few
+    locations were two hundred degrees hotter, possibly indicating 
+    current volcanic activity.  The probes also found that the clouds 
+    over the poles were five to eight kilometers (three to 4.8 miles) 
+    lower than at the equator.  In contrast, the polar air above sixty 
+    kilometers (thirty-six miles) altitude was five to twenty degrees 
+    warmer than the equatorial atmosphere at similar heights.
+
+        When the main mapping mission ended in July of 1984, there were 
+    plans for at least one of the VENERAs to radar image the surface at 
+    more southernly latitudes.  Unfortunately this idea did not come to 
+    pass, as the orbiters may not have possessed enough attitude-control
+    gas to perform the operation.  
+
+        VENERA 15 and 16 ceased transmission in March of 1985, leaving 
+    the Soviet Institute of Radiotechnology and Electronics with six 
+    hundred kilometers (360 miles) of radar data tape to sort into an 
+    atlas of twenty-seven maps of the northern hemisphere of Venus.
+
+        Venus by Balloon
+
+        For years the thick atmosphere of Venus had been a tempting 
+    target to scientists who wished to explore the planet's mantle of 
+    air with balloon-borne instruments.  Professor Jacques Blamont of 
+    the French space agency Centre National d'Etudes Spatiales (CNES)
+    had proposed such an idea as far back as 1967, only to have a joint 
+    French-Soviet balloon mission canceled in 1982.  Nevertheless, 
+    late in the year 1984, such dreams would eventually come true.
+
+        When two PROTON rockets were sent skyward on December 15 and 21, 
+    the Soviet Union provided Western observers with the first clear, full 
+    views of the booster which had been launching every Soviet Venus probe 
+    since 1975.  This was but one of many firsts for the complex mission.
+
+        The unmanned probes launched into space that December were named
+    VEGA 1 and 2, a contraction of the words VENERA and GALLEI - Gallei
+    being the Russian word for Halley.  Not only did the spacecraft 
+    have more than one mission to perform, they also had more than one 
+    celestial objective to explore, namely the comet Halley.  
+
+        This famous periodic traveler was making its latest return to 
+    the inner regions of the solar system since its last visit in 1910.
+    Since it was widely believed that comets are the icy remains from
+    the formation of the solar system five billion years ago, scientists 
+    around the world gave high priority to exploring one of the few such 
+    bodies which actually come close to Earth.  
+
+        Most comets linger in the cold and dark outer fringes of the solar 
+    system.  Some, like Halley, are perturbed by various forces and fall 
+    in towards the Sun, where they circle for millennia spewing out ice 
+    and debris for millions of kilometers from the warmth of each solar 
+    encounter.
+
+        The Soviet Union, along with the European Space Agency (ESA) and
+    Japan's Institute of Space and Astronautical Science (ISAS), did not
+    wish to miss out on this first opportunity in human history to make a
+    close examination of Halley.  The ESA would be using the cylindrical
+    GIOTTO probe to make a dangerously close photographic flyby of the 
+    comet, while Japan's first deep space craft - SAKIGAKE (Pioneer) and 
+    SUISEI (Comet) - would view Halley from a much safer distance. 
+
+        Scientists in the United States also desired to study the comet
+    from the vantage of a space probe, at one time envisioning a vessel
+    powered by solar sails or ion engines.  However, government budget
+    cuts to NASA canceled the American efforts.  The U.S. would have to
+    make do primarily with Earth-based observations and the sharing of 
+    data from other nations, though an instrument named the Dust Counter 
+    and Mass Analyzer (DUCMA), designed by Chicago University Professor 
+    John Simpson, was added on the Soviet mission in May of 1984.
+
+        The Soviets' answer to Halley were the VEGAs.  Instead of building
+    an entirely new craft for the mission, the Soviets decided to modify
+    their VENERA bus design to encounter the comet while performing an 
+    advanced Venus mission along the way.  As VEGA 1 and 2 reached Venus,
+    the buses would drop off one lander/balloon each and use the mass of 
+    the shrouded planet to swing them towards comet Halley, much as the 
+    U.S. probe MARINER 10 used Venus to flyby Mercury eleven years earlier. 
+    The Soviet craft would then head on to Halley, helping to pinpoint the 
+    location of the comet's erupting nucleus for the GIOTTO probe to dive 
+    in only 605 kilometers (363 miles) away in March of 1986.
+
+        As planned, the two VEGAs arrived at Venus in June of 1985.  VEGA
+    1 released its payload first on the ninth day of the month, the lander
+    making a two-day descent towards the planet.  The craft touched the
+    upper atmosphere on the morning of June 11.  Sixty-one kilometers
+    (36.6 miles) above the Venerean surface a small container was released
+    by the lander, which produced a parachute at 55 kilometers (33 miles)
+    altitude.  Thus the first balloon probe ever to explore Venus had
+    successfully arrived. 
+
+        One kilometer after the opening of the parachute, helium gas was
+    pumped into the Teflon-coated plastic balloon, inflating it to a
+    diameter of 3.54 meters (11.68 feet).  Dangling on a tether thirteen
+    meters (42.9 feet) below was the instrument package, properly known as
+    an aerostat.  The top part of the 6.9-kilogram (15.18-pound) aerostat
+    consisted of a cone which served as an antenna and tether attachment
+    point to the balloon.  Beneath it was the transmitter, electronics,
+    and instruments.  Connected at the bottom was a nephelometer for
+    measuring cloud particles.  The aerostat was painted with a special
+    white finish to keep at bay the corroding mist of sulfuric acid which
+    permeated the planet's atmosphere. 
+
+        The VEGA 1 balloon was dropped into the night side of Venus just
+    north of the equator.  Scientists were concerned that the gas bag 
+    would burst in the heat of daylight, so they placed it in the darkened 
+    hemisphere to give the craft as much time as possible to return data.  
+    This action necessitated that the landers come down in the dark as 
+    well, effectively removing the camera systems used on previous missions.  
+    The author wonders, though, if they could have used floodlights similar 
+    to the ones attached to VENERA 9 and 10 in 1975, when Soviet scientists 
+    had thought the planet's surface was enshrouded in a perpetual twilight 
+    due to the permanently thick cloud cover.
+
+        The first balloon transmitted for 46.5 hours right into the day
+    hemisphere before its lithium batteries failed, covering 11,600
+    kilometers (6,960 miles).  The threat of bursting in the day heat did
+    not materialize.  The VEGA 1 balloon was stationed at a 54-kilometer
+    (32.4-mile) altitude after dropping ballast at fifty kilometers
+    (thirty miles), for this was considered the most active of the three
+    main cloud layers reported by PIONEER VENUS in 1978.  Indeed the
+    balloon was pushed across the planet at speeds up to 250 kilometers
+    (150 miles) per hour.  Strong vertical winds bobbed the craft up and
+    down two to three hundred meters (660 to 990 feet) through most of the
+    journey.  The layer's air temperature averaged forty degrees Celsius
+    (104 degrees Fahrenheit) and pressure was a mere 0.5 Earth atmosphere.
+    The nephelometer could find no clear regions in the surrounding clouds. 
+
+        Early in the first balloon's flight, the VEGA 1 lander was already
+    headed towards the Venerean surface.  Both landers were equipped with
+    a soil drill and analyzer similar to the ones carried on VENERA 13 
+    and 14 in 1982.  However, VEGA 1 would become unable to report the
+    composition of the ground at its landing site in Rusalka Planitia, the
+    Mermaid Plain north of Aphrodite Terra.  While still ten to fifteen
+    minutes away from landing, a timer malfunction caused the drill to 
+    accidentally begin its programmed activity sixteen kilometers (9.6 
+    miles) above the surface. 
+
+        There was neither any way to shut off the instrument before
+    touchdown nor reactivate it after landing.  This was unfortunate not
+    only for the general loss of data but also for the fact that most of
+    Venus was covered with such smooth low-level lava plains and had never 
+    before been directly examined.  Nevertheless, the surface temperature 
+    and pressure was calculated at 468 degrees Celsius (874.4 degrees 
+    Fahrenheit) and 95 Earth atmospheres respectively during the lander's 
+    56 minutes of ground transmissions.  A large amount of background 
+    infrared radiation was also recorded at the site.
+
+        As had been done when the drills and cameras on VENERA 11 and 
+    12 had failed in December of 1978, the Soviets focused on the data
+    returned during the lander's plunge through the atmosphere.  The
+    French-Soviet Malachite mass spectrometer detected sulfur, chlorine, 
+    and possibly phosphorus.  It is the sulfur - possibly from active 
+    volcanoes - which gives the Venerean clouds their yellowish color.
+    The Sigma 3 gas chromatograph found that every cubic meter of air
+    between an altitude of 48 and 63 kilometers (28.8 and 37.8 miles)
+    contained one milligram (0.015 grain) of sulfuric acid.
+
+        The VEGA 1 data on the overall structure of the cloud decks 
+    appeared to be at odds with the information from PIONEER VENUS.
+    The case was made even stronger by the fact that VEGA 2's results
+    nearly matched its twin.  The VEGAs found only two main cloud layers 
+    instead of the three reported by the U.S. probes.  The layers were 
+    three to five kilometers (1.8 to 3 miles) thick at altitudes of 50 
+    and 58 kilometers (30 and 34.8 miles).  The clouds persisted like a
+    thin fog until clearing at an altitude of 35 kilometers (21 miles), 
+    much lower than the PV readings.  One possibility for the discrepan-
+    cies may have been radical structural changes in the Venerean air 
+    over the last seven years.
+
+        When the lander and balloon finally went silent, the last 
+    functioning part of the VEGA 1 mission, the flyby bus, sailed on
+    for a 708 million-kilometer (424.8 million-mile) journey around
+    the Sun to become the first probe to meet comet Halley.  On March
+    6, 1986, the bus made a 8,890-kilometer (5,334-mile) pass at the 
+    dark and icy visitor before traveling on in interplanetary space.
+    The Soviets had accomplished their first mission to two celestial
+    bodies with one space vessel.
+
+        On June 13, VEGA 2 released its lander/balloon payload for
+    a two-day fall towards Venus.  Like its duplicate, the VEGA 2
+    balloon radioed information back to the twenty antennae tracking
+    it on Earth for 46.5 hours before battery failure on the morning
+    side of the planet.  During its 11,100-kilometer (6,660-mile)
+    flight over Venus, the second balloon entered in a rather still
+    environment which became less so twenty hours into the mission.
+    After 33 hours mission time the air became even more turbulent 
+    for a further eight hours.  When the balloon passed over a five-
+    kilometer (three-mile) mountain on the "continent" of Aphrodite 
+    Terra, a powerful downdraft pulled the craft 2.5 kilometers (1.5 
+    miles) towards the surface.
+
+        Temperature sensors on the VEGA 2 balloon reported that the air 
+    layer it was moving through was consistently 6.5 degrees Celsius 
+    (43.7 degrees Fahrenheit) cooler than the area explored by the VEGA 1
+    balloon.  This was corroborated by the VEGA 2 lander as it passed 
+    through the balloon's level.  No positive indications of lightning
+    were made by either balloon, and the second aerostat's nephelometer 
+    failed to function.
+
+        The VEGA 2 lander touched down on the northern edge of Aphrodite
+    Terra's western arm on the fifteenth of June, 1,500 kilometers (900
+    miles) southeast of VEGA 1.  The lander's resting place was smoother
+    than thought, indicating either a very ancient and worn surface or a
+    relatively young one covered in fresh lava.  The soil drill was in
+    working order and reported a rock type known as anorthosite-troctolite, 
+    rare on Earth but present in Luna's highlands.  This rock is rich in 
+    aluminum and silicon but lacking in iron and magnesium.  A high degree 
+    of sulfur was also present in the soil.  The air around VEGA 2 measured 
+    463 degrees Celsius (865.4 degrees Fahrenheit) and 91 Earth atmospheres,
+    essentially a typical day (or night) on Venus.
+
+        Far above the VEGA 2 lander, its carrier bus sped past Venus at
+    a distance of 24,500 kilometers (14,700 miles) and followed its twin 
+    to comet Halley, making a closer flyby on March 9, 1986 at just 8,030 
+    kilometers (4,818 miles).  Both probes helped to reveal that the comet 
+    is a very dark and irregular-shaped mass about fourteen kilometers 
+    (8.4 miles) across, rotating once every 53 hours, give or take three 
+    hours.
+
+        Since both VEGA craft were still functioning after their Halley
+    encounters, Soviet scientists considered an option to send the 
+    probes to other celestial objects.  One prime target was the near-
+    Earth planetoid 2101 Adonis, which VEGA 2 could pass at a distance 
+    of six million kilometers (3.6 million miles).  Sadly, the Soviets 
+    had to back out on the opportunity to become the first nation to fly 
+    a spacecraft past a planetoid when it was discovered that there was 
+    not enough maneuvering fuel in the probe to reach Adonis as planned.  
+    VEGA 1 and 2 were quietly shut down in early 1987.
+
+        Future Plans Diverted
+
+        The impressive VEGA mission had given some scientists numerous 
+    ideas and hope for even more ambitious expeditions to the second 
+    world from the Sun.  One example was the VESTA mission, planned for
+    the early 1990s.
+
+        This Soviet-French collaboration called for the launch of multiple 
+    probes on a single PROTON rocket in either 1991 or 1992.  The craft 
+    would first swing by Venus and drop off several landers and balloon 
+    probes.  The aerostats would be designed to survive in the planet's 
+    corrosive atmosphere for up to one month, a large improvement over 
+    the VEGA balloons' two days.  The mission would then head out to 
+    investigate several planetoids and comets, including a possible 
+    landing on Vesta (thus the mission name), the most reflective Main 
+    Belt planetoid as seen from Earth.
+
+        Unfortunately for Venus exploration, plans began to change in
+    the Soviet Union.  In 1986 the Soviets decided to reroute the VESTA
+    mission to the red planet Mars instead of Venus, keeping the comet
+    and planetoid aspects intact.  By this time in the Soviet space 
+    program interest was focusing on Mars.  Already under construction 
+    was an entirely new probe design called PHOBOS.  Two members of this 
+    class were planned to leave Earth in 1988 and orbit Mars the next 
+    year.  PHOBOS 1 and 2 would then place the first instruments on
+    Mars' largest moon, Phobos. 
+
+        All this was a prelude to even more advanced Mars expeditions,
+    including balloon probes, rovers, soil sample return craft, and 
+    eventually human explorers in the early Twenty-First Century.
+    The environment of Venus was just too hostile for any serious
+    consideration of human colonization in the near future.
+
+        But things began to look bleak for Soviet Venus and Mars
+    exploration.  Both PHOBOS probes failed to complete their missions,
+    one losing contact on the way to the Red Planet in 1988 and the other
+    going silent in Mars orbit just one week before the planned moon
+    landing in March of 1989. 
+
+        In 1989 a plan was devised for a Venus orbiter to drop eight to
+    ten penetrators around the planet in 1998.  Several years later the
+    mission launch date was moved to the year 2005 and has now been put 
+    on indefinite hold.  No other official Soviet missions to Venus have
+    since been put forth, a sad commentary after twenty-five years of
+    continuous robotic exploration of the planet. 
+
+        During the late 1980s a drastic political and economic change
+    was taking over the Soviet Union.  President Mikhail Gorbachev began 
+    to "open up" his nation to the benefits of increased cooperation with 
+    the rest of the nations, particularly those in the West.  While the 
+    culture became less oppressive than in the past, the economy was taking 
+    a very rough ride as it also underwent the effects of a "free market".
+
+        These effects hit everywhere, including the space program.
+    Missions at all levels were cut back.  The Soviets began making
+    almost desperate attempts to cooperate with other space-faring
+    nations either to keep their remaining programs alive or just to 
+    make money.  
+
+        In early 1992 it was reported that the Soviets were offering for 
+    sale several fully-equipped VENERAs they had in storage for the price 
+    of 1.6 million dollars each, an incredibly low price for any planetary 
+    probe.  No nation took them up on the bargain.  Meanwhile the United 
+    States was gearing up for new Venus missions of their own.
+
+        MAGELLAN and GALILEO 
+
+        The U.S. reactivated their long-dormant planetary exploration
+    with the launch of the Space Shuttle ATLANTIS on May 4, 1989.
+    Aboard the Shuttle was the MAGELLAN spacecraft, a combination of
+    spare parts from other U.S. probes designed to make the most 
+    detailed and complete radar-mapping of Venus in history.  When
+    MAGELLAN reached the second world in August of 1990, it would be
+    able to map almost the entire planet down to a resolution of 108
+    meters (360 feet), surpassing the abilities of VENERA 15 and 16.
+
+        In the interim another American probe was launched from a Space 
+    Shuttle which would make a quick flyby of Venus on its way to orbit 
+    the giant planet Jupiter in 1995.  On October 18, 1989, the Shuttle 
+    ATLANTIS released its second unmanned planetary probe into space, 
+    named GALILEO after the famous Italian astronomer who discovered the 
+    probe's primary target's major moons in 1610.
+
+        In the absence of a powerful enough booster to send GALILEO on
+    a direct flight to the Jovian planet, the probe was sent around
+    Venus and Earth several times to build up enough speed to reach
+    Jupiter.  As a result, Venus became GALILEO's first planetary
+    goal in February of 1990.  The probe radioed back images of the
+    planet's swirling clouds and further indications of lightning in
+    that violent atmosphere.
+
+        On the Drawing Boards
+
+        With the incredible success of MAGELLAN in the last few years,
+    new plans have been laid out for further journeys to Venus.  Scien-
+    tists in the U.S. have talked to space scientists in the former Soviet 
+    Union - now the Commonwealth of Independent States since January 1, 
+    1992 - of a cooperative effort to launch new VENERA lander missions 
+    within in the next decade.  Japan, India, and the ESA have also
+    considered their own Venus missions in the next few decades.
+
+        In February of 1993 NASA came up with several new Venus projects 
+    as part of their Discovery Program for launching inexpensive probes
+    throughout the solar system.  For Venus two missions were selected
+    for further study:  A Venus Multiprobe Mission involving the landing
+    of fourteen small probes over one hemisphere to measure winds, air
+    temperature, and pressure; and the Venus Composition Probe, designed
+    to study Venus' atmosphere while descending through the thick air
+    with the aid of a parachute, much as the Soviets had done since 1967.
+    Final project decisions will be made in 1994.
+
+        Humans on Venus      
+
+        Will a human ever be able to stand on the surface of Venus?
+    At present the lead-melting temperatures and crushing air pressure
+    would be threatening to any Earth life not protected in something
+    even tougher than a VENERA lander.  Plans have been looked into
+    changing the environment of Venus itself into something more like
+    Earth's.  However, it should be noted that any such undertaking
+    will require the removal of much of the thick carbon dioxide 
+    atmosphere, a major reduction in surface heat, and the ability 
+    to speed up the planet's rotation rate to something a bit faster
+    than once every 243 Earth days.  Such a project may take centuries
+    if not millennia.
+
+        In the meantime efforts should be made to better understand
+    Venus as its exists today.  We still have yet to fully know how
+    a world so seemingly similar to Earth in many important ways became
+    instead such a deadly place.  Will Earth ever suffer this fate?
+    Perhaps Venus holds the answers.  Such answers may best be found
+    through international cooperation, including the nation which 
+    made the first attempts to lift the cloudy veils from Venus.
+
+        Bibliography -
+
+         Barsukov, V. L., Senior Editor, VENUS GEOLOGY, GEOCHEMISTRY, AND 
+           GEOPHYSICS: RESEARCH RESULTS FROM THE U.S.S.R., University of
+           Arizona Press, Tucson, 1992
+
+         Beatty, J. Kelly, and Andrew Chaikin, Editors, THE NEW SOLAR 
+           SYSTEM, Cambridge University Press and Sky Publishing Corp.,
+           Cambridge, Massachusetts, 1990
+
+         Burgess, Eric, VENUS: AN ERRANT TWIN, Columbia University Press, 
+           New York, 1985
+
+         Burrows, William E., EXPLORING SPACE: VOYAGES IN THE SOLAR
+           SYSTEM AND BEYOND, Random House, Inc., New York, 1990
+
+         Chaisson, Eric, and Steve McMillan, ASTRONOMY TODAY, Prentice-
+           Hall, Inc., Englewood Cliffs, New Jersey, 1993
+
+         Gatland, Kenneth, THE ILLUSTRATED ENCYCLOPEDIA OF SPACE TECHNOLOGY, 
+           Salamander Books, New York, 1989
+
+         Greeley, Ronald, PLANETARY LANDSCAPES, Allen and Unwin, Inc.,
+           Winchester, Massachusetts, 1987
+
+         Hart, Douglas, THE ENCYCLOPEDIA OF SOVIET SPACECRAFT, Exeter 
+           Books, New York, 1987
+
+         Hartmann, William K., MOONS AND PLANETS (Third Edition), Wadsworth
+           Publishing Company, Belmont, California, 1993
+
+         Harvey, Brian, RACE INTO SPACE: THE SOVIET SPACE PROGRAMME, 
+           Ellis Howood Limited, Chichester, England, 1988
+
+         Henbest, Nigel, THE PLANETS: PORTRAITS OF NEW WORLDS, Viking
+           Penguin Books Ltd., Harmondsworth, Middlesex, England, 1992
+
+         Johnson, Nicholas L., SOVIET SPACE PROGRAMS 1980-1985, Volume
+           66 Science and Technology Series, American Astronautical 
+           Society, Univelt, Inc., San Diego, California, 1987
+
+         Johnson, Nicholas L., THE SOVIET YEAR IN SPACE 1989/1990, 
+           Teledyne Brown Engineering, Colorado Springs, Colorado,
+           1990/1991
+
+         Lang, Kenneth R., and Charles A. Whitney, WANDERERS IN SPACE:
+           EXPLORATION AND DISCOVERY IN THE SOLAR SYSTEM, Cambridge 
+           University Press, New York, 1991
+
+         MAGELLAN: THE UNVEILING OF VENUS, JPL 400-345, March 1989
+
+         Murray, Bruce, Michael C. Malin, and Ronald Greeley, EARTHLIKE
+           PLANETS: SURFACES OF MERCURY, VENUS, EARTH, MOON, MARS, W. H.
+           Freeman and Company, San Francisco, California, 1981
+
+         Murray, Bruce, JOURNEY INTO SPACE: THE FIRST THREE DECADES OF
+           SPACE EXPLORATION, W. W. Norton and Company, New York, 1989
+
+         Newcott, William, "Venus Revealed", NATIONAL GEOGRAPHIC MAGAZINE, 
+           Volume 183, Number 2, Washington, D.C., February 1993
+
+         Nicks, Oran W., FAR TRAVELERS: THE EXPLORING MACHINES, NASA 
+           SP-480, Washington, D.C., 1985
+
+         Oberg, James Edward, NEW EARTHS: RESTRUCTURING EARTH AND OTHER
+           PLANETS, A Meridian Book, New American Library, Inc., New
+           York, 1983
+
+         Robertson, Donald F., "Venus - A Prime Soviet Objective" (Parts 
+           1/2), SPACEFLIGHT, Volume 34, Numbers 5/6, British Interplanetary
+           Society (BIS), London, England, May/June 1992
+
+         Smith, Arthur, PLANETARY EXPLORATION: THIRTY YEARS OF UNMANNED
+           SPACE PROBES, Patrick Stephens, Ltd., Wellingborough, Northamp-
+           tonshire, England, 1988
+
+         VOYAGE THROUGH THE UNIVERSE: THE NEAR PLANETS, By the Editors
+           of Time-Life Books, Inc., Alexandria, Virginia, 1990
+
+         Wilson, Andrew, JANE'S SOLAR SYSTEM LOG, Jane's Publishing, Inc.,
+           New York, 1987
+
+        About the Author -
+
+        Larry Klaes, EJASA Editor, is the recipient of the ASA's 1990 
+    Meritorious Service Award for his work as Editor of the EJASA since 
+    its founding in August of 1989.  Larry also teaches a course on
+    Basic Astronomy at the Concord-Carlisle Adult and Community 
+    Education Program in Massachusetts.
+
+        Larry is the author of the following EJASA articles:
+
+        "The One Dream Man: Robert H. Goddard, Rocket Pioneer" - August 1989
+        "Stopping Space and Light Pollution" - September 1989              
+        "The Rocky Soviet Road to Mars" - October 1989
+        "Astronomy and the Family" - May 1991  
+        "The Soviets and Venus, Part 1" - February 1993
+        "The Soviets and Venus, Part 2" - March 1993
+
+
+      THE ELECTRONIC JOURNAL OF THE ASTRONOMICAL SOCIETY OF THE ATLANTIC
+
+                          April 1993 - Vol. 4, No. 9
+
+                           Copyright (c) 1993 - ASA
+

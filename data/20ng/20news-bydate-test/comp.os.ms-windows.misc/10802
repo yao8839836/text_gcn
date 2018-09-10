@@ -1,0 +1,19 @@
+From: nick@brimbank.apana.org.au (Nick Langmaid)
+Subject: Re: Creating a batch file from Windows NT
+Organization: APANA, Melbourne.
+Lines: 14
+
+In <sasswb.737229720@k2> sasswb@unx.sas.com (Scott Bass) writes:
+
+>I saw another post on this list (the subject was something like "Is vi
+>available for Windows?") in which someone said that vi, make, awk, and
+>***ksh*** was available with Microsoft TOOLKIT.  What is that product?  Is
+>it a separate product or part of Windows?  ksh would do what I need if I
+>could count on it at all NT sites.
+
+I imagine that was the MKS Toolkit, from Mortice Kern Systems.
+Another third party add-in, and a good one too.
+
+-- 
+Nick Langmaid  nick@brimbank.apana.org.au  Melbourne, Australia  +61(3)336-3228
+

@@ -1,0 +1,63 @@
+From: ccastco@prism.gatech.EDU (Costas Malamas)
+Subject: Re: Help with changing Startup logo
+Organization: Georgia Institute of Technology
+Lines: 58
+
+In article <1993Apr28.161910.17062@seas.gwu.edu> louray@seas.gwu.edu (Michael Panayiotakis) writes:
+>In article <735952415.AA01739@f-454.fidonet.org> C..Doelle@p26.f3333.n106.z1.fidonet.org (C. Doelle) writes:
+>>Hello Brad!
+>>
+>>Monday April 26 1993 17:24, Brad Smalling wrote to (crosspost 1) All:
+>> BS> COPY /B WIN.CNF+VGALOGO.LGO+VGALOGO.RLE WIN.COM
+*** Unecessary ...
+>>
+>> BS> (I grabbed this from _Supercharging Windows_ by Judd Robbins--great book)
+>> BS> This is also how you can put your own logo into the Windows startup
+>>
+might do it, too much trouble :)
+>>Brad,
+
+>.bmp *will* convert to .rle.  I Know for a fact that PaintShop
+>(shareware from cica; /desktop, I think, filename psVVV.zip (I think,
+>where VVV is the ver. number.  If that's not true, let me know and I"ll
+>This, however, will write your .rle file with a .bmp extension, so you
+>have to rename it.
+>your file has to be less than 64 K
+>( at least that's what the faq says, but Mine wont work for more than
+>about 30...maybe they mend 32K, I don't know).
+
+*** Agreed Mixali...
+
+>Your file has to fit VGA size (480 * 860, or whatever standard vga size
+>is.)  If you use a non-vga screen (e.g. Cga, ega, svga, there is also a
+>way to do it, but I thing instead of vgalogo.lgo you use another file,
+
+*** Not entirely true..>
+
+>ALSO....your .bmp has to be 16 COLOURS Or less.
+
+TRUE ***
+
+>Finally, REMEMBER TO SAVE YOUR CURRENT WIN.COM before, and put your
+>new win.com in the windows directory.  Also, don't start windows from a
+>
+Unecessary ...
+>Mickey
+
+	Path of least resistance (TM) :) :
+Get WinGIF 1.4 from cica (ftp.cica.indiana.edu pub/pc/win3/(desktop?) )
+It will save to native .rle format unlike PSP (an otherwise fine, fine prog)
+Make a file using anything that has to be less than 30k, as Michael said,
+and less than 16 colors... Import it to WinGIF as gif, pcx or bmp and
+save it in you windows/system subdir as vgalogo.rle (NOT .lgo). Exit Win,
+and run setup in the windows subdir. Reselect your _current_ config. Run
+Win. Voila'
+(minor correction: the .rle file has to be <30k. that means ~15k gif ?)
+Hope it helps... (and please, please someone put this in the group's FAQ)
+
+
+-- 
+Costas Malamas ____________________________________________________________
+Georgia Institute of Technology 
+OIT UA -- OIT doesn't pay me enough to share its opinions... 
+Internet: ccastco@prism.gatech.edu

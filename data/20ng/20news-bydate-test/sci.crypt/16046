@@ -1,0 +1,24 @@
+From: C445585@mizzou1.missouri.edu (John Kelsey)
+Subject: Re: Implementing a Diffie-Hellman key exchange.
+Nntp-Posting-Host: mizzou1.missouri.edu
+Organization: University of Missouri
+Lines: 18
+
+   You should probably use numbers much larger than 64-bits.  Also, you
+may want to include some randomly-generated bitstrings in your protocol.
+This way, if someone should find the shared key you and another person
+use on one day, they won't be able to guess it for the next day....
+ 
+   Ie A sends G**A mod P and random string R0
+      B sends G**B mod P and random string R1
+ 
+      Both find (G**A mod P)** B mod P = Shared Key, then both calculate
+ 
+      Session Key = Hash(R0,Shared Key, R1)
+ 
+   Also, you will want to make sure that you're getting the right public
+key value G**A mod P.  Someone with the power to intercept and change messages
+can oterwise spoof you by sending both of you *his* public key, and then
+acquiring a session key with each of you....
+ 
+   --John

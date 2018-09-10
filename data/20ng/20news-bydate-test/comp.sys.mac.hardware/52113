@@ -1,0 +1,97 @@
+From: menes@statistik.tu-muenchen.de (Rainer Menes)
+Subject: Re: Quadra clock chip - followup
+Keywords: quadra,clock,oscillator
+Originator: menes@suniams2.statistik.tu-muenchen.de
+Organization: Technische Universitaet Muenchen, Germany
+Lines: 87
+
+
+
+I have replaced the osz to 66 MHz yesterday and no truble at all. My Quadra now works at 33 MHz stable for more than 14 hours. I have also tried a 70 MHz osz, but after 1/2 hour my Quadra 700 died. I am not sure what was the reason for that,
+but it is to risky to run it to fast. Most of your Quadras 700 should work at 33 MHz without any problems. 
+
+But a safety tip do a backup from your harddisk befor you start to upgrade. During my 35 MHz test I damaged my harddisk and had a hardtime to get it working again. So once again do a backup befor you start!!!!!!!!!
+
+Now the speedometer results after replacing the osz.
+
+Speedometer Report for menes rainer. Prepared April 22, 1993.
+
+Machine Record Version #: 5
+
+
+User Comment:
+Quadra 700 33Mhz and Ram Disk
+20 MByte RAM + 2 MByte VRAM
+
+System Information:
+Computer: Mac Quadra 700
+CPU: MC68040
+FPU: Integral FPU
+MMU: Integral MMU
+Color Quickdraw: 2.30 (32 Bit QD)
+System Version: 7.1.6
+Finder Version: D1-7.1
+AppleTalk Version: 57
+LaserWriter Version: D1-7.1.2
+Laser Prep Version: Not Found
+ImageWriter Version: D1-7.0.1
+ROM Version: $067C
+ROM Size: 1024
+Bit Depth: 1
+Horizontal DPI: 72
+Vertical DPI: 72
+Primary Screen Size: 832 x 624
+Physical RAM: 20480K
+Logical RAM: 20454K
+
+P.R. Results (Uses Mac Classic as 1.0):
+CPU: 21.625
+Graphics: 30.052
+Disk: 28.351     Name of Hard Disk tested: RAM Disk
+Math: 135.128
+Performance Rating (PR): 36.848
+
+Benchmark Results (Uses Mac Classic as 1.0):
+KWhetstones: 1500.000     205.479
+Dhrystones: 26315.789     27.008
+Towers: 24.960
+QuickSort: 22.391
+Bubble Sort: 23.823
+Queens: 24.105
+Puzzle: 28.804
+Permutations: 26.523
+Fast Fourier: 167.728
+F.P. Matrix Multiply: 154.452
+Integer Matrix Multiply: 30.250
+Sieve: 25.602
+Benchmark Average: 63.427
+
+FPU Tests (Uses Mac II as 1.0):
+@@FFPU Fast Fourier: 14.636
+FPU KWhetstones: 5454.545     7.636
+FPU F.P. Matrix Mult.: 14.333
+FPU Test Average: 12.202
+
+Color Tests (Uses Mac II as 1.0):
+Black & White: 6.395
+4 Colors: 6.773
+16 Colors: 6.957
+256 Colors: 7.016
+Color Test Average: 6.785
+
+Very interesting are the graphics results (Graphics 30.052) couldn't belief this, but it is true. Two points which my cause problems are the 4 MByte Ram solder on the board. The are only 80ns Rams and run at the upperlimit with 33 MHz. The next part which may cause trouble are the Video Rams. I have the orignal 100ns VRAMs from Apple in my Quadra, here you are also at the upperlimit where most of the chips running but it isn't garantied to run. Most of the other parts on the Quadra board running on there o
+
+
+
+
+wn clockspeed so they wont make truble.
+
+The most importaned question is do I neat a new heat sink. I would say NO. After running my Quadra for more than 14 hours the heat sink is really cool. A 33 MHz 486 with heat sink is mutch warmer than the 68040 in the Quadra, so I didn't see any problems. The room temperatur was 22 Celsius (72 F). If you living in a area were it is hot 100 F (45 C) and your room temperatur is not mutch below I would suggest a new heat sink with a ventilator to stay on the safe side.
+
+
+Hope you will have the same success than I had,
+
+Rainer
+
+email: menes@statistik.tu-muenchen.de
+ 

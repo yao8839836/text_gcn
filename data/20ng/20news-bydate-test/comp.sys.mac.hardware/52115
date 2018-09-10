@@ -1,0 +1,22 @@
+From: karens@edc.org (Karen Silverman)
+Subject: Problems with Laserwriter print driver and Printmonitor
+Organization: EDC
+Lines: 17
+
+We are having problems with our Laserwriter print drivers going bad on
+various people's machines on our Appletalk network.  On our network, people
+have 7.0, 7.01, and 7.1 versions of the Laserwriter print driver.  We have
+been solving the problem by reinstalling the print driver, but it is
+time-consuming and a real pain.
+
+The Printmonitor software also seems to go bad frequently.  We have also
+just been replacing it (over and over, it seems) to keep things running.
+
+Does anyone out there have any ideas about what may be causing the printing
+software to go bad?  Are there known INIT conflicts or network conflicts? 
+I would appreciate communication about any similar experiences you may have
+had or ideas you have.
+
+You could send me an email directly to: karens@edc.org....
+
+thanks....karen

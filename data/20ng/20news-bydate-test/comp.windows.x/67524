@@ -1,0 +1,25 @@
+From: gml4410@ggr.co.UK (Lack Mr G M)
+Subject: Re: xdm and env. vars
+Organization: The Internet
+Lines: 18
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert@expo.lcs.mit.edu
+
+In article <9304292140.AA29951@haji.haji_sun>, fwr8bv@fin.af.MIL writes:
+> I am using xdm on X11R5 with OW3 and Xview3 on Sun3s and SPARCs running 
+> SunOS 4.1.1.  Prior to using xdm, I used to set PATH and other environment
+> variables (like MANPATH, HELPPATH, ARCH, etc) in my .login file.  With xdm,
+> the .login file doesn't get executed and therefore neither the olwm
+> root-window nor my applications know about these variables.
+
+     You  should  try  having  a  .xsession  script in $HOME to do these
+things.  xdm will  start  up  your  process  using  the  system  version
+(usually /usr/lib/X11/xdm/Xsession), which should check whether you have
+your won and change to that if you do.  (Take a copy of the  system  one
+and edit it). 
+
+     Note, that this file requires "x" access to be set.
+
+-------------------------- Gordon Lack ----------------------------------
+The contents of this message *may* reflect my personal opinion.  They are
+*not* intended to reflect those of my employer, or anyone else.

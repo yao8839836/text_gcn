@@ -1,0 +1,76 @@
+From: willner@head-cfa.harvard.edu (Steve Willner)
+Subject: Re: temperature of the dark sky
+Organization: Smithsonian Astrophysical Observatory, Cambridge, MA,  USA
+Lines: 71
+
+
+
+In article <1993Apr28.002214.16544@Princeton.EDU>,
+richmond@spiff.Princeton.EDU (Stupendous Man) writes: 
+>    If that's the case, let me point out that interstellar dust and 
+> molecules provide many instances of things that are, well, not-too-far
+> from being blackbodies.  Many different observations, including IRAS
+> and COBE, have determined that interstellar dust grain temperatures
+> can range from 40K to 150K.
+
+Interstellar grains are not at all close to blackbodies.  The "large"
+grains have sizes of order 0.1 micron and absorb visible light with
+fair efficiency.  However, at temperatures below 100 K, 90% of the
+thermal emission will be beyond 22 microns, where radiating
+efficiency is poor.  (A small antenna cannot easily radiate at long
+wavelengths.)  Thus the grains must heat up more in order to radiate
+the energy they have absorbed.
+
+Moreover, the IRAS observations had a maximum wavelength of 100
+microns.  Grains colder than 30 K will radiate primarily at longer
+wavelengths, and IRAS would be relatively insensitive to them.  In
+the extreme limit, grains as cold as 5 K will be almost undetectable
+by any conceivable observation.
+
+Worse still, IRAS color temperatures are heavily contaminated by a
+population of "small" grains.  These grains have only perhaps 50
+atoms, and when they are hit by a single photon they heat up to
+temperatures of several hundred or 1000 K.  Of course they cool
+quickly and then stay cold for a while, but _when they are radiating_
+the characteristic temperature is several hundred K.  Even a small
+population of these grains can dramatically raise the observed
+"average" temperature.
+
+A model for local infrared emission consistent with COBE data has
+three components.  These represent scattered radiation from Zodiacal
+dust (color temperature 5500 K), thermal emission from Zodiacal dust
+(Tc = 280 K), and thermal emission from Galactic dust (Tc=25 K).  At
+the ecliptic poles, the emissivities or dilution factors are
+respectively 1.9E-13, 4E-8, and 2E-5.  The first two are roughly
+doubled in the ecliptic plane.
+
+To find the thermal equilibrium temperature, we add up the dilution
+factor times the fourth power of temperature for all components, then
+take the fourth root.  In the table below, starlight comes from
+Allen's number that stellar emission from the whole sky is equivalent
+to 460 zero mag stars with B-V color of 0.75.  No doubt careful work
+could do much better.  (The person who suggested starlight had a
+dilution factor of E-4 must have been remembering wrong.  We would be
+cooked if that were the case.  In any event, the energy density of
+starlight comes out about the same as that of the microwave
+background, and I believe that to be correct.)
+
+                         Dilution   Temp.   DT^4
+Microwave background         1        2.7     53
+Galactic dust              2E-5      25        8
+Zodiacal dust (emission)   6E-8     280      369
+Zodiacal dust (scattering) 3E-13   5500      275
+Starlight                  1E-13   5500       92
+                                           -----
+                                             797
+
+The fourth root of 797 is 5.3 K.  Outside the Solar system, the
+result would be 3.5 K.  
+
+I find these results surprising, especially the importance of
+Zodiacal dust, but I don't see any serious mistakes.
+
+-- 
+Steve Willner            Phone 617-495-7123         Bitnet:   willner@cfa
+Cambridge, MA 02138 USA                 Internet: willner@cfa.harvard.edu
+  member, League for Programming Freedom; contact lpf@uunet.uu.net

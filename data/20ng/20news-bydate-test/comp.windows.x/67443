@@ -1,0 +1,24 @@
+From: mattf@cac.washington.edu (Matthew Freedman)
+Subject: Non-Roman Font Availability
+Article-I.D.: shelley.1rmgleINNa0g
+Distribution: world
+Organization: U.W. Information Systems
+Lines: 16
+NNTP-Posting-Host: elvis.cac.washington.edu
+
+Can anybody tell me anything about the availibility of non-Roman fonts
+for X-Windows? Especially Unicode and/or han idiographic fonts.
+
+Also, how about conversion tools for getting PC/Macintosh fonts into a
+format suitable for X? I would assume it is not too difficult for
+bitmap fonts.
+
+The FAQ's for this group and comp.fonts are not very helpful on these
+questions. 
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+= Matthew M. Freedman                                                 =
+= U. of Washington Information Systems       mattf@cac.washington.edu =
+= 4545 15th Ave. NE; 3rd Floor               (206) 543-5593           =
+= Seattle, WA  98105                                                  =
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

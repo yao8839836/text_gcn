@@ -1,0 +1,33 @@
+From: petebre@elof.iit.edu (Brent A. Peterson)
+Subject: Re: Drag Coefficients
+Organization: Illinois Institute of Technology, Chicago
+Lines: 28
+
+In article <1993Apr22.165444.11830@wdl.loral.com> gwm@spl1.spl.loral.com (Gary W. Mahan) writes:
+>Could someone explain how to make sense of drag coefficients (i.e Cd) mentioned in magazines.  I understand that lower numbers signify better aerodynamics but
+>what does this mean in the real world.  Is there a way to calculate new top speeds(assuming the car is not rev limited at top speed) or mileage benefits if a identical car had the Cd reduced from .34 to .33.
+>
+
+    I don't remember the formula's off hand as it has been awhile since
+I took aerodynamics and haven't used the stuff since. 
+The Cd is related to the drag force which is what effects top speed and
+fuel consumption. When the drag force on the car or aircraft is greater
+than what the vehicle's engine can overcome it has reached its top speed.
+(autos of course also have to overcome rolling resistance)
+Since drag opposes the vehicle's motion, the engine must make up for that
+by burning more fuel. Anyway, since the geometery of an auto is rather
+complex, the Drag,pressure coeffiecent,etc is either found experimentaly, or
+using a numerical method.
+
+anyway for flow around a cylinder the drag coeff is:
+
+            Cd = d/(q*2R)
+
+       where d is the drag force, q the flow velocity and R is the radius
+of the clyinder.
+   To get a rough (very rough) estimate, you can set R at 1/2 the car's
+width, q at the car's speed and knowing the Cd, find the drag force that
+the car would need to overcome. 
+
+
+     -Bp

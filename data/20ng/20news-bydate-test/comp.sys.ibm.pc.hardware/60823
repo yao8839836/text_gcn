@@ -1,0 +1,37 @@
+From: meyers@uenics.evansville.edu (Christopher H. Meyers)
+Subject: Internet servers for university[D
+Organization: University of Evansville
+Lines: 32
+
+
+
+Our university is wanting to buy a couple of servers to provide Email
+to students (@ 2300) and faculty (@ 250). Two servers are being
+lokked at for one to provide news service and one mail service from a
+proposed Internet connection. Are there any foreseable problems with
+this proposed set up? Provided that IHETs is providing an Ethernet
+line from a Cisco router into our network.
+
+2 X 	486 DX 50 MHz
+	SMC Elite 32 or 32TP EISA  NIC
+	Dual Duplexed 2.5Gb SCSI-2  
+    	with 5yr parts and labor on everything but the hard drives
+	running UNIVEL UNIX for Application Servers
+
+We will run CC:Mail on a campus wide Novell network to access these
+<hopefully>. Is there any other aspect I should be looking at?
+
+
+
+Which NIC do I use? 
+Is this enough disk space?
+etc...
+
+ 
+Any help would be greatly appreciated.
+ 
+-- 
+Christopher H. Meyers         UUNET: meyers@evansville.edu            
+University of Evansville      **************************************
+Academic Computing Technician ||    Let's NOT,  and say we did !  ||     
+(812)479-2829                 **************************************  

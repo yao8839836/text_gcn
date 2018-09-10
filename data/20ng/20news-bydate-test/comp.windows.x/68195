@@ -1,0 +1,15 @@
+From: carl@frost.bain.oz.au (Carl Sandland)
+Subject: Re: C++/Motif, gcc, silly messages
+Organization: Bain & Company
+X-Newsreader: Tin 1.1 PL5
+Lines: 9
+
+Thanks to everyone who mailed help, unfortunately the end problem was a REALLY
+stupid `oversight' on my behalf. The code was 100% perfect, but it might
+help to add Control.C to my makefile.......
+
+	Anyway the mangled name was telling me it could'nt locate the Control
+constructor...
+
+	I just want to reaffirm what a valuable book this one is, I'm enjoying
+evry page :)

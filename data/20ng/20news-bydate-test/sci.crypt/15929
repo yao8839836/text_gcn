@@ -1,0 +1,132 @@
+From: smb@research.att.com (Steven Bellovin)
+Subject: Re: Clipper considered harmful
+Organization: AT&T Bell Laboratories
+Lines: 127
+
+In article <16BB9F30.C445585@mizzou1.missouri.edu>, C445585@mizzou1.missouri.edu (John Kelsey) writes:
+>  
+>    The clipper chip's User key is formed by:
+>  
+>            R1 = E[D[E[N1;S1];S2];S1]
+>            R2 = E[D[E[N2;S1];S2];S1]
+>            R3 = E[D[E[N3;S1];S2];S1]
+>  
+>    Why is the triple-encrytion used?  Is it just to gain an effective
+> increase in keyspace to defeat a potential keysearch?  (If so, why use
+> 80 bit keys?)  Not knowing anything about the Skipjack algorithm, it's
+> not really possible to guess whether this makes it harder or easier to
+> guess S1,S2.
+>  
+>    Why are N1, N2, and N3 formed as they are?  It would be facinating to
+> see the Skipjack algorithm, to look for ways of attacking it that require
+> three ciphertext blocks formed in that odd way.
+>  
+>    Where do the 34-bit constant values that are concatenated with the
+> serial number to form N1,N2,N3 come from?  Are they changed from chip to
+> chip, or session to session?  (Even if they're published in the NY Times,
+> if SkipJack is resistant to known-plaintext attacks, when using triple-
+> encryption, then there's no break in security.  But why allow that kind
+> of weird format?  If those three 34-bit values are truly-random bits, then
+> maybe it's used to ensure that a known-plaintext attack on SkipJack, if
+> it exists, can't be easily used to derive S1 and S2 for a whole production
+> run of these chips....)
+
+I can't answer all our questions in detail, but I can take a stab at
+them.
+
+The form the operations that compute R1, R2, and R3 is, of course, the
+famous ``triple encryption'' suggested for use with DES.  It's much
+stronger than a single encryption, and has an effective key length of
+160 bits.  For reasons that were discussed when DES was first
+standardized, a simple double encryption would not have the same
+strength.  Triple encryption has been used by IBM since more or less
+the beginning to encrypt other keys.  It's recommended for anything of
+very high value.  And I think we can agree that the R_i and S_i fit
+that description.
+
+Why n_1, n_2, and n_3?  Well, you need different plaintext values.  I
+have no idea if they'll be disclosed or not.  At a guess, they're
+constructed so that they differ in as many bit positions as possible.
+A goo cryptosystem will scramble things a lot with even a 1-bit change
+-- but the values of N in a series will have fairly similar bit
+patterns, and there might, conceivably, be a weakness.  So the n_i
+values are -- and I'm guessing -- chosen to increase the Hamming
+distance.
+
+In any event, I'm quite convinced that one cannot go back to the S_i
+from the U_i, let alone U.  (Observe:  if the NSA has U, they don't
+need to find S_i.  But even if they do, they can't get U_1 and U_2.  In
+theory, they should never even see those values, even with a warrant.)
+
+The real question, I think, is why use this scheme at all, as opposed
+to a hardware random number generator.  My answer is that this is
+*much* more verifiable.  Look -- suppose that NSA, NIST, the ACLU, the
+EFF, and the NRA combined to build a *really* good random number
+generator, and that it passed every test you could think of.  When you
+come back next week to program some more chips, does it still work that
+well?  Have any components changed in value?  Have the components been
+changed out from under you?  Does it still work well the in the
+presence of a focused microwave beam that tends to bias it towards
+selecting 1 bits?  Yes, you can run detailed statistical tests on it
+again, but that's hard.
+
+Consider, on the other hand, a software solution.  You bring your own
+floppies with you, you can run cryptographic checksums, etc.  It's a
+lot easier to verify that the software is unchanged, in other words.
+(Yes, I can think of ways to cheat software, too.  I think that they're
+a lot harder.)
+
+There are three issues with Clipper.  The first is whether or not the
+architecture of the whole scheme is capable of working.  My answer,
+with one significant exception, is yes.  I really do think that NSA and
+NIST have designed this scheme about as well as can be, assuming that
+their real objectives are as stated: to permit wiretapping, under
+certain carefully-controlled circumstances, with a minimum risk of
+abuse.  (The exception is that U exists outside of the chip, on a
+programming diskette.  That's seriously wrong.  U_1 and U_2 should be
+loaded onto the chip separately.)  To those who disagree (and I don't
+claim my answer is obvious, though I found my own reasoning
+sufficiently persuasive that I was forced to rewrite the Conclusions
+section of my technical analysis paper -- I had originally blasted the
+scheme), I issue this invitation:  assume that you were charged with
+implementing such a system, with complete regard for civil rights and
+due process.  What would you do differently?  In answering this
+question, please accept NSA's fundamental assumptions:  that both
+strong cryptography against outsiders, and the ability to wiretap
+*some* domestic users, is necessary.  (If you feel it necessary to
+challenge those assumptions, do it in the context of the last issue I
+present below.  Right here, I'm discussing *just* the technical
+aspects.  And no, I don't by any means claim that just because
+something can be done, it should be.)
+
+The second issue is whether or not this whole architecture is actually
+going to be used.  Just because Clipper chips are made this way doesn't
+mean that that's the only way they'll be made.  Maybe the NSA will
+substitute its own chips between the programming facility and the
+shipping dock.  And they'll generate bogus warrant requests, so that
+the escrow agents don't wonder why they've never called.  (``Sorry,
+guys; all them terrorists and drug dealers and pedophiles seem to have
+bought triple-DES phones instead.  Who'd 'a' thunk it?'')  I have no
+answer to this question, and at the moment, I don't see a way of
+answering it.  Those concerns are part of my reasoning in my answer
+to the final question, below.
+
+The third, and most serious issue, is whether or not Clipper is a good
+idea even if carried out strictly according to the letter of the law.
+I think that the answer is no, but it's not a no-brainer.  I'm a civil
+libertarian, not a libertarian, for reasons that I explained at great
+length on the net in the Elder Days, and that I don't have the energy
+to repeat now.  But that means that I'm willing to accept that some
+laws are necessary, so long as they respect the essential rights of
+individuals.  The government already has the ability and -- in our
+system -- the right to issue search warrants, and while that power has
+certainly been abused, it's also been used quite properly and fairly in
+other cases.  Is key escrow sufficiently different?  I think so -- but
+again, it's not an easy question for me.  (It is easy for libertarians
+to answer, of course, since Clipper is completely alien to much of the
+rest of their (oft-admirable) philosophy.  And it's also easy for those
+who give their unreserved trust to government, a group I'm much more
+distant from.)
+
+
+		--Steve Bellovin

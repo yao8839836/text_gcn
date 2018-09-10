@@ -1,0 +1,17 @@
+From: zippy@cyberden.sf.ca.us
+Subject: re: Gif to 3dstudio
+Reply-To: zippy@cyberden.sf.ca.us
+Organization: Indescribable Creations
+Lines: 11
+
+as far as simply mapping your logo or whatever onto a cube or sphere, 
+it's quite easy. Just either copy the GIF you want mapped into the map 
+directory or add a map path to the directory where it currently is. Then 
+go into the materials editor and make a new material with that as the bit 
+map, voila.. 
+
+__________________________________________________________________________
+   |       /         |\
+   | H E   \ Y B E R |/ E N            [ zippy@cyberden.sf.ca.us ]
+
+   The CyberDen - Public Access Waffle Usenet System - 415/472-5527

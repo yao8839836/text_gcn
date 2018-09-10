@@ -1,0 +1,27 @@
+From: Dale_Adams@gateway.qm.apple.com (Dale Adams)
+Subject: Re: 72-pin SIMMS for Q-800, be careful before buying
+Organization: Apple Computer, Inc.,  Cupertino, CA
+Lines: 22
+
+In article <C5w9v0.FCE@news.cso.uiuc.edu> Marty Sachs 
+<msachs@ux1.cso.uiuc.edu> writes:
+> I purchased 2x8 MB 72-pin (60 ns) SIMMs for my Quadra 800 from Chip
+> Merchant (I've been very satisfied with them in the past).  Either one
+> alone works, but both together fail.  I called Apple for advice and was
+> told that there was a problem with "Composite" SIMMs.  Only non-composite
+> SIMMs should be used with the Q-800.  Chip Merchant confirmed that they
+> presently sell only composite 72-pin SIMMs.  So, Q-800 SIMMs need to be
+> both 60 ns and non-composite.
+
+8 MB SIMMs do not have to be composite SIMMs, although many (most?) 16 MB 
+SIMMs are.  72-pin SIMMs allow two memory banks per SIMM, thus permitting 
+the use of 4 Mb DRAM devices (the same ones used on 4 MB SIMMs) to be used 
+for two 4 MB banks on one SIMM.  I can't imagine that it would be cheaper 
+to build an 8 MB SIMM using 1 Mb DRAMs as the 4 Mb parts reached (and 
+exceeded) bit for bit price parity with the 1 Mb parts some time ago.  
+It's probably possible to build a single-bank 8 MB SIMM using 4 Mb parts - 
+this could cause problems in a Q800.  I'm not sure why you'd want to do 
+this, though, as a dual-bank 8 MB SIMM would be cheaper to build than a 
+single-bank composite one.
+
+- Dale Adams

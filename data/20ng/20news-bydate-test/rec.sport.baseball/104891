@@ -1,0 +1,106 @@
+From: hbrooks@uiatma.atmos.uiuc.edu (Harold_Brooks)
+Subject: Re: Bases loaded walk gives Reds win in 12
+Organization: Glazier, Texas Urban Renewal Task Force
+Lines: 101
+
+In article <mssC5xB3I.2CG@netcom.com> mss@netcom.com (Mark Singer) writes:
+>In article <1993Apr22.175131.7396@pts.mot.com> ep502dn@pts.mot.com writes:
+>>In article 7G4@netcom.com, mss@netcom.com (Mark Singer) writes:
+>
+>>>During spring training I made a similarly innoncent-looking comment 
+>>>about clutch hitting on this bb and the flames were flying.  "no such
+>>>thing as clutch hitting" they (the SDCN's) all screamed.  I assumed
+>>>they also meant there was no such thing as any kind of clutch performance,
+>>>given their comments.  I'm still licking the wounds, but I do have
+>>>a rebuttal planned.  :)    (gotta do my homework, as they say)
+>>
+[some deletions]
+>>       Rather they showed, quite convincingly, that
+>>	past clutch performance has never been able to predict FUTURE
+>>	clutch performance.
+>
+>I'm sure *you* are convinced, Dave.  Apparently so is Tony Perez.
+>I, however, am not.
+>
+>
+>I believe at the time of the Sabo plate appearance that Juan Samuel
+>was on the bench available for pinch-hit duty.  Over the past four
+>seasons:
+>
+>		Non-Clutch			Clutch	 
+>		AB	H	BA		AB	H	BA
+>
+>Sabo		1539	452	.294		259	59	.228
+>Samuel		1564	383	.245		278	83	.299	
+>
+>I do *not* claim that this is a complete statistical analysis that
+>proves the existence of clutch hitting, or compelling testimony that
+>Samuel would have gotten a base hit.  I'm sure there is something wrong
+>with the sample size, or that the basic assumption that clutch
+>performance is random invalidates any conclusions from this limited
+>application.  Or something or other.  I don't pretend to understand
+>statistical analysis.
+>
+
+Well, we agree on the last part.:-)  One of the basic things you need to 
+have in a statistic to be able to predict a player's performance on it
+in the future is for there to be a correlation from year to year.  A 
+player's batting average is correlated fairly well from year to year.
+A player's ability to walk or infielder's Defensive Average are correlated
+better.  That is to say, given their past performance in those statistics
+we can have a pretty good handle on how they'll do next year.  Put in 
+some simple information about aging and you can do even better.  One of 
+the basic problems with something like "clutch" batting average - overall
+batting average is that the correlation from year to year is almost zero. 
+Adding to the sample size doesn't seem to help much.  As a counterexample to 
+what you showed, consider the following two players from 1984-1987:
+
+               Non-Clutch                      Clutch
+               AB      H       BA              AB      H       BA
+ 
+Maldonado      1060    260     .245            254     78      .307
+Lemon          1643    457     .278            256     57      .223
+
+If you had had these two players in 1988, by your logic, in those "clutch"
+situations, you'd bat Maldonado for Lemon in a blink of an eye.  Well, in 
+1988, Maldonado hit .267 in "non-clutch" and .190 in "clutch", while Lemon
+hit .254 in "non-clutch" and .313 in "clutch".  Before you accuse me of 
+completely cooking the data, there were 96 players who had 25+ "clutch"
+at bats every year from 1984-1988 (according to Elias).  As a simple
+measure of clutchness, let's just look at clutch BA-non-clutch BA. If you use 
+'84-'87 to predict '88 for those 96 players, you'd find that 27 of the
+96 were below league average in that measure both in '84-87 and in '88,
+26 were above league average in both periods and the other 43 were 
+above in one and below in the other.  If you were just flipping coins,
+you'd expect to get 24 above/below in both and 48 that switched.  The
+difference between the observed results and the coin flip experiment
+is not statisically significant.
+
+BTW, correlating players' _overall_ batting average from '84-'87 with
+'88 gives a correlation coefficient of 0.59, which is significant at
+something better than the 99.9% confidence level.  Correlating their
+(clutch-non-clutch BA) for the same period gives a correlation of 
+0.088, significant at no level of any interest.
+
+>
+>
+>>       Everyone would agree (I hope) that a grand 
+>>	slam in the bottom of the ninth when your team is down by three
+>>	is a VERY clutch hit.  There is just no way to predict who is more
+>>	likely to get the clutch hit based on past performance (hitting in
+>>	"clutch" situations).
+>>
+>
+>If you say so, Dave.  No way.          
+>
+
+Actually, it's technically incorrect to say that we can't predict future
+clutch performance.  It's more correct to say that we can't predict
+future clutch performance with any skill.
+
+Harold
+-- 
+Harold Brooks                    hbrooks@uiatma.atmos.uiuc.edu
+National Severe Storms Laboratory (Norman, OK)
+"I used to work for a brewery, too, but I didn't drink on the job."
+-P. Bavasi on Dal Maxvill's view that Florida can win the NL East in '93

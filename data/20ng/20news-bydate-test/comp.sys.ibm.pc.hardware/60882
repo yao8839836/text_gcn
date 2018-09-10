@@ -1,0 +1,32 @@
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Subject: Re: Laplink serial & parallel cables
+Organization: Ford Motor Company Research Laboratory
+Lines: 24
+Distribution: world
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+Serial cables:
+
+There are only three output signals: TD, DTR, and RTS.
+There are five inputs signals: RD, DSR, DCD, CTS, and RI.
+
+There are many differnt null modem requiremts as dictated by the software.
+The IBM BIOS requires asserts DTR and RTS and then waits for both DSR and
+CTS before sending.  When a BIOS recieve call is made, it asserts DTR and
+waits for DSR to become true (times out after a while and returns with an
+error if DSR never becomes true).  It requires CTS to be true for sending
+AND recieving.  Most communications packages bypass this and replace it
+with their own protocol.  The key is that each comm. package could very
+well have different requirements.
+
+My favorite cable works in many cases: short RTS to CTS at each end, but
+also run RTS through to DCD at the opposite end.  TD runs through to RD
+and DTR runs through to DSR from both DTE's and of course SG goes through
+to SG.
+
+I have never had trouble with this null modem even though I have used it
+with a comm. package that was expecting RTS to go to CTS instead of DCD.
+The advantage of this cable is that it also works with the IBM BIOS.
+
+Gordon Lang

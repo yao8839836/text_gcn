@@ -1,0 +1,30 @@
+From: tarnold@vnet.IBM.COM (Todd W. Arnold)
+Subject: Re: Can DES code be shipped to Canada?
+Organization: IBM Cryptographic Facility Development
+Disclaimer: This posting represents the poster's views, not those of IBM
+News-Software: UReply 3.1
+            <strnlghtC5wKrt.6JA@netcom.com>
+Lines: 22
+
+In article <1993Apr22.125402.27561@fripp.ri.cadre.com> rj@ri.cadre.com writes:
+>Someone in Canada asked me to send him some public domain DES file
+>encryption code I have.  Is it legal for me to send it?
+
+I believe it's legal to send DES code or equipment from the US to Canada
+with no export license.  I think this is the only place you can do this - all
+other countries require a license.
+
+As an aside, I've always thought it should be legal to send DES software
+anywhere, if you follow these rules:
+
+   1.  Encrypt your DES software with DES.
+   2.  Send the encrypted software to the recipient.
+   3.  Send the key to the recipient.
+
+The only way the person on the other end can use your DES software is if
+he/she already *has* DES available - otherwise, they can't decrypt your
+program, and it is useless.  If you've guaranteed they already have DES,
+have you really violated any law by sending it to them in the form of
+your program??  I'm sure it's still illegal, but it seems like a good idea...
+
+- Todd

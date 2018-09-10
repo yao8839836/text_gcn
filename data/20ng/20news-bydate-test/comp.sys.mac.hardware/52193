@@ -1,0 +1,68 @@
+From: carlo@merlin.cvs.rochester.edu (Carlo Tiana)
+Subject: Quadra 950 marginal video?
+Summary: sync problems on multiple boards
+Nntp-Posting-Host: merlin.cvs.rochester.edu
+Organization: University of Rochester, Rochester NY
+Lines: 61
+
+We are having a problem with a Quadra 950 that has stumped a couple of
+techs sent to us by the vendor, as well as us :-)
+This Quadra is 'stuffed' with 64Mb RAM, 2Mb VRAM and some large disk (400Mb
+I think). What happens is that after a certain variable interval of time
+the video circuitry 'loses' vertical sync. It is quite apparent that the
+Mac CPU is still ok, and the problem really seems to lie with the video
+circuitry, since you can still save your documents, quit your aplpications,
+even pull down menus etc. (only the display is scrolling lik crazy, so it's
+pretty hard to hit menu items ;-)
+We had the original logic board replaced twice now, and the same problem
+has been occurring on all boards although the inteval between occurrences has
+varied. The first board had this problem every about 1hr, more often if the
+cache was turned OFF (yes OFF).  This is the only symptom that is not
+obviously related to the video circuitry (after all the cache is on the CPU
+right?). The second board had the problem every about 10 minutes (we did
+not keep it, rather we put the original back), the current board we have
+has this problem a lot less often (has gone about a week without doing it,
+but did it twice within an hour yesterday).
+The technicians that have come out to try to figure it out seemed pretty
+sharp and tried a number of sensible things (most of which we had
+previously tried ourselves anyway). These included:
+-swapping the RAM
+-swapping the VRAM
+-swapping monitors (3 different 13" Apple RGB and 2 16" Apple RGB)
+-swapping cables
+-disconnecting HD and booting from floppy
+-sacrificing various small mammals
+Here are some other facts:
+-when we put a RasterOps ProColor 32 on the NuBus, the problem is fixed
+ (it does not occur with the internal video or the ProColor video out)
+-the vendor cannot reproduce the problem back in their shop on the boards
+ that exhibit it in our lab
+-Apple is said to be getting a little bit pissed off at shipping us boards
+ that they cannot find anything wrong with, and getting them shipped back as
+ faulty according to us.
+Here are some speculations:
+-I bet that neither Apple nor the vendor has tested these boards with that
+ much RAM and VRAM on them simultaneaously, which may have something to do
+ with their finding it hard to reproduce the problem (though we can
+ reproduce it with just 4Mb of RAM, so this is probably a red herring).
+-the vendor's representative blames 'metal in your walls' - claims that our
+ walls have metal in them which interferes with the Mac's operation. We
+ have another 950 in the lab which works like a charm (though it's not in
+ the exact same spot....) Please don't tell me this is probably it, I do
+ not want to believe it.
+-it's probably not poltergeists, since they do not have badges to get past
+ security at the entrance to our site.
+
+Has anyone any ideas? Please? Please email as well as posting cause I seem
+to be spending a lot of time rebooting my mac lately and have a lot less
+time available to read news! :-)
+Thank you in advance.
+Carlo Tiana
+NASA Ames Research Center
+carlo@vision.arc.nasa.gov
+
+--
+carlo@cvs.rochester.edu      |
+carlo@white.stanford.edu     |    We always remember you have a choice.
+carlo@vision.arc.nasa.gov    |
+

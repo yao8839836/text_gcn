@@ -1,0 +1,24 @@
+Distribution: world
+From: elenay_creations@tcs.las-vegas.nv.us (Anthony D. Saxton)
+Organization: Cyber Sanctum BBS 702.435.2179
+Subject: Re: Apple 8*24 GC Video Card
+Lines: 18
+
+> A friend of mine recently acquired an 8!24 GC card for his IIsi
+> and was wondering why it always starts up in black and white.
+> I know there have been numerous reports about the worth of
+> the GC, but I was wondering if anyone could elaborate a little
+> more on the subject.  Any replies encouraged.  Thanks in ad-
+> vance.
+>
+> 						Joe Kasanic
+>
+
+I've had similar problems w/ other board types, and the problem is NOT a
+result of the 8/24GC board! Try Zapping the PRAM by holding down
+"Command-Option-P-R" durring startup! You will have to reset everything to
+your previous preferences (The Date & Time remain intact!), but the Video
+Board will start remembering it's previous settings!
+
+Anthony D. Saxton
+Elenay Creations

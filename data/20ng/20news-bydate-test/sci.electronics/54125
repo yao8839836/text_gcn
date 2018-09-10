@@ -1,0 +1,35 @@
+From: vanderby@mprgate.mpr.ca (David Vanderbyl)
+Subject: Re: Lead Acid batteries & Concrete?
+Nntp-Posting-Host: chip
+Reply-To: vanderby@mprgate.mpr.ca (David Vanderbyl)
+Organization: MPR Teltech Ltd.
+Lines: 28
+
+neal@cmptrc.lonestar.org (Neal Howard) writes:
+
+>The concrete floor accelerates the problem because it is a heat sink and a
+>colder lead-acid battery self-discharges at a slightly faster rate. That's
+>why the old wives' tale of sitting it on a piece of wood on the floor works
+>to help keep from killing the battery as fast ---- it insulates the battery
+>thermally. It you'll set the battery down on a piece of styrofoam, it will
+>self-discharge even slower.
+
+There are a number of inaccuracies here:
+1) In fact, a colder battery will self-discharge more slowly.  This is why
+   batteries should be stored in a COOL, dry place.
+2) An battery placed on concrete does not become colder than one placed
+   on wood.  The battery, the wood, and the concrete will all be at the
+   same general temperature (ignoring temperature fluctuations) and thus
+   none will effect the other.
+
+>The best thing would be to attach a small load
+>such as a small transistor radio with the volume turned down low and leave it
+>on constantly, but also trickle-charge it every couple days too to "shallow-
+>cycle" the charge in the battery. Such mild "exercising" of a lead-acid
+>battery is the next best thing to completely removing the electrolyte for
+>storage.
+
+There is no need to 'exercise' the battery.  Just keep it charged.  (A trickle
+charger will do the job.)
+
+[stuff deleted]

@@ -1,0 +1,40 @@
+From: mike@schleppo.bocaraton.ibm.com (Mike Dahmus)
+Subject: Re: re: Challenge to Microsoft supporters.
+Distribution: usa
+News-Software: IBM OS/2 PM RN (NR/2) v0.17h by O. Vishnepolsky and R. Rogers
+Lines: 29
+Reply-To: miked@vnet.ibm.com (Mike Dahmus)
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: schleppo.bocaraton.ibm.com
+Organization: PenPM Development, PSP, IBM Boca Raton
+
+om>
+
+In <1993May17.064503.13114@microsoft.com> cliffga@microsoft.com (Clifford Garrett) writes:
+>/Yes, a lot of what OS/2 2.0 has in common with OS/2 1.x was written by you
+>/guys. However, many of the things that made OS/2 2.0 so much more successful
+>/(Win-OS/2, Workplace Shell) than previous versions were IBM work.
+>
+>Yes, certainly.  It was IBM that wrote the Windows code!!!
+
+Cliff, do you know the difference between "Windows" and "Win-OS/2"?  Here's
+a helpful hint:
+
+Running "Windows" under OS/2 2.0 is only possible in real mode, in a DOS
+box. Of course, this is only possible with Windows 3.0, since Windows 3.1
+no longer has a "real mode".
+
+The ability to run standard mode, the ability to have an OS/2 <-> Windows
+clipboard, the ability to run seamless, and a few other things were all added
+by IBM to "Win-OS/2".
+
+Now, everybody who is running "Windows" in real-mode in a DOS box under OS/2
+2.x raise your hand. Finally, everybody who is running "Win-OS/2" under OS/2,
+raise YOUR hand.
+
+Get the picture, Cliff?
+
+----
+Mike Dahmus                 Internet: miked@vnet.ibm.com  Vnet: MDAHMUS at BOCA
+PenPM Development           IBM IPNet: mike@schleppo.bocaraton.ibm.com
+IBM Personal Systems        Disclaimer: Not an official IBM spokesman

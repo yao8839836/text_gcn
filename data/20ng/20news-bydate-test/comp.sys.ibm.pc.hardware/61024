@@ -1,0 +1,14 @@
+From: tp924353@kari.canberra.edu.au (Jason Wolfgang Hecker)
+Subject: Problems with parallel I/O.
+Organization: Info Sci & Eng, University of Canberra, AUSTRALIA
+Lines: 9
+
+I writing a program that uses the parallel port. My problem is that I need to
+generate an interrupt when the ack line is pulsed. I can get this to occur  
+once, but am unable to generate succesive interrupts.
+
+Can someone suggest how I may resolve this problem.
+
+Thanks.
+
+

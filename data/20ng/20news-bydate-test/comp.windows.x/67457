@@ -1,0 +1,28 @@
+From: smeets@speedy.cci.de (Vincent Smeets)
+Subject: Sun 3/80 with SunOS 4.0.3 as X-Terminal
+Organization: Competence Center Informatik GmbH, Meppen, Germany
+Lines: 23
+
+At the moment, I am using a Sun 3/80 (cgfour/bwtwo) with SunOS 4.0.3
+and OpenWindows 2.0.
+
+This configuration is slow and I can't run all the programs on OW2. For
+example, when I start a mailtool from OW3 and display it on my OW2
+display, I can't open the compose window.
+
+I want to install an X11R5 or X11R4 server on my Sun and use xdm (yes,
+we have xdm already running for other X-Terminals) to log in and start
+the X programs.
+
+Is there a "ready to go" binairy of the X11 server for my configuration
+(I have read something about Xsun), or must I compile the X11 stuff by
+myself?
+
+Any help is welcome
+
+	V. Smeets
+
+-- 
+--	Vincent Smeets			Competence Center Informatik GmbH
+--	smeets@cci.de			Software Engineering / Ada
+--	whois VS36			4470 Meppen, Germany

@@ -1,0 +1,97 @@
+From: abig@netcom.com (Access Bus Industry Gp)
+Subject: ACCESS.bus (Re: ACCESS.bus Software Creator's Contest)
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 92
+
+	Intro to ACCESS.bus (RE: the ACCESS.bus Software Creator's 
+	Contest Announcement)
+
+WHAT IS ACCESS.bus?
+
+ACCESS.bus is a new open industry standard for computer 
+peripheral connectivity.  ACCESS.bus is a serial protocol that 
+uses simple, low-cost I2C technology to link multiple devices to 
+a single PC port.  Peripheral devices such as keyboards or 
+keypads, locators (Mice, Trackballs, Joysticks), printers, VR 
+gloves, digitizers, sensors, actuators or data transmitters and 
+others can be easily daisy chained to the host PC.  Applications 
+such as CAD/CAM, Data Acquisition, Simulation, Virtual Reality, 
+Multiple-Player/Single PC Games, Education and many, many more 
+can now take advantage of ACCESS.bus, the technology that puts 
+Plug and Play on every PC.
+
+The ACCESS.bus offers advantages to end-users and developers of 
+systems and peripherals.  Multiple devices connect to the host 
+computer with only one port.  Common communication methods for a 
+number of device types lead to simplified hardware and software 
+development.  As an open standard, ACCESS.bus enables cross-
+platform use of the same device.
+
+ACCESS.bus TECHNOLOGICAL DESCRIPTION:
+=====================================
+
+ACCESS.bus technology is an open specification, enabling anyone 
+to implement it on host systems or in peripheral devices without 
+fee or royalty.
+ACCESS.bus has a bus topology architecture.  That is, a single 
+host can accommodate up to 125 peripheral devices.  ACCESS.bus 
+data rate is 100 Kbits/sec.
+
+ACCESS.bus Physical Layer
+^^^^^^^^^^^^^^^^^^^^^^^^^
+ACCESS.bus is a serial bus architecture, based on I2C hardware 
+protocol, with one data line and one clock line.
+Standard low-cost I2C microcontrollers handle bit-level 
+handshaking, including automatic arbitration and clock 
+synchronization.  
+
+ACCESS.bus Software Protocols
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The ACCESS.bus communication protocol is composed of three 
+levels: I2C Protocol, Base Protocol, and Application Protocol.
+
+I2C PROTOCOL: This simple and efficient protocol defines 
+arbitration among contending masters without losing data.  I2C 
+provides for cooperative synchronization of bus partners with 
+different clock rates.  Bus transactions include addressing, 
+framing of bits into bytes, and byte acknowledgment by the 
+receiver.  
+
+BASE PROTOCOL: Establishes the asymmetrical interconnect between 
+a host computer and multiple peripherals.  The host becomes the 
+ACCESS.bus manager.  The Base Protocol defines the format of an 
+ACCESS.bus message envelope, which is an I2C bus transaction with 
+additional semantics, including checksum.
+Unique features of the Base Protocol are auto-addressing and hot 
+plugging.  Auto-addressing assigns devices with unique bus 
+addresses, without the need for setting jumpers or switches.  Hot 
+plugging is the ability to attach and detach devices while the 
+system is running, without rebooting.
+
+APPLICATION PROTOCOL: This is the highest level of the ACCESS.bus 
+protocol which defines message semantics specific to particular 
+types of devices.  Each type requires a different Application 
+Protocol.  Three broad device types have been identified: 
+keyboards, locators, and text devices.
+
+ACCESS.bus support on the PC
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+All three levels of the ACCESS.bus protocol are supported on the 
+PC.  An add-on card implements the physical layer and uses the 
+base protocol to communicate with physical ACCESS.bus devices.  
+An ACCESS.bus Manager - TSR under DOS and a DLL under Windows 3.1 
+- controls the operation of the physical layer and interacts with 
+the ACCESS.bus device drivers.  Drivers are available for 
+multiple ACCESS.bus keyboards, locators and printers for DOS and 
+Windows 3.1.  Also available are C language source code examples 
+of the interface from applications to the device drivers.
+
+
+To Contact ABIG (the ACCESS.bus Industry Group):
+------------------------------------------------
+Postal Address:
+370 Altair Way, Suite 215, Sunnyvale, CA 94086
+Internet Email:  abig@netcom.com
+Fax: (408) 991-3773
+Voice: (408) 991-3517
+

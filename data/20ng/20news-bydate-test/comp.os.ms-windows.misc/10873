@@ -1,0 +1,22 @@
+From: johnm@spudge.lonestar.org (John Munsch)
+Subject: Re: ATI AVI drivers
+Organization: /etc/organization
+Lines: 17
+
+In article <QfwYnH200WB78RzVpv@andrew.cmu.edu> "Andrew A. Houghton" <ah0i+@andrew.cmu.edu> writes:
+>
+>I noticed ATI had posted *BETA* AVI drivers for their mach32 boards on
+>compuserve..  has anyone had the chance tgo try them?  
+>
+>How well do they work?
+
+Very well indeed.  At home (a VL Bus version of the Graphics Pro) I can stretch
+an AVI window to 640x480 and it will continue to play back smoothly.  It drops
+a few more frames but on most machines even attempting such a thing would mean
+one frame update every 30 seconds.  An ISA Graphics+ was able to do "Zoom by
+2" without any perceptible performance penalty.  It is the best performance
+I've seen so far with the possible exception of an Intel Indeo board (which
+uses overlay so it doesn't have to move the decompressed data over the ISA
+bus at any point).
+
+John Munsch

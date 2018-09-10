@@ -1,0 +1,97 @@
+From: penev@rockefeller.edu (Penio Penev)
+Subject: Re: 66DX2 ISA,VLB xor 50DX EISA ??  Advice wanted...
+Reply-To: penev@venezia.rockefeller.edu
+Organization: Rockefeller University
+X-Newsreader: TIN [version 1.1 PL8]
+X-Posted-From: venezia.rockefeller.edu
+NNTP-Posting-Host: sol.ctr.columbia.edu
+Lines: 88
+
+On Thu, 22 Apr 1993 00:22:31 GMT Ross Mitchell (rmitch@irus.rri.uwo.ca) wrote:
+
+| I want to use this (proposed) beast for basically four things:  
+
+|      -	Editing documents using WordPerfect 5.1 (under dos)
+
+|      -	Creating graphs/analyzing data using Sigmaplot V5.0 (under dos)
+
+|      -	Editing/playing with images using Aldus PhotoStyler, running under 
+| 	Windows 3.1 - these images can be large, say 2k x 2k, 24bits/pixel
+
+|      -	Using the PC as an Xterminal, running DesqView/X 1.1 and Sun PC-NFS, 
+| 	talking to our network of Sparcstation's - this is where a lot of
+| 	the images/data come from, and is the most demanding of these tasks.
+
+| I've read, read, read PC magazines, performed benchmarks, read this newsgroup,
+| and decided that a "nice" system (price/performance) would be:
+
+| 	486DX-50 256k cache, ISA, VLB, 16meg ram
+| 	ATI Graphics Ultra Pro, 2 meg ram, local bus
+| 	15" monitor, 1280x1024 NI
+| 	3Com Etherlink III 16bit
+| 	Maxtor 240MB IDE hard drive
+
+| However, the parts don't fit!  Our local retailer apparently put one of these
+| together, only to discover that the ATI card wouldn't run at 50MHz - surprise
+| surprise.  Actually, after reading this group, I'm surprised that they even
+| have a 50MHz local bus running...
+
+| I have a choice now between basically the above system but with a
+| 486DX2-66 with ISA and VLB,  or,   a 486DX-50 with EISA and no VLB (and thus
+| the non-local bus version of the ATI card).  Which is better, keeping in mind
+| that I'm primarily interested in the last two tasks?  
+
+Having in mind the size of the images, my opinion is to go with VLB.
+It has _much_ more bandwith that EISA, which in fact can be utilized
+by the craphics card. (I have not made measures, so someone else may
+share experience on that.)
+
+Also, the DX2/66 is faster in the operations, that run off internal
+cache, slightly slower off the external and about the same off memory.
+So my advice is the 66/VLB.
+
+| We're quite happy with the ATI card - very fast, ONCE the data gets to it!!
+| ~Slow~ repainting images under PhotoStyler that have moved off screen, or
+| been uncovered!  
+
+| There doesn't seem to be enough raw cpu when running DesqView/X!  Its sluggish
+| running the local window manager.  Also, many functions under PhotoStyler take
+| a long time (even when the images fit entirely in ram).
+
+| There's not enough memory in the system - DesqView/X and a 1 meg SmartDrive
+| don't leave much room for other apps.  Photostyler will page to disk with
+| medium size images.
+
+Have You tried running Photostyler without the cache? No need to have
+paging and cache both. (Well, you might argue, that the paging is
+cached). My belief (no measurements) is that apps left with more
+memory will manage it better than smartdrv.exe(sys).
+
+| I have performed a number of benchmarks on the ethernet transfer rates.  This
+| machine sustains only 120k/sec over ethernet while our Sparcs sustain 600k/sec 
+| on the same network.  Going to the 16 bit version of the SMC card increases
+| transfer rates to 160k/sec - still very slow (especially when moving large 
+| images).  Is there such a thing as a local-bus ethernet card coming??  Will it
+| make a difference?  I'm hoping so, and leaning towards the 486DX2-66 choice 
+| (above), for that reason.
+
+The bandwidth (theoretical) of ISA is over 5MB/s, which is far from
+0.15MB/s. I tried my ISA IDE hard drive (Maxtor 213MB) and got the
+same results - 0.65MB/s - regardless of the ISA bus speed
+(5.5-8.25MHz). So I guess, that just the card/drivers combination is
+lousy.
+
+| Also, are there DX2-100's on the horizon?  What about DX3-99's?  DX3-150's ???!
+
+The rumors are that DX3-99 (if any) is the most likely chip to come
+out. But note, that IBM is closest to the technology an it will only
+sell whole motherboards, so you'll have to upgrade the MB.
+
+| Any information is greatly appreciated.
+
+Just some view, not much figures.
+
+--
+Penio Penev  x7423 (212)327-7423 (w) Internet: penev@venezia.rockefeller.edu
+
+Disclaimer: All oppinions are mine.

@@ -1,0 +1,28 @@
+From: ebosco@us.oracle.com (Eric Bosco)
+Subject: Any body have more than 4 Meg RAM on a Leading Edge??
+Nntp-Posting-Host: monica.us.oracle.com
+Reply-To: ebosco@us.oracle.com
+Organization: Oracle Corp., Redwood Shores CA
+X-Disclaimer: This message was written by an unauthenticated user
+              at Oracle Corporation.  The opinions expressed are those
+              of the user and not necessarily those of Oracle.
+Lines: 18
+
+
+I have a Leading edge 486sx25 with 4 Megs of RAM that are in the forms of  
+4 1 meg SIMMS.  Each SIMM has *two* chips on it. They are manufactured by  
+Samsung and are 80ns.  A salesman told me that the leading edge CPC-2300  
+motherboard has the extra parity bit built in and reccomemnded I use MAC  
+SIMMS. I tried using 4 Megs pulled out of a Mac SI (these are 8 chip  
+SIMMS), but I got too many windows protection faults and parity errors. I  
+guess I should use the same SIMMS as the ones I have, but I can't find  
+any!! Most of the places I have called carry only 3 8 or 9 chip SIMMS.
+
+So if anybody knows where I can get memory that is good with my computer  
+or if you have any suggestions at all, please let me know.
+
+Any help is truly appreciated.
+
+-Eric
+
+ebosco@us.oracle.com

@@ -1,0 +1,10 @@
+From: jws@fc.hp.com (John Schmidt)
+Subject: Re: Quantum LPS240A hard disk phantom seeks
+Nntp-Posting-Host: hpfcjws.fc.hp.com
+Organization: Hewlett-Packard Fort Collins Site
+X-Newsreader: TIN [version 1.1 PL9.2]
+Lines: 3
+
+This is normal behavior for these drives (and many other models). The drive
+is doing a recalibration -- adjusting for temperature changes. If you leave
+the machine on the frequency of the recalibrations goes way down.

@@ -1,0 +1,39 @@
+From: rmohns@vax.clarku.edu
+Subject: RE: Help with changing Startup logo
+Organization: Clark University
+Lines: 34
+
+In a previous article, louray@seas.gwu.edu (Michael Panayiotakis) wrote:
+>In article <735952415.AA01739@f-454.fidonet.org> C..Doelle@p26.f3333.n106.z1.fidonet.org (C. Doelle) writes:
+>>Hello Brad!
+>>
+>>Monday April 26 1993 17:24, Brad Smalling wrote to (crosspost 1) All:
+>>
+>> BS> since I don't know your setup):
+>>
+>> BS> COPY /B WIN.CNF+VGALOGO.LGO+VGALOGO.RLE WIN.COM
+>>
+>> BS> (I grabbed this from _Supercharging Windows_ by Judd Robbins--great book)
+>> BS> This is also how you can put your own logo into the Windows startup
+> 
+>NOW, another thing....
+>this is from the windows' FAQ:
+> 
+>your file has to be less than 64 K
+>( at least that's what the faq says, but Mine wont work for more than
+>about 30...maybe they mend 32K, I don't know).
+
+COM files are limited to a total size of 64KB.  Thus, win.cfn plus vgalogo.log 
+plus your RLE file must be less than 64KB.  Thus, your RLE file should be 
+around 30KB.
+
+Rob
+
+-------------------------------------------------------------------------------
+____    ___   ____       /    \ Any resemblance between the above views and
+||  \  //  \  ||  \     / Rob  \ those of my faculty advisor, my terminal, or
+||__/ ||    | ||__/    / Mohns  \ the view out my window are purely coinci-
+||  \ ||    | ||  \   /          \ dental.  Richard Traina may or may not
+||   \ \\__/  ||__/  / rmohns@vax \ support said views, but probably doesn't
+==================  / .clarku.edu  \ want Clarkies to think about them.
+------------------------------------------------------------------------------

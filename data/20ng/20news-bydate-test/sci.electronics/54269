@@ -1,0 +1,41 @@
+From: alung@megatest.com (Aaron Lung)
+Subject: Re: how to get rid of flyback whine?
+Organization: Megatest Corporation
+Lines: 36
+
+In article <1993Apr26.012517.23391@Princeton.EDU> jsm@shade.Princeton.EDU (John Scott McCauley Jr.) writes:
+>I recently took apart my color Sony TV to clean the volume pushbuttons and
+>when I put the beast back together, the flyback whine got much louder.
+>
+>Is this easy to fix? Which part is resonating? I have heard rumors of a
+>spray that will fix the noise.  Is this a simple thing for a TV repairman
+>to fix?
+>
+>	Thanks,
+>
+>		Scott
+
+Ah-ha!  I'm not alone at last!  Which Sony do you have??  I have a
+27"SXR (pre-XBR series, circa 1987).  That damn thing used to
+make noise like a mad-man.  I had/have 2 separate problems...one being the
+flyback, the other was the assembly where the windings of the yoke
+came together. 
+
+First:  I found by poking around the windings on that assembly,
+the thing would make noise.  I guess that there was enough of a potential
+in that assembly to leak, so I sprayed it with a dielectric insulation
+spray--I think it was urethane or acyrilic.  That fixed it.
+
+Second:  Flyback...for the life of me, I can't isolate this one.  If I
+leave the cover off, the TV will be quiet.  If I put the cover back on,
+and let it heat up, it'll start to whine--kinda hard to solve with the
+cover on!! :-(
+
+A friend of mine who used to fix TV's says there might be a pin-hole
+leak somewhere on the flyback.  Usually it's surrounded by a bunch of
+black dust/dirt.
+
+I hope this is a start...if you find something out, let me know!
+
+aaron
+

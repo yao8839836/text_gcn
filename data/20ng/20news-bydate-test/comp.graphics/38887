@@ -1,0 +1,23 @@
+From: pat@nick.csh.rit.edu (Pat Fleckenstein (A jedi in training))
+Subject: Re: 3-D widget wish list?
+Keywords: 3-D widget, manipulation, feedback, user interface design system
+Nntp-Posting-Host: nick.csh.rit.edu
+Organization: Computer Science House @ RIT
+Lines: 16
+
+
+What I'd like to see is the more generic N-dimensional widget set.
+I realize, that there wouldn't be a whole shitload of people
+who'd want more than 3, but why stop?
+
+All I need is a Widget with up to N viewports showing me different
+3-D or 2-D slices of my stuff.
+
+alter,
+pat
+
+-- 
+  pat@ritcsh.csh.rit.edu*paf3580@ritvax.rit.edu*paflecke@spectrum.xerox.com
+*****************************************************************************
+    "All Objects are Macroscopic, Invisible, Non-Physical, or otherwise
+     Non-Heisenbergish.  Fuck the Cat!"  -- me

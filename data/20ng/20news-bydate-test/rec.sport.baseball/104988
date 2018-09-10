@@ -1,0 +1,92 @@
+From: tedward@cs.cornell.edu (Edward [Ted] Fischer)
+Subject: Re: Bases loaded walk gives Reds win in 12
+Organization: Cornell Univ. CS Dept, Ithaca NY 14853
+Lines: 87
+
+In article <mssC5y5u0.4Dn@netcom.com> mss@netcom.com (Mark Singer) writes:
+>
+>Actually, I think the large-scale sample size is part of the problem.
+>It seems to me that if we were to plot all the players in baseball
+>in regard to BA vs. Clutch BA deviation we would get some kind of
+>bell curve.  (The X-axis being the +/- deviation in clutch hitting
+>vs. non-clutch;  the Y-axis being the number of players.)  Certainly
+>there would be *some* players on the extreme ends of the bell.
+
+Right.  Most definitely.
+
+>My *supposition* is that if we were to find the SAME players
+>consistently (year after year) at one end of the bell or the other,
+>then we might be able to make some reasonable conclusions about
+>*those* players (as opposed to all baseball players).
+
+This may be the root of the confusion...
+
+Please consider the following hypothetical with an open mind.  Note
+that I am *not* (yet) saying that it has anything to do with the
+question at hand.
+
+Suppose we have a simplified Lotto game.  You pick a number from 1-10
+and win if that number is drawn.  Suppose we have a large population
+of people who play this game every week.
+
+In the first year of the game, approximately 1/4 of the population
+will win 7 or more times.
+
+In the second year of the game, 1/4 of those 7-time winners will again
+be 7-time winners.
+
+In the third year of the game, 1/4 of those who won 7 or more times in
+each of the first two years will win 7 again.
+
+Suppose I started with 1024 people in my population.  After three
+years, I have 32 people who have consistently, in each of the last
+three years, won 140% or more the number of times expected.
+
+Do we expect them to be big winners in the fourth year of the game?
+No.  Because we know there is no skill involved.  Nothing about these
+"consistent winners" can influence their chances of winning.  But
+suppose we *don't* know whether or not there is a chance that skill
+might be involved.  Perhaps some of the people in our population are
+psychic, or something.  How would we test this hypothesis?
+
+We can look for correlations in the population.  Now most of the
+population will show zero correlation.  But our psychics should show a
+high positive correlation (even if they aren't very good psychics,
+they should still manage to win 7 or more times most years).  Net
+result?  A small positive correlation over the entire population.
+
+>This probably brings us to the heart of the disagreement I am having
+>with others on this topic.  Must any conclusion based on statistical
+>history be able to be applied broadly throughout a data base before
+>it has any validity?  Is it impossible (or irrational) to apply
+>statistical analysis to selected components of the data base?
+
+Well, zero correlation is zero correlation.  You mention that Sabo has
+hit poorly in the clutch over the last 3(?) years.  But if we look at
+the past, we find that clutch patterns are just as likely to reverse
+as they are to remain consistent.  The length of the streak doesn't
+seem to make a difference to the probability that the player will be
+clutch or choke the next year.  Is there any reason to expect *this*
+streak to be different from past streaks?
+
+Now if it were true that "75% of all three-year streaks remained true
+to form", then we might have something useful.  But then we wouldn't
+have zero correlation.  Instead we have "50% of all three-year streaks
+remain true to form, and 50% of all three-year streaks reverse".  You
+look at those numbers and say "three year choke streak implies more
+likely to choke this year".  But it would be equally valid to look at
+those numbers and say "three year choke streak implies more likely to
+be clutch this year", since the probabilities are split 50-50 each
+way.
+
+>I completely accept that reasoning.  Again, what if we were to find
+>the same individuals at each end of the spectrum on a consistent
+>basis? 
+
+Then we would have something useful.  And we would also have a
+positive correlation.  But for every individual that exhibits such a
+pattern and holds true, there is another who exhibits such a pattern
+and then reverses.
+
+Cheers,
+-Valentine

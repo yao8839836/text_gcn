@@ -1,0 +1,11 @@
+From: djr48312@uxa.cso.uiuc.edu (Dennis Robinson)
+Subject: Re: x86 ~= 680x0 ?? (How do they compare?)
+Distribution: usa
+Organization: University of Illinois at Urbana
+Lines: 5
+
+The 486 at the same CLOCK is NOT as fast as the 040 at the same
+clock speed.  The '040 also has much better floating point unit.
+Now the DX2-66 is faster than the '040 at 33Mhz.  But for your
+reference the 486 at 33 mhz gets ~14MIPS while the '040 at
+33mhz gets ~20MIPS.

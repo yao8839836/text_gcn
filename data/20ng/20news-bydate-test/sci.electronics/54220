@@ -1,0 +1,41 @@
+From: squish@endor.uucp (Shishin Yamada)
+Subject: Re: help with phone wire: which ones are "tip" & "ring"?
+Organization: Aiken Computation Lab, Harvard University
+Distribution: usa
+Lines: 35
+
+In article <1993Apr22.103922.23177@husc3.harvard.edu> mlevin@husc8.harvard.edu (Michael Levin) writes:
+>
+>I just bought a little gizmo that is supposed to be installed "in
+>series with the tip or ring lines" of the phone wire. Which ones are
+>those? Suppose I am holding a regular phone wire, such that the little
+>plastic tooth (on the little plastic square thing with the naked lead
+>ends that you plug into the phone) is facing down, and away from me.
+>Which of the 4 wires that I see is the "tip" and which is the "ring"?
+>Please reply to mlevin@husc8.harvard.edu.
+>
+>Mike Levin
+>
+Mike, Ring is the RED wire. Tip is the GREEN wire of most standard
+phone lines. They two constitute the two wires most often used for
+voice telephone (the two live lines). They are the two innermost
+connectors of an RJ-11 phone jack.
+
+Another way of telling is that if you measure voltage from RED to
+GREEN (ring to tip. tip/green being at ground potential of the
+voltmeter), it should read -48 volts in the on-hook no-ring position).
+I am 98% sure it's -48 V and not +48 volts. Doesn't hurt a phone too
+much if they're reversed, it's just bad if one happens to somehow get
+grounded to earth ground elsewhere).
+
+Additionally, when off-hook, the voltage drops to about -4 to -9 Volts
+DC. I think it is supposed to correspond to a 36 to 40 mA current
+loop. And lastly, when ringing, the two wires develop an AC potential
+of about 80 V p-p at 20 to 30 Hz across them (where you get the
+electromechanical old fashioned bell ringer from).
+
+Hope that clears things...
+-squish@endor.harvard.edu
+
+
+

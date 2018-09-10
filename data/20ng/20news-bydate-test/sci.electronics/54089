@@ -1,0 +1,56 @@
+Subject: Re: How to the disks copy protected.
+From: sjmadsen@nextsrv.cas.muohio.edu (Steve Madsen)
+Nntp-Posting-Host: nextsrv.cas.muohio.edu
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 50
+
+Kuo-Sheng (Kasey) Chang (kschang@sfsuvax1.sfsu.edu) wrote:
+> The program is definitely backupable, if restored to the same machine (depends
+> on the programmer...  don't use a disk drive characteristic!)  If the user 
+> did an upgrade to the machine, he/she should reinstall all programs any way.
+> No document look-up, no disk wear-and-tear!
+
+	This is not a good idea.. I upgraded my motherboard last fall.  I
+would have been quite pissed at any software that would have forced me to
+reinstall simply because I changed motherboards.
+
+	Any info in the BIOS is too volatile to use as a checksum.  Are you
+going to require that a user re-install all their software if they add 4Mb
+of RAM to their computer?  I did that a couple of weeks ago.  It's in the
+BIOS, and if software had told me "this isn't the machine you installed me
+on" I would never have used that software again.  Really bad idea.
+
+> I did not say that the originals would allow only one install.  The user's 
+> conscience should do that.
+
+	This is silly.  It's much easier to loan disks to a friend and let
+them do an install than to backup your copy already on disk, and then give
+them that.  Your scheme isn't going to stop anyone.
+
+> You know how many bytes you need to change in X-wing to disable
+> the quiz?  TWO!  Yes, TWO!  (And don't ask me which ones they are.)
+
+	Do you know any assembly language at all?  All anyone needs to do if
+find the part of the code that does the quiz, and insert a JMP instruction
+to just completely skip it.  Not that difficult, really!  And there is very
+little that commpanies can do to stop this type of thing.  Using PKLITE or
+some similar utility would help, but only if the resulting compressed .EXE
+were tagged as uncompressable.
+
+> What I believe the companies should do is implement the above plus
+> a special patch once the user registers that loudly exclaims upon bootup
+> "REGISTERED TO XXXXX -- address, city, state zip" and disables the above.
+
+	This is by far the best idea you presented in your post.  Making it
+plainly obvious who registered is going to stop casual pirates. But, the
+determined ones are just going to answer "Joe Blow" to the question of
+"what's your name" so this won't stop them in the long run.
+
+	Pirates are always going to win this fight.  They simply have more
+time to work on the software and figure out the protection scheme.
+
+--
+Steve Madsen
+sjmadsen@nextsrv.cas.muohio.edu
+
+Ask me about Linux, the free 386 unix!

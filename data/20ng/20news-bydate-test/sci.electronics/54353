@@ -1,0 +1,50 @@
+From: kludge@grissom.larc.nasa.gov (Scott Dorsey)
+Subject: Re: Pressure Zone Microphones
+Organization: NASA Langley Research Center and Reptile Farm
+Lines: 43
+Distribution: world
+NNTP-Posting-Host: grissom.larc.nasa.gov
+
+In article <1rjobdINNk1s@crcnis1.unl.edu> mpaul@unl.edu (marxhausen paul) writes:
+>I remember, back before commercial mikes with the "PZM" label (for
+>Pressure Zone Microphone) started showing up, I read an article,
+>in some engineering journal, that described the principles involved.
+>All the physics aside, from a practicle standpoint the author's said
+>they built a prototype with nothing more than a small Sony lavelier
+>mike laid up against a large aluminum disk.  In demonstrating it at
+>a presentation to audio engineers, this was impressive enough that
+>the people present were bugging them about where they could buy them.
+
+Yup, it's not all that difficult to do.
+
+>Anyway...I want to build some to use as "choir mikes" (wide coverage).
+>I've had good luck using some small electret mike elements I got
+>from Digi-Key - most of these are limited-bandwidth, peakey units
+>but for a buck or two more I got the ones spec'd to go out to 20kHz
+>with a bit flatter response.  
+
+The Panasonic cartridges aren't bad, but they aren't spectacular.
+
+>The distance of the mike opening from the flat plate is kind of
+>critical.  I'm debating whether to mount it on it's side, which
+>puts the opening a shade under 2mm from the plate, or mounting
+>it with the opening actually pointing down into the plate at a
+>small clearance.  I haven't dissected a unit like you can buy at
+>Radio Shack to see how they do it.  Thoughts?
+
+Don't mount it on the side.  Call up Crown, the company that has the
+patent on the PZM, and ask them for information on construction and
+use of the things.  You may have to determine the correct spacing
+emperically with a noise source and a spectrum analyzer because the
+design of the Panasonic cartridges uses a tuned cavity in front of
+the electret element to increase the high frequency response, and you
+are going to be altering the resistance through the cavity entrance.
+
+Crown has a nice book on the subject, though it's unfortunately rather
+short on mathematics.  There's a JAES article from many years back, too.
+
+Still, for your application, you'll be a lot better off buying the cheap
+Radio Shack models and using Phil Rastoczny's modifications to get a
+clean balanced output.  Phil's mods seem to get reposted here on a regular
+basis.
+--scott

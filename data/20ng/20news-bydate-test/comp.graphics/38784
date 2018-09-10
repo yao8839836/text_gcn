@@ -1,0 +1,35 @@
+From: kiki@PROBLEM_WITH_INEWS_GATEWAY_FILE (Keith Baccki)
+Subject: Re: 48-bit graphics...
+Organization: Computer Science Department, Boston University, Boston, MA, USA
+Lines: 29
+X-Newsreader: TIN [version 1.1 PL9]
+
+Wonko the Sane (oehler@yar.cs.wisc.edu) wrote:
+
+: 	I was recently talking to a possible employer ( mine! :-) ) and he made a reference to a
+: 48-bit graphics computer/image processing system.  I seem to remember it being called IMAGE or
+: something akin to that.  Anyway, he claimed it had 48-bit color + a 12-bit alpha channel.  That's
+: 60 bits of info--what could that possibly be for?  Specifically the 48-bit color?  That's 280
+: trillion colors, many more than the human eye can resolve.  Is this an anti-aliasing thing?  Or
+: is this just some magic number to make it work better with a certain processor.
+
+
+	I'm pretty sure most industry strength image processing specific 
+systems (i.e. photo processing gear) use as much as 96 bits of color info.
+Why? Why not, oversampling is never a bad idea especially if the
+hardware's only task is image manipulation, and profressional photographers
+demand professional results.
+
+: 	Also, to settle a bet with my roommate, what are SGI's flagship products?  I know of
+: Iris, Indigo, and Crimson, but what are the other ones, and which is their top-of-the-line?
+: (sadly, I have access to none of them.  Just a DEC 5000/25.  Sigh.)
+
+	Strange question, but anyway, there's the VGX line, the newer
+Indigo^2, and the Onyx systems are the new big boys on the block (you
+can get a 24 processor system with twice the graphics performance of
+a reality engine). There's more, but I don't have my handy "periodic 
+table of sgi's" on me...
+
+
+			Keith
+

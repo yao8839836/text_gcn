@@ -1,0 +1,14 @@
+From: titus@ecosys.drdr.Virginia.EDU (Jason Titus)
+Subject: Virus? Centris 610 wierdness..
+Organization: U.Va. Division of Recoverable and Disposable Resources
+Lines: 9
+
+	I've been getting seemingly random disk accesses on my Centris 610
+with a Quantum 240 LPS, but this is NOT the regular recalibration it has been
+doing since I got it....  This is sometimes short, sometimes long, accesses
+that sound like there is some read/writing going on.
+	I have SAM 3.5, and Disinfectant 3.0, but neither picks up anything..
+Any ideas?
+
+							Jason.
+						titus@ecosys.drdr.virginia.edu

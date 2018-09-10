@@ -1,0 +1,33 @@
+From: long@spk.hp.com (Jerry Long)
+Subject: Re: 2% silver solder
+Organization: Hewlett-Packard
+X-Newsreader: TIN [version 1.1.4 PL6]
+Lines: 27
+
+Andy Shiekh (shiekh@ictp.trieste.it) wrote:
+:   I have seen the existance of electronics solder with a 2% silver
+: content that seems to have good wetting and fatique reatings.
+:   Can anyone tell me why it is not used? (silver is not such an expensive
+: metal).
+: 
+: 
+: Andy
+: 
+
+For the most part, silver-solder is not used for general soldering
+tasks due to the mechanism of dendritic growth. Silver-solder, when
+exposed to high humidity and placed in an electric field, will actually
+grow dendrites which are conductive and will adventually electrically
+short across closely spaced nodes which are creating the field. For this 
+reason, silver is allowed only in hermetically sealed assemblies.
+Fortunatly, tin-lead solder is quite stable and will not grow dendrites
+as fast as silver-solder. Therefore, it is used extensively.
+
+ 
+Jerry Long
+
+long@spk.hp.com
+****************************************
+Disclaimer.... Opinions are my own and
+do NOT reflect those of my employer.  
+**************************************** 

@@ -1,0 +1,15 @@
+From: victori@xetron.com (Victor Iseli)
+Subject: Re: freely distributable public key cryptography c++ code:  where?
+Organization: Xetron Corporation, Cincinnati Ohio
+Lines: 10
+
+
+
+"Numerical Recipes in C"..Fortran..Pascal  has a nice section on
+encryption and decryption based on the DES algorithm.  There is
+also source code provided (I think some versions of this book are 
+distributed with the source code on disk; the source code can
+also be ordered from the publisher).
+
+--Victor Iseli
+victori@xetron.com

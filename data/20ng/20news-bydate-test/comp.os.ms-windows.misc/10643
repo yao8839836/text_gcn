@@ -1,0 +1,20 @@
+From: leopard@spud.Hyperion.COM (Steeve Vawter)
+Subject: QUESTIONS about DOS external JOIN command...
+Organization: Hyperion, Mountain View, CA, USA
+Lines: 11
+Distribution: na
+NNTP-Posting-Host: spud.hyperion.com
+Summary: looking for information, good or bad
+Keywords: Pros?  Cons?  Bugs?  Problems?
+
+   I am setting up my DOS/UNIX box on a 116M IDE and a 412M SCSI drive
+and was wondering about the use of the (MS-DOS 5.0) JOIN command.  I
+like the way it sets things up since I won't have to stick with the C:
+D: & E: (crap) that DOS enforces.  I like how it would mimic mount
+points of UNIX filesystems.  I have heard that there were problems
+with using it, or at least under older versions of DOS.  Please tell!
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+leopard@HYPERION.COM        I don't work for Hyperion, I just live here...
+--Steeven M. Vawter	Telephone: (408) 737-7932
+svawter@RAYNET.COM	Work: (415) 324-7256	UNIX Sys Admin

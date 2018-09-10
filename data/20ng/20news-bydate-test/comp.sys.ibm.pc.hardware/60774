@@ -1,0 +1,28 @@
+From: j_manning@csc32.enet.dec.com (John Manning)
+Subject: Re: Mitsumi and SB Pro
+Organization: Digital Equipment Corporation
+Distribution: usa
+Lines: 22
+
+
+In article <21APR199311301194@elroy.uh.edu>, st1r8@elroy.uh.edu (B.J. Guillot) writes...
+>In article <1993Apr20.074447.26955@zip.eecs.umich.edu>, grover@emunix.emich.edu (Grover Thomas) writes...
+>>Just poke out the little pins in the connector, and then replace them in
+>>the correct slots.
+> 
+>Is this reverisible?  You can unpoke as easy as you poke?
+> 
+
+Well, I tried this method based on responses from several people.  Either
+I am a klutz(probable) or they have changed the connector.  I ended up having
+to destroy the connector, put heat shrink tubing on the individual pins and 
+then plug them into the SB connector in the correct order.  It works great 
+this way so this turned out just fine.  It certainly sounded easy based on
+other people's experiences but my attempts did not go too well...
+
+John
+
+-------------------------------------------------------------------------------
+|    John Manning                       |  Opinions expressed are my own.     |
+|    j_manning@csc32.enet.dec.com       |  I do not represent Digital Equip.  |
+-------------------------------------------------------------------------------

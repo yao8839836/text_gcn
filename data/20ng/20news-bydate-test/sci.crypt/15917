@@ -1,0 +1,49 @@
+From: ijames@helix.nih.gov (Carl Ijames)
+Subject: Re: REVISED TECHNICAL SUMMARY OF CLIPPER CHIP
+Organization: National Institutes of Health
+Lines: 44
+
+> In article <1993Apr21.192615.3465@guvax.acc.georgetown.edu>, denning@guvax.acc.georgetown.edu writes:
+> 
+> > Each chip includes the following components:
+> 
+> >    the Skipjack encryption algorithm
+> >    F, an 80-bit family key that is common to all chips
+> >    N, a 30-bit serial number (this length is subject to change)
+> >    U, an 80-bit secret key that unlocks all messages encrypted with the chip
+> [ ... ]
+> 
+> > To see how the chip is used, imagine that it is embedded in the AT&T
+> > telephone security device (as it will be).  Suppose I call someone and
+> > we both have such a device.  After pushing a button to start a secure
+> > conversation, my security device will negotiate an 80-bit session key K
+> > with the device at the other end.  This key negotiation takes place
+> > without the Clipper Chip.  In general, any method of key exchange can
+> > be used such as the Diffie-Hellman public-key distribution method.
+> 
+> > Once the session key K is established, the Clipper Chip is used to
+> > encrypt the conversation or message stream M (digitized voice).  The
+> > telephone security device feeds K and M into the chip to produce two
+> > values:
+> 
+> >    E[M; K], the encrypted message stream, and 
+> >    E[E[K; U] + N; F], a law enforcement field , 
+> [ ... ]
+> 
+> > which are transmitted over the telephone line.  The law enforcement
+> > field thus contains the session key K encrypted under the unit key U
+> > concatenated with the serial number N, all encrypted under the family
+> > key F.  The law enforcement field is decrypted by law enforcement after
+> > an authorized wiretap has been installed.
+
+Is the U used in the law enforcement field from the phone which placed the
+call, from the unit whose 'start secure session' button was pressed first,
+or does each phone transmit its own law enforcement field?  Even assuming
+one of the first two choices, the FBI is going to get a fresh N,U for its
+own database about every other phone call, eventually accumulating keys for
+all the phones used to connect to the line they are monitoring, not just
+the 'suspects' key.  (Assuming the ever-thrifty FBI doesn't forget each key
+after its wiretap permission has expired.)  Not quite a pyramid, but not
+bad, either.
+
+Carl Ijames     ijames@helix.nih.gov        More worried every day.

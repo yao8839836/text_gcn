@@ -1,0 +1,25 @@
+From: elbourne@undergrad.math.uwaterloo.ca (ed bourne)
+Subject: Sad Mac (SCSI?) question
+Organization: University of Waterloo
+Lines: 20
+
+I hooked up an old 40meg external mac hardrive to a Powerbook 230.  I 
+reformatted the drive, copied all the files from the powerbook except the
+systemfolder, deleted the files from the powerbook (my biggest error, sigh)
+and then rebooted the whole set up and... chimes of death.
+I get the following sad mac error, 
+00000F
+000003
+I ran Norton and it claims its a bad SCSI driver and suggests replaceing it.
+I used Apples Disk Tools but I couldn't update the hardrives SCSI driver
+as it claimed it was in use, but I couldn't even mount the thing (though
+I could see it when checking the SCSI bus, after turning it on after booting
+my machine first).
+
+What does that error above refer to?  Am I on the right track?  Is there
+anything I can do short of intialising the drive, since I need the data
+on there!
+
+thanks
+ed bourne
+

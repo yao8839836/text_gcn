@@ -1,0 +1,26 @@
+Nntp-Posting-Host: hawaii.et.byu.edu
+Lines: 19
+From: haymoree@alaska.et.byu.edu (Ed Haymore)
+Subject: Re: modems and noisy lines.
+Distribution: world
+X-Newsreader: TIN [version 1.1 PL9]
+
+Chris Crayton (chris.crayton@ozonehole.com) wrote:
+|  JCL> this garbage?, my modem doesn't have any of these on hardware, can a
+|  JCL> software implemented protocol do the trick?
+
+| There is a software version of MNP-5 available from MTEZ, and it will often
+| connect with other modems that are MNP compatible, but if the modem that you
+
+There's also a program called ODYSSEY (MODEM directory on the Simtel
+archives) that emulates MNP 4 and 5 (others, too, I think, but these were
+what I was interested in).  I was getting a lot of garbage when I called
+one number, and MNP 4 cleared it up completely on my ordinary 2400 modem.
+(Fortunately, the remote end had an MNP modem.)
+
+I tried MNP 5, too, but it seemed to lock up the computer.  Your mileage
+may vary.
+
+--
+Ed Haymore
+ed@byu.edu

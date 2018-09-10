@@ -1,0 +1,53 @@
+From: me@dude.pcs.com (Michael Elbel)
+Subject: Re: Blinking Cursor in Xterm???
+Organization: PCS Computer Systeme GmbH
+Lines: 48
+
+In <1t0dndINNmsd@senator-bedfellow.MIT.EDU> steve.mcmahon@launchpad.unc.edu writes:
+
+>>>>>> On Fri, 14 May 1993 07:15:25 GMT, me@dude.pcs.com (Michael
+>Elbel) said:
+
+>ME> As is, emu won't work on BSD derived systems (e.g. SUNs) with
+>ME> anything else than a csh. There is a fix to this, which is very
+>ME> short (remove one line of code). I'll put this on export today.
+
+>It's more than that actually. In the version on export one cannot just
+>specify a POSIX tty behaviour, the POSIX config files are incomplete
+>without those of some specific platforms like Suns and DECs. I looked
+>twice at porting emu to linux, but stopped short becuse of the tty
+>part. Is there a `cleaner' version of emu that supports POSIX tty
+>explicitly?
+
+Hmm, depends on how you define 'clean'. Jordan implemented the system
+dependent stuff in a way that you have basic implementations for,
+call it, operating system types, then you go ahead and write a include
+file for your specific machine or operating system using the basic
+implementations. Since both Jordan and I haven't encountered a 
+OS flavor yet, that is fully POSIX, we haven't gotten around to
+really implement (and test) a top-level include file specifically
+for just posix. The posix routines are used in the sun specific file
+tty_sun.i for example, but here we also use some bsd stuff. All in all
+it still is probably better to implement a include file for each and
+every operating system than '#ifdef'ing in existing ones. The type
+of mess that can result from that can clearly be seen in the xterm
+sources. Even if quite a bit of code gets copied almost unchanged a 
+couple of times, this only uses up some disk space, since only the 
+"drivers" actually included from the toplevel include file will be 
+compiled into emu.
+
+It shouldn't be hard to come up with a tty_linux.i file that fully
+relies on the posix stuff, but unfortunately I don't have a linux
+system available to me, so I can't do the port myself. I would suggest
+you read the README in term/sysdep and if you have any problems or
+questions, contact me and we could try to sort this out. Unfortunately
+we have to rely on help from the net on this part of emu, since we 
+just don't have access to that many different systems.
+
+Michael
+
+
+--
+Michael Elbel, Digital-PCS GmbH, Muenchen, Germany - me@dude.pcs.com
+Intelligenz is sowieso nur wat fuer Doofe - Mia
+Fermentation fault (coors dumped)

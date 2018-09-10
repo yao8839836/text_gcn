@@ -1,0 +1,39 @@
+From: paryavi@matt.ksu.ksu.edu (Saiid Paryavi)
+Subject: Re: Unknown Mac board NATIONAL INSTRUMENTS NB-DMA-8
+Organization: Kansas State University
+Lines: 32
+Distribution: usa
+NNTP-Posting-Host: matt.ksu.ksu.edu
+
+kmradke@iastate.edu (Kevin M Radke) writes:
+
+>I need help identifying this board that I found stuffed away in a corner.
+
+>As the title says, all that is printed on it is NATIONAL INSTRUMENTS NB-DMA-8.
+>It fits fine in my Mac IIci and snooper gives the very same name for the
+>board.  It looks like it has an HP-IB connector on the back of it and
+>another connector on the top (2 rows by 25 pins).  It also looks like
+>it has an Intel processor on it (#A82380-16 Intel '86)
+
+>On an EEPROM there is a sticker with the P/N 700584-01.
+
+>Anybody ever seen or heard of one?  Or better yet, do you know what it does?
+>We are all clueless here.  Our last option is to hook it up to our HP
+>workstations and see if any smoke comes out.
+
+>Thanks a lot!
+
+>Kevin
+>-- 
+It is a data aquisition board for the Mac II series.  It is called
+the DMA Board with GPIB Interface.  You may call NI at 800-IEEE-488
+to find out more about it.
+
+Hope this helps.
+
+Saiid Paryavi
+
+-- 
+*************************************************************************
+Saiid Paryavi 		paryavi@matt.ksu.ksu.edu 	saiid@cis.ksu.edu
+*************************************************************************

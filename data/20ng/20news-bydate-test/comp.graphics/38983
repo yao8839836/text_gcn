@@ -1,0 +1,38 @@
+From: wolfram@rbg.informatik.th-darmstadt.de (Wolfram Kresse)
+Subject: XV for DOS: what's the problem?
+Organization: TU Darmstadt
+Lines: 31
+Distribution: world
+NNTP-Posting-Host: rbhp21.rbg.informatik.th-darmstadt.de
+
+I downloaded the file xv221exe.zip from the site someone posted here.
+It contained the files:
+  CJPEG.EXE
+  DJPEG.EXE
+  XV.EXE
+
+When I tried to run it, it just said 
+"Couldn't run go32.exe"
+and halts.
+
+What's the matter with this? 
+Are there some files missing in the .zip?
+What is go32.exe?
+
+any help appreciated.
+
+bye,
+
+Wolfram
+
+--
+
++-------+---------------------------------------------------------------+
+|       |Wolfram Kresse * E-Mail: wolfram@rbg.informatik.th-darmstadt.de|
+|  ~ ~  +--------------------------+---------------+--------------------+
+|  + +  |"Meeneemeeneemeenee"      |CU l8r, LE g8r!|
+|   I   |"Yes,that's right,Tweeky."+---------------+
+| _____ +-----+----+---------------+
+|     U | 8^) | =) |
++-------+-----+----+
+

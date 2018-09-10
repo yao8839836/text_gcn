@@ -1,0 +1,24 @@
+From: jrbd@craycos.com (James Davies)
+Subject: Re: Clipper considered harmful [Restated and amplified]
+Organization: Cray Computer Corporation
+Lines: 19
+
+In article <1993Apr26.145937.3570@wdl.loral.com> koontzd@phobos.lrmsc.loral.com (David Koontz ) writes:
+>>Clipper also allows an extraordinary opportunity for the criminal to
+>>conceal use of super-encryption.  An automated full-system surveillance
+>>mechanism (quite feasible across radio bandwidth) which knows family key F,
+>>can validate Clipper wrappers and N:ESN associations, but it cannot reveal
+>>in realtime the use of super-encryption, unless it knows all unit keys,
+>>which we are being assured are only to be made available in two separate
+>>pieces, upon specific wiretap-like order.
+>
+>The serial number will be in a 64 bit block, with a 34 bit filler.  Doesn't
+>take a lot to check to see if that is correct.
+
+Yes, but the extra encryption could be applied *before* the message
+is encrypted by the Clipper, so that the wrapper would be fine, the
+phone's serial number and the session key would be in the law-enforcement
+field, etc., but the message wouldn't be readable even if the particular
+Clipper's key were obtained from the escrow agents.  In fact, it shouldn't
+even be possible to detect that a message has been double-encrypted without
+a court order, right?

@@ -1,0 +1,27 @@
+From: paw@coos.dartmouth.edu (Pat Wilson)
+Subject: Re: XV 3.00 has escaped!
+Organization: Dartmouth College, Hanover, NH
+Lines: 22
+
+
+> * Commercial, government, and institutional users MUST register their
+> * copies of XV, for the exceedingly REASONABLE price of just $25 per
+> * workstation/X terminal.  Site licenses are available for those who
+> * wish to run XV on a large number of machines.  Contact the author
+> * for more details.
+>...
+
+I would have appreciated an announcement of the policy change - 
+Dartmouth will not be able to run xv 3.0, and I'm probably going 
+to have to take v2 off line (I somehow missed the "shareware"
+designation in the README of v2, and didn't realize that we were
+supposed to register).
+
+I also debate whether this, with the new "institutions must pay"
+policy belongs in the contrib directory on export - to me, "contrib"
+means "contributed" (i.e. no strings, except copyright) attached.
+
+--
+Pat Wilson
+Systems Manager, Project NORTHSTAR
+paw@northstar.dartmouth.edu

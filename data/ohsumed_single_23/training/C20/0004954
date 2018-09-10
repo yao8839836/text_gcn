@@ -1,0 +1,5 @@
+Evaluation of active control trials in AIDS.
+ In settings in which effective standard treatment exists, active control trials provide an ethically appealing approach to evaluating experimental therapies by allowing all patients to be randomized either to a promising new regimen or to the standard as it would be routinely delivered in clinical practice.
+ This paper describes an appropriate statistical approach for analyzing the clinical efficacy of new treatments in such studies.
+ Confidence intervals for the relative efficacy of the new treatment vis-a-vis standard therapy are used to provide information required to determine whether the experimental treatment has an improved therapeutic index.
+ Desirable properties of this approach include the ability to implement standard group sequential guidelines for early trial termination, the ability to use valid surrogates for hard clinical outcomes, and the availability of straightforward formulas for sample size calculations.

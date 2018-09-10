@@ -1,0 +1,49 @@
+From: mcmahan@netcom.com (Dave Mc Mahan)
+Subject: Re: References for ANY IC
+Organization:  Dave McMahan @ NetCom Services 
+Lines: 44
+
+ In a previous article, ree88132@zach.fit.edu (Keith Ledig) writes:
+>I am looking for a text/reference that will include pinouts, 
+>description, and functionality for just about any IC made.
+>Does such a text exist?  Are there docs on the Internet that
+>reference IC's?  It would be a great idea if each major
+>IC manufacturer made available to the public an anonymous
+>FTP site with all it's data books in the form of text files.
+>(ala RFC style).  This would save time and money for the
+>IC manufacturer since a text file costs nothing to send
+>around the world via internet and since most users of
+>IC's are found in the internet anyway.  
+>
+>Are there any books available for purchase that reference
+>(as many as possible)?  Or am I going to be stuck obtaining
+>a zillion databooks from the manufacturers (those little
+>phonebook-type books that are obsoleted every couple years)
+
+We use a CD-ROM based system here.  There are about 45 CD-ROM disks and a
+4-disk changer hooked to a dedicated MS-DOS computer.  It contains scanned
+images of data book pages for several thousand parts.  When you ask it for
+something it knows about (mostly active IC parts), it works quite well.
+THey don't handle all the varieties of transistors or diodes that exist.
+It is definately a start in the right direction, but they need to expand
+the data base to handle more types of stuff.
+
+These systems aren't cheap.  We paid about $7,000 for the liscence and get
+monthly updates of some of the CD-ROM disks.  We send the old ones back to
+them so that they will keep sending us the updates.  I think we pay a
+yearly maintainence fee of about $1,500 to get the updates.
+
+If you find the part you want, you can look at the data sheet on a
+page-sized monitor (it's a special monitor from SigmaSystems).  You can
+also print each page of the datasheet you want on a LaserJet printer.  Page
+printing takes a couple of minutes per page.  It can take a while to dump
+the 5 or 6 pages you usually need.
+
+I have a feeling the maker wouldn't like it if we made the data available
+to all Internet users.    :-)
+
+  -dave
+
+-- 
+Dave McMahan                            mcmahan@netcom.com
+                                        37N 17.382    121W 59.190 

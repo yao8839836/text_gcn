@@ -1,0 +1,20 @@
+From: anderson@dseg.ti.com (John Anderson)
+Subject: Re: WinCIM at 9600 baud
+Organization: TI-DSEG Spring Creek
+Nntp-Posting-Host: mcs-jha.dseg.ti.com
+Reply-To: anderson@dseg.ti.com
+Lines: 13
+
+In article <477@slc1.UUCP> kaw@slc1.UUCP (KA Workman) writes:
+>I've had similar problems downloading using WinCIM, I discovered that if I
+>disabled data compression on my modem, it works fine.
+
+What string did you use to do this?
+
+*********************************************************************
+* John H. Anderson			     Texas Instruments Inc. *
+* Internet:   anderson@dseg.ti.com	     PO Box 869305 MS 8435  *
+* CompuServe: 71174,2625		     Plano, TX 75086	    *
+*						 214-575-3513	    *
+*					     FAX 214-575-5974	    *
+*********************************************************************

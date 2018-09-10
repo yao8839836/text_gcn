@@ -1,0 +1,44 @@
+From: connie@acpub.duke.edu (Connie)
+Subject: re: Tempest and Cyclone info NEEDED
+Lines: 38
+Nntp-Posting-Host: mac9.ac.duke.edu
+Xdisclaimer: No attempt was made to authenticate the sender's name.
+
+>If anyone has any information about the upcoming new computers
+>(Cyclone and Tempest), I am in need of some info. Anything would be
+>greatly appreciated.
+
+>-Shawn
+>breedsa@wkuvx1.bitnet
+
+According to MacWeek of 2-22-93:
+
+The Cyclone will come in the same metal minitower case as the Quadra
+800, while the Tempest will share the low-slung case of the Centris
+610. Apple will offer a miniature video camera that can be mounted
+above the user's monitor or moved about on the end of its cable to take
+pictures of objects or documents. Taking advantage of the 32-bit
+digital signal processor (DSP) built into the systems' logic boards,
+the camera will be able to put an image measuring 360 by 288 pixels,
+with 256 gray levels, on the screen.
+
+Users will be able to install supplementary lenses that can record
+detail as fine as the wire bonds on an integrated circuit. The camera
+is expected to cost between $150 and $250.
+
+The systems will ship with all the software needed to put Apple's
+Casper voice-recognition technology to work; users apparently will have
+to purchase an operational high-fidelity microphone.
+
+The two models will talk as well as listen. A new system facility
+called the Speech Manager will convert text strings sent by
+applications to phonemes and then pass them to a speech synthesizer.
+
+The Cyclone will include a 40MHz '040, three NuBus slots and support
+for up to 128MB of RAM. The Tempest will use a 25MHz LC040, lacking an
+FPU, and hold up to 68MB of RAM; it will have a single slot that will
+require a NuBus adapter and have room for only 7-inch NuBus cards.
+Users will be able to update the Tempest's process but not the
+Cyclone's.
+
+For more get the 02.22.93 issue of MacWeek.

@@ -1,0 +1,24 @@
+From: spedhead@athena.mit.edu (Pankaj Oberoi)
+Subject: Help 3D-reconstruction
+Organization: Massachusetts Institute of Technology
+Lines: 17
+Distribution: world
+NNTP-Posting-Host: m37-318-1.mit.edu
+
+Hi I'm new to imaging, and my advisor and I would like to 
+do some 3D reconstructions.
+
+We take slides (biological), and image them on a 486.  Then
+the software allows us to trace the outline of the objects 
+we want to save.  The outlines are stored as a TIFF file.
+
+We would like to convert a group of these outlines into a 
+3D image.  We are unsure as to where to begin.  Someone mentioned
+that if we could convert the TIFF into a vector format then 
+we could view them in Autocad.
+
+Any help would be greatly appreciated.
+
+Pankaj Oberoi
+spedhead@athena.mit.edu
+

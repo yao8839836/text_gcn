@@ -1,0 +1,43 @@
+From: ak333@cleveland.Freenet.Edu (Martin Linsenbigler)
+Subject: Re: Changing Windows fonts?
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 36
+Reply-To: ak333@cleveland.Freenet.Edu (Martin Linsenbigler)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+In a previous article, ellard2@husc8.harvard.edu (Daniel Ellard) says:
+
+>
+>A friend of mine uses Windows 3.1 to do most of her work.
+>Unfortunately, she has very bad eyesight, and we haven't
+>been able to figure out how to change the default font
+>used by the system and application menus, or the font used
+>by the Help program (what use is hypertext if you can't
+>read it?) to make it legible to her.
+>
+>If anyone knows how to increase the size of these fonts,
+>of any software package that makes Windows more accessible
+>to visually handicapped people, please let me know.
+>
+>Thanks,
+>	Dan
+>
+>
+
+
+The May issue of PC/Computing page 246 has a Windows hint and tips for
+just this thing.  You have to edit the WIN.INI file and add a couple
+of lines.  I tried it and it works.  I actually made my Title bar
+and iconized text, and icon text smaller.  On my monitor it works well.
+You can select a larger font also.  You edit the WIN.INI file with
+a font name in your system directory.  Read the article because I would
+not want to retype it here in case I type errored and caused your
+system problems.
+
+C-ya..... /\/\artin
+-- 
+  This communication is sent by    /\/\artin   University of Arizona Tucson
+  =========================================================================
+  ak333@cleveland.freenet.edu   mlinsenb@ccit.arizona.edu  mlinsenb@arizvms
+  DEATH HAS BEEN DEAD FOR ABOUT 2,000 YEARS ****** FOLLOW THE KING OF KINGS

@@ -1,0 +1,42 @@
+From: clewis@ferret.ocunix.on.ca (Chris Lewis)
+Subject: Re: Power, signal surges in home...
+Article-I.D.: ecicrl.4361
+Organization: Elegant Communications Inc., Ottawa, Canada
+Lines: 36
+
+In article <1r1jmoINN8mb@rave.larc.nasa.gov> kludge@grissom.larc.nasa.gov (Scott Dorsey) writes:
+>In article <DRAND.93Apr20150701@spinner.osf.org> drand@spinner.osf.org (Douglas S. Rand) writes:
+>>In article <randall.735251839@woof> randall@informix.com (Randall Rhea) writes:
+
+>>   Hams can legally run up to 1500 watts.  It is very unlikely, however,
+>>   that a ham would be running that kind of power from a car.  Ham rigs
+
+>>Not possible either.  You'd need about a 300 amp alternator for
+>>just the amplifier.  I can just see it.  You need to slow
+>>down on a downgrade,  so you hit the push to talk button.
+
+>Now, that indeed is possible.  A good friend of mine is running about 1 KW
+>PeP from his car.  Yes, he does have a second alternator.  Yes, he calls
+>the rig an "electronic brake" since the engine noticeably slows when the
+>key is down.
+
+It has been a while since I knew the electronics of ham radio, but I seem
+to remember that PeP is actually 4x the "real" power.  Which makes 1KW PeP
+actually around 250W.  Or was it 2x?  I disremember.
+
+"Effective transmitted power" is also "odd", in that it takes into account
+antenna height and geometry.  Which is why a TV station with a 50KW Klystron
+might advertise a megawatt (if their antenna is on the top of the
+CN tower ;-).
+
+This is like Sears HP ;-)
+
+Though, 1500 real watts still isn't impossible.  About 125-150A with
+a 12V alternator, less if the alternator produces higher voltages.
+
+It's only three horsepower (taking into account inefficiencies).  You'll
+feel it when you hit the key.  But not too much.
+-- 
+Chris Lewis; clewis@ferret.ocunix.on.ca; Phone: Canada 613 832-0541
+Psroff 3.0 info: psroff-request@ferret.ocunix.on.ca
+Ferret list: ferret-request@ferret.ocunix.on.ca

@@ -1,0 +1,35 @@
+From: av@kielo.uta.fi (Arto V. Viitanen)
+Subject: Re: FUNET.FI
+Reply-To: av@uta.fi (Arto V. Viitanen)
+Distribution: world
+Organization: University of Tampere, Finland
+Lines: 26
+Nntp-Posting-Host: kielo
+In-reply-to: perry@wswiop15.win.tue.nl's message of 20 Apr 93 19:01:58 GMT
+
+>>>>> On 20 Apr 93 19:01:58 GMT, perry@wswiop15.win.tue.nl (Perry Egelmeers) said:
+Perry> NNTP-Posting-Host: wswiop15.win.tue.nl
+
+Perry> artieb@vnet.IBM.COM writes:
+
+>    I saw a posting earlier that refered to FUNET.FI directory /pub/msdos
+>however, when I log on to FUNET.FI I cant even find the "pub" directory let
+>alone the "msdos" directory !!!!  Can someone tell me what I'm doing wrong??
+
+Perry> Perhaps you should try nic.funet.fi instead of funet.fi ??!?!?
+
+Another possibility is, that you did not give your email address as password
+for the anonymous account. If you that, you see following message:
+
+230-
+230-You entered an invalid/inpropable password, and are now accessing
+230-restricted subset of files.    Please read README for more information.
+230-We have special access features, see file README
+230 It was last updated Tue Apr 13 23:45:09 1993 - 9.4 days ago
+
+This can happen, if your terminal emulator does not generate the '@'
+character as you think (it is hard to see, since passwords are not echoed..).
+--
+Arto V. Viitanen				         Internet: av@cs.uta.fi
+University Of Tampere,		        X.400: S=av;OU=cs;O=ut;ADMD=fumail;C=fi
+Finland

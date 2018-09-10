@@ -1,0 +1,51 @@
+From: mlt@blues.infores.com (Michael Turok)
+Subject: 'makedepend' problem
+Organization: Information Resources Inc.
+Lines: 46
+
+Hi, netters:
+
+We have a problem with 'makedepend': it doesn't know how to correctly process
+#if clause in C preprocessor statements. It evaluates everything to
+true no matter what the conditionals are.
+For example, makedepend chokes on one of X11 include files (as distributed
+by Sun) - namely Xos.h:
+
+#if     !defined(SUNOS41) || defined(__STDC__)
+#       include <string.h>
+#       define  index   strchr
+#       define  rindex  strrchr
+#else   /* BSD && !__STDC__ */
+#       include <strings.h>
+#endif  /* !SUNOS41 || __STDC__ */
+
+Here 'makedepend' evaluates both #if and corresponding #else statements
+to 'true' and tries to open the file <strings.h> which doesn't exist
+under Solaris2.
+We also have a lot of #if statements in some of our legacy code.
+We got and built 'makedepend' off the net - it didn't fix the problem.
+
+In all fairness it should be noted that 'makdepend' man-page (Sun's
+distribution) mentions this problem:
+
+BUGS
+     If you do not have  the  source  for  cpp,  the  Berkeley  C
+     preprocessor, then makedepend will be compiled in such a way
+     that all #if directives will evaluate to  "true"  regardless
+     of  their  actual  value.  This may cause the wrong #include
+     directives to be evaluated.  Makedepend should  simply  have
+     its own parser written for #if expressions.
+
+Has anybody come up with some solution/fix to 'makdepend' other than
+WriteYourOwnParser... and willing to share it with us?
+
+Since we often experience delays in our newsfeed - please reply 
+directly to my e-mail address -> I'll post a summary.
+
+Thanks in advance.
+***************************************************************************
+*     Michael Turok                  *                                    *
+*  Information Resources, Inc.       * E-Mail:  mlt@blues.infores.com     *
+*     200 Fifth Avenue               * Voice:  (617) 890 1100 ext.7531    *
+*  Waltham, MA 02154, USA            * Fax:    (617) 890 4660             *
+***************************************************************************

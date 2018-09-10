@@ -1,0 +1,39 @@
+From: gjp@sei.cmu.edu (George Pandelios)
+Subject: Re: IDE Low Level Format
+Organization: The Software Engineering Institute
+Lines: 34
+
+
+In article <1993Apr21.050716.12261@organpipe.uug.arizona.edu>, shenx@helium.gas.uug.arizona.edu (xiangxin shen  ) writes:
+|> In article <C5H3yL.F66@news.cso.uiuc.edu> mandel@romulus.ehs.uiuc.edu (Hector Mandel) writes:
+|> >I accidentally tried to low level format my Western Digital Caviar 280 drive.
+|> >Is there a public domain or shareware utility available that will allow 
+|> >me to fix it?
+|> >
+|> >Thanks.
+|> 
+|> I am no expert on this.  But I am pretty sure there is no way to recover this.  IDE drive has mapping information written directly on drives.  When you  low level format it, the information itself is gone as well, I don't think you can get it back unless |> you send it back to Western Digital and ask them to refurbish it for you.
+|> 
+|> Jim
+
+Well, I have a different story to recount.  I attempted to low-level format a
+WD 43MB disk about a year ago.  When I understood my error, I contacted WD.
+They told me that I hadn't hurt the drive and that I should just run FDISK and
+FORMAT/S on it.  It was fine.  Also, I understand that Western Digital's BBS
+may have some low-level formatting routines specifically available for IDE
+drives.  You probably need to talk to them and get the straight scoop.
+
+George
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  George J. Pandelios				Internet:  gjp@sei.cmu.edu
+  Software Engineering Institute		usenet:	   sei!gjp
+  4500 Fifth Avenue				Voice:	   (412) 268-7186
+  Pittsburgh, PA 15213				FAX:	   (412) 268-5758
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Disclaimer:  These opinions are my own and do not reflect those of the
+	     Software Engineering Institute, its sponsors, customers, 
+	     clients, affiliates, or Carnegie Mellon University.  In fact,
+	     any resemblence of these opinions to any individual, living
+	     or dead, fictional or real, is purely coincidental.  So there.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+

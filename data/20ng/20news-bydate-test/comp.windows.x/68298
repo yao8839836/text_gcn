@@ -1,0 +1,17 @@
+From: spatel@cs.tamu.edu (Samir K Patel)
+Subject: Colorizing Motif Widgets using Resource File
+Organization: Computer Science Department, Texas A&M University
+Lines: 10
+Distribution: world
+NNTP-Posting-Host: photon.tamu.edu
+
+
+
+I posted this question about colorizing motif widgets. I got it working
+fine. There was one bug in my .Xdefault file. It should work fine in normal
+case.
+
+Thanks
+
+
+Samir ( spatel@cs.tamu.edu )

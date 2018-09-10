@@ -1,0 +1,15 @@
+From: tecslm1@sdc.boeing.com (Shamus McBride)
+Subject: IDE in Zenith 386/16, okay?
+Distribution: na
+Organization: Boeing Computer Services (ESP), Seattle, WA
+Lines: 9
+
+Anyone have experiences, good or bad, with replacing the MFM controller
+and drive with an IDE controller and drive in a Zenith 386/16? I had
+heard some rumors about bus mastering problems on some CPU board 
+revisions.
+
+--
+Shamus Mc Bride           | tecslm1@sdc.boeing.com      
+Boeing Computer Services  | tecslm1%sdc@atc.boeing.com
+(206) 865-5047            | uw-beaver!bcsaic!sdc!tecslm1

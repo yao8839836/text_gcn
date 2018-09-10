@@ -1,0 +1,23 @@
+From: cfury@csugrad.cs.vt.edu (Chris Fury)
+Subject: Re: Help needed: DXF ---> IFF
+Lines: 17
+Organization: Virginia Tech Computer Science Dept, Blacksburg, VA
+Lines: 17
+
+Blue-Knight@bknight.jpr.com (Yury German) writes:
+
+>	.DXF can not be changed over to .IFF format what it can be changed
+>to is an object format used by one of the 3D programs on the Amiga. The
+>only tools around are comercial for that conversion.
+
+Actually, IFF is a *format standard*.  It is not a picture file format, sound
+file format, but there exist several formats that use the IFF standard.  The
+IFF picture standard used by mostly everybody is a FORM ILBM (or just ILBM).
+The only 3D IFF specification I know of is TDDD, which is used by Imagine and
+it's predecessor, Turbo Silver.   It is possible that some of the other Amiga
+packages use another *IFF* spec, but I don't know of any.  Lightwave will load
+TDDD FORM's I believe.
+
+--
+Christopher B. Fury        |  This space for rent. 
+cfury@csugrad.cs.vt.edu    |  Call 1-900-QUOTEME for more information.

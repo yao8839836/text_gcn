@@ -1,0 +1,21 @@
+From: taso@munnari.OZ.AU (Taso Hatzi)
+Subject: WfWorkgroups server goes deaf
+Organization: Comp Sci, Univ Melbourne, AU
+Lines: 14
+NNTP-Posting-Host: munnari.oz.au
+X-Newsreader: TIN [version 1.1 PL6]
+
+
+Has anyone else observed this behaviour and if so, what have you
+done to cure it?
+
+One workstation in a WfW network goes deaf to any form of communication from
+other workstations until it goes out on the network itself. From then on other
+workstatons can interact with it until some time later when it goes deaf 
+again. 
+
+The workstation is set up to share its discs etc. The machine
+is a 486DX/33, 8MB RAM, with Diamond Stealth video.  It behaves this
+way with a variety of 16 bit network adapters, including a SMC Elite.
+It also behaves the same way if I use the Windows VGA driver, rather
+than the Diamond drivers.

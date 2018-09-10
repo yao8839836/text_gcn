@@ -1,0 +1,965 @@
+From: grieggs@jpl-devvax.jpl.nasa.gov (John T. Grieggs)
+Subject: (26Apr93) comp.graphics Frequently Asked Questions (FAQ)
+Originator: grieggs@cerberus
+Nntp-Posting-Host: cerberus
+Reply-To: grieggs <grieggs@jpl-devvax.jpl.nasa.gov>
+Organization: Jet Propulsion Laboratory, Pasadena, CA
+Expires: Mon, 10 May 1993 16:05:30 GMT
+Lines: 956
+
+Archive-name: graphics/faq
+
+This message is automatically posted once a week or so in an effort to
+cut down on the repetitive junk in comp.graphics.  It was last changed
+on 26Apr93.  If you have answers to other frequently asked questions that
+you would like included in this posting, please send me mail.  If you
+don't want to see this posting every week, please add the subject line
+to your kill file.  Thank you.
+
+If your copy of the FAQ is more than a couple of weeks old, you may want to
+seek out the most recent version.  The latest version of this FAQ is always
+available on the archive site pit-manager.mit.edu (alias rtfm.mit.edu) as
+pub/usenet/news.answers/graphics/faq.
+
+---
+_john
+
+	John Grieggs grieggs@jpl-devvax.jpl.nasa.gov JohnG@portal.com
+---
+Last update: 26Apr93
+
+Sorry I haven't posted this for a couple of weeks, but I was called out of
+town due to a death in the family.  This is reality, folks.
+
+What's new?
+
+SIGGRAPH Online Bibliography Project (spencer@cgrg.ohio-state.edu).
+
+		grieggs@jpl-devvax.jpl.nasa.gov
+
+
+
+Contents:
+
+    1) General references for graphics questions.
+    2) Drawing three-dimensional objects on a two-dimensional screen.
+    3) Quantizing 24 bit images down to 8 bits.
+    4) Converting color into grayscale.
+    5) Quantizing grayscale to black&white.
+    6) Rotating a raster image by an arbitrary angle.
+    7) Free image manipulation software.
+    8) Format documents for TIFF, IFF, BIFF, NFF, OFF, FITS, etc.
+    9) Converting between vector formats.
+    10) How to get Pixar films.
+    11) How do I draw a circle as a Bezier (or B-spline) curve?
+    12) How to order standards documents.
+    13) How to FTP by email.
+    14) How to tell whether a point is within a planar polygon.
+    15) How to tessellate a sphere.
+    16) Specific references on ray-tracing and global illumination.
+    17) SIGGRAPH information online
+    18) SIGGRAPH Panels Proceedings available
+    19) Graphics mailing lists
+    20) Specific references on file formats
+    21) What about GIF?
+    22) What is morphing?
+    23) How to ray-trace height fields
+    24) How to find the area of a 3D polygon
+    25) How to join ACM/SIGGRAPH
+    26) Where can I find MRI and CT scan volume data?
+    27) Specific references on spatial data structures including quadtrees
+	and octrees
+    28) Where can I get a program to plot XY(Z) data or f(x) data?
+    29) Specific references on PEX and PHIGS
+    30) SIGGRAPH Online Bibliography Project
+
+
+1) General references for graphics questions:
+
+    Computer Graphics: Principles and Practice (2nd Ed.), J.D. Foley,
+	A. van Dam, S.K. Feiner, J.F. Hughes, Addison-Wesley 1990, ISBN
+	0-201-12110-7
+    Procedural Elements for Computer Graphics, David F. Rogers, McGraw
+	Hill 1985, ISBN 0-07-053534-5
+    Mathematical Elements for Computer Graphics 2nd Ed., David F. Rogers
+	and J. Alan Adams, McGraw Hill 1990, ISBN 0-07-053530-2
+    Three Dimensional Computer Graphics, Alan Watt, Addison-Wesley 1990, ISBN
+	0-201-15442-0
+    An Introduction to Ray Tracing, Andrew Glassner (ed.), Academic Press
+	1989, ISBN 0-12-286160-4
+    Graphics Gems, Andrew Glassner (ed.), Academic Press 1990, ISBN
+	0-12-286165-5
+    Graphics Gems II, James Arvo (ed.), Academic Press 1991, ISBN
+	0-12-64480-0
+    Graphics Gems III, David Kirk (ed.), Academic Press 1992, ISBN
+	0-12-409670-0 (with IBM disk) or 0-12-409671-9 (with Mac disk)
+    Digital Image Warping, George Wolberg, IEEE Computer Society Press
+	Monograph 1990, ISBN 0-8186-8944-7
+    Digital Image Processing (2nd Ed.), Rafael C. Gonzalez, Paul Wintz,
+	Addison-Wesley 1987, ISBN 0-201-11026-1
+    A Programmer's Geometry, Adrian Bowyer, John Woodwark, Butterworths 1983,
+	ISBN 0-408-01242-0 Pbk
+
+An automatic mail handler at Brown University allows users of "Computer
+Graphics: Principles and Practice," by Foley, van Dam, Feiner, and
+Hughes, to obtain text errata and information on distribution of the
+software packages described in the book.  Also, users can send the
+authors feedback, to report text errors and software bugs, make
+suggestions, and submit exercises.  To receive information describing
+how you can use the mail handler, simply mail graphtext@cs.brown.edu
+and put the word "Help" in the Subject line.  Use the Subject line
+"Software-Distribution" to receive information specifically concerning
+the software packages SRGP and SPHIGS.
+
+Errata for "An Introduction to Ray Tracing" is available on
+wuarchive.wustl.edu in graphics/graphics/books/IntroToRT.errata.
+
+Errata for "Digital Image Warping" is in the same directory as
+"Digital-Image-Warping.errata".
+
+All C code from the "Graphics Gems" series is available via anonymous ftp
+from princeton.edu.  Look in the directory pub/Graphics/GraphicsGems for
+the various volumes (Gems, GemsII, GemsIII), and get the README file first.
+
+Errata to _Graphics Gems_ and _Graphics Gems II is available on
+wuarchive.wustl.edu in graphics/graphics/books.
+
+A list of computer graphics, computational geometry and image processing
+journals is available from Juhana Kouhia, jk87377@cs.tut.fi.
+
+
+2) Drawing three-dimensional objects on a two-dimensional screen.
+
+The simple answer is, you divide by the depth.  For a more verbose
+explanation, see any of the above references, starting with:
+
+The Foley & Van Dam & Feiner & Hughes "Computer Graphics" book is certainly
+a good start.  Chapter 6 is "Viewing in 3D", then read chapter 15,
+"Visible-Surface Determination".  For more information go to chapter 16 for
+shading, chapter 19 for clipping, and branch out from there.
+
+
+3) Quantizing 24 bit images down to 8 bits.
+
+Find a copy of "Color Image Quantization for Frame Buffer Display" by
+Paul Heckbert, SIGGRAPH '82 Proceedings, page 297.  There are other
+algorithms, but this one works well and is fairly simple.  Implementations
+are included in most raster toolkits (see item 7 below).
+
+A variant method is described in "Graphics Gems", p. 287-293.  Note that
+the code from the "Graphics Gems" series is all available from an FTP site,
+as described above.
+
+Check out John Bradley's "Diversity Algorithm", which is incorporated into
+the xv package and described in the back of the manual.
+
+The ImageMagick package (see section 7 for where it is) contains another
+quantizing algorithm which is presented as "doing a better job than the
+other algorithms, but slower".
+
+There's also an implementation of:
+
+Wan, Wong, and Prusinkiewicz, _An Algorithm for Multidimensional Data
+Clustering_, Transactions on Mathematical Software, Vol. 14 #2 (June, 1988),
+pp. 153-162.
+
+avialable as princeton.edu:pub/Graphics/colorquant.shar.  This code,
+in modified form, appears in the Utah Raster Toolkit as well.
+
+
+4) Converting color into grayscale.
+
+The NTSC formula is:
+
+    luminosity = .299 red + .587 green + .114 blue
+
+
+5) Quantizing grayscale to black&white.
+
+The only reference you need for this stuff is:
+
+    Digital Halftoning, Robert Ulichney, MIT Press 1987, ISBN 0-262-21009-6
+
+But before you go off and start coding, check out the image manipulation
+software mentioned in item 7 below.  All of the packages mentioned can do
+some form of gray to b&w conversion.
+
+
+6) Rotating a raster image by an arbitrary angle.
+
+The obvious but wrong method is to loop over the pixels in the source
+image, transform each coordinate, and copy the pixel to the destination.
+This is wrong because it leaves holes in the destination.  Instead,
+loop over the pixels in the destination image, apply the *reverse*
+transformation to the coordinates, and copy that pixel from the source.
+This method is quite general, and can be used for any one-to-one
+2-D mapping, not just rotation.  You can add anti-aliasing by doing
+sub-pixel sampling.
+
+However, there is a much faster method, with antialising included,
+which involves doing three shear operations.  The method was originally
+created for the IM Raster Toolkit (see below); an implementation is
+also present in PBMPLUS.  Reference: "A Fast Algorithm for Raster
+Rotation", by Alan Paeth (awpaeth@watcgl.waterloo.edu) Graphics
+Interface '86 (Vancouver).  An article on the IM toolkit appears in
+the same journal.  An updated version of the rotation paper appears
+in "Graphics Gems" (see section [1]) under the original title.
+
+
+7) Free image manipulation software.
+
+There are a number of toolkits for converting from one image format to
+another, doing simple image manipulations such as size scaling, plus
+the above-mentioned 24 -> 8, color -> gray, gray -> b&w conversions.
+Here are pointers to some of them:
+
+    xv by John Bradley.  X-based image display, manipulation, and format
+    conversion package.  XV displays many image formats and permits editing
+    of GIF files, among others. The program was updated 5/92; see the file
+    contrib/xv-2.21.tar.Z on export.lcs.mit.edu.
+
+    PBMPLUS, by Jef Poskanzer.  Comprehensive format conversion and image
+    manipulation package.  The latest version is always available via
+    anonymous FTP as ftp.ee.lbl.gov:pbmplus*.tar.Z,
+    wuarchive.wustl.edu:graphics/graphics/packages/pbmplus/pbmplus*.tar.Z,
+    and export.lcs.mit.edu:contrib/pbmplus*.tar.Z.
+
+    IM Raster Toolkit, by Alan Paeth (awpaeth@watcgl.uwaterloo.ca).
+    Provides a portable and efficient format and related toolkit.  The
+    format is versatile in supporting pixels of arbitrary channels,
+    components, and bit precisions while allowing compression and machine
+    byte-order independence.  The kit contains more than 50 tools with
+    extensive support of image manipulation, digital halftoning and format
+    conversion.  Previously distributed on tape c/o the University of
+    Waterloo, an FTP version will appear someday.
+
+    Utah RLE Toolkit.  Conversion and manipulation package, similar to
+    PBMPLUS.  Available via FTP as cs.utah.edu:pub/urt-*,
+    princeton.edu:pub/Graphics/urt-*, and freebie.engin.umich.edu:pub/urt-*.
+
+    Fuzzy Pixmap Manipulation, by Michael Mauldin <mlm@nl.cs.cmu.edu>.
+    Conversion and manipulation package, similar to PBMPLUS.  Version 1.0
+    available via FTP as nl.cs.cmu.edu:/usr/mlm/ftp/fbm.tar.Z,
+    ftp.uu.net:pub/fbm.tar.Z, and ucsd.edu:graphics/fbm.tar.Z.
+
+    Img Software Set, by Paul Raveling <raveling@venera.isi.edu>.  Reads and
+    writes its own image format, displays on an X11 screen, and does some
+    image manipulations.  Version 1.3 is available via FTP as
+    export.lcs.mit.edu:contrib/img_1.3.tar.Z, and
+    venera.isi.edu:pub/img_1.3.tar.Z along with a large collection of color
+    images.
+
+    Xim, X Image Manipulator, by Philip R. Thompson.  It does essential
+    interactive image manipulations and uses x11r4 and the OSF/Motif toolkit
+    for the interface.  It supports images in 1, 8, 24 and 32 bit formats.
+    Reads/writes and converts to/from GIF, xwd, xbm, tiff, rle, xim, and
+    other formats.  Writes level 2 postscript.  Other utilities and image
+    application library are included.  Not a paint package.  Available via
+    ftp from gis.mit.edu.
+
+    xloadimage, by Jim Frost <madd@std.com>.  Reads in images in various
+    formats and displays them on an X11 screen.  Available via FTP as
+    export.lcs.mit.edu:contrib/xloadimage*, and in your nearest comp.sources.x
+    archive.
+
+    xli, by Grame Gill, is an updated xloadimage with numerous improvements
+    in both speed and in the number of formats supported.  Available in the
+    same places as xloadimage (contrib tape, comp.sources.x archives).
+
+    TIFF Software, by Sam Leffler <sam@okeeffe.berkeley.edu>.  Nice
+    portable library for reading and writing TIFF files, plus a few tools
+    for manipulating them and reading other formats.  Available via FTP as
+    ucbvax.berkeley.edu:pub/tiff/*.tar.Z or ftp.uu.net:graphics/tiff.tar.Z
+
+    xtiff, an X11 tool for viewing a TIFF file.  It was written to handle
+    as many different kinds of TIFF files as possible while remaining
+    simple, portable and efficient.  xtiff illustrates some common problems
+    with building pixmaps and using different visual classes.  It is
+    distributed as part of Sam Leffler's libtiff package and it is also
+    available on export.lcs.mit.edu, ftp.uu.net and comp.sources.x.
+    xtiff 2.0 was announced in 4/91; it includes Xlib and Xt versions.
+
+    ALV, a Sun-specific image toolkit.  Version 2.0.6 posted to
+    comp.sources.sun on 11dec89.  Also available via email to
+    alv-users-request@cs.bris.ac.uk.
+
+    popi, an image manipulation language.  Version 2.1 posted to
+    comp.sources.misc on 12dec89.
+
+    ImageMagick, an X11 package for display and interactive manipulation
+    of images.  Includes tools for image conversion, annotation, compositing,
+    animation, and creating montages.  ImageMagick can read and write many of
+    the more popular image formats.  Available via FTP as
+    export.lcs.mit.edu:contrib/ImageMagick.tar.Z.
+
+    Khoros, a huge (~100 meg) graphical development environment based on
+    X11R4.  Khoros components include a visual programming language, code
+    generators for extending the visual language and adding new application
+    packages to the system, an interactive user interface editor, an
+    interactive image display package, an extensive library of image and
+    signal processing routines, and 2D/3D plotting packages.  Available via
+    FTP as pprg.eece.unm.edu:pub/khoros/*.
+
+    LaboImage, a SunView-based image processing and analysis package.  It
+    includes more than 200 image manipulation, processing and measurement
+    routines, on-line help, plus tools such as an image editor, a color
+    table editor and several biomedical utilities.  Available via anonymous
+    FTP as ads.com:pub/VISION-LIST-ARCHIVE/SHAREWARE/LaboImage_3.1.tar.Z
+
+    The San Diego Supercomputer Center Image Tools, software tools for
+    reading, writing, and manipulating raster images.  Binaries for some
+    machines available via anonymous FTP in sdsc.edu:sdscpub.
+
+    The Independent JPEG Group has written a package for reading and
+    writing JPEG files.  FTP to ftp.uu.net:graphics/jpeg/jpegsrc.v?.tar.Z
+
+Don't forget to set binary mode when you FTP tar files.  For you MILNET
+folks who still don't have name servers, the IP addresses are:
+
+    ads.com			128.229.30.16
+    cs.utah.edu			128.110.4.21
+    coral.cs.jcu.edu.au		137.219.17.4
+    export.lcs.mit.edu		18.24.0.12
+    freebie.engin.umich.edu	141.212.103.21
+    ftp.ee.lbl.gov		128.3.112.20
+    ftp.uu.net			137.39.1.9 or 192.48.96.9
+    gis.mit.edu			18.80.1.118
+    gondwana.ecr.mu.oz.au	128.250.70.62
+    karazm.math.uh.edu		129.7.7.6
+    marsh.cs.curtin.edu.au	134.7.1.1
+    nic.funet.fir		128.214.6.100
+    ftp.ncsa.uiuc.edu		141.142.20.50
+    nl.cs.cmu.edu		128.2.222.56
+    pit-manager.mit.edu		18.172.1.27
+    pprg.eece.unm.edu		129.24.24.10
+    princeton.edu		128.112.128.1
+    sdsc.edu			132.249.20.22
+    ucbvax.berkeley.edu		128.32.133.1
+    venera.isi.edu		128.9.0.32
+    weedeater.math.yale.edu	128.36.23.17
+    wuarchive.wustl.edu		128.252.135.4
+    zamenhof.cs.rice.edu	128.42.1.75
+
+Please do *not* post or mail messages saying "I can't FTP, could someone
+mail this to me?"  There are a number of automated mail servers that will
+send you things like this in response to a message.  See item 13 below for
+details on some.
+
+Also, the newsgroup alt.graphics.pixutils is specifically for discussion
+of software like this.  You may find useful information there.
+
+
+8) Format documents for TIFF, IFF, BIFF, NFF, OFF, FITS, etc.
+
+You almost certainly don't need these.  Read the above item 7 on free
+image manipulation software.  Get one or more of these packages and
+look through them.  Chances are excellent that the image converter you
+were going to write is already there.  But if you still want one of the
+format documents, many such files are available by anonymous ftp from
+zamenhof.cs.rice.edu in directory pub/graphics.formats.
+
+These files were collected off the net and are believed to be correct.
+This archive includes pixel formats, and two- and three-dimensional object
+formats.  The future of this archive is uncertain at the moment, as Mark
+Hall <foo@cs.rice.edu> will apparently no longer be maintaining it.
+
+A second graphics file format archive is now being actively maintained
+by Quincey Koziol (koziol@ncsa.uiuc.edu).  The latest version exists at
+ftp.ncsa.uiuc.edu in /misc/file.formats/graphics.formats.  Apparently,
+neither of these is complete, you might want to check both.
+
+FITS stands for Flexible Image Transport System. It's a file format most
+often used in astronomy.  Despite the name, it can contain not only images
+but other things as well.  There is a regular monthly FITS basics and
+information posting on sci.astro.fits - read it if you want to know more.
+
+
+
+9) Converting between vector formats.
+
+A lot of people ask about converting from HPGL to PostScript, or MacDraw
+to CGM, or whatever.  It is important to understand that this is a very
+different problem from the image format conversions in item 7.  Converting
+one image format to another is a fairly easy problem, since once you
+get past all the file header junk, a pixel is a pixel -- the basic objects
+are the same for all image formats.  This is not so for vector formats.
+The basic objects -- circles, ellipses, drop-shadowed pattern-filled
+round-cornered rectangles, etc. -- vary from one format to another.
+Except in extremely restricted cases, it is simply not possible to do
+a one-to-one conversion between vector formats.
+
+There is software for converting to and from CGM files on ftp.psc.edu.  The
+contributor states that it runs on Unix, MS-Windows, and possibly the Mac.
+A better, more specific blurb would be most welcome.
+
+On the other hand, it is quite possible to do a close approximation,
+rendering an image from one format using the primitives from another.
+As far as I know, no one has put together a general toolkit of such
+converters, but two different HPGL to PostScript converters have been
+posted to comp.sources.misc.  Check the index on your nearest archive
+site.
+
+A related frequent question is how to convert from some vector format
+to a bitmapped image - from PostScript to Sun raster format, or HPGL to
+X11 bitmap.  For example, some of the commercial PostScript clones for
+PC's allow you to render to a disk file as well as a printer.  Also,
+the PostScript interpreters in the NeXT box and in Sun's X11/NeWs can
+be used to render to a file if you're clever.  But in general, the
+answer is no.  However, if someone were to put together a vector to
+vector conversion toolkit, adding a vector to raster converter would be
+trivial.
+
+GNU ghostscript (from the FSF - current version 2.5.2) includes
+drivers for both ppm and gif format files, thus it can be used as
+a PostScript to ppm  or a PostScript to GIF filter.  (It implements
+essentially all of PostScript level 1 and alot of Display PostScript
+and level 2).
+
+
+10) How to get Pixar films.
+
+The various John Lasseter / Pixar computer animated shorts are available
+on video tape.  You can order them from Direct Cinema Limited:
+
+    Film                           Individual Price      Institutional Price
+    Luxo, Jr.				$14.95			$50.00
+    Red's Dream				$19.95			$75.00
+    Tin Toy				$24.95			$75.00
+    Knickknack				$24.95			$75.00
+    Luxo, Jr./Red's Dream/Tin Toy	$39.95			$100.00
+
+All tapes are on 1/2" VHS NTSC.  Add $10/tape for PAL format.  Also
+available:
+
+    Tin Toy T-shirt			$15.00
+    Knickknack 3D T-shirt		$15.00 (includes glasses)
+
+For individual orders, add $5 S&H for the first tape or shirt, $2 for
+each additional tape or shirt.  For institutional orders, add $5 S&H
+for the first tape, $3 for each additional tape.  Foreign shipping, add
+$3/tape or shirt.  Call 800-525-0000 (213-396-4774 international,
+213-396-3233 FAX) to charge to your credit card.  Call first to verify
+prices and availability.  Or, just write to:
+
+    Direct Cinema Limited
+    1749 14th Street
+    Santa Monica, CA 90404-4342
+
+Allan Braunsdorf has this to say:
+
+At SIGGRAPH they were selling a tape with all four shorts
+for $25.  That was a sale price.  You can get it for slightly
+more than that normally.  ($35 maybe.)  I believe it's
+available from RenderMan Retail (at Pixar's address).
+
+    Pixar
+    1001 West Cutting Blvd.
+    Richmond, CA. 94804
+    (510) 236-4000 
+    (510) 236-0388 (FAX)
+
+You can obtain a video directly from Pixar which contains "Luxo, Jr.", "Red's
+Dream", "Tin Toy" and "Knicknack" for $25.00, plus $2.50 for shipping. They
+will take your order over the phone or via FAX with a major credit card. I 
+ordered mine just last week and received it several days later. Don't expect 
+to be able to rent a copy from your local video store. According to the license
+agreement printed on the back cover of the case, it cannot be rented.
+
+
+11) How do I draw a circle as a Bezier (or B-spline) curve?
+
+The short answer is, "You can't."  Unless you use a rational spline you
+can only approximate a circle.  The approximation may look acceptable,
+but it is sensitive to scale.  Magnify the scale and the error of
+approximation magnifies.  Deviations from circularity that were not
+visible in the small can become glaring in the large.  If you want to
+do the job right, consult the article:
+
+  "A Menagerie of Rational B-Spline Circles"
+  by Leslie Piegl and Wayne Tiller
+  in IEEE Computer Graphics and Applications, volume 9, number 9,
+  September, 1989, pages 48-56.
+
+For rough, non-rational approximations, consult the book:
+
+  Computational Geometry for Design and Manufacture
+  by I. D. Faux and M. J. Pratt,
+  Ellis Horwood Publishers, Halsted Press, John Wiley 1980.
+
+For the best known non-rational approximations, consult the article:
+
+  "Good Approximation of Circles by Curvature-continuous Bezier Curves"
+  by Tor Dokken, Morten Daehlen, Tom Lyche, and Knut Morken
+  in Computer Aided Geometric Design, volume 7, numbers 1-4 (combined),
+  June, 1990, pages 33-41 [Elsevier Science Publishers (North-Holland)]
+
+
+12) How to order standards documents.
+
+The American National Standards Institute sells ANSI standards, and also
+ISO (international) standards.  Their sales office is at 1-212-642-4900,
+mailing address is 1430 Broadway, NY NY 10018.  It helps if you have the
+complete name and number.
+
+Some useful numbers to know:
+
+CGM (Computer Graphics Metafile) is ISO 8632-4 (1987).  GKS (Graphical
+Kernel System) is ANSI X3.124-1985.  PHIGS (Programmer's Hierarchical
+Interactive Graphics System) is ANSI X3.144-1988.  IGES is ASME/ANSI
+Y14.26M-1987.  Language bindings are often separate but related numbers;
+for example, the GKS FORTRAN binding is X3.124.1-1985.
+
+Standards-in-progress are made available at key milestones to solicit
+comments from the graphical public (this includes you!).  ANSI can let
+you know where to order them; most are available from Global Engineering
+at 1-800-854-7179.
+
+
+13) How to FTP by email.
+
+There are a number of sites that archive the Usenet sources newsgroups
+and make them available via an email query system.  You send a message
+to an automated server saying something like "send comp.sources.unix/fbm",
+and a few hours or days later you get the file in the mail.
+
+In addition, there is at least one FTP-by-mail server.  Send mail to
+ftpmail@decwrl.dec.com saying "help" and it will tell you how to use
+it.  Note that this service has at times been turned off due to abuse.
+
+
+14) How to tell whether a point is within a planar polygon.
+
+Consider a ray originating at the point of interest and continuing to
+infinity.  If it crosses an odd number of polygon edges along the way,
+the point is within the polygon.  If the ray crosses an even number of
+edges, the point is either outside the polygon, or within an interior
+hole formed from intersecting polygon edges.  This idea is known in
+the trade as the Jordan curve theorem; see Eric Haines' article in
+Glassner's ray tracing book (above) for more information, including
+treatment of special cases.
+
+Another method is to sum the absolute angles from the point to all
+the vertices on the polygon.  If the sum is 2 pi, the point is inside,
+if the sum is 0 the point is outside.  However, this method is about an
+order of magnitude slower than the previous method because evaluating the
+trigonometric functions is usually quite costly.
+
+Code for both methods (plus barycentric triangle testing) can be found in
+the Ray Tracing News, Vol. 5, No. 3, available from princeton.edu:
+pub/Graphics/RTNews/RTNv5n3.Z.
+
+
+15) How to tessellate a sphere.
+
+One simple way is to do recursive subdivision into triangles.  The
+base of the recursion is an octahedron, and then each level divides
+each triangle into four smaller ones.  Jon Leech <leech@cs.unc.edu>
+has posted a nice routine called sphere.c that generates the coordinates.
+It's available for FTP on ftp.ee.lbl.gov and princeton.edu.
+
+16) Specific references on ray-tracing and global illumination.
+
+Rick Speer maintains a cross-indexed ray-tracing bibliography:
+
+Highlights of this edition-
+
+    i) more than 500 citations spanning the period from 1968 through
+       November '91;
+    ii) papers from all Siggraph, Graphics Interface, Eurographics, CG
+        International and Ausgraph proceedings through December, '91;
+    iii) all citations keyworded for easy lookup;
+    iv) cross-indices by keyword and author;
+    v)  glossary of the 119 keywords used.
+
+The bib is in the form of a PostScript file.  The printout is 41 pages long.
+Below is a list of ftp sites and the dirs that contain the file. It's named
+"speer.raytrace.bib.ps.Z" and is compressed at most sites-
+
+             Site                             Dir
+	wuarchive.wustl.edu	graphics/graphics/bib/RT.BIB.Speer/
+	karazm.math.uh.edu	pub/Graphics/
+	gondwana.ecr.mu.oz.au	pub/papers/
+	nic.funet.fi		pub/sci/papers/graphics
+	coral.cs.jcu.edu.au     graphics/papers/
+
+Eric Haines (erich@eye.com) maintains ray tracing and radiosity/global
+illumination bibliographies.  These are in "refer" format, and so can be
+searched electronically (a simple awk script to search for keywords is
+included with each).  The bibliographies are available at most of the
+sites listed above, and the most current versions are maintained at
+princeton.edu: pub/Graphics/Papers as "RayBib.*" and "RadBib.*".
+
+Tom Wilson (wilson@cs.ucf.edu) has collected over 300 abstracts from ray
+tracing related research papers and books.  The information is essentially
+in plaintext, and Latex and troff formatting programs are included.  This
+collection is available at most of the sites above as "rtabs.*".
+
+17) SIGGRAPH information online
+
+[from Steve Cunningham and Ralph Orlick]
+
+ACM-SIGGRAPH announces its online information site at  siggraph.org
+(128.248.245.250).  This site now provides SIGGRAPH information via both
+anonymous ftp and an electronic mail archive server.
+
+The anonymous ftp service is very standard, and the ftp directory includes
+both conference and publications subdirectories.
+
+To retrieve information by electronic mail, send mail to
+     archive-server@siggraph.org
+and in the subject or the body of the message include the message  send
+followed by the topic and subtopic you wish.  A good place to start is with
+the command
+     send index
+which will give you an up-to-date list of available information.
+
+
+18) SIGGRAPH Panels Proceedings available
+
+[from Steve Cunningham and Bob Judd]
+
+ACM SIGGRAPH announces the availability of the SIGGRAPH '91 Panels Proceedings
+at the  siggraph.org  site (128.248.245.250).  The proceedings are available
+in three formats:
+     text   (ASCII)
+     rtf    (rich text format, suitable for many word processors)
+     word   (MS Word for the Macintosh)
+They may be retrieved from siggraph.org in two ways:
+
+(1) by anonymous ftp
+    change to one of the directories
+       publications/s91/panels_proceedings/[text|rtf|word]
+    The text and rtf files may be downloaded in ASCII mode, while the word
+    files are stored in MacBinary format and must be downloaded in binary 
+    mode.
+
+    Each directory contains a Table of Contents file (TOC) that describes the
+    contents of each panel file.
+
+(2) by electronic mail
+    send mail to
+       archive-server@siggraph.org
+    You can retrieve either the  text  or  rtf  files.  We suggest that you
+    first retrieve the index files by putting one of the messages
+       send panel91-txt index
+       send panel91-rtf index
+    in the subject or body of the message.  You will get the necessary
+    information to retrieve the actual transcript files.
+
+
+19) Graphics mailing lists
+
+There are a variety of graphics-related mailing list out there, each
+covering either a single product or a single topic.  I have been an
+active participant in one of these for some time now, and find the
+focus and expertise which can be brought to bear on an isolated topic
+to be nothing short of amazing.
+
+Please send me the appropriate information if you have any others you
+would like to see added.
+
+Name:		Imagine mailing list
+Description:	Discussion forum for users of the Imagine 3D Rendering and
+		Animation package by Impulse, Inc.
+Platforms:	Amiga, IBM
+Subscription:	imagine-request@email.sp.paramax.com
+Posting:	imagine@email.sp.paramax.com
+
+Name:		DCTV mailing list
+Description:	Discussion forum for users of the Digital Creations DCTV
+		box, software, and file formats
+Platforms:	Amiga
+Subscription:	DCTV-request@nova.cc.purdue.edu
+Posting:	DCTV@nova.cc.purdue.edu
+
+Name:		Rayshade Users mailing list
+Description:	Discussion forum for users of the Rayshade raytracer
+Platforms:	Most UNIX boxes, Amiga, Mac, IBM
+Subscription:	rayshade-request@cs.princeton.edu
+Posting:	rayshade-users@cs.princeton.edu
+
+Name:		Lightwave 3D software for Toaster mailing list
+Description:	Discussion forum for users of Lightwave, the Video
+		Toaster modelling and rendering package
+Platforms:	Amiga
+Subscription:	lightwave-request@bobsbox.rent.com
+		with "subscribe lightwave-l" in your message
+Posting:	lightwave@bobsbox.rent.com
+
+Name:		POV mailing list
+Description:	Discussion forum for DKBTrace and POV renderers
+Platforms:	Unix
+Subscription:	listserv@trearn.bitnet
+Posting:	dkb-l@trearn.bitnet
+
+Name:		Mailing List For Massive Parallel Rendering
+Description:	same?
+Platforms:	Unix
+Subscription:	mp-render-request@icase.edu
+Posting:	mp-render@icase.edu
+
+20) Specific references on file formats
+
+    Graphics File Formats, David Kay and John Levine, Windcrest/McGraw-Hill
+      1992, ISBN 0-8306-3059-7 paper, ISBN 0-8306-3060-0 $36.95 hardcover,
+      ISBN 0-8306-3059-7 $24.95 paper.  Comments - 26 formats, no software
+      (this is good, IMHO - I prefer books which are non-platform-dependent).
+      Questions about this book may be sent to gbook@iecc.cambridge.ma.us.
+
+
+21) What about GIF?
+
+GIF stands for Graphics Interchange Format.  It is portable and usable upon
+a wide variety of platforms.  It is quite limited in some ways (yes, the
+keeper of the FAQ has some opinions after all), and in fact, I don't like
+it much.  However, it looks to me like the most-Frequently Asked Question
+which was not previously covered in this list.  The following is a list
+of newsgroups and the like where one could go to find out about GIF.
+
+Subject: alt.binaries.pictures FAQ - General info
+Subject: alt.binaries.pictures FAQ - OS specific info
+Newsgroups: alt.binaries.pictures.d,alt.binaries.pictures.misc,
+	alt.binaries.pictures.utilities,alt.binaries.pictures.fractals,
+	alt.binaries.pictures.fine-art.d,news.answers
+
+Available in the indicated USENET newsgroup(s), or via anonymous ftp from
+pit-manager.mit.edu in the files:
+
+/pub/usenet/news.answers/pictures-faq/part1
+/pub/usenet/news.answers/pictures-faq/part2
+
+Also available from mail-server@pit-manager.mit.edu by sending a mail
+message containing any or all of:
+
+send usenet/news.answers/pictures-faq/part1
+send usenet/news.answers/pictures-faq/part2
+
+Send a message containing "help" to get general information about the
+mail server.
+
+Also, you could check out the resources described in sections 7, 8, and
+20 above for more information.
+
+
+22) What is morphing?
+
+Warping is the deformation of an image by mapping each pixel to a new
+location. Morphing is blending from one image or object to another one.
+Valerie Hall has written an excellent introduction to warping and
+morphing. This is available for anonymous ftp from marsh.cs.curtin.edu.au
+in the directory pub/graphics/bibliography/Morph. There are three files:
+
+        morph_intro.ps.Z     (PostScript version, many pictures - 1.5M)
+        morph_intro.txt.Z    (text version)
+        m_responses.Z        (Responses to morphing questions)
+
+The files are compressed, so you must use binary transfer and
+uncompress them afterwards.
+
+
+23) How to ray-trace height fields
+
+Height fields are a special case in ray-tracing.  They have a number of uses,
+such as terrain rendering, and some optimization is possible.  Thus, they
+get their own FAQ section.  Note that further references can no doubt be
+located via the ray-tracing bibs in section 16 above.
+
+The following paper seems to be the definitive reference:
+
+F. Kenton Musgrave
+Grid Tracing: Fast Ray Tracing For Height Fields
+July, 1988
+<musg88.ps.Z>
+
+This is available as "Research Report YALEU/DCS/RR-639" from Yale University,
+it's also in the SIGGRAPH '91 Fractal Modeling in 3D Computer Graphics and
+Imaging course notes, and (best of all) it's available on the net:
+
+    nic.funet.fi		pub/sci/papers/musg88.ps.Z
+    weedeater.math.yale.edu	pub/Papers/musg88.ms.Z
+    princeton.edu		pub/Graphics/Papers/musg88.ms.Z
+    coral.cs.jcu.edu.au		graphics/papers/musg88.ps.Z
+    gondwana.ecr.mu.OZ.AU	pub/papers/musg88.ms.Z and musg88.ps.Z
+
+An implementation of this paper may be found in Rayshade.
+
+Another paper exists:
+
+%A David W. Paglieroni
+%A Sidney M. Petersen
+%T Parametric Height Field Ray Tracing
+%J Proceedings of Graphics Interface '92
+%I Canadian Information Processing Society
+%C Toronto, Ontario
+%D May 1992
+%P 192-200
+
+And still one more:
+
+Musgrave, Kolb, and Mace
+"The Synthesis and Rendering of Eroded Fractal Terrains",
+Computer Graphics Vol 23, No. 3 (SIGGRAPH '89 procedings) p. 41-50
+
+
+
+24) How to find the area of a 3D polygon
+
+	The area of a triangle is given by (in C notation),
+
+     area = 0.5 * ( ( x[0] * y[1] ) + ( x[1] * y[2] ) + ( x[2] * y[0] ) -
+	            ( x[1] * y[0] ) - ( x[2] * y[1] ) - ( x[0] * y[2] ) );
+
+and the area of a planar polygon is given by
+
+     area = 0.0;
+
+     for ( i = 0; i < n - 1; i++ )
+         area += ( x[i] * y[i + 1] ) - ( x[i + 1] * y[i] );
+     area += ( x[n - 1] * y[0] ) - ( x[0] * y[n - 1] );
+     area /= 2.0;
+
+If the area is a negative number, the polygon or triangle is
+clockwise, if positive, it is counterclockwise.
+
+>From Ronald Golman's Gem (in Graphics Gems II - see section 1 above), "Area
+ of Planar Polygons and Volume of Polyhedra:"
+
+The area of a polygon P0, P1, P2, ... Pn, not in the x-y plane, is
+given by
+
+     Area(Polygon) = 1/2 * | N . Sigma { Pk x Pk+1 } |
+
+where N is the unit vector normal to the plane and P is a polygonal
+vertex.  The . represents the dot product operator and the x
+represents the cross product operator.  Sigma represents the summation
+operator.  | | represents the absolute value operator.  Pn+1 is equal
+to P0.
+
+
+25) How to join ACM/SIGGRAPH
+
+Probably the easiest way to join ACM/SIGGRAPH is to trot over to your
+local technical library and find a copy of Communications of the ACM.
+Somewhere within the first few pages will be an application blank.
+Fill it out and mail it in.  ACM membership for students costs $23.00,
+Voting or Associate Membership $77.00 (yearly)
+
+SIGGRAPH student membership costs an additional $16.00, $26.00 for
+Voting or Associate Members (also yearly).  To get TOG (Transactions
+on Graphics) it's another $26.00 for students and $31.00 for Voting or
+Associate Members.
+
+If you just want to join SIGGRAPH without joining ACM, it'll cost you
+$59.00 (no student discount).
+
+There are surcharges for overseas airmailing of publications.
+
+ACM Member services may be contacted via email at acmhelp@acmvm.bitnet. 
+Their phone number is (212) 626-0500.  FAX number (212) 944-1318.
+Snailmail address:
+
+                ACM
+                PO Box 12114
+                Church Street Station
+                New York, New York 10257
+
+SIGGRAPH `93 will be held in Anaheim, California, at the Anaheim
+Convention Center (just up the street from Disneyland) on August 1-6, 1993.
+
+26) Where can I find MRI and CT scan volume data?
+
+Volume data sets are available from the University of North Carolina at
+omicron.cs.unc.edu (152.2.128.159) in /pub/softlab/CHVRTD.  (Commerical
+use is prohibited.)
+
+Head data - A 109-slice MRI data set of a human head.
+
+Knee data - A 127-slice MRI data set of a human knee.
+
+HIPIP data - The result of a quantum mechanical calculation of a SOD data
+of a one-electron orbital of HIPIP, an iron protein.
+
+SOD data - An electron density map of the active site of SOD (superoxide
+dismutase). 
+
+CT Cadaver Head data - A 113-slice MRI data set of a CT study of a cadaver
+head. 
+
+MR Brain data -  A 109-slice MRI data set of a head with skull partially
+removed to reveal brain.
+
+RNA data - An electron density map for Staphylococcus Aureus Ribonuclease.
+
+
+27) Specific references on spatial data structures including quadtrees
+	and octrees
+
+H. Samet,
+The Design and Analysis of Spatial Data Structures,
+Addison-Wesley, Reading, MA, 1990.
+ISBN 0-201-50255-0.
+
+H. Samet,
+Applications of Spatial Data Structures:  Computer Graphics, Image Processing, a
+nd GIS,
+Addison-Wesley, Reading, MA, 1990.
+ISBN 0-201-50300-0.
+
+
+28) Where can I get a program to plot XY(Z) data or f(x) data?
+
+Gnuplot is a command-driven interactive data/function  plotting program.  It
+runs on just about any machine, and is very flexible in terms of supported
+output devices.  The official North American distribution site for the latest
+version is dartmouth.edu in /pub/gnuplot.  More information is available from
+the USENET newsgroup comp.graphics.gnuplot and its FAQ, graphics/gnuplot-faq.
+
+ACE/gr (xmgr - Motif/xvgr - XView) is a data/function plotting tool for 
+workstations or X-terminals using X.  Available from ftp.ccalmr.ogi.edu
+in /CCALMR/pub/acegr.
+
+robotx (Robot) is a general purpose plotting and data analysis program.
+Requires XView, X-terminal or workstation.  Available from sunsite.unc.edu
+in /pub/academic/data_analysis.
+
+Xgraph is a popular two-dimensional plotting program that accepts data in a
+form similar to the unix program graph and displays line graphs, scatter plots,
+or bar charts on an X11 display.  Available from ic.berkeley.edu in /pub.
+
+Drawplot is a program for drawing 2D plots on X10/X11 windows, SUNVIEW
+displays, or HP2648 terminals. Available from xcf.berkeley.edu in /src/local.
+
+29) Specific references on PEX and PHIGS
+
+    PEXlib Programming Manual, Tom Gaskins, 1154 pages, O'Reilly & Associates,
+	ISBN 1-56592-028-7
+
+    PEXlib Reference Manual, edited by Steve Talbott, 577 pages, O'Reilly &
+	Associates, ISBN 1-56592-029-5
+
+    PHIGS Programming Manual, Tom Gaskins, 908 pages, O'Reilly & Associates,
+	ISBN 0-93775-85-4 (softcover), ISBN 0-937175-92-7 (casebound)
+
+    PHIGS Reference Manual, edited by Linda Kosko, 1099 pages, O'Reilly &
+	Associates, ISBN 0-937175-91-9
+
+
+30) SIGGRAPH Online Bibliography Project
+
+The ACM SIGGRAPH Online Bibliography Project is a database of over 15,000
+unique computer graphics and computational geometry references in BibTeX
+format, available to the computer graphics community as a research and
+educational resource.
+
+The database is located at "siggraph.org".  Users may download the BibTeX
+files via FTP and peruse them offline, or telnet to "siggraph.org" and log
+in as "biblio" and interactively search the database for entries of interest,
+by keyword.
+
+Additions/corrections/suggestions may be directed to the admin,
+"bibadmin@siggraph.org".
+-- 
+John T. Grieggs (Telos @ Jet Propulsion Laboratory)
+4800 Oak Grove Drive, Pasadena, Ca. 91109 M/S 525-3660    (818) 306-6506
+Uucp: {cit-vax,elroy,chas2}!jpl-devvax!grieggs
+Arpa: ...jpl-devvax!grieggs@cit-vax.ARPA

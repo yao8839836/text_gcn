@@ -1,0 +1,17 @@
+From: aad@scr.siemens.com (Anthony A. Datri)
+Subject: Re: Oh make up your mind!! (was: Re: XV problems)
+Nntp-Posting-Host: lovecraft.siemens.com
+Organization: Siemens Weyland-Yutani
+Lines: 11
+
+>    a) XV can Load a 24 bit image, and display it in all it's
+>24 bit glory on 24 bit X displays.
+>    b) All other operations (Crop, Dither, Smooth, etc.) are not
+>supported on 24 bit images.
+
+>how hard would this be?
+
+Not very -- you just type "xloadimage" or "getx11" instead of "xv".
+-- 
+
+======================================================================8--<

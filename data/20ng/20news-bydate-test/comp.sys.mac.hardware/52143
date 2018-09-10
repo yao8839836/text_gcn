@@ -1,0 +1,26 @@
+From: Alexander Samuel McDiarmid <am2o+@andrew.cmu.edu>
+Subject: Re: SVGA Monitors and Centris (the real story)
+Organization: Sophomore, Mechanical Engineering, Carnegie Mellon, Pittsburgh, PA
+Lines: 19
+NNTP-Posting-Host: po4.andrew.cmu.edu
+In-Reply-To: <moyman-220493093234@jonathan.ecn.purdue.edu>
+
+
+What is the real story here? Can I hook up any PC SVGA Montitor to the
+Centris internal video? Do I need to make my own cable if it doesn't not
+come with one? Has apple released a Tech note with the pinouts for doing
+such? The reasoj I ask is that it seems the prices for SVGA are lower than
+that of their mac counterparts...
+--mike
+
+**************************
+
+    having been discusse essentially adnausium the answer is yes.  at
+least for the 600x400 configuration.  you can get an adaptor called Mac
+VGA -Q from James engineering (510) 525 7350 and this will let you
+display 600x400 and 800x600 if the monitor is capable.  I think the
+800x600 requires 56Khz horizontal sync.  I use this on my sony 1604. 
+(gives a slightly wider screen than the 832x624 adaptor.
+
+hope it helps
+                                                                    -A.

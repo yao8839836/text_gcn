@@ -1,0 +1,35 @@
+From: csulo@csv.warwick.ac.uk (Mr M J Brown)
+Subject: Re: Picking up cable tv with an aerial.
+Organization: Computing Services, University of Warwick, UK
+Lines: 29
+NNTP-Posting-Host: clover.csv.warwick.ac.uk
+
+In article <1993Apr27.202305.4363@mav.com> toddi@mav.com (Todd Inch) writes:
+>
+>In England they do (did?) require permits to OPERATE A TV!!!
+>Supposedly, the "TV police" drove around with RF detectors looking for
+>the IF or whatever produced by a receiver that wasn't registered.  I'm
+>guessing the purpose was just something else they could get away with
+>taxing.  I don't know if the "TV police were/are just urban legend or
+>an actuality.
+
+They are real, and we still pay licence fees to receive TV.
+The detector vans pick up the IF, true. This tells them what channel you
+are watching. The can also pick up the line time base freq, and frame rate
+(Try it with a LW/MW radio near telly, it picks up a sharp hum)
+
+From this they can even watch (poor quality though) what *you* have on the
+screen, by picking up re radiating junk.
+
+=============================================================================  
+     _/      _/   _/   _/  _/   _/_/_/_/   |
+    _/_/  _/_/   _/   _/_/     _/          |         Michael Brown
+   _/  _/  _/   _/   _/       _/_/         |
+  _/      _/   _/   _/_/     _/            |    csulo@csv.warwick.ac.uk
+ _/      _/   _/   _/  _/   _/_/_/_/  _/   |     mjb@dcs.warwick.ac.uk
+                                           |
+=============================================================================
+              Lost interest ?? It's so bad I've lost apathy!
+=============================================================================
+
+

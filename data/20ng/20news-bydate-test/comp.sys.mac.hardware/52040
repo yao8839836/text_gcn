@@ -1,0 +1,65 @@
+From: woody@praxis.co.uk (Paul Woodman)
+Subject: HELP: FDHD failure in IIcx
+Organization: Praxis, Bath, U.K.
+Lines: 60
+
+REPOST - DUE TO NET PROBLEMS
+
+Hi,
+   I have problems with the FDHD on a IICX that EKG reports is ROM
+revision 376. I had reports that this Mac was having trouble 
+formatting disks and by the time I got to it, the FDHD just would
+not respond although all other functions were fine.
+
+I checked the voltages on the DB19 external drive connector and pin
+6 showed no volts with 7 and 8 giving 25volts unloaded. The power 
+supply is an Astec and I sent it away for repair.
+
+With the power supply reinstalled, I now get the following error:
+
+With the internal FDHD connected, the Mac boots fine but on completion
+of boot cycle an alert displays "The disk is unreadable - do you
+want to eject it?". For every combination of response, the alert 
+reappears within approx 2 seconds and this error is continuous. The
+FDHD does spin but there is no head seeking and the FDHD is incapable
+of ejecting the disk. This error sequence occurs regardless of whether
+there is a floppy in the drive or not. Pin 6 on the DB19 external 
+connector shows 1.2V, pins 7 and 8 show 10.75V.
+
+With the internal FDHD disconnected, the Mac boots fine and works great 
+(MacEKG reports no errors). The DB19 external connector now shows
+no voltage on pin 6 but pins 7 and 8 show 10.75V.
+
+Now, the internal FDHD may be fubar, but I have an apple 800K external
+drive that gives exactly the same symptoms as the internal drive when
+connected to either the external DB19 or the internal connector at J16
+(after suitable surgery to the external drive). The voltages at J16 
+(with the internal FDHD disconnected) are as follows:
+
+	PIN	Volts	PIN	Volts
+	1	-	2	5
+	3	-	4	5
+	5	-	6	5
+	7	-	8	-
+	9	-	10	5
+	11	-	12	-
+	13	10.75	14	5
+	15	10.75	16	5
+	17	10.75	18	-
+	19	10.75	20	5
+
+This machine has a SWIM which I don't think EKG tests. I have tested all
+diodes and pica fuses and can find no problems. Does anybody have any
+ideas ?
+
+                        Best wishes,
+                          Woody.
+
+                               Paul Woodman  
+
+                               Praxis plc,
+\          /           |       the software engineering company of Touche Ross, 
+ \        / ___  ___  _|       20 Manvers Street, Bath, BA1 1PX, UK.
+  \  /\  / /  / /  / / | \  /  Tel +44 225 444700 xt228
+   \/  \/ /__/ /__/ /__|  \/   Fax +44 225 465205.
+ _________________________/    woody@praxis.co.uk                       

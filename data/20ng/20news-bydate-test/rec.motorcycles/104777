@@ -1,0 +1,28 @@
+From: gdhg8823@uxa.cso.uiuc.edu (George Heinz)
+Subject: What do I do with OLD gasoline? HELP!
+Organization: University of Illinois at Urbana
+Lines: 23
+
+I have a '72 CL350 which I stopped riding about 2 years ago (I upgraded
+to an '84 Sabre 750).  I parked it in the corner of my parking lot, and planned
+on draining the gas, spraying oil in the tank, etc. to get it ready to store.
+Well, after a lot of procrastination, all I ended up doing was throwing a 
+tarp on it.
+
+Well, now I have to move and want to clean up the 350.  I tried starting it
+(with someone else's battery) and had no luck.  My first guess is that it is
+the gas and so I plan on draining it and replacing it with new gas (I can only
+pray that I didn't trash the carbeurators).  The question is, what do I do
+with this old gas?  I am not going to run it in my Sabre, and I think that
+there is enough that I don't want to burn it (campus police don't think
+too kindly about bonfires).  Dumping it isn't a great idea.        
+
+Thanks for any ideas,
+George Heinz
+
+----
+Win the $1,000,000 question -- what does this C code do? (No fair compiling it)
+
+int a[1817];main(z,p,q,r){for(p=80;q+p-80;p-=2*a[p])for(z=9;z--;)q=3&(r=time(0)
++r*57)/7,q=q?q-1?q-2?1-p%79?-1:0:p%79-77?1:0:p<1659?79:0:p>158?-79:0,q?!a[p+q*2
+]?a[p+=a[p+=q]=q]=q:0:0;for(;q++-1817;)printf(q%79?"%c":"%c\n"," #"[!a[q-1]]);}

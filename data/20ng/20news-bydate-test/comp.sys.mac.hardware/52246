@@ -1,0 +1,28 @@
+From: kmradke@iastate.edu (Kevin M Radke)
+Subject: Unknown Mac board NATIONAL INSTRUMENTS NB-DMA-8
+Organization: Iowa State University, Ames, IA
+Distribution: usa
+Lines: 22
+
+I need help identifying this board that I found stuffed away in a corner.
+
+As the title says, all that is printed on it is NATIONAL INSTRUMENTS NB-DMA-8.
+It fits fine in my Mac IIci and snooper gives the very same name for the
+board.  It looks like it has an HP-IB connector on the back of it and
+another connector on the top (2 rows by 25 pins).  It also looks like
+it has an Intel processor on it (#A82380-16 Intel '86)
+
+On an EEPROM there is a sticker with the P/N 700584-01.
+
+Anybody ever seen or heard of one?  Or better yet, do you know what it does?
+We are all clueless here.  Our last option is to hook it up to our HP
+workstations and see if any smoke comes out.
+
+Thanks a lot!
+
+Kevin
+-- 
+-------------------------------------------------------------------------
+| Um, I forget...			|      kmradke@iastate.edu	|
+-------------------------------------------------------------------------
+

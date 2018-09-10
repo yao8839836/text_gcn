@@ -1,0 +1,28 @@
+From: cookson@mbunix.mitre.org (Cookson)
+Subject: Re: VFR + ST11 Owners get hidden feature
+Keywords: lights
+Nntp-Posting-Host: mbunix.mitre.org
+Organization: The MITRE Corporation, Bedford, MA
+Lines: 21
+
+In article <C61r0B.C7@world.std.com> daved@world.std.com (Dave T Dorfman) writes:
+> I was enjoying lunch this saturday at foodies in Milford NH with an assortment
+>of other nedod folks when Dean Cookson ( yes he has not left the 
+>country, yet) mentioned that the wiring diagram of the VFR750 
+>shows that  the light switch is a three position switch. 
+>
+My CB750 does it too.  The "Switch Continuity" section of the wiring diagram
+looks something like this:
+
+	HL L  H
+        x--x     Low
+        x--x--x  (N)
+        x-----x  High
+
+Dean
+
+-- 
+| Dean Cookson / dcookson@mitre.org / 617 271-2714    | DoD #207  AMA #573534 |
+| The MITRE Corp. Burlington Rd., Bedford, Ma. 01730  | KotNML  /  KotB       |
+| "The road is my shepherd and I shall not stop"      | '92 VFR750F           |
+| -Sam Eliott, Road Hogs MTV 1993                     | '88 Bianchi Limited   |

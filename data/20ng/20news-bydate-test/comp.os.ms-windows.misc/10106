@@ -1,0 +1,18 @@
+From: cu826@cleveland.Freenet.Edu (Mahbub Anam)
+Subject: DOS6 & Novell Netware
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 11
+Reply-To: cu826@cleveland.Freenet.Edu (Mahbub Anam)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+I friend of mine installed dos6 at work and is hooked up to a Novell
+network, running Netware 386 v.3.11.  The problem he's having is that the
+doublespace program is using drive 'h' as the swap drive, which is
+confliting with the networks mapped drives.
+
+Is there switch to place the swap drive to someother drive?
+Please e-mail....thanks a bunch!!
+-- 
+Mahbub
+cu826@cleveland.freenet.edu

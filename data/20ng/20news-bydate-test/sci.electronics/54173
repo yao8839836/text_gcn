@@ -1,0 +1,27 @@
+From: tsjoit@htsa.aha.nl (T. H. Tsim)
+Subject: Re: RAMs &ROMs with ALE latches (for 8051's)
+Organization: Hogeschool van Amsterdam, The Netherlands, E.E. & C.S. Dept.
+Keywords: 8051, 373,
+Lines: 21
+
+
+>>In article <1qg98sINNokf@sheoak.ucnv.edu.au> jeff@redgum.ucnv.edu.au (j. pethybridge) writes:
+>>>	Hello again,
+>>> I asked this a year ago, but i am still looking.
+>>> I am getting sick of having to use a HC373 
+
+I didn't catch your posting one year ago, but I presume you like to leave out
+an extra a-latch ? (I presume you allready know there is a '573 but that couldnt
+be the question, could it ? ;-)
+
+During my student-trainee project, I discouvered a nice device, it's a PSD301  
+from Waferscale Integration. In one single (44 PLCC I think it was) package
+it contained: ROM, RAM, I/O lines and a programmable addressdecoder...
+
+As far as I can recall, it can be hooked directly with a MCS-51 series uP ... 
+Neat huh ? But it needs programming before assembly, so it wasn't suitable
+for my project. Perhaps usefull for you (future) plans ?
+
+
+Greetings!
+

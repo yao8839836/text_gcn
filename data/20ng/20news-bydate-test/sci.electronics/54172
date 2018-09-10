@@ -1,0 +1,43 @@
+From: belvilad@dunx1.ocs.drexel.edu (A. Belville)
+Subject: Re: flash LEDs with sound?
+Organization: Drexel University, Philadelphia
+Lines: 38
+
+In article <199304241405.AA11067@kepler.unh.edu> dmn@kepler.unh.edu (There's a seeker born every minute.) writes:
+>
+>
+>     I'm looking for a circuit that will flash an led on in response 
+>to the output from a walkman cassette player. How could I do this?
+>I don't want it just to turn on, I want it to 'strobe' once so to speak,
+>per every beep I put on a cassette tape. 
+>
+>     Would it be better to use a circuit based on the volume of the beeps
+>on the cassette, or better for the leds to respond to a tone of a certain
+>frequency? Is there any easy way to do either of these? I'm looking for 
+>the simplest circuit possible. I guess what I'm asking for is some sort of
+>color organ, but not quite. Let me trt to explain again...
+>
+>
+>     I'm going to have a pattern of beats (or beeps) on a cassette tape.
+>So on the tape you'd hear:   beep! (pause) beep! (pause) beep! (pause)..etc. 
+>, with speed increasing as time goes on. I want to synchronize an LED (
+>probably two of them) with the beeps on the cassette tape. So the LED, with
+>each beep, would go on and off real quick, generating a strobe light sort
+>of effect. The rapidity of the beeps on the tape would in turn effect the
+>rapidity of the blinking of the LEDS. And if there was no sound on the tape
+>(except for background his), the LEDs would remain off. Please help!
+>
+>
+>  Thanks,
+>
+>    Dana
+
+	Try looking in a Magizine called Radio Electronics, May 1992 issue,
+page 41.  There is a circuit for a Midi Light controller there.  
+
+-=- Andy -=-
+
+_______________________________________________________________________________
+Andy Belville                          || It's taken me a long time, but I've
+belvilad@dunx1.ocs.drexel.edu          || fallen in Love with a beautiful woman.
+_______________________________________________________________________________

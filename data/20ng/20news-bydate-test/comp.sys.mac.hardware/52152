@@ -1,0 +1,14 @@
+From: tbosch.sch.ge.com (Scott Van Nostrand)
+Subject: Hook Mac Modem to PS/2 70
+Nntp-Posting-Host: 3.10.7.20
+Organization: Industrial & Power Systems
+
+Has anyone ever hooked a Hayes 2400 Macintosh modem up
+to the serial port on a PC?  What are the pin outs
+to do this?  I have a mac printer cable to hook a DB 25
+to the Mac serial port.  Can I hook the two Mini-8 ports
+together? Do I have to swap pins?
+
+Thanx in advance.
+
+Scott

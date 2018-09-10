@@ -1,0 +1,23 @@
+From: 646379@acadvm1.uottawa.ca ("William F. Maton")
+Subject:      Changing system font
+X-Received: by usenet.pa.dec.com; id AA20335; Wed, 28 Apr 93 11:09:54 -0700
+X-Received: by inet-gw-1.pa.dec.com; id AA16735; Wed, 28 Apr 93 11:09:51 -0700
+X-Received: from ACADVM1.UOTTAWA.CA by acadvm1.uottawa.ca (IBM VM SMTP V2R2)
+   with BSMTP id 5088; Wed, 28 Apr 93 14:09:20 EDT
+X-Received: from UOTTAWA (646379) by ACADVM1.UOTTAWA.CA (Mailer R2.07) with BSMTP
+ id 8079; Wed, 28 Apr 93 14:09:19 EDT
+X-To: All <comp.os.ms-windows.misc.usenet>
+Lines: 12
+
+Hello.
+      I have Windows 3.1 and I was wondering what is necessary to change the
+default system font to something else.  I have just obtained MSC/C++ 7.0 with
+SDK, so I'd really like to get my feet wet with doing my first windows pro-
+gram to change the system font.
+
+Tx.,
+
+William F. Maton
+
+646379@acadvm1.uottawa.ca        (The Mercedes-Benz Convertible)
+u646379@csi.uottawa.ca           (The Unicycle)

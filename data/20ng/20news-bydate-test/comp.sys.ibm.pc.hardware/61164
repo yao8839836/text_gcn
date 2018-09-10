@@ -1,0 +1,42 @@
+From: v063kcbp@ubvmsd.cc.buffalo.edu (MITCH)
+Subject: Re: Low Emission Monitors:  Who besides NEC?
+Distribution: na
+Organization: University at Buffalo
+Lines: 34
+News-Software: VAX/VMS VNEWS 1.41
+Nntp-Posting-Host: ubvmsd.cc.buffalo.edu
+
+hartzman@kilroy.Jpl.Nasa.Gov (Les Hartzman) writes...
+
+>Does anyone else make low radiation emission monitors besides NEC?
+> 
+>How do they compare to NECs (quality and emission-wise)?
+>-- 
+>Les Hartzman                hartzman@kilroy.jpl.nasa.gov
+>Jet Propulsion Laboratory   M/S 238-528    (818) 354-5964
+>4800 Oak Grove Dr., Pasadena,  CA.  91109
+
+Les,
+
+	I am right now working on an MPR-II certified (Swedish standards for
+low emissions) Hitachi Superscan 15 monitor.  It's 1024x768, up to 72hz at
+that res, and it got a good write-up for image quality in a recent (Feb.?)
+issue of PC Magazine.  As far as I know, very little fully matches a NEC in
+image quality (at least according to the mags -- I can't tell any
+difference between the two!), but I think NEC is low emissions on only one
+of the two types.  There's VLF (Very Low Frequency) and ELF (I think that's
+Extremely Low Frequency).  The MPR-II standards set strict limits on both.
+But many comapnies, NEC included according to one article I read (I get a
+bunch of mags so it's hard for me to remember which!), which claim "low
+emissions" but not specifically "MPR-II Compliant" or "MPR-II Certified"
+only control for one, usually VLF, and ignore the other.
+	So, the NEC probably has higher overall image quality (I consis-
+tently hear it rated as the best or close to the best), but not as low
+emissions as the Hitachi.  I like my image quality, but for all I know you
+may be more discerning.  Good luck!
+
+					- Mitch
+ 					v063kcbp@ubvms.cc.buffalo.edu
+
+
+(Oh yeah: I got my Hitachi Superscan 15 from Insight for $499.)

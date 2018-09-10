@@ -1,0 +1,73 @@
+From: sandiway@research.nj.nec.com (Sandiway Fong)
+Subject: Sun 4.1.3, OpenWindows 3.0 problem: static linking and X libraries
+Originator: sandiway@ecp
+Reply-To: sandiway@research.nj.nec.com
+Organization: NEC Research Institute
+Lines: 66
+
+
+I build two executables for the same application. 
+Let's call them Papp (uses shared libs) and SPapp (statically linked).
+
+The problem is that I get problems when trying to build the *static one*, 
+but not the dynamic one. See the trace below. 
+
+BTW, the static one runs fine despite the ominous error message. 
+Can someone clue me in as to why the static one bombs at link time?
+
+Thanks very much,
+
+Sandiway
+
+
+Dr. Sandiway Fong
+NEC Research Institute Inc.
+4 Independence Way
+Princeton NJ 08540
+
+(609) 951-2733
+(609) 951-2482 (FAX)
+
+Here is the linking stage...
+
+/usr2/quintus/bin3.1.1/sun4-4.1/ld -e start -Bstatic Papp.o \
+/usr2/quintus/generic/qplib3.1.1/library/sun4-4/libpl.a  \
+/usr2/quintus/generic/qplib3.1.1/library/sun4-4/libplm.a  \
+/usr2/quintus/bin3.1.1/sun4-4.1/libqp.a \
+-lsspkg -lXpm -lm -L/usr/local/guide/lib -lguidexv  -lxvps -lxview \
+-lolgx -lX11 -lXext -lcps  -lc -lpixrect -o SPapp
+Undefined:
+_XESetCreateGC
+_XESetFreeFont
+_XESetCloseDisplay
+_XESetError
+_XInitExtension
+_XESetFreeGC
+_XESetCopyGC
+_XESetCreateFont
+_XESetFlushGC
+_XESetEventToWire
+_XESetErrorString
+_XESetWireToEvent
+*** Error code 1
+make: Fatal error: Command failed for target `SPapp'
+
+ldd SPapp
+SPapp: statically linked
+
+The shared lib version is linked in exactly the same way save for the omission
+of -Bstatic.
+
+ldd Papp
+	-lsspkg.1 => /usr/local/lib/libsspkg.so.1.0
+	-lXpm.2 => /usr/local/lib/libXpm.so.2.7
+	-lxvps.0 => /usr/openwin/lib/libxvps.so.0.2
+	-lxview.3 => /usr/openwin/lib/libxview.so.3.1
+	-lolgx.3 => /usr/openwin/lib/libolgx.so.3.1
+	-lX11.4 => /usr/openwin/lib/libX11.so.4.3
+	-lcps.1 => /usr/openwin/lib/libcps.so.1.0
+	-lc.1 => /usr/lib/libc.so.1.8
+	-lpixrect.2 => /usr/lib/libpixrect.so.2.14
+	-ldl.1 => /usr/lib/libdl.so.1.0
+
+

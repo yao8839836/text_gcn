@@ -1,0 +1,19 @@
+From: ad@cat.de (Axel Dunkel)
+Subject: How sensible is DES towards bit-errors?
+Organization: C.A.T. Kommunikations-System
+Lines: 14
+
+Hello,
+
+how sensible is DES encrypted data towards bit errors? How much data per
+bit will be lost in average (I assume you still have the correct key)?
+
+Thanx for hints,
+Axel
+
+---
+Experience is what you get if you don't get what you want...
+
+Systemberatung Axel Dunkel, Koenigsberger Strasse 41, D 6239 Kriftel, Germany
+E-Mail: ad@cat.de, Voice: +49-6192-46949, Fax: +49-6192-46949
+

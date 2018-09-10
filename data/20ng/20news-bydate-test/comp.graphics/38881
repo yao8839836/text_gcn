@@ -1,0 +1,27 @@
+From: rigby@echo.unr.edu (Wayne Rigby)
+Subject: Re: Need gif/iff file format
+Organization: University of Nevada, Reno  Department of Computer Science
+Lines: 22
+
+In article <1rkjm5$i2q@bigboote.WPI.EDU> rtaraz@bigwpi.WPI.EDU (Ramin Taraz) writes:
+>Could somebody please _email_ me some info on either what gif or iff
+>file formats are, or where I can get such info?
+
+Well, GIF stands for Graphics Interchange Format and was put forth by
+Compuserve back in 1987(?) or so.  It was to create a format that could be
+read and displayed by any system.  GIF is limited to 8 bit color but has
+a built in compression scheme (LZW?).
+
+IFF is not really a graphics format, but rather a standard way to package
+images, sounds, animations, text, or whatever into one file.  IFF was
+created by Electronic Arts, I do believe (I could be wrong), for the Amiga.
+It was quickly adopted as pretty much the standard file format for the Amiga.
+The most common image format for the IFF package is an ILBM (InterLeaved
+BitMap?) but many others exist.  This format supports 24 bit color images.
+
+Information on both of these and many more are available via anonymous ftp at
+zamenhof.cs.rice.edu in the directory /pub/graphics.formats
+(Taken from the FAQ for this news group.)  :)
+
+Wayne Rigby
+rigby@cs.unr.edu

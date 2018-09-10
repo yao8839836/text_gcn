@@ -1,0 +1,137 @@
+From: rbrand@usasoc.soc.mil (Raymond S. Brand)
+Subject: Re: Clipper considered harmful
+Organization: SOFNET
+Lines: 132
+
+In article <1993Apr24.160121.17189@ulysses.att.com>, smb@research.att.com (Steven Bellovin) writes:
+[...]
+> There are three issues with Clipper.  The first is whether or not the
+> architecture of the whole scheme is capable of working.  My answer,
+> with one significant exception, is yes.  I really do think that NSA and
+> NIST have designed this scheme about as well as can be, assuming that
+> their real objectives are as stated: to permit wiretapping, under
+> certain carefully-controlled circumstances, with a minimum risk of
+> abuse.  (The exception is that U exists outside of the chip, on a
+> programming diskette.  That's seriously wrong.  U_1 and U_2 should be
+> loaded onto the chip separately.)  To those who disagree (and I don't
+> claim my answer is obvious, though I found my own reasoning
+> sufficiently persuasive that I was forced to rewrite the Conclusions
+> section of my technical analysis paper -- I had originally blasted the
+> scheme), I issue this invitation:  assume that you were charged with
+> implementing such a system, with complete regard for civil rights and
+> due process.  What would you do differently?  In answering this
+> question, please accept NSA's fundamental assumptions:  that both
+> strong cryptography against outsiders, and the ability to wiretap
+> *some* domestic users, is necessary.  (If you feel it necessary to
+> challenge those assumptions, do it in the context of the last issue I
+> present below.  Right here, I'm discussing *just* the technical
+> aspects.  And no, I don't by any means claim that just because
+> something can be done, it should be.)
+
+OK Steve, here's a sketch of an alternative that I believe addresses
+most of the objections to the Clipper scheme.
+
+Notation:
+	+	concatenation
+	^	exclusive or
+	E(M,K)	message M encrypted by key K
+	D(M,K)	message M decrypted by key K
+	H(M)	hash (digest/signature) of message M
+
+Important Values:
+	U0[X]		local chip unit key from escrow agency X
+	U1[X]		remote chip unit key from escrow agency X
+	N[0]		serial number of the local chip
+	N[1]		serial number of the remote chip
+	A		number of escrow agencies
+	K[0],K[1]	"session keys" agreed upon external to this protocol
+	F		"family key", need not be secret
+
+Protocol:
+	Choose K0[1],...K0[A] such that K[0] = K0[1]^...^K0[A]
+	Remote chip does same for K[1],K1[1],...,K1[A].
+
+	Compute the following:
+
+		L0[1] = E(K0[1], U0[1])
+		...
+		L0[A] = E(K0[A], U0[A])
+
+		L[0] = N[0] + E(N[0] + L0[1] + ... + L0[A], F)
+
+		Remote chip does the same for L1[1],...,L1[A],L[1]
+
+	Send L[0] to remote chip and receive L[1] from remote chip
+
+	Compute:
+
+		KE[0] = H(K[0] + N[0] + L0[1] + ... + L0[A]
+			+ K[1] + D(L[1], F)
+
+		KD[0] = H(K[1] + D(L[1], F)
+			+ K[0] + N[0] + L0[1] + ... + L0[A]
+
+		Note that D(L[1], F) = N[1] + L1[1] + ... + L1[A]
+
+		Remote chip does the same for KE[1] and KD[1]
+
+	User data is encrypted (decrypted) with keys KE[0], KE[1]
+		(KD[0], KD[1])
+
+Assumptions:
+	No trap doors in E(), D() and H(). H() is not invertible.
+
+	Algorithms for E(), D() and H() are secret. Otherwise a software
+	implementation (bogus chip) could communicate with a real chip.
+
+	The chip only supports the following operation:
+
+		1)  Return N[0]
+		2)  Load K0[x]
+		3)  Return E(K0[x], U0[x])
+		4)  Return E(N[0] + L0[1] + ... + L0[A], F)
+		5)  Given E(N[1] + L1[1] + ... + L1[A], F),
+			return N[1],L1[1],...,L1[A]
+		6)  Load K[1]
+		7)  Given E(N[1] + L1[1] + ... + L1[A], F),
+			compute KE[0], KD[0]
+		8)  Given M, return E(M, KE[0])
+		9)  Given M, return D(M, KD[0])
+
+	Anything programmed into the chip can be determined by destroying
+	the chip (U[1],...,U[A],F,N[0]).
+
+	U[1],...,U[A] can not be determined except by destroying the chip.
+	(Unfortunately this may not be true in reality. I suppose it's
+	possible to determine how a chip has been programmed with a
+	sophisticated[sp?] x-ray machine to look for blown fuses.)
+
+	The U's are programmed independantly by the escrow agencies.
+
+Notes:
+	For tapping escrow agency Y is given N[0], E(K0[Y], U0[Y]), N[1],
+	E(K1[Y], U1[Y]) and returns K0[Y], K1[Y].
+
+	LEA's must contact all escrow agencies with the serial numbers from
+	both chips and the encrypted partial keys. This allows the agencies
+	to record that both chips were tapped.
+
+	LEA's only get the session key, not the key to all conversations
+	of a particular chip. This precludes real-time decrypting of a
+	conversation but that isn't one of the STATED requirements.
+
+Observation:
+	In order for any secure by "tap-able" communication scheme to work,
+	the active parts need to share a secret. And if this secret is
+	revealed, communications by those that know the secret can be made
+	"un-tap-able". Obvious candidates are the cryptographic algorithm
+	and the master (family) key. Relative size and complexity suggests
+	that the key can be obtained from a silicon implementation of the
+	scheme a LOT easier and faster than the algorithm.
+
+
+						rsbx
+
+-----------------------------------------------------------------------------
+Raymond S. Brand					rbrand@usasoc.soc.mil
+-----------------------------------------------------------------------------

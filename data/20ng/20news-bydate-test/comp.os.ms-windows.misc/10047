@@ -1,0 +1,21 @@
+From: mjuric@aisun1.ai.uga.edu (Mark Juric [MSAI])
+Subject: Printer security
+Organization: AI Programs, University of Georgia, Athens
+Lines: 15
+Nntp-Posting-Host: aisun1.ai.uga.edu
+
+
+   Anyone know of a good software package that will allow us to keep track of
+who is printing what and when?  Is there any way to get Print Manager to keep
+a log?  Is there a Print Manager replacement that will do this?  How about a
+package that will only allow access to the system for people in a password 
+file?  I looked at Chastity, but it will let you log in without a password,
+and doesn't keep tabs of who got on and when.  
+   Any help will be greatly appreciated.
+
+
+@===@                                                                     @===@
+ ###  Mark Juric                               A.I. Programs               ###
+ ###  mjuric@ai.uga.edu                    University of Georgia           ###
+ ###                                       Athens, Georgia 30602           ###
+@===@                                                                     @===@

@@ -1,0 +1,34 @@
+From: relova@unixg.ubc.ca (Michael A Relova)
+Subject: Re: WinFax files in ASCII format?
+Organization: The University of British Columbia
+Lines: 28
+NNTP-Posting-Host: unixg.ubc.ca
+
+In <ZHAO.93May14123957@sparta.nmsu.edu> zhao@nmsu.edu (Z. Zhao) writes:
+
+
+>Currently, we are using WinFax software to receive/send fax on our
+>PCs. It works pretty well. The problem is that all received files are
+>in bit map format, which take lots of HD space. I have been told there
+>is some programs that can do pattern recognition of the raster
+>                             ^^^^^^^^^^^^^^^^^^^
+>characters in fax-in files and translate them into ASCII code, then
+>store the file in ASCII format.
+
+>Would you like to tell me
+>	(1) whether or not there is such software package to do such
+> 	    translation? 
+>	(2) if there is one, where can I find it?
+>	(3) is any such software package on public domain?
+
+What version of WinFAX do you have?  The newest version (3.0) has an OCR
+(Optical Character Recognition) built in... what this means is that it can
+take a fax (ie, a letter) and convert it into ASCII so that one can edit
+the document w/o re-typing it... However, I found that the OCR that comes
+packaged with WINFAX does not work as well as OMNIpage Professional (also
+by Delrina software)... So, once again, WinFAX ver. 3.0 has what you are
+looking for... Good luck!
+
+>Regards,
+
+>ZiZi

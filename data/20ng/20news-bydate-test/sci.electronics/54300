@@ -1,0 +1,26 @@
+From: lc@goanna.cs.rmit.oz.au (leon)
+Subject: Re: 2% silver solder
+Organization: Comp Sci, RMIT, Melbourne, Australia
+Lines: 21
+
+In article <199304251131.AA08572@dec3100a> shiekh@ictp.trieste.it (Andy Shiekh) writes:
+>
+>  I have seen the existance of electronics solder with a 2% silver
+>content that seems to have good wetting and fatique reatings.
+>  Can anyone tell me why it is not used? (silver is not such an expensive
+>metal).
+>
+From "Management of Electronics Assembly" (Ian Oakes)
+After talking about 63/37 tin lead alloy and the eutectic point...
+"Occasionally, impurities may be added to solder, to vary charactersitics 
+within the soldering process in an attempt to improve performance.  For
+example, addition of small quantities of antimony and copper can reduce
+the amount solder moves under stress when solid.  For particular
+applications additions of impurities may be warranted but, in general, it
+is best to keep the solder used in a soldering process as pure as possible."
+
+I guess this is the good oil for commercial operations, but it doesn't
+mention anything esoteric.
+
+leon
+

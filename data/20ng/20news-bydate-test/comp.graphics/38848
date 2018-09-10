@@ -1,0 +1,215 @@
+From: stein@watson.ibm.com (Arthur Stein)
+Subject: Scientific Visualization of Chemical Systems
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: klaatu.watson.ibm.com
+Organization: Visualization Systems, IBM
+Keywords: computer graphics, ray tracing, volume rendering
+      --- Scientific Visualization of Chemical Systems ---
+ 
+           Cornell Theory Center Summer School
+ 
+          Offered through the Cornell School of
+        Continuing Education and Summer Sessions
+ 
+                  Course Description
+ 
+ Within the past ten years, the  simulation and  modeling of
+Lines: 197
+
+molecules has evolved from an esoteric academic subject into
+a  international  industry. Computer  graphics has played  a
+decisive role in this transformation by allowing chemists to
+build, visualize and interact with complex geometrical objects.
+ 
+While computer scientists are conversant in the language of their
+own discipline, they are often unfamiliar with the terminology,
+simulation techniques and practical needs of research chemists.
+Similarly, chemists are often unfamiliar with the latest paradigms
+and technological advances in graphical computing.
+ 
+This interdisciplinary course is intended to bridge the gap
+between computer science and chemistry and to equip chemistry
+researchers who wish to be more than just casual users of
+prepackaged graphics software. Although this is not intended to
+be a course in computational chemistry or drug design, data sets
+from chemical research problems will be used in lab and students
+will be encouraged to bring data sets of their own. Lab exercises
+and projects will be carried out using data-flow programming
+(IBM Visualization Data Explorer software) and students will have
+access to Cornell Theory Center computing resources, including video
+recording equipment.
+ 
+Audience:  researchers and students in the chemical and biological
+           sciences interested in integrating state-of-the-art
+           computer graphics into their research; computer scientists
+           wishing to gain familiarity with a major application of
+           scientific visualization.
+ 
+           The class size will be limited to 25 participants on a
+           first-come first-served basis.
+ 
+Level:     Graduate/advanced undergraduate, 1 or 2 Credits. May be taken
+           without credit as a workshop. Calculus, linear algebra
+           and introductory chemistry required. Familiarity with Unix,
+           X-windows and C is useful but not required.
+ 
+Date:   June 14-25, 1993  (2 Credits)
+        June 14-18, 1993  (1 or 0 credits)
+ 
+Time:   Mon-Fri 9:00 am to 12:00 pm and 1:00 pm to 4:00 pm
+ 
+Cost:   0 or 1 credit       $410
+        2 credits           $820
+ 
+Format
+ 
+The course will be held in the Theory Center training facility
+where computer workstations will be available.  Daily lectures will be
+interspersed with laboratory exercises and ample time will be provided
+for project enablement and familiarization with the new computing
+environment. Students enrolled for one credit will be graded on the basis
+of their laboratory exercises and short final project. Those enrolled
+for a second credit will receive more advanced lectures, be given
+more time for project development and meet daily to share experience
+and discuss problems encountered.
+ 
+Content (may vary)
+ 
+    Elements of computer graphics
+         polygonal rendering, lighting models, ray tracing, volumetric
+         rendering, stereo graphics, animation, introduction to data-flow
+         programming (DX), interactivity.
+ 
+    Representing the atom
+         size, time and energy scales
+         basic classical and quantum mechanics
+ 
+    Important categories of molecules
+         small molecules, biopolymers, surfaces and catalysts,
+         miscellaneous current applications
+ 
+    Data formats and conversions
+ 
+    Advanced molecular graphics techniques
+ 
+    Types of simulation and experiment
+         electronic structure, molecular dynamics/mechanics
+         electrostatics, X-ray crystallography, NMR, quantum
+         dynamics and spectroscopy.
+ 
+Instructors
+ 
+The course will be taught by two instructors. Topics related to computer
+graphics will be handled by Dr. Bruce Land, Project Leader of Visualization,
+Cornell National Supercomputing Facility. Chemistry-specific aspects
+of the course will be handled by Dr. Richard E. Gillilan, Visualization
+Specialist and Research Scientist, Cornell National Supercomputing Facility
+ 
+TO REGISTER:  mail completed form to
+ 
+              Cornell University
+              School of Continuing Education
+              and Summer Sessions
+              B20 Day Hall
+              Ithaca, NY 14853-2801
+ 
+Questions:  Richard Gillilan (607) 254-8757
+            richard@tc.cornell.edu
+ 
+IMPORTANT: Acceptance will be first-come, first-served and based
+           on a target class size of 15 full-credit and 10 single
+           or non-credit participants.
+ 
+DEADLINE:   May 20, 1993
+ 
+ 
+----------------------- Application Form ----------------------
+ 
+         Scientific Visualization of Chemical Systems
+ 
+            Chemistry 782    Computer Science 718
+ 
+U.S. Social Security number (if available) _____ - ___ - _______
+ 
+Cornell ID number (if available) ________________
+ 
+Name: _______________________________________________________________
+         Last            First         Middle        Suffix (Jr, etc)
+ 
+Address: _____________________________________________________________
+ 
+         _____________________________________________________________
+ 
+         _____________________________________________________________
+ 
+ 
+Home Address (where grades will be mailed):
+ 
+         _____________________________________________________________
+ 
+         _____________________________________________________________
+ 
+         _____________________________________________________________
+ 
+Local Phone ________________   Home Phone _______________
+ 
+ 
+Academic Discipline _____________________________
+ 
+ 
+Course number (check one):   __ Chemistry  __ Computer Science
+ 
+Credits:       __.__
+ 
+Status:     __ Undergraduate Student   __ Smart Node Consultant
+            __ Graduate Student        __ Smart Node Advisor
+            __ Post-Doctoral
+            __ Faculty                 __ Other (explain) _______________
+ 
+Corporate Commercial
+ 
+            __ Research Staff          __ Other (explain) ______________
+ 
+Name of Firm ___________________________________________________________
+ 
+Indicate which of the following best describes you (optional):
+ 
+  __ African American  __ Alaskan Native     __ Asian American
+  __ Caucasian         __ Hispanic American  __ Native American
+ 
+List special needs (e.g. mobility impaired): ____________________________
+ 
+----------------------------------------------------------------------------
+ 
+Accommodations:
+ 
+Blocks of rooms are available at the Sheraton. Reservations
+must be made no later than May 17. Be sure to tell them you
+are here for the "Cornell Theory Center Visualization Workshop".
+ 
+    Sheraton Inn
+         One Sheraton Drive, Ithaca
+         (607) 257-2000
+         FAX: 607-257-398
+         Rates starting at $64.00
+ 
+Other local motels (Make your reservation early! Our
+workshop coincides with other Cornell events)
+ 
+Econo Lodge
+        Cayuga Mall 2303 N. Triphammer Rd. Ithaca
+        (607) 257-1400
+        (800) 466-6900
+        FAX: (607) 257-6359
+        Rates from $35.10 (ask for the Cornell Rate)
+ 
+ 
+Dorm rooms have also been reserved participants
+(both credit and non-credit). Participants who
+are interested in dorm rooms should call (below)
+for registration information:
+ 
+Jeanne Miller (607) 254-8813 or Donna Smith (607) 254-8614
+email: jeanne@tc.cornell.edu or donna@tc.cornell.edu
+ 
+

@@ -1,0 +1,40 @@
+From: goyal@utdallas.edu (MOHIT K GOYAL)
+Subject: Info. on the POWER PC by IBM, Apple, & Motorola!
+Nntp-Posting-Host: apache.utdallas.edu
+Organization: Univ. of Texas at Dallas
+Lines: 34
+
+==== BEGIN REPOST ====
+
+IBM, Apple, Motorola Ready to Unwrap PowerPC 601 Processor
+
+
+The wraps will come off the PowerPC 601 processor this week, as Motorola
+Corp., IBM, and Apple Computer Inc. detail the results of their yearlong
+effort. This first in a series of PowerPC processors will be a 32-bit
+processor with a 64-bit memory interface, much like Intel Corp.'s
+Pentium, with the capability of performing as many as three instructions
+per clock cycle, according to sources familiar with the chip. Motorola
+is expected to release the chip in volume by year end in two
+configurations, running at 50 and 66 MHz with performance of 40 and 50
+SPECint89 marks, respectively, sources said. Floating-point performance
+for the 3.6-volt processors will be even better, as their SPECfp89
+performance will be 60 and 80, respectively. The 601, a scaled-down
+version of the Power 220 chip developed by IBM for its RS/6000
+workstations, will also include a 32K single buffered cache on the chip
+with protocols to support Motorola's 64-bit multiprocessor 88110 bus
+built in. The chip, which is being designed initially to support the
+Micro Channel Architecture, is bus independent, so vendors could develop
+PowerPC- based systems using a number of different architectures,
+including ISA, EISA, or Sun Microsystems Inc.'s S-bus design, one source
+noted.
+
+According to sources familiar with the development effort, Motorola has
+been extremely successful in developing the PowerPC as an inexpensive
+architecture, despite a complex design made up of more than 2.8 million
+transistors using a 0.6-micron technology. Initial chips are expected to
+be priced from $300 to $400 -- only slightly higher than Intel Corp.'s
+486 processors -- but could be sold profitably for less than $100, one
+source said.
+
+==== END REPOST ====

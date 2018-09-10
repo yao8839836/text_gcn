@@ -1,0 +1,20 @@
+Subject: GUI builders for VMS
+From: mark@trident.datasys.swri.edu (Mark D. Collier)
+Organization: Southwest Research Institute
+Lines: 15
+
+I am looking for GUI Builders/UIMS's which run in a VMS/OpenVMS
+environment. I am interested in both Motif tools and GUI-independent
+tools such as XVT. My client also requires that the tool has been
+in production for at least 6 months in the VMS environment. Note
+that I have the list of tools from the FAQ, but not the info on
+VMS availability.
+
+Thanks
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mark D. Collier                      Southwest Research Institute
+Senior Research Analyst              Automation and Data Systems Division
+Voice: (512) 522-3437                Data Systems Department
+FAX:   (512) 522-5499                Software Engineering Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,46 @@
+From: fennell@well.sf.ca.us (Michael Daniel Fennell)
+Subject: SARSAT for tracking payload deployed by tether.
+Summary: Can SARSAT beacons be used for nonemergency purposes?
+Keywords: tether, SARSAT, navigation
+Nntp-Posting-Host: well.sf.ca.us
+Organization: The Whole Earth 'Lectronic Link, Sausalito, CA
+Lines: 38
+
+
+
+We are interested in constructing a reentry vehicle to be deployed from a
+tether attached to an orbiting platform.  This will be a follow on to our
+succesful deployment of a 20 kilometer tether on the March 29 flight of
+SEDS (Small Expendable Deployment System), which released an instrumented
+payload that reentered the earth's atmosphere and burned up over the west
+coast of Mexico.  This time we want to make a payload that can be recovered.
+We want to build it from "off the shelf" technology so as to do this as
+quickly and inexpensively as possible.  We want to be able to track the
+payload after it has deployed its parachute.  An idea we have is to put the
+same kind of radio beacon on it that is used with SARSATs (Search and Rescue
+Satellites).  It would turn on with the opening of the parachute and aid in
+tracking.  These beacons are known in the marine industry as EPIRBs
+(Emergency Position Indicating Radio Beacon).  They are rugged (they have to
+be to survive a ship wreck!) and cheap.  We have several questions:
+
+1.  What is the world authority regulating the use of SARSAT beacons.  Are
+there multiple authorites, i.e. military and civilian?
+
+2.  What are the regulations regarding the use of SARSAT signals.  Can they
+be used for one of a kind situations with a long lead time of warning the
+relevant authorities, or are they strictly reserved for life threatening
+emergencies?
+
+3.  What is the coverage of SARSATS?  Are they in LEO with only intermittant
+coverage of a fixed position on the earth, or are they in geosynchronous
+orbit?
+
+4.  Is there an industry organization governing the use and manufacture of
+these transponders?
+
+Please post replies here or send E-mail to me at:
+	fennell@well.sf.ca.us
+Thanak you very much for any assistance you can provide.
+
+			-mike fennell
+

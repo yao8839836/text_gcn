@@ -1,0 +1,33 @@
+From: pv@semt1.smts.cea.fr (Pierre Verpeaux)
+Subject: Re: xdm configuration
+Nntp-Posting-Host: semt1.smts.cea.fr
+Organization: Commissariat a l'Energie Atomique - France
+Lines: 27
+
+In article <C6ADru.JpF@hermes.hrz.uni-bielefeld.de>, uphya001@odie.uni-bielefeld.de (Lars Koeller,D0-231/258,1065375,0526189607) writes:
+|> ---
+|> Hello!
+|> 
+|> We want to configure our X11R5 sytem (i486 33Mhz running BSD-like UNIX)
+|> comming up with a chooser menu with different machines on it (works) an then
+|> connect to them. But the only connection works is localhost!
+|> An 'X -indirect <machine>' works very well!
+|> The configuration:
+|> 
+|> 		- starting the 'xdm' at boot time with no servers specified
+|> 		   in Xservers
+|> 		- starting the X-server at boot time with X -indirect localhost
+|> 
+         ...........   more deleted
+
+
+You need to start the X-server with -indirect its_name.
+
+If you start it with -indirect localhost, it use the loopback adress as
+it's adress. So when it try to contact another host, this one try to answer
+on its loopback adress. Not good.
+
+Remember that every machine has the adress 127.0.0.1 on the loopback network.
+
+-- 
+Pierre Verpeaux 	DMT/SEMT/LAMS		(1)69.08.65.42	

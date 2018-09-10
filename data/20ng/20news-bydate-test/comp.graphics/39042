@@ -1,0 +1,17 @@
+Organization: Penn State University
+From: <GNR100@psuvm.psu.edu>
+Subject: Direct Acess to Video memory
+Lines: 12
+
+      Hi.  I'm  looking for information on how to directly manipulate
+ video memory.  I have an application that I would like to use this for,
+ because it is much faster than going through the BIOS.  I know that
+ video memory ispart of the system area above the first 640K, so I guess
+ I am looking to find out exactly what section of memory it is, and how it
+ is layed out.     Thanks.
+
+           Regards,       Gordon Rogers
+                          gnr100@psuvm.psu.edu
+/*********************************************************************/
+void signature(void){
+                    }

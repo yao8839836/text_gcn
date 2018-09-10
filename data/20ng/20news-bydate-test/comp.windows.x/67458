@@ -1,0 +1,54 @@
+From: deford@netwrx1.NW1.COM (Brian DeFord)
+Subject: preventing user from hitting CTRL-ALT-BKSP to exit X
+Organization: Open Networks, Inc., Reston, VA
+Lines: 49
+
+Hello,
+
+	I am admin for an RS/6000 running AIX 3.2, X11R5, Motif, and xdt3.
+	I want to prevent the user from hitting CNTL-ALT-BKSPC to exit X.
+	
+	I've tried invoking X with 'xinit -T', but that doesn't work.
+	xinit appends the -T to the call to .xinitrc, and not to the
+	call to X.  
+
+	The man page to xinit is no help.  In fact, it tells
+	me that xinit is a script when it is really a binary file.  
+
+	So far, the only way I've been able to accomplish this feat is
+	to add the -T to the call to X in /usr/lpp/X11/defaults/xserverrc.
+	I would rather not do it this way.  Does anyone have any other ideas?
+
+ 
+------------------------------------------------------------------------
+  Brian DeFord				Internet: deford@netwrx1.nw1.com	
+  Open Networks, Inc.			Usenet:   uunet!netwrx1!deford
+  11490 Commerce Park Dr. #205		Tel:      703-648-0013
+  Reston, VA 22091			FAX:      703-648-0016
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I want to prevent the 

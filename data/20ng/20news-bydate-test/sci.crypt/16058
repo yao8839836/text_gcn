@@ -1,0 +1,24 @@
+From: eah1@gauguin.wustl.edu (Edward Anthony Hutchins)
+Subject: Re: Let's build software cryptophones for over the internet...
+Nntp-Posting-Host: gauguin
+Organization: Washington University, School of Engineering, St. Louis MO
+Lines: 18
+
+Hmmm.... CELP takes up about 12.6 MIPS for full duplex, and has been
+implemented on about a million DSP chips... the 56001 card in my PC only cost
+about $700, and I'm sure once demand goes up the prices would drop. The Analog
+Devices 21020 board that we're looking at now cost about $500 (academic price).
+I don't think hardware is something to worry about... if you get it working,
+people will snap up internet phone cards like there was no tomorrow.
+What we need here is a good implementation of CELP (the government code is
+absolute crap, I got a 30% speedup after looking at it for a couple of hours),
+and modifications to pgp to allow it to compress/decompress 144 bit frames
+every 30msec... I think the AD21020 should have enough juice for this (50MIPS).
+As part of the project I'm working on now, we're trying to get CELP up and
+running in realtime full duplex mode... I gotta find the source to pgp and
+see how tough it would be to integrate the en/decryption parts into the code.
+I'll play with it. Anyone else out there got an AD21020 setup?
+	- Ed
+_____________________________________________________________________________
+:-)  ('')  (-:  (,,)  :-)  ('')  (-:  (,,)  :-) | see lidflip instructions on
+Edward Hutchins, eah1@cec1.wustl.edu            | other side of card

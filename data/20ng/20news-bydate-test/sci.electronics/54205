@@ -1,0 +1,19 @@
+From: Mike Diack <mike-d@staff.tc.umn.edu>
+Subject: 77P20 programmer
+X-Xxdate: Mon, 26 Apr 93 17:13:26 GMT
+Nntp-Posting-Host: dialup-slip-1-77.gw.umn.edu
+Organization: persian cat & carpet co.
+X-Useragent: Nuntius v1.1.1d7
+Lines: 11
+
+Having vainly looked for devices capable of dealing to the NEC 77P20
+DSP chip which dont require taking out a mortgage, i decided to roll
+my own. Not a difficult task for an 8751, given that all the timing
+relationships are set out in the databook. One thing bothers me, that
+is the accursed 50ms 21 volt Vpp pulse. Sure, a little buck step-up
+converter can achieve this (in what is otherwise an all 5 volt widget)
+but i know latterday eproms dont need nearly this pulse length.
+Q : has anyone come up with a more efficient programming algorithm
+which is failsafe ?
+cheers
+Mike.

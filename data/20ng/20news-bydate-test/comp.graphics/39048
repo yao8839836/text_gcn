@@ -1,0 +1,23 @@
+From: car@trux.mi.org (Chris Rende)
+Subject: Need recommendations on imaging workstations
+Lines: 23
+
+
+I need recommendations on imaging workstations. As a minimum, I have the
+following requirements:
+
+- High resolution graphics (Black and white) for display of Fax images.
+- Support the display of multiple simulataneous windows:
+     Fax image, 3270 emulation window to IBM host, etc...
+- High speed network interface for 3270, image data, etc...
+     (16Mb Token ring, EtherNet, etc...)
+- Mouse
+
+
+Any information/experience would be appreciated.
+
+Thanks,
+
+
+car.
+-- 

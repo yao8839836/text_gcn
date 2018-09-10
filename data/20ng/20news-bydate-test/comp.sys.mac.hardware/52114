@@ -1,0 +1,30 @@
+Distribution: world
+From: armani@edgeway.wimsey.bc.ca (Anand Mani)
+Organization: EdgeWays!
+Subject: Re: Quadra 900/950
+Lines: 24
+
+  > >In article <Apr10.173326.36632@yuma.ACNS.ColoState.EDU>,
+  > >df432795@LANCE.ColoState.Edu (Daniel Philip Fagan) wrote: >> >> Does
+  > anybody know the difference between the Quarda 900 and Quadra 950?
+  > >Quarda 900 is a popular misspelling of Quadra 900, which has a 25 MHz
+  > 040 >processor. The 950 has a 33 MHz 040, and some local buses on the
+  > >motherboard run faster. The video is different also. The 950 can run a
+  > 13" and I believe a 16" monitor in 16 bit color without a VRAM upgrade.
+  > 
+
+Besides the faster processor, the 950 has SCSI 2, and as far as I know, faster
+I/O due to separate processors handling those functions. The 950 can output 16
+bit video to a 16" monitor with 1 meg of VRAM and 24 bit with 2 meg.
+
+hope this helps
+anand
+armani@edgeway.wimsey.bc.ca
+
+***************************** EdgeWays! InfoLink *****************************
+ armani@edgeway.wimsey.bc.ca    GUI BBS:(604) 984-2777 * Anand:(604) 669-9507
+					               *	The views expressed here are mine! *  
+[From FirstClass(tm) by PostalUnion Lite(tm)  from North Vancouver, BC Canada]
+******************************************************************************
+
+

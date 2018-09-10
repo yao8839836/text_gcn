@@ -1,0 +1,14 @@
+From: ELURONA@YaleVM.YCC.Yale.Edu (R. Elul)
+Subject: Help Wanted Loading Logitech Scanman Driver in High memory
+Organization: Yale University
+Lines: 8
+Nntp-Posting-Host: yalevm.ycc.yale.edu
+
+I am having troubleloading my Logitech Scanman Driver (latest version) into
+high memory with the devicehigh command in MSDOS 6. It gives me an
+'invalid parameters' message. Is it necessary to change some of the scanner
+driver parameters when loading high?
+Any help would be appreciated
+ 
+ 
+Ronel

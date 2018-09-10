@@ -1,0 +1,27 @@
+From: wpwood@darkwing.austin.ibm.com
+Subject: Re: HPGL viewer and utilities
+In-Reply-To: "Gaetan Lord, Ecole Polytechnique de Montreal"'s message of Wed, 28 Apr 1993 03:11:06 GMT
+Reply-To: wpwood@austin.ibm.com (Bill Woodward)
+Organization: The Institute of Knowledge on Jinx
+Lines: 20
+
+
+In article <27APR93.23959946.0053@music.mus.polymtl.ca> "Gaetan Lord, Ecole Polytechnique de Montreal" <DG03@music.mus.polymtl.ca> writes:
+
+   Hi
+
+   I would like to know if there is any software, PD or not, who
+   could produce X11 output of HPGL file on RS/6000. And same kind of
+   software who could produce hardcopy on postscript and lasetjet.
+
+Try export.lcs.mit.edu.  I think that there is a viewer there called
+xviewgl.  Check the README in /contrib.
+
+
+
+--
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+Bill Woodward        | wpwood@austin.ibm.com   <-- Try this first
+AIX Software Support | billw@aixwiz.austin.ibm.com  
+Graphics Group       | 512-838-2834
+I am the terror that flaps in the night.

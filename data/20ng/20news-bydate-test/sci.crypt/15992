@@ -1,0 +1,31 @@
+From: holland@CS.ColoState.EDU (douglas craig holland)
+Subject: Re: Let's build software cryptophones for over the internet...
+Nntp-Posting-Host: beethoven.cs.colostate.edu
+Organization: Colorado State University, Computer Science Department
+Lines: 25
+
+In article <C62D8r.C7p@demon.co.uk> Graham Toal <gtoal@gtoal.com> writes:
+>In article <1rf04s$jqu@sol.TIS.COM> mjr@tis.com (Marcus J Ranum) writes:
+>:	I'd really like to see such a thing developed so that interactive
+>:internet talk radio could be done. Ideally, though, it should be a general
+>:purpose device. It should be a general purpose enough device that nobody
+>:should be able to balk at its widespread use. Obviously, to make it easy
+>:for homebrewers, it should use pretty common hardware.
+>
+>I suggest we start with the ubiquitous Sun, to get a lot of momentum
+>going.  Custom hardware isn't going to go anywhere until there's a
+>user base.
+
+     Why don't we move down even further toward the masses by setting this
+up on an IBM PC clone(probably needs to be a 386 or a 486) with a 
+sound blaster and a V.32bis modem.  Those components are very widely
+available.  I don't know if the PC has enough horsepower to encrypt the data
+at realtime, but the sound blaster has 4 to 1 hardware compression and will
+work at any sampling rate from 4KHz to 23 KHz.
+
+Doug Holland
+
+-- 
+|  Doug Holland                | Anyone who tries to take away my freedom  |
+|  holland@cs.colostate.edu    | of speech will have to pry it from my     |
+|  PGP key available by E-mail | cold, dead lips!!                         |

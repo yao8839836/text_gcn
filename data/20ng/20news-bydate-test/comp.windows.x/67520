@@ -1,0 +1,31 @@
+From: adrian@ora.COM (Adrian Nye)
+Subject: Re: Cannot create 24 plane window (summary)
+Organization: O'Reilly and Associates, Inc.
+Lines: 23
+Reply-To: adrian@ora.com
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert@expo.lcs.mit.edu
+
+
+> I got several answers, the most complete was from Errol Crary 
+> (errolc@tv.tv.Tek.com):
+> >I have just looked at the R4 server listings (.../mit/server/dix/window.c )
+> >and there are several ways in which you can get a BadMatch error, even
+> >though my O'Reilly book only says "BorderWidth is nonzero for InputOnly".
+
+As of the third edition (June 92) the O'Reilly book (Vol 2) under
+XCreateWindow says:
+
+BadMatch
+	Any invalid setting of a window attribute
+	Attribute besides win_gravity, event_mask, do_not_propogate+mask,
+	    override_redirect, or cursor specified for InputOnly window
+	depth non-zero for InputOnly
+	Parent of InputOutput is InputOnly
+	border_width is non-zero for InputOnly
+	depth or visual invalid for screen
+	width or height is 0
+
+
+Adrian Nye
+O'Reilly and Associates

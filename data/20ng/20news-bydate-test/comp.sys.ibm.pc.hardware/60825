@@ -1,0 +1,13 @@
+From: hofkin@software.org (Bob Hofkin)
+Subject: Re: ATI build 59 drivers "good"?
+Reply-To: hofkin@software.org
+Organization: Software Productivity Consortium
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 6
+
+Build 59 causes 2 exceptions when I exit Windows. In fact, I have had
+this happen on all builds after 44, which shipped with my Gateway
+system.  Am I doing something wrong, or is this problem commonly
+overlooked?
+
+Bob Hofkin

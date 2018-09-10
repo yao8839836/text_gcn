@@ -1,0 +1,21 @@
+From: eabu500@orion.oac.uci.edu (Michael)
+Subject: Re: DeskWriter driver v3.1 problems
+Nntp-Posting-Host: dialin33611.slip.nts.uci.edu
+X-UserAgent: Nuntius v1.1.1d17
+Organization: UC Irvine
+Lines: 12
+X-XXMessage-ID: <A7FFA003FB028ECA@dialin33611.slip.nts.uci.edu>
+X-XXDate: Sun, 25 Apr 93 17:55:15 GMT
+
+In article <87439@ut-emx.uucp> Marc Bizer,
+mlbizer@bongo.cc.utexas.edu writes:
+>
+>Has it happened to anyone that while printing a beep is heard and a
+>message is displayed of the sort "Such-and-such a window was closed
+>because the Finder did not have enough memory"? Or am I the only one
+>suffering from this delusion?
+>	--Marc Bizer
+
+This can be solved by going into your system folder and do a Get
+Info (command I)
+on the Finder and give it more memory.

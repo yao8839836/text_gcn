@@ -1,0 +1,42 @@
+From: Roger De Abreu <roger@glenn.uwaterloo.ca>
+Subject: Re: good autoexec.bat and config.sys for windows 3.1
+X-Xxmessage-Id: <A8181B0C6101361D@eolite.uwaterloo.ca>
+X-Xxdate: Thu, 13 May 93 15:34:36 GMT
+Organization: Earth Observations Lab
+X-Useragent: Nuntius v1.1.1d11
+Lines: 34
+
+In article <C6uF2D.Gz2@acsu.buffalo.edu> Kan Mongwa,
+mongwa@acsu.buffalo.edu writes:
+>>In article <C6s2ux.n0F@acsu.buffalo.edu> Kan Mongwa,
+>>mongwa@acsu.buffalo.edu writes:
+>>>Do not load smartdrv.sys if you are using stacker. (this applies for
+>>windows).
+
+I replied:
+
+>>Why ???  Do you mean, just use smartdrv.exe in autoexec.bat ???
+>>
+>>Roger
+
+You answered:
+
+>Quoting from \windows\setup.txt
+>Under the section for using stacker
+>
+>"..For best performance, do not use SMARTDrive to cache the
+>compressed drive. You only need to cache the uncompressed drive..."
+>
+>Check it out for yourself!
+
+I think it is important to clear up your first reply.  You gave the
+impression that you should not use smartdrive with stacker.   You are
+correct re: caching the compressed drive.  However, as I understand it,
+you can cache the uncompressed drive.  Thus if you have compressed your
+disk C:, you will have a C and probably a D drive under stacker.  C being
+the compressed disk (which is just a large file on D:) and D being the
+uncompressed disk.  You should only attempt to stack D:.  In fact, with
+Win 3.1 and smartdrv.exe, it seems smart enough to automatically default
+to stacking your A,B and D drives.  
+
+Roger

@@ -1,0 +1,12 @@
+Binary methods for continuous outcomes: a parametric alternative.
+ Often a "disease" or "state of disease" is defined by a subdomain of a continuous outcome variable.
+ For example, the subdomain of diastolic blood pressure greater than 90 mmHg has been used to define hypertension.
+ The classical method of estimating the risk (or prevalence) of such defined disease states is to dichotomize the outcome variable according to the cutoff value.
+ The standard statistical analysis of such risk of disease then exploits methods developed specifically for binary data, usually based on the binomial distribution.
+ We present a method, based on the assumption of a Gaussian (normal) distribution for the continuous outcome, which does not resort to dichotomization.
+ Specifically, the estimation of risk and its variance is presented for the one- and two-sample situations, with the latter focusing on risk differences and ratios, and odds ratios.
+ The binomial approach applied to the dichotomized data is found to be less efficient than the proposed method by 67% or less.
+ The latter is found to be very accurate, even for small sample sizes, although rather sensitive to substitutions of the underlying distribution by thicker tailed distributions.
+ Canadian total cholesterol data are used to illustrate the problem.
+ For the one-sample case, the approach is illustrated using data from a study of the arterial oxygenation of 20 patients during one-lung anesthesia for thoracic surgery.
+ For the two-sample case, data from a prognostic study of the renal function of 87 lupus nephritic patients are used.

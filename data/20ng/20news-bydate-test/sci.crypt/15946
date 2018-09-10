@@ -1,0 +1,29 @@
+From: caronni@nessie.cs.id.ethz.ch (Germano Caronni)
+Subject: Re: Once they get your keys....
+Organization: Swiss Federal Institute of Technology (ETH), Zurich, CH
+Lines: 24
+
+In article <tcmayC5z3yE.F38@netcom.com> tcmay@netcom.com (Timothy C. May) writes:
+>It is unclear whether obtaining the key at time 0 also unlocks
+>messages recorded (by whomever) at earlier times. The announcement was
+>silent on this. The betting seems to be that once your key has been
+>obtained (by the authorities, by divorce lawyers, by the Mafia, by the
+>FBI, by lost or stolen backup tapes, by the NSA, etc.). all previous
+>conversations are unsecure. (Session keys are negotiated, but knowing
+>the private key is believed by many commentators here to break the
+>security. No doubt more details will emerge.)
+
+It is completely clear. You have to assume that each byte that was encrypted
+by this 'Clipper Chip' has been compromised. 
+Some people wondered, why Denning, Hellman and others did not respond,
+when asked what would be done about such compromised phones, or if
+compromise could not be restricted in time. (I did too) Let us just assume
+that a) They do not know and b) Those who know don't tell and c)
+They do not care. It seem's to be an 'Other Person's Problem' ...
+
+ gec
+-- 
+Instruments register only through things they're designed to register.
+Space still contains infinite unknowns.
+                                                              PGP-Key-ID:341027
+Germano Caronni caronni@nessie.cs.id.ethz.ch   FD560CCF586F3DA747EA3C94DD01720F

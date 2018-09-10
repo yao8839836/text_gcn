@@ -1,0 +1,49 @@
+From: beck@irzr17.inf.tu-dresden.de (Andre Beck)
+Subject: Re: X Design choice for color handling: question
+Keywords: color
+Reply-To: Andre_Beck@IRS.Inf.TU-Dresden.DE
+Organization: Dept. of Computer Science, TU Dresden, Germany.
+Lines: 41
+NNTP-Posting-Host: irzr17.inf.tu-dresden.de
+
+
+In article <lu1oftINNnfk@cascais.cs.utexas.edu>, sirosh@cs.utexas.edu (Joseph Sirosh) writes:
+|> Most graphics systems I have seen have drawing routines that also specify
+|> a color for drawing, like
+|> 
+|> Drawpoint(x,y,color) or Drawline(x1,y1,x2,y2,color) or
+|> Fillrectangle(x1,y1,x2,y2,color) 
+|> 
+|> With X, I have to do something like 
+|> XSetForeground(current_color)
+|> XDrawPoint(d,w,x,y)
+|> 
+|> Why split this into two functions? Why did X designers decide to not associate
+|> the color with the object being drawn, and instead associate it with the
+|> display it is being drawn on?
+
+For flexibility. Anyway, what you say is not really true. The color information
+is associated with a GraphicsContext, not with a display, and the GC _IS_
+a parameter to the drawing routines.
+
+So, if you need to fast switch between green dotted lines and blue ones of
+width 2, you can make 2 GCs for those cases and then simply do
+
+XDrawLine(dpy,win,gc_red,x1,y1,x2,y2);
+XDrawLine(dpy,win,gc_blue,x3,y3,x4,y4);
+
+for this effect.
+
+This is eventually more complicated to do for the programmer, but also much
+more efficient and flexible. You would not include all the other parameters
+like line pattern, with, cap and joinstyle, drawmode and so on in every
+drawing call, so why do it for color ? BTW, stay away from XDrawPoint()
+if you don't really need it (to draw RANDOM points), for image transfers
+there are Image routines.
+
+--
++-o-+--------------------------------------------------------------+-o-+
+| o |                \\\-  Brain Inside -///                       | o |
+| o |                    ^^^^^^^^^^^^^^^                           | o |
+| o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
++-o-+--------------------------------------------------------------+-o-+

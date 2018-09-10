@@ -1,0 +1,46 @@
+From: bell-peter@yale.edu (Peter Bell)
+Subject: Re: LCIII or used IIci - which should I get?
+Organization: Yale University Science & Engineering UNIX(tm), New Haven, CT 06520-2158
+Lines: 39
+Distribution: na
+NNTP-Posting-Host: minerva.cis.yale.edu
+
+In article <C60no1.Jst@mailer.cc.fsu.edu> stricher@masig3.ocean.fsu.edu (Char Aznabul) writes:
+>In article <1993Apr24.232542.6070@cheshire.oxy.edu> erik@cheshire.oxy.edu  
+>(Erik Adams) writes:
+>+ I am looking at a new LC III and a used IIci.  Prices
+>
+>+ The IIci has much greater potential for expansion, a la NuBus and
+>+ greater memory capacity.
+
+>Depends on the price you can get the ci for. Educationally speaking,
+>the 4/80 [?] LCIII here at FSU can be had at just under $1300. Add
+>in roughly $500 for a monitor. Last I'd heard, an 8mb LCIII simm
+>went for ~$250. 
+>
+>I think you're in a win-win situation. No matter what you decide,
+>you'll most likely be happy with it.
+>
+>James
+
+Yes, and one thing to think about is the pricing on the 160M harddrive 
+configuration.  When I got my lowly classic II, the options were 40 or 80M
+harddrives, and it was clear that buying another 40M of harddrive space 
+would cost *much* more than the difference in price between the two config-
+uartions.  There is an analogous break in the LCIII/80 and 160 prices, and 
+you will not regret spending the extra money for a larger harddrive.  
+
+Particularly if you ever wind up wanting to use SoftPC, which sets up a
+several-MB (up to 30!) partition, or if you are generating large files 
+with DTP software, or if you might ever want to check out a mac unix-like 
+os, like MachTen, having the extra space will be helpful.  when you are 
+pricing used IIci's, look at the harddrive size they come with, and how much
+it would cost you to add more storage down the road... (Might be a 
+useful bargaining strategy even if you see no reason to go over 80M, though
+I must admit that I am such a packrat that within 6 months of getting my 
+computer, I was backing up a lot of stuff to floppies that I rarely use to 
+because I was running out of space, without having started using DTP stuff, 
+softPC or trying any unix os!)
+
+-Peter
+bell@minerva.cis.yale.edu 

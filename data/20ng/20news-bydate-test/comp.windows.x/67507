@@ -1,0 +1,21 @@
+From: mdb@rossby.colorado.edu (Mark Borges)
+Subject: Re: SUMMARY: virtual mouse in ol{v}wm
+In-Reply-To: euamol@eua.ericsson.se's message of Fri, 30 Apr 1993 06:45:24 GMT
+Nntp-Posting-Host: rossby.colorado.edu
+Organization: CIRES, University of Colorado
+Lines: 14
+
+>>>>> Regarding Re: SUMMARY: virtual mouse in ol{v}wm;
+>>>>> euamol@eua.ericsson.se (Mats Larsson) adds:
+: VirtualGrabKeys is not an OW resource. It belongs to olvwm(1).
+
+Not only that, the olvwm(1) (version3.3) man-page says it's called
+
+     GrabVirtualKeys " (Boolean)"
+          This resource controls whether the keys below marked as
+          involving  grabs  will  be  active  or  not.   If  this
+          resource is set to False, then  none  of  the  bindings
+          marked  below  with  an  asterisk  will ever be active.
+          Default value:  True
+
+

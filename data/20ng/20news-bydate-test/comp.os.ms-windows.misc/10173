@@ -1,0 +1,140 @@
+From: rsrodger@wam.umd.edu (Yamanari)
+Subject: Re: Challenge to Microsoft supporters.
+Nntp-Posting-Host: rac2.wam.umd.edu
+Organization: University of Maryland, College Park
+Lines: 134
+
+In article <C6D616.25M@uceng.uc.edu> bferrell@ant.occ.uc.edu (Brett Ferrell) writes:
+>In article <1993May1.154707.10177@hubcap.clemson.edu> ludes@hubcap.clemson.edu (Larry "Ludes" Ludwig) writes:
+
+
+	[munch]
+
+
+>>You must of read too many OS/2 advertisements.  "Crash Protection" is such
+>>a marketing gimick, it isn't funny..  Out of 4 months of using Windows on my 
+>>new machine I've only had it crash ONCE, and I don't have a "run of the mill"
+>>configuration.
+
+
+	[munch  following is reformatted]
+
+
+>It does sound funny, I will admit.  But for me it is true.  Windows
+> crashed on
+>all of the time (and from what I have read in PC Mag, this is not
+> the exception)
+
+
+	I'd say that the massive crash problems are exceedingly rare.
+	Windows _itself_ almost never crashes, but it can be crashed by
+	an errant application (My personal favorite?  Any one of the Corel
+	3.0 programs).  On the other hand, I have had OS/2 crash randomly
+	a number of times, mostly just running it's own applications.
+
+	For instance.  Today I discovered a new one.  While I was downloading
+	with Procomm Plus For Windows (running seamless with the standard
+	VGA drivers on a run-o' da mill VGA card--640x480), I decided that
+	I wanted to edit a copy of a quote that I wanted to add to my 
+	.finger.  But since I've learned not to really trust seamless, 
+	I fired up a full screen WinOS/23.1 session.  Whoops, the download
+	finished while WinOS/2 was loading.  It had _just_ gotten
+	the pointer up, so I hit alt-escape to get back t the desktop
+	(I have a lot of fonts, so loading takes a good long while).
+	
+	Blam.  Screen trashed, Procomm hangs up.  Hm.  Well, I can sorta
+	see the mouse, so I clicked on the minimized WINOS/2 session 
+	and got back my fullscreen Windows session (but the color were
+	off--red and green and yellow and brown instead of blues and greys).
+	So I closed this, and got back to the desktop (now fully restored).
+
+	PP+ was still sitting, window open, but it was no longer 
+	"connected" to the com port--so I exited it (the normal way--
+	it told me I was still online and it would hang up, though it
+	was _already_ hung up).  Hm.  Well, load anothe--no, bad idea. 
+	Shutdown and reboot.
+
+	Ok, refresh first.. Now, shutdown.  Yes, everything is closed...
+
+	Hm.  Nothing seems to be happening.  Let's see.. Ah, the 
+	windows list still comes up.  OK, let's try shutdown again.
+
+	No go.  Huh.
+
+	Alright, wait 60 seconds to see if it's just running slow.
+
+	Hmm.  Still seems to be running OS/2.  Try shutdown again.
+	Nothing.  Oh well.  Reboot.  Enjoy the checkdisk time.
+  
+	In this case, a part of the OS crashed not only itself, but
+	OS/2 entirely (which isn't even smart enough to tell when it;s
+	been compromised, I guess).  In everyday (specifically _today_)
+	use.
+
+
+> OS/2 gives each windows app a VDM and they can't touch each other or
+>(generally) anything they aren't supposed to have.
+
+
+	That's the idea, anyway.  In truth, when a program crashes on 
+	OS/2, it will bring the system down with it.  The programs that
+	would just GPF under Windows do the same under OS/2, but programs
+	that are fine under DOS and Windows bring OS/2 screaming to a halt,
+	task protection or no.  
+
+	For instance, I'm still wondering why print preview in a windowed
+	WP 5.1 (DOS) locks up my system.  It works fine under DOS or even in
+	a dos box under Windows 3.1.  (Admittedly, it doesn't crash if I run
+	WP51 full screen, but the first time this bug big me, it bit hard).
+
+
+
+>  If windows works for you,
+>then great.  Maybe this is why some people don't see why OS/2 is the OS of 
+>choice.  If windows doesn't crash on you, and you don't mind waiting on each
+>task,
+
+
+	Please explain.  The only time I wait on anything under Windows is
+	when I'm copying or formatting a floppy, or when printing (and even
+	then, not long--I get 9 to 11 pages dumped to the printman per 
+	minute, and can _still_ go do things--slowly--while it's doing 
+	this--I've downloaded with PP+ @9600 while printing).
+
+
+
+> and not being able to adress your memory better than DOS,
+
+
+	Not sure what you mean here.  OS/2 sees 16 megs, uses 5 or six
+	of these for it's own use (more if you want to count WinOS/2). 
+	Windows sees 16 megs, uses 3 or 4 (more like 5 if you count the
+	disk cache as I am for OS/2) for itself.  If memory efficiency 
+	were a big issue, PC GEOS would be the current king of the 
+	Intel desktop.  
+
+
+> some of the
+>key reasons for using OS/2 are gone.  I probably  would still use it, but it
+>would be more of an even fight.
+
+
+	On the other hand.. I am finally able to say with some confidence
+	that both OS/2 and Windows have a bit of hardware sensitivity to
+	them.  For instance, the machine I am sitting at runs both fine, 
+	while the machine next to me constantly locks up under Windows. 
+	(But ran OS/2 without a hitch once I got it through a 5-crash 
+	install).  On the whole, I'd say OS/2 is a whole lot more sensitive
+	than Windows, but there are (I suppose) machines that Windows
+	just doesn't like.  
+
+
+>Wittism of th week: "I think that it's wrong to believe in an ism, you should
+>                     believe in yourself"  Ferrish Bueller 
+
+	
+	Wasn't this _Ferris_ Bueller?
+
+
+-- 
+There are stupid laws, and then there are stupider than normal laws.

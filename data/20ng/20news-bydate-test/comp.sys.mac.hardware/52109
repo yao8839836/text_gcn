@@ -1,0 +1,59 @@
+From: Matt Riddle <matthew_riddle.science@muwayf.unimelb.edu.au>
+Subject: Sony DAT / Retrospect 1.3Ci Problems
+X-Xxmessage-Id: <A7FCA23273017011@riddlemac.science.unimelb.edu.au>
+X-Xxdate: Thu, 22 Apr 93 03: 27:46 GMT
+Organization: University of Melbourne
+X-Useragent: Nuntius v1.1.1d17
+Lines: 51
+
+Hi,
+I'm having problems tying to get a Sony DAT drive to work.  I'm using
+Retrospect 1.3Ci,
+and my only luck with getting the drive to work has been with a Mac IIci,
+which has
+now unfortunately gone to another department.
+  Ideally, we want to attach it to our Quadra 950 setup.  I can't seem to
+get the
+Retrospect software to recognize the media at all.  When in the "Devices"
+dialog,
+it can see the DAT device, but comes up with, firstly, 'Running', secondly
+'Media Failure' and then immediately 'Contents Unknown'.  This does not
+happen with the
+Mac IIci setup, which simply says 'Ready'.
+  I'm hoping someone else will have had similar problems but found some
+solution... I 
+know some others who have had problems with DAT devices and their Quadra,
+but they have
+a Mac IIci which they can use!
+  
+THE SYMPTOMS
+System software is 7.1, also didn't
+work with 7.0.1
+  I have tried the following:
+  Turn off all extensions, except Retrospect SCSI (required)
+  Tested on a variety of machines:  Quadra, IIsi, and LC (at least).
+  Connected no other SCSI devices
+  Tested all varieties of SCSI termination etc.
+  Replaced the DAT unit with a new one (Yes!  we got that desperate!)
+  Read the Retrospect manual (EVEN MORE DESPERATE :))
+
+Replies via email would be greatly appreciated... thanks in advance. 
+I'll post any
+solutions to this group.
+
+Cheers,
+Matt.
+-----------------------------------------------------------------------
+------------------
+ ______  Matthew Riddle                                      
+matthew@ariel.unimelb.edu.au
+| ---- | Science Multimedia Teaching Unit                               
+Tel 61 3 344 6400
+||    || Faculty of Science                                             
+Fax 61 3 344 5803
+| ---- | University of Melbourne                
+|   -- | AUSTRALIA                                                 My
+opinions are my own!
+ ====== 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^

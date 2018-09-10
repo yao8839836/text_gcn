@@ -1,0 +1,77 @@
+From: lioness@maple.circa.ufl.edu
+Subject: Kubota vs. E&S Freedome
+Organization: Center for Instructional and Research Computing Activities
+Lines: 70
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+
+More people have been asking for information on the Kubota graphics
+workstations, so here is some more info on the Kenai/Denali vs. the
+E&S Freedom.
+
+
+Here is the text of a Denali vs. E&S Freedom done by D.H. Brown Associates.
+
+------
+
+Denali bears a strong resemblance to Evans and Sutherlands Freedom graphics
+subsystem in several aspects of its high-level design.  Both products use
+a parallel array of 29050 processors for geometric computations.  Both
+have a pixel router to connect this front end to a second array of
+pixel processors.  As a result, Denali and Freedome overlap significantly
+in performance and functionality.  Both design teams also appear to have 
+similar philosophies with respect to modularity, scalability, and market
+penetration.
+
+There remain, however, several important differences between the KPC and
+E&S products.  Evans and Sutherland designed Freedom as a high-end
+developer's dream system with plenty of performance potential and
+flexibility.  In its favor, Freedom has configurations from two to
+sixteen floating point units, a border range that starts and ends at
+a higher price and performance levels than Denali.  All Freedom
+systems include a large, fixed number of pixel processors that
+support a broader variety of color blending functions.  The Freedom
+design treats its entire image memory as general-purpose memory, allowing
+developers to allocate it on a flexible basis to a number of special-purpose
+applications.  Finally, E&S provided Freedom with very flexible otput and
+video integration features for multimedia and simulation applications.  Note
+that KPC is working an auxiliary board for NTSC and PAL output that will not
+require an external video encoder.  E&S programmable output features,
+however, will remain much more flexible.
+
+The KPC design team, in contrast, made Denali more of an end-user's system.
+Entry version have better performance range and flexibility than low-end
+Freedom configurations, and come in at more realistic mainstream price
+points.  Denali does not need as many 29050 modules as Freedome because
+it uses a deeper scan-conversion pipeline to support each one, resulting
+in better cost/performance characteristics.  Although both products provide
+strong support for 3D, imaging, and volume rendering, KPC recognized that
+not all users will want an even mix of these capabilities.  Denali's
+configuration flexibility allows customers in effect to purchase
+geometric and pixel processing capabilities separately, and to upgrade
+them separately as needed.
+
+Both companies have implemented hardware texture mapping at
+workstation price levels as a way to attack SGI's more expensive
+VGXT and RealityEngine systems -- the only other products to provide
+this capability.  KPC supports point sampling and bilinear interpolation
+of textures in hardware, but provides only software support for the higher
+qualtiy tri-linear interpolated mipmapping method.  On balance, however, Denali
+provideds bettern overall texturing capabilities than E&S for most applications.
+Aside from being much more affordable, KPC solutions deliver more parallelism
+for texture processing and more off-screen memory for general graphics
+data storage.  By implementing texture mapping on its transformation
+modules, E&S foces customers to move very quickly to higher price levels
+to obtain better texturing performance.  Kubota avoids this problem by linking
+texturing to its Frame Buffer Modules, providing a lower-cost, more scalable
+solution.
+
+Hope this helps,
+
+Brian
+
+PS This was reprinted without permission.  For the full text, please contact
+Kubota 408-727-8100.
+
+

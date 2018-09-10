@@ -1,0 +1,26 @@
+From: steve-b@access.digex.com (Steve Brinich)
+Subject: Basic Crypto Requirements
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 20
+NNTP-Posting-Host: access.digex.net
+
+
+  In order to have formulate a rational position on what cryptography
+policies are acceptable, we must set forth a list of basic requirements.
+I would propose the following as a starting point:
+
+  1. The algorithm must be publicly known, and must have a record of
+       surviving attempts by outside experts to find weaknesses.
+
+  2. The system implementation must make it possible to verify that the
+       advertised algorithm is, in fact, the one that is being used.
+
+  3. The key must be quickly changeable by the user, and must be of a
+       sufficient length and complexity to defeat any brute-force search
+       possible now or in the reasonably near future.
+
+  Note that these requirements are not incompatible with some form of key
+escrow system; the May 1993 issue of "Byte" describes an example of an
+encryption system which can clearly be implemented in a manner consistent
+with the above requirements while requiring that parts of the key be
+escrowed in order to have one's public key listed by a central distributor.

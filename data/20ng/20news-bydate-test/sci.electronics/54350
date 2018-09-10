@@ -1,0 +1,29 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: cleaning electronic equipment?
+Organization: U of Toronto Zoology
+Lines: 24
+
+In article <adrian.735624685@tasman> adrian@tasman.cc.utas.edu.au (Adrian Lewis) writes:
+>	Just a quick question.  What standard lab solvents can be used to
+>clean electronic equipment and components safely (ie not corrode, dissolve,
+>short-out, etc the equipment)?
+>	water?	:-)
+>	methanol?
+>	CCl4?
+
+You don't say what kind of "electronic equipment" you mean.  It's hard
+to give a generic answer.  There is essentially no solvent that won't
+do things like washing lubricant out of switches.
+
+When we've needed to do an emergency cleaning job on things, we've just
+used distilled water.  The key thing to remember is to make sure the gear
+is *completely* dry before powering it up again.  We let it dry for
+several days to be damn sure.
+
+I doubt that methanol has significant advantages over water.  I would
+be very wary of CCl4, not least because it is dangerous to *you* even
+if it's not going to harm the equipment -- not only is it poisonous,
+but I believe it's now known to be carcinogenic.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

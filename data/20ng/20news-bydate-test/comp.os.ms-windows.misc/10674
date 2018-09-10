@@ -1,0 +1,19 @@
+From: bkv@donald.cc.utexas.edu
+Subject: Suggestions for WinForWG COM redirection needed!
+Organization: The University of Texas - Austin
+Lines: 11
+Distribution: usa
+NNTP-Posting-Host: donald.cc.utexas.edu
+Summary: Help with WFWG
+
+HELP!
+
+I am trying to find software that will allow COM port redirection under
+Windows for Workgroups.  Can anyone out there make a suggestion or reccommend
+something.  I would really hate to have to write some driver for the serial
+port that would support the network, but that is my next step.
+
+Thanks in advance.
+
+bkv
+

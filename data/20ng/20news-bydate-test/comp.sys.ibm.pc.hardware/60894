@@ -1,0 +1,43 @@
+From: philb@ento.csiro.au (Phil Burg)
+Subject: Re: How is a Loopback connector made?
+Organization: CSIRO Division of Entomology, Canberra, Australia
+Lines: 38
+
+skcgoh@tartarus.uwa.edu.au (Shaw Goh) writes:
+
+>35002_4401@uwovax.uwo.ca wrote:
+>: I need to know the Pins to connect to make a loopback connector for a serial
+>: port so I can build one.  The loopback connector is used to test the 
+>: serial port.
+>: 
+>: Thanks for any help.
+>: 
+>: 
+>: Steve
+>: 
+>Me Too!!!!!!!
+>skcgoh@tartarus.uwa.edu.au
+
+In a 25-pin serial loopback plug, you need to connect the following
+pins:
+
+pin 1 to pin 7
+pin 2 to pin 3
+pins 4, 5 and 8 together
+pins 6, 11, 20 and 22 together
+pins 15, 17 and 23 together,
+pin 18 to pin 25.
+
+That should do it.  Note that *a lot* of these pins are redundant
+in many implementations....
+
+Phil
+-------------------------------------------------------------------------
+  Phil Burg   Computer Unit, CSIRO Division of Entomology   Australia
+   Life:  a sexually transmitted disease with a 100% mortality rate.
+
+
+
+
+
+

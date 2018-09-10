@@ -1,0 +1,30 @@
+From: reynhout@cs.uri.edu (Andrew Reynhout)
+Subject: Re: Microcontroller Questions for newcomer
+Organization: Computer Science Department, University of Rhode Island
+Lines: 25
+
+acooney@netcom.com (Alan Cooney) writes:
+>...discussion of Motorola vs Intel uC's
+>
+>In other words, just add your favorite serial level converters (Mac folks
+>can use the cheaper, farther, and faster RS422 drivers, PC users get to
+>suffer with RS232...) and start using your project!  Think about it...
+
+   How much software is out there for the Mac?  I've been interested
+in using microcontrollers in imbedded applications for a long time,
+but was always under the impression that I would need an IBM to run
+the debug/compile/etc software.
+   I would like to use a 6811 or 6816.  I'm proficient in 6800 assembly,
+but have never NEEDED it except some toying with old 6802EVBs.
+
+   Motorola doesn't seem to have any information on Mac software (at
+least their local distributor doesn't) and the ELE department around
+here has been of little help as well.
+   I hope someone can tell me that I don't have to buy an IBM to 
+work with the 6811 or 6816 Evaluation Boards...please send me mail!
+
+   Andrew
+-- 
+   Andrew <reynhout@cs.uri.edu>    "If you remind me of my dog,
+                                    we'll probably get along"  -jane siberry
+   meow

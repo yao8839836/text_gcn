@@ -1,0 +1,36 @@
+From: punshon@skorpio.usask.ca (John Punshon)
+Subject: Playing MIDI music on ATI Stereo F/X-CD sound card
+Organization: University of Saskatchewan, Saskatoon, Canada
+Lines: 30
+NNTP-Posting-Host: skorpio.usask.ca
+
+
+I am running windows 3.1 in 386 enhanced mode.  The sound card I have
+is the ATI Stereo F/X-CD sound card which claims Adlib and Soundblaster
+compatibility.
+
+Using Windows MediaPlayer, I can play the midi files that came with
+my sound card.  However, I can't play any of the midi files that belong
+to the WinJammer midi editor that I ftp'd from cica.  I also can't
+play any midi files I generate with muzika (also from cica).  When I
+try to play the files, a dialog box pops up saying that the music
+may not play right, and it has a checkbox asking me if i wish to disable
+this message in the future.
+
+Is this normal, or do I have something set wrong?  I would really like
+to be able to write music on muzika and have my computer play it.
+
+I also ftp'd the game dare2dream for windows (from cica) and its music
+won't play either - I get the same dialog box.
+
+The MIDI Mappers that I have are ATI Ext MIDI, ATI OPL3 MIDI, and Vanilla.
+I have tried using all three.
+
+Any help, suggestions, shoulders to cry on, etc. would be appreciated
+very much.
+
+John P.
+-- 
+___________________
+John Punshon       |
+punshon@cs.usask.ca|

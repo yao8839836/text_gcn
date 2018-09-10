@@ -1,0 +1,56 @@
+From: reimert@anthrax.etdesg.trw.com (Scott P. Reimert)
+Subject: Re: Windows NT: Should I Upgrade???
+Organization: TRW Inc., Redondo Beach, CA
+Lines: 51
+
+In article <1rrhe0INN2p7@ceres.kingston.ac.uk> ee_d316@ceres.kingston.ac.uk (Steve Warner) writes:
+>
+>Hi
+>  I am thinking of upgrading to the Beta Version of Windows NT on a 486SX 25Mhz
+>213Mb Hard disc. Can someone please give me there opion on such a setup for
+>running NT and is the Operating System likely to be better than Windows or 
+>Unix's.
+>
+>
+>Steve
+>ee_d316@uk.ac.king.ceres
+>
+I've been using Windows NT (tm) since the October release, and I have to 
+say that the March release is really a big improvement.  Windows NT (tm)
+is becomming usable.
+
+There are a few things to consider before you make the leap though.
+First (for me at least) is that you cannot get a full-speed DOS box.
+What I mean is, I cannot (for instance) run Falcon 3.0 or any other
+resourse intensive program in a DOS box.  It absolutley crawls.  
+And my machine is a 486/33 with a 330MB HD and 16MB RAM.  If anyone
+knows how to get a fast DOS box (or full-screen for that matter), 
+please let me know.
+
+The second thing is there are still not many drivers around for stuff.
+For instance, my PAS-16 has been demoted to running as a Sound Blaster
+(which is natively supported -- nice), because MediaVision hasn't 
+produced drivers yet.
+
+Your disk should be large enough to keep an 80MB DOS partition, and
+give the rest over to Windows NT (tm).  The only thing is, whenever
+you wanted to run Windows programs, you'd have to reboot and log into
+Windows NT (tm), instead of just typing WIN.
+
+Windows NT (tm) does seem to be much more stable than normal Windows
+though.  It'd be a good choice if you have the resources.  You should
+really have *at LEAST* 8MB RAM though.  One last thing, modems work
+well enough, but I have yet to get my FAX card to work, and I've never
+heard of anyone else who did either.
+
+It's only better than UNIX because it runs killer software out of the
+box, whereas with UNIX there isn't the same availablity.
+
+I guess it comes down to -- Windows NT (tm) is not yet for the faint
+of heart, it's still a beta.  But it's a very GOOD beta.
+
+-- 
+-------------------------------------------------------------------------------
+  Scott Reimert  \    reimert@mamacass.etdesg.trw.com     /Standard disclaimer:
+Redondo Beach, CA \______________________________________/"Blah blah blah ... "
+__________________|Always store beer in a cool dark place|_____________________

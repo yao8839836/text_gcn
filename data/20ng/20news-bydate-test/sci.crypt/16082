@@ -1,0 +1,25 @@
+From: ktl@wag.caltech.edu (Kian-Tat Lim)
+Subject: Re: Dorothy Denning opposes Clipper, Capstone wiretap chips
+Organization: California Institute of Technology, Pasadena, CA
+Lines: 19
+NNTP-Posting-Host: sgi1.wag.caltech.edu
+
+The *security* of the system does depend only on the secrecy of the keys.
+
+The ability to tap is an inherent *insecurity* which depends fundamentally on
+the secrecy of the algorithm.  To spell it out, because so many people seem to
+miss the point, if the algorithm were published, anyone could create a chip
+which would work correctly with the Skipjack chips but which would not have
+its key registered.
+
+I believe there is no technical means of ensuring key escrow without the
+government maintaining a secret of some kind.  For example, the secret could be
+the private keys of the escrow agencies; their digital signatures would be
+required before a key could be used.  In this case, the NSA/NIST/whoever has
+decided that protecting the entire algorithm is easier/cheaper/more secure than
+other possible protocols.
+
+-- 
+Kian-Tat Lim (ktl@wag.caltech.edu, GEnie: K.LIM1)
+Materials & Molecular Simulation Center, Caltech
+Henry Spencer left-of-|, Margaret "*" Puckette signature fan

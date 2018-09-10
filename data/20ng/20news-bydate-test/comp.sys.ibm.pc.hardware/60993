@@ -1,0 +1,50 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: Help adding a SCSI Drive (Can it coexist with an IDE?)
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 44
+
+
+In article <1993Apr22.162835.4286@oracle.us.oracle.com>, ebosco@us.oracle.com (Eric Bosco) writes:
+> In article <1993Apr22.094851.27323@physchem.ox.ac.uk>  
+> mark@physchem.ox.ac.uk (Mark Jackson) writes:
+> > 
+> > In article <1993Apr19.195301.27872@oracle.us.oracle.com>,  
+> ebosco@us.oracle.com (Eric Bosco) writes:
+> > > 
+> > 
+> > I dont think you can mix the two types of drive, unless you have one of  
+> the
+> > SCSI/IDE cards that is available.  You will have to turn your IDE off.
+> > 
+> 
+> Is this true??? I was under the impression that people on the net had both  
+> SCSI and IDE working together.
+
+NO! I'm running both at home. Ok, to the cumpter is turned off right now but I
+did boot BSD/386 from an IDE drive, most of the system is on a SCSI drive...
+
+I'm using an Adaptec 1542B and a no-name el-cheapo IDE card.
+
+> 
+> 
+> > 
+> > > Well that seems to be all. Is there anythiing I'm forgetting? 
+> > > Any help is *really* appreciated, I'm lost...
+> > > 
+> > > -Eric
+> > > 
+> > > ebosco@us.oracle.com
+> > -- 
+> > Mark 
+> >  
+> __________________________________________________________________________ 
+> ____
+> > mark@uk.ac.ox.physchem
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

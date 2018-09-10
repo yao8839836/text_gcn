@@ -1,0 +1,155 @@
+From: ad@cat.de (Axel Dunkel)
+Subject: Summary: How sensible is DES towards bit-errors?
+Organization: C.A.T. Kommunikations-System
+Lines: 150
+
+Hi,
+
+I'd like to thank you all for the fast responses. 
+Special thanks go to those who replied (lexical order):
+
+Marcus J Ranum <mjr@TIS.COM>
+Paul Crowley <pdc@dcs.ed.ac.uk>
+pausch@saaf.se (Paul Schlyter)
+tarnold@vnet.IBM.COM (Todd W. Arnold)
+wcs@anchor.ho.att.com (Bill Stewart) 
+
+My question was:
+
+>how sensible is DES encrypted data towards bit errors? How much data per
+>bit will be lost in average (I assume you still have the correct key)?
+
+How much of the DES-encrypted data is affected depends on the used
+encryption mode. According to Marcus J Ranum (mjr@TIS.COM) there is:
+
+|	cfb = cipher feedback mode
+|	ecb = electronic code book mode
+|	cbc = cipher block chaining mode
+|	ofb = output feedback mode
+|
+|	each mode does some stuff better than others. ofb and cfb are designed
+|for communications streams more than for files.
+
+Unfortunally, people strongly disagree which mode will lead to destruction
+of all of the following data. Sure seems that some modes will resync quite
+fast, others will never, others will even only effect the very block.
+
+Summarized, people said concerning *this* matter:
+
+/
+|In CBC mode, only the current block will be affected (tarnold@vnet.IBM.COM 
+|<Todd W. Arnold>).
+|
+|If you use CBC (Cihper Block Chaining), then the remainder of the data
+|will be destroyed as well. (pausch@saaf.se <Paul Schlyter>)
+|
+|In CFB mode, DES synchronizes quite fast (probably within 1 block 
+|according to Maracus J Ranum <mjr@TIS.COM>).
+\
+
+Maybe someone *definitely* knows what happens in which mode?
+
+Nevertheless, Thank you all very much again.
+
+Axel Dunkel
+
+--------------------------------------------------------------------
+
+I include the responses I got:
+
+From: tarnold@vnet.IBM.COM (Todd W. Arnold)
+
+In <ad.735831059@cat> Axel Dunkel writes:
+>how sensible is DES encrypted data towards bit errors? How much data per
+>bit will be lost in average (I assume you still have the correct key)?
+
+It depends on the mode you're using.  For a single 64-bit input block, a
+one-bit error will have a 50 percent chance of corrupting each of the 64
+output bits - in other words, it essentially turns the output block into
+a random number.  If you're encrypting data in CBC mode, however, only the
+one 64-bit block will be affected.  The next block, and all that follow it
+will be decrypted properly.
+
+It's a good idea to have some kind of error correction in your system if
+corrupted bits are likely.
+
+   - Todd
+
+--------------------------------------------------------------------
+
+From: pausch@saaf.se (Paul Schlyter)
+
+In article <ad.735831059@cat> you write:
+>Hello,
+>
+>how sensible is DES encrypted data towards bit errors? How much data per
+>bit will be lost in average (I assume you still have the correct key)?
+
+At least 8 bytes of data will be destroyed if one bit encrypted data is
+in error.
+
+If you use CBC (Cihper Block Chaining), then the remainder of the data
+will be destroyed as well.
+
+DES is VERY seisitive for single bit errors.  This is as it should be.
+
+-- 
+---
+Paul Schlyter, Swedish Amateur Astronomer's Society (SAAF)
+Nybrogatan 75 A, 6 tr,  S-114 40 Stockholm,  Sweden
+InterNet:  pausch@saaf.se
+
+--------------------------------------------------------------------
+
+From: Paul Crowley <pdc@dcs.ed.ac.uk>
+
+> how sensible is DES encrypted data towards bit errors? How much data per
+> bit will be lost in average (I assume you still have the correct key)?
+
+Probably very bad; you might lose the rest of the data stream.  If you
+want safety against dropped bits use an error correcting coder like the
+freeware GNU ecc.
+  __                                  _____
+\/ o\ Paul Crowley   pdc@dcs.ed.ac.uk \\ //
+/\__/ Trust me. I know what I'm doing. \X/  Fold a fish for Jesus!
+
+--------------------------------------------------------------------
+
+From: wcs@anchor.ho.att.com
+
+   how sensible is DES encrypted data towards bit errors? How much data per
+   bit will be lost in average (I assume you still have the correct key)?
+
+It depends on the mode you're using DES in.
+Electronic Code Book (ECB) takes a block of 64 input bits
+and produces 64 output bits, so if any bits are changed,
+the entire block of 64 bits becomes bad.
+I forget which feedback mode is which.
+In all of them, the results of encrypting one block affect later blocks.
+With some modes, the system self-synchronizes, so errors are repaired
+in a few blocks.  With other modes, once one block is bad,
+all later blocks will be bad too.
+
+There's also the framing problem.  If you have a bit change,
+the block that it's in changes, and maybe later blocks also change.
+But if you have bits lost or bits added (64 bits in, 63 or 65 bits out),
+everything is confused after that.
+
+--------------------------------------------------------------------
+
+From: Marcus J Ranum <mjr@TIS.COM>
+
+	depends on the mode you're using. cfb, for example, synchronises
+pretty fast. figure a bit error will destroy the current block and the
+next one.
+
+mjr.
+
+--------------------------------------------------------------------
+
+---
+Experience is what you get if you don't get what you want...
+
+Systemberatung Axel Dunkel, Koenigsberger Strasse 41, D 6239 Kriftel, Germany
+E-Mail: ad@cat.de, Voice: +49-6192-41360, Fax: +49-6192-46949
+

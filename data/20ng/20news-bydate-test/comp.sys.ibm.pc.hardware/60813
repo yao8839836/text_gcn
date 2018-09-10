@@ -1,0 +1,45 @@
+From: dcoleman@utxvms.cc.utexas.edu (Daniel M. Coleman)
+Subject: Re: Gateway Flash BIOS Upgrade
+Lines: 38
+Nntp-Posting-Host: blonde.cc.utexas.edu
+Organization: The University of Texas at Austin
+Lines: 38
+
+In article <11172@lhdsy1.lahabra.chevron.com>, hwrvo@kato.lahabra.chevron.com (W.R. Volz) writes:
+> In article <1993Apr20.183959.1@utxvms.cc.utexas.edu>, dcoleman@utxvms.cc.utexas.edu (Daniel M. Coleman) writes:
+> |> Gateway 2000 has released a new Flash BIOS update for their local bus systems. 
+> |> Because I'm such a nice person, I uploaded them to wuarchive.wustl.edu.  Look
+> |> for glb05.exe in the msdos_uploads section.  Enjoy!
+> |> 
+> 
+> I have several questions:
+> 
+> 1) What do I gain with this new BIOS?
+> 
+> 2) How can I save a copy of my old BIOS in case I want to go back?
+> 
+> 3) How do I install the new BIOS?
+> 
+> I'd like to enjoy, but need answers first.
+
+1) It fixes some problems with MicroProse games.  After leaving F-15 III it
+would, in vain, try to find a floppy in drive A:.  This has been fixed.  I
+don't know what other corrections were made.
+
+2) It comes with an image of the original, in case things don't work.
+
+3) Download glb05.exe.  Format a bootable floppy disk, and don't put a
+config.sys or autoexec.bat.  Run the self extracting archive so all the files
+explode to the disk.  Run the file fsh.exe.  It should be self-explanatory from
+there.
+
+Dan
+
+P.S.:  I was feeling extraordinarily generous once again, so I uploaded the
+file to ftp.cica.indiana too..
+
+-- 
+Daniel Matthew Coleman		   |   Internet: dcoleman@utxvms.cc.utexas.edu
+-----------------------------------+---------- : dcoleman@ccwf.cc.utexas.edu
+The University of Texas at Austin  |	 DECnet: UTXVMS::DCOLEMAN
+Electrical/Computer Engineering	   |	 BITNET: DCOLEMAN@UTXVMS [.BITNET]

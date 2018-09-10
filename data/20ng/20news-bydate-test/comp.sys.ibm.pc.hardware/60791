@@ -1,0 +1,40 @@
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Subject: Re: 2 IDE-HDs
+Organization: Ford Motor Company Research Laboratory
+Lines: 33
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+Volker Voecking (voecking@Informatik.TU-Muenchen.DE) wrote:
+: 
+: Hello
+: 
+: I have problems combining two IDE hard disks
+: (Seagate ST3283A and Quantum LPS105A). As single hard disk both
+: are working fine, but connecting them together to my 
+: controller doesn't work.
+: 
+: My questions are:
+: 
+: - Has anybody out there ever been succesful using such hard disks
+:   together and if so what jumper settings and BIOS settting did he/she
+:   use?
+: 
+: - Is it possible that my controller is the reason for my troubles ?
+:   The only thing I know about it is that it is an 
+:   IDE-harddisk-controller. How many harddisks can such a controller
+:   control? In my case only one ?
+: 
+: 
+: Thanks in advance
+: 
+: 	Volker
+: 
+IDE drives have jumpers on them to indicate if it is a master or a slave.
+If it is a master, then a second jumper indicates if a slave is present.
+These must be set correctly according to each drive's manufacturers spec-
+ification.  The CMOS setup is almost positively NOT the problem.  It is
+probably not the controller - IDE controllers all support exactly two
+drives maximum.  Check those jumpers.
+
+Gordon Lang

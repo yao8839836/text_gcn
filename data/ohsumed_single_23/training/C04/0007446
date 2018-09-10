@@ -1,0 +1,6 @@
+Chemical shift imaging of human brain: axial, sagittal, and coronal P-31 metabolite images.
+ Multivoxel magnetic resonance (MR) spectroscopy and novel data analysis techniques were developed to obtain high-quality phosphorus-31 metabolite images from the human brain and to overlay each metabolite distribution directly onto corresponding hydrogen-1 MR images.
+ The P-31 MR spectroscopic data were acquired by means of three-dimensional chemical shift imaging (phase encoding in three spatial dimensions) on a 1.5-T clinical instrument equipped with a specially designed quadrature P-31 birdcage coil constructed in the authors' laboratory.
+ Axial, sagittal, and coronal metabolite images based on the area for any one of five peak regions (phosphodiester; phosphocreatine; gamma, alpha, and beta adenosine triphosphate) were generated from 8 X 8 X 8 or 12 X 12 X 8 CSI arrays with voxel sizes of 27 cm3 and 12 cm3, respectively.
+ The positions of these images were aligned with anatomic features by means of the voxel-shifting capability of the Fourier transform.
+ Direct overlays of these metabolite images on corresponding proton images demonstrated excellent correlation with anatomy, factors indicating the utility of this technique for viewing P-31 metabolite levels in all areas of the brain simultaneously.

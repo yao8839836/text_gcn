@@ -1,0 +1,17 @@
+From: wilde@bernina.tik.ethz.ch (Erik Wilde)
+Subject: X audio extension
+Reply-To: wilde@tik.ethz.ch
+Organization: Swiss Federal Institute of Technology (ETH), Zurich, CH
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 10
+
+Is there an "official extension" to X which allows the use of audio? Most
+of the X audio programs use system-specific ways to access the audio
+capabilities of the computer they run on. Is there a hardware-independent
+way to do this (like the video extension XV)? Thanks for any help.
+
+Erik Wilde (wilde@tik.ethz.ch)
+  Swiss Federal Institute of Technology   (ETH Zuerich)
+  Laboratory of Computer Engineering and Networks (TIK)
+  ETH-Zentrum, ETZ G61.2, CH - 8092 Zuerich
+  Phone: +41-1-254-7009  Fax: +41-1-251-2504

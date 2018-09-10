@@ -1,0 +1,14 @@
+From: ecampbel@metz.une.edu.au (Ed Campbell)
+Subject: libraries for text+math+graphics display?
+Keywords: text+math fonts display c-code
+Lines: 8
+Nntp-Posting-Host: metz.une.edu.au
+
+Does anyone know of any c or c++ libraries for preparing
+and displaying quickly pages of mixed text, mathematical equations,
+and graphics (circles,ellipses,etc) on the vdu? The maths wouldnt
+need to be up to TeX quality, but it would be useful to be scaleable.
+The main thing would be to be able to generate the display quickly
+from a minimum set of formatting code.
+Thanks,
+Ed Campbell

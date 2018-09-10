@@ -1,0 +1,53 @@
+From: tomh@metrics.com (Tom Haapanen)
+Subject: Re: Hercules Graphite?  (Results!)
+Organization: Software Metrics Inc.
+Lines: 48
+
+>> tomh@metrics.com (Tom Haapanen) writes:
+>>> Has anyone used a Hercules Graphite adapter?  It looks good on paper, and
+>>> Steve Gibson gave it a very good review in Infoworld.  I'd love to get a
+>>> real-world impression, though -- how is the speed?  Drivers?  Support?
+
+rda771v@monu6.cc.monash.edu.au (A.B. Wuysang) writes:
+> But the impressive performance of the Graphite was
+> not its Winmark, it was its Wintach result (esp. the paint
+> performance). Judging from the Wintach tests, I can hardly
+> imagine that there is a cheat driver for it.
+
+I received my Graphite VL on Thursday, and I've had a little bit of 
+experience with it now.  In general, it feels *FAST*, although this
+is the first VLB card that I have tried.  Still, the results are 
+impressive.
+
+With my 486DX2/66 w/16 MB, running at 1024x768/256, I've had the following
+WinTach 1.0 results:
+
+
+Card				WP	CAD	Spread	Paint	Overall
+-----------------------------------------------------------------------
+ATI Graphics Ultra		13.5	14.5	19.1	25.0	18.0
+ATI Ultra+ (no aperture)	11.2	13.8	10.7	20.9	14.1
+Hercules Graphite VL		16.1	67.8	41.4	52.8	44.5
+
+Unfortunately I don't have the numbers here, but the ATI Ultra Pro VLB
+had an overall WinTach score of about 26.  The Ultra Pro was nearly as
+fast in text handling, but was blown away in the CAD and Paint tests.
+
+As an additional test, we hand-timed a complex CorelDraw! slide resize/-
+redraw times.  There was no swapping, but I'd expect there is a fairly
+heavy load on the CPU.  The Graphite redraw times averaged about 10.2
+seconds, with ATI Ultra Pro at 12.0.  This jives with Steve Gibson's
+contention that the ISA Graphite is faster than an ATI UP on his complex
+Micrografx Draw document.
+
+So far, I'm *very* impressed.  The drivers look solid, and the card flies.
+The installation and utilities are different, but comparable to ATI's.  And
+I didn't have to wait for Build 59 for some reliability...  With Hercules'
+software developer special, you can get an evaluation copy of the card for
+just $225 (or $200 for the ISA version).  Call 800-532-0600 if you want to
+give it a try -- I'm a happy customer now!
+
+-- 
+[ /tom haapanen -- tomh@metrics.com -- software metrics inc -- waterloo, ont ]
+[       "stick your index fingers into both corners of your mouth.  now pull ]
+[          up.  that's how the corrado makes you feel."  -- car, january '93 ]

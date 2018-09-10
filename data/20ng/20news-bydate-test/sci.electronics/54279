@@ -1,0 +1,87 @@
+From: vanderby@mprgate.mpr.ca (David Vanderbyl)
+Subject: Re: Lead ACid Batteries Part 2!!!
+Nntp-Posting-Host: chip
+Reply-To: vanderby@mprgate.mpr.ca (David Vanderbyl)
+Organization: MPR Teltech Ltd.
+Lines: 80
+
+>The lead-acid secondary cell releases energy (electricity) with the following
+>chemical reaction:
+> 
+>Pb + PbO2 + 2H2SO4 --> 2PbSO4 + 2H20
+> 
+>Lead and Lead (IV) Oxide and Sulfuric Acid produce Lead Sulfate and Water
+[heats of formation deleted]
+>The heat of reaction at 25 C is therefore -60.6 kcal per mole PbSO4 produced.
+>Note that lead sulfate is not very soluble (0.0048 grams per 100 grams water
+>at 25 C), and it will thus precipitate out of solution where the reaction is
+>occurring, or the cathode (positive terminal) of the battery.  (I am almost
+>sure it is the positive terminal where the precipitate forms, but I may be
+>wrong.  Oh well, I don't have a corroded battery to corrobate, and I don't feel
+>like thinking through it right now.)
+
+The major problem with this is that the reaction takes place in an ACID solution.
+PbSO4 is soluble in an acid solution and will not precipitate out.  Also, H2SO4
+is in a water solution as 2H30+ and SO4--.  Thus the heats of formation of
+PbSO4 and H2SO4 are for the most part irrelevant.
+
+>What is important to notice here is that the reaction, as you knew it would be,
+>is exothermic, or energy discharging.
+
+As it turns out the reaction is indeed exothermic (heat producing).
+(More about this later.)
+
+What actually happens to make the battery completely useless is this:
+(we're talking lead-acid batteries of course)
+The battery slowly self discharges.  As this discharge takes place two things
+happen. -The level of Pb++ ions in the acid solution increases (i.e. the lead
+           and lead oxide plates are dissolved).
+        -The level of H30+ ions in the acid solution decreases (i.e. the solution
+           becomes less acidic, or more like water if you like).
+Now, as the post to which I am responding correctly stated, PbSO4 will precipitate
+in a WATER (non-acid) solution.  When the battery dies (i.e. is fully discharged)
+we end up with a high concentration of Pb++ and SO4-- in water.  So PbSO4
+forms in the solution and FALLS TO THE BOTTOM OF THE BATTERY (of course this
+happens in varying degrees, the more discharged, the more precipitate forms).
+
+The precipitate forms a conductive layer on the bottom of the battery.  If
+there is enough of the lead and lead oxide plates left to touch the precipitate
+(more common in a newer battery) a dead short results.
+
+I have seen products in automotive shops to correct this condition, but they
+are for the most part useless.  They can dissolve the PbSO4 but cannot restore
+the lead and lead oxide plates properly.  You may have some success with
+these products for a newer battery.
+
+[stuff deleted]
+>To understand why lead-acid batteries DO INDEED discharge faster when stored on
+>concrete as opposed to wood or earth (dirt), one should recall LeChatelier's
+>Principle, which can be paraphrased as:  anything subjected to some stress will
+>act to move to a more comfortable position.  Here are the thermal conductivities
+>of a some selected materials:
+[stuff deleted]
+>This is where LeChatelier's principle comes into play.  Removing energy from
+>the exothermic reaction will drive the reaction further to completion.  If the
+>reaction normally occurs at room temperature, keeping the battery at that
+>temperature requires the removal of any heat produced.  A concrete surface is
+>a better heat sink than a dirt or wood surface.  Store a battery in the corner
+>of a poured concrete basement, and you have 3 surfaces removing energy, which
+>"pulls" the reaction along.
+
+This stuff is just made up by the author and is completely invalid.
+In fact the discharge reaction takes place at a higher rate at higher
+temperatures.  A logical consequence of the above argument is this:
+"If you really want your car to start, lower the battery temperature to
+ -50 to 'pull' the reaction along."  We all know from experience (at
+ least those of us in Canada do (it gets cold up here)) that this is
+not true.  If we want to start our car on a really cold day we warm
+the battery.
+
+(Besides which, there is not enough energy released through self discharge
+ to appreciably raise the temperature.  The air would amply dissipate any
+ such heat, whether the bottom of the battery was insulated or not.  This
+ is of course irrelevant, since you would WANT the battery to be cool
+ during storage.)
+
+Just keep the battery in a cool dry place and keep it charged!
+

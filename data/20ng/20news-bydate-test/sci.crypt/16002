@@ -1,0 +1,44 @@
+From: rja14@cl.cam.ac.uk (Ross Anderson)
+Subject: Re: Tempest
+Nntp-Posting-Host: ely.cl.cam.ac.uk
+Organization: U of Cambridge Computer Lab, UK
+Distribution: na
+Lines: 37
+
+whughes@lonestar.utsa.edu (William W. Hughes) writes:
+
+> Hell, just set up a spark jammer, or some other _very_ electrically-noisy
+> device.
+
+This doesn't work, due to the near-field far-field effect. You may stop
+someone five yards away from listening in, but someone fifty yards away will
+be relatively unaffected - unless you pump out hundreds of watts and jam all 
+the neighbourhood TV's as well. In that case the government will stomp on you -
+ask any radio ham! Democratic governments care even more about their voters' 
+right to watch soap operas than they do about national security, and dictators 
+consider their propaganda to be an integral part of their national security.
+
+And holland@cs.colostate.edu (Doug Holland) writes:
+
+> Another idea: Use a laptop computer.  As mentioned earlier, the LCD screen
+> is a lot less noisy than a standard CRT, but since many laptops have power
+> supplies that run at 3 volts instead of 5, they would be considerably 
+> quieter.
+
+I'm afraid this doesn't work either. We can pick up laptop screens without any
+problem.
+
+Most of the so-called `low radiation' monitors are also useless. The description
+turns out to a marketing assertion rather than an engineering one.
+
+We thought there might be a market for a monitor which was not as hugely
+expensive as the military Tempest kit, but which was well enough shielded to
+stop eavesdropping using available receivers. We built a prototype, it works,
+and it's still sitting on my lab bench. Commercial interest was exactly zero.
+
+In the absence of open standards, a monitor which really is `low radiation'
+(and costs 500 dollars more) can't compete against a monitor which just
+claims to be `low radiation' (and whose only extra cost of production is the
+pretty blue sticker on the box).
+
+Ross

@@ -1,0 +1,57 @@
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Subject: Re: IDE Cable
+Organization: Ford Motor Company Research Laboratory
+Lines: 50
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+vacsc0qe@VAX.CSUN.EDU wrote:
+: I just bought a new IDE hard drive for my system to go with the one
+: I already had.  My problem is this.  My system only had a IDE cable
+: for one drive, so I had to buy cable with two drive connectors
+: on it, and consequently have to switch cables.  The problem is, 
+: the new hard drive's manual refers to matching pin 1 on the cable
+: with both pin 1 on the drive itself and pin 1 on the IDE card.  But
+: for the life of me I cannot figure out how to tell which way to plug
+: in the cable to align these.  
+
+Most IDE drives that I have dealt with have had pin 2 labeled on the printed
+circuit board (this is sufficient to determine which side is which).  If your
+IDE drive does not have a label, then you can look for a polarization notch in
+the receptacle (the connector on the drive with the pins).  If the receptacle
+is center polarized, that is it has one rectangular notch about 4 mm wide
+positioned in the center of one side, then you can identify pin 1 as follows:
+look into the pins with the notch at the top, pin 1 is at the top right.  On
+all drives I have seen this is toward the power connector.  As for which pin
+is pin 1 on the controller, well you can use the same criteria but look hard
+for the labelling of any pin.  Once you know which end pin 1&2 are on or pins
+39 & 40 (the oposite end), then you are all set.  All you need to do is keep
+the pin 1 end connected to the pin 1 end.  You don't even have to look at the
+cable itself.  Just trace the pin 1 side of the cable through.  Usually the
+pin 1 of the cable is identified by a different color (red usually).  But
+beware - many cable makers are not very careful about this - I have seen cables
+with pin 40 being the one marked red.  Of course with non-polarized connectors
+this doesn't matter - you can plug the cable in either way and YOU decide
+which side is pin 1.
+
+: Secondly, the cable has like a connector at two ends and one between them.
+: I figure one end goes in the controler and then the other two go into
+: the drives.  Does it matter which I plug into the "master" drive
+: and which into the "Slave"?  any help appreciated.  thanks...
+
+It doesn't matter what gets plugged where.  But it does matter how the drives
+are jumpered.  There will be (amongst other options) two jumpers that you
+should be concerned with on BOTH drives.  One jumper will select whether the
+drive is the slave or the master.  If it is the master, then a second jumper
+selects whether or not a slave is present.  You will have to consult the 
+docuementation that came with you drives.  If you do not have docuementation,
+then just call the manufacturers hotline number or fax number if they have
+one.  This kind of information is routinely needed by people just like
+yourself.  They will fax you complete info about the jumpers.  If you don't
+have convenient access to a fax machine, then you can usually get voice
+help.  Or post the specific question to this group.  (I probably won't be
+able to help you).
+
+Good Luck
+
+Gordon Lang

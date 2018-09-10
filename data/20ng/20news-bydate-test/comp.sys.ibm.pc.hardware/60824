@@ -1,0 +1,17 @@
+From: D.L.P.Li1@lut.ac.uk (DLP Li) 
+Subject: Re: CRYIX 486DLC CPU
+Reply-To: D.L.P.Li1@lut.ac.uk (DLP Li)
+Organization: Loughborough University, UK.
+Lines: 11
+
+To all netters,
+
+  In my last post that concerning about the CYRIX 486DLC CPU, I said the
+benchmark program COMPTEST stated there is a bug in CYRIX CPUs. This is NOT
+true and I must apologize to the author of COMPTEST. The actual program
+that gives this report is F-PROT 2.07, a virus detection and removal
+program. The report stated there is a bug in the Cx486SLC but not DLC.
+Sorry, sorry, sorry...
+
+						Desmond Li
+						LUT, UK.

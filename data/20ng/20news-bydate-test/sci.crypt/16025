@@ -1,0 +1,44 @@
+From: wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705)
+Subject: Re: Clipper and conference calls
+Organization: Electronic Birdwatching Society
+In-Reply-To: jhupp@shockwave.win.net's message of Mon, 26 Apr 1993 01:54:02 GMT
+	<42@shockwave.win.net>
+Nntp-Posting-Host: rainier.ho.att.com
+Lines: 36
+
+In article <42@shockwave.win.net> jhupp@shockwave.win.net (Jeff Hupp) writes:
+   >> conference calls?
+   >It's not Clipper, it's any encryption system.  I've seen a number of
+   >designs; they generally involve a multi-line cleartext bridge.
+
+	   A 'multi-line cleartext bridge?"
+			 ^^^^^^^^^
+	   And just were would you put that bridge?  If it isn't at one of
+   the receiptants location, forget encryption at all.  You have blown any
+   security you thought you might have had. 
+
+Most of the people using encrypted conference bridges these days are
+military (or equivalent, like CIA and other embassy personnel),
+so putting bridges on the recipient's location is normal -
+it's in a vault on a military base or Ft. Meade, and the
+secure phones are in sound-proof rooms with big locks on the doors
+because they're talking about Classified Stuff (or Golf with Other Generals.)
+
+That paradigm will change as we start using encrypted phones in our
+offices or homes to carry on normal conversations about dinner plans
+and stock purchases and meeting schedules and technical info
+and the good batch of illegal frop that we got last weekend from Bob;
+most people don't use sound-proof vaults, and may use bridges in their
+PBX or from the local phone company (3-way calls) or Long Distance
+or value-added phone company (e.g. Alliance conference bridges).
+
+If Clipjack is mainly used for the radio portion of cellular phones,
+the conferencing aspects don't change.  But there may be a market niche for
+trusted conference-bridge providers, though I suppose the inquisitors
+would try to get a blanket wiretap authorization for many bridges,
+just in case a Bad Guy might use the service.
+--
+#				Pray for peace;      Bill
+# Bill Stewart 1-908-949-0705 wcs@anchor.att.com AT&T Bell Labs 4M312 Holmdel NJ
+#	              No, I'm *from* New Jersey, I only *work* in cyberspace....
+# White House Commect Line 1-202-456-1111  fax 1-202-456-2461

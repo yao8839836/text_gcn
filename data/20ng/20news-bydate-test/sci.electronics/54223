@@ -1,0 +1,146 @@
+From: jhwhit01@ulkyvx.louisville.edu
+Subject: Re: Lead ACid Batteries Part 2!!!
+Lines: 140
+Nntp-Posting-Host: ulkyvx.louisville.edu
+Organization: University of Louisville
+
+In article <1993Apr25.013013.13717@cronkite.ocis.temple.edu>, camter28@astro.ocis.temple.edu (Carter Ames) writes:
+> 
+>    I thought the first thread was hilarious, so here goes another post.
+> 
+> Some more background information on what has happened to my poor batteries.
+> 
+>   One year, I left the batteries in the garage.  The garage is Unheated.  
+> They were left in their places that they needed to be.  One in the riding
+> lawnmower (what a lux) and one in each motorcycle.  The battery in the 
+> riding lawnmower was about 3-4 years old, and one of the cycle batteries 
+> was new, and one was around 5 years old.  Upon spring time, I discovered
+> that all of the batteries were dead, and needed to be recharged.  They all
+> worked properly, except for the older ones, and they had to be replaced 
+> about halfway through the summer.  (they had originally been stored
+> in the garage, and I think I remember my dad charging them in spring)
+>   Last year, I decided to bring them in to the basement, which has two parts.
+> one is dirt and brick, and the other is concrete.  I brought in all three, and
+> discovered in the spring, (about 15 days ago) that not only were the batteries
+> dead, but when I put the charger on them, the charger said "HMMMMMMMM" and 
+> the amp-meter read around 1,000,000,000  (In other words, it was pinned)
+> the internal circut tripped, and I went on to the other batteries.  They
+> were the same.  
+>    Realizing that we still had 2 GIGANTIC sailboat batteries, also lead
+> acid, I decided to put the charger on them.  (these had been sitting for around 1 and a half years, on the brick and dirt part) and noticed that they only
+> needed a small charge, around 2 hours or so on trickle.  I tested them
+> by using them at the local gas station for giving jump starts, and they
+> worked fine for around 25 of 'em. 
+>   This leads me to believe one of several things.
+>      1) I bought really #$%tty batteries last year. (sorta true)
+>      2) the concrete has something to do with the discharge of the
+>         batteries.
+>      3) There was enough moisture to short out the terminals in the 
+>           room where the concrete is, 
+>      4) The dirt room was able to absorb the moisture in the air
+>          better than concrete.
+> 
+> (BTW, I can almost waterski in the dirt room)  
+> 
+>    Any other ideas?
+>     *could be the aliens, anything is possible.*
+>  
+ 
+The lead-acid secondary cell releases energy (electricity) with the following
+chemical reaction:
+ 
+Pb + PbO2 + 2H2SO4 --> 2PbSO4 + 2H20
+ 
+Lead and Lead (IV) Oxide and Sulfuric Acid produce Lead Sulfate and Water
+ 
+The standard heats of formation at 25 C (77 F) of the various compounds are:
+ 
+              Heat of formation
+Compound      at 25 C, kcal/mole
+--------      ------------------
+   Pb               0.00
+  PbO2            -65.0
+ H2SO4           -193.69
+ PbSO4           -218.5
+  H20             -68.3174
+ 
+The heat of reaction at 25 C is therefore -60.6 kcal per mole PbSO4 produced.
+Note that lead sulfate is not very soluble (0.0048 grams per 100 grams water
+at 25 C), and it will thus precipitate out of solution where the reaction is
+occurring, or the cathode (positive terminal) of the battery.  (I am almost
+sure it is the positive terminal where the precipitate forms, but I may be
+wrong.  Oh well, I don't have a corroded battery to corrobate, and I don't feel
+like thinking through it right now.)
+ 
+What is important to notice here is that the reaction, as you knew it would be,
+is exothermic, or energy discharging.  If moisture with dissolved electrolytes
+(acid rain) condenses on the battery, a conductive path between the terminals
+may form.  This will discharge the battery as the chemical reaction proceeds.
+The reaction is reversible, if electricity (from an alternator or battery
+charger) is put back into the battery.
+ 
+Lead-acid batteries must change in chemical composition to discharge.  Each
+cell has all the reactants necessary for the reaction.  The non-reacting posts
+(terminals) of the lead-acid battery are there to remove (or add) electric
+energy during a discharge (or charge).  Because the reaction is exothermic, it
+has a tendency to happen, though quite slowly under normal circumstances.  So
+while keeping the battery dry is a good idea, it is not a total solution.
+ 
+To understand why lead-acid batteries DO INDEED discharge faster when stored on
+concrete as opposed to wood or earth (dirt), one should recall LeChatelier's
+Principle, which can be paraphrased as:  anything subjected to some stress will
+act to move to a more comfortable position.  Here are the thermal conductivities
+of a some selected materials:
+ 
+                                              thermal conductivity
+       material           Temperature, C (F)  BTU/(hr-ft-ft)(F/ft)
+       --------           ------------------  --------------------
+diatomaceous earth,            204                   0.051
+ natural, across strata        871                   0.077
+diatomaceous, natural,         204                   0.081
+ parallel to strata            871                   0.106
+diatomaceous earth powder     (100)                  0.039
+  (density, 18 lb/cu.ft)      (200)                  0.042
+                              (300)                  0.044
+                              (400)                  0.048
+                              (500)                  0.051
+concrete (cinder)              ---                   0.20
+         (stone)               ---                   0.54
+         (1:4 dry)             ---                   0.44
+pine (across grain)             15                   0.087
+   (parallel to grain)          21                   0.20
+oak (across grain)              15                   0.12
+maple (across grain)            50                   0.11
+ 
+Note that the thermal conductivity for "dirt" (diatomaceous earth) goes down
+with temperature.  Also, 204 C is about 400 K, and the values for earth powder
+are on the same order of magnitude as natural earth.  The thermal conductivity
+of concrete is around a factor of 10 greater than that of dirt, and is 2-4
+times greater than wood.
+ 
+It is these differences in thermal conductivity that cause the battery on
+concrete to discharge faster than that on dirt or wood.  At any instant the
+discharge reaction is occurring, energy is being released, either as electricity
+or heat.  (Thermal conductivity of air is about 0.015 BTU/(hr-ft-ft)(F/ft).)
+During storage, except for the trickle that passes through any condensate on
+the battery, this energy is mostly released as heat.  The higher conductivity
+surface will remove the heat proportionately faster than the lower conductivity
+surface.  Thus, if you perfectly insulated a dry battery on all but the bottom
+surface, at any given battery temperature above the storage surface temperature,
+the battery on a concrete surface will be discharging about 10 times faster
+than that on dirt.
+ 
+This is where LeChatelier's principle comes into play.  Removing energy from
+the exothermic reaction will drive the reaction further to completion.  If the
+reaction normally occurs at room temperature, keeping the battery at that
+temperature requires the removal of any heat produced.  A concrete surface is
+a better heat sink than a dirt or wood surface.  Store a battery in the corner
+of a poured concrete basement, and you have 3 surfaces removing energy, which
+"pulls" the reaction along.
+ 
+Also, if water evaporates from the battery, that elevates the ratio of sulfuric
+acid to water.  This will tend to drive the discharge reaction.
+ 
+Jeff White      jhwhit01@ulkyvx.louisville.edu
+ 
+"How do I get the ketchup out of my pocket protector?"  French fries!

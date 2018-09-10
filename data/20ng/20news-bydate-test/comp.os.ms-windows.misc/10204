@@ -1,0 +1,25 @@
+From: paladin@world.std.com (Thomas G Schlatter)
+Subject: Re: Why is my mouse so JUMPY? (MS MOUSE)
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 20
+
+In article <93122.153552N51BC@CUNYVM.BITNET> <N51BC@CUNYVM.BITNET> writes:
+>Everyone seems to think that this man's mouse problem is mechanical (its dirty)
+> I have been having a similar problem with my mouse, and it only occurs when ru
+>nning windows and therefore cannot be mechanical in nature. 
+
+Its my understanding that bus mice are more accurate and "stable" in
+general than serial mice.  If I remember correctly, its because
+of the differences in how the interrupts are handled, as well as
+the fact that the mouse data is received over the computer bus
+as opposed to a (9600 bps?) serial connection.
+
+>I'm running a mouse
+> systems compatible mouse on a 486 66 DX2 with a trident 1 meg video card and a
+>m experienceing similar jumpiness as well as strange font subsitutions and mous
+>e traces left on screen and windows gpf errors. HELP!!!
+
+Is this just a general problem, or is it associated with a specific
+application or group of applications?
+
+

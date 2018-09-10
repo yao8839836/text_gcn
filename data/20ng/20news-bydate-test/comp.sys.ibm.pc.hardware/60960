@@ -1,0 +1,62 @@
+From: korenek@nmti.com (gary korenek)
+Subject: Re: HINT 486 VLB/ISA/EISA motherboard
+Keywords: 486, motherboard
+Organization: Network Management Technology Inc.
+Distribution: usa
+Lines: 55
+
+In article <C5t7Gs.7v3@news.iastate.edu> schauf@iastate.edu (Brian J Schaufenbuel) writes:
+>In article <id.XNFZ.VJ8@nmti.com> korenek@nmti.com (gary korenek) writes:
+>>
+>>I believe that any VL/EISA/ISA motherboard that uses the HINT chipset
+>>is limited to 24-bit EISA DMA (where 'real' EISA DMA is 32-bit).  The
+>>HINT EISA DMA has the 16 mb ram addressing limitation of ISA.  For this
+>>reason I would pass.  I own one of these (HAWK VL/EISA/ISA) and am look-
+>>ing to replace it for exactly this reason.
+>>Please double-check me on this.  In other words, call the motherboard
+>>manufacturer and ask them if the motherboard supports true 32-bit EISA
+>>DMA.
+>>Other than this limitation, the motherboard works quite well (I am using
+>>mine with DOS 5, Windows 3.1, and UNIX S5R3.2).  Also with Adaptec 1742a
+>>EISA SCSI host adapter.
+>>Gary Korenek   (korenek@nmti.com)
+>
+>
+>You are correct!  The motherboard manufacturer where I usually buy boards says
+>that they will have this problem fixed in about two weeks...
+>| Brian J Schaufenbuel
+
+I don't see this as a problem with the chip-set (a mistake), I see this
+as something that was designed-in intentionally.
+
+So it would seem that to enhance the design (from 24 to 32-bit EISA DMA)
+would require an update to the chipset.  An update to the chipset may 
+begat an update to the motherboard board design.
+
+What I'm saing is:  The motherboard manufacturer seems to be passing this
+off as a simple fix.  In my mind the fix is a updated chipset from HINT 
+along with a possible motherboard layout update.  This is not simple.
+If I were you I would be cautious about this.
+
+You might look into the Advanced Integration Research (AIR) VL/EISA
+motherboard.  All slots are EISA/ISA capable.  2 (or 3) of the slots are
+VL-bus capable.  The AIR people confirmed this board supports 'real'
+32-bit EISA DMA (I called them).  Pentium/P5 (?) capable.  Less expensive
+than equivalent AMI or Micronics VL/EISA board.
+
+Look in Computer Shopper (April '93).  The ZENON ads show the AIR mother-
+board.  A associate bought the AIR board and is pleased with it.  I'm
+attempting to get the local dealer to trade out the HAWK board for the
+AIR board.
+
+Model number of AIR board (with 486-33DX) is B433EI2.  You can call
+Motherboard Warehouse (for example) for a price.  Phone #'s included
+below.
+
+AIR                    (408)-428-0800
+Motherboard Warehouse  (800)-486-9975
+
+-- 
+Gary Korenek   (korenek@nmti.com)
+Network Management Technology Incorporated
+Sugar Land, Texas       (713) 274-5357

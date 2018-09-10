@@ -1,0 +1,34 @@
+From: pmetzger@snark.shearson.com (Perry E. Metzger)
+Subject: CELP vocoders
+Article-I.D.: lehman.1993Apr22.225909.26163
+Organization: Partnership for an America Free Drug
+Lines: 28
+
+gtoal@gtoal.com (Graham Toal) writes:
+>Absolutely.  I just meant that no secure *dedicated* crypto device has
+>ever been given approval.  Guerrilla underground devices should be well
+>possible with today's high-speed modems (not that I can think of many v32bis
+>modems that are approved either mind you - just the overpriced Couriers)
+>
+>Can someone tell me if hardware compression is or is not needed to run
+>digital speech down 14.4K?  I think it is; I've heard it's not.  Lets
+>say 8 bit samples.  Would *raw* data at the corresponding sampling rate
+>be usable?  If not, how fancy does the compression need to be?
+
+It is said that CELP vocoders can run on the highest speed 486s with
+some room to spare -- they turn 64kbit (8 bit samples, 8k samples/sec)
+into 4800 baud. However, DSP is hairy, and I have yet to see actual
+proof of this in the form of an implementation. I have heard fairly
+reliable rumors to the effect that a famous internetworking guru has a
+CELP implementation that runs on Sparcstation 1+'s with some room to
+spare, but I have not succeeded thus far in getting my hands on a copy
+-- the guru in question has a reputation for not releasing code
+without having beaten on it for a very very long time first. 
+
+DSP experts are heavily encouraged to try their own hand at this
+problem.
+
+--
+Perry Metzger		pmetzger@shearson.com
+--
+Laissez faire, laissez passer. Le monde va de lui meme.

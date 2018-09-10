@@ -1,0 +1,19 @@
+From: nagle@netcom.com (John Nagle)
+Subject: Oriented bounding box generation?
+Summary: Want bounding box generator
+Keywords: bounding box oriented 3D
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Lines: 12
+
+       I'm looking for code that will generate a minimum-volume oriented
+bounding box for an arbitrary polyhedron.  Anyone know of such code?
+
+       Why?  I'm converting objects from
+one modelling system into another, and the destination system is object
+oriented.  So I want to represent each object in its own coordinate system,
+that of its bounding box, with the objects then translated and rotated
+appropriately, this being the representation used in the destination
+system.
+
+					John Nagle
+

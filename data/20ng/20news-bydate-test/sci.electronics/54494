@@ -1,0 +1,40 @@
+From: kludge@grissom.larc.nasa.gov (Scott Dorsey)
+Subject: Re: Using generated power on large sound systems?
+Organization: NASA Langley Research Center and Reptile Farm
+Lines: 34
+NNTP-Posting-Host: grissom.larc.nasa.gov
+
+In article <1rk733$ekv@slack.sim.es.com> pashdown@slack.sim.es.com (Pete Ashdown) writes:
+>
+>I've bothered the rental shops and audio shops about the problem, but most of
+>them have precious little experience in dealing with generated power.  My
+>suspicion is that I don't really need anything larger than 2KW and this could
+>all be resolved with a transformer of some sort.
+
+Nope.  Your problem is either being caused by excessive voltage drop in the
+long cable from the generator, or just plain not having enough power.  I
+would suspect that those amps are going to draw a lot of current on short
+peaks.
+
+You can try using larger (and shorter) cables to the generator, or try
+strapping the amps for 240V service and running 240V mains cables out,
+which will minimize the line drop.  If these don't work, though, you're
+going to need a bigger generator.
+
+I assume that you're using well-maintained generators, and have watched the
+voltage output on the generator properly.  If you don't have 120V coming out
+of the unloaded generator you'll never get 120V at the other end.
+
+>Can anyone offer any advice?  I want to do a lot of outdoor events this
+>summer, and it would be nice if this power problem could be resolved easily.
+>I've been looking into buying a power-pack so I could tap into junction boxes
+>directly, but have no idea where to start.  One that would resolve my
+>generator problems as well would be of high value to me.
+
+I recommend you talk with an electrician who has experience in this sort of
+work, and not with the pro-audio people.  Also, I recommend that you don't
+try to tap into junction boxes at all, but hire a licensed electrician if
+you don't really know what you are doing.  I've had to clean up after two
+people who nearly killed themselves playing in hot 200A boxes, and it wasn't
+much fun.
+--scott

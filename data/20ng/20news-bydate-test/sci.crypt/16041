@@ -1,0 +1,37 @@
+From: wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705)
+Subject: Re: Is it illegal to transmit encrypted data?
+Organization: Mary Ellen Carter Salvage Crew
+In-Reply-To: georgel@NeoSoft.com's message of Mon, 26 Apr 1993 16:03:43 GMT
+Nntp-Posting-Host: rainier.ho.att.com
+Lines: 30
+
+In article <C63Ly7.GBx@sugar.neosoft.com> georgel@NeoSoft.com (George Livsey) writes:
+      I am aware of the restrictions imposed by the munitions act
+   on the export of cryptographic technology, however, is it illegal to
+   transmit encrypted data from the U.S. to another country?  If so,
+   then which laws apply to this situation?
+
+From the US law perspective, unless you're engaging in illegal speech,
+it's not illegal to use encryption.  Yet.  The NSA is allowed to try
+to listen, but you're not obligated to make it easy for them.  Yet.
+The other country may have more repressive laws about that;
+I gather France's bureaucracy wants to know what you're saying, 
+and in the old Soviet Union, they didn't need laws to make things illegal :-(
+
+(paranoia follows, for those of you who want to play it safe :-)
+The fact that the NSA is listening may affect your willingness to use
+wimpy crypto technologies, but it may also affect your willingness to
+use technologies that violate RSA's patents, e.g. if you use PGP, the
+NSA may tell RSA that you're doing so, and if the Secret Service catches on,
+they may decide that the mere fact that RSA hasn't filed a lawsuit
+against you doesn't mean that you don't deserve to have your computer
+confiscated for possible patent violation, munitions law violation,
+espionage, money laundering, drug importation, and creatin' a disturbance,
+and then not give it back because you *did* violate the patent even
+though they had to drop all the other charges, unlike that nasty Steve
+Jackson who had the gall not to be guilty of *anything*.
+--
+#				Pray for peace;      Bill
+# Bill Stewart 1-908-949-0705 wcs@anchor.att.com AT&T Bell Labs 4M312 Holmdel NJ
+#	              No, I'm *from* New Jersey, I only *work* in cyberspace....
+# White House Commect Line 1-202-456-1111  fax 1-202-456-2461

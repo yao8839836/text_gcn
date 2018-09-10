@@ -1,0 +1,54 @@
+From: mjr@tis.com (Marcus J Ranum)
+Subject: Re: Let's build software cryptophones for over the internet...
+Organization: Trusted Information Systems, Inc.
+Lines: 48
+NNTP-Posting-Host: sol.tis.com
+
+Graham Toal <gtoal@gtoal.com> writes:
+>Yes.  I'm not sure if my xposting to comp.speech made it to here too, but
+>I've found that a low sample rate (3300 samples/sec at 8 bits per sample)
+>plus the pd 'shorten' lossless sound compression code actually does get
+>speech into 14.4K with a simdgen left over.  This is *definitely* worth
+>working on, folks.  And shorten works in well under real-time.
+
+	I don't think that this should be worked on just in the context
+of cryptography. That's sure to pose all sorts of problems for all sorts
+of people.
+
+	What's needed is for someone to develop a portable telephone
+quality speech<->RS232 converter. Imagine, if you will, a little box that
+takes data on its serial port and puts out sound, and takes sound and codes
+it to signals on its serial port. Full duplex. Now, this device is not a
+cryptographic device. It's a portable poor man's sound blaster or whatever
+you want to call it. It's got loads of perfectly legitimate applications
+for:
+	a) speech synthesis (with a few nifty libraries and some samples)
+	b) speech recording for electronic messaging
+	c) building voicemail systems
+	d) internet talk radio
+	e) internet relay chat
+
+	Of course, some of the electronic messaging in item b might be
+encrypted, possibly realtime, but that's the user's decision. One would
+need 2 of these talky boxes and a pair of modems and some kind of cutout
+to switch over, and some code on, say, a 486 laptop.
+
+	I'd really like to see such a thing developed so that interactive
+internet talk radio could be done. Ideally, though, it should be a general
+purpose device. It should be a general purpose enough device that nobody
+should be able to balk at its widespread use. Obviously, to make it easy
+for homebrewers, it should use pretty common hardware.
+
+	It's interesting to note that I'd already talked with a couple
+of folks about building such a thing, before this whole clipper thing
+started. I even went so far as to track down a couple of folks who are
+able to make sample units, given incentive and some time. I'd envisioned
+finding a couple of folks interested in such a project and helping fund
+development of a public domain board layout and parts set, that could
+be published in the form of CAD drawings for a couple of major CAD
+packages, and in PostScript.
+
+	Anyone interested? I'll start a provisional mailing list. Let
+me know if you want on.
+
+mjr.

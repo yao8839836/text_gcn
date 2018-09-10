@@ -1,0 +1,60 @@
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: DX50 vs DX266
+Originator: guyd@pal500.austin.ibm.com
+Organization: IBM Austin
+Lines: 54
+
+
+In article <1r92s5$mec@usenet.INS.CWRU.Edu>, ab245@cleveland.Freenet.Edu (Sam Latonia) writes:
+> 
+> 
+> 
+> 
+> Article #61214 (61317 is last):
+> >Newsgroups: comp.sys.ibm.pc.hardware
+> From: arnolm2@aix.rpi.edu (Matthew Richard Arnold)
+> Subject: DX50 vs DX266
+> Date: Wed Apr 21 19:55:12 1993
+> 
+> 
+> Would someone be willing to explain to me the 486DX 50MHz is not more
+> popular than it is?  I would think it would be just as fast, if not 
+> faster than the 486DX 66MHz for certian applications.  Plus, a 50MHz 
+> motherboard would seem better if you had any plans on upgrading the
+> chip in the future.  I must be missing something, since everyone is 
+> buying the DX2 66...  Many adds don't even mention the DX 50.
+> 
+>  Thanks a lot,
+>    -Matt
+> 
+> End of File, Press RETURN to quit
+> 
+> Yes its realy simple, no one makes a mother board that runs the
+> bus at more than 33MHZ....Sam
+
+Which bus???
+
+I think there are several reasons :-
+
+50MHz motherboards are harder to get right
+50MHz need a fast L2 cache - 12-15ns is a good idea
+50MHz needs to be slowed down to make a compliant VESA bus
+66MHz DX2 chips are faster for a lot of things
+
+
+With a good, fast L2 cache a DX2/66 is going be be faster than a DX50...
+
+What do I have?
+
+A DX50 of course!
+
+> -- 
+> Gosh..I think I just installed a virus..It was called MS DOS6...
+> Don't copy that floppy..BURN IT...I just love Windows...CRASH...
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377

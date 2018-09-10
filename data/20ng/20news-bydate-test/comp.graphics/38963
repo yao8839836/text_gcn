@@ -1,0 +1,76 @@
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Re: XV problems
+Lines: 69
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+Distribution: inet
+
+
+In article <1rohjc$avt@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes:
+
+>In article <1993Apr27.143603.9351@nessie.mcc.ac.uk>
+>C.C.Lilley@mcc.ac.uk writes:
+
+>> [moved on a bit]
+
+>I wrote something about making color modifications quickly
+>with 8bit quantized images and only at the saving the image to file
+>process we have to make the modifications to the 24bit image.
+>This makes sense, because the main use of XV is only viewing images.
+>
+>Doing many changes to image, we should keep all modifications
+>in a buffer; and then before making the operations to 24bit image,
+>we should simplify the operation list for unnecessary operations.
+>
+Think about what you are saying here. The 24 bit image is quantised down to 8
+bits so many 'similar' colours are mapped onto a single palette colour. This
+colour gets modified in fairly arbitrary ways. You then want to apply these
+modifications back to the 24 bit file, so you have to find which colours mapped
+to this one palette colour. Ok you could do this by copying the 24 bit file to a
+32 bit file and using the extra 8 bits to hold the index entry. 
+Having done this, you need to do something to them ... what, exactly?
+
+Apply the difference in RGB between the original and modified palette entry to
+each colour in the group? This could generate colours with RGB outside the range
+0...255. It would also lead to discontinuities when different parts of a smooth
+colour gradient mapped to several different palette entries.
+
+You could interpolate from full modification to no modification depending how
+far each colour was from the palette entry. However I suspect this would look
+rather odd.
+
+So in summary, what I said in my previous posting still holds:
+
+>>How would you suggest doing colour editing on a 24 bit file? How
+>>would you group 'related' colours to edit them together? Only global
+>>changes could be done unless the software were very different and
+>>much more complicated.
+
+>>If you want to do colour editing on a 24 bit image, you need much
+>>more powerfull software - which is readily available commercially.
+
+In other words, to edit a 24 bit file you need software built for the job.
+Tacking mods onto xv is going to create more problems than it solves.
+
+As to the other bits - you seemed to be claiming that there were bugs in XV. If
+that was not what you meant, then:
+
+>(You propably misunderstood what I wrote as you have done in many
+>places so far.)
+
+Yes, I probably did. I found that the collected digest format of your posting
+made it a little difficult to understand precisely what your point was. Sorry
+if I misunderstood.
+
+>You also missed what is (were) wrong with XV. However, I did wrote it.
+
+Yes again. What *is* (was?) wrong with xv?
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------

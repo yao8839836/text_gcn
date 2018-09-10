@@ -1,0 +1,24 @@
+From: obl@gabi.ap.mchp.sni.de (Oliver Blankenheim)
+Subject: Subject: Re: 16550 v. 16550A ???
+Organization: Siemens Nixdorf Informationssysteme AG
+Lines: 16
+Distribution: world
+Reply-To: obl@gabi.ap.mchp.sni.de ()
+NNTP-Posting-Host: 139.21.18.129
+
+
+In article <1993Apr22.042310.39296@ns1.cc.lehigh.edu> you write:
+
+> What's the difference between a 16550 UART and a 16550A UART? Thanks!
+
+The difference is that the 16550 got bugs while the 16550A can be used
+whithout problems even in fast serial communications. Other sources
+say that only the 16550AFN from Nat Semi (i.e. not: second sources)
+is really OK.
+
+Best wishes
+
+Oliver
+
+
+

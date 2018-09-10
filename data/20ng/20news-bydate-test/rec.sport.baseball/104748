@@ -1,0 +1,45 @@
+From: whitty@cv.hp.com (Joe Whitty)
+Subject: Re: A rooky question about the ERA
+Nntp-Posting-Host: hpcvusc.cv.hp.com
+Organization: Hewlett-Packard Company, Corvallis, Oregon USA
+X-Newsreader: TIN [version 1.1.9 PL6]
+Lines: 38
+
+Thomas Theiner (thein@damabus.informatik.rwth-aachen.de) wrote:
+: Hi there,
+: 
+: I'm german and I have been into this MLB stuff since almost one year now.
+: There are many problems occuring for me. One of them is the ERA statistic for
+: pitchers. What does it say ??
+
+ERA indicates the average number of earned runs attributed to a pitcher per
+nine inning game.  Thus, if a pitcher pitched 3 innings and gave up 1 earned
+run, his 9 inning equivelent perfomance would be 3 earned runs, thus his ERA
+is 3.00.  To compute the ERA you simply take the number of earned runs divided
+by the innings pitched and then multiple the result by 9.
+
+	ERA = (ER/IP) * 9
+
+An earned run is run that is given up by the pitcher that is not attributed
+to a fielding error.  More specifically, if an error occurs that represented
+the third out, all runs scored after the error are considered UNEARNED runs.
+Earned runs are also runs scored as a result of players who were left on base
+when the pitcher exited the game.  Here are some examples:
+
+	If there are two outs in an inning and there are men on base.  If
+	an error occurs that represents the third out, all of the runs after
+	this error and NOT counted as earned runs.
+
+	If a pitcher issues some base on balls (walks), and leaves the game
+	before the inning is completed, he is responsible for the people who
+	were left on base.  If the those runners who were left on base score,
+	and the score was not a result of an error, those eraned runs are
+	attributed to the pitcher who left the game.
+
+I hope this explains things for you.
+
+					Joe
+
+	
+
+

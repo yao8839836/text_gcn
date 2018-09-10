@@ -1,0 +1,33 @@
+From: josephc@cco.caltech.edu (Joseph Chiu)
+Subject: Re: ^^ Phosphorescent pads ...
+Organization: California Institute of Technology, Pasadena
+Lines: 27
+NNTP-Posting-Host: sandman.caltech.edu
+
+baden@sys6626.bison.mb.ca (baden de bari) writes:
+
+> 
+>         A while ago I saw some translucent pads, about 6"x8" or so that 
+>could be plugged into (something) and they would glow.  One was red, 
+>another green, another blue.  Interresting.  I was wondering if anyone 
+>would have a feed on anything of this nature, and of the price.
+>   oh, the pads were rubber-like and were floppy like, about 1cm thick or 
+>so.
+
+The curiosities that you speak of are EL (Electro-Luminescent) pads.  They
+are mostly used as backlights for LCD's, and as you pointed out, comes
+in several different colors.  Many of them emit white-ish colors ("true"
+white, and blue-whiteis-blue are the ones that I've personally encountered
+the most often.)
+
+They vary in their input requirements, however, they tend to operate at 
+about 100 Vrms, and at much higher than 60 Hz.  (400 Hz to 1 kHz, if I 
+recall correctly.)   You can get them to work at 120 Vrms, 60 Hz (i.e.,
+line) but they don't glow as brightly, and they will degrade much faster.
+(Oh yes, almost forgot, EL's have this tendency to wear out over time...)
+
+-- 
+Joseph Chiu        | josephc@cco.caltech.edu  "OS/2: You gotta get this thing!" 
+MSC 380 - Caltech  |        
+Pasadena, CA 91126 | Dear IBM: Hire bunch of technically incompetent people
++1 818 449 5457    | (like my brother) to test OS/2 installation procedures.

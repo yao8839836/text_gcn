@@ -1,0 +1,18 @@
+From: gmichael@vmd.cso.uiuc.edu (Gary R. Michael)
+Subject: VESA Driver for IBM XGA
+Organization: Office for Information Management, University of Illinois
+Lines: 13
+
+Can anyone tell me where to find a standard VESA display driver that will 
+support the on-the-motherboard XGA video of a 486 50Mz DX2 IBM Model 95
+(8595-0LF)?  I need to use 640 x 480 and higher resolutions under both 
+Windows 3.1 and MS-DOS.  Minimum colors 256 at highest resolution, with 64K 
+colors needed at 640 x 480.
+-------------------------------------------------------------------------------
+Gary R. Michael                   | PHONE:   (217) 244-3651
+Associate Director                | FAX:     (217) 244-3118
+Office for Information Management | E-MAIL:  gmichael@vmd.cso.uiuc.edu
+University of Illinois            |                   (128.174.5.98)
+18 David Kinley Hall              | NovaNET: gary michael / duosoft / cerl
+1407 West Gregory Drive           |
+Urbana, IL  61801                 |

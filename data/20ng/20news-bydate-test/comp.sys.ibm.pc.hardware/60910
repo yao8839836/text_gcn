@@ -1,0 +1,21 @@
+From: jhood@smoke.marlboro.vt.us (John Hood)
+Subject: Re: Can't set COM4
+Keywords: G2K
+Organization: Domestic Vorpal Bunny Breeder's Association
+Distribution: usa
+Lines: 14
+
+In article <C5rAJn.67@cbnewsh.cb.att.com> k4bnc@cbnewsh.cb.att.com (john.a.siegel) writes:
+>I have been unable to get COM 4 to work - diagnostic programs such as msd show
+>nothing installed.  I think the software options are OK - is there a known
+>hardware conflict and/or workaround for this problemand CD ROM
+>System is a G2K 486DX2/66 tower with ATI video card
+
+It's the video card.  It's 8514/A compatible, which means it uses the
+same i/o addresses as com4.
+
+  --jh
+-- 
+John Hood					Cthulhu-- just imagine it!
+jhood@smoke.marlboro.vt.us
+

@@ -1,0 +1,25 @@
+From: bdr@cbnewsg.cb.att.com (brian.d.reed)
+Subject: Terminal woes
+Keywords: terminal, modem
+Organization: AT&T
+Distribution: na
+Lines: 18
+
+I have a 486/33 VLB machine, with a Wang 96/24 fax/modem.
+When using the windows terminal application, the only way
+I can get it to 'see' the modem is to change it to COM2,
+then go back and change it to COM4.  Then it works fine.
+(I have it set to COM4 as the port to use)  I don't have
+anything plugged into COM2, and I've looked over the manual
+for all it's worth, but what am I missing?  The modem is 
+jumpered for COM4/IRQ3, which I understand means I can't
+use the second serial port and the modem at the same time,
+but I'm not using the second serial port anyway.
+Also, when using Procomm + for DOS, it always sees the modem
+and dials, but doesn't always connect me when the other end
+answers.  Don't know if that helps any.
+
+Thanks,
+
+ Brian D. Reed    bdr@cbnewsg.cb.att.com   
+

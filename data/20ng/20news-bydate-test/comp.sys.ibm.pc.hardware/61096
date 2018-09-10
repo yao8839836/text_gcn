@@ -1,0 +1,33 @@
+From: kmr4@po.CWRU.edu (Keith M. Ryan)
+Subject: Re: DOS 6.0
+Organization: Case Western Reserve University
+Lines: 27
+NNTP-Posting-Host: b64635.student.cwru.edu
+
+In article <1993Apr23.035543.25060@ucsu.Colorado.EDU> koberg@spot.Colorado.EDU (Allen Koberg) writes:
+
+>  With Stacker, any changes to your config.sys
+>or autoexec.bat meant rebooting twice so it could update those.
+
+	This is not necessary. All you have to do is modify the config.sys
+on d:\  { or the real boot up partition/disk }. Then, you can manually
+copy it to c:\ or allow stacker to do it on boot up. 
+
+	Likewise with the autoexec.bat.
+
+
+---
+
+Private note to Jennifer Fakult.
+
+        "This post may contain one or more of the following:
+         sarcasm, cycnicism, irony, or humor. Please be aware 
+         of this possibility and do not allow yourself to be 
+         confused and/or thrown for a loop. If in doubt, assume
+         all of the above.
+         
+         The owners of this account do not take any responsiblity
+         for your own confusion which may result from your inability
+         to recognize any of the above. Read at your own risk, Jennifer."
+
+

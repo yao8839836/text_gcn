@@ -1,0 +1,36 @@
+From: goudswaa@fraser.sfu.ca (Peter Goudswaard)
+Subject: Re: SOLUTION: Multi-setups on standalone EASY!!!
+Organization: Simon Fraser University, Burnaby, B.C., Canada
+Lines: 31
+
+rhudson@gomez.intel.com (Ron A. Hudson) writes:
+
+>Peter Goudswaard (goudswaa@fraser.sfu.ca) wrote:
+>>-- Setup deleted...
+>> Finally, in order to run _your_ specific version of Windows, you
+>> must simply change the path to include C:\WINMASTR *and* your
+>> specific configuration path, e.g. C:\WINWIFE.  You could get
+>> fancy and use batch files, environment variables, or a menuing
+>> system to do this.
+>--- other stuff delete...
+>If you happen to be running the new msdos 6, you could use multi-
+>setup to provide a menu with a menu choice for each person using
+>the machine ... power up, select your name,  the menu will use your
+>personal sections of config.sys and autoexec.bat thus setting up the
+>path, then running your windows copy!  
+>Ron
+
+Excellent suggestion, Ron.  And as a further comment on DOS 6, if
+you decide to install Windows standalone configuration completely,
+in more than 1 directory on your hard drive, and use DOS 6 to
+jump to a specific copy for each user, you could be saving yourself
+many megs of disk space if you use the SETUP /N and /A technique!!
+
+-- 
+ Peter Goudswaard                  _________                     _________
+ goudswaa@sfu.ca (preferred)      |         |      __/^\__      |         |
+ pgoudswa@cln.etc.bc.ca           |         |      \     /      |         |
+ pgoudswa@cue.bc.ca               |         |   _/\_\   /_/\_   |         |
+                                  |         |   >           <   |         |
+ "There's no gift like the present"         |    >_________<    |         |
+    - Goudswaard's observation    |_________|         |         |_________|

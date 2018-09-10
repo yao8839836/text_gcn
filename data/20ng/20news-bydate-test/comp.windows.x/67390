@@ -1,0 +1,38 @@
+From: vaughan@ewd.dsto.gov.au (Vaughan Clarkson)
+Subject: Connecting a digitiser to X (REPOST)
+Organization: Defence Science and Technology Organisation, Salisbury, South Australia
+Lines: 32
+NNTP-Posting-Host: caesar.dsto.gov.au
+
+Hi there
+
+(I posted this to comp.windows.x.intrinsics but got no response, so I'm posting
+here.)
+
+I'm wanting to connect a digitiser made for PCs into my workstation (an HP 720).
+It is my understanding the X windows can understand a variety of input devices
+including digitiser tablets.  However, this digitiser makes use of the serial
+port, so there would seem to be a need to have a special device driver.
+
+The HP manual pages say that the HP X server will accept X input from
+devices listed in the /usr/lib/X11/X*devices file (* = display number).
+I shouldn't think I would be able to simply insert /dev/rs232c as an input
+device in this file and expect a digitiser to work.  But maybe I'm wrong.  Am I?
+
+What I would like to know is: does anybody out there have a digitiser connected
+to their workstation for use as a pointer for X (rather than just as input to a
+specific X application)?  If so, what were the steps required for installation?
+Did you need a special device driver?  Did the manufacturer supply it?  Are
+there generic public domain device drivers around?  (I understand that
+digitisers generally use only a couple of standard formats.)
+
+Any help would be greatly appreciated.
+
+Cheers
+- Vaughan
+
+-- 
+Vaughan Clarkson                  ___________    Email: vaughan@ewd.dsto.gov.au
+Engineering Ph.D. Student              |                  Phone: +61-8-259-6486
+& Glider Pilot			       ^                    Fax: +61-8-259-5254
+     ---------------------------------(_)---------------------------------

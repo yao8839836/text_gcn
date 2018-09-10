@@ -1,0 +1,164 @@
+From: xmplus@ani.univie.ac.AT (Bernhard Strassl)
+Subject: ANNOUNCE: Xm++/CommonInteract UI Development Sys
+Organization: Vienna University Computer Center, Austria
+Lines: 157
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xannounce@expo.lcs.mit.edu
+
+Xm++/CommonInteract    Another User Interface Development System
+-------------------
+
+If you would like to implement X-Toolkit applications with C++ in a style
+like this...
+
+// mini sample application /////////////////////////////////////
+
+class Test : public XmWindow {
+	void cmd(char*);
+	void quit(void*);
+public:
+    Test() : XmWindow("Xm++ Test Window") {}
+
+	void initialize();
+};
+
+void Test::initialize() {
+    XmDropdownMenu* menu = createDropdownMenu();
+
+    menu->addLabel("&File");
+    menu->addItems( Entry("Menu Item &One", CB(Test::cmd)), 
+                    Entry("Menu Item &Two", CB(Test::cmd)),
+                    NULLENTRY);
+    menu->addSeparator();
+    menu->addItem(	Entry("E&xit", CB(Test::quit)));
+
+    addSubpane(Edit, "myEdit");
+    edit("myEdit")->setText("Hello World.");
+}
+
+void Test::cmd(char* n) {
+	edit("myEdit")->setText(n);
+}
+
+void Test::quit(void*) {
+	exit(0);
+}
+
+void XmApp::initialize() {
+    (new Test)->initialize();
+}
+
+///////////////////////////////////////////////////////////////
+
+...then continue reading (contents of the current release's README):
+
+Xm++ is a user interface framework for the C++ language built upon X11
+and the X-Toolkit. It is designed to be a simple and intuitive programming
+interface to access the functionality of commonly used widgets.
+Xm++ was initially created for the Motif widget set, now support for the
+Athena widgets was added. Applications created with Xm++ run in both
+environments without changes, although many nice features are only
+available when using Motif.
+In some situations Xm++ extends the underlying toolkit (i.e. providing
+a ComboBox borrowed from MS-Windows), but never tries to replace it -
+data of user interface objects is left to the widgets and only duplicated
+in rare cases.
+
+Xm++ has nothing common with Motif++ besides the general idea to
+encapsulate Motif widgets in C++ objects and the '++' in it's name. Many
+ideas for the Xm++ architecture came from Digitalk's Smalltalk version,
+which provides an easy to use framework for Windows/PM/Mac applications
+(in the very first time of development I used the Windows dialog editor and
+a simple parser to create similar Smalltalk and Xm++ dialogs :-).
+
+Top level objects in Xm++:
+* 'Windows', 'SystemDialogs' and 'ToolBoxes' which use the automatic layout
+  feature of various composite widgets in Motif and Xaw
+* 'UserDialogs' which can be individually laid out with a user interface
+  builder (a first version of such a dialog editor is included in this
+  distribution)
+
+Controls (children of top level objects):
+'staticText', 'staticImage', 'pushButton', 'checkBox', 'radioButton',
+'edit', 'listBox', 'comboBox', 'groupBox', 'paneArea', 'drawing', 'toolBar'
+
+The staticImage and all the button classes can display b/w (X-bitmap
+format) or color (GIF format) pictures as an alternative to a label text.
+
+Event handling is done by a simple but powerful mechanism which redirects
+Xt callbacks to member functions of Xm++ objects.
+
+
+CommonInteract(II) is built upon the Xm++ drawing class and provides
+components for building direct manipulative applications. Is is a very
+simplified implementation of some features from the CommonInteract system
+(research project of our institute in 1991), an approach to define a
+software achitecture for implementing direct manipulative applications
+with multiple interaction media (i.e. sound, alternative input devices).
+If you are interrested, look into the June 1993 issue of the JOOP (SIGS
+Publications - Journal of Object Oriented Programming) - there should be
+our paper about CommonInteract (but be aware, that it is our 'state of
+the art' from 1991).
+CommonInteract(II) is still undocumented and is included because it was
+used to implement the dialog editor. It currently supports only drawing
+primitives (lines, rectangles, circles...), but we plan to extend it to
+support bitmaps and some controls also.
+Known problem: the Xm++ drawing class has no redrawing strategy (always
+redraws the whole window, even after minimal changes like selecting an
+object), this looks very ugly on slow displays and should be fixed.
+
+
+About this first release:
+
+Xm++ is still incomplete and has a lot of bugs but we are using it here
+for smaller applications which are running without problems. So I think
+I can call it a 'beta release' which can be used to develop applications
+for any non-critical purposes.
+CommonInteract may be called a 'pre alpha release'. It's development will
+be continued this year because we plan to use it for another research
+project here. Besides incompleteness and the redrawing problem it seems
+to be stable and can be used for experimental applications.
+
+Platforms: this release was compiled and tested on:
+  HP9000/720 running HP-UX 8.07
+  SUN SPARC running SunOS Release 4.1.1
+  PC-AT386 running Linux v0.99pl6
+
+Caution: although the whole stuff was initially developed using an AT&T
+standard C++ compiler - this release is tested only with GNU g++ 2.3.3 or
+above (the next release will be tested with both compilers).
+
+Where to get it:
+================
+
+I have uploaded it on: export.lcs.mit.edu as: /contrib/Xm++.0.5.tar.Z
+
+(send a mail, if you cannot find it there, e-mail addr. below)
+
+Where to find more information:
+===============================
+
+the .../doc directory contains
+   INSTALL - how to build the libraries and examples
+   README.GNU - problems and limitations when using gnu g++ (read!!)
+   usersGuide.txt - a tutorial how to use Xm++
+   reference.txt - a first try of a Xm++ class reference manual
+
+the README files in the .../samples gives a brief description of
+each of the seven samples.
+
+
+Xm++/CommonInteract is free software for any non-profit purposes,
+see the file .../lib/COPYRIGHT for details.
+
+Send any comments, bug reports and donations :-) to the Author:
+
+    Bernhard Strassl
+    Vienna User Interface Group
+	Institute for Applied Computer Science and Information Systems
+    University of Vienna
+    Lenaugasse 2/8, A-1080 Wien, Austria
+
+e-mail: xmplus@ani.univie.ac.at
+
+

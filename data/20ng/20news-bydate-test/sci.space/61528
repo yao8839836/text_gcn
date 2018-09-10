@@ -1,0 +1,50 @@
+From: kjenks@gothamcity.jsc.nasa.gov
+Subject: Re: Deployable Space Dock..
+Organization: NASA/JSC/GM2, Space Shuttle Program Office
+X-Newsreader: TIN [version 1.1 PL8]
+X-Posted-From: algol.jsc.nasa.gov
+NNTP-Posting-Host: sol.ctr.columbia.edu
+Lines: 42
+
+: In article <1993Apr30.000050.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+: >Why not build a inflatable space dock.
+
+Henry Spencer (henry@zoo.toronto.edu) wrote:
+: If you're doing large-scale satellite servicing, being able to do it in
+: a pressurized hangar makes considerable sense.  The question is whether
+: anyone is going to be doing large-scale satellite servicing in the near
+: future, to the point of justifying development of such a thing.
+
+That's a mighty fine idea.  But since you asked "Why not," I'll
+respond.
+
+Putting aside the application of such a space dock, there are other
+factors to consider than just pressurized volume.  Temperature control
+is difficult in space, and your inflatable hangar will have to 
+incorporate thermal insulation (maybe a double-walled inflatable).
+Micrometeoroid protection and radiation protection are also required.
+Don't think this will be a clear plastic bubble; it's more likely
+to look like a big white ball made out of the same kind of multi-layer
+fabric that soft-torso space suits are made out of today.
+
+Because almost all manned space vessels (Skylab, Mir, Salyut) used
+their pressurization for increased structural rigidity, even though
+they had (have) metal skins, they still kind of qualify as inflatable.
+
+The inflation process would have to be carefully controlled.  The
+space environment reduces ductility in exposed materials (due to
+temperature extremes, monotomic Oxygen impingement, and radiation
+effects on materials), so your "fabric" may not retain any flexibility
+for long.  (This may not matter.)  Even after inflation, pressure
+changes in the hangar may cause flexing in the fabric, which could
+lead to holes and tears as ductility decreases.
+
+These are some of the technical difficulties which the LLNL proposal
+for an inflatable space station dealt with to varying degrees of
+success.
+
+-- Ken Jenks, NASA/JSC/GM2, Space Shuttle Program Office
+      kjenks@gothamcity.jsc.nasa.gov  (713) 483-4368
+
+     "Good ideas are common -- what's uncommon are people who'll
+      work hard enough to bring them about." -- Ashleigh Brilliant

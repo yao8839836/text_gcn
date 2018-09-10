@@ -1,0 +1,35 @@
+From: mpaul@unl.edu (marxhausen paul)
+Subject: Pressure Zone Microphones
+Organization: University of Nebraska--Lincoln	
+Lines: 28
+Distribution: world
+NNTP-Posting-Host: unlinfo.unl.edu
+
+I remember, back before commercial mikes with the "PZM" label (for
+Pressure Zone Microphone) started showing up, I read an article,
+in some engineering journal, that described the principles involved.
+All the physics aside, from a practicle standpoint the author's said
+they built a prototype with nothing more than a small Sony lavelier
+mike laid up against a large aluminum disk.  In demonstrating it at
+a presentation to audio engineers, this was impressive enough that
+the people present were bugging them about where they could buy them.
+
+Anyway...I want to build some to use as "choir mikes" (wide coverage).
+I've had good luck using some small electret mike elements I got
+from Digi-Key - most of these are limited-bandwidth, peakey units
+but for a buck or two more I got the ones spec'd to go out to 20kHz
+with a bit flatter response.  
+
+The distance of the mike opening from the flat plate is kind of
+critical.  I'm debating whether to mount it on it's side, which
+puts the opening a shade under 2mm from the plate, or mounting
+it with the opening actually pointing down into the plate at a
+small clearance.  I haven't dissected a unit like you can buy at
+Radio Shack to see how they do it.  Thoughts?
+
+
+--
+paul marxhausen .... ....... ............. ............ ............ .......... 
+ .. . .  . . . university of nebraska - lincoln .  . . .. . .  .. . . . . . . .
+ .     .    .  .   .     .   .  .    .   .  .   .    .   .  grace .   .    .  . 
+   .         .       .      .        .        .      .        .   happens .     

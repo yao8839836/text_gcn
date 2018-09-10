@@ -1,0 +1,30 @@
+From: cmparris@essex.ecn.uoknor.edu (Chris Michael Parrish)
+Subject: Networking Macs and a PC
+Nntp-Posting-Host: essex.ecn.uoknor.edu
+Organization: Engineering Computer Network, University of Oklahoma, Norman, OK, USA
+Lines: 24
+
+
+  At work we have a small appletalk network with 3 macs and  couple of printers.
+We also have a PC that has some specialized accounting software that we would 
+like to operate from any of the macs. We have Soft PC, and I have found that the
+software works just fine under it, but I would like to have all of the data
+for the program reside at one place (the PC hard disk). So my question for you
+is(actually questions)
+
+ 1) is there a board for the PC that will allow you to hook into an appletalk
+    network?
+
+ 2) if #1 is possible, is there any software/hardware combination that will 
+    allow me to mount the PC hard disk as a networked disk on the macs so I
+    can use Soft PC to run the application?
+
+ 3) if #1 or #2 is impossible, is there any other way to accomplish what I am
+    after?
+
+
+-- 
+_______________________________________________________________________________
+Chris Parrish                        |   
+University of Oklahoma               |    "To share is to split..."   
+cmparris@essex.ecn.uoknor.edu        |        - KMFDM

@@ -1,0 +1,49 @@
+From: J.K.Wight@newcastle.ac.UK (Jim Wight)
+Subject: Re: Button 3 popup menus with Athena widgets
+Organization: The Internet
+Lines: 42
+To: koblas@netcom.com
+Cc: xpert@expo.lcs.mit.edu
+
+>Ok, I'm being driven batty.
+
+>Trying to create popup-menus (ie. button3 press, and a menu
+>appears).  I would really like to use the standard Athena
+>classes to achieve this goal, but for my best attempts
+>I cannot get the menus to come up without using a MenuButton
+>as the parent of the widget tree.  I know this should be
+>possible to to with an XtPopupSpringLoaded() and a
+>little twiddling, but something is escaping me.
+
+Read the documentation for the SimpleMenu (4.2.3 Positioning the SimpleMenu).
+The reference is to the R5 documentation.
+
+I had not done this before but in less than 10 mins I knocked up the following
+Wcl application that does what you want using a Command widget. Even if you are
+not familiar with Wcl the example is so simple it should be pretty obvious what
+is going on. The crucial thing is the use of the XawPositionSimpleMenu and
+MenuPopup actions.
+
+
+Ari.wcChildren:		app
+
+*app.wcCreate:		Command
+*app.wcPopups:		menu
+*app.translations:	#override \n\
+			<Btn3Down>: XawPositionSimpleMenu(menu) MenuPopup(menu)
+
+*menu.wcCreate:		SimpleMenu
+*menu.wcChildren:	one, two, three
+
+*one.wcCreate:		SmeBSB
+
+*two.wcCreate:		SmeBSB
+
+*three.wcCreate:	SmeBSB
+
+
+Jim
+---
+J.K.Wight@newcastle.ac.uk
+Department of Computing Science, University of Newcastle,  Tel: +44 91 222 8238
+Newcastle upon Tyne, NE1 7RU, United Kingdom.              Fax: +44 91 222 8232

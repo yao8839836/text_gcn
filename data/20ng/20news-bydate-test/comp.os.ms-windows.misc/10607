@@ -1,0 +1,37 @@
+From: richs@microsoft.com (Rick Schaut)
+Subject: Re: Challenge to Microsoft supporters.
+Organization: Microsoft Corporation
+Reply-To: richs@microsoft.com (Rick Schaut)
+Distribution:  usa
+Lines: 27
+
+In article <1993May8.183030.27483@infodev.cam.ac.uk> tjrc1@cus.cam.ac.uk (T.J.R. Cutts) writes:
+>Even so, my point still stands to an extent [...] that 64k limits appear all
+>over the place where they really are not necessary, such as the edit control
+>limit.
+
+While the 64K limit may not be _necessary_ limitation, they probably fall
+within the category of 'reasonable' limitations.  If you find yourself
+trying to allocate an edit control for more than 64K of text, it's probably
+time take a good look at your program's design.
+
+>Why is there such a small limit to the number of global memory
+>handles allowed?
+
+In what way is 8192 a 'small' number?  It seems to me that you'd hit the
+wall in many other ways before you'd hit the systemwide limit on global
+handles, unless, of course, you're abusing GlobalAlloc.
+
+
+And _please_ don't try to tell me that it's impossible to abuse the
+resources available under other operating systems.  All systems have
+limits.  The question is whether or not the limits are _reasonable_.  So
+far, you haven't offered a single argument which suggests that Windows'
+limits are any less reasonable than limits in other systems.
+
+
+-- 
+Rick Schaut
+UUCP:...{uunet | uw-beaver}!microsoft!richs
+
+Microsoft doesn't speak for me, and I don't speak for Microsoft.

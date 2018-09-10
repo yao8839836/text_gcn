@@ -1,0 +1,25 @@
+From: jchinnic@mach1.wlu.ca (john chinnick 8335 a)
+Subject: Wanted: 3d rendering lib for PC
+X-Newsreader: TIN [version 1.1 PL6]
+Organization: Wilfrid Laurier University
+Lines: 19
+
+Does any one know of a decent quality library of routines for
+performing 3D graphics modelling on the PC?
+
+Ideally the routines would be embeded in our application program.
+
+Requirements (wish list):
+- flat surface modelling (simple phong shading optional)
+- ability to plot hidden-line drawings
+- Texture mapping -- both procedural and bit map
+- modeling light sources (local, distant, and spot lights)
+- Ray-tracing
+- Radiosity (optional)
+
+Any comments would be appreciated.
+
+John Chinnick -- jchinnic@mach1.wlu.ca
+phone : (519) 888-9666
+-- 
+John Chinnick -- jchinnic@mach1.wlu.ca

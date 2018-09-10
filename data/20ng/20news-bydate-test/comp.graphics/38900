@@ -1,0 +1,16 @@
+From: un034214@wvnvms.wvnet.edu
+Subject: NTSC data to RGB ?  For Video Capture.
+Organization: West Virginia Network for Educational Telecomputing
+Lines: 11
+
+Does anyone know how to decode the color information of a NTSC signal ?
+
+I need to convert this data to RGB for a Video Capture Utility I am 
+writing for use with an IBM M-MOTION Video adapter card...
+
+I need to know the how the V and U signals work in the color process.
+
+Thanks in advance for any information or algorythms etc.
+
+Later-
+Hammonck Net

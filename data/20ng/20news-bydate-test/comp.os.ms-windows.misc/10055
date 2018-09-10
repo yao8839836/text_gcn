@@ -1,0 +1,40 @@
+From: tittle@netcom.com (Cindy Tittle Moore)
+Subject: Re: Why I'm not using Dos 6 anymore
+Reply-To: tittle@netcom.com (Cindy Tittle Moore)
+Organization: Disorganized in Orange County, CA
+Lines: 34
+
+eliza@tigern (Elisabeth Bull) writes:
+
+>Mark Woodruff (CDA90038@UCF1VM.BITNET) wrote:
+>> 
+>> This morning at 4 am while I was working on my research paper, I had to
+>> reboot a hung Dos program (that did no disk i/o) from within Windows 3.1.
+>> When my machine finished rebooting, I found my windows directory and about two
+>> thirds of my other directories were irreversibly corrupted.
+>> 
+>(stuff deleted)
+
+>This sounds like what happened to my HD a month ago. My HD was stacked
+>with Stacker v.2.0 (I run Dos5) Suddenly everything hung up, and most of
+>the HD got corrupted (directories changed into unreadable files with
+>'funny' names). In other words: it is probably just the doubledisk part of
+>Dos6 that is troublesome. 
+
+>I now use Stacker v 3.0, and so far I have had no trouble. 
+
+This pretty much confirms my original impression after reading
+through the documentation on dos-6.  The double space sounds nice,
+but NOT on your primary disk!!  I'll probably wind up making a
+disk partition d: and doublespacing *it*, using it as an archive.
+Probably would be useful on floppy disks as well.  But on c:?  Uh, uh...
+
+[I particularly disliked the note that said something like "double
+space is irreversible"].
+
+--Cindy
+-- 
+Cindy Tittle Moore
+
+Internet: tittle@ics.uci.edu       | BITNET: cltittle@uci.bitnet
+UUCP:     ...!ucbvax!ucivax!tittle | Usnail: PO Box 4188, Irvine CA, 92716

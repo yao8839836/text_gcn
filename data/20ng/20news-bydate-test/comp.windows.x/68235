@@ -1,0 +1,39 @@
+From: hdr@ross.COM (Henry D. Reynolds)
+Subject: Help w/ X11R5p22 w/ Sun 4/110 cg2 framebuffer
+Nntp-Posting-Host: mowog
+Organization: ROSS Technology, Inc. Austin, Tx.
+	<tim.736791334@andy.hssc.scarolina.edu>
+Distribution: na
+Lines: 31
+
+
+Xsun won't come up in color w/ this framebuffer! I am trying to use xkernel on
+some of these 4/110s I have a freshly built Statically linkes copy of Xsun
+that works just fine on cg6, cg4, bw2 type of framebuffers, but on the 4/110
+that have this type of frame buffer all I get is Mono.
+
+cgtwo0 at vme24d16 0x400000 vec 0xa8 
+cgtwo0: Sun-3 color board, fast read
+
+Here is what I've tried.
+
+removing all the other /dev/cg* , /dev/bw , and /dev/fb and then selectivly
+recreating /dev/cgtwo0. Xsun comes up mono. recreating /dev/fb, comes up mono,
+
+I've tried Xsun & Xsun -dev /dev/cgtwo0.
+
+PS Xnews will come up in color but it's not statically linked, and the
+dynamically linked Xsun comes up in mono also.
+
+PPS Xsun was compiled on w/ gcc 2.3.3 on a system running 4.1.3 and the 4/110
+is also running 4.1.3.
+
+Thanks n advance
+--
+
+- ..  the HIGHWAY is made out of LIME JELLO and my HONDA
+ is a barbequeued OYSTER!  Yum!
+
+Henry D. Reynolds           hdr@ross.com -OR- hdr@nidhog.cactus.org
+FONE: (512)892-7802 x253    ROSS Technology, Inc.
+FAX:  (512)892-3036         5316 Hwy 290 West Suite 500 Austin, TX 78735

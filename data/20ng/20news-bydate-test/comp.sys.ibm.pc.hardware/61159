@@ -1,0 +1,27 @@
+From: eric@tvnews.tv.tek.com (Eric F. Dorondo)
+Subject: Headland Video7 VRAMII 512K ver upgrade info needed
+Article-I.D.: tvnews.1993Apr23.234324.7191
+Organization: Tektronix TV Measurement Systems, Beaverton, OR
+Lines: 21
+
+
+I have a Headland Technologies Video Seven VRAMII board that only
+came with 512K, at the time this was ok but...
+
+I need info or help with upgrading this board to 1 Mbyte.  There are
+2 rows of pins over the VRAM chips, I think for a piggyback board
+of VRAM.  I would like to hear from anyone that may be able to help
+me upgrade this board.  Maybe someone from Headland who maybe read-
+ing this has one of these piggyback boards just laying around, please
+please please!
+
+Does anyone know of where I could maybe buy the upgrade for this?  I
+would sure love to use this in 800X600-256 color mode but for the time
+being, I can only get 3/4 of the screen with the bottom part a white
+strip, obviously because of the missing VRAM, actually I'm surprised
+it even works to this degree at all!
+
+As a last resort, I will wind up selling this board :^( and probably be
+getting a 1 Mb-ET4000 based "dumb frame buffer".  This VRAMII was Editors
+Choice in the 9/24/91 PC Mag.  So if anyone has any info, please email
+or as a last resort post to this group.  Thanks in advance.

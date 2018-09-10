@@ -1,0 +1,16 @@
+From: tl@etek.chalmers.se (Torbj|rn Lindgren)
+Subject: Re: How to the disks copy protected.
+Organization: Chalmers University of Technology, Gothenburg, Sweden
+Lines: 11
+
+In article <1993Apr23.102935.17390@miavx1.acs.muohio.edu> sjmadsen@nextsrv.cas.muohio.edu (Steve Madsen) writes:
+>	Do you know any assembly language at all?  All anyone needs to do if
+>find the part of the code that does the quiz, and insert a JMP instruction
+>to just completely skip it.  Not that difficult, really!  And there is very
+>little that commpanies can do to stop this type of thing.  Using PKLITE or
+>some similar utility would help, but only if the resulting compressed .EXE
+>were tagged as uncompressable.
+
+And even that doesn't help, there are at least two programs available
+that fixes this (UNP and DISLITE, both available from Simtel-20). And
+even without them it isn't THAT hard to fix.

@@ -1,0 +1,27 @@
+From: gperez@cec.uchile.cl (GonZaLo Perez C.)
+Subject: Re: Compiling mh-6.8 (and xmh) on SCO 3.2.4.
+Nntp-Posting-Host: cipres.cec.uchile.cl
+Organization: Centro de Computacion (CEC), Universidad de Chile
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 21
+
+Jesse W. Asher (jessea@u013.me.vp.com) wrote:
+>I'm trying to get MH compiled (and then xmh) and I'm having some problems.
+>I've got mh-6.8, using gcc on SCO 3.2.4.  My MH file is listed below.  Does
+>anyone have any suggestions on what I can add to get it to compile??
+
+>===========
+
+>bin             /usr/local/bin
+..
+>cc              gcc
+>ccoptions       -O -ansi -D__STDC__=0 -DSYSV -DSYSV386 -DSCO -D_SVID
+
+	I think the -traditional option to gcc would help.
+	personally I used -traditional -O2 -funroll-loops to compile it
+	on SUN4.1.1.
+
+	hope this helps...
+
+gonzalo
+gperez@dcc.uchile.cl

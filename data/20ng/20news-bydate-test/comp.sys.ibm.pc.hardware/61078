@@ -1,0 +1,29 @@
+From: "michael flood" <michael.flood@channel1.com>
+Subject: vlb scsi card suggest
+Reply-To: "michael flood" <michael.flood@channel1.com>
+Distribution: comp
+Organization: Channel 1 Communications
+Lines: 22
+
+gisie@wam.umd.edu (Satan) wrote:
+
+> Can someone recommend a decent VESA Local Bus SCSI controller
+> card?  I saw a post for the Ultrastor something or other, and
+> was wondering if this would be a good choice?  I need a supported
+> card that software like the March NT Beta will recognize.
+
+BusLogic just announced the BT445 FAST SCSI-2 VLB Interface as of
+April 20.  This always happens to me!
+
+I have a one week old BT545S which is the ISA version.  I am
+enjoying spectacular performance with a Micropolis MC2105 560mb 10ms
+3.5" HH 5200 RPM drive.  I'll be changing to the BT445 VERY soon,
+though it is difficult to imagine even higher transfer speeds with
+the 32bit VESA support.
+
+You can call BusLogic and ask 'em about the NT question. I hear that
+the support is excellent.   I have not had to call them myself yet.
+Regards.
+--
+Channel 1 (R)   Cambridge, MA
+

@@ -1,0 +1,6 @@
+The evolutionary dynamics of HIV-1 quasispecies and the development of immunodeficiency disease.
+ This paper presents a theory to explain the development of immunodeficiency disease after a long and variable incubation period of infection with HIV-1.
+ Two assumptions are central to the theory: (1) mutation via reverse transcription during viral replication can generate viral strains resistant to neutralization by antibodies specific to earlier mutants in a particular host; (2) the virus can kill the CD4-positive lymphocytes that play a role in mounting an immunological attack directed at the virus.
+ The theory is examined via the development of a mathematical model which reveals that an increasing number of antigenically distinct viral strains may overwhelm the immune system of the host.
+ As the viral diversity increases beyond a certain level the immune system is unable to suppress the population growth of all the strains simultaneously.
+ The intuitive explanation of this pattern of model behaviour lies in the assumption that each virus can kill CD4-positive lymphocytes that are specific to any of the viral strains, but each lymphocyte only directs immunological attack against a single viral strain.

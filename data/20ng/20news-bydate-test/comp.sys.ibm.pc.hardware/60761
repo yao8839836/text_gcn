@@ -1,0 +1,37 @@
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Subject: Re: IP numbers on Ethernet Cards
+Organization: Ford Motor Company Research Laboratory
+Lines: 30
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+Tigger (djohnson@moose.uvm.edu) wrote:
+: Hi!
+: 	
+: Is it possible through either pin configuration or through software
+: programming to change the IP numbers on an ethernet card?
+: 	
+: Thanks in Advance!
+: 
+: -- 
+: =-Dave   *Tigger!*
+: 
+: djohnson@moose.uvm.edu        'Tiggers are wonderful things!'
+: Dave C Johnson
+
+I think you mean the ethernet numbers.  The 8 byte ethernet id is the unique
+Electronic Serial Number (ESN) assigned to each ethernet board in existence.
+This is a "physical layer" concept.  The IP address is a higher layer protocol.
+The analogy to telephone service is the IP address is your phone number, while
+the particular wire pair in the cable on the pole has some (unknown to you or
+I) physical identification scheme (number).
+
+But to answer your question (assuming you indeed meant the Ethernet number)
+it is not supposed to be possible to change the number.  Of course the
+manufacturer can always retro-fit a board, but there could hardly be a
+reason to ever do that.
+
+If your question is actually referring to the IP address, it is most definetly
+changable.  But it is strictly software.
+
+Gordon Lang

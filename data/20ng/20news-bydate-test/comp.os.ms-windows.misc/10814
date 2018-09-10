@@ -1,0 +1,39 @@
+From: kasper@aero.org (Brian P. Kasper)
+Subject: Re: TIFF file viewer needed
+Organization: The Aerospace Corporation, El Segundo, CA
+Lines: 33
+NNTP-Posting-Host: aerospace.aero.org
+
+In article <1993May17.061914.22239@cs.sfu.ca> chapman@cs.sfu.ca (John Chapman) writes:
+>Hello - I am in need of a file viewer for 24 bit TIFF images, to run under
+>        windows (3.1 if it matters); alternatively a package to run an
+>        X-server on top of windows would do very well. Unfortunately the
+>        budget for this is limited so whatever I end up using has to be
+>        public domain or very inexpensive. Thanks in advance for any help,
+>
+>        john
+>
+>
+>
+>chapman@cs.sfu.ca
+>
+>
+PaintShop Pro for Windows is a fantastic product.  It can handle TIFF, GIF,
+BMP, PCX, and many other formats, displaying them and converting between
+them.  There is a shareware version of the program; I assume it's available
+in the Windows areas of the standard anonymous FTP locations (I'd try
+ftp.cica.indiana.edu).  Log in as ftp, use your username as a password,
+and look for a program called PSP101.exe or something like that.  I have
+the registered version, and the only major difference I can detect is that
+the unregistered version pops up a message when you start the program
+asking you to please register it.
+
+Once again, FANTASTIC software.  Up to 24 bits, huge images, everything.
+
+-Brian
+
+
+-- 
+Brian Kasper, AKA Prisoner 655321   | "My hovercraft is full of eels."
+The Aerospace Corporation           |
+Internet: kasper@aerospace.aero.org | 

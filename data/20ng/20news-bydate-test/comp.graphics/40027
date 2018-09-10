@@ -1,0 +1,38 @@
+From: spl@pitstop.ucsd.edu (Steve Lamont)
+Subject: Re: CGM Files
+Organization: University of Calif., San Diego/Microscopy and Imaging Resource
+Lines: 32
+NNTP-Posting-Host: pitstop.ucsd.edu
+
+In article <MEYER.93May28133222@ibsen.geomatic.no> meyer@geomatic.no (Harald Martens Meyer) writes:
+>The only book I've found on the CGM format, is "CGM and CGI" by D.B.Arnold
+>& P.R.Bono from Springer-Verlag, ISBN 3-540-18950-5. It's not the best
+>book I've read though....
+
+Well, there *is* the standards document.  From the FAQ:
+
+12) How to order standards documents.
+
+The American National Standards Institute sells ANSI standards, and also
+ISO (international) standards.  Their sales office is at 1-212-642-4900,
+mailing address is 1430 Broadway, NY NY 10018.  It helps if you have the
+complete name and number.
+
+Some useful numbers to know:
+
+CGM (Computer Graphics Metafile) is ISO 8632-4 (1987).  GKS (Graphical
+Kernel System) is ANSI X3.124-1985. ...
+
+>If you want a viewer, try downloading ralcgm from unix.hensa.ac.uk,
+>/misc/unix/ralcgm/ralcgm.tar.Z
+
+You might also want to look at gplot from the folks at the Pittsburgh
+Supercomputer Center.  Fish around at calpe.psc.edu.  It is pretty
+nifty.
+
+							spl
+-- 
+Steve Lamont, SciViGuy -- (619) 534-7968 -- spl@szechuan.ucsd.edu
+San Diego Microscopy and Imaging Resource/UC San Diego/La Jolla, CA 92093-0608
+"A naked lunch is natural to us,/we eat reality sandwiches.
+But allegories are so much lettuce./Don't hide the madness." -Allen Ginsberg

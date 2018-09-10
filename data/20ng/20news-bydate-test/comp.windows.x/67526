@@ -1,0 +1,55 @@
+From: rick@ee.uwm.edu (Rick Miller)
+Subject: How to Make Your Own X-Face: in 0x000C Easy Steps!
+Summary: How's this?
+Organization: Just me.
+Lines: 46
+NNTP-Posting-Host: 129.89.2.33
+X-Face: %:A<m@Dob}BO"'E",EEQGbn7qy(En7aS5U([k//"G{6^HIbY9X8~+PD($}6szF"&vVxCXSn
+ 8mw^0G#nVHE%W,`X"[j0s{r.~%zs:O|HFU=LwzYgH
+
+Will someone who can 'see' the X-Face included in this header please reply
+and tell me if it turned out okay?
+
+I'm not all too sure about my viewing software.  I *hand*-converted this
+thing in "vi" from a Sun rasterfile... what a pain!
+
+For folks who haven't the slightest, it went like this:
+
+-------------------------------------------------------------
+
+		How to Make Your Own X-Face:
+		   in 0x000F Easy Steps!
+
+	1. Scan my Drivers' License into a *.PCX file.
+	2. Use WinGIF to 'trim' my face out of the license,
+		'reduce' it by half, and
+		convert it to *.BMP.
+	3. Use Paintbrush to touch up manually.
+	4. Use WinGIF to 'reduce' it by half again.
+	5. Use Paintbrush to touch up again.
+	6. Use WinGIF to 'reduce' it by half *again*
+		and convert it to *.GIF.
+
+		[now over to the UNIX side...]
+
+	7. Use Snapshot to convert the *.GIF to a Sun rasterfile.
+	8. Use IconEdit to touch it up and
+		convert it to an X bitmap.
+	9. Use "vi" (yes, a *text* editor) to manually convert
+		the rasterfile into the "Uncompressed X-Face" format.
+		(Lots of global "ed" commands, and by the time you're
+		 done you'll mirror hex bytewise in your sleep!!)
+
+		[now over to the *Linux* side...]
+
+	A. Use "compface" to convert it to what you see here:
+
+ %:A<m@Dob}BO"'E",EEQGbn7qy(En7aS5U([k//"G{6^HIbY9X8~+PD($}6szF"&vVxCXSn
+ 8mw^0G#nVHE%W,`X"[j0s{r.~%zs:O|HFU=LwzYgH
+
+	B. Try viewing it by whatever means you have available.
+	C. Go back to step 9, but do it *right* this time.
+
+Rick Miller  <rick@ee.uwm.edu> | <ricxjo@discus.mil.wi.us>   Ricxjo Muelisto
+Send a postcard, get one back! | Enposxtigu bildkarton kaj vi ricevos alion!
+          RICK MILLER // 16203 WOODS // MUSKEGO, WIS. 53150 // USA

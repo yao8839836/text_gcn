@@ -1,0 +1,25 @@
+From: beck@irs131.inf.tu-dresden.de (Andre Beck)
+Subject: XDM & backgroundPixmap ?
+Organization: Dept. of Computer Science, TU Dresden, Germany.
+Lines: 17
+Distribution: world
+Reply-To: Andre_Beck@IRS.Inf.TU-Dresden.DE
+NNTP-Posting-Host: irs131.inf.tu-dresden.de
+
+
+Hi,
+
+I've tried to get rid off XDM's ugly Login window by giving it a 'cool'
+backgroundPixmap ressource. As Login is derived from Core, this should be
+possible. Anyway, setting xlogin*backgroundPixmap:/a/b/c.xpm did not
+produce any message of the form 'cannot convert String to Pixmap' and
+explicitely registering such converter lead to nothing, too.
+
+Any way to do it ?
+
+--
++-o-+--------------------------------------------------------------+-o-+
+| o |                \\\-  Brain Inside -///                       | o |
+| o |                    ^^^^^^^^^^^^^^^                           | o |
+| o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
++-o-+--------------------------------------------------------------+-o-+

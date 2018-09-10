@@ -1,0 +1,21 @@
+From: bonobo@Ingres.COM (David Victor)
+Subject: Windows enhanced mode: how to get 386 icon/functionality?
+Organization: Ingres Corporation, A subsidiary of The ASK Group, Inc.
+Distribution: na
+Lines: 15
+
+I recently set Windows 3.1 up on my 486DX-33 VLB system, and I didn't
+notice until last night that I don't have the 386 icon in my control
+panel.  I don't remember Windows setup asking me about 386 enhanced
+mode (whether I wanted it or not).  Now I've got a program that I 
+just bought (Aldus Freehand 3.1) that is telling me that I should be
+running Windows in enhanced mode (looks like I'm running in standard
+mode).
+
+How can switch to enhanced mode without the little icon thingie?  Are
+there some issues involved with VESA LB systems which cause Windows
+to not want to give you enhanced mode? 
+
+Thanks for any help!!
+
+-David Victor

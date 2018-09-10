@@ -1,0 +1,31 @@
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Re: HELP: Need 24 bits viewer
+Keywords: 24 bit
+Lines: 24
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+
+
+In article <5713@seti.inria.fr>, deniaud@cartoon.inria.fr (Gilles Deniaud) writes:
+
+>I'm looking for a program which is able to display 24 bits
+>images. We are using a Sun Sparc equipped with Parallax
+>graphics board running X11.
+
+Utah raster toolkit using getx11. Convert your sun raster files (presumably) to 
+ppm with the pbm+ toolkit then convert ppm to utah rle format with ppmtorle which
+is provided in the toolkit.
+
+I seem to remember that Xloadimage can do 24 bit servers too.
+
+Possibly xwud the x window un-dump program can display 24 bit images; certainly
+xwd can grab them.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk  
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------

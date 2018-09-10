@@ -1,0 +1,90 @@
+From: thinman@netcom.com (Technically Sweet)
+Subject: Re: Universal VESA Driver
+Keywords: VESA
+Organization: International Foundation for Internal Freedom
+Lines: 84
+
+kintur@scorch.apana.org.au (Kingsley Turner) writes:
+
+>        Some time ago (about 1 month) there was a bit of discussion
+>        about a universal VESA driver for > 8bit cards.  It was in
+>        the file uvesa32.zip.  Well i can't find it, does anyone know
+>        where it is (gorilla.something.something.au), and what sort
+>        of cards it works for ?
+
+>        Also would it be pushing my luck to ask for someone to post
+>        it to some appropriate group.
+
+>                                                        Kingsley Turner
+>                                                        NSW Australia
+
+
+Host swdsrv.edvz.univie.ac.at
+
+    Location: /pc/dos/graphics
+           FILE -rw-r--r--      21525  Mar  7 18:00  uvesa31.zip
+
+Host plaza.aarnet.edu.au
+
+    Location: /micros/pc/garbo/pc/screen
+           FILE -r--r--r--      21795  Apr  4 00:00  uvesa31.zip
+    Location: /micros/pc/oak/graphics
+           FILE -r--r--r--      21525  Mar  7 19:00  uvesa31.zip
+
+Host godzilla.cgl.rmit.oz.au
+
+    Location: /kjb/MGL
+           FILE -rw-r--r--      22887  Mar 29 15:03  uvesa32.zip
+
+Host nic.switch.ch
+
+    Location: /mirror/msdos/graphics
+           FILE -rw-rw-r--      21525  Mar  7 20:00  uvesa31.zip
+    Location: /software/pc/simtel20/graphics
+           FILE -rw-rw-r--      21525  Mar  7 20:00  uvesa31.zip
+
+Host ipc1.rvs.uni-hannover.de
+
+    Location: /pub/msdos-koeln/graphics/egavga
+           FILE -rw-r--r--      21525  Apr  4 17:08  uvesa31.zip
+
+Host sun0.urz.uni-heidelberg.de
+
+    Location: /pub/msdos/simtel/graphics
+           FILE -rw-rw-r--      21525  Mar  7 19:00  uvesa31.zip
+
+Host athene.uni-paderborn.de
+
+    Location: /pcsoft/msdos/graphics
+           FILE -rw-r--r--      21525  Mar  7 18:00  uvesa31.zip
+
+Host compute1.cc.ncsu.edu
+
+    Location: /mirrors/wustl/mirrors/msdos/graphics
+           FILE -rw-r--r--      21525  Mar  7 19:00  uvesa31.zip
+
+Host rigel.acs.oakland.edu
+
+    Location: /pub/msdos/graphics
+           FILE -rw-r--r--      21525  Mar  7 19:00  uvesa31.zip
+
+Host pc.usl.edu
+
+    Location: /pub/msdos/video.and.graphics
+           FILE -rw-r--r--      21525  Mar 11 10:41  uvesa31.zip
+
+Host isfs.kuis.kyoto-u.ac.jp
+
+    Location: /mirrors/simtel20.msdos/graphics
+           FILE -rw-rw-r--      11425  Mar 13 16:41  uvesa10.zip
+           FILE -rw-rw-r--      21525  Mar  8 12:00  uvesa31.zip
+
+Host ftp.uu.net
+
+    Location: /systems/ibmpc/msdos/simtel20/graphics
+           FILE -rw-rw-r--      21525  Mar  7 14:00  uvesa31.zip
+-- 
+
+Lance Norskog
+thinman@netcom.com
+Data is not information is not knowledge is not wisdom.

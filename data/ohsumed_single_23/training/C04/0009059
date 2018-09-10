@@ -1,0 +1,11 @@
+Multisurface method of pattern separation for medical diagnosis applied to breast cytology.
+ Multisurface pattern separation is a mathematical method for distinguishing between elements of two pattern sets.
+ Each element of the pattern sets is comprised of various scalar observations.
+ In this paper, we use the diagnosis of breast cytology to demonstrate the applicability of this method to medical diagnosis and decision making.
+ Each of 11 cytological characteristics of breast fine-needle aspirates reported to differ between benign and malignant samples was graded 1 to 10 at the time of sample collection.
+ Nine characteristics were found to differ significantly between benign and malignant samples.
+ Mathematically, these values for each sample were represented by a point in a nine-dimensional space of real variables.
+ Benign points were separated from malignant ones by planes determined by linear programming.
+ Correct separation was accomplished in 369 of 370 samples (201 benign and 169 malignant).
+ In the one misclassified malignant case, the fine-needle aspirate cytology was so definitely benign and the cytology of the excised cancer so definitely malignant that we believe the tumor was missed on aspiration.
+ Our mathematical method is applicable to other medical diagnostic and decision-making problems.

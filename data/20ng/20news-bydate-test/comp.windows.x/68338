@@ -1,0 +1,37 @@
+From: mdoob@ccu.umanitoba.ca (Michael Doob)
+Subject: Re: Compiling ghostview under Sun OpenWindows 3
+Nntp-Posting-Host: ccu.umanitoba.ca
+Organization: University of Manitoba, Winnipeg, Canada
+Lines: 31
+
+In <615@ftms.UUCP> brown@ftms.UUCP (Vidiot) writes:
+
+>In article <C75z4A.8r7@curia.ucc.ie> pflynn@curia.ucc.ie (Peter Flynn) writes:
+><Due it seems to Sun's crapulous organisation of the X libraries and includes,
+><most standard (GNU and other) software won't compile out of the box (well, tar
+><file). 
+><
+><Right now I'm trying to make ghostview. It complains it can't find X11/XaW/...
+><so I just linked (ln -s) the files from /usr/openwin/share/include/X11 and 
+><now the ghoddam thing _still_ complains it can't find them.
+><
+><I still haven't been able to compile xdvi, not no way.
+><
+><Has anyone _ever_ managed to get _anything_ normal to compile on a Sun
+><(SunOS 4.1.3 and OpenWindows 3)? What's the trick I'm missing? I've even 
+><tried hard copying all the relevant files into the "right" places and
+><every time, there's some bit missing or it refuses to find it.
+
+>Sounds like you didn't load the support for those libraries when OW3.0 was
+>loaded.  The Xaw support was missing from OW2.0 but added in 3.0.
+>-- 
+>harvard\
+>  ucbvax!uwvax!astroatc!ftms!brown  or  uu2.psi.com!ftms!brown
+>rutgers/
+>INTERNET: brown@wi.extrel.com  or  ftms!brown%astroatc.UUCP@cs.wisc.edu
+
+Or the library might be there but not pointed to by LD_LIBRARY_PATH.
+
+Michael
+
+

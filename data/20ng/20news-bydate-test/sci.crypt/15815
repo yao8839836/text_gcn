@@ -1,0 +1,21 @@
+From: steve-b@access.digex.com (Steve Brinich)
+Subject: Re: Is key escrow enough?
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 14
+Distribution: world
+NNTP-Posting-Host: access.digex.net
+
+  The points raised about checking what is actually -in- the chip, as
+opposed to what is allegedly programmed therein, raise yet another trust
+issue.  Even if we assume that these "trusted agents" are really entering
+a wide range of S1 and S2 seeds (rather than using the same one all the
+time to reduce the key search space to 30 bits), I assume they are not
+doing so by picking up an iron filing and poking it into the circuitry
+at carefully selected points to encode data.  They would presumably be
+punching numbers into a computer, which for all they know could program
+the chips in a manner completely independent of the S1 and S2 values they
+are feeding into the system.
+
+
+
+

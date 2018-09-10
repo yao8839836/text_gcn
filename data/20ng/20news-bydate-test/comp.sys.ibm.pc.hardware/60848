@@ -1,0 +1,23 @@
+Subject: Need help/info on Hard Drive terms
+From: carlson@ucunix.san.uc.edu (David Carlson)
+Organization: University of Cincinnati
+Lines: 18
+
+Hi all.
+
+I've been installing a new hard drive recently and have run into several
+terms that I'm not sure about.
+
+1.) Hard Sectored/Soft Sectored -- What's the difference?  How do I know
+which to use?
+
+2.) Head Skew & Cylinder Skew -- I understand that these are related to
+performance... How do I know what's optimal?
+
+My drive is an ESDI drive, if that makes a difference in discussing
+these terms.
+
+		Any info/help is greatly appreciated!
+
+				David
+			(carlson@ucunix.san.uc.edu)

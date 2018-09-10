@@ -1,0 +1,24 @@
+From: especkma@reed.edu (Erik. A Speckman)
+Subject: Re: Why the drive speeds differ??
+Article-I.D.: reed.1993Apr23.063822.28946
+Organization: Reed College, Portland, Oregon
+Lines: 18
+
+In article <1993Apr22.210015.75624@mcontent.apana.org.au> Thomas_n.a._Krebs@mcontent.apana.org.au writes:
+>The most likely explanation may have something to do with the fact that a
+>greater density of information exists on the larger capacity disk drive than
+>the smaller one. If your running the drive on a Mac I would recommend a
+>shareware utility called Timedrive which tests seek, SCSI throughput and
+>rotational speed. This utility should let you know what the differences are
+>between the drives.
+>***************************************************************************
+> The views expressed in this posting those of the individual author only. 
+>[BBS Number:(613) 848-1346      MacContent is VictoriaUs first Iconic BBS!]
+>***************************************************************************
+
+Larger drives tend to have multipule platters which can allow adjacent
+bits to be read in parallel resulting in higher throughput.  They also
+have higher spindle speeds which leads to both increased throughput and
+reduced seek times (due to reduction of rotational latency.)
+
+_Erik Speckman

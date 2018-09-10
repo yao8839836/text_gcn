@@ -1,0 +1,20 @@
+From: vadi@csi.com (Vadivelu Elumalai)
+Subject: X Screen Saver
+Organization: Comdisco Systems Inc.
+Lines: 15
+
+
+Hi!
+
+	I have a question which is not directly related to X Screen Saver.
+
+What X Screen Saver does is to blank the screen if it has been idle for
+some time.  I don't want my screen to go blank but to get locked or call
+xlock program.
+
+	Is there a parallel call to XSetScreenSaver() which locks my screen
+or call my lock program after certain amount of idle time?  Or is there a
+way to find out how long the server has been idle?
+
+Thanks
+-Vadi       (vadi@csi.com)

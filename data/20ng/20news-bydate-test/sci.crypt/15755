@@ -1,0 +1,27 @@
+From: cme@ellisun.sw.stratus.com (Carl Ellison)
+Subject: Re: Clipper considered harmful
+Organization: Stratus Computer, Software Engineering
+Lines: 20
+Distribution: inet
+NNTP-Posting-Host: ellisun.sw.stratus.com
+
+In article <bontchev.735336144@fbihh> bontchev@fbihh.informatik.uni-hamburg.de writes:
+>No, because the Feds will still be able to decrypt the conversations.
+>True, they'll blame the wrong guys, but nevertheless one cannot say
+>something like "The drugs arrive tommorrow on the ship 'Terminus'"
+>when the Feds are listening, even if they cannot identify who the
+>speaker is.
+
+
+It's not a question just of who is holding the phone.  It's a question of
+what circuit to wiretap in the first place.  If two drug dealers are both
+using stolen cellular phones, the FBI doesn't know which lines to tap
+-- unless of course they're tapping *all* phones (maybe *all* cellular
+phones).  If they haven't tapped the connection (ie., at least one end of
+the connection) then they don't know what key to request.
+
+-- 
+ - <<Disclaimer: All opinions expressed are my own, of course.>>
+ - Carl Ellison                                        cme@sw.stratus.com
+ - Stratus Computer Inc.       M3-2-BKW                TEL: (508)460-2783
+ - 55 Fairbanks Boulevard ; Marlborough MA 01752-1298  FAX: (508)624-7488

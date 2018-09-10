@@ -1,0 +1,36 @@
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Subject: Where can i buy a bios?
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 29
+
+*** On 04-21-93  04:51, Ikos had the unmitigated gall to say this:
+
+ Ik> I'm in the market to upgrade my BIOS to a Phoenix 1.10 (got a new hard
+ Ik> disk, discovered my BIOS doesn't have a "type 47") and I would like
+ Ik> know where I can purchase one of these things.
+
+Call Phoenix.  They can put you on line with replacement BIOS chips.  I had
+to do this when I upgraded a Emerson 386/20 to an IDE drive.
+
+Also, if you are installing an IDE drive, and there is a BIOS setting that
+has a total volume the same as the IDE drive's volume, try using it.  The
+IDE drive can usually respond to a variety of different geometries, as long
+as the setting that you use is equal to or smaller than the drive's actual
+size.  The controller will do the necessary translation automatically, in
+most cases.
+
+WARNING!!!  Do not use a BIOS setting that is even one byte larger than the
+actual size of the drive!  A smaller setting will not harm the drive, but
+you will be sorry if you go even one byte over.  Drive damage will not
+result, but headaches will!
+
+... Backup not found: (A)bort (R)etry (P)anic
+--- Blue Wave/QWK v2.10
+                                     
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com

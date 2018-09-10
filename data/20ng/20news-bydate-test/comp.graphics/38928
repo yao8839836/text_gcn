@@ -1,0 +1,22 @@
+From: lwv26@cas.org (Larry W. Virden)
+Subject: Looking for patches to xv to better support TIFF output
+Reply-To: lvirden@cas.org (Larry W. Virden)
+Organization: Nedriv Software and Shoe Shiners, Uninc.
+Lines: 16
+
+
+Recently we have found TIFF manipulation packages which do not recognize
+TIFF files output by xv.  This is due to a missing XRESOLUTION and YRESOLUTION
+tag which apparently is required (or at least believed to be required) for
+valid TIFF.  I have checked both xv 2.x and xv 3.x and neither of these
+do indeed copy these tags.
+
+Has anyone out there hacked in the fixes for xv to support these tags?
+I have been told that I could find some code in tiff/tools/tiffcp.c, but
+that directory is one of many of the tiff group not distributed with xv.  I
+hope to obtain the original tiff src and look at it, but would prefer
+to find code already known to work in xv.
+-- 
+:s 
+:s Larry W. Virden                 INET: lvirden@cas.org
+:s Personal: 674 Falls Place,   Reynoldsburg, OH 43068-1614

@@ -1,0 +1,32 @@
+From: adam@microware.com (Adam Goldberg)
+Subject: Re: Choice of gauges
+Nntp-Posting-Host: ren
+Organization: Microware Systems Corp., Des Moines, Iowa
+Distribution: usa
+Lines: 25
+
+In article <C5yBo4.E5I@vcd.hp.com> dmunroe@vcd.hp.com (Dave Gauge) writes:
+>If you had free reign to design your own instrument cluster, which
+>gauges would you choose to have beyond the basic set?
+
+Oil Pressure, Oil Temperature
+Coolant Temperature
+Manifold Vacuum
+Ammeter, Voltmeter
+
+Fuel Pressure [maybe] (Problematic, since you either need an electronic
+sensor/gauge pair or you have to mount the damn thing outside the car)
+
+In addition, it'd be nice to have a big red idiot light 'Check Guages'
+connected to Oil pressure, Oil Temp, Coolant Temp, Ammeter &
+Voltmeter.  With heaps of guages, it's hard to look at them all all
+the time.  In the case of oil pressure, for example, you want to know
+right away if your oil pump goes bad, unlike coolant temperature, a
+minute or two of 0 oil pressure would be A Very Bad Thing(tm).
+
+Adam
+-- 
+Adam G.
+adamg@microware.com, or ...!uunet!mcrware!adamg
+The above is not to be construed in any way as the official or unofficial
+statements of Microware, or any Microware employees.

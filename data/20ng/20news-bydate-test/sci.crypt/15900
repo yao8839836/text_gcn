@@ -1,0 +1,39 @@
+From: schneier@chinet.chi.il.us (Bruce Schneier)
+Subject: Re: Crypto papers on the net.
+Organization: Chinet - Public Access UNIX
+Lines: 34
+
+In article <16BB91429.C445585@mizzou1.missouri.edu> C445585@mizzou1.missouri.edu (John Kelsey) writes:
+>   I've recently been reading a paper of Merkle's (publixhed only on the
+>net, I think) discussing three potential replacements for DES.  Was
+>anyting ever done with these?  Are Khufu, Khafre, and/or Snefru still
+>being discussed anywhere?  (I know Snefru is referenced in the RSA
+>FAQ, and I think it may also be in the sci.crypt FAQ.)
+>   On a related topic, can anyone point me toward good sites to find
+>papers/articles/discussions of cryptology?  I think I've about exhausted
+>the Math/Sci library here, which doesn't seem to have anything more recent
+>than about '84.
+> 
+>   Thanks.
+> 
+>   --John Kelsey
+
+Khufu and Khafre are both patented (#5003597).  Biham and Shamir showed
+that differential cryptanalysis can break 16-round Khafre with a chosen-
+plaintext attack using 1500 different encryptions.  Khafre with 24 rounds
+can be broken with the same attack using 2^53 different encryptions.
+(There are probably more efficient differential cryptanalytic attacks, if
+someone wants to take the time to look.)
+
+Khufu has key-dependent S-boxes, and is immune to differential cryptanalysis.
+Source code for this algorithm (and Khafre) are in the patent.
+
+Snefru is a public-domain one-way hash function.  The version of Snefru
+that produces a 128-bit hash is vulnerable to differential cryptanalysis
+(vulnerable means that the attack is more efficient that brute force) for
+four passes or less.  Given that, SHA and MD5 are much more efficient.
+
+Oh yes, anyone interested in licensing the patent should contact Dave Petre,
+Director of Patent Licencing for Xerox, (203) 986-3231.
+
+Bruce 

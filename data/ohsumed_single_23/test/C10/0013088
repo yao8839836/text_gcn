@@ -1,0 +1,5 @@
+Tables for estimation of individual risks of fetal neural tube and ventral wall defects, incorporating prior probability, maternal serum alpha-fetoprotein levels, and ultrasonographic examination results.
+ Tables are provided for estimation of the risk of open spina bifida in patients who have elevated maternal serum alpha-fetoprotein levels but normal results on detailed anatomy ultrasonographic scan.
+ Risks are provided for various prior population risks, for various levels of elevated maternal serum alpha-fetoprotein, and for various assumptions about the sensitivity of ultrasonographic examination.
+ The formula used is based on sequential multiplication of odds with the use of Bayes' theorem, but an arbitrary reduction (to the power of 0.5) in the degree to which ultrasonographic information modifies the odds has been made to allow for the nonindependence of ultrasonography and maternal serum alpha-fetoprotein tests.
+ The wide range of resulting risks shows that the decision to offer amniocentesis after a negative scan should be individualized.

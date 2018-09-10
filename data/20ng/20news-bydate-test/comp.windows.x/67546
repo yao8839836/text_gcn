@@ -1,0 +1,69 @@
+From: rbroders@oracle.com (Robert Brodersen)
+Subject: Resolution, bitmapped fonts, device independence...
+Nntp-Posting-Host: ap253sun.us.oracle.com
+Organization: Oracle Corporation, Belmont, CA
+X-Disclaimer: This message was written by an unauthenticated user
+              at Oracle Corporation.  The opinions expressed are those
+              of the user and not necessarily those of Oracle.
+Lines: 60
+
+I recently corrected the resolution on my Sparcstation by changing
+/usr/lib/X11/xdm/Xservers from:
+:0 local /usr/bin/X11/X :0 -ar1 500 -dpi 100
+to:
+:0 local /usr/bin/X11/X :0 -ar1 500 -dpi 85
+
+I determined that my 19" 1152x900 monitor was 85 dpi by measuring the
+active screen area and dividing by resolution.
+
+However, this has caused my application fonts to behave strangely.
+After some research, I believe this is caused by my applications
+requesting fonts by Family, Weight, Slant, and Pointsize.  I believe
+that X is grabbing the first font on the path with these characteristics
+and displaying it.  Since I have only 75dpi and 100dpi fonts on my
+path, the results are inaccurate.  I do have some Speedo fonts, but
+not for the family I am using (Helvetica).
+
+I think this is incorrect.  The fonts should always be provided in the
+resolution of the display.  This never seems to happen unless you
+explicitly request fonts by xres and yres!  This is true of both the
+scaleable and bitmapped fonts!  For instance, the command
+
+xfd -fn '-bitstream-charter-*-*-*-*-*-240-*-*-*-*-*-*'
+
+Will invoke a 75dpi font (despite the fact that this is a Speedo font).
+
+The command  
+
+xfd -fn '-adobe-courier-*-*-*-*-*-240-*-*-*-*-*-*'
+
+Will invoke a 75dpi font or a 100dpi font (depending on my font path).
+Despite the fact that X knows my display is 85 dpi, and that it can
+generate an 85dpi font for me!  Unless I my applications specifies a
+resolution, X appears to pick a stupid default.
+
+Is this a bug?  Is it a feature?  If so, why?  Is there anything I can
+do to get around this problem?  People have suggested that I lie about
+my resolution, and specify a single font path (75 or 100, not both).
+This would at least make my app consistent, but I like being able to
+look at rulers that appear in my paint application and say: "Yup, thats
+an inch".  Anyone have a set of 85dpi bitmapped fonts I can use?
+
+System info:
+Sun Sparc 10/41 w/32 MB, SunOS 4.1.3.
+
+xdpyinfo:
+version number:    11.0
+vendor string:    MIT X Consortium
+vendor release number:    5000
+screen #0:
+  dimensions:    1152x900 pixels (348x272 millimeters)
+  resolution:    85x85 dots per inch
+
+xset q font path:
+  /usr/lib/X11/fonts/misc/,/usr/lib/X11/fonts/Speedo/,/usr/lib/X11/fonts/100dpi/,/usr/lib/X11/fonts/75dpi/
+
+--
+Thanks-           rbroders@oracle.com       -Bob Brodersen (415)-506-2189
+Applications Architect, Applications Technology Group, Applications Division
+                  Oracle Corporation, Redwood Shores, CA 94065

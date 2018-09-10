@@ -1,0 +1,39 @@
+From: tedm@tsoft.net (Ted Matsumura)
+Subject: Re: leaking memory resources in 3.1
+Organization: TSoft BBS and Public Access Unix, +1 415 969 8238
+Lines: 34
+
+In article <1993Apr30.180317.5618@seas.gwu.edu> louray@seas.gwu.edu (Michael Panayiotakis) writes:
+>In article <C6Aw83.H7v@csn.org> richardf@teal.csn.org (IrieMon) writes:
+>
+>>dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:
+>>:     I am running Win 3.1 with NDW 2.2 on a 486sx with 8 meg of memory and a
+>>:     6 meg perm swap file and am getting exceedingly frustrated that my
+>>:     applications are not giving back system resources when I close them.
+>>:
+>>I've noticed this also.  The way it was explained to me is that Windows
+>>does not clear the upper memory blocks after a program is done.  Anyone
+>>out there know if this is why?
+>> 
+>
+>There was a post about something similar a while back.  It seems windows
+>does *not* take it upon itself to free up any sys. resources an
+>applllication is using when that application is done.  That job is left
+>entirely to the application.  that is, the application has to clean up
+>after itself when it quits.
+>
+>Anyone out there know if there is a utility for windows which  will
+>clean up sys. resources when an application quits (mother.zip???).
+>
+>peace,
+>Mickey
+
+It could also be that your shell is hogging the resources.  For example,
+open the apps with data files that cause resulting low system resources
+with ndw 2.x as shell,
+ 
+then do the same with program manager, and see if it's the shell or the
+apps.
+ 
+Ted
+

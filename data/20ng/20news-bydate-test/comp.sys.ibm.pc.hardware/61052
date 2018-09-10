@@ -1,0 +1,17 @@
+From: pgleason@ncratl.AtlantaGA.NCR.COM (Pat Gleason)
+Subject: Re: Gateway Flash BIOS Upgrade
+Organization: NCR Engineering and Manufacturing Atlanta -- Atlanta, GA
+Lines: 12
+
+In <11172@lhdsy1.lahabra.chevron.com> hwrvo@kato.lahabra.chevron.com (W.R. Volz) writes:
+
+>1) What do I gain with this new BIOS?
+
+It fixed a problem for us of getting Divide Errors that were
+caused by the GW BIOS overwriting some interapplication 
+memory area. Our problem was with Clarion Database programs,
+but I also heard that it fixed the same problem with Brief
+-- 
+=============================================================================
+Pat Gleason                        | Maybe something good, maybe something 
+pgleason@ncratl.atlantaga.ncr.com  | bad, I guess we'll never know !

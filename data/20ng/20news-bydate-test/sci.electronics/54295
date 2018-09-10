@@ -1,0 +1,20 @@
+From: flux@inqmind.bison.mb.ca (John Kamchen)
+Subject: VGA circuit
+Organization: The Inquiring Mind BBS  1 204 488-1607
+Lines: 15
+
+I've come across a circuit from Integrated Circuit Systems Inc
+called a GSP500.   This chip genlocks a VGA card to a dual input
+NTSC signal.  
+The output from this chip is basicly a pixel clock, and has various 
+speeds.  I notice that it outputs a 28mhz clock..  can this output be 
+used on an Amiga system?
+And must it be NTSC/VGA  or can it be NTSC/NTSC  ?
+ 
+Any simple circuits to boost an NTSC to a VGA signal?
+Need to genlock a laser disc to my 31khz video.
+-John
+
+
+flux@inqmind.bison.mb.ca
+The Inquiring Mind BBS, Winnipeg, Manitoba  204 488-1607

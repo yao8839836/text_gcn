@@ -1,0 +1,49 @@
+From: fmg@alpha.smi.med.pitt.edu (Filip Gieszczykiewicz)
+Subject: Switching PS questions
+Summary: I know basics, !commercial models, 3Qs
+Organization: Medical Informatics, Pittsburgh, PA USA
+Lines: 43
+
+
+	Greetings. I've recently decided to chuck the linear regulators
+	and learn the "black magic" art of switching power supplies...
+	(before anyone flames me, I KNOW, both have their place :-)
+
+	Anyways, I've built the basic up & down converters with pretty
+	good results (>80% efficiency) but I'm running into problems
+	when I try to design & build anything that puts out serious
+	amps... I know it can be done (I have some 5V@200A guts on my
+	bench) but something puzzles me: I'm using a simple choke as 
+	the storage element (basicly a toroid with a single winding)
+	but ALL commercial models use transformers with MANY windings.
+	I traced a few and they seem to use some of the winding for
+	the usual error/feedback but some of the others seem to loose
+	me... What are they for? Better than that, anyone have a full
+	schematic for one of these that I could get a copy of? I'd
+	love to see how they manage to squeeze out so much from such
+	low volume :-)
+
+	My other problems (in getting high amps & good efficiency) are
+	1) Lack of sources of ideal components (calculated) and 2)
+	Limited knowledge of the whole topic... I'm doing this on my
+	own (not school) mind you (in fact, I have yet to take any
+	course that covers transistors ;-)
+
+	So, is the answer to #1 the accumulation of dead commercial
+	models and truning into a scavanger (not that it's not what
+	I'm doing now...) and #2 getting & understanding schematics
+	and a bit more of the [mind-boggling] theory? 
+
+	Take care.
+
+	P.S. My goal is 12V @ ~25A in (car battery) -> 250VAC out and
+	(on the other end) 250V -> +5VDC @ 5A, -5V @ 1A, +12VDC @8A
+	and -12VDC @1A... the distance between the two will be
+	more than 100 feet (of 14-16 gauge) but less than 300 feet.
+	Would like to have a working model in a year or so... :-) 
+	(Do I have a chance to make it?)
+-- 
+/ Filip "I'll buy a vowel" Gieszczykiewicz. | Best e-mail "fmgst+@pitt.edu"  \
+| All ideas are mine but they can be yours for only $0.99 so respond NOW!!!! | 
+| I live for my EE major, winsurfing, programming, SCA, and assorted dreams. |
+\ 200MB Drive - Linux has 100MB and MS-DOS has 100MB. MS-DOS is worried ;-)  /

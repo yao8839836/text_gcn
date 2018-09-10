@@ -1,0 +1,15 @@
+From: STU_JWSHELBY@VAX1.ACS.JMU.EDU (JOSEPH W SHELBY)
+Subject: Xdec X11R5 server and DECstation 5000/2[0|5] sans DECnet
+Organization: James Madison University
+X-News-Reader: VMS NEWS 1.24
+Lines: 9
+
+Has anybody built an X11R5 server that can run on a Personal Decstation
+5000 line with ultrix 4.3?  The only catch is that being "personal" machines,
+we did not install DECnet onto them, which the Xdec server on gatekeeper
+requires.
+
+any replies welcome...
+joe shelby
+stu_jwshelby@vax1.acs.jmu.edu
+

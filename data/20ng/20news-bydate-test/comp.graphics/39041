@@ -1,0 +1,40 @@
+Subject: Re: Fractal terrain generator?
+From: pdbourke@ccu1.aukuni.ac.nz (Paul David Bourke)
+Organization: University of Auckland, New Zealand.
+Keywords: fractal terrain mac
+Lines: 34
+
+deb47099@uxa.cso.uiuc.edu (Daniel E. Bradley) writes:
+
+>	Does anyone know of a fractal terrain generator for Mac, something
+>	I could hopefully import into a 3D program like Swivel or Stratavision?
+>	I know Infini-D has built in capabilities, but I don't have access to
+>	Infini-D. I downloaded two programs from Umich, in graphics/fractals,
+>	but both were from 1990-91 and crashed under System 7. I think they
+>	were Black and white anyway. Please, email me if you know of anything,
+>	as I don't check the newsgroups very often.
+>		Thanks in advance.
+>			Dan Bradley deb47099@uxa.cso.uiuc.edu
+
+Yes I have written something that creates meshed fractal terrain
+surfaces for exactly the purpose you require, importing into 3D
+modelling packages. Be warned, the data content is high and brings
+many packages to their knees. We use it primarily for MicroStation
+but it exports DXF, as well as other formats, so you should be OK.
+You can get it from my FTP mirror site in the US.
+It is
+   wuarchive.wustl.edu
+my stuff is located in the
+   mirrors/architec
+directory. Please FTP the README file first.
+
+-- 
+Paul D Bourke                       School of Architecture, Property, Planning
+pdbourke@ccu1.auckland.ac.nz        The University of Auckland
+Ph:   +64 -9 373 7999 x7367         Private Bag 92019
+Fax:  +64 -9 373 7410               Auckland, New Zealand
+-- 
+Paul D Bourke                       School of Architecture, Property, Planning
+pdbourke@ccu1.auckland.ac.nz        The University of Auckland
+Ph:   +64 -9 373 7999 x7367         Private Bag 92019
+Fax:  +64 -9 373 7410               Auckland, New Zealand

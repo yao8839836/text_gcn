@@ -1,0 +1,40 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Satellite around Pluto Mission? 
+Organization: U of Toronto Zoology
+Lines: 35
+
+In article <1993Apr30.004311.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Is there a plan to put a satellite around each planet in the solar system to
+>keep watch? ...
+
+There would be some point to doing long-term monitoring of things like
+particles and fields, not to mention atmospheric phenomena.  However,
+there is no particular plan to establish any sort of monitoring network.
+To be precise, there is no particular plan, period.  This is a large
+part of the problem.  In this context, it's not surprising that unexciting
+but useful missions like this get short shrift at budget time.  The closest
+approach to any sort of long-term planetary monitoring mission is the
+occasional chance to piggyback something like this on top of a flashier
+mission like Galileo or Cassini.
+
+>How about a mission (unmanned) to Pluto to stay in orbit and record things
+>around and near and on Pluto...
+
+It is most unlikely that there is much happening on Pluto that would be
+worth monitoring, and it is a prohibitively difficult mission to fly
+without new propulsion technology (something the planetary community
+has firmly resisted being the guinea pigs for).  The combined need to
+arrive at Pluto within a reasonable amount of time, and then kill nearly
+all of the cruise velocity to settle into an orbit, is beyond what can
+reasonably be done with current (that is, 1950s-vintage) propulsion.
+
+>It could do some scanning of not only Pluto, but also of the solar system,
+>objects near and aaroundpluto, as well as SETI and looking at the galaxy
+>without having much of the solar system to worry about..
+
+Most of this can be done just about as well from Earth.  The few things
+that can't be, can be done better from a Voyager-like spacecraft that is
+*not* constrained by the need to enter orbit around a planet.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

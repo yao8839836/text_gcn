@@ -1,0 +1,23 @@
+From: mlm@fuzine.mt.cs.cmu.edu (Michael Mauldin)
+Subject: Re: Dorothy Denning opposes Clipper, Capstone wiretap chips
+Nntp-Posting-Host: fuzine.mt.cs.cmu.edu
+Reply-To: mlm@nl.cs.cmu.edu
+Organization: School of Computer Science, Carnegie Mellon
+Lines: 16
+
+In article <1993Apr26.063532.10120@eff.org> mnemonic@eff.org (Mike Godwin)  
+writes:
+> In article <C614BJ.BK6@agora.rain.com> jhart@agora.rain.com (Jim Hart)  
+writes:
+> >"The security of the system should depend only on the secrecy of
+> >the keys and not on the secrecy of the algorithms" -- Dorothy Denning
+> 
+> Cite source, please.
+
+Dorothy Denning, _Cryptography and Data Security_, 1982, Addison Wesley.
+Page 8, under the heading "Cryptosystems must satisfy three general
+requirements.  The other two are efficiency and ease of use.
+
+--Michael L. Mauldin
+  Carnegie Mellon University
+

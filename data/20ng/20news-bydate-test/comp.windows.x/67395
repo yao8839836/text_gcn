@@ -1,0 +1,24 @@
+From: mufti@plsparc.UUCP (Saad Mufti)
+Subject: Problem with xterm, no access to tty
+Organization: Personal Library Software, Inc.
+Lines: 19
+
+
+I'm running xterm under X11R5, Motif 1.1, mwm and UNIX SVR4 on a UNISYS
+386 based machine. My default shell is /bin/csh or the C shell. Whenever
+I run xterm, I get the following message before the first C shell prompt:
+
+Warning: no access to tty; thus no job control in this shell...
+
+After this, I can't run any job control commands like fg, bg etc. Also,
+I can't run another xterm from the command line of this xterm (I can only
+launch additional xterms from a .mwmrc menu).
+
+I'd appreciate some help with this problem, or pointers to where I can get
+some help. By the way, my environment variable TERM is set to xterm.
+
+----------------------------
+Saad Mufti
+Personal Library Software
+
+e-mail : mufti@pls.com

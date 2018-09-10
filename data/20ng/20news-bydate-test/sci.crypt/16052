@@ -1,0 +1,37 @@
+From: marc@tanda.isis.org (Marc Thibault)
+Subject: Re: Do we need the clipper for cheap security?
+Reply-To: marc@tanda.isis.org
+Distribution: na
+Organization: Thibault & Friends
+Lines: 30
+
+In article <rdippold.735426379@qualcom> 
+(Ron "Asbestos" Dippold) writes: 
+  ...
+> The only thing that worries me is that 2:1 compression - the
+> SoundBlaster can do it automatically in hardware, but other than that
+> I don't have a good feel for how processor intensive it is, so I can't
+> estimate how fast a PC you'd need.
+
+        There's a better way. Doesn't Qualcom have a secure design
+        that it decided not to market?  Since they aren't going to
+        use it, wouldn't the patriotic thing be to put the design in
+        the public domain? How about selling a "Cryptography
+        Educational Kit" with the critical parts? Something that could
+        end up as a PC option board with two phone jacks?
+
+        Cheers,
+                Marc
+
+---
+ Marc Thibault                             | marc@tanda.isis.org
+ Automation Architect                      | CIS:71441,2226
+ R.R.1, Oxford Mills, Ontario, Canada      | NC FreeNet: aa185
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+mQBNAiqxYTkAAAECALfeHYp0yC80s1ScFvJSpj5eSCAO+hihtneFrrn+vuEcSavh
+AAUwpIUGyV2N8n+lFTPnnLc42Ms+c8PJUPYKVI8ABRG0I01hcmMgVGhpYmF1bHQg
+PG1hcmNAdGFuZGEuaXNpcy5vcmc+
+=HLnv
+-----END PGP PUBLIC KEY BLOCK-----
+

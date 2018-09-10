@@ -1,0 +1,57 @@
+From: hannguye@nosc.mil (Han N. Nguyen)
+Subject: Action Translation Table implementation
+Organization: Naval Ocean Systems Center, San Diego, CA
+Distribution: usa
+Lines: 51
+
+
+Hello,
+
+
+Our application requires us to capture keypad presses for all windows
+in a number of applications.  We are trying to use action translation
+tables to implement this.  We have only succeeded by assigning the
+translation table to every individual widget in all windows in a single
+application.  The Xt calls we make are included below.
+
+It would be much more convenient if we could assign the translation
+table to a class of widgets rather than individual widget instantiations,
+and also accomplish it for MULTIPLE applications.  If someone could
+describe how do this it would be greatly appreciated.
+
+Platform: Sun Sparc w/ X11R4 & Motif 1.1.4
+
+***********************************************************************
+
+static XtActionsRec actionsTable[] = {
+        {"up", do_up},
+        {"right", do_right},
+        {"middle", do_middle},
+        {"left", do_left},
+        {"down", do_down},
+	{"bye", quit},
+};
+
+static char defaultTranslations[] = 
+		"<Key>KP_8: up() \n\
+		 <Key>KP_6: right() \n\
+		 <Key>KP_5: middle() \n\
+		 <Key>KP_4: left() \n\
+		 <Key>KP_2: down() \n\
+		 <Key>KP_1: bye()"; 
+
+XtTranslations	trans_table, trans_table2;
+
+(. . .)
+
+    XtAddActions(actionsTable, XtNumber(actionsTable));
+    trans_table = XtParseTranslationTable(defaultTranslations);
+
+    widget = XtCreateManagedWidget("msg", xmPushButtonWidgetClass,
+		form, wargs, n);
+
+    XtOverrideTranslations(widget, trans_table);
+
+***********************************************************************
+
+

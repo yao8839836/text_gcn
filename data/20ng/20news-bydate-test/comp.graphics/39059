@@ -1,0 +1,375 @@
+From: danj@welchgate.welch.jhu.edu (Dan Jacobson)
+Subject: Re: Is there an FTP achive for USGS terrain data
+Organization: Johns Hopkins Univ. Welch Medical Library
+Lines: 370
+
+In article <C6DJ25.6wL@cs.columbia.edu> olasov@cs.columbia.edu (Benjamin Olasov) writes:
+>In article <1993Apr24.220701.26139@welchgate.welch.jhu.edu> danj@welchgate.welch.jhu.edu (Dan Jacobson) writes:
+>
+>[A lot of interesting stuff about gopher - deleted]
+>
+>>If you've never heard of gopher don't worry it's free and on the net,
+>>write me a note if you'd like information on how to get started.
+>>
+>>
+>>Best of luck,
+>>
+>>Dan Jacobson
+>>
+>>danj@welchgate.welch.jhu.edu
+>
+>
+>I've heard of it but lost the intro posting that came out a while back -
+>could you post it again?  I think it's of general interest.
+>
+>
+>Ben
+>-- 
+>Ben Olasov		olasov@cs.columbia.edu
+
+
+
+This is a heavily edited/modified version of the Gopher FAQ intended to
+give people just starting with gopher enough information to get a
+client and jump into Gopher-space - a complete version can be obtained
+as described below.  Once you have a gopher client point it at 
+merlot.welch.jhu.edu and welcome to gopher-space!
+
+
+Dan Jacobson
+
+danj@welchgate.welch.jhu.edu
+
+-----
+
+Common Questions and Answers about the Internet Gopher, a
+client/server protocol for making a world wide information service,
+with many implementations.  Posted to comp.infosystems.gopher, 
+comp.answers, and news.answers every two weeks.
+
+The most recent version of this FAQ can be gotten through gopher, or
+via anonymous ftp:
+
+rtfm.mit.edu:/pub/usenet/news.answers/gopher-faq
+
+Those without FTP access should send e-mail to mail-server@rtfm.mit.edu
+with "send usenet/news.answers/finding-sources" in the body to find out
+how to do FTP by e-mail.
+
+------------------------------------------------------------------- 
+List of questions in the Gopher FAQ:
+
+Q0:  What is Gopher?
+Q1:  Where can I get Gopher software?
+Q2:  What do I need to access Gopher?
+Q3:  Where are there publicly available logins for Gopher?
+Q4:  Who Develops Gopher Software?
+Q5: What is the relationship between Gopher and (WAIS, WWW, ftp)?
+Q6: Are papers or articles describing Gopher available?
+Q7: What is veronica?
+Q8: What is Available for Biology?
+-------------------------------------------------------------------
+Q0:  What is Gopher?
+
+A0:  The Internet Gopher client/server provides a distributed
+     information delivery system around which a world/campus-wide
+     information system (CWIS) can readily be constructed.   While
+     providing a delivery vehicle for local information,  Gopher
+     facilitates access to other Gopher and information servers
+     throughout the world. 
+
+-------------------------------------------------------------------
+Q1:  Where can I get Gopher software?
+
+A1:  via anonymous ftp to boombox.micro.umn.edu.  Look in the directory
+     /pub/gopher
+
+--------------------------------------------------------------------
+Q2:  What do I need to access Gopher?
+
+A2:  You will need a gopher "client" program that runs on your local PC
+     or workstation
+
+     There are clients for the following systems.  The directory
+     following the name is the location of the client on the anonymous
+     ftp site boombox.micro.umn.edu (134.84.132.2) in the directory
+     /pub/gopher.
+
+      Unix Curses & Emacs   :  /pub/gopher/Unix/gopher1.12.tar.Z
+      Xwindows (athena)     :  /pub/gopher/Unix/xgopher1.2.tar.Z
+      Xwindows (Motif)      :  /pub/gopher/Unix/moog
+      Xwindows (Xview)      :  /pub/gopher/Unix/xvgopher
+      Macintosh Hypercard   :  /pub/gopher/Macintosh-TurboGopher/old-versions *
+      Macintosh Application :  /pub/gopher/Macintosh-TurboGopher *
+      DOS w/Clarkson Driver :  /pub/gopher/PC_client/
+      NeXTstep              :  /pub/gopher/NeXT/
+      VM/CMS                :  /pub/gopher/Rice_CMS/ or /pub/gopher/VieGOPHER/
+      VMS                   :  /pub/gopher/VMS/
+      OS/2 2.0	            :  /pub/gopher/os2/
+      MVS/XA                :  /pub/gopher/mvs/
+
+     Many other clients and servers have been developed by others, the
+     following is an attempt at a comprehensive list.  
+
+      A Microsoft Windows Winsock client "The Gopher Book"
+        sunsite.unc.edu:/pub/micro/pc-stuff/ms-windows/winsock/goph_tbk.zip
+
+      A Macintosh Application, "MacGopher".
+        ftp.cc.utah.edu:/pub/gopher/Macintosh *
+
+      Another Macintosh application, "GopherApp".
+        ftp.bio.indiana.edu:/util/gopher/gopherapp *
+
+      A port of the UNIX curses client for DOS with PC/TCP
+        oac.hsc.uth.tmc.edu:/public/dos/misc/dosgopher.exe
+
+      A port of the UNIX curses client for PC-NFS
+     	 bcm.tmc.edu:/nfs/gopher.exe
+
+      A beta version of the PC Gopher client for Novell's LAN Workplace
+      for DOS
+         lennon.itn.med.umich.edu:/dos/gopher
+
+      A VMS DECwindows client for use with Wollongong or UCX
+         job.acs.ohio-state.edu:XGOPHER_CLIENT.SHARE
+
+
+     * Note: these Macintosh clients require MacTCP.
+
+     Most of the above clients can also be fetched via a gopher client
+     itself.  Put the following on a gopher server:
+
+       Type=1
+       Host=boombox.micro.umn.edu
+       Port=70
+       Path=
+       Name=Gopher Software Distribution.
+
+ 
+     Or point your gopher client at boombox.micro.umn.edu, port 70 and
+     look in the gopher directory.
+
+
+     There are also a number of public telnet login sites available.
+     The University of Minnesota operates one on the machine
+     "consultant.micro.umn.edu" (134.84.132.4) See Q3 for more
+     information about this.  It is recommended that you run the client
+     software instead of logging into the public telnet login sites.  A
+     client uses the custom features of the local machine (mouse,
+     scroll bars, etc.)  A local client is also faster.
+
+---------------------------------------------------------------------
+Q3:  Where are there publicly available logins (ie places to telnet to
+     in order to get a taste of gopher) for Gopher?
+
+A3:  Here is a short list, use the site closest to you to minimize
+     network lag.
+
+     Telnet Public Logins:
+
+     Hostname                  IP#              Login   Area
+     ------------------------- ---------------  ------  -------------
+     consultant.micro.umn.edu  134.84.132.4	gopher  North America
+     gopher.uiuc.edu           128.174.33.160   gopher  North America
+     panda.uiowa.edu           128.255.40.201	panda   North America
+     gopher.sunet.se           192.36.125.2     gopher  Europe
+     info.anu.edu.au           150.203.84.20    info    Australia
+     gopher.chalmers.se        129.16.221.40    gopher  Sweden
+     tolten.puc.cl             146.155.1.16     gopher  South America
+     ecnet.ec		           157.100.45.2     gopher  Ecuador
+     gan.ncc.go.jp             160.190.10.1     gopher  Japan
+
+
+     It is recommended that you run the client software instead of
+     logging into the public login sites.  A client uses the
+     custom features of the local machine (mouse, scroll bars, etc.)
+     and gives faster response.  Furthermore many of the basic features
+     of clients - saving a file to your hard drive, printing a file
+     to a local printer, viewing images, retrieving files from ftp
+     sites etc.... are not available by the telnet logins.
+
+
+
+---------------------------------------------------------------------
+Q4:  Who Develops Gopher Software?
+
+A4:  Gopher was originally developed in April 1991 by the University
+     of Minnesota Microcomputer, Workstation, Networks Center to help
+     our campus find answers to their computer questions.  
+
+     It has since grown into a full-fledged World Wide Information
+     System used by a large number of sites in the world.
+
+     Many people have contributed to the project, too numerous to
+     count. 
+
+     The people behind the much of the gopher software can be reached
+     via e-mail at gopher@boombox.micro.umn.edu, or via paper mail:
+   
+      Internet Gopher Developers
+      100 Union St. SE #190
+      Minneapolis, MN 55455  USA
+
+     Or via FAX at:
+ 
+      +1 (612) 625-6817
+
+---------------------------------------------------------------------
+Q5: What is the relationship between Gopher and (WAIS, WWW, ftp)?
+
+A5: Gopher is intimately intertwined with these two other systems.
+     As shipped the Unix gopher server has the capability to: 
+     
+       - Search local WAIS indices.
+       - Query remote WAIS servers and funnel the results to gopher
+         clients.
+       - Query remote ftp sites and funnel the results to gopher
+         clients.
+       - Be queried by WWW (World Wide Web) clients (either using
+         built in gopher querying or using native http querying.
+
+-------------------------------------------------------------------
+Q6: Are papers or articles describing Gopher available?
+
+A6: Gopher has a whole chapter devoted to it in :
+
+     _The_Whole_Internet_, Ed Kroll, O'Reilly, 1992 (Editors note:
+                             ..Great book, go out and buy a bunch!)
+
+     _The_Internet_Passport: NorthWestNet's Guide to Our World Online"
+     By Jonathan Kochmer and NorthWestNet. Published by NorthWestNet,
+     Bellevue, WA. 1993. 516 pp. ISBN 0-9635281-0-6. 
+     Contact info: passport@nwnet.net, or (206) 562-3000
+
+     _A_Students_Guide_to_UNIX by Harley Hahn. (publisher McGraw Hill,
+     Inc.; 1993 ISBN 0-07-025511-3)
+
+
+     Other references include:
+
+     _The_Internet_Gopher_, "ConneXions", July 1992, Interop.
+
+     _Exploring_Internet_GopherSpace_ "The Internet Society News", v1n2 1992, 
+
+     (You can subscribe to the Internet Society News by sending e-mail to
+      isoc@nri.reston.va.us)
+
+     _The_Internet_Gopher_Protocol_, Proceedings of the Twenty-Third
+          IETF, CNRI, Section 5.3
+
+     _Internet_Gopher_, Proceedings of Canadian Networking '92
+
+     _The_Internet_Gopher_, INTERNET: Getting Started, SRI
+          International, Section 10.5.5
+
+     _Tools_help_Internet_users_discover_on-line_treasures, Computerworld,
+          July 20, 1992
+
+     _TCP/IP_Network_Administration_, O'Reilly.
+
+      Balakrishan, B. (Oct 1992)
+        "SPIGopher: Making SPIRES databases accessible through the
+      Gopher protocol".  SPIRES Fall '92 Workshop, Chapel Hill, North
+      Carolina.
+
+      Tomer, C.  Information Technology Standards for Libraries,
+      _Journal of the American Society for Information Science_,
+      43(8):566-570, Sept 1992.
+
+
+-------------------------------------------------------------------
+Q7: What is veronica?
+
+A7: veronica:  Very Easy Rodent-Oriented Net-wide Index to 
+     Computerized Archives.
+
+     veronica offers a keyword search of most gopher-server menu titles
+     in the entire gopher web.  As archie is to ftp archives, veronica 
+     is to gopherspace.  A veronica search produces a menu of gopher
+     items, each of which is a direct pointer to a gopher data source.
+     Because veronica is accessed through a gopher client, it is easy
+     to use, and gives access to all types of data supported by the
+     gopher protocol.
+
+     To try veronica, select it from the "Other Gophers" menu on 
+     Minnesota's gopher server, or point your gopher at:
+
+     Name=veronica (search menu items in most of GopherSpace) 
+     Type=1 
+     Port=70 
+     Path=1/veronica 
+     Host=futique.scs.unr.edu
+
+------------------------------------------------------------------------------
+
+Q8: What is Available for Biology?
+
+A8: There is an incredible amount of software, data and information
+    availble to biologists now by gopher.
+
+Here is a brief list of the Biological Databases that you can search 
+via gopher:
+
+      2.  BDT Tropical Data Base Searches/
+      3.  Biotechnet Buyers Guide - Online Catalogues for Biology <TEL>
+      4.  Search Protein Data Bank Headers <?>
+      5.  Chlamydomonas Genetics Center /
+      6.  Crystallization database/
+      7.  HGMP Databases - Probes and Primers /
+      8.  Museum of Paleontology TYPE Specimen Index <?>
+      9.  MycDB - Mycobacterium DataBase <?>
+      10. Search (Drosophila) Flybase (Indiana)/
+      11. Search (GenBank + SWISS-PROT + PIR + PDB)  <?>
+      12. Search AAtDB -  An Arabidopsis thaliana Database <?>
+      13. Search ACEDB - A Caenorhabditis elegans Database <?>
+      14. Search CompoundKB - A Metabolic Compound Database <?>
+      15. Search Databases at Welchlab (Vectors, Promoters, NRL-3D, EST, OMI../
+      16. Search EMBL <?>
+      17. Search GenBank <?>
+      18. Search Genbank - 2 <?>
+      19. Search Genbank Updates <?>
+      20. Search LiMB <?>
+      21. Search PIR  <?>
+      22. Search PIR (keyword,species...) <?>
+      23. Search PROSITE <?>
+      24. Search Rebase - Restriction Enzyme Database <?>
+      25. Search SWISS-PROT <?>
+      26. Search TFD <?>
+      27. Search the C. elegans Strain List  <?>
+      28. Search the DNA Database of Japan <?>
+      29. Search the EC Enzyme Database  <?>
+      30. Search the GrainGenes database  <?>
+      31. Search the Maize Database /
+      32.  Cloning Vectors: plasmids, phage, etc. <?>
+      33.  EPD - Eukaryotic Promoter Database <?>
+      34.  EST - Expressed Sequence Tag Database - Human <?>
+      35.  wEST - Expressed Sequence Tag Database - C. elegans <?>
+      36.  Kabat Database of Proteins of Immunological Interest <?>
+      37.  NRL_3D Protein Sequence-Structure Database <?>
+      38.  OMIM - Online Mendelian Inheritance in Man <?>
+      39.  Seqanalref - Sequence Analysis Bibliographic Reference Data Ban.. <?>
+      40. Search Rebase - Restriction Enzyme Database <?>
+      41. Search the EC Enzyme Database <?>
+      42. Search The Rodent Section of Genbank <?>
+      43. Database Taxonomy (Genbank, Swiss-Prot ...)/
+      44. Retrieve Full PDB Entries by Accession Number <?>
+      45. Search for All Researchers funded by NIH <?>
+      46. Search for Genome Researchers funded by DOE <?>
+      47. Search for Researchers funded by NSF <?>
+      48. Search for Researchers funded by the USDA <?>
+      49. E-mail Addresses of Crystallographers/
+      50. E-mail Addresses of Yeast Reasearchers/
+      51. Phonebooks Around the World/
+      52.  Search and Retrieve Software for All Computers/
+      53.  Search and Retrieve Macintosh Software/
+      54.  Search and Retrieve DOS Software/
+      55.  Search and Retrieve GNU Software/
+      56.  Search and Retrieve Software for Biology/
+      57.  Search for Agricultural Software/
+      58.  Search and Retrieve Graphics Software and Data/
+      59.  Search and Retrieve all Online Perl Scripts/
+      60.  FTP Sites For Biology (56 archives for software and data)/
+
+
+And the list goes on - this is just the beginning
+

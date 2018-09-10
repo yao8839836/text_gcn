@@ -1,0 +1,57 @@
+From: varkki@ux1.cso.uiuc.edu (Varkki George)
+Subject: Strange messages when starting Windows
+Organization: University of Illinois at Urbana-Champaign
+Lines: 50
+Distribution: usa
+NNTP-Posting-Host: ux1.cso.uiuc.edu
+
+
+On a recently acquired Gateway 2000 machine, when starting Windows,
+three copyright statements flash on the screen right after the MS logo
+disappears and before ProgramManager takes over.  This does not happen
+on any other of our machines, and I am wondering whether this is a
+feature or whether this is related to several problems we are having
+with the machine.
+
+The system is a Gateway 2000, 4DX-33 machine.
+
+The messages that appear are:
+
+	(c) Copyright 1989-1992 Western Digital Corporation
+		All Rights Reserved
+	(c) Copyright 1985-1992 Congruent Corporation
+		All Rights Reserved
+	(c) Copyright 1985-1992 Microsoft Corporation
+		All Rights Reserved
+
+The AUTOEXEC.BAT file looks like this:
+
+@ECHO OFF
+PROMPT $P$G
+SET MOUSE=C:\MSMOUSE
+C:\MSMOUSE\MOUSE
+PATH=C:\;C:\DOS;C:\WINDOWS;c:\123;c:\wp51;f:\apps;f:\system;f:\winapps;f:\public
+SET TEMP=C:\WINDOWS\TEMP
+lh wd8003e -n 0x62 5 0x280 0xd000
+lh winpkt 0x60 0x62
+lh ipx
+lh netx
+f:\login\login
+win :
+
+The CONFIG.SYS file looks like this:
+
+DEVICE=C:\WINDOWS\HIMEM.SYS
+DOS=HIGH,umb
+DEVICE=C:\WINDOWS\EMM386.EXE NOEMS X=D000-D1FF
+STACKS=9,256
+FILES=50
+BUFFERS=30
+SHELL=C:\DOS\COMMAND.COM /P /E:1024
+
+Does anyone know what is going on?  Any help would be much
+appreciated.
+
+-- 
+Department of Urban and Regional Planning  | E-mail: varkki@uiuc.edu
+University of Illinois at Urbana-Champaign | Tel:    217.244.7059

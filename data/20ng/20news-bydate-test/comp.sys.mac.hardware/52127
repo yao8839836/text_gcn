@@ -1,0 +1,35 @@
+From: roy@mchip00.med.nyu.edu (Roy Smith)
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+Organization: New York University, School of Medicine
+Lines: 29
+NNTP-Posting-Host: mchip00.med.nyu.edu
+
+stubbs@hawk.cs.ukans.edu (Jerry Stubbs) writes:
+> The electricy consumption will go down if you turn them off overnight,
+> along with heat.
+
+	I wonder how hard it would be (i.e. what it would add to the cost)
+to design desktop machines with a power saver feature built in which would
+reduce power consumption automatically if the machine is idle for more than
+some amount of time.  This is pretty standard in portable machines, and the
+same kinds of tricks could be played; spinning down disks, turning off
+screens, reducing clock speed, etc.  The advantage of this over just turning
+the thing off would be 1) you don't have to remember to do anything and 2)
+the machine is still available over the network.
+
+	The tricky part might be in defining what constitutes inactivity.
+Certainly, you don't want to wake up from sleep mode just because somebody
+pinged you, but you do want to wake up (at least the CPU) if somebody
+logs in via a telnet connection.
+
+	I wouldn't worry too much about wasting electricity in the winter
+months; that energy is just getting turned into heat.  It may not be as
+efficient a way to heat a building as the central heating plant, but it's
+not too bad.  In the summer though, it's a disaster.  Not only are you
+wasting that power, but you're probably also running the air conditioning to
+get rid of the waste heat.
+-- 
+Roy Smith <roy@nyu.edu>
+Hippocrates Project, Department of Microbiology, Coles 202
+NYU School of Medicine, 550 First Avenue, New York, NY 10016
+"This never happened to Bart Simpson."

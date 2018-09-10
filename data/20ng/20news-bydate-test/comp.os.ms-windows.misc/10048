@@ -1,0 +1,26 @@
+From: eliza@tigern (Elisabeth Bull)
+Subject: Re: Why I'm not using Dos 6 anymore
+Organization: University of Trondheim, Norway
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 20
+
+Mark Woodruff (CDA90038@UCF1VM.BITNET) wrote:
+> 
+> This morning at 4 am while I was working on my research paper, I had to
+> reboot a hung Dos program (that did no disk i/o) from within Windows 3.1.
+> When my machine finished rebooting, I found my windows directory and about two
+> thirds of my other directories were irreversibly corrupted.
+> 
+(stuff deleted)
+
+This sounds like what happened to my HD a month ago. My HD was stacked
+with Stacker v.2.0 (I run Dos5) Suddenly everything hung up, and most of
+the HD got corrupted (directories changed into unreadable files with
+'funny' names). In other words: it is probably just the doubledisk part of
+Dos6 that is troublesome. 
+
+I now use Stacker v 3.0, and so far I have had no trouble. 
+
+--------------------------------------------------------------------------
+   Elisabeth Bull                       e_mail: eliza@swix.nvg.unit.no
+--------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+From: chrisw@yang.earlham.edu
+Subject: accelerated Mac Plus problems
+Organization: Earlham College, Richmond, Indiana
+Lines: 12
+
+Hello
+	I recently accelerated my Mac Plus (MicroMac 25MHz accelerator) 
+and now I can't get my Mac to boot off of the hard disk.  It boots fine 
+from a floppy, and I can mount the hard disk using SCSI probe, but I 
+cannot get it to boot from the hard drive.  I installed a new driver, so I 
+don't think that is the problem.  
+	This poses a rather large problem.  I only have 4 Meg of RAM, and 
+I need to run Mathematica, which requires 5 Meg.  I was hoping to use 
+system 7 virtual memory so that I could run Mathematica.  However, I can't 
+run system 7 from a floppy, so I can't get enough RAM.  
+	Any suggestions? Thanks for your time--
+						Chrisw@yang.earlham.edu

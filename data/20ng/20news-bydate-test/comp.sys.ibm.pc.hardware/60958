@@ -1,0 +1,18 @@
+From: arenzana@angelo.amd.com (Romeo Arenzana)
+Subject: How to add another IDE HD with Stacker 3.0
+Keywords: HD
+Organization: Advanced Micro Devices, Inc.
+Lines: 12
+
+Hi,
+    Can somebody tell me step by step how to add a 40Mb IDE Kalok?
+HD to an existing 120Mb IDE Maxtor HD with Stacker 3.0 and DOS 5?
+I know how to set the jumpers on the 40M to be slave and the settings
+for heads, wpcom, sectors, etc. I also know that I have to do some
+CMOS settings and fdisk. The problem is: what letter will the CMOS
+give the new drive? If it's D:, what will happen when Stacker creates
+D: and swap? Can I tell CMOS to make it E:? So that if I Stack it, I
+will have C, D, E and F?
+    I know this could be an FAQ or in a readme somewhere, but I want
+to hear from somebody who've actually done it. Thanks!
+							     Romy

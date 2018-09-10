@@ -1,0 +1,14 @@
+From: dittman@skitzo.dseg.ti.com (Eric Dittman)
+Subject: Question about IRQ2 and IRQ9
+Organization: Texas Instruments Component Test Facility
+Lines: 9
+
+I have an 8-bit serial card with two ports.  Each port has the option of
+using IRQ 2,3,4 or 5.  I also have two serial ports on a multi-I/O card,
+and the ports can be set to IRQ 3,4,5,7 or 9.  From other posts I've read,
+I get the impression that IRQ2 on the 8-bit card is the same as IRQ9 on
+the multi-I/O card.  Am I right?
+-- 
+Eric Dittman                  Texas Instruments - Component Test Facility
+dittman@skitzo.dseg.ti.com    (214) 480-7313
+Disclaimer:  Not even my opinions.  I found them by the side of the road.

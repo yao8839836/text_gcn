@@ -1,0 +1,74 @@
+From: jls@atglab.atg.com (Jerome Schneider)
+Reply-To: jls@atg.com
+Distribution: world
+Subject: Re: QUESTIONS about DOS external JOIN command...
+Organization: Aspen Technology Group
+X-Mailer: UUPC/bsnews 2.1 modified
+Lines: 66
+
+
+In article <1srg8c$i54@spud.Hyperion.COM>, the author writes:
+>    I am setting up my DOS/UNIX box on a 116M IDE and a 412M SCSI drive
+> and was wondering about the use of the (MS-DOS 5.0) JOIN command.  I
+> like the way it sets things up since I won't have to stick with the C:
+> D: & E: (crap) that DOS enforces.  I like how it would mimic mount
+> points of UNIX filesystems.  I have heard that there were problems
+> with using it, or at least under older versions of DOS.  Please tell!
+
+I have been using the JOIN command for many years now, mostly with good
+success in duplicating unix-style file mounts.  You will hear lots of
+people cursing JOIN because they confuse it with the dos APPEND command
+(a truely gnarly hack), but don't believe them.  You also will hear
+people saying that Microsoft recommends that you not use JOIN.  But, in
+Microsoft's Windows 4 Workgroups Resource toolkit, the following appears:
+
+  "JOIN, an MS-DOS utility, works fine with Windows for Workgroups 3.1 if
+  you do not change the state of the joined drives during a Windows for
+  Workgroups 3.1 session. This includes adding or removing joined drives
+  from within Windows for Workgroups. We recommend that you do not use
+  JOIN when running Windows Setup or Windows for Workgroups 3.1."
+
+Within this caveat, JOIN appears to be valid under windows.  However, I
+have found a couple of applications that don't deal well with filesystems
+that have been "mounted" using join.
+
+In particular, the worst offender is Word for Windows 2.0x.  It gets very
+confused when you edit and then try to save a file on a joined drive. It
+wants to create the saved file as ~NNNNN.tmp in the current dir, then
+delete the old file and rename the ~NNNNN.tmp file to the *.doc file.
+
+Unfortunately, WfW usually writes the ~NNNNN.tmp file in some idiotic
+place other than the current directory (often in the root dir of the
+joined filesystem, but not always).  Then, after deleting the original
+*.doc file, it can't find the ~NNNNN.tmp file to rename it.  Unless you
+search your disk systems, the document is gone.
+
+I have also found subtle problems using the MKS toolkit from a DOS box
+when JOINed filesystems are present.  I used to join c:\temp with a 4meg
+ramdisk, but MKS sometimes gets confused when doing an "ls" on the c:\temp
+dir, and misses some files in the temp dir.  (This is difficult to 
+reproduce, but it goes away totally when JOIN is not used.)  I think
+this is a Windows problem, rather than MKS's, since it works OK under raw
+DOS.
+
+So, I would suggest that you can use JOIN, but be aware that it may not
+be as robust you would like.
+
+Wouldn't it be real great to "mount" network drives (i.e. Z:) under the main
+file tree, rather than having all those darned drive letters? Unfortunately,
+JOIN won't let you do it.  There was talk on the net about a simple patch
+to let JOIN work on network drives, but I don't remember the source.
+
+It's too bad the JOIN command is not better implemented, since it would
+avoid using all those stupid drive letters.  I realize that MessDos was
+meant for casual, even ignorant users, so "mounting" all the drives in
+one file tree might be confusing. But, it looks like MS is going to carry
+this over into windows NT (another OS meant for casual, even igorant 
+users -- NOT!).  With all it's old family system baggage, maybe MS needs
+a recovery group so they can get on with life :-(.
+
+--
+Jerome (Jerry) Schneider             Domain: jls@atg.COM 
+Aspen Technology Group               UUCP:   {uunet}!csn!atglab!jls
+PO Box 673, Ft. Collins, CO 80522    Voice:  (303) 484-1488
+

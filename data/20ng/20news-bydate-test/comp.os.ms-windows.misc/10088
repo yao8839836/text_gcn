@@ -1,0 +1,20 @@
+From: mccall@mksol.dseg.ti.com (fred j mccall 575-3539)
+Subject: Re: Windows NT und X-Windows?
+Organization: Texas Instruments Inc
+Lines: 15
+
+In <1993Apr26.172936.908@eurom.rhein-main.de> hein@eurom.rhein-main.de (Hein Roehrig) writes:
+
+> 
+>I am not sure whether I am here in the right area, but does 
+>anybody here know whether Windows NT does/will include a X 
+>Windows server so that it can run X Window applications 
+>remotely? 
+
+No, it does not.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden
+------------------------------------------------------------------------------
+Fred.McCall@dseg.ti.com - I don't speak for others and they don't speak for me.

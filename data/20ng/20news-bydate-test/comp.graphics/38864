@@ -1,0 +1,35 @@
+Subject: Re: Virtual Reality for X on the CHEAP!
+From: tpot@ironbark (Tim Potter)
+Distribution: inet
+Organization: University College of Northern Victoria (Bendigo)
+NNTP-Posting-Host: ironbark.ucnv.edu.au
+X-Newsreader: Tin 1.1 PL3
+Lines: 27
+
+peter@gort.trl.OZ.AU (Peter K. Campbell) writes:
+: ridout@bink.plk.af.mil (Brian S.  Ridout) writes:
+: 
+: >In article <1993Apr15.134802.21995@mfltd.co.uk>, sts@mfltd.co.uk (Steve Sherwood (x5543)) writes:
+: >|> Has anyone got multiverse to work ?
+: >|>          Extn 5543, sts@mfltd.co.uk, !uunet!mfocus!sts
+: 
+: I've tried compiling it on several SPARCstations with gcc 2.22.  After
+: fixing up a few bugs (3 missing constant definitions plus a couple of
+: other things) I got it to compile & link, but after starting client
+: & server I just get a black window; sometimes the client core dumps,
+: sometimes the server, sometimes I get a broken pipe, sometimes it
+: just sits there doing nothing although I occassionally get the
+: cursor to become a cross-hair in dog-fight, but that's it.  I've
+: sent word to the author plus what I did to fix it last week, but
+: no reply as yet.
+: 
+: Peter K. Campbell
+: p.campbell@trl.oz.au
+
+I've discovered a bug in the libraries/parser/parser.c loadcolour function where it was generating a segmentation fault.  It appears the colourList[] is geting corrupted somehow.  I had it return random colours instead and everything worked great (except for a few colour problems) so I know its the only thing wrong.
+
+The colour table somehow gets a couple of nulls placed in it so when the "name" of the colours are compared it crashes.  I haven't found the problem yet maybe someone else can.
+--
+Adrian Turner
+University College of Northern Victoria
+turner@ironbark.ucnv.edu.au

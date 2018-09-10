@@ -1,0 +1,36 @@
+From: montnaro@spyder.crd.ge.com (Skip Montanaro)
+Subject: Re: ######### Drawing networks, graphs ? ###########
+In-Reply-To: montnaro@spyder.crd.ge.com's message of Mon, 17 May 1993 13:43:38 GMT
+Nntp-Posting-Host: spyder.crd.ge.com
+Reply-To: montanaro@ausable.crd.ge.com (Skip Montanaro)
+Organization: GE Corporate Research & Development, Schenectady, NY
+	<MONTNARO.93May17084338@spyder.crd.ge.com>
+Lines: 27
+
+
+In article <1993May17.085405.7807@eua.ericsson.se> tvtjet@eua.ericsson.se (Jorgen Eriksson) writes:
+
+	   Are there any widgets, function 
+	   librarys for drawing networks, 
+	   graphs etc ? (Not tree views) 
+	   Freeware, shareware, comercial...
+	   Like this, for instance:
+
+	   [ pretty picture deleted ]
+
+	   * Just by giving the associations 
+	     between the nodes. Automatic
+	     layout generation.
+
+	   * It would be nice if any node 
+	     symbols could be used. Maybe 
+	     even to insert widgets as nodes.
+
+	   * Using different line styles etc.
+	     for describing associations.
+
+Check out the XmGraph library in the following location:
+
+	iworks.ecn.uiowa.edu:/comp.hp/GUI_classic/XmGraph.tar.Z.
+--
+Skip (montanaro@crd.ge.com)

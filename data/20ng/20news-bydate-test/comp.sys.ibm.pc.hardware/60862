@@ -1,0 +1,30 @@
+From: schuster@panix.com (Michael Schuster)
+Subject: Re: How do I put an HD on an XT?
+Organization: Panix Public Access Internet & Unix, NYC
+Lines: 25
+
+In article <1993Apr21.011615.6677@ultb.isc.rit.edu> rxg3321@ultb.isc.rit.edu (R.X. Getter) writes:
+>This may be a dumb question, but I need to put a hard drive on my father's
+>PC/XT, either MFM, RLL, or IDE. I know how to hook it up, but how do I tell
+>the computer the geometry of the drive. On my 386, you set it in the BIOS, but
+>I doubt that's how it's done on an XT. I thought it might be software with
+>the controller card, but the IDE card for XT's that I saw didn't come with
+>any. Also, how do I low level format it once it's on the computer? (Assuming
+>a drive which needs formatting)
+
+Since there is no BIOS support for ST-506 interface hard disks in an XT,
+that support must come from a BIOS extension ROM on the (MFM/RLL) hard disk
+controller. Usually the controller has a ROM-based low level format
+program (a common jump address is C800:0005 ... you can type G=C800:5 from
+debug to see) and a small table of drive geometries it "knows" about.
+Sometimes these are selectable using jumpers on the card, sometimes you
+can enter them manually in the LLF menu. Failing that, you must use a
+third-party HD prep program like SpeedStor, Disk Manager, or the like.
+
+IDE drives come formatted already, and since the is controller part of the
+drive mechanism itself, concerns about geometry are irrelevant. Plug
+it in and go to FDISK.
+
+-- 
+Mike Schuster       |        schuster@panix.com | 70346.1745@CompuServe.COM
+------------------- | schuster@shell.portal.com | GEnie: MSCHUSTER

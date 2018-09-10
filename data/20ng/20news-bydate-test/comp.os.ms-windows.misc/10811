@@ -1,0 +1,48 @@
+From: davidst@microsoft.com (David Steckler)
+Subject: Re: RE: re: Challenge to Microsoft supporters.
+Organization: Microsoft Corporation
+Lines: 43
+
+In article <1993May16.135022.27516@gps.leeds.ac.uk> csympc@scs.leeds.ac.uk (M P Conmy) writes:
+>In article <C716uq.II3@feenix.metronet.com> jack@feenix.metronet.com (Jack Hudler) writes:
+>>In article <twalls.02vo@ncc1701d.demon.co.uk> twalls@ncc1701d.demon.co.uk (Tim Walls) writes:
+>>>
+>>>But I don't want to have to run blasted Windows every time I want to delete
+>>>a tree - it is absolutely ludicrous to load a hog like that just to delete
+>>>some files!  It would be like requiring a crane to change the tyre on a car.
+>>
+>>Then why don't you download som of the public domain utilitys the do exactly
+>>what you want an shut up.
+>
+>Why should he have to?  This sort of thing should be included.  How about
+>the millions of people who don't have access to pd libraries over networks?
+>
+>Just because people can work around it, doesn't mean that something shouldn't
+>be done to remedy the situation.
+>
+
+These are perfectly valid points and I agree. I'm glad we (MS) are starting
+to remedy this situation with DOS 6 (and it will get better in future 
+releases). You do need to be aware of some history, however. In the 
+mid-late 80's, MS's point of view was that OS/2 was going to take over
+the world and DOS would be phased out. As such, resources for DOS
+(and windows, for that matter) development were mostly redirected to OS/2.
+The theory was to keep just enough resources on DOS to support people
+until they started using OS/2, so utilities and such for DOS fell by the 
+wayside.
+
+Then Windows 3.0 hit the market, OS/2 flopped (1.x, at least...2.x seems to
+be doing a little better, but its future is still cloudy), and people either
+stayed with their DOS (3.x and 4.x) apps or moved to Windows. About that
+point in time, MS made its decision to drop OS/2 for DOS/Windows in the
+short term and Windows/NT in the long term. DOS 5, much improved over DOS
+3.x and 4.x, was the first result of MS's refocussing on DOS and Windows.
+Version 6 takes things somewhat further and I suspect future versions will
+offer even more in terms of "real" OS features (I work on NT and have no
+real clue about what my coworkers over in DOSland are doing, but I do
+know that there are a heck of a lot more of them than there were a
+few years ago).
+
+	...Dave
+
+Of course these are my opinions. If you want MS's opinions, as a PR person.

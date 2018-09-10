@@ -1,0 +1,13 @@
+From: doug@hparc0.aus.hp.com (Doug Parsons)
+Subject: Re: 48-bit graphics...
+Organization: HP Australasian Response Centre (Melbourne)
+Lines: 7
+X-Newsreader: TIN [version 1.1 PL8.5]
+
+
+Apollo (now HP) have a graphics board that does 80-bit graphics.  When I 
+heard that, I jumped.  The answer isn't that it can do 100 trillion-trillion-
+trillion colors.  It actually does 10 planes of 8-bits (or 5 planes of 16
+bits, etc.)  for very fast graphics.
+
+douginoz.

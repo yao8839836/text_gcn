@@ -1,0 +1,35 @@
+From: mts@wam.umd.edu ()
+Subject: Re: Ibm link to imagewriter -
+Nntp-Posting-Host: rac2.wam.umd.edu
+Organization: University of Maryland, College Park
+Lines: 29
+
+In article <10006.24.uupcb@ozonehole.com> chris.crayton@ozonehole.com (Chris Crayton)  writes:
+>*** On 04-20-93  21:25, Larry Henson had the unmitigated gall to say this:
+>
+> LH> Hello, I am trying to hook an Apple Imagewriter to my IBM Clone.
+> LH> I seem to have a problem configuring my lpt port to accept this.  How
+> LH> can you adjust baud, parity, etc. to fit the system?  I tried MODE, but
+> LH> it did not work.  If anyone can help, post of e-mail.  Thanx.
+>
+>LPT ports don't recognize baud, parity, etc. settings.  You might be tring
+>to connect a serial printer to a parallel port.  Try this: attach the serial
+>port of the printer to a serial port on the PC.  Use the mode command to set
+>the COM port settings.  Try
+>
+>C>MODE COM1,9600,N,8,1
+>
+>to set the port parameters.  Then use the MODE command to redirect the
+>printer port LPT1 like this:
+>
+>C>MODE LPT1=COM1
+>
+>This should work.  Good luck!
+>
+	First you need to connect them with a null modem cable.
+
+Atleast thats what I've heard.
+
+Dave.
+
+

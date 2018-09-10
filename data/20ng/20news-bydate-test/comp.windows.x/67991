@@ -1,0 +1,44 @@
+From: jc@minya.UUCP (John Chambers)
+Subject: painting with increasing resolution
+Lines: 40
+
+Some  people working a few cubes over have come up with this need, and
+it seems that someone out there just might have done it  already,  and
+can point me to some tools that would help. What they'd like to do is:
+Given a window that is taking a long time to draw (because either  the
+data  is  arriving  over a slow link, or the $DISPLAY is across a slow
+link), they would like to first paint a low-resolution version of  the
+picture,  and then repaint it in higher resolution.  Thus, the picture
+might first be generated in 1/4 resolution, with each  4x4  square  of
+pixels  being  filled  in  with a single color.  Next, each 4x4 square
+would be replaced by 4 2x2 squares; finally the 1x1 version  would  be
+painted.
+
+Since  one of the scenarios is with the window being on the other side
+of a slow link, the low-res version obviously wouldn't be  transmitted
+as  a bitmap; that wouldn't help at all.  Instead, there would have to
+be a process on the far end that receives the  low-res  picture  as  a
+small  bitmap,  and  blows up each pixel into a square (sorta like the
+magnifier programs do).  This brings up the question of whether the  X
+server  can help.  That is, when a window is opened, is there a way to
+ask that a "filter" program be run to process the pixels?  Or  is  the
+only  way  to  use  something  like  rsh  to start up a remote process
+("Permission denied" ;-), and have it open a local window?
+
+It seems the most likely scenario is a library routine that starts  up
+such  a  program  remotely, and then accepts bitmaps, compressing each
+one by some amount, and sending them to the remote program to  expand.
+But  if  there is something that X itself can do to help, it's be nice
+to hear about it.  (I looked in several FMs,  but  if  it's  there,  I
+obviously  don't  know  the keywords ;-).  If someone has a nifty tool
+available that packages it all, we might want to get a copy.
+
+Oh, yes; this is to run on some Suns.  Part of the idea  is  to  build
+demos  that  can  show such things as "If this were run across, say, a
+4800-bps link, this is how fast the pictures would appear."  Then  the
+customer would get a feel for the speed that they need to pay for.
+
+-- 
+If the auto industry were like the computer industry, a car would  now
+cost $5, would get 5000 miles to the gallon, and at random times would
+explode, killing all its passengers.

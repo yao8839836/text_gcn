@@ -1,0 +1,25 @@
+From: kaul@vnet.ibm.com
+Subject: Re: VESA Driver for IBM XGA
+News-Software: IBM OS/2 PM RN (NR/2) v0.17h by O. Vishnepolsky and R. Rogers
+Lines: 16
+Reply-To: kaul@vnet.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+Nntp-Posting-Host: kaul.bocaraton.ibm.com
+Organization: IBM Boca Raton Visual Subsystems
+
+In <gmichael.28.736186695@vmd.cso.uiuc.edu> gmichael@vmd.cso.uiuc.edu (Gary R. Michael) writes:
+>Can anyone tell me where to find a standard VESA display driver that will 
+>support the on-the-motherboard XGA video of a 486 50Mz DX2 IBM Model 95
+>(8595-0LF)?  I need to use 640 x 480 and higher resolutions under both 
+>Windows 3.1 and MS-DOS.  Minimum colors 256 at highest resolution, with 64K 
+>colors needed at 640 x 480.
+
+The IBM XGA SVGA VESA driver is on the 2.02 reference diskette, available
+from the IBM BBS.  It's also on Compu$erve, or you can bang on your sales
+rep to get you a later version.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Dick Kaul            | My opinions only, not official IBM positions, etc--
+IBM XGA Development  | they'd make me wear a suit if I were to speak for IBM.
+Boca Raton, FL       | "The use of unnecessary violence in the apprehension
+kaul@vnet.ibm.com    |  of the Blues Brothers has been approved."

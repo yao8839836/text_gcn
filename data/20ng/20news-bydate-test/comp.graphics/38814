@@ -1,0 +1,44 @@
+From: dfr@usna.navy.mil (PROF D. Rogers (EAS FAC))
+Subject: Re: Help needed on hidden line removal
+Keywords: hidden line graphics 3D
+Distribution: comp
+Organization: U. S. Naval Academy
+Lines: 37
+
+In article <raynor.735415408@beech.cs.scarolina.edu> raynor@cs.scarolina.edu (Harold Brian Raynor) writes:
+>
+>I am looking for some information of hidden line removal using Roberts
+>algorithm.  Something with code, or pseudo code would be especially
+>helpful.
+>
+>I am required to do this for a class, due Monday (we have very little
+>time to implement these changes, it is a VERY FAST paced class).  The
+>notes given in class leave a LOT to be desired, so I would vastly
+>appreciate any help.
+>
+>Actually any algorithm would be nice (Roberts or no).  The main problem
+>is two objects intersecting in x and y dimensions, need to know which
+>lines to clip off so that one object will appear in front of another.
+>
+>If you can give me an ftp address and filename, or even the name of a
+>good book, I'd REALLY appreciate it.
+
+G'day Brian,
+
+I'll be blunt about this. The ONLY reasonable explanation of Roberts
+algorithm is in
+
+Procedural Elements for Computer Graphics
+Rogers
+McGraw-Hill Book Co. 1985
+
+Go to the library and look at this.
+
+There is also a somewhat muddled explanation in the first edition
+of Newman and Sproull.
+
+The algorithm described in PECG runs in near linear time.
+
+Luck,
+
+Dave Rogers

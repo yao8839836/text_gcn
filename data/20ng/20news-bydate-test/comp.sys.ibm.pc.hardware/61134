@@ -1,0 +1,34 @@
+From: ballou@martigny.ai.mit.edu (Kenneth Robert Ballou)
+Subject: Re: CPU Temperature vs CPU Activity ?
+Organization: Oberon Software, Inc.
+Lines: 28
+NNTP-Posting-Host: altdorf.ai.mit.edu
+
+In article <1993Apr21.152632.709@nessie.mcc.ac.uk> victor@comms.ee.man.ac.uk (Victor Buttigieg) writes:
+>Lino Montuno (montuno@physics.su.OZ.AU) wrote:
+>>This may be a very naive question but is there any basis for the
+>>claim that a CPU will get hotter when a computationally intensive 
+>>job is running?
+>
+>I totally agree with your friend, since when the CPU is apparently idle
+>it is still in fact churning away millions of instructions per second
+>(checking for keyboard input for instance).  
+>
+>The exception to this is for CPU's used in laptops, where the CPU can
+>enter an idle state where it is just preserving its current status but
+>doing absolutely nothing.  In this case it needs a hardware interrupt
+>to get it going again.
+
+Actually, the iAPX86 family has a HALT instruction that causes the CPU to
+cease processing instructions.  The CPU resumes processing either by being
+reset or by receiving an external (hardware) interrupt.  This is different
+from the power management facilities Victor mentions.  Of course, whether an
+operating system's idle loop uses the HALT instruction is another matter
+entirely.
+-- 
+Kenneth R. Ballou				VOICE:		 (617) 494-0990
+Oberon Software, Inc.				FAX:		 (617) 494-0414
+One Memorial Drive, Cambridge, MA  02142	Internet:     ballou@oberon.com
+
+The views and opinions expressed above are my own and do not necessarily
+reflect those of my employer.

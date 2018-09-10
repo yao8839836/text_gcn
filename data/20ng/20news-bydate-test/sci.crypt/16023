@@ -1,0 +1,148 @@
+From: pat@rwing.UUCP (Pat Myrto)
+Subject: Re: Hearing on 29 April 1993
+Organization: Totally Unorganized
+Lines: 143
+
+In article <C62oJM.CJH@News.MR.Net> tmplee@TIS.COM (Theodore M.P. Lee) writes:
+>In article <tenneyC62HqH.6s1@netcom.com> Glenn S. Tenney,
+>tenney@netcom.com writes:
+>> of interest.  I understand that on 29 April, Mr. Markey will be holding
+>a
+>> hearing on the questions raised in this letter.  There may also be a
+>follow-on
+>> hearing dedicated to the clipper chip, but that's not definite.
+>
+>Glenn,
+>
+>Thanks for posting that.  I was surprised to notice, however, that one
+>question I might have expected to be asked was not:  "Are all forms of
+>strong encryption other than the Clipper to be made illegal?"  Speaking
+>of which, is anyone aware of whether that question *has* been asked of
+>any knowledgeable or official spokesperson for the government?  I have
+>not yet seen it mentioned in any of a dozen places it might have been
+>reported, but I could have easily missed it.
+
+Please let us know if you get a solid answer to the question of legality
+of other strong cryptosystems.   So far any references I have seen
+have been weasel-words ("more plans in the future, etc"), but nothing
+that could be taken as a "NO (strong crypto will NOT be outlawed)".  I
+have heard (not verified) that the Crime Bill before Congress has
+language that either requires escrow of keys, or that will regard
+all systems 'unapproved' for public use, like strong cryptosystems
+not trivially broken by the Govt, or without escrowed keys
+which one cannot readily change (read: use being only permitted by
+folks with 'special' connections, or government agencies) as either
+'terrorist tools' or 'drug dealers tools'.  Not outlawed SPECIFICALLY
+but by added Civil Forfeiture powers, and clever wording, EFFECTIVELY
+outlawed for all intents and purposes.
+
+Now, for some idle speculation ... for those who don't care, hit 'n' now.
+
+Crypto being EFFECTIVELY outlawed could be done without SPECIFICALLY
+outlawing ANY class of crypto systems.  For example, a crowbar, hammers,
+screwdrivers, and such can be regarded as 'burglar tools' pretty much
+at the whim of the authorities, based primarily on the individual
+possessing them in the car, etc. not being in a trade that makes routine
+use of these tools.  In a like manner, one who has no 'legitimate need'
+(gov't definition) for strong crypto software or systems, and is caught
+using them, might find themselves in possession of 'terrorist tools'.
+In other words, if one is not working for a corporation with extremely
+sensitive commercial data that warrants (in the Fed's opinion) strong
+security, or a government agency, and securing only work-related data,
+not personal data, one will most likely be nailed on this if discoverd.
+A personal desire for 'privacy' most certainly will not be regarded as
+a 'legitimate NEED': 
+"Why do you want such strong security, especially from 'legitimate law
+enforcement'? An individual with 'legitimate' endeavors would not be so
+concerned - government is not in the business of revealing your personal
+secrets to the public... so you must be trying to conceal or planning
+to conceal some unlawful or criminal activity...  DO YOU HAVE SOMETHING
+TO HIDE, HMMMM?"
+I expect that initially there will be some people selected either at
+random, or who happen to have been 'troublemakers' for the purposes of
+'making an example' for those who think the Feds are not SERIOUS about
+this... (mega ':-('s)
+
+One asking about a 'right' to privacy will probably get a response that
+there is no constitutional right for privacy spelled out AS SUCH (an
+argument used in the abortion debate):  "You do NOT have a right to have
+security that 'Legitimate Law Enforcement cannot break'" (as suggested
+in the Clipper Press Release).
+
+This, in a nutshell, is what I find so extremely frightening.  Not only
+for crypto systems, as in this case, but for the precident it will set,
+laying the groundwork for future erosions of privacy (escrow of both
+safe-deposit box keys - 'master' keys or combinations for privately
+owned safes, and so on.  WHY NOT?)...
+
+I cannot think of a better way to make an 'end-run' around those
+'inconvenient' parts of the US Constitution.  A law cannot be easily
+declared unconstitutional, if it there IS NO SPECIFIC LAW.  It would
+simply be a minor extension of the RICO statutes or WoD policies. A
+simple policy decision, just like so many of the gun regulations are
+mainly BATF policy decisions...  The Conversation of the Fed agents
+would go something like:
+
+"We are gonna seize your home, your computers, your car, your bank
+account, (you don't have to undress and give us yer clothes, unless you
+have a floppy in yer pocket) because they are all connected with your
+acquisition, transport, and use of 'terrorist tools' and/or 'drug dealers
+tools' - part of the WoD or against terrorism, ya unnerstand... no
+decent American Subject would be against these noble causes...".
+
+"Note we are not accusing YOU of any wrong-doing ... we are only saying
+your HOME, COMPUTERS, CAR, BANK ASSETS are connected with wrong-doing
+SOMEHOW - they housed, transported, and funded these 'terrorist tools'.
+Only a civil matter ...  <heh-heh> ... We had this 'tip'...<grin>".
+
+"Therefore, the Constitutional Protection on Individual rights do NOT
+apply - we are 'arresting' the tainted PROPERTY... not YOU...<evil grin>".
+
+"If you wish to deposit a BOND, hire some attorneys, and go to court to
+PROVE the innocence of this property (that they are not 'terrorist tools'
+and again to prove they are not also 'drug dealers tools'), go ahead,
+we have no problem with that!  'Course, with your bank assets seized,
+no car, computer, or home, (probably no job, too) and your
+less-than-limitless resources, you might run into some minor practical
+difficulties <grin>...".
+
+THAT is what has me going so damned ballistic...  It is EXACTLY how
+the logic goes when someone gives a 'tip' that your home has been
+used to store DRUGS...  Note no trace of drugs need to be found on
+the property... only some bozo who will say 'yup.  I stored stuff in
+that dude's house...' (probably to get out of a 10 year sentence for
+dealing).  Much more cost effective to let him walk, to bust another
+day, and hit the jackpot with YOUR assets...
+
+Ob Disclaimer (of course)...
+
+Ok, note that I am not a lawyer, and can only base these speculations
+on what I have read/heard/been told regarding past Civil Forfeiture
+cases, and how they are used to augment the budgets of assorted agencies,
+or to get 'cooperation' of folks who just want to be left alone, or who
+do not wish to be put in a risky situation (especially in areas where
+they are denied either meaningful police protection, AND the means to be
+able to even pretend to defend themselves, as is quite common back East,
+like NJ, MA, NYC, Wa DC, or out West in CA).  These people have the
+choice of cowering under the government boot, or cowering under threats
+of pissed off drug dealing gang-bangers... helpless in either case...
+All behind some dude who drops a dime on you for his gain, or behind
+the Feds wanting to 'make an example'...  Civil Forfeiture being the 'hook'.
+
+Point is, are these speculations way out of line, or are they all too
+typical, and if so, does the extension to crypto and just about anything
+that the Feds regard as 'inconvenient' seem reasonable?  And if not
+why not (what are our guarantees, besides the government promises)?
+
+NONE?
+
+>Ted Lee
+>Trusted Information System, Inc.                        tmplee@tis.com
+>PO Box 1718 
+>Minnetonka, MN 55345
+
+-- 
+pat@rwing.uucp      [Without prejudice UCC 1-207]     (Pat Myrto) Seattle, WA
+         If all else fails, try:       ...!uunet!pilchuck!rwing!pat
+WISDOM: "Only two things are infinite; the universe and human stupidity,
+         and I am not sure about the former."              - Albert Einstien

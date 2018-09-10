@@ -1,0 +1,36 @@
+From: morris@sg25.npt.nuwc.navy.MIL (morris hirsch)
+Subject: (none)
+Organization: The Internet
+Lines: 30
+NNTP-Posting-Host: enterpoop.mit.edu
+
+We are adding a Motif wrapper to a family of data display programs.
+
+These programs are each written as a 'main loop' with these steps:
+- use semop to check a semaphore and if true access new data
+  otherwise block (new data comes quite often)
+- use msgop to check for messages and if true read them
+  otherwise continue (messages are user commands and not often)
+- update the display according to latest data and messages.
+
+We typically have several of these running in windows,
+plus a data producer serving some device and setting the flag.
+Everyone blocking makes sure the device server gets to run.
+
+Xt and Xm also have a 'main loop' model that we must fit into.
+O'Reilly Vol IV Ch 9 discusses adding a file-watcher and also
+how to add workprocs that are run during idle time.
+
+We can 'open-up' our existing main loop and call it as a workproc.
+The problem is our blocking until new data is no longer appropriate.
+Neither is letting the program free-run because others are hurt.
+
+The unix select call lets you block until any of several i/o are ready.
+We want that for the X main loop except not file i/o.
+Any suggestions or examples most welcome!
+
+We run SGI Personal Iris and Indigo systems.
+
+Morris Hirsch aka morris@sg25.nusc.navy.mil or 401 841 7800
+
+

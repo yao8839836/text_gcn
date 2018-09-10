@@ -1,0 +1,98 @@
+From: scot@bristol.NoSubdomain.NoDomain (Scot Wingo)
+Subject: ******* Cool Demo Now Available on Internet! *********
+Keywords: HyperHelp, Xprinter, Bristol, Cool
+Organization: Bristol Technology Inc.
+Lines: 92
+
+
+
+
+Bristol Technology announces the availability of 
+its HyperHelp(tm) and Xprinter(tm) demo for downloading.
+
+This demo showcases the two products in the form of a 
+diagram editor called DE.
+
+Download the demo and see some of these exciting features for yourself:
+
+	 o Complete on-line context sensitive help system.
+
+	 o Printing support for PCL5 and PostScript.
+
+	 o Rotated Text support!
+
+	 o Source code for the demo is provided.
+
+The demo is available via anonymous ftp from ftp.uu.net (137.39.1.9).
+
+There are two versions of the demo located in the vendor/Bristol directory:
+Sun     - sun4.demo.tar.Z (SunOS 4.x)
+HP      - hp700.tar.Z     (HP-UX 8 & 9)
+
+If you have any questions about the demo, send an
+e-mail to: support@bristol.com.
+
+If you want another version of the demo (rs6000,etc...) 
+please send an e-mail to: info@bristol.com.
+
+Remember to use binary mode!
+
+
+What are HyperHelp and Xprinter?  Read on......
+---------------------------------------------------------
+Bristol Technology is proud to announce version 3.0 of
+its popular HyperHelp product and version 2.0 of Xprinter.
+
+			    HyperHelp 3.0
+			    -------------
+HyperHelp is the de-facto standard for on-line context
+sensitive help in the Unix marketplace.  Through a one
+line function call, application developers can access the
+full features of HyperHelp and cut down drastically on
+their development time.  HyperHelp can use the same RTF,
+project, and bitmap files as the MS Windows Help facility.
+This allows a documentation department to maintain a single
+set of help documents portable between MS Windows, Motif and
+Open Look.  HyperHelp can also be authored in FrameMaker. 
+And with HyperHelp 3.0 Bristol introduces its SGML compiler!
+
+New features in HyperHelp 3.0 include secondary windows,a character
+based viewer, segmented bitmaps, SGML support, and an improved History
+window.
+
+			     Xprinter 2.0
+			     ------------
+Xprinter 2.0 allows developers to add sophisticated
+printer support to their existing/new X based applications
+very easily.  Xprinter uses the Xlib API for both the
+display and printer.  This lets you use the exact same code
+for drawing and printing.  Take a look at the source code for
+our demo and see Xprinter in action.
+
+If you are interested in adding PostScript and PCL5 support
+to your application, Xprinter is the tool for you!  Earlier
+this year Bristola dn USL signed an agreement that
+resulted in Xprinter becoming the standard printing technology
+for UNIX SVR4.2.
+
+
+Feel free to run the demo and let us know what you think about
+HyperHelp and Xprinter. 
+
+If you have any questions or comments, send them to us at:
+info@bristol.com or call us at (203) 438-6969.
+
+				Happy demoing,
+
+
+
+					The staff at Bristol Technology
+
+
+
+
+
+
+
+     			    
+

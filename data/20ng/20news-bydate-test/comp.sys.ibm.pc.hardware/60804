@@ -1,0 +1,43 @@
+From: redmond+@cs.cmu.edu (Redmond English)
+Subject: Diamond Stealth: HELP!
+Nntp-Posting-Host: ius4.ius.cs.cmu.edu
+Organization: School of Computer Science, Carnegie Mellon
+Lines: 37
+
+Hello,
+
+   I have a Diamond Stealth VRAM card (the older version
+with the DIP switches on the back).  I have two problems:
+
+1 ) I've lost the manual!!!
+
+2 ) I have it in a machine with a network card, and
+    everything works fine until I run windows, when
+    the network connection dies.
+
+    (In case it's important, the network card is an
+     SMC ArcNet 8-Bit compatable card.  It's I/O
+     address is 02E0 and it's RAM base address is
+     D000.  It's also using IRQ 2)
+
+
+    I believe there is a file on the Diamond Bboard that
+explains how to sort this out, but with no manual, I don't
+know the Bboard number.
+
+    If you can, please help me with as many of the following
+as possible:
+
+a ) Send me the Diamond BBS number
+b ) E-mail (or post) the DIP switch settings for the card
+    (or fax them to me at (412) 521-8668)
+c ) Tell me what I'm doing wrong, so I can magicly get
+    everything working.
+
+    Any help at all would be much appreciated.
+
+                Thanks in advance,
+
+                       Red/.
+
+

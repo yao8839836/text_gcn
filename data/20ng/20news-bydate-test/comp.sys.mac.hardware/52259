@@ -1,0 +1,16 @@
+From: chbeck@anl.gov (Chuck Beck)
+Subject: ?? Need Device- NTSC Video- SCSI Bus
+Organization: ANL
+Lines: 11
+
+Has anyone heard of a SCSI device that can capture video? 
+
+We need some sort of device that can capture about 10 frames or so per
+second, and work off the SCSI bus. The idea is to use it for some sort of
+video
+conferencing application.
+
+_______________________________________________________________________
+"If I told you all that went down, it would burn off both your ears..."
+_______________________________________________________________________
+These thoughts are only my own. CHBeck@anl.gov

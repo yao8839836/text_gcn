@@ -1,0 +1,26 @@
+From: iisakkil@beta.hut.fi (Mika Iisakkila)
+Subject: Re: SCSI vs. IDE
+In-Reply-To: randy@msc.cornell.edu's message of Tue, 13 Apr 1993 13:47:11 GMT
+Nntp-Posting-Host: beta.hut.fi
+Organization: Helsinki University of Technology, Finland
+Lines: 19
+
+randy@msc.cornell.edu writes:
+>Do all SCSI cards for DOS systems require a separate device driver to
+>be loaded into memory for each SCSI device hooked up?
+
+No. All that I've seen have also an on-board BIOS which enables you to
+use up to 2 hard drives directly under DOS (2 drives is a DOS
+limitation and you have the same problem with IDE and all other
+standards for that matter). Software drivers often allow for better
+performance, though. You have to use them if you want to use other
+devices besides hard disks or have more than 2 disks.
+
+>Will this also be true of the 32-bit OS's?
+
+Obviously these are not able to use the 16-bit real mode BIOSes that
+are written for DOS, so you need software drivers. That's not a big
+deal (as long as the drivers are available), because you won't have to
+fight with any low memory problems either.
+--
+Segmented Memory Helps Structure Software

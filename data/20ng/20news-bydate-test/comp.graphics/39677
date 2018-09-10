@@ -1,0 +1,18 @@
+From: max@slinky.NYU.EDU (David Max)
+Subject: NEEDED: non-interactive GIF cropper for PC
+Summary: I need a program to crop out pieces from GIFs where the crop
+         coordinates can be specified on the command line.
+Keywords: GIF crop
+Organization: New York University
+Lines: 10
+
+
+   I have a group of GIF images that each contain 6 small images in 
+the same place on all the images. I need a program to crop out the
+small images to a new GIF file. All the programs I can find make me
+use the mouse or keyboard to define the cropping coordinates. Is there
+a program out there for a PC that can take the crop coordinates on
+the command line?
+
+reply to: max@slinky.cs.nyu.edu (David Max)
+

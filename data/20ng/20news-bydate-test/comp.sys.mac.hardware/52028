@@ -1,0 +1,73 @@
+From: buzz@apple.com (Steve Bollinger)
+Subject: Re: Stereo sound problem (?) on mac games
+Organization: Apple Computer, Inc.
+Lines: 68
+
+In article <ingemar.735296165@isy> Ingemar Ragnemalm, ingemar@isy.liu.se
+writes:
+>>Enter game developers. The sound driver and current sound manager are
+>>inconveniently lame for making games.
+>
+>The Sound Driver is pretty ok, since it's fast. Sound Manager used by the
+>book is *useless*. Disposing of sound channels as soon as sound has
+completed
+>is out of the question for games with smooth animation. (It's too slow.)
+
+Why would you dispose a channel if you are going to play more
+sounds soon? If you are trying to write a game, you shouldn't
+be using SndPlay. Instead, make a channel and use BufferCmds
+to play sounds on it. It works great. You can add CallBacks to
+the channel also to let you know when the channel is getting
+empty. Before it gets empty.
+
+>
+>The Sound Driver is so much snappier than Sound Manager. Unfortunately,
+>System 7 supports it poorly, making programs crash occasionally.
+>
+>>The moral of the story is to developers: DON'T CHEAT!
+>
+>Well, I want my code to work on old systems too. I don't know about sys
+7.1,
+>but at least on 6.0.7, there are bugs in the Sound Manager that causes
+>channels to hang (with no error message). This happends when I keep a
+>channel open for long periods - necessary for performance - and play many
+>sounds, stopping sounds halfway. Callbacks seems not to be reliable.
+>Then only way I can safely tell if a sound has stopped playing is to
+>inspect private variables in the channel (QHead, I think it was), and the
+>only way I have found to tell if a channel is hung is to inspect an
+>*undocumented* flag and modify it.
+
+Callbacks are very reliable, I found them 100% reliable, even
+under System 4.1. I was doing continuous background sound with
+interrupting sound effects on System 6.0 with the IM-V
+documentation.
+
+You probably were cancelling your callback commands out of
+your channels, of course you didn't get called. In general, if
+you have problems with sounds working when you play one per
+channel and then close the channel (with the related
+slowdown), but then when you play more than one you don't
+work, then you are adding more than one synthesizer to a
+channel, possibly the same one multiple times. This might be
+because you are calling SndPlay on a preexisting channel with
+a sound resource which adds the sampled sound synthesizer to
+the channel first thing before it plays. Most sampled sounds
+have this command at the start of them. You need to resedit
+the sound and remove that command, then when you create your
+channel, specify the sampled sound synthesizer to be the
+channel's synth. Then you can use asynch sndplay's all you
+want. You'll probably want to switch to BufferCmd's, since you
+are going to have to use SndDoCommand anyway to add callbacks.
+
+Now before you go ahead and tell me I am full of it, and the
+sound manager doesn't work for games, remember, Spectre uses
+it. And it works great. If Spectre can spare the CPU time, you
+can too.
+
+One little disclaimer: There are some out there who say the
+Sound Manager in the IIsi can't be made to work right. I'm not
+sure either way, but I know for sure that you can make your
+sounds work 100% correctly on every other machine using the
+Sound Manager.
+
+-Steve

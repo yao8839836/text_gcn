@@ -1,0 +1,23 @@
+From: paladin@world.std.com (Thomas G Schlatter)
+Subject: Re: Dos window macros
+Organization: The World Public Access UNIX, Brookline, MA
+Distribution: usa
+Lines: 17
+
+In article <1993Apr27.200651.11520@CSD-NewsHost.Stanford.EDU> herrod@CS.Stanford.EDU (Stephen Herrod) writes:
+>Does anyone know a program that will record keyboard sequences that I 
+>do in a windowed dos box? I would like to have something that starts a
+>telnet program and then logs me into my accounts. Windows Recorder doesn't
+>seem to be able to record the key sequences.
+>
+>Thanks, STeve
+
+I think you would need a DOS macro program.  Superkey (by Borland?)
+comes to mind.  I don't think Windows is capable of sending
+keystrokes to a DOS window.
+
+What you want to do sounds like a security problem to me, though.
+
+Tom
+paladin@world.std.com
+

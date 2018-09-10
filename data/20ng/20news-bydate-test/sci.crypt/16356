@@ -1,0 +1,27 @@
+From: tds@hoserve.att.com (Tony DeSimone)
+Subject: Re: Audio CDs?
+Reply-To: tds@hoserve.att.com (Tony DeSimone)
+Organization: AT&T Bell Laboratories
+In-Reply-To: steve-b@access.digex.net's message of 30 Apr 1993 21:16:29 -0400
+Nntp-Posting-Host: qpc1.ho.att.com
+Lines: 19
+
+>>>>> On 30 Apr 1993 21:16:29 -0400, steve-b@access.digex.net (Steve Brinich) said:
+
+Steve>   Hmmm... given the error corrections in modern audio CDs, is
+Steve> it sufficient to simply instruct your agent to decrypt using
+Steve> the bit stream from the second cut of the latest Garth Brooks
+Steve> CD, or are the usual number of bit errors found acceptable in
+Steve> commercial CDs because of that error correction enough to
+Steve> garble the message if such a method is used?
+
+One unreliable data point: while looking over the shoulder of a
+recording engineer, I decided that he was seeing a raw error rate of
+about 1 in 1e6 on a CD ``master.''  Both the extrapolation to
+mass-market CDs and my state of mind while doing the arithmetic (I was
+waiting for him to finish so we could go get something to eat) are
+questionable. 
+--
+Tony DeSimone                               Room 3m321               
+Performance Analysis Department             101 Crawfords Corner Road
+AT&T Bell Laboratories                      Holmdel, NJ 07733-3030   

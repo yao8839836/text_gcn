@@ -1,0 +1,58 @@
+From: tomw@orac.asd.sgi.com (Tom Weinstein)
+Subject: Re: REVISED TECHNICAL SUMMARY OF CLIPPER CHIP
+Organization: Silicon Graphics Inc.
+Lines: 49
+Distribution: world
+Reply-To: tomw@asd.sgi.com
+NNTP-Posting-Host: orac.asd.sgi.com
+In-reply-to: denning@guvax.acc.georgetown.edu's message of 21 Apr 93 19:26:15 -0400
+
+In article <1993Apr21.192615.3465@guvax.acc.georgetown.edu>, denning@guvax.acc.georgetown.edu writes:
+
+> Each chip includes the following components:
+
+>    the Skipjack encryption algorithm
+>    F, an 80-bit family key that is common to all chips
+>    N, a 30-bit serial number (this length is subject to change)
+>    U, an 80-bit secret key that unlocks all messages encrypted with the chip
+[ ... ]
+
+> To see how the chip is used, imagine that it is embedded in the AT&T
+> telephone security device (as it will be).  Suppose I call someone and
+> we both have such a device.  After pushing a button to start a secure
+> conversation, my security device will negotiate an 80-bit session key K
+> with the device at the other end.  This key negotiation takes place
+> without the Clipper Chip.  In general, any method of key exchange can
+> be used such as the Diffie-Hellman public-key distribution method.
+
+> Once the session key K is established, the Clipper Chip is used to
+> encrypt the conversation or message stream M (digitized voice).  The
+> telephone security device feeds K and M into the chip to produce two
+> values:
+
+>    E[M; K], the encrypted message stream, and 
+>    E[E[K; U] + N; F], a law enforcement field , 
+[ ... ]
+
+> which are transmitted over the telephone line.  The law enforcement
+> field thus contains the session key K encrypted under the unit key U
+> concatenated with the serial number N, all encrypted under the family
+> key F.  The law enforcement field is decrypted by law enforcement after
+> an authorized wiretap has been installed.
+
+One very interesting thing I notice about this is that the only use of
+the chip key is to encode the session key for the law enforcement field.
+It is not used at all by the encryption algorithm.
+
+It seems like it would be possible to create a device that would be
+otherwise compatible, but would send out a bogus law enforcement field.
+This might render the device unusable with "normal" devices if there's
+some sort of validation involving the law enforcement field, but it
+could certainly be used with other such modified devices.
+
+Of course, this is irrelevant if the NSA has a backdoor in the
+algorithm, but it does make it possible to defeat the key escrow system.
+
+--
+Wilt thou seal up avenues of ill?  Pay every      |   Tom Weinstein
+debt, as though God wrote the bill. -- Emmerson   |   tomw@orac.esd.sgi.com

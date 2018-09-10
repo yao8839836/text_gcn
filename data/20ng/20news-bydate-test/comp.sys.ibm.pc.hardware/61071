@@ -1,0 +1,30 @@
+From: rarbanas@rcsuna.ph.gmr.com (Richard Arbanas )
+Subject: Using XT Pwr Spply
+Organization: General Motors Corp.
+Lines: 22
+Distribution: world
+Reply-To: rarbanas@rcsuna.ph.gmr.com (Richard Arbanas )
+NNTP-Posting-Host: rcsuna.gmr.com
+
+I am planning on upgrading my old XT compatible system with a new
+motherboard, hard drive, and 1.4 MB floppy.
+
+I am interested in using my old power supply (150 W) to power the new
+hardware, if possible.  
+
+I have been told by the motherboard vendor that I could probably
+use the supply if it had twelve wires going to the motherboard.
+(Apparently some XT vintage supplies had only 11 wires -- the
+12th wire is a 5v line used to charge the motherboard battery).
+
+My question is has anybody tried bringing an additional wire
+out of an 11 wire supply OR using an auxiliary power source
+to charge the motherboard battery?
+
+I do not wish to buy an entirely new power supply if I can 
+make use of my existing one with simple hacks.
+
+Thank you for any information.  
+An email reply to rarbanas@rcsuna.gmr.com would be fine.
+
+-Larry Arbanas

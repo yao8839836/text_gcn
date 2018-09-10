@@ -1,0 +1,60 @@
+From: john@gu.uwa.edu.au (John West)
+Subject: Re: ATARI 2600 Processors
+Organization: The University of Western Australia
+Lines: 54
+NNTP-Posting-Host: mackerel.gu.uwa.edu.au
+
+ifarqhar@laurel.ocs.mq.edu.au (Ian Farquhar) writes:
+
+>In article <1993Apr21.081317.599@das.harvard.edu> squish@endor.uucp (Shishin Yamada) writes:
+>>The Atari 2600 used a 6502 CPU, just like their entire 8-bit line
+>>(400, 800,1200,1400, 1440, 130xe, 65xe computers, as well as the 5200
+>>game machine). 
+
+>Wrong, it has a 6507.
+
+For those who would like to know, the 6507 was a 6502 without IRQ or NMI,
+and with only 13 address lines (giving 8K memory space).
+
+>It had one custome chip (not an ASIC in the sense that word is now understood):
+>the TIA (sometimes known as the 6526, although most other manufacturers list
+>that as the CIA complex interface adapter.)  TIA stands for Television
+>Interface Adapter, and it handles sound, paddles and the minimal video hardware
+>the 2600 possessed.
+
+Didn't know about it being called the 6526 - thats the CIA found in the
+Commodore 64 (I don't believe this chip existed when the 2600 was around).
+The TIA was mapped into the bottom 128 bytes of page 0, and shadowed in the
+bottom 128 bytes of page 1. To get an image on the screen, you had to wait
+until the raster line your picture started at, load bitmaps for this line
+into the 'sprite' registers, tell them what x positions to take, how many
+duplicates you wanted, etc, then do it all again for the next line. This
+took all of the processor's time during the visible portion of the
+display.
+
+>There was also a standard 6532 RAM, I/O, Timer (RIOT), plus a voltage
+>regulator and (if memory serves) a 555 timer.  That's all.
+
+The RAM was mapped into the top 128 bytes of page 0, and shadowed in page
+1. The 6502 has a zero-page addressing mode on most instructions that is
+both shorter and faster than the normal ones, so it is important on a
+machine like this to have the scratchpad RAM in page 0. Unfortunately, it
+also wants its stack to be in page 1 (the stack pointer is 8 bits, and the
+high byte of the address is hardwired to 1).
+
+The IOT section was mapped into page 2 somewhere. 2 8 bit I/O registers
+(can't remember if each bit could be independantly set to I or O like the
+6522 and 6526), and 1(?) 8(?) bit timer with a programmable prescaler (I
+think this was some power of 2). There were no interrupts in the system, so
+many games would set up the timer at some known time, go away and do
+something else for a while, then sit and wait for the timer to run down.
+
+There was no logic in the box to do address decoding - the RIOT had at
+least 2 chip select pins (probably one active high, one active low), and I
+imagine the TIA was much the same. Various address lines were fed directly
+to chip selects. The 6507 likes to have ROM right at the top of memory, so
+the 2600 had to use ROMs with active high chip selects - not exactly
+normal, so some cartriges had a 7404 in them to convert this to the more
+usual active low chip select.
+
+John West

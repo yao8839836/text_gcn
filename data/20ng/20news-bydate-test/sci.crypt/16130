@@ -1,0 +1,28 @@
+From: jfc@athena.mit.edu (John F Carr)
+Subject: Re: Clipper chip
+Organization: Massachusetts Institute of Technology
+Lines: 22
+NNTP-Posting-Host: achates.mit.edu
+
+In article <1993Apr28.104036.15896@ens.fr>
+	h2o@dmi.ens.fr (Philippe Hoogvorst) writes:
+
+>Forbidding crypted communication is impractical: how is it possible to spot
+>a crypted communication in the thousands of megabytes of data which circulate
+>on the various existing networks. What about private networks ?
+
+I suspect the government feels it is enough to prevent companies from
+offering secure encryption services.  Big companies don't take that
+kind of risk.  They're too visible and have too much to lose.
+
+The US government may not have to make encryption illegal to prevent its
+use.  If they could credibly say to IBM or MIT: you will receive no US
+government money next year unless you follow these voluntary guidelines on
+use of encryption, I doubt either organization would delay making use of
+encryption a violation of local policies.  The US government gets much of
+its power by making it impractical to operate without getting money from the
+government while putting restrictions on use of such money that would be
+illegal if they were enacted as laws.
+
+--
+    John Carr (jfc@athena.mit.edu)

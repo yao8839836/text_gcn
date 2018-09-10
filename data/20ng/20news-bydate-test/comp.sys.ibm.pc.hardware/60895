@@ -1,0 +1,70 @@
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Subject: Re: Diamond Stealth: HELP!
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 64
+NNTP-Posting-Host: slc10.ins.cwru.edu
+
+
+
+
+
+Article #61058 (61121 is last):
+>Newsgroups: comp.sys.ibm.pc.hardware
+From: redmond+@cs.cmu.edu (Redmond English)
+Subject: Diamond Stealth: HELP!
+Date: Wed Apr 21 16:54:39 1993
+
+Hello,
+
+   I have a Diamond Stealth VRAM card (the older version
+with the DIP switches on the back).  I have two problems:
+
+1 ) I've lost the manual!!!
+
+2 ) I have it in a machine with a network card, and
+    everything works fine until I run windows, when
+    the network connection dies.
+
+    (In case it's important, the network card is an
+     SMC ArcNet 8-Bit compatable card.  It's I/O
+     address is 02E0 and it's RAM base address is
+     D000.  It's also using IRQ 2)
+
+
+Shown 54%, press <SPACE> for more, 'q' to quit, or 'h' for help
+                                                                                
+    I believe there is a file on the Diamond Bboard that
+explains how to sort this out, but with no manual, I don't
+know the Bboard number.
+
+    If you can, please help me with as many of the following
+as possible:
+
+a ) Send me the Diamond BBS number
+b ) E-mail (or post) the DIP switch settings for the card
+    (or fax them to me at (412) 521-8668)
+c ) Tell me what I'm doing wrong, so I can magicly get
+    everything working.
+
+    Any help at all would be much appreciated.
+
+                Thanks in advance,
+
+                       Red/.
+
+
+End of File, Press RETURN to quit
+
+
+-------------------------------
+Date: Thu Apr 22 02:38:16 1993
+To: redmond+@cs.cmu.edu
+Subject: Re: Diamond Stealth: HELP!
+
+Diamond BBS 2400 baud...1-408-730-1100...9600 baud 1-408-524-9301
+voice 1-408-736-2000...fax 1-408-730-5750....Sam
+-------------------------------
+Press RETURN to continue: 
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...

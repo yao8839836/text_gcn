@@ -1,0 +1,43 @@
+From: willisw@willisw.ENG.CLEMSON.edu (Bill Willis)
+Subject: Re: help me, i'm not clever! (how to make power supply?)
+Keywords: power supply
+Organization: Engineering Services, Clemson University
+Lines: 37
+
+In article <94318@hydra.gatech.EDU> gt4417a@prism.gatech.EDU (SKELTON,JOEL PHILLIP) writes:
+
+>I need to make a power supply that can take input from a 
+>cigarette lighter in a car (12v dc) and drive 7.5 volts
+>at up to 3.0 amps. I know enough to know that a simple
+>voltage divider with two resistors won't do it right. Can
+>such a thing be made from Radio-Shack-able parts without
+>too much difficulty?
+
+>jps
+>bf
+
+>p.s. I've looked for premade things like this at radio shack but
+>none of it seems to go any higher than about 800mA.
+
+
+>-- 
+>Joel Skelton   --    North Avenue Trade School, Dept. of Round Things
+>gt4417a@prism.gatech.edu   (ask for Scooter Technologies, and receive)
+
+See if Radio Shack has a National Semiconductor Adjustable Voltage 
+Regulator, (National) part number: LM350T or LM350K.  These devices are 
+rated for an input to output differential of up to 35 Volts @ 3 Amps.
+
+Digi-Key Corp. has these parts, as well as several other useful regulators.
+If you don't have their catalog, their phone number is: 1-800-344-4539.
+
+I can only guess that you may intend to recharge a 7.5 VDC nicad battery 
+with this device, and if I'm right, you may want to look through some of the 
+hobbiest books to get various ideas for battery charging circuits, first.
+
+If you get stuck, e-mail me your FAX number, if you have one, and I'll send 
+you some suggestions or schematics.
+
+e-mail: willisw@coe-nw.clemson.edu
+
+

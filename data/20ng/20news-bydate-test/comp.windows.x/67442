@@ -1,0 +1,30 @@
+From: a93xaEPS@gsd.harvard.edu (Evan Smyth)
+Subject: Re: How to mask the left button?
+Article-I.D.: hsdndev.1rmb79$p95
+Reply-To: a93xaEPS@gsd.harvard.edu
+Distribution: world
+Organization: Harvard University, Cambridge, Ma
+Lines: 21
+NNTP-Posting-Host: germanicus.gsd.harvard.edu
+
+One way to "mask" the left button check the contents of the XEvent that the
+XAddEventHandler send to your event_handling function (in your case, it is the
+show_mouse_position function. 
+
+If the XEvent arrive in this function as 
+
+XEvent p_event;
+
+then, the value of p_event->xbutton.button is the button that was pressed. So, 
+you just do a switch on that value in order to distinguish between them. In case
+it was not clear p_event->xevent.button is an int. 
+
+By the way, you mentioned the Button1MotionMask and if anyone can help me with 
+these MotionMasks I would be grateful. I can not figure out how do distinguish
+between motions by which button is pressed as the motion is occurring. In 
+essence I would like an seperate event-handler for motion with each button. 
+Unfortunately, the XEvent sent by a MotionMask does not seem to contain the 
+value of the pressed button.
+
+Any ideas,
+eps

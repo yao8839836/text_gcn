@@ -1,0 +1,52 @@
+From: venaas@flipper.pvv.unit.no (Stig Venaas)
+Subject: Re: Promise Techhnology Caching IDE Controller
+Keywords: promise technology caching ide
+Organization: ProgramVareVerkstedet - UNIT
+Lines: 46
+
+In article <C5t53q.6Iq@dove.nist.gov> livigni@bldrdoc.gov (David livigni 303-497-5898) writes:
+>
+>Looking for help in just the right place...
+>
+>Does anyone have experience with the Promise Technology Caching
+>IDE Controller DC99M?  I just ordered one, $110 with 512k installed,
+>and have a few questions:
+>
+>1.  Is it easy to use?  Does it need any kind of TSR's, or is
+>it completely transparent to the system board, so that I won't
+>have to change the bios configuration?
+>
+Yes, it's easy to use. It's just like an ordinary controller.
+You don't have to change the bios config.
+
+>2.  Is it transparent to the IDE drive?  Will it work with any drive
+>or does it have to be configured explicity for the type of drive
+>installed?
+>
+It's transparent. It works with any drive. If you change the
+drive you only need to change the bios config. as usual.
+
+>3.  Will it work with a dual-drive system (master and slave)?
+Yes, no problem.
+
+>
+>4.  With it, will I need smartdrive or DOS buffers?
+That depends. You will get a little better performance
+if you use smartdrive and buffers in addition. That's
+because access to the card through the ISA bus is slower
+than access to system RAM. I don't use smartdrive myself,
+but I have a few buffers.
+
+>
+>5.  Is the Promise Technology controller a good one?
+>
+>Any information would be greatly appreciated.  Thanks!
+>
+>David Livigni
+>-- 
+>| livigni@bldrdoc.gov - Anything stated here is my opinion only! Y @--D |
+>| Rule of the Great:                                                    |
+>|         When people you greatly admire appear to be thinking deep     |
+>|         thoughts, they probably are thinking about lunch.             |
+
+Stig

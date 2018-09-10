@@ -1,0 +1,47 @@
+From: gsager@heliacal.Eng.Sun.COM (Gary Sager)
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+Organization: Sun Microsystems
+Lines: 39
+Distribution: world
+Reply-To: gsager@heliacal.Eng.Sun.COM
+NNTP-Posting-Host: heliacal
+
+
+>	I wonder how hard it would be (i.e. what it would add to the cost)
+>to design desktop machines with a power saver feature built in which would
+>reduce power consumption automatically if the machine is idle for more than
+>some amount of time.
+
+I believe that Apple, Sun and a number of other desktop machine
+manufacturers have agreed with the government to incorporate
+power-saving techniques;  this is also something that governments in
+other countries are likely to require in the future, so expect to see
+it.  This may include the ability for the system to fully power down
+the monitor, via a controllable power outlet, and power it back on
+automatically.  (Is this a "sell" on screen saver software companies?)
+
+Goals for "idle" power consumption have been set at something like 30
+watts for the system, not including the monitor (? don't quote me on
+this).
+
+Note that in many businesses, the savings will be substantial,
+especially if you factor in reduced load on air conditioning systems.
+Sun did a study that indicated that simply powering off monitors for
+the night would save the company (Sun itself) on the order of $1M per
+year.  Putting other (and automatic) power-saving features in would
+probably have greater than double that value.
+
+Given that we are seeing more and more reason to leave our work and
+home computers on (getting faxes, automatically getting email, ...),
+building power consumption control into all machines has a potential to
+cut ~2% off the national power consumption, based on data I heard.
+
+BTW: when encouraging employees to power off monitors when leaving
+work, it was pointed out that this should only be done with monitors
+with the power switch on front.  There was some indication that
+monitors with power switches on the rear are not designed to tolerate
+lots of power cycling.  This may only apply to the monitors we use, but
+might be worth checking if you happen to have a monitor with the switch
+in back.
+
+

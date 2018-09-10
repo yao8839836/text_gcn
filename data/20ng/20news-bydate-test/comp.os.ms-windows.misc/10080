@@ -1,0 +1,36 @@
+From: pwb@aerg.canberra.edu.au (Paul Blackman)
+Subject: Re: Windows zip/unzip
+Organization: University of Canberra
+Lines: 31
+
+In article <1rl9b6$h3c@sol.deakin.OZ.AU> russ@deakin.OZ.AU (Russ Sharp) writes:
+>We are using pkzip V2.04 and I am interested to hear from
+>people who have used one of the many Windows programs that
+>call these.
+>
+>Which ones are available and does any one stand out amongst
+>the rest?
+>
+>Is there a full windows version that does not call the DOS 
+>PKZIP/PKUNZIP commands?
+
+Yes Russ, there is. 
+QuinZip is a Windows version but I don't think it handles
+all the functions available in the DOS version.
+
+Last I looked QuinZip could be found on the Monash University (Australia)
+mirror site of Cica, so I'd assume it's still on Cica itself
+and other mirrors.
+
+Have a look in the /util(s?) directory for a file called
+qzip21.zip.
+
+~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~
+    o        |  Paul Blackman                   pwb@science.canberra.edu.au  
+        o    |  Water Research Centre,             pwb@aerg.canberra.edu.au
+   o  _      |  Faculty of Applied Science
+  -- (") o   |  University of Canberra, Australia.
+    \_|_--   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |      |  "Spend a little love and get high"
+    _/ \_    |                                    - Lenny Kravitz
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,35 @@
+From: NURDEN1@elaine.ee.und.ac.za (Dale Nurden)
+Subject: Re: Bios passwords
+Organization: Elec. Eng., Univ. Natal, Durban, S. Africa
+Lines: 29
+NNTP-Posting-Host: pc-elxx1.ee.und.ac.za
+
+>Some of our students change the AMI bios passwords on a few of our computers 
+>and set it for always. What we'd like to know is if there is a way to bypass 
+>or remove the password. We have tried switching bios, but to no avail. The 
+>battery is soldered to the bord, an all three machines is still under 
+>guarentee so if that would have help we can't remove the batteries.
+
+As far as I know, there is no way to get around the BIOS password except by 
+shorting out the power supply to the CMOS memory, thereby erasing it. This 
+will remove the password, but it will also destroy all the previous BIOS 
+settings, so then you'll have to go and set them all up again. On my 386, 
+there is a jumper on the motherboard which is provided for the purpose of 
+shorting the battery. You just short this jumper briefly, and it interrupts 
+power to the CMOS long enough to erase it. I would imagine there is 
+something like this on your board too. 
+
+In the future, I would suggest that YOU set the password, and leave it on 
+"Setup" only. That way, no-one else can go and reset it or set it to "
+Always" unless they know what password you used. They had to do this over 
+here too when they got a bunch of new 386's, for just the same reason.
+
+-Dale
+
+ /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\
+|      DALE M. NURDEN         \   /       NURDEN1@elaine.ee.und.ac.za    |
+|                            _  #  _                                     |
+|  Technical Co-ordinator       |       Dept. of Electronic Engineering  |
+|    Durban Youth Radio        /|\        University of Natal, Durban    |
+|   Durban, South Africa    __/_|_\__            South Africa            |
+ \______________________________________________________________________/

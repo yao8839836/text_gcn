@@ -1,0 +1,32 @@
+From: kbw@helios.ath.epa.gov (Kevin B. Weinrich)
+Subject: Tcpview doesn't read my XKeysymDB file. Howcum?
+Organization: Computer Sciences Corp.
+Lines: 25
+Distribution: world
+NNTP-Posting-Host: helios.ath.epa.gov
+
+Any Tcpview-for-Sun users out there?  I pulled down the pre-compiled
+executables made for Sun for Tcpview, but I'm getting a whole slew of the
+following types of error messages when I try to start it up:
+  Warning: translation table syntax error: Unknown keysym name: osfActivate
+  Warning: ... found while parsing '<Key>osfActivate:ManagerParentActivate()'
+  Warning: translation table syntax error: Unknown keysym name: osfCancel
+  Warning: ... found while parsing '<Key>osfCancel:ManagerParentCancel()'
+  Warning: translation table syntax error: Unknown keysym name: osfSelect
+  Warning: ... found while parsing '<Key>osfSelect:ManagerGadgetSelect()'
+  ...
+But I *know* I have those in my keysym:
+  egrep "osfActivate|osfCancel|osfSelect" $OPENWINHOME/lib/XKeysymDB
+yields:
+  osfActivate             :1004FF44
+  osfSelect               :1004FF60
+  osfCancel               :1004FF69
+  osfSelectAll            :1004FF71
+and, if I take *out* the osf lines from said XKeysymDB, my copy of wscrawl
+(another Motif-compiled-for-Sun program) gives the same type of complaints
+as listed above.
+
+Any tips?  I'm mystified.
+-- 
+Kevin Weinrich     Computer Sciences Corp.
+kbw@helios.ath.epa.gov

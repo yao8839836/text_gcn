@@ -1,0 +1,11 @@
+From: pfine@mitre.org (Paul Fine)
+Subject: TIFF 6.0
+Nntp-Posting-Host: paul-fine.mitre.org
+Organization: The MITRE Corporation
+Lines: 5
+
+I recently read in a book that the TIFF version 6.0 specification was due
+to be released in the spring of 1992.  I am interested in finding out about
+the new features of the TIFF spec (and if it is out).  Specifically, I need
+to know if TIFF 6.0 supports VQ decompression and/or image
+tiling.

@@ -1,0 +1,12 @@
+From: robinson@sml.cs.psu.edu (Andrew Robinson)
+Subject: Re: How do I put an HD on an XT?
+In-Reply-To: rxg3321@ultb.isc.rit.edu's message of Wed, 21 Apr 1993 01:16:15 GMT
+Nntp-Posting-Host: sml.cs.psu.edu
+Lines: 6
+
+Many (all?) XT drive controllers have their own BIOS on board to handle low-
+level formatting.  The BIOS also allows you to set up the drive properly
+(# of cylinders/heads/etc).
+--
+     -- Andy
+robinson@cs.psu.edu

@@ -1,0 +1,33 @@
+From: dan@igate.c-mols.siu.edu (Dan Ellison)
+Subject: Re: Scientific graphing - looking for run-time library
+Organization: Southern Illinois University - Carbondale, IL (SIU-C)
+Distribution: usa
+Lines: 27
+
+In <1993May10.212110.3980@serval.net.wsu.edu> d3e758@bucky.pnl.gov (JE Pelkey) writes:
+
+
+>In article <C6IEM6.16xI@hawnews.watson.ibm.com> artg@watson.ibm.com (Art Goldberg) writes:
+>>X gurus:
+>>I am looking for a scientific graphing run-time X library.  I want my code
+>>to open a window, and plot a graph in the window.  The library should
+>>manage plotting, scaling of axes, labeling, etc.
+>>
+>>Can someone recommend a library to do this?  Please respond via e-mail.
+
+>I would also be interested in this information.
+
+Check into the vopl and vogle libraries.  I beleive that I still have
+them available on ftp.c-mols.siu.edu but I'm not sure.  I haven't seen
+any new announcements for the software but I'm sure it's still around.
+
+I have used it to do real-time data display and analysis as well as
+just for producing graphs after the fact.  It works well and supports
+numerous graphics output formats (including X.)  I tried it and liked
+it.  YOu may as well.
+
+-- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| Dan Ellison, Network Spec 	  -    	Computing Affairs, SIU-C 	| 
+| Southern Illinois University 	  - 	Carbondale, IL 62901            |   
+| FAX:      (618) 453-3459        -   	PHONE:    (618) 453-6149 	|     

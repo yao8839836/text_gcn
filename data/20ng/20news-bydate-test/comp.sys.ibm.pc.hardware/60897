@@ -1,0 +1,48 @@
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Subject: Re: How hot should the cpu be?
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 42
+NNTP-Posting-Host: slc10.ins.cwru.edu
+
+
+
+
+
+Article #61083 (61123 is last):
+>Newsgroups: comp.sys.ibm.pc.hardware
+From: scholten@epg.nist.gov (Robert Scholten)
+Subject: Re: How hot should the cpu be?
+Date: Wed Apr 21 19:01:49 1993
+
+The temp on my 486DX2/66 is over 96C (measured with a K-type thermocouple 
+and Fluke 55 dig thermometer).  This is an "idle" temp - not doing lots of
+bus i/o, not doing floating point, not doing 32-bit protected mode etc.  This
+is in a Micron computer, without heatsink.
+
+I recently put a heatsink/fan on the chip, but I might take the fan off.  It
+makes a horrible whine at times, and I wonder what the vibration is doing to
+the pins on the cpu etc...
+
+-- 
+Rob Scholten
+scholten@epg.nist.gov
+End of File, Press RETURN to quit
+
+Rob,
+Don't worry about the whine of the fan it will go away in about 3 weeks
+of use, mine did...
+As to the vibration well that something I thought about to as I have
+a tower case and the mb is mounted vertically. So I mounted the fan
+on the case so that it just blows air at the CPU and its heatsink
+instead. Work just like a charm, but the realy biggy to think about
+is after the whine goes away on the fan. If the fan should stop (burn out)
+how would you ever know this before the cpu goes up in smoke. Thats what
+you should be thinking about. I have the parts together but have not
+had the time to assemble them as yet. But you build a thermistor controlled
+circuit that will turn on a pesso speaker and a LED when the temp. goes
+above the normal operating range (96c) or there abouts. Cheep to do if
+you use Radio Shack junk under $5....Think about that one for a while!
+Sam
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...

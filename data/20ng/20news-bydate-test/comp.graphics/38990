@@ -1,0 +1,39 @@
+From: holzapfe@jocki.NoSubdomain.NoDomain (Roland Holzapfel)
+Subject: Re: Tom Gaskins Pexlib vs Phigs Programming Manuals (O'Reilly)
+Reply-To: holzapfe@igd.fhg.de
+Organization: Zentrum fuer Graphische Datenverarbeitung, 6100 Darmstadt, Germany
+Lines: 33
+
+
+In article <1rb22k$l7v@neuro.usc.edu>, merlin@neuro.usc.edu (merlin) writes:
+|> Could someone explain the difference between Tom Gaskins' two books:
+|> 
+|>   o  PEXLIB Programming Manual
+|>   o  PHIGS Programming Manual
+|> 
+|> Why would I want to buy one book vs the other book?  I have an 80386
+
+PEXLIB and PHIGS (as it comes from MIT with PEX and as is explained in the
+PHIGS Programming Manual) are just different API's for the PEX protocol,
+which is an extension to the X protocol.
+
+So it depends on You, what you go to use.
+
+Advantage of Phigs is the protability to other platforms (IBM GraPhigs, 
+SunPhigs) and the standardized structuring of the 3D objects.
+
+Advantage of PEXlib is the sometimes faster and easier programming for
+immediate mode graphics, because PEX is not an exactly mapping of Phigs
+to a Prortocol.
+
+-- 
+       \|/
+      (o o)
+ -oOO--(_)--OOo--------------------------------------------------------
+  \\    Roland Holzapfel       Computer     email:                   //
+   \\   Wilhelminenstrasse 7   Graphics       holzapfe@igd.fhg.de   //
+   //   6100 Darmstadt          Center      phone:                  \\
+  //    Germany                 (ZGDV)        ++49 6151 155150       \\
+ -----------------------------------------------------------------------
+  >>             This space intentionally left blank                 <<
+ -----------------------------------------------------------------------

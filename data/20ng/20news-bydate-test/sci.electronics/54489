@@ -1,0 +1,39 @@
+From: mpaul@unl.edu (marxhausen paul)
+Subject: Re: Passive Mixer
+Organization: University of Nebraska--Lincoln	
+Lines: 32
+Distribution: world
+NNTP-Posting-Host: unlinfo.unl.edu
+
+shaffer-wendy@yale.edu (Wendy Shaffer) writes:
+
+>I'm trying to build a mixer for a friend of mine to run several things into
+>a single boom box.  I have a circuit that uses an op-amp powered by either a
+>couple of 9V batteries or using some kind of power supply.  But in a catalog
+>I was looking at recently, a "passive mixer" for guitar was advertised taht
+>doesn't appear to use any power at all.  Does anyone know what the circuit for
+>this would be, because then I could just adapt it for RCA jacks, and save my
+>friend and I alot of messing with batteries and plugs.  Thanks.
+
+Well, the fastest, crudest mixer (aside from just physically connecting
+all your inputs together directly) is to run each signal through a 
+resistor to a common output.  The resistors give some isolation so the
+signal sources aren't driving directly into each other. 
+
+Taking a wild, seat-of-the-pants guess, I'd say that if you are mixing
+high-impedance sources like some dynamic mikes, electric guitar pickups,
+etc., your resistors ought to be maybe 5K - 10K or so.  If you are mixing
+line-level stuff or the outputs of a Walkman, or such, I'd go with 1K.
+
+input 1 --/\/\/\/ -------------+--- output
+                               |
+input 2 --/\/\/\/\-------------+
+                               |
+input 3 --/\/\/\/\-------------+
+
+
+--
+paul marxhausen .... ....... ............. ............ ............ .......... 
+ .. . .  . . . university of nebraska - lincoln .  . . .. . .  .. . . . . . . .
+ .     .    .  .   .     .   .  .    .   .  .   .    .   .  grace .   .    .  . 
+   .         .       .      .        .        .      .        .   happens .     

@@ -1,0 +1,47 @@
+From: anthony@kurango.cit.gu.edu.au (Anthony Thyssen)
+Subject: COLORS and X windows (AIcons)
+Organization: Griffith University.
+Lines: 42
+
+Extract from the color README file for Anthony's Icon Library.
+For Network discussion...
+
+Color Coordination...
+
+    I tried to start a discussion in `comp.windows.x' at the start of the
+  year about some sort of `standard color table' that icons should follow
+  (say 16 to 32 colors including 5 colors for a small grey scale). but no
+  one responded at all.
+
+    The problem is that if the colors for icons are just used willy-nilly
+  you will soon find that the workstations color table, devotes itself
+  solely the window manager, icons and other `adminstrative tasks' instead
+  of applications that actually require the colors for proper working.
+  ``Color needful applications'' such as :  Picture and graphic displayers,
+  Animation, Real Time video, Raytracers, etc... .
+
+    The following is a suggested color table for icons, and general use.
+  Icons, Window Managers, and general applications, should follow this
+  table or something like it, UNLESS the application is ``color needful''.
+
+     * for each primary color (red,green,blue) three colors
+             EG: values   0, 128 and 255.
+       This results in  3 ^ 3  colors (27) representing most of the
+       standard colors for use in icons.
+
+     * two extra shades of grey
+             EG: vales    (black) 0, 64, 128, 196 and 255 (white,red,...)
+
+     * 3 other colors -- probably of some primary color to provide shading
+       a and 3-D look to buttons and titlebars in the window manager.
+
+    This table represents 32 colors and represents a large range of
+  posibilities for the above ``administrative services'' of the
+  workstation.
+
+
+  Anthony Thyssen - (SysProg @ Griffith University)     anthony@cit.gu.edu.au
+------------------------------------------------------------------------------
+  A Gods idea of amusement is a Snakes & Ladders game, with greased rungs.
+                                           - Terry Pratchett   "Wyrd Sisters"
+------------------------------------------------------------------------------

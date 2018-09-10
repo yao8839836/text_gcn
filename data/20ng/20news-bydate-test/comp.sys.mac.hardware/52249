@@ -1,0 +1,31 @@
+From: pmontan@nswc-wo.navy.mil (Paul Montanaro)
+Subject: Re: cd300 question
+Organization: NSWC
+Lines: 26
+
+In article <h01sav.dsyibm.desy.de-230493200218@michael.desy.de>,
+h01sav.dsyibm.desy.de (Michael M. Savitski) wrote:
+> 
+> Hi, there!
+> I have a MAC LC and consider buying CD300. I've been told,
+> however, that:
+> 1. The double speed of CD300 is achievable only on machines
+>    with SCSI-2.
+> 2. The double speed is a prerequisite for PhotoCD multisession
+>    capability, which I need.
+> 3. Which means I seem to gain nothing compared with, say CD150.
+> 
+> Any comments?
+> Thanx.
+> 
+
+  Your source is wrong.  The double speed CD300 is still slow compared to a
+typical hard disk.  The LC can easily handle the SCSI transfer rate of the
+CD300.  None of the current Macs, even the Quadras, support SCSI-2 unless
+you get a SCSI-2 Nubus Card.
+
+  You don't have to have double speed to use PhotoCD.  It's just faster
+reading images off of a disk.  I think that the CD150 can handle PhotoCD,
+but only single session.  The CD300 can do multisession PhotoCD.
+
+Paul

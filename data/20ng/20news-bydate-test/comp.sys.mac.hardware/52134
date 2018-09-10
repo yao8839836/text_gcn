@@ -1,0 +1,22 @@
+From: Marty Sachs <msachs@ux1.cso.uiuc.edu>
+Subject: 72-pin SIMMS for Q-800, be careful before buying
+Organization: USDA/ARS & Agronomy/UIUC
+Lines: 17
+
+I purchased 2x8 MB 72-pin (60 ns) SIMMs for my Quadra 800 from Chip
+Merchant (I've been very satisfied with them in the past).  Either one
+alone works, but both together fail.  I called Apple for advice and was
+told that there was a problem with "Composite" SIMMs.  Only non-composite
+SIMMs should be used with the Q-800.  Chip Merchant confirmed that they
+presently sell only composite 72-pin SIMMs.  So, Q-800 SIMMs need to be
+both 60 ns and non-composite.
+
+Marty Sachs
+----------------------------------------------------------------
+USDA/ARS & Agronomy/UIUC    msachs@ux1.cso.uiuc.edu [internet]
+S108 Turner Hall            msachs@UIUCVMD [bitnet] 
+1102 S. Goodwin Ave.        (217) 244-0864 [phone]
+Urbana, IL  61801           (217) 333-6064 [FAX]
+----------------------------------------------------------------
+
+

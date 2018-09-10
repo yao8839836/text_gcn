@@ -1,0 +1,58 @@
+From: dogbowl@dogbox.acme.gen.nz (Kennelmeister)
+Subject: Re: Atari Mono and VGA
+Reply-To: dogbowl@dogbox.acme.gen.nz (Kennelmeister)
+Organization: The Dawghaus BBS, Palmerston North, New Zealand (+64 6 357 9245)
+Lines: 52
+
+arosborn@oregon.uoregon.edu (Alan Osborn) writes:
+
+> In article <1993Apr19.090707.3686@tdb.uu.se>, m88max@tdb.uu.se (Max Brante) w
+> >Have anybody succeded in converting a atari monomchrome monitor into a
+> >mono VGA monitor. If so please let me know exactly how you did and what
+> >graphics card you used.
+
+> I wish I could help!  I posted a similar question about two weeks ago;
+> I got no response at all.  I've asked locally at my friendly Atari store.
+> I was told that it should be possible, but that they had no idea how
+> it might be done.  Nor did they particularly care to investigate.
+
+OK, here's my results so far....
+
+1: You have to define the monitor as LCD - it doesn't really support
+   Analogue video input (It works, but isn't very linear...)
+
+2: The incoming sync pulses need inverting. This is best achieved
+   with either a cmos XOR package or a transistor inverter.
+   If you don't know how to do it, don't even contemplate it.. :-)
+
+3: It'll only work in standard VGA mode.
+
+OK, having said that, I'm trying to either find a circuit or IC
+which will act as a universal sync decoder.
+
+I want somethikng which basically only detects the leading sync
+pulse edge, and doesn't care about the polarity, outputting
+the -ve going pulses that the atari monitor requires.
+
+There are 2 reasons for doing this
+
+1: VGA cards change their sync polarity depending which mode they're
+   in - herc emulation is +,- while MVGA is +,+ for example.
+
+2: It means I don't have to put a toggle switch on the back of the
+   monitor in order to be able to run it off both the atari and my
+   IBM. Currently I have 3 (Yes, 3!) monitors sitting on my desk,
+   and I want to get that number down as much as possible.
+   Being able to use the atari monitor as a paper-white VGA
+   will cut things down to 2. If I forget about Atari colour,
+   I can get down to 1.
+
+Ultimately, the best course of action is to get a multisync monitor,
+but I'm as pressed for cash as anyone else, so it'll have to wait...
+
+
+
+--
+Alan Brown
+dogbowl@dogbox.acme.gen.nz
+

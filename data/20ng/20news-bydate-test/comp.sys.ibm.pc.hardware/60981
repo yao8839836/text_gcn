@@ -1,0 +1,25 @@
+From: rbrown@spchp21.BBN.COM (Ralph Brown)
+Subject: Re: VLB bus master problem?
+Lines: 17
+Distribution: world
+Reply-To: rbrown@bbn.com
+NNTP-Posting-Host: spchp21.bbn.com
+Keywords: VLB Bus Master Controller SCSI
+
+In article <rkimball.735340669@athena>, rkimball@athena.qualcomm.com (Robert Kimball) writes:
+|> Specifically, I am interested in the Ultrastor 34F VLB SCSI controller.
+|> Before I shell out the bucks for this thing I would like to get the
+|> straight scoop from someone who knows.  Does anyone have this controller?
+|> Any problems with it?
+
+I had one and on three different motherboards it didn't work with NT and
+in some cases DOS. I sent mine back, but it is my understanding that
+on some systems such as Micronics motherboards it is necessary to
+shut off the internal cache on the 486 to have it work.
+
+I've yet to hear from someone running a 34F on any motherboard with
+NT without shutting off the cache.
+
+If you get one my advise it to be very sure you can return it first.
+
+Ralph

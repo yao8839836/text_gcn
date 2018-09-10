@@ -1,0 +1,37 @@
+From: johnson@SantaFe.edu (George Johnson)
+Subject: 13" monitor jitter
+Organization: The Santa Fe Institute
+Lines: 30
+NNTP-Posting-Host: sfi.santafe.ede
+X-Newsreader: TIN [version 1.1 PL8]
+
+
+Several weeks ago, I described a problem with my Apple High-Resolution
+monitor and promised to summarize replies received by e-mail. To
+recapitulate: Occasionally, every two or three hours or so, my monitor
+momentarily loses sync. The entire raster image bounces down about an
+eighth of an inch or so, then rights itself. This usually happens right
+after I close a large window, highlight a large area, or do something that
+radically alters the image on the screen. Sometimes, though, it happens
+with no provocation whatsoever.
+
+I have received a bewildering range of replies. At one extreme was
+a man, clearly quite knowledgable about monitors, who said that the
+problem was that the 13" monitor's power supply simply couldn't always
+keep up with sudden changes of the raster image; the rapid change from
+a largely light screen to a largely dark one overtaxed the monitor's
+power supply. There was no fix available, he said, because nothing was
+really wrong. (I guess he meant that the flaw was so fundamental that
+it had to be endured.)
+
+This seemed quite persuasive and I would have been tempted to
+adopt an attitude of stoicism, except for a reply from a 13" monitor
+owner who discovered that this very problem is documented in the 
+Apple Service Technical Procedures, Volume 3, under the heading
+Jitter Correction. The section describes a fix involving the replacement
+of a capacitor, the adjustment of a potentiometer, or, failing that,
+the swap of a circuit board.
+
+I would be grateful for a discussion among those who have had
+experience with this sort of thing.
+

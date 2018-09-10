@@ -1,0 +1,72 @@
+From: dls@Autodesk.COM (Daniel Louis Smith)
+Subject: Windows -> Motif tools SUMMARY
+Organization: Autodesk Inc., Sausalito CA, USA
+Lines: 67
+
+
+	I posted this May 12th:
+
+
+>         I am looking for info on products that can take
+> Windows source on a Unix box (such as Sparc), and produce a
+> Motif executable.  Another requirement is that MFC 2.0 should
+> be supported.  I already know of:
+> 
+>         Wind/U  by Bristol Technologies
+>         Hunter SDK
+>         MainWin by MainSoft
+> 
+>         Are there any others?
+> 
+> 	I will post a summary if it's wanted.
+
+
+	I got a few requests asking for a summary, so I'll attempt one
+here:
+
+
+	Here's the ones I know of:
+
+	Wind/U		- Bristol Technologies
+
+	Hunter SDK	- Hunter Systems
+
+	MainWin		- MainSoft
+
+	LIBWXM          - Visual Solutions
+
+
+	Hunter 
+
+	The company is going through some big changes.  I expect
+to eventually see the Hunter SDK pop up with a new name.  At the moment, it
+is difficult to get phone calls returned and otherwise obtain info.
+Hopefully they will post something about themselves once things settle down. 
+
+	Visual Solutions
+
+	LIBWXM is a product that I just heard about.  They don't
+yet support MDI or MFC.  Libwxm was used to port VisSim, a mathematical
+modeling package.  Does native Motif Widgets, like Wind/U from Bristol.
+Contact Carrie Lemieux at 508 392 0100 for more info.  She's very helpful.
+
+	MainSoft
+
+	This translates Windows source to a Unix executable that
+can switch off between a Windows or Quasi-Motif look and feel at
+runtime.  They skip the Xt and Xm (Motif) X toolkit levels and go
+straight to Xlib.  They don't yet support MFC.  They're at 415 896 0708.
+
+	Bristol
+
+	This company that seems to be on the right track.  Wind/U uses
+Xlib/Xt/Xm to give a *real* Motif app.  They seem to be doing the most work
+in trying to support things like DDE, Common Dialogs, and more on the horizon.
+My contact there is knowledgeable, responds to my email, and wrote an example
+program for me showing how to obtain X widgets from Windows handles.
+They're at 203 438 6969, or you can email info@bristol.com.
+
+-- 
+		 dls@autodesk.com           dls@netcom.com
+     Daniel L Smith, Autodesk, Sausalito, California, (415) 332-2344 x 2580
+disclaimer:  accuracy of statements corrrelates somehow to caffeine intake

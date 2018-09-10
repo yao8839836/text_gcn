@@ -1,0 +1,52 @@
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Re: XV problems
+Lines: 46
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+
+
+In article <1r1iv3$cba@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes:
+
+>Recent discussion about XV's problems were held in some newsgroup.
+>Here is some text users of XV might find interesting.
+
+>(I have also minor ideas for 24bit XV, e-mail me for them.)
+
+[Deleted for space; basically complaints that xv is an 8 bit program and that
+making several modifications to the RGB sliders is slow because of screen updates.]
+
+In reverse order:
+
+1) Try clicking in the auto-apply box to switch it off. Then make your mods. Then
+click on apply. There is no problem as stated; it has already been solved if you
+look carefully.
+
+2) Yes XV is an 8 bit program. This is not a bug. You can edit individual pallette
+entries or do global colour changes; crop, scale etc. Clearly the program must
+save out the *altered* image else all your work would be thrown away. So yes it
+saves out 8 bit images - of course!
+
+XV can import 24 bit images and quantises them down to 8 bits. This is a handy
+facility, not a bug.
+
+How would you suggest doing colour editing on a 24 bit file? How would you group
+'related' colours to edit them together? Only global changes could be done
+unless the software were very different and much more complicated.
+
+If you want to do colour editing on a 24 bit image, you need much more powerfull
+software - which is readily available commercially.
+
+And lastly, JPEG is a compression algorithm. It can be applied to any image of
+arbitrary bit depth. Again, this is not a bug. It is a way of saving disk space
+;-)
+
+Later,
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------

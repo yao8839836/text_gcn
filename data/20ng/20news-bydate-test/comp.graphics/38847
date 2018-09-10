@@ -1,0 +1,19 @@
+From: deniaud@cartoon.inria.fr (Gilles Deniaud)
+Subject: WANTED: 24 bit viewer
+Lines: 15
+
+Hello,
+
+Thanks to the people who helped me with the problem of
+displaying 24 bit images. All the viewers like xli,
+xloadimage and display are converting the 24 bit images
+to 8 bit before display them on the screen.
+
+What I really want is a viewer with make use of the 24 bit
+frame/screen buffer (in our case, the Parallax one).
+
+Thanks in advance.
+
+Gilles
+
+PS:  We are using a Sun Sparc running X11.

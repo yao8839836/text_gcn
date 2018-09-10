@@ -1,0 +1,20 @@
+From: rlglende@netcom.com (Robert Lewis Glendenning)
+Subject: Re: Do we need the clipper for cheap security?
+Organization: Netcom - Online Communication Services (408 241-9760 guest)
+Lines: 15
+
+There are chips which perform the voice compression/expansion.  They can't
+be expensive, because they exist in many phones connected to PBXs or on the
+PBX line cards, as well as in a lot of equipment which compresses
+voice-grade circuits to save the cost of long-distance, leased T1s or
+satellite circuits.
+
+I can't remember the generic term for these chips.  My impression is that
+this was a big deal 10 years ago, but circuits have gotten so cheap that
+it isn't done much now.
+
+Lew
+
+-- 
+Lew Glendenning		rlglende@netcom.com
+"Perspective is worth 80 IQ points."	Niels Bohr (or somebody like that).

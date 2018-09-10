@@ -1,0 +1,52 @@
+From: mpdillon@halcyon.com (Michael Dillon)
+Subject: Re: MGR NAPLPS & GUI BBS Frontends
+Organization: "A World of Information at your Fingertips"
+Lines: 46
+NNTP-Posting-Host: nwfocus.wa.com
+
+>Hi all,
+>I am looking into methods I can use to turn my Linux based BBS into a full color
+>Graphical BBS that supports PC, Mac, Linux, and Amiga callers. 
+>Originally I was inspired by the NAPLPS graphics standard (a summary of 
+>which hit this group about 2 weeks ago). 
+
+I posted that document (forgot part 1/6 etc) but it was more than a summary,
+it was a complete technical description of the protocol. It can be ftped
+from simtel or from wuarchive.wustl.edu in mirrors/msdos/naplps
+
+>Following up on software availability of NAPLPS supporting software I find
+>that most terminal programs are commercial the only resonable shareware one being
+>PP3 which runs soley on MSDOS machines leaving Mac and Amiga users to buy full
+>commercial software if they want to try out the BBS (I know I wouldn't)
+>
+>Next most interesting possibility is to port MGR to PC, Mac, Amiga. I
+
+Why not write a NAPLPS decoder for your choice of platform and release the
+code to the net? Then other willing souls can help port it to other platforms.
+NAPLPS was designed for this type of online interactive graphics much the
+same as X, but while X is intended for high-bandwidth network connections,
+NAPLPS was optimized for low bandwidth modem connections.
+>
+>Is there a color version of MGR for Linux? 
+>
+>Does anyone have any other suggestions for a Linux based GUI BBS ?
+
+I'm sure you will receive other suggestions but look at it this way. If you
+wanted to provide a full network connection to Linux over a modem would you
+use SLIP/PPP or would you invent some new way? Most people would say that
+SLIP/PPP exist and are reasonably well designed protocols, so lets just
+implement them. I see it the same way with NAPLPS. It is an existing, well
+thought out, extensible protocol for online graphics, so why not implement
+it.
+
+If you need any advice on implementation, just e-mail me. I am currently
+getting a beta version of my CorelDraw to NAPLPS converter working well
+enough to release it by May 15. If you or someone else does not get going
+on a freely available NAPLPS decoder, then I intend to do it after I get
+a my conversion program out of beta, and get a couple of other things done.
+
+-- 
+Michael Dillon                 Internet: mpdillon@halcyon.halcyon.com
+C-4 Powerhouse                  Fidonet: 1:353/350
+RR #2 Armstrong, BC  V0E 1B0      Voice: +1-604-546-8022
+Canada                              BBS: +1-604-546-2705

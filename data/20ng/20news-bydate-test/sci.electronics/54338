@@ -1,0 +1,22 @@
+From: DPierce@world.std.com (Richard D Pierce)
+Subject: Re: Acceleration sensor?
+Organization: The World Public Access UNIX, Brookline, MA
+Lines: 17
+
+In article <1993Apr27.145201.15495@walter.bellcore.com> deaddio@ski.bellcore.com (Michael DeAddio) writes:
+>Does anyone know of any type of acceleration sensor that has
+>an electrical output of any sort?  It would only have to sense
+>acceleration in one direction.
+
+Gee, how about an (ahem) "accelerometer"! Such devices are available from
+a variety of sources (one that comes to mind is Bruel & Kjaer if you have
+a lot of money to spend). MOst of these sorts of devices output a voltage
+proportional to acceleration. You need to know what range you're talking
+about though.
+
+
+-- 
+|                Dick Pierce                |
+|    Loudspeaker and Software Consulting    |
+| 17 Sartelle Street   Pepperell, MA  01463 |
+|       (508) 433-9183 (Voice and FAX)      |

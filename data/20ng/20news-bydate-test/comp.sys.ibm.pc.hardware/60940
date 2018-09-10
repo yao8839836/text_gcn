@@ -1,0 +1,59 @@
+From: gjp@sei.cmu.edu (George Pandelios)
+Subject: Re: CPU Fans
+Organization: The Software Engineering Institute
+Lines: 54
+
+
+In article <1993Apr20.122812.2441@mfltd.co.uk>, nmp@mfltd.co.uk (Nic Percival (x5336)) writes:
+|> 
+|> Just got a 66MHz 486DX2 system, and am considering getting a fan for the
+|> CPU. The processor when running is too hot to touch so I think this is a
+|> fairly good idea. (long ago when I did some electronics training I read
+|> somewhere that the regions within a chip that define junctions/gates etc
+|> slowly diffuse over time and this increases with temperature, hence a hot
+|> chip goes off-spec sooner)
+|> 
+|> Has anyone out there got a CPU fan??
+|> Is there more than 1 type?
+|> Do you have to remove the CPU from its scoket to install the fan?
+|> Do all CPU fans derive their power from spare drive power lines?
+|> Anyone had any trouble with CPU fans?
+|> Does anyone have any evidence that CPU fans are a complete waste of money?
+|> How are these fans attached? (glue? clips? melted cheese?)
+|> Roughly how much cooler will the CPU be with a fan as opposed to without?
+|>   (an advert I've read claims 85F vs 185F)
+|> 
+|> Any info appreciated,
+|> -- 
+|>  +-- Nic Percival ----------+- "Well that was a piece of cake, eh K-9?" -----+
+|>  |   Micro Focus, Newbury.  |  "Piece of cake master? Radial slice of baked  |
+|>  |   (0635) 32646 Ext 5336. |   confection... - coefficient of relevance to  |
+|>  +-- nmp@mfltd.co.uk -------+-  Key to Time: zero." - Dr. Who ---------------+
+
+I own a PC FanCard II, which is a slightly different beast.  It's a long card
+that plugs into an 8 or 16 bit slot and contains two muffin fans.  It requires
+no extra cabling.  I had a 286 that was experiencing some problems due to
+heat.  The FanCard made the system run cool enough so that the problem no
+longer appears.  It's supposed to keep the internal temperature in the range
+of 75-95 degrees Fahrenheit.  According to the maker's (M.S. Tech)
+advertisements, the US Army used a bunch of these to keep their PCs running
+(w/o a/c) in Desert Storm.  I can't vouch for that.  However, I am a satisfied
+customer.  And I have no other connection with the maker or the mail-order
+house (Lyben  (313) 268-8100).
+
+Hope this helps,
+
+George
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  George J. Pandelios				Internet:  gjp@sei.cmu.edu
+  Software Engineering Institute		usenet:	   sei!gjp
+  4500 Fifth Avenue				Voice:	   (412) 268-7186
+  Pittsburgh, PA 15213				FAX:	   (412) 268-5758
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Disclaimer:  These opinions are my own and do not reflect those of the
+	     Software Engineering Institute, its sponsors, customers, 
+	     clients, affiliates, or Carnegie Mellon University.  In fact,
+	     any resemblence of these opinions to any individual, living
+	     or dead, fictional or real, is purely coincidental.  So there.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+

@@ -1,0 +1,20 @@
+From: jcobban@bnr.ca (Jim Cobban)
+Subject: Re: Command Loss Timer (Re: Galileo Update - 04/22/93)
+Keywords: Galileo, JPL
+Nntp-Posting-Host: bcars153
+Organization: Bell-Northern Research, Ottawa, Canada
+Lines: 13
+
+Having read in the past about the fail-safe mechanisms on spacecraft, I had
+assumed that the Command Loss Timer had that sort of function.  However I
+always find disturbing the oxymoron of a "NO-OP" command that does something.
+If the command changes the behavior or status of the spacecraft it is not
+a "NO-OP" command.
+
+Of course this terminology comes from a Jet Propulsion Laboratory which has
+nothing to do with jet propulsion.
+
+-- 
+-------------------------------------------------------------------------------
+Jim Cobban   |  jcobban@bnr.ca                        |  Phone: (613) 763-8013
+BNR Ltd.     |  bnrgate.bnr.ca!bcars5!jcobban         |  FAX:   (613) 763-2626

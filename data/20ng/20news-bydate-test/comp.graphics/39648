@@ -1,0 +1,16 @@
+Organization: Arizona State University
+From: Eric Davis <ICEND@ASUACAD.BITNET>
+Subject: Re: HELP - 3DS
+Lines: 11
+
+In article <C70zv4.9Hq@ddtopper.Dundee.NCR.COM>, stephenc says:
+>
+>In 3D Studio, is there any way to create refraction, diffraction etc ?
+>
+>I want to simulate such things as glass lenses, bottles etc.
+
+There might be an IPAS routine that does that,but I can'r be sure.  Another
+way to do it is to render the scene without the glass object and save the
+image.  Then assign that image to your glass object as a reflection.  It will
+take a lot of adjusting for position and size of the reflection, but that's
+the only thing I can think of.

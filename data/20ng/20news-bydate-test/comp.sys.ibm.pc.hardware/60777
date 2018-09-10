@@ -1,0 +1,26 @@
+From: mtrachsel@sgcl1.unisg.ch
+Subject: 16bit DMA Failure - System halted.
+Organization: University of St.Gallen, Switzerland
+Lines: 21
+
+I have a 486/50Mhz ISA Board with 256kbyte Cache and 16 Megs
+RAM. I just bought the new soundblaster 16 and tried to 
+install the card. The sb16 uses 16bit DMA channel.I could
+select between channel 5 to 7. It is the first card I ever
+installed that uses 16bit dma transfer. After I tested
+the card the first time, the computer crashed and I got a
+parity error-system halted. This happens either from dos as
+also from windows. So it seems that my 16 bit dma channels
+are not working properly (they are there because testsb16.exe
+recocnize them and tests them ok until first access). 
+
+Well, does anybody know a solution for this problem or a
+special test program for dma problems? I eliminated the 
+problem temporaly by using only 8 bit dma channel but it
+makes the system slow!
+
+Thanks for your help.
+Yours Markus
+
+
+

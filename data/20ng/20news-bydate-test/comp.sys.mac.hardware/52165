@@ -1,0 +1,23 @@
+Distribution: world
+From: Tony_Sullivan@mcontent.apana.org.au
+Organization: MacContent BBS, Doncaster, Victoria, Australia
+Return-Receipt-To: Tony_Sullivan@mcontent.apana.org.au
+Subject: Re: DeskWriter Drivers 3.1 -- How to install ?
+Lines: 16
+
+Can someone tell me which of the files that come with DW-3.1 go where
+and for what purpose?  What can be left out, for instance, if
+you don't want to do background printing?
+
+As far as I can remember, all you need to do to get your Deskwriter up and
+printing using the 3.1 driver is to drag the driver itself (either serial or
+appletalk depending on your needs) to the system folder. You don't need the
+fonts or anything else if all you want is straight forward, bare bones, basic
+printing....I don't have anything else installed and can still print on a
+Deskwriter using sys7.1 and HP driver 3.1
+Tony
+***************************************************************************
+ The views expressed in this posting those of the individual author only. 
+[BBS Number:(613) 848-1346      MacContent is Victoria’s first Iconic BBS!]
+***************************************************************************
+

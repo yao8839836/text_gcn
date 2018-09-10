@@ -1,0 +1,27 @@
+From: rdippold@qualcomm.com (Ron "Asbestos" Dippold)
+Subject: Re: Do we need the clipper for cheap security?
+Originator: rdippold@qualcom.qualcomm.com
+Nntp-Posting-Host: qualcom.qualcomm.com
+Organization: Qualcomm, Inc., San Diego, CA
+Lines: 20
+
+
+pdc@dcs.ed.ac.uk (Paul Crowley) writes:
+>Quoting pmetzger@snark.shearson.com (Perry E. Metzger) in article <1993Apr21.012011.27470@shearson.com>:
+>>Whats the difference between a V.32bis modem and a V.32bis modem?
+
+>How fast do the fastest modems go?
+>How far can voice be compressed?
+>I've seen various assertions about this, but anyone with the
+>straightforward bits-per-second figures will be my friend forever...
+
+How about half a friend?  The Motorola Codex preliminary V.Fast modem
+(which you can by right now) does 24.4 kbps (raw) over standard phone
+lines.  28.8 kbps is what is usually claimed for the "final" v.fast,
+but you can't go out and buy that right now, the standard isn't done yet.
+
+Again, voice can be compressed quite well down to 4000 or 8000 bps
+depending on how good you want it to be, but that requires a DSP or a
+special ASIC to do in real-time.
+-- 
+I think I am! I think I am! - the little engine that philosophized

@@ -1,0 +1,42 @@
+From: sburton@dres.dnd.ca (Stan Burton)
+Subject: Re: Long distance IR detection
+Distribution: na
+Organization: Defence Research Establishment Suffield
+Lines: 31
+Content-Type: text/plain; charset=iso-8859-1
+Nntp-Posting-Host: stan
+Content-Transfer-Encoding: 8bit
+X-Newssoftware: GRn-beta 1.16g (04.01.93) by Michael B. Smith & Mike Schwartz
+Mime-Version: 1.0
+
+In article <1993Apr22.060607.12380@macc.wisc.edu> jvannes@vms.macc.wisc.edu writes:
+> You are probably referring to the products of
+>
+> 		Opto Diode Corp.
+> 		750 Mitchell Road
+> 		Newbury Park Ca 91320
+> 		805 499-0335
+>
+> The make some amazing IRLED's.  The really high-powered devices are arrays of
+> 3, 6, or 9, LED's on a TO-66 header.  The 9-chip model puts out 6.5 Watts in
+> response to a 5 Amp, 10 uS. pulse at a .5% duty cycle.  I think  these are
+> designed as illuminators for IR vision systems.
+
+Jeez, that should do it.
+
+> I would also be interested in the application here.  I work with a Dance and
+> Technology program, and want to build something to track dancers on a 30 foot
+> wide stage from 50 feet away.
+
+Very interesting application, controlled lighting and environment, moderate
+distances ... might be more interesting than my application.  Just a thought,
+you could use a roof mounted IR sender, similar in operation to a TV remote
+control that tells each persons coded IR pulser to send a pulse.  A Hamamatsu
+detector, as was mentioned in a previous message in this thread, would give
+the current position.  Store and collate this on a computer and you could
+replay the movements on the screen.  Interesting!
+
+--
+
+Stan Burton (DND/CRAD/DRES/DTD/MSS/AGCG)                 sburton@dres.dnd.ca
+(403) 544-4737     DRE Suffield, Box 4000, Medicine Hat, AB, Canada, T1A 8K6

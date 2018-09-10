@@ -1,0 +1,25 @@
+From: advax@reg.triumf.ca (A.Daviel)
+Subject: Re: How universal are (video) phones these days?
+Organization: TRIUMF: Tri-University Meson Facility
+Lines: 17
+Distribution: world
+NNTP-Posting-Host: reg.triumf.ca
+News-Software: VAX/VMS VNEWS 1.41    
+
+Just saw an article in New Scientist; AT&T videophones won't talk to (?)BTI 
+videophones. The AT&T ones use a 19.2kb modem, BTI uses 14.4kb. AT&T models 
+have to communicate using all AT&T exchanges, whereas the BTI can route 
+via most current exchanges. Suggestions include building standards converters 
+into telephone exchanges - the mind boggles :)= . The BTI design is a bit 
+more conservative and is better able to cope with current data compression 
+hardware on long-distance lines.
+
+(not having the magazine to hand, I may have mis-remembered BTI. I think it
+is a British one made by GEC-Marconi, and currently selling to other
+countries). 
+
+Yet Another Standards Screw-up.
+
+--
+ Andrew Daviel, Vancouver, Canada <advax@triumf.ca>
+  finger advax@reg.triumf.ca for PGP key

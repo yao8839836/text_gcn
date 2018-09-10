@@ -1,0 +1,40 @@
+From: DPierce@world.std.com (Richard D Pierce)
+Subject: Re: Pink Noise
+Organization: The World Public Access UNIX, Brookline, MA
+Distribution: sci.electronics
+Lines: 34
+
+In article <34T302tW40N601@JUTS.ccc.amdahl.com> dws30@p1hdb01cd.amdahl.com (David Sharpe) writes:
+>
+> Pink Noise and White Noise are equal amounts of all frequencies.  This
+>is in most cases around the 20-3.3K Hz range.  Pink/White are used to
+>adjust for room dynamics and stuff like that.  There are a few EQ's out
+>on the market that have Pink noise built in.  Most all from Audio
+>Control have them I know the C-101 does.  
+
+Wrong, wrong, completely wrong (and a little misleading, too).
+
+White noise is random noise whose energy density is constant for a
+constant bandwidth. That is, a 5 Hz wide band at 20 Hz will have precisely
+the same amount of energy as a 5 Hz band at 20 kHz.
+
+Pink noise is random noise whose energy density is constant for a constant
+precentage bandwidth. Thus, a 5% wide band of noise at 20 Hz (whose
+bandwidth is 1 Hz) will contain the same energy as a 5% wide band at 20
+kHz (whose bandwidth is 1000 Hz wide). 
+
+White noise is often used with spectrum analyzers that have constant
+bandwidths, pink noise is used with audio-type real-time analyzers whose
+bandwidths are centert-frequency dependent (often described as "1/3
+octave" or "1/2 octave" or some such terminology).
+
+White noise, relative to pink noise, has more energy at high frequencies
+(at a rate equal to 3 dB per octave). Pink noise, relative to white noise,
+has more energy at low frequencies (at a rate equl to, again, 3
+db/octave).
+
+-- 
+|                Dick Pierce                |
+|    Loudspeaker and Software Consulting    |
+| 17 Sartelle Street   Pepperell, MA  01463 |
+|       (508) 433-9183 (Voice and FAX)      |

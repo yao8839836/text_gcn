@@ -1,0 +1,29 @@
+From: rousself@cicb.fr ( Frank ROUSSEL )
+Subject: *** FTP images ASTRO server ***
+Keywords: ftp, astronomy, images, gif
+Organization: CICB, Universite' de Rennes I, FR
+Lines: 23
+
+
+I commend everybody to look at the FTP site 'ftp.cicb.fr'
+-> Ethernet address 129.20.128.2 <-
+in the directory /pub/Images/ASTRO:
+there are lots of images (all of kinds in astronomy subject)
+especially in GIF format and a NEW ! directory of some JPL animations
+
+For your comfort, README files in all subdirectories give size and
+description of each image, and a 7 days' newer images' list is in READMENEW
+
+Note: you can connect it as 'anonymous' or 'ftp' user, then the quota
+      for each is 8 users connected in the same time.
+      So, if the server responds you "connection refused", be patient !
+
+2nd note: this site is reachable by Gopher at 'roland.cicb.fr'
+          -> Ethernet address 129.20.128.27 <-
+          in 'Divers serveurs Ftp/Le serveur ftp du CRI-CICB/Images/ASTRO'
+
+If you have any comments, suggestions, problems,
+then you can contact me at E-mail 'rousself@univ-rennes1.fr'
+
+Hope you enjoy it !
+

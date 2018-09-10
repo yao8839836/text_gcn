@@ -1,0 +1,37 @@
+From: wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705)
+Subject: Re: Clipper considered harmful [Restated and amplified]
+Organization: Electronic Birdwatching Society
+In-Reply-To: koontzd@phobos.lrmsc.loral.com's message of Mon, 26 Apr 1993 14:59:37 GMT
+	<1993Apr26.145937.3570@wdl.loral.com>
+Nntp-Posting-Host: rainier.ho.att.com
+Lines: 29
+
+In article <1993Apr26.145937.3570@wdl.loral.com> koontzd@phobos.lrmsc.loral.com (David Koontz ) writes:
+   >Clipper also allows an extraordinary opportunity for the criminal to
+   >conceal use of super-encryption.  An automated full-system surveillance
+   >mechanism (quite feasible across radio bandwidth) which knows family key F,
+   >can validate Clipper wrappers and N:ESN associations, but it cannot reveal
+   >in realtime the use of super-encryption, unless it knows all unit keys,
+   >which we are being assured are only to be made available in two separate
+   >pieces, upon specific wiretap-like order.
+
+   The serial number will be in a 64 bit block, with a 34 bit filler.  Doesn't
+   take a lot to check to see if that is correct.
+
+Depends on whether the filler is a constant (makes checking easy,
+but susceptible to replay), or variable (e.g. timer, counter, random),
+which makes replay harder and can also make it easier for the
+inquisitors to know if they've missed messages, or gotten them out of
+sequence, or other interesting things that sort of person might care about.
+
+It is still easy to conceal super-encryption, at least until the
+inquisitors get ahold of the K key, which can take a while,
+presumably not in near-real-time.  (Worst-case, in which the escrow agencies
+provide the U key to the local cops, still only gets one side of the
+conversation per warrant, unless the same key is used for both directions,
+which I suppose the CAPSTONE version of the chip will probably insist on.)
+--
+#				Pray for peace;      Bill
+# Bill Stewart 1-908-949-0705 wcs@anchor.att.com AT&T Bell Labs 4M312 Holmdel NJ
+#	              No, I'm *from* New Jersey, I only *work* in cyberspace....
+# White House Commect Line 1-202-456-1111  fax 1-202-456-2461

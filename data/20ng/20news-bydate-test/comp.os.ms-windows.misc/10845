@@ -1,0 +1,30 @@
+From: hutch@bellman.lanl.gov (John Hutchinson)
+Subject: Strange Windows problem
+Reply-To: hutch@bellman.lanl.gov
+Organization: Los Alamos National Laboratory
+Lines: 24
+
+
+My Windows 3.1 installation has somehow gone awry.  Whenever I try to run
+Windows now, the logo comes up OK, but when it tries to enter Windows
+itself, the screen gets totally screwed up as if it's in the wrong
+graphics mode or something.  It's completely illegible although functional
+as I can still exit to DOS with an ALT-E RETURN combination.
+
+I tried to reinstall Windows again, but if you recall, halfway through the
+installation process, install takes you into Windows and there my graphics
+problem surfaces again so I cannot complete the re-installation.
+
+All this started after trying to get a game working on my system but my
+config.sys and autoexec.bat have been restored to what they were before
+this problem cropped up.
+
+I'm running a 486-33DX with a Diamond Stealth VRAM (I've resinstalled the
+Stealth video drivers again but with no luck).  I'm also using QEMM and
+Stacker 3.0 but Windows is installed on an un-stacked partition.  And of
+course, it worked perfectly before.
+
+Any email replies and suggestions would be appreciated.  Thanks.
+
+-Hutch-
+

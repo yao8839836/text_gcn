@@ -1,0 +1,47 @@
+From: strnlght@netcom.com (David Sternlight)
+Subject: Re: clipper serial numbers need 2nd court order?
+Organization: DSI/USCRPAC
+Lines: 42
+
+In article <1993Apr23.051005.28404@Princeton.EDU> mg@cs.princeton.edu (Michael Golan) writes:
+>something that no one has discussed yet (or I missed it):
+>
+>The FBI sets up a wiretap AFTER the court order was handed. 
+>Only at this point they can access the line and detect 
+>the serial number N.
+>
+>What happens next, does the FBI simply asks for the keys
+>for N, and, since a warrant was issued for the line, the FBI 
+>simply gets it? What if multiple phones are used from the
+>same house, the FBI just asks for N1, N2, etc.?
+>
+>Exactly who is to prevent the FBI from claiming some
+>other serial number, X, was also used over the wirtapped 
+>line and get the keys for X? 
+>
+>Either a second court order (for the specific serial/key)
+>is required (and I have seen no indication of this), or
+>the FBI can effectively ask for any pair of keys at any
+>time, so the escrow key holders are a total fake.
+>
+
+Two safeguards:
+
+1. The FBI could be asked to produce the law enforcement block to the escrow
+agencies, and associate it with a particular court order;
+
+2. If the thing comes to trial the defense attorneys can probe this issue
+closely. It is not too different from proving that the speaker on a legal
+wiretap is the person the court order covered.
+
+Putting it another way, this question is not very different from the
+pre-clipper question "What's to prevent the FBI from getting a court order
+to tap Al Capone and then using it to tap Jonathan Livingstone Seagull
+instead?"
+
+David
+-- 
+David Sternlight         Great care has been taken to ensure the accuracy of
+                         our information, errors and omissions excepted.  
+
+

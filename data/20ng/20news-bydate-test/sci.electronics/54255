@@ -1,0 +1,27 @@
+From: dave@imax.imax.com (Dave Martindale)
+Subject: Re: NTSC horiz & vert drive from black burst?
+Keywords: video 
+Organization: Imax Corporation, Mississauga Canada
+Lines: 21
+
+jackp@NETSYS.COM (Jack Powers) writes:
+>I would like to hook up some cameras that were recently donated to our
+>local community cable TV station which have sync inputs in the form
+>of horizontal and vertical drive. Our station sync is a black burst
+>which works fine with other boxes with "genlock" style inputs. Can
+>anyone point me at a design, article, or whatever showing how to produce
+>the horizontal & vertical drive signals?
+
+Check the station's master sync generator.  You'll probably find that
+it already has horizontal and vertical drive outputs that just aren't
+being used.  A couple of cables and you're in business.
+
+Another possibility is to find a genlockable sync generator with HD and VD
+outputs - genlock it to station sync, and then feed HD and VD to the
+cameras.
+
+If neither of these is possible, then you'll have to build a sync
+separator.  Look at the circuit diagrams of your existing sync generators -
+they probably all include circuitry that does what you want.
+
+	Dave

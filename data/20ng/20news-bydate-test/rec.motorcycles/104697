@@ -1,0 +1,69 @@
+From: joe@rider.cactus.org (Joe Senner)
+Subject: A Kinder, Gentler BMW Mailing List
+Reply-To: joe@rider.cactus.org (Joe Senner)
+Organization: Texas SplatterFest
+Lines: 63
+
+I know there's already a bmw mailing list, but since it's an R bike 
+only list (and limited to the R80* R100* bikes as well I believe)
+I've decided to give this a go and see how much interest there is.
+please read all of this post if you plan on subscribing to the list!
+
+there is only one restriction for the discussion on this list, that it
+be about BMW's. I don't care which BMW, any and all are welcome. I will
+probably post articles that appear in the local BMW club newsletter, and
+would incourage other club members to do the same, especially tech
+articles.
+
+to subscribe to the list, send a message to the list address:
+
+                    bmw@rider.cactus.org
+
+with the word SUBSCRIBE (in caps) in the *subject* of the message. having
+the word SUBSCRIBE in the *subject* is the _only_ way to subscribe. if you 
+put the keyword in the message body, your message will go out to everyone
+on the list and you will be ridiculed beyond belief.
+
+       ** your From: line must have a valid return address    **
+       ** the list sw will use the address in your From: line **
+
+if you would like to use a return address _other_ than what is contained
+in your From: line, do not send mail to the list! send a note directly to
+me (joe@rider.cactus.org) and I'll take care of it manually.
+
+the list sw will hack up the outgoing message From: line so that your
+original full name in ()'s is preserved, but the return address is
+replaced with the mailing list address (bmw@rider.cactus.org). this 
+allows you to simply reply to a message to keep it on the list (depending
+on your mail interface natch. I use elm so that's what I wrote it for :-).
+keep this in mind when you reply to a message and question the authors
+parentage.
+
+to remove your name from the list, send a message to the list address
+with the word UNSUBSCRIBE (in caps) in the *subject* of the message.
+having the word UNSUBSCRIBE in the *subject* is the _only_ way to remove
+your name from the list. if you put the keyword in the message body, 
+your message will go out to everyone on the list and you will be ridiculed 
+beyond belief.
+
+the list is run from my home system, a poor little 286 box running a
+very old version of something that smells somewhat like unix. the MTA
+isn't the smartest around, but I've managed to hack it up enough to make
+a decent list MTA. additions and removals are handled automatically by
+scripts that intercept messages based on the subject (see below) and
+may occassionally goof. the sw will send a response message back when you
+subscribe. if you do not receive a response within a reasonable amount
+of time (my link is via UUCP and sometimes runs in spurts), send me a 
+message (joe@rider.cactus.org) and I'll look into it.
+
+if the list turns out to be too popular and the MTA groks over the number
+of addresses, I'll have to freeze the list recipients until I can come up
+with a better MTA.
+
+good luck...
+
+-- 
+Joe Senner                                                joe@rider.cactus.org
+                                                          joe@mpd.tandem.com
+BMW Mailing List                                          bmw@rider.cactus.org
+Austin Area Ride Mailing List                            ride@rider.cactus.org

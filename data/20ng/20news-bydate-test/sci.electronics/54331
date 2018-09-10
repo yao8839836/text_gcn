@@ -1,0 +1,39 @@
+Subject: Re: FM Transmitter ICs- Help!!!!!
+From: ganter@ifi.unibas.ch (Robert Ganter)
+Organization: Institut fuer Informatik
+Nntp-Posting-Host: schroeder.ifi.unibas.ch
+Lines: 33
+
+In article <1993Apr27.080115.22046@vd.seqeb.gov.au>  writes:
+> I am trying to design a small 90mW 472MHz FM transmitter for remote alarm
+> use.
+> 
+
+Pretty high frequency for one chip...
+
+> Is there an FM transmitter IC available that can be used for this purpose?
+> 
+> Any help, circuits, info etc will be greatfully accepted.
+> 
+> Please reply to bsc_graham@seqeb.gov.au
+> 
+
+Yes and no. I would use the FM transmitter chip from Motorola (Linear and  
+Interface Databook), a stable cristal oscillator and a mixer (e.g. SBL-1 from  
+mini circuits lab). Everything is done in the FM chip and then mixed up with  
+the oscillator frequency. Just have a look at the ARRL Handbook. There are lots  
+of ideas in there about oscillators and mixing. I don't think, there are single  
+chip designs for such high frequencies yet.
+
+> Thanks in advance.
+> 
+> Graham Castledine.
+
+Cheers   Robert HB9NBY
+--
+Robert Ganter			/------------\
+Universitaet Basel		| I am a fan |
+Institut fuer Informatik	| of my plan |
+Basel/Switzerland		\------------/
+ganter@ifi.unibas.ch
+amateurradio: HB9NBY	packet: HB9NBY@HB9EAS.CHE.EU

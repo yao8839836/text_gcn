@@ -1,0 +1,28 @@
+From: ccastco@prism.gatech.EDU (Costas Malamas)
+Subject: Re: Windows zip/unzip
+Organization: Georgia Institute of Technology
+Lines: 23
+
+In article <1rl9b6$h3c@sol.deakin.OZ.AU> russ@deakin.OZ.AU (Russ Sharp) writes:
+>We are using pkzip V2.04 and I am interested to hear from
+>people who have used one of the many Windows programs that
+>call these.
+>Is there a full windows version that does not call the DOS 
+>PKZIP/PKUNZIP commands?
+>--
+>Russ Sharp    russ@deakin.edu.au    ph (052)27 1141    fax (052)27 2015  \  /
+
+	WinZip 4.0 (ftp.cica.indiana.edu:pub/pc/win3/(util?) ). It is
+a shell (it DOES call DOS ), but a very, very good one. It will also
+do arc, arj and lzh. It fully supports PKZIP 2.04 . Try using it...
+It might be a shell --very unobtrusive--, but that also means you dont
+need to update it with every every-other-letter-of-the-alphabet version
+of PKZIP... :)
+Hope it helps....
+
+
+-- 
+Costas Malamas ____________________________________________________________
+Georgia Institute of Technology 
+OIT UA -- OIT doesn't pay me enough to share its opinions... 
+Internet: ccastco@prism.gatech.edu

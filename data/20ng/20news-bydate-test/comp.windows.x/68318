@@ -1,0 +1,45 @@
+From: nmm1@cus.cam.ac.uk (Nick Maclaren)
+Subject: Re: Blinking Cursor in Xterm???
+Nntp-Posting-Host: bootes.cus.cam.ac.uk
+Organization: U of Cambridge, England
+Lines: 39
+
+In article <1tbpi9INNfp3@early-bird.think.com> barmar@think.com (Barry Margolin) writes:
+>In article <1993May18.130845.6859@taylor.uucp> mark@taylor.uucp (Mark A. Davis) writes:
+>>You are stuck in a distributed system feedback loop!  What if you are on an
+>>Xterminal or running xterm over the net to another machine?  That is when the
+>>load problems occur.  If you had a machine with 20 Xterminals attached and
+>>they all had blinking cursors in xterm's, this could represent a considerable
+>>ethernet bandwidth waste.
+>
+>Ethernet certainly has enough bandwidth for a few blinking cursors.  My
+>Lisp Machine blinks the cursor twice a second and updates the time in the
+>status line every second.  This uses under 1K bytes/second, or about .1% of
+>the bandwidth of Ethernet.  A hundred of them on a single ethernet might be
+>a problem, but a couple dozen should be fine.
+
+Bandwidth is unlikely to be the problem, except over a wet string network.
+One of major flaws of X is the horrendous number of transactions (and
+hence process switches) that it forces upon a host.  Actual measurements
+(hourly average) are 5 per second per logged in user, which can lead to
+20-50 or more process switches (depending on whether each event is
+filtered by the window manager as well as the applications and how
+many processes are needed for each character.)
+
+While a blinking cursor needs only the application and the networking
+process, and does not add any transactions, it will add something like
+10 process switches per second per user.  This is a significant increase
+in overhead, especially as the application may have quite a large working
+set.  If you want a rapidly blinking cursor, there could be as many
+as 50.
+
+If you want to go there, I wouldn't start from here!
+
+
+Nick Maclaren
+University of Cambridge Computer Laboratory,
+New Museums Site, Pembroke Street,
+Cambridge CB2 3QG, England.
+Email:  nmm1@cus.cam.ac.uk
+Tel.:   +44 223 334761
+Fax:    +44 223 334679

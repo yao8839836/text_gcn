@@ -1,0 +1,65 @@
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Subject: Netware server 286a and s
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 58
+
+*** On 04-19-93  03:53, Wayne Mcdougall had the unmitigated gall to say this:
+
+ WM> The software is Netware 286 Level II and I can see burnt on to the
+ WM> screen SFT Netware 286 Level II V2.0a. However, to configure netware
+ WM> for level II (mirrored or duplexed disks) requires a second disk, yes? 
+
+ Yes.  Mirroring requires a controller that is capable of writing to two
+ disks at once.  Duplexing, which is the preferred way of mirroring, uses
+ two controller cards and two disk drives.  Duplexing requires a special
+ card and two identical disk drives (in most cases).  Duplexing can
+ sometimes be pulled off with slightly different drives/controllers, as long
+ as the sizes are the same.
+
+ WM> So how is the Novell Server 286A normally configured?
+
+ The configuration is completely up to the user.
+
+ WM> 1. Can I install SFT Netware 286 Level II V2.0a as Level I, or is this
+ WM> what is causing my serialization error?
+
+ If you only have one disk, then you can't use Level II SFT.  However, the
+ OSOBJ disk has a serial number on it, and if this disk is for a different
+ version of NetWare then you would get a serialization error.  Make sure
+ that this disk actually belongs to the rest of the set of floppies in the
+ NetWare installation set.
+
+ WM> 2. Is the Novell Server 286A normally equipped with two hard drives,
+ WM> one of which has failed?
+
+ Two drives could be either two netware volumes at SFT I, or one volume
+ mirrored using SFT II.  Impossible to tell with the network being down.
+
+ WM> 3. Would this mean I can not install the network software because it
+ WM> will not be serialized for this hardware with a failed drive?
+
+ Try disconnecting the failed drive, using a standard disk controller, and
+ installing the software as one volume under SFT I.  If the software will
+ install, and if the one disk is functional, then it should be able to work
+ in this configuration.
+
+ WM> 4. What else can cause a serialization error?
+
+ See the comment concerning the serial number on the OSOBJ installation
+ floppy.
+
+ WM> 5. What happens if the keycard fails?
+
+ What is the keycard attached to?
+
+
+... Line noise provided by South Central Bell!
+--- Blue Wave/QWK v2.10
+                                                                                                                         
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com

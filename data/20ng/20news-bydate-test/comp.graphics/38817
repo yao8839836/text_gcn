@@ -1,0 +1,27 @@
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Re: CorelDraw Bitmap to SCODAL
+Lines: 21
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+
+
+In article <1r1rsiINNld@zephyr.grace.cri.nz>, srlnjal@grace.cri.nz writes:
+
+>Does anyone know of software that will allow
+>you to convert CorelDraw (.CDR) files
+>containing bitmaps to SCODAL, as this is the
+>only format our bureau's filmrecorder recognises.
+
+Corel Draw will do it; version 2 onwards. If you have version 1 perhaps an
+upgrade is in order.
+
+Another alternative would be to use a different bureau that can take PostScript.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------

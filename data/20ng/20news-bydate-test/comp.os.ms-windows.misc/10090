@@ -1,0 +1,15 @@
+From: yang@titan.ucs.umass.edu (HUAYONG YANG)
+Subject: HELP: how to allocate more memory for disk copying in file manager
+Organization: University of Massachusetts, Amherst
+Lines: 8
+Distribution: usa
+NNTP-Posting-Host: titan.ucs.umass.edu
+
+When I use File Manager's disk copy, I find that
+Windows (3.1) can read the whole 1.2MB disk at one time, 
+but only 98% of a 1.44 disk. It looks like a problem
+of memory. However, The PC has 4MB RAM. There should be some 
+way to allocat more extended memory for disk copy. 
+Please advise me on this matter. Thanks in advance.
+
+Huayong

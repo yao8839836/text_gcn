@@ -1,0 +1,41 @@
+From: kwgeitz@s-link.escape.de (Karl-W. Geitz)
+Subject: Re: Data segments and memory model usage
+Organization: -S-LINK-> Public Mailbox, Braunschweig, Germany
+Lines: 36
+
+Hello phjm, you wrote:
+
+> Firstly, does Windows 3.1 in 386 enhanced mode do anything special
+> with DLLs that have been compiled using the large memory model?
+
+No.
+
+> We are being told that even in 386 enhanced mode Windows
+> will load DLLs into *real memory below 640K* and page-lock it.
+
+No.
+
+> My second question relates to static data inside DLLs. Is there
+> any way at all to get multiple instances of the static data
+> segment (DGROUP?)?
+
+No, but...
+
+You can allocate real static data within code segments!
+When you need more dynamic memory you can allocate data on the global heap.
+
+You can forget most of what was written about memory management. Under 3.1
+you have paged virtual memory. You can lock every block without hampering
+the memory manager. You can use far pointer everytime without always Lock/
+Unlocking the memory block.
+
+An besides: DLL's are mostly just disguised EXE's, that happen to be called
+by another task.
+
+
+Karl.
+
+------------------------------------------------------------------------
+Karl-W.Geitz, Hauptstr.50, W-3320 Salzgitter 1, kwgeitz@s-link.escape.de
+TEL: +49-5300-6701 FAX: +49-5300-6499 CIS: 100010,204 BIX: geitzkwg
+## CrossPoint v2.1 ##

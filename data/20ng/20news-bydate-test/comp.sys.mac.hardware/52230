@@ -1,0 +1,19 @@
+From: mlbizer@bongo.cc.utexas.edu (Marc Bizer)
+Subject: Re: DeskWriter driver v3.1 problems
+Organization: University of Texas at Austin
+Lines: 11
+X-UserAgent: Nuntius v1.1.1d20
+X-XXMessage-ID: <A7FD60A51301CCAC@slip-172.ots.utexas.edu>
+X-XXDate: Fri, 23 Apr 93 15:00:21 GMT
+
+In article <byrne1.735286675@husc.harvard.edu> Laurence Byrne,
+byrne1@scws7.harvard.edu writes:
+>Has anyone had any success or experience with the HP DeskWriter v3.1
+>drivers? The new driver has a nice "Save as Default" option which claims
+>to record your paper size, font substitution settings etc. for future
+
+Has it happened to anyone that while printing a beep is heard and a
+message is displayed of the sort "Such-and-such a window was closed
+because the Finder did not have enough memory"? Or am I the only one
+suffering from this delusion?
+	--Marc Bizer

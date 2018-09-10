@@ -1,0 +1,32 @@
+From: malodah@srv.PacBell.COM (Martin Lodahl)
+Subject: Re: logic of backup?
+Organization: Pacific * Bell
+Lines: 27
+
+In article <C76G9J.6pK@cs.uiuc.edu> ioerger@sophocles.cs.uiuc.edu (Thomas Ioerger) writes:
+>So I think there are 2 possibilities:
+>
+>   1) I'm right.  If my disk really crashes, I would at least have to
+>      re-install DOS and Windows to get the backup program working.
+
+Using the software you're using, I agree with you there.  What I did:
+I installed DOS, Windows and CPBackup (functionally the same
+as your Norton, for the purposes of this discussion), and used the 
+DOS "backup" command on just that much.  To restore, I boot to the 
+"system" diskette, and use DOS "restore" to read in that much, then
+boot to windows and restore my full backups using CPB (Norton, in your
+case), overwriting what I've just restored.  That allows me to keep
+this skeletal Windows essentially unchanged, with all my customization
+on the "real" copy done using the 3rd-party backup utility.
+
+>   2) I'm wrong.  There is an easy way to make a "mirror" of a hard disk
+>      that can easily restore it's state from scratch.
+
+Seems possible, if you can put skeletal versions of DOS and your backup
+utility on a "system" floppy.  Then you could restore it all on one "go".
+
+-- 
+= Martin Lodahl		Systems Analyst, Capacity Planning, Pacific*Bell =
+= malodah@pacbell.com      Sacramento, CA USA	            916.972.4821 =
+=    If it's good for ancient Druids runnin' nekkid through the wuids,   =
+=  Drinkin' strange fermented fluids, it's good enough for me!  (Unk.)   =

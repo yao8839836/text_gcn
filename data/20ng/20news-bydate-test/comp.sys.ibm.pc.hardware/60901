@@ -1,0 +1,50 @@
+From: lance@hartmann.austin.ibm.com (Lance Hartmann)
+Subject: Re: Diamond Stealth: HELP!
+Summary: Address/IRQ conflicts.
+Reply-To: lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com
+Organization: IBM, Austin
+Keywords: video s3 diamond
+Lines: 42
+
+In article <1r5ep8$67e@usenet.INS.CWRU.Edu> ab245@cleveland.Freenet.Edu (Sam Latonia) writes:
+>
+>
+>Article #61058 (61121 is last):
+>>Newsgroups: comp.sys.ibm.pc.hardware
+>From: redmond+@cs.cmu.edu (Redmond English)
+>Subject: Diamond Stealth: HELP!
+>Date: Wed Apr 21 16:54:39 1993
+>
+>Hello,
+>
+>   I have a Diamond Stealth VRAM card (the older version
+>with the DIP switches on the back).  I have two problems:
+>
+>1 ) I've lost the manual!!!
+>
+>2 ) I have it in a machine with a network card, and
+>    everything works fine until I run windows, when
+>    the network connection dies.
+>
+>    (In case it's important, the network card is an
+>     SMC ArcNet 8-Bit compatable card.  It's I/O
+>     address is 02E0 and it's RAM base address is
+>     D000.  It's also using IRQ 2)
+
+[REMAINDER DELETED]
+
+I don't have my copy of the manual with me right now, but I can offer the
+following in the interim:
+
+   1)  The card uses port addresses 0x2E0 and 0x2E8 (which are NOT
+       configurable).  These addresses, incidentally, were inadvertantly
+       omitted from my version of the manual.
+
+   2)  I believe there is a dip that controls whether or not to enable
+       IRQ 2 (for CGA or EGA support??!?).
+
+Lance Hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
+               Yes, that IS a '%' (percent sign) in my network address.
+------------------------------------------------------------------------------
+All statements, comments, opinions, etc. herein reflect those of the author
+and shall NOT be misconstrued as those of IBM or anyone else for that matter.

@@ -1,0 +1,37 @@
+From: kbw@helios.ath.epa.gov (Kevin B. Weinrich)
+Subject: SUMMARY: How to make a window's input be ALL CAPS
+Organization: Computer Sciences Corp.
+Lines: 30
+Distribution: world
+NNTP-Posting-Host: helios.ath.epa.gov
+
+Thanks to Bruce Barnett, who recommended xvttool, and Bernward Averwald and
+Liam Quin, who recommended modifying .Xdefaults to get the desired behavior
+for a *class* of xterms.
+
+In xvttool, simply create a key file that looks like:
+"a"	"A"
+"b"	"B"
+"c"	"C"
+...
+and specify said key file on the command line.  This will translate
+any input into any other (in my case, lo-case to up-case).  Works great, and
+you get a customizable button-pad on the right or left side.
+
+To use an xterm solution, add to your .Xdefaults:
+capxterm*VT100.Translations: #override \
+   <Key>a: string("A")\n\
+   ...
+
+or:
+capxterm.vt100.translations: #override \n\
+        <Key>a: insert-string(A) \n\
+        <Key>b: insert-string(B) \n\
+        ...
+
+and invoke as: xterm -name capxterm
+
+Thanks loads!
+-- 
+Kevin Weinrich     Computer Sciences Corp.
+kbw@helios.ath.epa.gov

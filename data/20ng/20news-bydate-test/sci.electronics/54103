@@ -1,0 +1,58 @@
+From: segross@uci.edu (STEVE GROSS)
+Subject: Re: How to the disks copy protected.
+Nntp-Posting-Host: hsis3.ut.hsis.uci.edu
+Organization: UC Irvine College of Medicine
+Lines: 52
+
+In article <1993Apr23.171020.23982@csus.edu> kschang@sfsuvax1.sfsu.edu (Kuo-Sheng (Kasey) Chang) writes:
+
+>In article <rcstage1.128.735548462@urc.tue.nl> rcstage1@urc.tue.nl (Guido Klemans) writes:
+>>In article <1993Apr22.163605.24784@csus.edu> kschang@sfsuvax1.sfsu.edu (Kuo-Sheng (Kasey) Chang) writes:
+
+>>[byteocide]
+
+>>>What I believe the companies should do is implement the above plus
+>>>a special patch once the user registers that loudly exclaims upon bootup
+>>>"REGISTERED TO XXXXX -- address, city, state zip" and disables the above.
+>>>Two benefits: 1) encourages registration, 2) cuts down on pirating and
+>>>makes it more traceable, because if the patch's registration message is
+>>>encrypted, it will be quite hard to change, and therefore provides a
+>>>stable trail of who allowed their copy out of their hands, and thus
+>>>violated their license agreement.
+>>>
+>>You take two copies with a different registration id, compare them byte for 
+>>byte and you know where they are located. Usually you will be able to 
+>>find out what is what after that. 
+
+>Probably, but the point is THE COMPANY make the registration patch, NOT
+>YOU.  Sure, you can probably find another registerred user and compare notes,
+>but WHY?  It's not hindering you in any way unless you are just hacking.
+>[Problem about people who cut TOO MUCH from quoting...]
+
+>>And what keeps me form registering as John Doe from the company Public 
+>>Domain, Yellow Brick Road 1, Tinseltown or something???
+
+>Nothing, but if you read my WHOLE suggestion, I'm saying that you register
+>via MAIL by mailing in your registration card, THEN the company send you
+>the patch which includes the info you put on the registration card.
+
+>--Kasey Chang
+
+I'm glad to see this idea come up because I've had something similar in mind.
+What if you had an authorization key that computed from the name and address 
+data.  When the user registers, you don't even need to send executable code, 
+just compute his/her key and send him/her instructions to enter in the 
+appropriate place the following:
+
+Name=Joe Doe
+Address=123 Main Street
+City=Anytown, CA
+key=ldslfoialsdkcdsngsikhsfd
+
+Every user needs a unique key.  The executable can propagate as much as you 
+like, the author can respond to the registration by e-mail, post card, 
+whatever.  Unauthorized users would have to put up with someone else's name 
+showing up (maybe on a main menu screen as well as a startup message).  
+Authorized users can make as many copies as they like, upgrade their 
+machines, whatever.  The main motivation here is guilt and irritation at 
+seeing someone other than yourself as the "registered owner".

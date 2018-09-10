@@ -1,0 +1,392 @@
+From: simon@dcs.warwick.ac.uk (Simon Clippingdale)
+Subject: Re: Americans and Evolution, now with free Ockham's Razor inside
+Nntp-Posting-Host: nin
+Organization: Department of Computer Science, Warwick University, England
+Lines: 386
+
+Sorry about the delay in responding, due to conference paper deadline panic.
+
+In article <1qsnqqINN1nr@senator-bedfellow.MIT.EDU> bobs@thnext.mit.edu (Robert Singleton) writes:
+>In article <1993Apr18.043207.27862@dcs.warwick.ac.uk>  
+>simon@dcs.warwick.ac.uk (Simon Clippingdale) writes:
+
+[Alarming amounts of agreement deleted :-)]
+
+> I made my statement about Ockums Razor from my experiences in physics. 
+> Thanks for info in Baysian statistics - very interesting and I didn't
+> know it before. I follow your proof, but I have one questions. We have
+> two hypotheses H and HG - the latter is more "complicated", which by
+> definition means P(H) > P(HG).
+
+That ("complicated") isn't in fact where P(H) > P(HG) comes from; it's more
+the other way around. It's from
+
+  P(H)  =  P(HG) +  P(HG')  where G' is the complement of G
+
+and by axiom, P(anything) >= 0, so P(HG') >= 0, so P(H) >= P(HG).
+
+In a sense, HG is necessarily more "complicated" than H for any H and G,
+so I may be splitting hairs, but what I'm trying to say is that irrespective
+of subjective impressions of how complicated something is, P(H) >= P(HG)
+holds, with equality if and only if P(HG') = 0.
+
+> As you point out, it's a very simple matter to show P(x | H) = P(x | HG)
+> ==> P(H | x) > P(HG | x), and thus H is to be preferd to HG. Now to say
+> that H is as consistent with the data as HG is to say P(x | H) =  P(x | HG).
+> Can you elaborate some on this.
+
+Well, "P(x | A) = P(x | B)" means that x is as likely to be observed if A is
+operative as it is if B is operative. This implies that observing x does not
+provide any useful information which might allow us to discriminate between
+the respective possibilities that A and B are operative; the difference
+reduces to the difference between the (unknown and unhelpful) prior
+probabilities P(A) and P(B):
+
+  P(x | A) = P(x | B)  ==>
+
+    P(A | x)  =  k P(A),   and   P(B | x)  =  k P(B)
+
+where k  =  P(x | A) / P(x)  =  P(x | B) / P(x).
+
+So A and B are "equally consistent with the data" in that observing x
+doesn't give any pointers as to which of A or B is operative.
+
+In the particular case where A = H and B = HG, however, we know that their
+prior probabilities are ordered by P(H) >= P(HG), although we don't know
+the actual values, and it's this which allows us to deploy the Razor to
+throw out any such HG.
+
+> Also, in the "real world" it isn't as clear cut and dry it seems 
+> to me. We can't always determine whether the equality "P(x | H) =  
+> P(x | HG)" is true. 
+
+That's certainly true, but the particular point here was whether or
+not a `divine component' actually underlies the prevalence of religion
+in addition to the memetic transmission component, which even the religious
+implicitly acknowledge to be operative when they talk of `spreading the word'.
+
+Now it seems to me, as I've said, that the observed variance in religious
+belief is well accounted for by the memetic transmission model, but rather
+*less* well if one proposes a `divine component' in addition, since I would
+expect the latter to conspire *against* wide variance and even mutual
+exclusion among beliefs. Thus my *personal* feeling is that P(x | HG) isn't
+even equal to P(x | H) in this case, but is smaller (H is memetic transmission,
+G is `divine component', x is the variance among beliefs). But I happily
+acknowledge that this is a subjective impression.
+
+> BTW, my beef with your Baysian argument was not a mathematical one - 
+> I checked most of your work and didn't find an error and you seem very  
+> careful so there probably isn't a "math mistake". I think the mistake
+> is philosophical. But just to make sure I understand you, can please 
+> rephrase it in non-technical terms? I think this is a reasonable 
+> request - I always try to look for ways of  explaining physics to 
+> non-physicist. I'm not a Baysian statistician (nor any type of 
+> statistician), so this would be very helpful. 
+
+Not that I'm a statistician as such either, but:
+
+The idea is that both theism and atheism are compatible with all of
+the (read `my') observations to date. However, theism (of the type with
+which I am concerned) *also* suggests that, for instance, prayer may be
+answered, people may be miraculously healed (both are in principle amenable
+to statistical verification) and that god/s may generally intervene in
+measurable ways.
+
+This means that these regions of the space of possible observations, 
+which I loosely termed "appearances of god/s", have some nonzero
+probability under the theistic hypothesis and zero under the atheistic.
+
+Since there is only so much probability available for each hypothesis to
+scatter around over the observation space, the probability which theism
+expends on making "appearances of god/s" possible must come from somewhere
+else (i.e. other possible observations).
+
+All else being equal, this means that an observation which *isn't* an
+"appearance of god/s" must have a slightly higher probability under
+atheism than under theism. The Bayesian stuff implies that such
+observations must cause my running estimate for the probability of
+the atheistic hypothesis to increase, with a corresponding decrease
+in my running estimate for the probability of the theistic hypothesis.
+
+Sorry if that's still a bit jargonesque, but it's rather difficult to
+put it any other way, since it does depend intimately on the properties
+of conditional probability densities, and particularly that the total
+area under them is always unity.
+
+An analogy may (or may not :-) be helpful. Say that hypothesis A is "the
+coin is fair", and that B is "the coin is unfair (two-headed)". (I've
+used A and B to avoid confusion with H[heads] and T[tails].)
+
+Then
+
+  P(H | A) = 0.5  }  total 1
+  P(T | A) = 0.5  }
+
+  P(H | B) = 1    }  total 1
+  P(T | B) = 0    }
+
+The observations are a string of heads, with no tails. This is compatible
+with both a fair coin (A) and a two-headed coin (B). However, the probability
+expended by A on making possible the appearance of tails (even though they
+don't actually appear) must come from somewhere else, since the total must
+be unity, and it comes in this case from the probability of the appearance
+of heads.
+
+Say our running estimates at time n-1 are e[n-1](A) and e[n-1](B). The
+observation x[n] at time n is another head, x[n] = H. The estimates are
+modified according to
+
+                            P(H | A)
+  e[n](A)   =   e[n-1](A) * --------   =   e[n-1](A) * m
+                              P(H)
+
+and
+
+                            P(H | B)
+  e[n](B)   =   e[n-1](B) * --------   =   e[n-1](B) * 2m
+                              P(H)
+
+Now we don't know P(H), the *actual* prior probability of a head, but
+the multiplier for e(A) is half that for e(B). This is true every time
+the coin is tossed and a head is observed.
+
+Thus whatever the initial values of the estimates, after n heads, we have
+
+                 n
+  e[n](A)   =   m  e[0](A)
+
+and
+                    n
+  e[n](B)   =   (2m)  e[0](B),
+
+and since e[k](A) + e[k](B) = 1 at any time k, you can show that 0.5 < m < 1
+and thus 1 < 2m < 2. Hence the estimate for the fair-coin hypothesis A must
+decrease at each trial and that for the two-headed coin hypothesis B must
+increase, even though both hypotheses are compatible with a string of heads.
+
+The loose analogy is between "unfair coin" and atheism, and between "fair
+coin" and theism, with observations consistent with both. A tail, which
+would falsify "unfair coin", is analogous to an "appearance of god/s",
+which would falsify atheism. I am *not* claiming that the analogy extends
+to the numerical values of the various probabilities, just that the principle
+is the same.
+
+>> Constant observation of no evidence for gods, if evidence for them 
+>                                                ^^^^^^^^^^^^^^^^^^^^
+>> is at all possible under the respective theisms, constantly increases
+>  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>> the notional estimated probability that they don't exist, 
+
+> It's important to draw a distinction between theism that could
+> be supported or not supported by evidence and theism that can't.
+> Given a theism for which evidence is in principle not possible,
+> it doesn't make sense to say "lack of evidence" supports the contrary 
+> view.
+
+Quite so, but this type of theism is what I might call "the G in the HG",
+in terms of our Ockham's Razor discussion, and I'd bin it on those grounds.
+
+> So it depends upon your conception of this god. If it's a conception 
+> like Zeus, who happened to come down to earth to "play" quite 
+> frequently, then I agree with you - lack of evidence for this conception 
+> of god is evidence that it does not exist. But if your conception
+> of God is one that does not make falsifiable predictions (see below
+> on "falsifiable predictions"), then I disagree -- lack of evidence
+> does not support a disbelief. 
+
+The hypotheses don't have to be falsifiable, and indeed in my `model',
+the theism isn't falsifiable.
+
+> [...]
+
+> I used the phrase "SHOULD obverse". Given any specific 'x' theism 
+> does not make the prediction "P(x | Ht) > 0". That's why I used the 
+> word "should" - theism makes no predictions about any specific event.
+> I can only say "I believe" that God did such and such after such
+> and such happens, or "I believe God will" do such and such. But
+> for any given 'x' I can never, a priori, say P(x | Ht) > 0. I can
+> not even say this for the set of all 'x' or some 'x'. This is what 
+> don't like about your use of probability. We also have no way of
+> assigning these probabilities - I hold science to positivistic
+> criteria - if someone cannot tell me how to measure, even in principle,
+> P(x | H), then probability is not applicable to hypothesis H. Such
+> is the case when H = Ht (theistic) and Ha (atheistic). For example,
+> P(x | Ha) = P(x & Ha)/P(Ha). What is P(Ha)?!? How do I measure it? 
+
+You don't have to. We don't need, in the above analogy, to know *any*
+prior probabilities to deduce that the updating multiplier for the
+fair-coin hypothesis is less than unity, and that the corresponding
+multiplier for the two-headed coin hypothesis is greater than unity.
+You don't need to know the initial values of the running estimates
+either. It's clear that after a large number of observations, P(fair-coin)
+approaches zero and P(two-headed-coin) approaches unity.
+
+All you need to know is whether P(x | Ha) is larger than P(x | Ht) for
+observed x, and this follows from the assumptions that there are certain
+events rendered *possible* (not necessary) under Ht which are not possible
+under Ha, and all else is equal.
+
+> Baysian statistics relies upon a series of observations. But
+> what if the hypothesis isn't amenable to observation? And even for
+> statements that are amenable to observation, some observations are
+> not relevant -- a sequence of observations must be chosen with care.
+> I'm curious to know what types of observations x[1],x[2],... you have 
+> in mind concerning theism and atheism.
+
+Any observations you like; it really doesn't matter, nor affect the
+reasoning, provided that there are some possible observations which
+would count as "appearances of god/s". Examples of this might be
+a demonstration of the efficacy of prayer, or of the veracity of
+revelation.
+
+>> But any statement about P(x | H) for general x still counts as a 
+>> prediction of H. If the theism in question, Ht, says that prayer may 
+>> be answered, or that miracles may happen (see my interpretation, quoted 
+>> again above, of what `God exists' means), then this is a prediction, 
+>> P(x | Ht) > 0 for such x. It's what distinguishes it from the atheist 
+>> hypothesis Ha, which predicts that this stuff does not happen, P(x | Ha)
+>> = 0 for such x.
+
+> Theism does not make the claim that "P(x | Ht) > 0 for such x".
+> Or I should say that my "theism" doesn't. Maybe I was too quick to
+> say we had a common language. You said that by the existence of God 
+> you "mean the notion that the deity described by the Bible and by 
+> Christians *does* interact with the universe as claimed by those agents".
+> I agreed with this. However, I must be careful here. I BELIEVE
+> this - I'm not making any claims. Maybe I should have changed *does*
+> to *can* - there is an important shift of emphasis. But any way,
+> since I "only" have a belief, I cannot conclude "P(x | Ht) > 0 for 
+> such x".
+
+OK, we'll downgrade "*does* interact" to "*may* interact", which would
+actually be better since "does interact" implies a falsifiability which
+we both agree is misplaced.
+
+> I don't think my theism makes "predictions". Maybe I'm not
+> understanding what you mean by "prediction" - could you explain what
+> you mean by this word?
+
+I'll explain, but bear in mind that this isn't central; all I require of
+a theism is that it *not* make the prediction "Appearances of god/s will
+never happen", as does atheism. (Before somebody points out that quantum
+mechanics doesn't make this prediction either, the difference is that
+QM and atheism do not form a partition.)
+
+Predictions include such statements as "Prayer is efficacious" (implying
+"If you do the stats, you will find that Prayer is efficacious"), or "Prayer
+is *not* efficacious", or "Verily I say unto you, This generation shall not
+pass, till all these things be fulfilled." I don't think we have any problems
+of misunderstanding here.
+
+>> Persistent observation of this stuff not happening, *consistent* with
+>> Ht though it may be, is *more* consistent with Ha, as explained in the
+>> Bayesian stats post. 
+>>
+>> Even if Ht ("God exists") is unfalsifiable, that's
+>> no problem for my argument, other than that you have to let the number 
+>> of observations go to infinity to falsify it asymptotically. 
+
+> BTW, I do not consider an argument that requires an infinite number of 
+> observations as valid - or rather that part of the argument is not valid. 
+> We, as existing humans, can never make an infinite number of measurments 
+> and any conclusion that reilies on this I don't accept as valid.
+
+That's fine; I don't claim that theism is false, merely that the [finite
+number of] observations available to me so far suggest that it is, and
+that as I continue to observe, the suggestion looks better and better.
+
+> [Renormalization stuff deleted]
+
+>> In the Bayesian stats post, I assumed that theism was indeed unfalsifiable
+>> in a finite number of observations. Here's the relevant quote:
+>> 
+>> $ The important assumption is that there are *some* observations which 
+>> $ are compatible with the theist hypothesis and not with the atheist 
+>> $ hypothesis, and thus would falsify atheism; these are what I called 
+>> $`appearances of god/s', but this need not be taken too literally. Any 
+>> $ observation which requires for its explanation that one or more gods 
+>> $ exist will count. All other observations are assumed to be compatible 
+>> $ with both hypotheses. This leaves theism as unfalsifiable, and atheism 
+>> $ as falsifiable in a single observation only by such `appearances of 
+>> $ god/s'.
+
+> Here is my problem with this. For something to be falsifiable it
+> must make the prediction that 'x' should not be seen. If 'x' is 
+> seen then the hypothesis has been falsified. Now, atheism is a word 
+> in oposition to something - theism. A theism aserts a  belief and an 
+> atheism aserts a disbelief. So there are certain atheisms that are 
+> certainly falsifiable - just as there are certain theisms that are 
+> falsifable (e.g. if my theism asserts the world is only 6,000 years 
+> old and that God does not decieve then this has been falsified). However, 
+> the atheism that is in oposition to an unfalsifiable theism is also 
+> unfalsifiable. I could be wrong on this statment - [...contd]
+
+I think you are; an "appearance of god/s" is sufficient to falsify
+atheism, whereas in general the corresponding theism is unfalsifiable.
+
+> I'll think more about it. Until then, here is a general question.
+> Suppse X were unfalsifiable. Is not(X) also unfalsifiable? 
+
+No: by way of a counterexample, let X = "the coin is fair", or more
+accurately (so that not(X) makes sense) "the two sides of the coin are
+different". This is unfalsifiable by tossing the coin; even a string of
+heads is consistent with a fair coin, and you have to go to an infinite
+number of tosses to falsify X in the limit. Its converse is falsifiable,
+and is falsified when at least one head and at least one tail have appeared.
+
+>>> This is partly what's wrong with you Baysian argument - which 
+>>> requires observations x[1] ... x[n] to be made. There are simply 
+>>> no such observations that have a truth value in relation to the 
+>>> statement "God exists". Now, by use of your symmetry argument, I 
+>>> can understand why someone would say "Since the statement 
+>>> 'God does not exist'
+>>   ~~~~~~~~~~~~~~~~~~
+>>> makes no predictions I will choose not to believe it." But none
+>>> the less this would be founded on a type of faith - or if you don't
+>>> like the word faith insert "belief for which there is no falsifiable
+>>> evidence" instead. 
+
+>> I'll assume you meant `God exists' up there at the highlight. But by our
+>> agreed definition of "exists", the statement makes predictions as I said
+>> above, although it isn't falsifiable in a finite number of observations.
+
+> Actually, I mean 'God does not exist' makes no predictions.
+
+Oops. Sorry. Mea culpa.
+
+> The truth of this statment actually depends upon which god you are
+> refering to. But I can think of some conceptions of God for which 
+> it is true. But once again I'm open to the posibility that I could
+> be wrong. So give me some examples of predictions of the statment
+> "God does not exist". Here is one that I can think of. If true, then 
+> there would be no healing or miricles. But this can in principle never 
+> be determined one way or the other. There are cases in which people 
+> seem to recover and are healed without the help of a doctor and for no  
+> known reason. These situations do in fact happen. They are consistent
+> with a theistic hypothesis, but IN NO WAY support such a hypothesis.
+
+We agree here.
+
+> They are not inconsistent with an atheistic hypothesis. I can't
+> think of one "prediction" from 'God does not exist' that isn't of
+> this type. But I might be missing something. 
+
+"The Rapture will not happen on October 28 1992." Said Rapture would have
+falsified atheism to my satisfaction had it happened, although its failure
+to happen does not, of course, falsify any theisms other than those which
+specifically predicted it.
+
+"No phenomenon which requires the existence of one or more gods for its
+explanation will ever be observed." That about sums the whole thing up.
+
+> bob singleton
+> bobs@thnext.mit.edu
+
+Cheers
+
+Simon
+-- 
+Simon Clippingdale                simon@dcs.warwick.ac.uk
+Department of Computer Science    Tel (+44) 203 523296
+University of Warwick             FAX (+44) 203 525714
+Coventry CV4 7AL, U.K.

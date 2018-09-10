@@ -1,0 +1,15 @@
+From: fedup@firga.sun.ac.za (FE DU PLESSIS [M.ING E&E])
+Subject: Re: References for ANY IC
+Organization: University of Stellenbosch
+Lines: 10
+
+ In a previous article, ree88132@zach.fit.edu (Keith Ledig) writes:
+>I am looking for a text/reference that will include pinouts, 
+>description, and functionality for just about any IC made.
+...
+
+You can find cross reference to almost any IC or discrete semiconductor in 
+Philips ECG: Semiconductors Master Replacement Guide, ~$10. (Especially 
+industrial, commercial and entertainment, but not specialised or military.)
+
+ - Francois

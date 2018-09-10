@@ -1,0 +1,22 @@
+From: chu@TorreyPinesCA.ncr.com (Patrick Chu 3605)
+Subject: Compositing pictures on PC?
+Organization: NCR (Torrey Pines Development Center)
+Disclaimer: This posting does not necessarily reflect the opinions of NCR.
+Lines: 16
+
+
+I was wondering if anyone knows of a graphics package for the PC that
+will do compositing of a series of pictures?
+
+What I mean by "compositing" is, say I have a live video clip
+(digitized) panning around a living room, and a computer-generated
+bird flying around the screen.  I want to combine these two series of
+pictures so that everywhere where the bird frames are black, I want
+the living room picture to show through.  Yes, I realize I can do this
+with a genlock, and I do own a genlock, but I want to be able to do
+manual compositing also.  It's ok if I have to composite one frame at
+a time; I assumed I'd have to do that anyway.  But being able to
+composite a series of frames would be even better.
+
+I've looked around and I haven't found a PC package that will perform
+this.  Help, please!

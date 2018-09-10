@@ -1,0 +1,36 @@
+From: pjsinc@phoenix.oulu.fi (Petri Salonen)
+Subject: Re: What does the .bmp format mean?
+Organization: University of Oulu, Finland
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 30
+
+Michael Panayiotakis (louray@seas.gwu.edu) wrote:
+: In article <robertsa.735922084@unix2.tcd.ie> robertsa@unix2.tcd.ie (Andrew L. Roberts) writes:
+: >What exactly does the windows bitmap format look like? I mean, how is
+: >the data stored: width, height, no. of colours, bitmap data? I couldn't
+: >find anything in ths user manual, is there any other reference material
+: >which would give me this information?
+
+: Well, this is *only* a guess:  If it goes by the "true" meaning of "bit
+: map", then it holds (x,y,c) where x pixel number in th ex-direction, y:
+: pixel-number in the y-dir, c: colour.
+
+Come on fellows! The format is quite plainly explained in the manuals.
+It's in the "Programmer's Reference, Volume 3: Messages, Structures,
+and Macros" (MSC-Dev.kit for 3.1, should be also in the Borland's
+manuals) pages 232-241 (depending what you need).
+
+First there is the BITMAPFILEHEADER-struct then the BITMAPINFO which
+contains the BITMAPINFOHEADER and the RGBQUAD and then the bitmap
+data. AND there is also a example among the example files (MS_SDK).
+Hope this helps....
+
+-----------------------------------------------------------------------------
+    ########################## | Yes, I do have some prior knowledge in this.
+   ##########################  | There is nothing dangerous in these dragons,
+  ####   / ///   /             | they are totally harmless... But my opinion
+ ####   /  /    / /// ///      | is that kicking them might not be the right
+#### /// ///   / / / /// /     | way to test it. So shut up and RUN!
+-----------------------------------------------------------------------------
+pjsinc@sunrise.oulu.fi  pjsinc@phoenix.oulu.fi  pjsinc@tolsun.oulu.fi
+If it's possible that there are some opinions above, they must be all MINE.

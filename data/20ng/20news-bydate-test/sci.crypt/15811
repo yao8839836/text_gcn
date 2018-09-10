@@ -1,0 +1,38 @@
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Re: Estimating Wiretap Costs/Benefits
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+X-Newsreader: Tin 1.1 PL5
+Lines: 32
+
+Robin Hanson (hanson@kronos.arc.nasa.gov) wrote:
+:               WOULD WIRETAP CHIP BE COST-EFFECTIVE?
+
+:   SUMMARY: Compared to an average monthly phone bill of sixty dollars,
+:   wiretaps are only worth two cents a month to police.  So the
+:   proposed wiretap chip must raise phone costs by less than one part 
+:   in three thousand to be cost-effective. 
+
+Robin's calculation is interesting and important, even if it's off by
+an order of magnitude (for example).
+
+Even if hardware costs for the Clipper Chip phones were ZERO, the
+protocol overhead in transmitting the escrow field would be much
+higher than the 1 part in 3 thousand...it depends on the exact details
+of the phone call length, protocol, etc. (shorter calls get a
+proportionately greater hit).
+
+However, I suspect most Americans will not find this line of reasoning
+as persuasive as the analogies about escrowing keys to one's house
+are.
+
+-Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+

@@ -1,0 +1,18 @@
+From: drand@spinner.osf.org (Douglas S. Rand)
+Subject: Disk mount problems
+Organization: Open Software Foundation
+Lines: 13
+
+
+I have an external drive connected to my IIsi.  This is never
+recognized and mounted on system startup.  I can mount it with
+the SCSI control panel.  I'm running system 7.0.1,  and everything
+is properly terminated.  Would anyone have a helpful idea at to 
+the problem?  
+
+
+--
+Douglas S. Rand <drand@osf.org>		OSF/Motif Dev.
+Snail:         11 Cambridge Center,  Cambridge,  MA  02142
+Disclaimer:    I don't know if OSF agrees with me... let's vote on it.
+Amateur Radio: KC1KJ

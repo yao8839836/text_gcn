@@ -1,0 +1,26 @@
+From: u7911093@cc.nctu.edu.tw (Erik Wang)
+Subject: HOW Can I make MPEG Sound?
+Organization: National Chiao Tung University
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 20
+
+Hello,
+        I install one wav driver: pc-speaker, then install mpeg 2.0
+            phoenix.oulu.fi:/pub/incoming/mpeg2_0/mpegexe.zip --/
+
+in Windows 3.1. but when I load one MPEG file and make sound type to
+WAV or MPEG,it always say error.
+        when I load one mpeg file which have wav file( ~.wav),then
+select sound type to WAV,it is normal and no error,but I still can't
+hear sound. What should I do? fix the SoundDrv number in MFW.INI?
+
+        Thankx for any help...
+
+
+--
+ Internet Address: u7911093@cc.nctu.edu.tw
+
+    English Name: Erik Wang
+    Chinese Name: Wang Jyh-Shyang
+
+ National Chiao-Tung University,Taiwan,R.O.C.

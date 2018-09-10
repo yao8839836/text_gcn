@@ -1,0 +1,18 @@
+From: mfeldman@bu.edu (Michael Feldman)
+Subject: Floptical Kills Superdrive
+Lines: 13
+X-Newsreader: Tin 1.1 PL5
+
+I recently bought a PLI 21mgbyte floptical drive, and I was very happy 
+with it until I tried to use it to format a 1.4 HD diskette. I put the
+HD floppy in my Superdrive to check that the floptical had formatted it
+correctly, and now my Superdrive refuses to recognize ANY floppy (it says
+"this disk is unreadable" and asks if I want to format it) even original
+systems floppies from Apple. Nor will it format the disks if I try to
+("initialization failed!")  Strangely enough the floptical still reads
+both the 21 MB and 1.4 HD disks, but I cant look at my 800k floppies, and
+if I have a crash I'm screwed because the Floptical can't be used as a
+start-up disk.  PLI has been unresponsive.  Any ideas? Has this happened
+to anyone before? I was looking for an inexpensive storage solution, and
+now I am looking at an expensive repair.  Help! respond to this thread, or
+email mfeldman@acs.bu.edu

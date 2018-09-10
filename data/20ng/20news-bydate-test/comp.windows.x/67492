@@ -1,0 +1,10 @@
+From: bnoble+@cs.cmu.edu (Brian Noble)
+Subject: Re: X Server scanline padding question
+Nntp-Posting-Host: bach.coda.cs.cmu.edu
+Organization: School of Computer Science, Carnegie Mellon
+Lines: 4
+
+
+Figured it out.  The answer lies in mit/server/ddx/mfb/mfbcustom.h.
+
+Brian

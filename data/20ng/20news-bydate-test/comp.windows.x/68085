@@ -1,0 +1,27 @@
+From: sxs@extol.Convergent.Com (S. Sridhar)
+Subject: Re: tvtwm icon manager
+Organization: Unisys Open Systems Group, San Jose
+Lines: 22
+
+In article <13960@risky.Convergent.COM>, sxs@extol.Convergent.Com (S. Sridhar) writes:
+|> Keywords: tvtwm icon manager
+|> 
+|> Need help on resource bindings for tvtwm.  Here's what I'd like to
+|> see the icon manager do.
+|> 
+|> Say I iconify a window and this shows up on the icon list.  Now when I 
+|> pan into another section of the virtual desktop and try to deiconify
+|> the window that I iconed (sp ?)  earlier, I'd like this window to
+|> deiconify in the current region.
+|> 
+|> Any resources that I can use to do this ?  Or more important, can I 
+|> do this ?  Rather find it painful to remember where I iconified a 
+|> window, go back there and deiconify.  Or simply, it is a pain to 
+|> pan around to get to a deiconified window.
+|> 
+|> Thanks,
+|> 
+|> ssridhar@convergent.com
+|> 
+|> 
+Just opened up the distribution.

@@ -1,0 +1,30 @@
+From: hades@coos.dartmouth.edu (Brian V. Hughes)
+Subject: Re: Centris 610 to 25MHz or 33MHz ???
+Keywords: Centris
+Reply-To: hades@Dartmouth.Edu
+Organization: Dartmouth College, Hanover, NH
+Disclaimer: Personally, I really don't care who you think I speak for.
+Moderator: Rec.Arts.Comics.Info
+Lines: 21
+
+paryavi@matt.ksu.ksu.edu (Saiid Paryavi) writes:
+
+>I just put a 33MHz 040 CPU into my Centris 610.  Now I have a math
+>coprocessor, but is it possible to speed up the Centris to run at either
+>25MHz or 33MHz??
+
+    Not without replacing most of the chips on the motherboard. The C610
+isn't like the IIsi was, meaning that the motherboard of the C610 is 
+actually designeds to run at the speed of the CPU, and not designed to
+run at a higher speed (like 25MHz) but be forced to run at the speed of
+a slower CPU (20MHz).
+
+>I didn't see any oscillators on the motherboard like the ones on the IIsi's
+>motherboard!  Where is the oscillator for the Centris?
+
+    There is more than one oscillator. If you are talking about the CPU
+oscillator chip, I think that it is located under the socket for the
+'040. At least this is what I have read in some other posts in this
+group.
+
+-Hades

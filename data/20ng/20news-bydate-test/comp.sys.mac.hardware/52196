@@ -1,0 +1,30 @@
+From: Thomas.Tornblom@Nexus.Comm.SE (Thomas Tornblom)
+Subject: Re: Asante Ethernet Adapter for LCIII Math Chip
+In-Reply-To: andy@ie.utoronto.ca's message of Tue, 20 Apr 1993 22: 02:25 GMT
+Organization: Communicator Nexus AB
+Lines: 24
+
+In article <C5syK2.Js2@ie.utoronto.ca> andy@ie.utoronto.ca (Andy Sun) writes:
+
+   Hi,
+
+   I have been told by a local sales that Asante has come out with this
+   LCIII PDS Ethernet adapter with an optional 68882 socket on the board.
+   My question is will the FPU performance degrade will I put the 68882
+   on the PDS card socket instead of on the motherboard itself? Intuitively,
+   the math co-processor should always be placed close to the CPU, but
+   I am not sure how good Apple's so-called processor-direct slot is when
+   it comes to throughout. Does anyone know the answer to this or have
+   any experience with the Asante LCIII Ethernet adapter? Thanks in advance.
+
+From what I've heard the PDS slot clock is only 16MHz, to be
+compatible with the old LC style boards, while the FPU socket close to
+the CPU is clocked at 25MHz.
+
+I guess a board designed for the LCIII can get a 25MHz clock from the
+extended PDS socket...
+--
+Real life:      Thomas Törnblom           Email:  Thomas.Tornblom@Nexus.Comm.SE
+Snail mail:     Communicator Nexus AB     Phone:  +46 18 171814
+                Box 857                   Fax:    +46 18 696516
+                S - 751 08 Uppsala, Sweden

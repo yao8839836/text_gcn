@@ -1,0 +1,9 @@
+Modeling human performance in running.
+ This paper focuses on the characteristics of a model interpreting the effect of training on athletic performance.
+ The model theory is presented both mathematically and graphically.
+ In the model, a systematically quantified impulse of training produces dual responses: fitness and fatigue.
+ In the absence of training, both decay exponentially with time.
+ With repetitive training, these responses satisfy individual recurrence equations.
+ Fitness and fatigue are combined in a simple linear difference equation to predict performance levels appropriate to the intensity of training being undertaken.
+ Significant observed correlation of model-predicted performance with a measure of actual performance during both training and tapering provides validation of the model for athletes and nonathletes alike.
+ This enables specific model parameters to be estimated and can be used to optimize future training regimens for any individual.

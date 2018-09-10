@@ -1,0 +1,43 @@
+From: jwilson@cs.strath.ac.uk (John D Wilson CS92)
+Subject: Phillips Monitor Conversion
+Organization: Comp. Sci. Dept., Strathclyde Univ., Glasgow, Scotland.
+Lines: 37
+NNTP-Posting-Host: hunter-06.cs.strath.ac.uk
+
+Hi peeps,
+
+Here's another of those "any ideas" type queries.
+
+I've been given an oldish Phillips TeleVideo terminal type thingy, without
+a keyboard.  But no problem so far.
+
+When I dismantled it, I discovered that it is really just a standard
+RGB monitor with built in modem/ROM software etc.
+
+Phillips kindly labelled the circuit board with the RGB inputs, so I
+connected it up as a monitor and he presto it worked - sort of.
+
+The problem is that I have no idea where to connect the Sync lines.
+The display rolls continuously, but does change modes (OK only to
+CGA - but useful for my laptop).
+
+Any of you wonderful people any knowledge of Phillips monitors?
+
+I've tried Phillips in the UK and a very helpful guy told me that
+he has had several enquiries of this sort, but Phillips Computer
+is now under the auspices of DEC (at least in the UK).  DEC said
+sorry Phillips don't make it any more. What is it anyway?
+A UK support dealer said "Circuit diagrams? Sync?"
+
+So any ideas.
+
+John.
+
+
+____________________________________________________________________
+Quote:
+      Computer Scientists are not boring. They're Wonderful, 
+      Exciting, Interesting people who just happen to like
+      talking to inanimate objects as if they are human.
+                                                   by Me.
+

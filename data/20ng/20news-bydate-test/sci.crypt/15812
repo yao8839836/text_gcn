@@ -1,0 +1,124 @@
+From: pat@rwing.UUCP (Pat Myrto)
+Subject: Re: THE CLIPPER CHIP: A TECHNICAL SUMMARY
+Organization: Totally Unorganized
+Lines: 119
+
+In article <1993Apr19.182327.3420@guvax.acc.georgetown.edu> denning@guvax.acc.georgetown.edu writes:
+>The following document summarizes the Clipper Chip, how it is used,
+>how programming of the chip is coupled to key generation and the
+>escrow process, and how law enforcement decrypts communications.
+
+Interesting.  Tell us, what happens if I were to say OK, I want to have
+something else.  If the law enforcement wants my traffic, they can record
+it, then get a search warrant, and get the keys FROM ME, just like they
+would the keys to a stout private safe, etc. (Lets say I suspect that
+there is a way to trivially crack this at the Fed level, with no warrant,
+say for NSA scanning for keywords, etc., and the government has abused
+great power in the past...).
+
+So I say "Mr Vendor, I want something different, independent.  I am
+a paranoid sort, ya understand...".
+
+Will the result be "Sorry, without Government permission, we cannot sell
+you anything secure", or would it be "Sorry, we know which side our
+bread is buttered on, we cannot sell except to government people, law
+enforcement, and 'special' people...".
+
+What, in your opinion, would be the chances of "sure, we will sell you
+this secure system ... be happy to..."
+
+Also, please be so kind as to tell us what the plans are for private
+encryption of, say files transferred by modem, or FTP, or data stored
+on disk?  SURELY you have a feel for what the administration is planning
+for us people on that....  With your rather intimate relationship with
+the FBI, NSA, etc. you must CERTAINLY have an idea.  You are surely
+not going to say "the people are not to know, until it is too late..."
+This IS supposed to be government of the people by the PEOPLE, isn't
+it?  That is, the people ARE the government's BOSSES?  The BOSSES
+want to know what the *@()#*&(@ is going on here...
+
+You see, I am kind of nervous, because in the last month or so, I have
+seen a non-stop stream of ideas coming out of Wash DC that at least
+appear VERY STRONGLY to have a common trait to limit privacy (freedom
+from Govt eavesdropping), and the ability to defend ourselves against
+violent attack (no, 911 is *NOT* good enough for 'common folk', they
+arrive only in time to clean up the mess: I would be DEAD if I had to
+depend on 911...).   You see, with all that talk about National smart
+ID cards, limiting of encryption to 'government approved', denial of
+means to effective personal defense (EIGHT bills in congress right now),
+it looks an AWFULLY lot like the whole thing is to be able to trace
+EVERY ACTIVITY of an individual from cradle to grave.  All it would take
+is requiring that National ID card to be used in all transactions...
+and with no effective data protection, and with the people suitably
+disarmed, there would not be a helluva lot they could do about it, now
+would there?  All in the name of the War on the Constitu ... er ...
+drugs, and of course that catch word 'terrorists'.  What is wrong with
+good OLD-FASHIONED POLICE WORK to build a case?  They don't want to
+have to be burdened to leave the office, it seems...
+
+Please read the Bill of Rights (first ten amendments to the US
+Constitution) and tell us how you can reconcile this Big Brother-ish
+policy of the Administration (always for a 'crisis' of some kind, isn't
+it?) with that Bill of Rights in the context of the people who wrote
+it?
+
+Reassure us - please... (or is that no longer regarded as necessary,
+seeing as apparantly the people have NO input on this agenda, the
+Administration preferring to make all the DECISIONS in secret, then
+springing it on us...).  Doesn't sound much like ... by the PEOPLE
+to me.  I cannot help notice that the congress people involved were
+NOT mentioned on the press release.  I find that more than a little
+bit curious, don't you?  I sure would like to know who to not vote
+for come election time...
+
+Yes, I am upset.  I feel you are a part of this, because I recall it
+was you that was posting HEAVILY in favor of a very similar idea (could
+have been the SAME thing, it was so close) a few months ago...  I
+also recall it was not well received.  Apparantly powers-that-be
+really didn't care (or were not told, or both).
+
+From what I see, Clipper will ONLY be useful for conversations I don't
+want the neighborhood kid listening in on.  Any SERIOUS security I don't
+think I would want to trust it a bit.  Might as well use cleartext.
+Certainly corporations would be rather dumb to depend on this for serious
+trade-secret data, especially if millions depended on that security.
+Given enough money, one could BUY any keys they wanted.  Buy a crooked
+judge, and a crooked cop.   Given a few hundred thou, they wouldn't be
+hard to find.  So, we end up with only criminals, terrorists, and the
+Government with real security, and the ability to eavesdrop.  You know
+the first two, if they are serious, ain't going to use this thing for
+THEIR communications.  I bet the government won't, either (except perhaps
+to order a pizza).
+
+Tell us, will that be prima face evidence of criminal activity,
+someone not using the 'government approved' methods?  That just a desire
+to have PRIVACY is no longer regarded as a legitimate right of an
+unconnected citizen?  Will that be grounds for a fly-through-the-door
+raid, and confiscation of all one's equipment, as 'terrorist tools',
+using civil forfeiture, so there will be no inconvenient need to
+PROVE any wrongdoing on the part of the citizen?
+
+I have yet another question, are we going to see articles in all the
+public magazines, consisting of soothing text telling us how great
+this is, how nice the government is by LETTING us have this illusion
+of privacy?  That the government is going to be so kind as to let
+us 'sort of' exercise a RIGHT?  What you want to bet that I am
+correct here?
+
+Please answer these questions.  As citizens of the United States, we
+hava a RIGHT to know what our Government plans to 'let' us have
+out of the goodness of their hearts...
+
+Funny thing, though - with all these proposals, I don't feel ONE BIT
+safer from drug dealers, terrorists, or a common street thug.  I am
+beginning to wonder if the greater danger lies in the above entities,
+or our own government gone out of control?
+
+Re-assure us, please.  So far, I haven't seen much to reassure me...
+and a LOT to greatly disturb me.
+
+-- 
+pat@rwing.uucp      [Without prejudice UCC 1-207]     (Pat Myrto) Seattle, WA
+         If all else fails, try:       ...!uunet!pilchuck!rwing!pat
+WISDOM: "Only two things are infinite; the universe and human stupidity,
+         and I am not sure about the former."              - Albert Einstien

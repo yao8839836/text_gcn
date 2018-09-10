@@ -1,0 +1,22 @@
+From: kmembry@viamar.UUCP (Kirk Membry)
+Subject: Re: good autoexec.bat and config.sys for windows 3.1
+Reply-To: rutgers!viamar!kmembry
+Organization: Private System
+Lines: 16
+
+In <1993May9.225637.42641@datamark.co.nz> thomas@datamark.co.nz (Thomas Beagle) writes:
+
+>There is no need to load EMM386. QEMM, or anything else on many
+>Windows PCs. It's only useful if you are still stuck with running
+>MSDos based applications that need lots of low memory free.
+
+>Otherwise you just need to load HIMEM.SYS and let Windows go straight
+>to the Extended memory.
+
+..that's what I thought, that's why I never used emm386.exe before.
+
+-- 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Kirk Membry                                    "Our Age is the Age of Industry"
+rutgers!viamar!kmembry                         - Alexander Rodchenko
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

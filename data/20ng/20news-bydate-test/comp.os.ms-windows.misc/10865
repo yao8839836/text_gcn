@@ -1,0 +1,64 @@
+From: ntaib@silver.ucs.indiana.edu (Iskandar Taib)
+Subject: Re: Please help an Amiga user find comfort in Windows
+Nntp-Posting-Host: silver.ucs.indiana.edu
+Organization: Indiana University
+Lines: 58
+
+In article <1t9ada$og0@fitz.TC.Cornell.EDU> stlombo@eos.acm.rpi.edu (Steve J. Lombardi) writes:
+>By night I'm an Amiga user. By day I work with windows. I'd be much more 
+>comfortable in windows if I had Two things.
+>
+>1. A good Personal information manager. You know- a calendar, address book,
+>reminder list etc... rolled into one clean interface.
+
+I prefer InfoSelect myself, but it is a strange kind of PIM. 
+
+>2. A good file manager. Microsofts is very poor by my standards. How
+>about one that has a left and right window and allows file operations 
+>between them. being able to launch programs from the same interface
+>would be nice. as well as text reading and graphics viewing. Those
+>who are familiar with Directory Opus on the Amiga know what I'm
+>looking for.
+
+
+Well, a few things might help you like the 3.1 File Manager better.
+
+1) To get more than one window simply double click on a drive icon.
+   That it only gives you one window to work with is a fallacy. You
+   can drag files between windows, to any icon on the tree on the left
+   side of the window, and to any drive icon. This beats your "left
+   and right window" as you can have as many open as you wish instead 
+   of just two.
+
+2) You can launch any app from within File Manager by double clicking
+   on the executable's icon.
+
+3) You can launch any application and open a document file by double
+   clicking on the document file's icon, provided you have
+   associations set correctly. This is easily done with the menus. The
+   "browse" capability adds a lot of functionality to 3.1. So if you
+   name all your text files with .txt and point all GIF, TIFF, etc.
+   files towards Paintshop or WinGIF, this takes care of your
+   requirement for "text reading and graphics viewing".
+
+I know someone who prefers using File Manager as his shell. Setting up
+all the associations you need is the way to do it.
+
+If Directory Opus is half as good as File Manager then it must be
+pretty good indeed! File Manager just needs you to understand how
+some things are done.
+
+
+
+
+
+
+
+
+
+
+-- 
+-------------------------------------------------------------------------------
+Iskandar Taib                          | The only thing worse than Peach ala
+Internet: NTAIB@SILVER.UCS.INDIANA.EDU |    Frog is Frog ala Peach
+Bitnet:   NTAIB@IUBACS                 !

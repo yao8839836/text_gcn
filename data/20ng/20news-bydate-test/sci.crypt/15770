@@ -1,0 +1,22 @@
+From: strnlght@netcom.com (David Sternlight)
+Subject: Re: Can DES code be shipped to Canada?
+Article-I.D.: netcom.strnlghtC5wKrt.6JA
+Organization: DSI/USCRPAC
+Lines: 16
+
+In article <1993Apr22.125402.27561@fripp.ri.cadre.com> rj@ri.cadre.com writes:
+>Someone in Canada asked me to send him some public domain DES file
+>encryption code I have.  Is it legal for me to send it?
+
+I believe it is illegal to send any cryptographic code out of the country
+without an export license. (Others will correct me if this is inaccurate.)
+
+Dunno if you'd get one for the particular code you have; the only way to
+find out is to apply for a license.
+
+Note that you need to distinguish between what is legal to send to Canada if
+YOU have such a license, and what is legal to send if you don't.
+
+-- 
+David Sternlight         Great care has been taken to ensure the accuracy of
+                         our information, errors and omissions excepted.  

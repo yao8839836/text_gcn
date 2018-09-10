@@ -1,0 +1,30 @@
+From: marcus@iiasa.ac.at (Marcus SCHNELL)
+Subject: Re: Save Under with X11R5
+Organization: International Institute for Applied Systems Analysis
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 24
+
+Hans Bos (hans@xelion.nl) wrote:
+: I have the following problem on X11R5 servers.
+: 
+: When a window of my is obscured by a pop up window which has
+: the Save Under attribute set, the subwindows of my window are not restored.
+: Normally, the subwindows are redrawn when the parent window gets an expose
+: event, but because the save under attribute is used for the pop up window
+: that obscured my window, no expose event is sent.
+
+We had the same problem and on most of our machines it works if we use
+Backing Store instead of Save under.
+
+Marcus
+
+*****************************************************************
+*    Marcus Schnell                         marcus@iiasa.ac.at  *
+*    International Institute for Applied Systems Analysis IIASA *
+*    A-2361 Laxenburg AUSTRIA                                   *
+*    Phone   : (+43 2236) 715 21 *487                           *
+*    FAX     : (+43 2236) 731 48                                *
+*    Vice-Commissioner of the Australian Rules Internet         *
+*      Football League (ARIFL) 1992, 1993, ...                  *
+*****************************************************************
+

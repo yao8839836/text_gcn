@@ -1,0 +1,65 @@
+From: einari@rhi.hi.is (Einar Indridason)
+Subject: Re: How to the disks copy protected.
+Lines: 60
+Nntp-Posting-Host: hengill.rhi.hi.is
+
+In <1993Apr26.163640.27632@csus.edu> kschang@sfsuvax1.sfsu.edu (Kuo-Sheng (Kasey) Chang) writes:
+
+>In article <Apr23.223805.66909@yuma.ACNS.ColoState.EDU>
+>jmiller@terra.colostate.edu (Jeff Miller) writes: 
+
+>>In an earlier article Kasey Chang wrote:
+
+>>: Nothing, but if you read my WHOLE suggestion, I'm saying that you register
+>>: via MAIL by mailing in your registration card, THEN the company send you
+>>: the patch which includes the info you put on the registration card.
+
+>>The problem with this scheme, is that when I buy a game, I want to play it
+>>*THAT* day...mailing a card to and from California would probably take a week
+>>or more.
+
+>I didn't say the program is DISABLED, did I?  (I HATE!!!! it when people
+>take my words out of context...)  I mean that once you have installed it,
+>you cannot DEinstall it without registering it, or transfer it to another
+>machine, or SOME SORT OF LIMITATION (the author will decide), WHICH WILL
+>BE REMOVED WHEN THE PROGRAM IS REGISTERED.  
+
+
+WHAT??!!!!
+
+You can't remove it, unless you register?  
+You gotta be joking, right?
+What happens if I get a demo-version of that program, install it, and then
+decide that I don't like it.  Do I have to register to be able to get rid
+of it?  (Hell, no, that is the last thing I would think of!)
+If that is what you mean, then you would better make pretty sure, that a
+statement to that effect is printed loud and clear on the package!
+
+
+A better way to implement the above mentioned scheme is (IMHO) to allow
+anyone to install the program, but if they register, they get some
+additional features enabled.  It could mean only one new .EXE file needed
+to be copied, to have got the full-version of the program.
+Of course anyone is _free_ to _delete_ or _remove_ that program at whatever
+time they like.
+
+Still, we face the trouble of 'moving' the new .EXE file around.  That
+could be solved by having the user registering him self, and get back a
+specially marked for him (or her) a new .exe file.
+
+
+As for some sort of limitations, here are some suggestions:
+Limit the size of data that the program can work with,
+Disable saving the data,
+Print it out with some defects in the output (but be sure to mark them as
+such)
+Let some pop-up screen appear for ca. 10 secs. when the program is started
+and/or exited
+
+etc....
+but DON'T have it that you _must_ register to be able to remove it.
+
+
+
+--
+einari@rhi.hi.is

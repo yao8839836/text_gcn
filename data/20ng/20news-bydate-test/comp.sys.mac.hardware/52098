@@ -1,0 +1,169 @@
+From: guykuo@carson.u.washington.edu (Guy Kuo)
+Subject: IIsi clock Poll Results - Long
+Organization: University of Washington
+Lines: 161
+NNTP-Posting-Host: carson.u.washington.edu
+Summary: Results of IIsi clock modification poll
+Keywords: IIsi,clock,poll
+
+This poll was conducted to help users decide whether or not to alter their
+IIsi clock oscillator. I have attempted to gather as many case histories as
+possible to find some estimate of success and risk. The number of replies
+probably shows how rare this modification is but give the impression that
+success rates may be higher than the previous 80% estimate. 24 of 24
+machines were able to run at 25 mhz when no add on boards were present.
+This is not a scientific survey but it is the best we have to work with.
+
+Thanks to all who contributed to this poll. 
+
+
+Issues:
+
+	Speed) 25 mhz to 27.5 mhz appears to be the norm for machines without
+		add on cards. All reported machines were able to use
+		25 mhz as long as no add on cards were present. Several Apple
+		Nubus cards were in use. No machine with the Nubus adapter
+		was able to go faster than 25 mhz. One wasn't even able to
+		achieve 25 mhz with the Nubus adapter in place
+	
+		At speeds of 32 and 33 mhz, the startup sound is distorted and
+		hi density floppy disk problems have been reported.
+		
+		Note: Unless specifically listed below, machines were not
+			tested with a higher speed clock to failure. Hence,
+			the 25 mhz operational machines may well work at
+			higher speeds.
+			
+	Damage) One user reported pulling out the plating of one pad. This was
+		repaired and the machine is operational. One other
+		reported pulling the pin out of the original clock oscillator
+		during desoldering. There is one second hand report of a user
+		putting a gash in the motherboard with a slipped soldering iron.
+		
+		No reports of static discharge damage.
+		
+		No reports of high speed operation causing damage.
+		
+		Then again, I also don't have any reports from users of
+		defective parachutes.
+		
+	Add on boards) Compatibility appears to be a problem with Apple Nubus
+		Adapters. Several other add on boards have been used with
+		success. See case histories
+		
+	Heat Sinks) Virtually all modified machines had a heat sink installed.
+		These were often the TO-220 style power transistor type. Some
+		used epoxy. Some used a dab of heat sink compound with a dab
+		of cyanoacrylate glue. There was also use of a clamp with a
+		bolt through the hole in the motherboard.
+		
+		
+		
+Case Histories:	
+
+All speeds are the effective CPU speed (1/2 of clock oscillator). All reported
+CPU versions were 20 mhz.
+
+1)  27.5 mhz operational. Ran for 10 minutes at 31 mhz before crashing.
+    No FPU or other add on card
+    Heatsinked CPU only
+    On 24 hours/day
+    No damage during installation
+   
+2)  27.5 mhz operational without Apple Nubus adapter. 25 mhz top speed with
+	Apple Nubus card installed
+    Heatsinked CPU only
+    On 24 hours/day
+    No floppy problems
+    No damage during installation
+   
+3)  27.5 mhz operational. Unable to boot at 31 mhz
+    Heatsinked CPU only
+    No floppy problems
+    No damage during installation
+   
+4)  25 mhz operational
+    Works with the following two configurations
+	
+	  	a)	Realtech FPU adaptor card
+			Realtech Cache card
+			SuperMac 8*24 PDQsi
+		
+		b)  	SuperMac FPU adaptor card
+			SuperMac Video Spigot
+			SuperMac 8*24 PDQsi
+			
+5)	33 mhz operational
+		Fuzzy startup sound
+		Problems with hi density disks
+
+6)	33 mhz operational
+		Fuzzy startup sound
+	Heat sink on CPU and chip to right of CPU
+	
+7)	25 mhz operational. Occasional crash at 33 mhz
+
+8)	25 mhz operational.
+	Using FPU rated at 16 mhz without difficulty
+	
+9)	25 mhz operational.
+	PDS adapter with a Spectrum 24PDQsi graphics card and a 
+	VideoSpigot, a 20MHz FPU
+	Heat sink on CPU
+	
+10)	25 mhz operational. 33 mhz failed after several hours.
+
+11)	25 mhz operational
+	 5/80+quicksilver/fpu(only upgrade)
+	 
+12)	25 mhz operational. Tried 33 mhz - system won't start. 
+ 	Heat sink on CPU
+	Configured with
+		RealTech FPU/adapter card
+		Supermac 8*24 PDQsi
+		Realtech cache.
+	CPU on continuously - no problems.
+ 	Floppy works fine at 1.4MB @ 25 mhz
+	
+13) 25 mhz operational
+	Heat sink on CPU
+	
+14) 25 mhz operational
+	Heat sink on CPU
+	
+15) 25 mhz operational
+	Heat sink on CPU
+	
+16) 25 mhz operational
+	Heat sink on CPU
+	
+17) 25 mhz operational
+	Heat sink on CPU
+	On 17-19 hours per day
+	
+18) 25 mhz operational
+	Heat sink on CPU + cooling fan
+	No floppy problems at 25 mhz
+	
+19) 20 mhz operational. Bombed soon after startup at 25 mhz with Nubus Adapter
+	20 mhz rated CPU
+	RAM 70 ns in slots, 80 on motherboard
+	
+20) 25 mhz operational
+	Heat sink added to CPU later. No damage while unheatsinked.
+	Apple Nubus adapter with FPU installed.
+	
+21) 25 mhz operational
+	Heat sink on CPU
+	
+22) 25 mhz operational
+	Heat sink on CPU
+	
+23) 25 mhz operational
+	Heat sink on CPU
+	
+24) 25 mhz operational
+	Heat sink on CPU
+	
+Guy Kuo <guykuo@u.washington.edu>
+	

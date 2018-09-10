@@ -1,0 +1,117 @@
+From: lee@hobbes.cs.umass.edu (Peter Lee)
+Subject: Re: QuickTime performance (was Re: Rumours about 3DO ???)
+	<1993Apr16.212441.34125@rchland.ibm.com>
+	<1993Apr26.170915.15833@waikato.ac.nz>
+Reply-To: lee@cs.umass.edu
+Organization: Software Development Lab, UMass, Amherst
+Lines: 108
+In-reply-to: ldo@waikato.ac.nz's message of 26 Apr 93 05:09:15 GMT
+
+In article <1993Apr26.170915.15833@waikato.ac.nz> ldo@waikato.ac.nz (Lawrence D'Oliveiro, Waikato University) writes:
+
+   Path: dime!ymir.cs.umass.edu!nic.umass.edu!noc.near.net!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!decwrl!waikato.ac.nz!ldo
+   From: ldo@waikato.ac.nz (Lawrence D'Oliveiro, Waikato University)
+   Newsgroups: comp.multimedia,comp.graphics
+   Date: 26 Apr 93 05:09:15 GMT
+   References: <1993Mar31.074502.3590@aragorn.unibe.ch>  <1993Apr16.212441.34125@rchland.ibm.com>
+   Organization: University of Waikato, Hamilton, New Zealand
+   Lines: 67
+   Xref: dime comp.multimedia:6358 comp.graphics:32606
+
+   OK, with all the discussion about observed playback speeds with QuickTime,
+   the effects of scaling and so on, I thought I'd do some more tests.
+
+   First of all, I felt that my original speed test was perhaps less than
+   realistic. The movie I had been using only had 18 frames in it (it was a
+   version of the very first movie I created with the Compact Video compressor).
+   I decided something a little longer would give closer to real-world results
+   (for better or for worse).
+
+   I pulled out a copy of "2001: A Space Odyssey" that I had recorded off TV
+   a while back. About fifteen minutes into the movie, there's a sequence where
+   the Earth shuttle is approaching the space station. Specifically, I digitized
+   a portion of about 30 seconds' duration, zooming in on the rotating space
+   station. I figured this would give a reasonable amount of movement between
+   frames. To increase the differences between frames, I digitized it at only
+   5 frames per second, to give a total of 171 frames.
+
+   I captured the raw footage at a resolution of 384*288 pixels with the Spigot
+   card in my Centris 650 (quarter-size resolution from a PAL source). I then
+   imported it into Premiere and put it through the Compact Video compressor,
+   keeping the 5 fps frame rate. I created two versions of the movie: one scaled
+   to 320*240 resolution, the other at 160*120 resolution. I used the default
+   "2.00" quality setting in Premiere 2.0.1, and specified a key frame every ten
+   frames.
+
+   I then ran the 320*240 movie through the same "Raw Speed Test" program I used
+   for the results I'd been reporting earlier.
+
+   Result: a playback rate of over 45 frames per second.
+
+   That's right, I was getting a much higher result than with that first short
+   test movie. Just for fun, I copied the 320*240 movie to my external hard
+   disk (a Quantum LP105S), and ran it from there. This time the playback rate
+   was only about 35 frames per second. Obviously the 230MB internal hard disk
+   (also a Quantum) is a significant contributor to the speed of playback.
+
+   I modified my speed test program to allow the specification of optional
+   scaling factors, and tried playing back the 160*120 movie scaled to 320*240
+   size. This time the playback speed was over 60 fps. Clearly, the poster who
+   observed poor performance on scaled playback was seeing QuickTime 1.0 in
+   action, not 1.5. I'd try my tests with QuickTime 1.0, but I don't think it's
+   entirely compatible with my Centris and System 7.1...
+
+   Unscaled, the playback rate for the 160*120 movie was over 100 fps.
+
+   The other thing I tried was saving versions of the 320*240 movie with
+   "preferred" playback rates greater than 1.0, and seeing how well they played
+   from within MoviePlayer (ie with QuickTime's normal synchronized playback).
+   A preferred rate of 9.0 (=> 45 fps) didn't work too well: the playback was
+   very jerky. Compare this with the raw speed test, which achieved 45 fps with
+   ease. I can't believe that QuickTime's synchronization code would add this
+   much overhead: I think the slowdown was coming from the Mac system's task
+   switching.
+
+   A preferred rate of 7.0 (=> 35 fps) seemed to work fine: I couldn't see
+   any evidence of stutter. At 8.0 (=> 40 fps) I *think* I could see slight
+   stutter, but with four key frames every second, it was hard to tell.
+
+   I guess I could try recreating the movies with a longer interval between the
+   key frames, to make the stutter more noticeable. Of course, this will also
+   improve the compression slightly, which should speed up the playback performance
+   even more...
+
+   Lawrence D'Oliveiro                       fone: +64-7-856-2889
+   Computer Services Dept                     fax: +64-7-838-4066
+   University of Waikato            electric mail: ldo@waikato.ac.nz
+   Hamilton, New Zealand    37^ 47' 26" S, 175^ 19' 7" E, GMT+12:00
+
+
+I'm afraid I missed the start of this thread, but there are three factors that
+can significantly affect QuickTime's playback speed that you may want to take
+into account:
+
+(1) playback bit depth (things are fastest when you play a
+movie back at the bit depth it was compressed for, this is usually 8 or 16
+bit, but other depths are (of course) possible).
+
+(2) type of scaling (QT is optimized for "double size" scaling, other scaling
+factors hit peformance much harder).
+
+(3) playback window position (MoviePlayer limits your window placement choices
+to advantagous pixel boundaries by default, I'm not sure about Premiere).
+
+Any combination of those can radically alter playback performance.  Image size
+is, of course, another biggie.  Giving the movie player lots of RAM can also
+make a real difference.
+
+Forgive me if these were mentioned earlier in the thread...
+
+-Peter Lee
+
+ 
+--
+/-------------------- Peter E. Lee, Software Conductor ----------------------\
+|                       Specular International, Inc.                         |
+|       lee@cs.umass.edu or (413) 256-1329 (H) or (413) 549-7600 (W)         |
+\-------- Beauty is 24 bits deep, plus eight bits of alpha channel ----------/

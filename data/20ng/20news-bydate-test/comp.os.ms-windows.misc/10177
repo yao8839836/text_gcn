@@ -1,0 +1,35 @@
+From: gt2617c@prism.gatech.EDU (Brad Smalling)
+Subject: Re: Challenge to Microsoft supporters.
+Organization: Georgia Institute of Technology
+Lines: 30
+
+In article <1993May1.211741.25086@wam.umd.edu> rsrodger@wam.umd.edu (Yamanari)
+writes:
+>In article <C6D616.25M@uceng.uc.edu> bferrell@ant.occ.uc.edu (Brett Ferrell)
+writes:
+>>In article <1993May1.154707.10177@hubcap.clemson.edu> ludes@hubcap.clemson.edu
+(Larry "Ludes" Ludwig) writes:
+>
+>> and not being able to adress your memory better than DOS,
+>
+>	Not sure what you mean here.  OS/2 sees 16 megs, uses 5 or six
+>	of these for it's own use (more if you want to count WinOS/2). 
+>	Windows sees 16 megs, uses 3 or 4 (more like 5 if you count the
+>	disk cache as I am for OS/2) for itself.  If memory efficiency 
+>	were a big issue, PC GEOS would be the current king of the 
+>	Intel desktop.
+
+I assumed he was referring to OS/2's 32-bit flat model addressing while DOS
+(and therefore Windows) use 20-bit segmented addressing.  As a programmer, I
+agree that segmentation unnecessarily complicates things.  It's annoying, too.
+But when just a Windows user, I don't think about it much.  And, I doubt many
+other people think about it (or even care) when just writing a document,
+calcing a spreadsheet, etc...It works and they get their work done.
+
+Just a neutral comment:
+It's funny, I think, how arguments about Windows vs OS/2 sound so very
+similar to arguments about Atheism vs Christianity or something like that.
+It's somehow very personal to people.  Convictions are irrational and
+there's nothing wrong with that--it's just...interesting.
+-- 
+Brad Smalling :: Jr.EE :: GA Tech :: Atlanta, GA :: gt2617c@prism.gatech.edu

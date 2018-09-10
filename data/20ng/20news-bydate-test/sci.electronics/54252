@@ -1,0 +1,34 @@
+From: ulan@ee.ualberta.ca (Dale Ulan)
+Subject: Re: Why circuit boards are green?
+Nntp-Posting-Host: eigen.ee.ualberta.ca
+Organization: University Of Alberta, Edmonton Canada
+Lines: 28
+
+kuusama@kaarne.cs.tut.fi (Kuusama Juha,,,VTT,) writes:
+
+>Not that the question is anything important, but I am still curious:
+>Why is that almost all printed circuit boards are green? I have seen
+>a few blue ones, but no red, yellow, company logo etc. Is there a
+>technical reason or could it be that the marketing "geniuses" have
+>not tought about it (yet)?
+
+The green layer is a solder-mask, and is used to make a finished board
+look neat, and to avoid solder bridges, especially when using wave
+soldering (or any other mechanized approach). I've seen red mask,
+but most that I've seen are green.
+
+A bakelite board will look brown in colour, and, if the solder mask
+is put on, looks like a brown board with green 'paint' on either side
+(or just one side) of the board.
+A fibreglass board will look green from the side, because the green
+solder-mask makes the board appear that colour. If you got a fibreglass
+board with no mask, it would be a whitish-grey colour.
+Teflon boards do exist, as well... but I'm not sure about that one.
+
+I'd guess the stuff they invented for solder mask was green, so they're
+not about to change. Also, any change in any chemical probably requires
+a better than normal cleaning of the machines that make boards. A lot
+of companies do not make their own boards... they ship them to a real
+boardhouse. 
+
+

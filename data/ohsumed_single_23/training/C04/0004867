@@ -1,0 +1,7 @@
+Treatment planning for internal radionuclide therapy: three-dimensional dosimetry for nonuniformly distributed radionuclides.
+ A calculational approach is described that provides the spatially varying radiation absorbed dose, presented as isodose contours superimposed on CT images, from nonuniform and/or irregular cumulated activity distributions.
+ CT images are read from magnetic tape and are displayed on a high-resolution color graphics display monitor.
+ Source tissue geometries are defined on a series of contiguous CT images automatically (by an edge detection algorithm) or manually (using a trackball), thereby obtaining a three-dimensional representation of the various source volumes of activity.
+ Dose calculations are performed using a radionuclide-specific absorbed dose point kernel in the form of a lookup table.
+ The method described yields the spatially varying dose delivered to tumor and normal tissue volumes from a patient-specific cumulated activity distribution in a clinically implementable manner.
+ This level of accuracy in determining normal tissue and tumor doses may prove valuable in the evaluation and implementation of radionuclides and radiolabeled compounds for therapeutic purposes.

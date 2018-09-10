@@ -1,0 +1,37 @@
+From: beck@irzr17.inf.tu-dresden.de (Andre Beck)
+Subject: Re: Encapsulated Postscript and X
+Keywords: eps
+Reply-To: Andre_Beck@IRS.Inf.TU-Dresden.DE
+Organization: Dept. of Computer Science, TU Dresden, Germany.
+Lines: 29
+NNTP-Posting-Host: irzr17.inf.tu-dresden.de
+
+
+EPS _IS_ plain postscript. It is only wrapped by some comments and stripped
+of any dubious commands for compatibility. You can simply do
+
+%!
+
+save gsave
+/showpage {} def
+
+% Include eps file here
+
+grestore restore
+
+showpage
+
+% end of file
+
+and this way show it on it's natural page position and size.
+
+Programs may use the %%BoundingBox: comment in the EPS file to do
+arbitrary scale, rotate and translate to include it in more complicated
+ways than above.
+
+--
++-o-+--------------------------------------------------------------+-o-+
+| o |                \\\-  Brain Inside -///                       | o |
+| o |                    ^^^^^^^^^^^^^^^                           | o |
+| o | Andre' Beck (ABPSoft) mehl: Andre_Beck@IRS.Inf.TU-Dresden.de | o |
++-o-+--------------------------------------------------------------+-o-+

@@ -1,0 +1,48 @@
+From: jim@n5ial.mythical.com (Jim Graham)
+Subject: Re: HELP: Promplem with Panasonic kx-1124 printer
+Article-I.D.: n5ial.1993Apr22.143320.1308
+Organization: what, ME???  you must be joking.
+Lines: 42
+
+In article <21APR199314480846@vill.edu> 166728647@vill.edu
+(DHARMESH CHOVATIA) writes:
+
+>I have a Panasonic kx-1124 (just inherited with no documentation) which is 
+>giving me a problem that i cant resolve.
+
+is this the KX-P1124 you're talking about?  or is there a KX-1124, too?
+I'll assume you just forgot the P....
+
+>The paper out light refuses to go out .
+
+this light is also the power light.....  on (not blinking) just means that
+the power is turned on.  if you look at the panel, it should read
+
+      POWER
+      ---------
+      PAPER OUT
+
+right?
+
+>It starts to blink when ever i turn the power on which 2 beeps.
+
+don't know why it would do this, unless you're out of paper, that is.
+
+>It does allow be to go on line with green
+>light lit, simultanously the red paper out light also remains lit -but is
+>does not blink.
+
+when you power up the printer, assuming it does have paper, the red power
+light (which, when flashing, doubles as paper out) should light, and a few
+seconds later, the green ONLINE light should come on.
+
+hope this helps.....
+   --jim
+
+--
+#include <std_disclaimer.h>                                 73 DE N5IAL (/4)
+------------------------------------------------------------------------------
+INTERNET: jim@n5ial.mythical.com  |  j.graham@ieee.org     ICBM: 30.23N 86.32W
+AMATEUR RADIO: n5ial@w4zbb (Ft. Walton Beach, FL)          AMTOR SELCAL: NIAL
+------------------------------------------------------------------------------
+E-mail me for information about KAMterm (host mode for Kantronics TNCs).

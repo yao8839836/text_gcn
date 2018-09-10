@@ -1,0 +1,31 @@
+From: pb@idca.tds.philips.nl (Peter Brouwer)
+Subject: Re: mysterious xdm files
+Reply-To: pb@idca.tds.philips.nl (Peter Brouwer)
+Organization: Digital Equipment Enterprise B.V.,Apeldoorn,The Netherlands.
+Lines: 25
+
+X-Disclaimer: All views are my own unless expicitly stated otherwise.
+
+In <1993May18.235641.10747@csi.jpl.nasa.gov> mwette@csi.jpl.nasa.gov (Matt Wette) writes:
+
+>I'm getting lots of files in /usr/lib/X11/xdm of the form
+>	Abert:0-a00138
+
+>I'm running xdm.  Anybody know what these are and, better yet, how to
+>move them (i.e., what resource can I change to make them appear
+>somewhere else)?
+
+That are the authorisation files for the server.
+Depending on what type of key your X supports they contain magic cookies,
+DES based authentication or SUN DES authentication.
+
+The place is defined with the DisplayManager.authDir 
+Other things like the file name can be changed as well see XDM manual pages.
+
+
+
+--
+#Peter Brouwer,                | Digital Equipment Enterprise ,              #
+#NET  : pb@idca.tds.philips.nl | Integration Industry Standard Systems,      #
+#PHONE:ext [+31] [-0]55 434218,| Dept Systems Enginering, Bld V1/B7          #
+#FAX  :ext [+31] [-0]55 432103 | P.O.Box 245,7300AE Apeldoorn,The Netherlands#

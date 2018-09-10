@@ -1,0 +1,55 @@
+From: jim@rand.org (Jim Gillogly)
+Subject: Re: Clipper considered harmful
+Organization: Banzai Institute
+Lines: 49
+Nntp-Posting-Host: mycroft.rand.org
+
+Steve Bellovin writes a well-thought-out and nearly persuasive article about
+why the Clipper (are we still calling it Clipper today, or have they figured
+out a non-infringing word yet?) protocol is almost as good as one can do
+given their marching ordes.
+
+In article <1993Apr24.160121.17189@ulysses.att.com> smb@research.att.com (Steven Bellovin) writes:
+>         I issue this invitation:  assume that you were charged with
+>implementing such a system, with complete regard for civil rights and
+>due process.  What would you do differently?  In answering this
+>question, please accept NSA's fundamental assumptions:  that both
+>strong cryptography against outsiders, and the ability to wiretap
+>*some* domestic users, is necessary.
+
+I'll accept the second assumption only for the sake of argument.  In my
+view the primary remaining flaw is that the encryption algorithm is
+secret, leading to suspicion that there is a back door.  Without complete
+disclosure this suspicion cannot be dispelled, no matter how many trusted
+experts are allowed to look at it in isolation.
+
+Is it possible to do this whole thing with a public algorithm?  The only
+concern I've seen with making Skipjack public is that someone could build
+Clipperphones without registering the keys.  Assume F can really be kept
+secret as the Government assumes.  Then as part of the initial connection,
+a Clipperphone executes a protocol with the Pseudophone to demonstrate
+that they both know F.  For example, the initiating phone picks a number Q
+and sends E[Q; F].  The receiver sends back E[Q+1; F], and the initiator
+sends back E[Q+2; F] to demonstrate that her first packet wasn't just a
+random 64-bit block.  Repeat in the opposite direction with another Q so
+it can't be defeated by somebody building up a library of sequential
+numbers by remembering responses and using those responses as the initial
+numbers of subsequent challenges.  This way Clipperphones will talk only
+to other Clipperphones.  Of course the Pseudo Company can build their own
+proprietary Skipjack phone, but the Presidential Fact Sheet implies that
+they won't get approval for it without equivalent key escrow.
+
+What's wrong with this picture?  It depends of F staying secret and on
+Skipjack being resistant to cryptanalysis, but the Government appears to
+believe in both of these.  Even if the particular Q&A I suggest has some
+flaw, I imagine there's a zero-knowledge-proof protocol that doesn't.
+
+smb says:
+>The third, and most serious issue, is whether or not Clipper is a good
+>idea even if carried out strictly according to the letter of the law.
+
+Agreed.  My view, and you can quote me: if it's not worth doing, it's
+not worth doing well.
+-- 
+	Jim Gillogly
+	Hevensday, 3 Thrimidge S.R. 1993, 20:48

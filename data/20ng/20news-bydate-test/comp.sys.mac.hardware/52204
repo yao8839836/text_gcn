@@ -1,0 +1,40 @@
+From: christer@cs.umu.se (Christer Ericson)
+Subject: Re: Stereo sound problem (?) on mac games
+Organization: Dep. of Info.Proc, Umea Univ., Sweden
+Lines: 35
+
+In <1993Apr19.183437.28365@gallant.apple.com> Steve Bollinger <buzz@apple.com> writes:
+>[...]
+>Use the sound manager and work fine on all machines.
+>[...]
+>The more of the story is to developers: DON'T CHEAT!
+>Really, I am absolutely, positively not allowed to do what I am about to
+>do,
+>but I'm going say it anyway.
+>Stop cheating on sound!
+>Really soon, you will be sorry, as even those without external speakers
+>will be disappointed with your sound on future hardware. The grace period
+>is about to end.
+>The Sound Manager is understandable now, and works pretty well and will
+>work
+>even better soon, so use it.
+
+Don't be silly.
+
+Using the Sound Manager on a Quadra is very well, but using SM on
+any of the low-end machines doesn't simply work for a decent action
+game since it just steals too much time from the CPU. This is
+a fact. By writing directly to the hardware on an SE, it is
+possible to have 4 simultaneous channels of sampled sound (11kHz) for
+a cost of approx. 8000 cycles. Exactly how would you do that using
+the SM, pray tell?
+
+The correct thing to do is to use the SM on the machines that can
+carry that extra load using the SM means, and to write directly
+to the sound hardware on the machines that can't. It's not the
+politically correct thing, but from the developers' point of
+view it is.
+
+
+Christer Ericson --- Internet: christer@cs.umu.se --- tel: +46-90-166794
+Department of Computer Science, University of Umea, S-90187 UMEA, SWEDEN

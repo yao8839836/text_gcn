@@ -1,0 +1,15 @@
+From: mufti@pls.com
+Subject: Including color pixmap .xpm files in my application
+Organization: Personal Library Software, Inc.
+Lines: 10
+
+Is there a portable and convenient way to use color picture files in
+the .xpm format to define an X pixmap in a Motif application? Any
+functions, pointers, tips etc. would be most welcome.
+
+--------------------
+Saad Mufti
+Personal Library Software
+
+e-mail: mufti@pls.com
+

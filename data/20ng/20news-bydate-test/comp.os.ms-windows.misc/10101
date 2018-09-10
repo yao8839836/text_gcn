@@ -1,0 +1,49 @@
+From: charlea@eng.clemson.edu (charles allen)
+Subject: Re: Question on EISA video board performance
+Organization: Clemson University
+Lines: 44
+
+From article <C68uBG.K2w@world.std.com>, by cfw@world.std.com (Christopher F Wroten):
+> I have an EISA machine and I just do not understand why most
+> EISA video cards only match the performance of their ISA
+> counterparts. For instance, the EISA Orchid Pro Designer IIs-E is
+> only about as "fast" as the ISA Diamond SpeedStar Plus, which isn't
+> what I would call "fast."
+> 
+> I don't understand why EISA video cards aren't, as a group, on the
+> same level of performance as Local Bus cards, given that EISA video
+> cards have a 32 bit bus to move data around, instead of ISA's 8 bits.
+> 
+Good question.
+Answer: The EISA bus does move 32 bits rather than ISA's 8/(16?)
+        But it still moves it at about the speed as the ISA bus.
+        I think that's either 8 or 10 mhz.
+        The local bus designs also move 32 bits like the EISA, but
+        they move the data at the cpu speed, up to 40 mhz.
+        So, on a 33mhz cpu, the local bus is moving 32bit data at
+        33 mhz, and the EISA is moving 32bit data at 8 or 10 mhz.
+        So the local bus should be 3 to 4 times faster than EISA on
+        a 33 mhz cpu.  EISA should be about two (maybe 3) times as
+        fast as ISA.
+
+> Since they are not, why would anyone (me included) pay a higher
+> cost for a EISA video card when its performance is no better than
+> and often worse that a much cheaper ISA video board, such as a
+> Diamond SpeedStar 24X? From PC Magazine's (I think) recent report,
+> I know that ATI makes a pretty fast EISA video card, but it's
+> around $500, which is just about double what my wallet will allow
+> me to spend. And, for $500, I could get a Diamond Viper and still
+> have $100 left over (of course, I'd have to get a Local Bus mother-
+> board too...)
+> 
+That's a very good question.  The EISA bus does have more advantages
+over the ISA bus than just it's width.  For example: more/better 
+interrupts and bus mastering.  But these other factors do not impact
+ a video card very much.  They have more impact on file servers with 
+multiple hard drives, full-throttle network cards, cd-roms, etc.
+
+> Can anyone shed some light on my confusion/frustration?
+> 
+> Thanks!   Christopher Wroten, cfw@world.std.com
+> 
+> 

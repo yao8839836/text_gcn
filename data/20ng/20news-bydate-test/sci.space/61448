@@ -1,0 +1,46 @@
+From: roeber@vxcrna.cern.ch (Frederick Roeber)
+Subject: Re: Internet resources
+Reply-To: roeber@cern.ch
+Organization: CERN -- European Organization for Nuclear Research
+Distribution: sci
+Lines: 39
+
+In article <C69C9K.9FA.1@cs.cmu.edu>, STK1203@VAX003.STOCKTON.EDU writes:
+> I am taking a course entitled "Exploring Science Using Internet".
+> For our final project, we are to find a compendium of Internet resources 
+> dealing with a science-related topic. I chose Astronomy. Anyway, I was 
+> wondering if anyone out there knew of any interesting resources on Internet
+> that provide information on Astronomy, space, NASA, or anything like that.
+
+Do you know of the world-wide-web?  This is a global hypertext (well, 
+hypermedia) network running on the internet.  One of the nice things
+about it is that is understands and incorporates virtually all of the
+other systems being used, like WAIS, Gopher, FTP, Archie, etc.  It
+is usually quite easy to add existing resources to the web.
+
+If you'd like to explore, I'd suggest getting the XMosaic program,
+written at the NCSA.  It's an X-windows web browser, and is pretty
+slick.  It can understand and cope with more than text: gif, jpeg, mpeg,
+audio, etc.  There are other browsers, including a text-mode browser
+for people stuck on a text terminal, but I'm most familliar with mosaic.
+
+Under the page "The World-Wide Web Virtual Library: Subject Catalogue"
+(this is available under the Documents menu in mosaic, or by any
+browser via the URL 
+http://info.cern.ch/hypertext/DataSources/bySubject/Overview.html )
+there is a subject "Space Science."  Currently this points to a
+page under construction, with only the NASA JPL FTP archive.  I've
+volunteered to take over this page, and in fact I have a replacement
+with all sorts of information pointers (mostly gleaned from the
+sci.space FAQ).  As soon as the overworked "Subject Catalogue" 
+maintainer switches the "Space Science" pointer, it'll be visible.
+
+I'll post a short note when this happens.
+
+-- 
+Frederick G. M. Roeber | CERN -- European Center for Nuclear Research
+e-mail: roeber@cern.ch or roeber@caltech.edu | work: +41 22 767 31 80
+r-mail: CERN/PPE, 1211 Geneva 23, Switzerland | home: +33 50 20 82 99
+--  
+"Sorry, baby, I can't take you to the pizza joint tonight, I've got to go
+back to the lab and split the atom." -- Ayn Rand, "What is Romanticism?"

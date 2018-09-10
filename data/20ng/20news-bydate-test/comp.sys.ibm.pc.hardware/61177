@@ -1,0 +1,27 @@
+From: nbb1424@dsacng1.dsac.dla.mil (Steve Hamilton)
+Subject: STRANGE DISK BEHAVIOUR
+Keywords: disk
+Organization: Defense Logistics Service Center, Battle Creek, MI
+Lines: 21
+
+I have a 286 with a Western Digital WD-93044A hard drive. This drive is 
+782 cylinders with 4 read write heads PHYSICALLY, but LOGICALLY it is
+977 cylinders with 5 read write heads (??!!).  In the CMOS setting
+I am instructed to set it to type 17 (IBM 977 cyl. 5 read/write heads),
+
+THE PROBLEM:  I was sent Western Digitals ISPFMT low level program from
+the manufacturer, and was instructed to run it on the hard drive with
+the CMOS setting set to type 17.  This worked "o.k." and I verified the
+disk using the same program.  I then reloaded DOS which did a high
+level format, again no errors, no bad sectors, etc.
+
+BUT.... when I run Norton Speedisk 6.01 (or any other disk optimizer)
+with the verify option set ON, I get ERROR verifying sector NNNN,
+where NNNN can be any number (not the same all the time).
+
+ANY IDEAS AS TO WHAT IS GOING ON HERE WOULD BE APPRECIATED!
+
+Thank you!
+
+Steve Hamilton
+nbb1424@dsacng1.dla.mil

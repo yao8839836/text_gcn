@@ -1,0 +1,30 @@
+From: wiseb@colossus.cs.rpi.edu (Bowden Wise)
+Subject: Re: Deriving from class Object with OWL
+Organization: Rensselaer Polytechnic Institute Computer Science, Troy NY
+Lines: 22
+Distribution: comp
+NNTP-Posting-Host: colossus.cs.rpi.edu
+In-reply-to: wiseb@colossus.cs.rpi.edu's message of 12 May 1993 18:47:10 GMT
+
+I solved my problem.  I still do not understand why it happens ths
+way; perhaps some of you C++ gurus can explain this to all of us!
+
+For some reason when I define the following functins in the class
+definition (in the .h file) the compiler thinks some pure virtual
+functions are not defined.  When I placed these two in a separate
+source file and compiled them, the problem went away.  Any ideas what
+happen?  Are the functions that are defined in the class construct all
+inline ?  Is this the problem?
+
+virtual int            isEqual (const Object _FAR &obj) const
+{ return this == &(HashEntry&) obj; }
+
+virtual void           printOn( Rostream os) const
+{
+ os << "[ HWindow is " << (void _FAR *) hWindow << " ]\n"; 
+}
+--
+--------------------------------------------------------------------
+- Bowden Wise
+  Computer Science Dept, Rensselaer Polytechnic Inst, Troy, NY 12180
+  internet: wiseb@cs.rpi.edu

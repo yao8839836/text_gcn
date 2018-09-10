@@ -1,0 +1,39 @@
+From: gowen@jade.tufts.edu (G. Lee Owen)
+Subject: XDM, Xkernel, and olwm
+Lines: 33
+Organization: Tufts University - Medford, MA
+Distribution: na
+
+
+	Greetings,
+	We have a network of ~20 Sun Workstations, running SunOS 4.1.1
+and Openwindows 3.  7 of these are Sun 3's that we have modified to
+run Seth Robertson's xkernel image, effectively turning them into
+xterminals.  We use xdm (X11R4) to manage the displays.
+
+	When we had 3 xkernel machines, things worked fine, but when
+we installed 4 more last weekend, we appear to have found a weakness.
+With 7 clients to 1 Sparc 2, the Sparc 2 window manager is eventually
+getting munged.  
+
+	Let me try to be precise:  The user sitting at the machine
+that does all the actual processing for these xterminals is having
+control of his keyboard and screen yanked away.  (When this was the
+department chair, it was kind of cute).  We poked at xdm for a few
+days and are satisfied that it is not at fault.  Our current theory is
+that olwm (the Sun version) was not meant for running multiple copies
+on one machine (which is what happens -- the console user runs olwm,
+and every xterminal logged in has olwm running on the xterminal
+server). 
+
+	Has anyone had any prior experience with this sort of behavior?
+	Can anyone shoot obvious holes in this theory?
+	How about obvious gimmes?
+	And, of course, any ideas on how to solve it?
+
+	Any ideas are greatly appreciated.
+
+  Greg Owen  { gowen@forte.cs.tufts.edu, gowen@jade.tufts.edu }
+Systems Programmer and TA, Tufts University Computer Science Dept.
+  Personal info: GCS/GO d++ -p+ c+++ m*/m- s++/- g+ w+/w-- x+
+  email for explanation if interested...

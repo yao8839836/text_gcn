@@ -1,0 +1,24 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Deployable Space Dock..
+Organization: U of Toronto Zoology
+Lines: 19
+
+In article <1993Apr30.000050.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>Why not build a inflatable space dock.
+
+If you're doing large-scale satellite servicing, being able to do it in
+a pressurized hangar makes considerable sense.  The question is whether
+anyone is going to be doing large-scale satellite servicing in the near
+future, to the point of justifying development of such a thing.
+
+>...inflate the dock with a gas (is does not have to be oxygen, just neeeds to
+>be non-flameble, non-damaging to the satellite and abel to maintain heat)...
+
+You'd almost certainly use air.  Given that you have to pressurize with
+*something*, safety considerations strongly suggest making it breathable
+(even if the servicing crew is using oxygen masks for normal breathing,
+to avoid needing a ventilation system, it's nice if the hangar atmosphere
+is breathable in a pinch -- it makes mask functioning much less critical).
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

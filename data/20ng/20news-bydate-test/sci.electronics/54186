@@ -1,0 +1,27 @@
+From: then@snakemail.hut.fi (Tomi  H Engdahl)
+Subject: Re: flash LEDs with sound?
+Organization: Helsinki University of Technology, Finland
+Lines: 20
+NNTP-Posting-Host: lk-hp-11.hut.fi
+In-reply-to: dmn@kepler.unh.edu's message of 24 Apr 1993 09:05:22 -0500
+
+In article <199304241405.AA11067@kepler.unh.edu> dmn@kepler.unh.edu (There's a seeker born every minute.) writes:
+
+>     Would it be better to use a circuit based on the volume of the beeps
+>on the cassette, or better for the leds to respond to a tone of a certain
+>frequency? Is there any easy way to do either of these? I'm looking for 
+>the simplest circuit possible. I guess what I'm asking for is some sort of
+>color organ, but not quite. Let me trt to explain again...
+
+Look for information about 567 tone decoder chip. It is an easy to use
+chip for detecting sound of certain frequency. You need only one
+567 and some other componets for each led you want to control.
+The chip can take the voltage levels, which the casette gives.
+Radio Shack Archer Semiconductor Reference Guide gives good information
+how to use that chip. It should be simplest way to go. The chip costs
+something like 1-2 $.
+--
+Tomi.Engdahl@hut.fi  !  LOWERY'S LAW:
+then@niksula.hut.fi  !  "If it jams - force it. If it breaks,
+                     !   it needed replacing anyway." 
+* This text is provided "as is" without any express or implied warranty *

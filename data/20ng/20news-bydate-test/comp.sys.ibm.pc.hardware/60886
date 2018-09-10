@@ -1,0 +1,60 @@
+From: ken@wybbs.mi.org 
+Subject: *** CONSUMER WARNING ***  MidWest Micro (Ohio)
+Organization: Consultant's Connection
+Distribution: na
+Lines: 54
+
+Thinking of buying from MidWest Micro of Ohio? Think *very* carefully.
+Unless you are absolutely sure you won't have any problems, you may want
+to trade elsewhere.
+
+Despite the fact that they answer the phone, "Hi! I'm <whoever> and we're
+having a GREAT Day!", they weren't quite so happy when I wanted to return
+a modem that didn't work as I expected it to.
+
+The details:
+
+I ordered one of their house brand "Infotel" 14.4/DF internal FAX modems.
+In reality, it was a Twincom Lightning FAX that had a paper sticker over
+the name. Given the poor reports on the net about this modem, I would not
+have ordered it, had I known this in advance.
+
+It arrived on time. The documentation stated that it would work (and was
+preconfigured) as COM4, providing that COM2 was not in use at the same time.
+
+For several reasons, I have a serial card configured for COM1/COM2. At the
+time I installed the modem, nothing was connected to COM2.
+
+Although the modem appeared to work, during every connection at 9600 or
+14.4, it would randomly break the connection and hang up the phone. After
+spending some time on the phone with MidWest's tech support, they suggested
+disabling the COM2 port.
+
+This appeared to solve the disconnect problem, but was an unacceptable long
+term solution. I had to have COM1 and 2 available, even though they both
+would not be in use at the same time as the modem.
+
+I called back 20 minutes prior to their closing and waited in Voicemail 
+hell, listening to repeated advertisements for MidWest Micro products. I 
+was then promptly disconnected. Apparently it was quiting time and they 
+didn't want to be bothered with callers that had been waiting on the line.
+
+I called the next day and asked the Customer Diservice agent for an RMA
+number. She promptly switched me to a "Tech Support" rep that implied that
+it was my equipment at fault and that he wasn't going to give me an RMA
+number. He suggested I use some nonstandard IRQ settings, a solution I
+was not happy with. The modem should work as originally configured.
+
+Conclusion:
+
+I'm not sure the modem would work ok in a basic system, but it clearly does
+not work in a multi port system like mine. Since my time is worth more 
+than the aggravation or the cost of the modem, I gave it to a local
+charitable organization (with a description of my problem) and ordered
+a Practical Peripherals 14.4MT from PC Connection.
+
+For $30 more, I have a solid external modem built by a company I know 
+will support their users and sold by a company (based on personal
+experience) will treat me right if there is a problem. I should have
+known better...
+

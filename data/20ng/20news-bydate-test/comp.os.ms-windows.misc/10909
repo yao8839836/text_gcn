@@ -1,0 +1,28 @@
+From: jcmorris@mwunix.mitre.org (Joe Morris)
+Subject: Re: SMARTDRV AND DBLSPACE
+Nntp-Posting-Host: mwunix.mitre.org
+Organization: MITRE Corporation, McLean VA
+Lines: 22
+
+In a recent article rcaldrn@med.miami.edu (Richard Calderon) writes:
+
+>I just received a Gateway 486/33 with Windows and Dos 6.0. I ran it a few times
+>with no apparent problems. I decided to give double Space a try. After 
+>compressing the drive, with no problems, I decided to load windows. It took
+>1 minute 45 Seconds to load after dblspace, 17 seconds before dblspace. I 
+>tinkered a little with the machine and noticed an error message saying 
+>Smartdrive 4.0 cannot work with Dblspace. 
+ ^^^^^^^^^^^^^^
+Not unreasonable, since the SMARTDRV packaged with DOS 6 is version 4.1.
+Make sure that all your drivers (HIMEM, EMM386, SMARTDRV) are being
+executed from the DOS directory.
+
+Loss of the cache provided by SMARTDRV could be your problem; if not,
+I don't know what might cause the startup delay.  My testbed for DBLSPACE
+(which has a *very* minimal amount of data on the disk so that I don't
+eat up too much time as I install and uninstall DBLSPACE) boots in 
+about 20 seconds from the "Starting MS-DOS" herald to the end of the
+AUTOEXEC.BAT execution.  I don't have handy a system with a more
+realistic volume of data to time.
+
+Joe Morris / MITRE

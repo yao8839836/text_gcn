@@ -1,0 +1,40 @@
+From: wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705)
+Subject: Re: Once tapped, your code is no good any more.
+Organization: Mary Ellen Carter Salvage Crew
+Distribution: na
+In-Reply-To: strnlght@netcom.com's message of Thu, 22 Apr 1993 19:48:01 GMT
+	<a_rubin.735496128@dsg4.dse.beckman.com>
+	<strnlghtC5wHo2.1FK@netcom.com>
+Nntp-Posting-Host: rainier.ho.att.com
+Lines: 30
+
+In article <strnlghtC5wHo2.1FK@netcom.com> strnlght@netcom.com (David Sternlight) writes:
+   >I wouldn't think so.  Asking people to trust a secret algorithm seems
+   >unsound to me.
+
+   Maybe so, but it's quite common. There are millions of Macintosh users who
+   have no idea what's in Apple's patented ROMs. Many have modems connected.
+   How do you know all your business secrets aren't being stolen? Answer:
+   1. Because you trust Apple;
+   2. Because if any such attempt, however sophicsticated, came out, it would
+   destroy Apple's credibility forever.
+
+Then there's also
+3) Because it's NOT SECRET.  If I want to, I CAN go look at Apple's
+copyrighted ROMs in a Mac, so they're not keeping any secrets.  
+You don't even have to pry the top off the chip and use an electron microscope,
+you just have to read the data in memory and see if you can figure out what it means.
+(Motorola object code isn't all *that* obscure!)  
+Yes, it's copyrighted, so I can't go selling copies, or using the copy myself,
+but I CAN see it, and disassemble it.
+
+4) They're not asking me to trust their honesty.  They're asking me to
+trust the quality of their assembly language programming :-),
+but I can see for myself what the performance, price, and crashes/day are.
+NSA, an organization not known for its honesty or openness, 
+is asking me to trust them with my privacy, but they won't trust me.  Feh!
+--
+#				Pray for peace;      Bill
+# Bill Stewart 1-908-949-0705 wcs@anchor.att.com AT&T Bell Labs 4M312 Holmdel NJ
+#	              No, I'm *from* New Jersey, I only *work* in cyberspace....
+# White House Commect Line 1-202-456-1111  fax 1-202-456-2461

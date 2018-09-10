@@ -1,0 +1,39 @@
+From: scott@shuksan.ds.boeing.com (Scott Moody)
+Subject: X server only on Sun?
+Keywords: window manager
+Organization: Man Machine Systems Technology
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 32
+
+I have been using a HDS X-terminal, and really like it. What
+is really powerful is that it can run the X server without
+running a window manager. One can then run a special client
+X program called a window manager, either (1) run 
+motif or openlook from it's own firmware (limiting the network
+traffic - but having no HOME). or (2) run motif or openlook
+from some home place (like a sparc, or vms).
+
+This is powerful, especially since I can exit one window manager
+(without killing windows) and then start up another manager.
+(Some of my VMS tools need special meta-mouse combos that work in
+one manager and not the other).
+
+Well the question is:
+
+  On a sparcstation running openlook, does anyone know how to
+  break apart olwm from the olwm_slave program? Basically I
+  want to run only the server, and go somewhere else to run
+  the window manager.
+
+---
+Please respond my e-mail (as well as posting) because of the
+large volumes in window.X)
+
+Thanks.
+
+
+
+-- 
+Scott Moody   (206) 773-4313   "There are no answers .. just cross references"
+     scott@shuksan.boeing.com  
+     uunet!bcstec!shuksan!scott

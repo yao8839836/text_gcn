@@ -1,0 +1,35 @@
+From: geoffw@extro.ucc.su.OZ.AU (Geoffrey Warren Hicks)
+Subject: Colour Transform for Red/Green Colour Blindness
+Nntp-Posting-Host: extro.ucc.su.oz.au
+Organization: Sydney University Computing Service, Sydney, NSW, Australia
+Lines: 29
+
+
+Posted on behalf of Craig Southeren who does not have access to
+a net account:
+-------------------------------------------------------------------
+
+Can anyone provide me with a colour space transform that would
+emulate the effects of red/green colour blindness? I have had
+a quick look in the computer graphics literature with no results.
+Perhaps someone who has access to medical information could help?
+
+I would like to write a program (probably a PPM filter) to allow
+previewing of images to check for sufficient contract for colour
+blind users. Not being colour blind myself, this is a bit difficult!
+
+Please email replies - I will summarise and repost if there is
+sufficient interest
+
+    Craig
+
+
+---------------------------------------------------------------------
+Craig Southeren                      |  "You can have it good, cheap,
+Chief Engineer,                      |   or fast. Any two."
+Picture Start Productions            |      Arthur C. Clarke
+email: c/- geoffw@ucc.su.OZ.AU       | 
+phone: +61 2 959 5550                |  "Educate - don't legislate"
+---------------------------------------------------------------------
+
+

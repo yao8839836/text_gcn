@@ -1,0 +1,43 @@
+From: qman@casbah.acns.nwu.edu (Charlie Kuehmann)
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+Nntp-Posting-Host: ironman.ms.nwu.edu
+Organization: Northwestern University
+Lines: 37
+
+In article <C5uHHI.2HDG@austin.ibm.com>, kelleyb@austin.ibm.com (Kelley
+Boylan) wrote:
+> 
+> 
+> > Yes, I know computers and harddisk drives should be ALWAYS on. But what about
+> > monitors? They generate a lots of heat. Should I or shouldn't I keep them on
+> > 24 hours a day? Any advice? Thanks. Take care...Paul
+> 
+> There has been no empirical evidence to support the first statement.  True,
+> there is a power surge at startup that has the potential to do damage, but
+> the internal power supply is well-protected. (I've turned my Mac on and off 
+> six or seven times a day for three years without problem).  The monitor is
+> the same.  To leave it on is to waste a lot of electricity -- twice as much
+> as a television, possibly more.
+> 
+> Turn it off when you're not using it.  It'll save you money and the world
+> a few more resources.
+
+The problem with turing your computer on and off constantly is not due to
+the power surge at start up.  It is due to thermal fatigue.  You turn on
+your computer, it heats up, and everything expands.  You turn it off, it
+cools off, and everything contracts.  There is a limited number of cycles
+of this that any component can take before it fails.  Modern electronics
+are much more robust in this respect than their predeccesors.  In fact
+portable computers are designed with this in mind since the sleep function
+that extends battery life also greatly increaces the number of thermal
+cycles that occur.  As a rule of thumb, if I am not going to use my
+computer (and this includes the monitor) in the next 4-6 hours, I turn it
+off (I always dim the monitor when not in use to prolong the life of the
+phosphor).  I tend to think that with the pace of technical innovation in
+the computer industry you should be much less concerned with the fatigue
+life of your equipment and more concerned with how long your particular
+architecture will be supported by hardware and software vendors. :") 
+
+Charles Kuehmann
+Northwestern University
+Steel Research Group

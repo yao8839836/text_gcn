@@ -1,0 +1,39 @@
+From: Matt Riddle <matthew_riddle.science@muwayf.unimelb.edu.au>
+Subject: Re: Quadra SCSI Problems???
+X-Xxmessage-Id: <A7FCA4490B027011@riddlemac.science.unimelb.edu.au>
+X-Xxdate: Thu, 22 Apr 93 03: 36:41 GMT
+Organization: University of Melbourne
+X-Useragent: Nuntius v1.1.1d17
+Lines: 31
+
+In article <kluskens-190493142715@istari.nrl.navy.mil> Michael S
+Kluskens, kluskens@radar.nrl.navy.mil writes:
+>The problem mentioned last is a known Quadra SCSI problem, it was heavily
+>discussed last year and an Apple employee pointed out that there was a
+>one byte error in the SCSI driver routine for the Quadra's (at least the
+>700
+>and 900).  System 7.1 should not have that problem, for most people the 
+>solution was to get an updated driver from the drive manufactor.  In my
+>case MASS Microsystems wrote a new driver which fixed the problem on my
+>Quadra
+>700, all that occured early last year.
+
+Anyone know if there is an updated driver for Sony DAT drives?  I can't
+get mine to work with our 950 (see "Sony DAT / Retrospect Problems"
+posted in this group) but I'm also having problems with other new macs...
+
+Cheers, Matt.
+-----------------------------------------------------------------------
+------------------
+ ______  Matthew Riddle                                      
+matthew@ariel.unimelb.edu.au
+| ---- | Science Multimedia Teaching Unit                               
+Tel 61 3 344 6400
+||    || Faculty of Science                                             
+Fax 61 3 344 5803
+| ---- | University of Melbourne                
+|   -- | AUSTRALIA                                                 My
+opinions are my own!
+ ====== 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^

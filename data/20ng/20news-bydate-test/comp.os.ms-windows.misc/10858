@@ -1,0 +1,28 @@
+From: hancockd@p4.cs.man.ac.uk (David Hancock)
+Subject: PANASONIC KP-X / TrueType - What's going on?
+Keywords: Poxy computer system
+Organization: Dept Computer Science, University of Manchester, U.K.
+Lines: 22
+
+I have just added a Panasonic KP-X1123 24pin dot matrix printer to a 386sx/25. I installed
+the appropriate Windows 3.1 printer driver (i.e. one specifically for this printer) but I'm
+unable to persuade the poxy thing to print correctly. 
+ 
+What appears to be happening is that the TrueType fonts don't get printed properly. My
+experiments show that all graphic images (for example a line drawing from Corel Draw) print
+ok. GraphicsWorkshop for Windows happily prints GIFs etc. MS Notepad and MS Write will
+print correctly providing the font's in the text are printer fonts. 
+ 
+When I print TrueType fonts, some lines appear to be printed in the wrong order. If I change 
+the text font to a printer font, the problem is eliminated.
+ 
+I have tried using printer drivers for printers which the KX-P1123 (snappy name) emulates,
+namely Epsom LQ-850 and IBM ProPrinter X24 and the same problem occurs.
+ 
+If there is some kind soul who can tell me just what the hell is going on, I would be most 
+chuffed.
+ 
+ 
+David H.
+ 
+

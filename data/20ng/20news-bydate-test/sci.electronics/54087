@@ -1,0 +1,49 @@
+From: gfl@herahera.cc.bellcore.com (lenahan,grant f)
+Subject: Re: Adcom cheap products?
+Organization: Bellcore, Livingston, NJ
+Summary: Effect of heat on sound quality
+Lines: 43
+
+Much deleted about assembly in USA vs. other, 
+I wish to focus on the subject of warm-running amplifiers:
+
+> : >  Sure the amp runs very fairly
+> : >  hot - but that's how you get an amp to sound incredibly good.
+> 
+> : An amp that runs hot has no bearing on how it's gonna sound.
+> : The amp you have probably is running Class-A the whole day.
+> 
+> : because either the engineer or manufacturer of that amp wanted
+> : to skimp on heatsinking or cooling to save costs!  Hmmmmm....
+> 
+
+There is a correclation between warm-running amps and good sound,
+or in your words, "it DOES have a bearing on....".
+
+Now, I don't suggest that everyone run out and create combination
+stove/amplifiers that will degrade lifespan,
+but a cold-running circuit is much more suceptible to temperature
+variation with varrying current than is a warm-running one.  And since
+junction resistance is a function of temperature, this has a detrimental
+effect on linearity.  
+
+a few facts:
+-bias points vary with temperature
+-junction resist varrie with temp
+-Adcom products do NOT run class-A
+
+If you still don't beleive this assertion, consider the warm-up requirements
+for most good test equipment, or better yet, just listen to an amplifier
+warm-up.  On many designs its quite audible, on mine, about 20 minutes for
+the output stage, many hours for the drivers.  Fortunately the drivers
+are not switched.
+
+In any experiment, or when drawing conclusions from listening,
+betcareful to seperate the effect of device temperature from bias
+(idle current) level.  Both have a positive correlation with low
+distortion and "good" sound quality, and high bias results in
+warmer operation, all other factors being equal.
+
+Grant
+
+

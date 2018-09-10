@@ -1,0 +1,34 @@
+From: penev@rockefeller.edu (Penio Penev)
+Subject: Re: 66DX2 ISA,VLB xor 50DX EISA ??  Advice wanted...
+Reply-To: penev@venezia.rockefeller.edu
+Organization: Rockefeller University
+X-Newsreader: TIN [version 1.1 PL8]
+X-Posted-From: venezia.rockefeller.edu
+NNTP-Posting-Host: sol.ctr.columbia.edu
+Lines: 25
+
+On Thu, 22 Apr 1993 15:43:32 GMT Glen Osterhout (glen@tegra.com) wrote:
+| In article <1993Apr22.002231.13716@julian.uwo.ca> rmitch@irus.rri.uwo.ca (Ross Mitchell) writes:
+| >I have a choice now between basically the above system but with a
+| >486DX2-66 with ISA and VLB,  or,   a 486DX-50 with EISA and no VLB (and thus
+| >the non-local bus version of the ATI card).  Which is better, keeping in mind
+| >that I'm primarily interested in the last two tasks?  
+
+| The April 13 issue of PC Magazine published benchmarks for the ATI UltraPro
+| running on both VLB and EISA:
+
+| 	800x600,16	800x600,256	1024x768,16	1024x768,256
+| ----------------------------------------------------------------------
+| EISA	15.34		15.34		15.19		15.15
+| VLB	16.02		16.31		16.33		16.24
+
+This a wightened speed avarage for many windows tasks. The original
+poster (Ross Mitchell) was primary intersted in manipulating large
+images, which implies moving a lot of data from memory to the card. 
+
+Does anyone have the benchmarks on this particular task?
+
+--
+Penio Penev  x7423 (212)327-7423 (w) Internet: penev@venezia.rockefeller.edu
+
+Disclaimer: All oppinions are mine.

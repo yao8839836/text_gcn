@@ -1,0 +1,63 @@
+From: dujardin@naima.inria.fr (Eric Dujardin)
+Subject: Re: Accented Characters..... How
+Keywords: accents X11R5 xterm
+Organization: INRIA Rocquencourt
+Lines: 57
+
+
+I've been able to configure xterm so that I can type in accented characters.
+I'm using X11R5, with iso8859 fonts, my shell is tcsh with the following 
+definitions : 
+setenv LC_CTYPE iso_8859_1
+stty pass8
+
+Then, I add the following in my .Xdefaults file:
+
+XTerm*eightBitInput: True
+XTerm*eightBitOutput: True
+
+XTerm*VT100.Translations: #override \
+Meta<Key>': keymap(aigu) \n\
+Meta<Key>`: keymap(grave) \n\
+Meta<Key>^: keymap(circ) \n\
+Meta<Key>\\,: keymap(ced)
+XTerm*VT100.aiguKeymap.translations:  \
+~Shift <Key>e: string(0xe9) keymap(None)\n\
+<Key>E: string(0xc9) keymap(None) \n\
+~Shift <Key>c:  string(0xe7) \n\
+<Key> C:  string(0xc7)
+XTerm*VT100.graveKeymap.translations: \
+~Shift <Key>e: string(0xe8) keymap(None)\n\
+<Key>E: string(0xc8) keymap(None)\n\
+~Shift <Key>u: string(0xf9) keymap(None)\n\
+<Key>U: string(0xd9) keymap(None)\n\
+~Shift <Key>a: string(0xe0) keymap(None)\n\
+<Key>A: string(0xc0) keymap(None)
+XTerm*VT100.circKeymap.translations:  \
+~Shift <Key>e: string(0xea) keymap(None)\n\
+<Key>E: string(0xca) keymap(None)\n\
+~Shift <Key>u: string(0xfb) keymap(None)\n\
+<Key>U: string(0xdb) keymap(None)\n\
+~Shift <Key>i: string(0xee) keymap(None)\n\
+<Key>I: string(0xce) keymap(None)\n\
+~Shift <Key>o:  string(0xf4) keymap(None)\n\
+<Key>O: string(0xd4) keymap(None)
+XTerm*VT100.cedKeymap.translations: \
+~Shift <Key>c:  string(0xe7) keymap(None)\n\
+<Key> C:  string(0xc7) keymap(None)
+
+This makes the Meta-{',`,^} keys behave as dead keys.
+
+Of course, this only works for xterm. For emacs, my solution is to install the
+Lucid version of GnuEmacs 19, and to load the x-compose library.
+
+
+Hope this helps,
+
+
+	Eric
+-- 
+ Eric Dujardin  -  Eric.Dujardin@inria.fr
+ INRIA Rocquencourt, projet RODIN                           "Les bons gongs font
+ BP 105, 78153 Le Chesnay Cedex                                 les bonzes amis"
+ Tel : (33 1) 39 63 56 19                                               (Gotlib)

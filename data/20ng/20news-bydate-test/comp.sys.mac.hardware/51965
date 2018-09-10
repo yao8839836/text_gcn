@@ -1,0 +1,40 @@
+From: 2545500@jeff-lab@queensu.ca (Peter Pundy)
+Subject: Re: x86 ~= 680x0 ??  (How do they compare?)
+Reply-To: 2545500@jeff-lab.queensu.ca
+Organization: Queens University
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 33
+
+I guess the real question is:
+
+Who asked the original questions, and why was it so _broad_.
+Are we talking pure processing power (what kind of processing BTW)
+isolated from every other factor and influence in the system?  
+Or are we shopping for a home computer based on the CPU specs (yuck)!
+
+I just finished a project that involves real-time processing of serial
+data and discovered that the programming interface (assembly) has
+_a lot_ to do with the "power" of a CPU in a particular application.
+If what you want to do is easy to code with the instruction set given,
+then not only is it easy, but it's cheap and quick.  If you have to
+fake things (like resolving indirection without a LEA instruction), then
+your cycle count goes through the roof!
+
+well, let's _NOT_ start a flame war about whose computer is better than whose.
+The orginal question was about classifying micro-processors...
+having re-read the entire thread, I don't think much more can be said without
+getting down into specific proposed systems with important details given.
+
+
+That's it for another $0.02.
+
+Cheers everyone.
+
+
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+  Peter Pundy
+
+  Email: 2545500@jeff-lab.queensu.ca
+
+  "I've got no witty wisdom to share, but have a nice day anyway."
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=

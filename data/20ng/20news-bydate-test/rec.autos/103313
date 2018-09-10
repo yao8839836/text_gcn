@@ -1,0 +1,39 @@
+From: dhepner@cup.hp.com (Dan Hepner)
+Subject: Re: Dirty Diesels?
+Distribution: na
+Nntp-Posting-Host: hpukldh.cup.hp.com
+Organization: Hewlett-Packard
+X-Newsreader: TIN [version 1.1 PL8.8]
+Lines: 31
+
+
+From: nataraja@rtsg.mot.com (Kumaravel Natarajan)
+
+>But they can put out a lot of particulate matter.  I heard
+>something about legislation being discussed to "clean up
+>diesel emissions".  Is there anything in the works to
+>install "scrubbers" for diesels?  How about the feasibility
+>of installing them on trucks and cars?  Would it be any
+>different than a catylitic converter?  I'd assume easier,
+>since we're removing particulate matter instead of converting
+>gasses.  Let's hear people's opinions...
+
+The technology Cummins is applying to diesels to comply with
+the newer Ca. emissions laws involves three things I know of:
+
+1. All compliant diesels are turbocharged.
+2. All use an "aftercooler", which cools the air which was heated
+   by compression by the turbocharger (up to about 25 PSI).
+3. A gismo on the injector pump which senses the pressurized air
+   intake, and limits full delivery of fuel while the pressure is
+   low.
+
+No scrubbers, catalytic converters, etc, are used.  The path from
+the turbocharger to the exhaust outlet is kept very free.
+
+Interestingly, except for the low-pressure fuel limitation, power output 
+and mileage are enhanced by these measures.  One can buy aftermarket
+turbos and aftercoolers which generate more power, lots more power,
+and these are approved by the CARB.
+
+Dan Hepner

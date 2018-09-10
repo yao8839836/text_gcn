@@ -1,0 +1,22 @@
+From: tarnold@vnet.IBM.COM (Todd W. Arnold)
+Subject: Re: How sensible is DES towards bit-errors?
+Organization: IBM Cryptographic Facility Development
+Disclaimer: This posting represents the poster's views, not those of IBM
+News-Software: UReply 3.1
+Lines: 15
+
+In <ad.735831059@cat> Axel Dunkel writes:
+>how sensible is DES encrypted data towards bit errors? How much data per
+>bit will be lost in average (I assume you still have the correct key)?
+
+It depends on the mode you're using.  For a single 64-bit input block, a
+one-bit error will have a 50 percent chance of corrupting each of the 64
+output bits - in other words, it essentially turns the output block into
+a random number.  If you're encrypting data in CBC mode, however, only the
+one 64-bit block will be affected.  The next block, and all that follow it
+will be decrypted properly.
+
+It's a good idea to have some kind of error correction in your system if
+corrupted bits are likely.
+
+   - Todd

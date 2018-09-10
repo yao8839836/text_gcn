@@ -1,0 +1,34 @@
+From: kjenks@gothamcity.jsc.nasa.gov
+Subject: Re: Single Launch Space Station
+Organization: NASA/JSC/GM2, Space Shuttle Program Office
+X-Newsreader: TIN [version 1.1 PL8]
+X-Posted-From: algol.jsc.nasa.gov
+NNTP-Posting-Host: sol.ctr.columbia.edu
+Lines: 26
+
+: Andy Cohen <Cohen@ssdgwy.mdc.com> writes:
+: >the Single Launch Core Station concept.  A Shuttle external tank and solid
+: >rocket boosters would be used  to launch the station into orbit.  Shuttle
+: >main engines would be mounted to the tail of the station module for launch
+: >and jettisoned after ET separation.
+
+Karl Dishaw (0004244402@mcimail.com) replied:
+: Why jettison the SSMEs?  Why not hold on to them and have a shuttle 
+: bring them down to use as spares?
+
+One performance reason comes to mind: if you jettison the SSME's, you
+don't have to drag them with you when you perform your circularization
+burn(s).  On-orbit, SSME's are just dead weight, since we don't have an
+SSME H2/O2 pressurization mechanism which works in zero-G.  This means
+that you can't use them for re-boost or anything else.  Dead weight has
+a couple of advantages, but more disadvantages.
+
+Throw-away SSME's might let us use some of the old SSME's which are not-
+quite-man-ratable.  But I doubt we'd do that; the cost of a launch
+failure is too high.
+
+-- Ken Jenks, NASA/JSC/GM2, Space Shuttle Program Office
+      kjenks@gothamcity.jsc.nasa.gov  (713) 483-4368
+
+     "...Development of the space station is as inevitable as 
+      the rising of the sun." -- Wernher von Braun

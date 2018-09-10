@@ -1,0 +1,70 @@
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Subject: Re: HELP! Installing second IDE drive
+Organization: Ford Motor Company Research Laboratory
+Lines: 63
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+Bill Willis (willisw@willisw.ENG.CLEMSON.edu) wrote:
+: In article <1qn627$iv@darwin.sura.net> wbarnes@sura.net (Bill Barnes) writes:
+: 
+: >Recently my cousin got a second internal IDE drive (a Seagate 210MB,
+: >I can look up the model number if it's important) and I've been
+: >trying to help him install it.  [I've got a vested interest, since
+: >my machine's busted and I have to use his until I get mine fixed.]
+: >He already has a Seagate 85MB IDE HD (again, I forget the model number
+: >but I can find out.)
+: 
+: >Anyway, I can't seem to get the bloody thing up.  I've managed to get
+: >one or the other drive up (with the other disconnected), but not both
+: >at the same time; whenever I try, the thing hangs during bootup -
+: >never gets past the system test.  The IDE controller's instruction
+: >sheet says it supports two drives; I think I've configured the CMOS
+: >correctly; the power's plugged in properly; I even learned about the
+: >master/slave relationship that two HDs are supposed to have (didn't
+: >know PCs were into S&M! 8^) and I think I configured the jumpers
+: >properly (the 85MB one is the master, the new 210MB one is the slave).
+: 
+[deleted]
+:
+: >Many, many thanks in advance!  This is practically an emergency (I have
+: >two papers to do on this thing for Monday!)!  Help!
+: >-- 
+: >-----------------------
+: >William Barnes         SURAnet Operations
+: >wbarnes@sura.net       (301) 982-4600 voice  (301) 982-4605 fax
+: >Disclaimer:  I don't speak for SURAnet and they don't speak for me.
+: I've been told by our local computer guru that you can't do this unless you 
+: perform a low level format on your existing hard drive and set your system 
+: up for two hard drives from the beginning.  I took him at his word, and I 
+: have not tried to find out any more about it, because I'm not going to back 
+: everything up just to add another HDD.  If anyone knows for sure what the 
+: scoop is, I would like to know also.  Thanks in advance also.
+: 
+: Bill Willis
+: 
+
+1. do not do a low level format on an IDE drive unless you have the
+   executable for doing so supplied by the manufacturer.  These are
+   available from bbs's or mail but the mail version costs a nominal
+   fee.
+
+2. In addition to the master/slave jumper on an IDE drive there is also
+   another jumper to indicate whether a slave is present.  Get it right!
+
+3. The cabling is not an issue as long as pin 1 goes to pin 1 goes to
+   pin 1.  No twisting or swapping on an IDE cable.  Be sure of pin 1
+   on all three components - do not make assumptions (guesses are ok
+   but assumptions are bad).
+
+4. If the cable and jumpers are correct, and the CMOS setup is correct,
+   then you may have to do an FDISK followed by a high level format.
+   I have NEVER personally found this necesary, but perhaps there is
+   something gone wrong with the data on the disks?  Probably not but
+   I understand your predicament - You will probably throw salt over
+   your shoulders, wear funny clothes and do a spooky sounding chant
+   while dancing around the room if someone said it might help.
+
+Good Luck
+
+Gordon Lang

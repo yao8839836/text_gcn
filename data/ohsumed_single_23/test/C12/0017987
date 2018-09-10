@@ -1,0 +1,8 @@
+The impact of breakthrough clinical trials on survival in population based tumor registries.
+ Three statistical models are developed to study the impact that two breakthrough clinical trials (MOPP for Hodgkin's disease and PVB for disseminated testicular cancer) had on survival in the Connecticut tumor registry and the National Cancer Institute's Surveillance, Epidemiology, and End Results (SEER) registry program.
+ A segmented regression model is used in conjunction with the Cox semi-parametric proportional hazards model, as well as the parametric Weibull and exponential cure models.
+ These models allow us to determine approximately when survival first began to improve dramatically, indicating that improved treatments had become available, and how long it took for survival to level off again indicating that the full population survival impact had been realized.
+ In addition, the degree to which the parametric models fit allows us to determine if the survival improvements occur within a parametric family.
+ Results of the modelling indicate that dissemination took approximately 11 years in Hodgkin's disease while only 3 years in disseminated testicular cancer.
+ In both disease sites survival first broke with prior trends between the time that the breakthrough trial started and its publication, indicating that earlier moderately successful 'precursor' trials with combination chemotherapy may have initiated the improved population survival trends.
+ Reasons for the difference in dissemination time in the two cancer sites are examined in order to understand what factors may be responsible for the speed of dissemination and effective utilization of new therapies.

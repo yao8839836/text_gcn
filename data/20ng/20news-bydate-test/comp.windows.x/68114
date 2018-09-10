@@ -1,0 +1,27 @@
+From: weisss@Informatik.TU-Muenchen.DE (Stefan Weiss)
+Subject: X11R5(Pl.23) and Sun386i (works but not on the screen)
+Keywords: SUN X11 SUN386i SunOS device
+Organization: Technische Universitaet Muenchen, Germany
+Lines: 21
+
+
+Hello,
+
+I have a problem with X11R5 on a Sun386i an I hope that someone can help
+me with it.
+I've built X from the MIT sources after applying all patches I have got (I
+think 23). Building was easy. After installing everything I started X but
+nothing happened but the screen and the keyboard freezed, the machine seemed
+to hang. I loged in from another machine an found the Sun386i running well.
+'ps' told me that there's a X-server and a xterm running. And with some 
+experimenting with the mouse and repeatedly pressing ^D I blindly hit the
+xterm, endet the session and got my prompt back.
+I guess it's a device problem but I did not find the correct device yet.
+I've got a Sun386i with a b/w framebuffer (ACE-6 0688 94V-0, Rev 53)
+SunOS 4.0.2 and ROM 4.4.
+Please help me. I'm able to run clients on the Sun and send the output to
+other machines but that's not what I did it for.
+
+Thanks in advance,
+Stefan
+

@@ -1,0 +1,31 @@
+From: J.K.Wight@newcastle.ac.UK (Jim Wight)
+Subject: Re: MenuButton Widget Question
+Organization: The Internet
+Lines: 24
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert@expo.lcs.mit.edu
+
+Scott Evans <server.cs.Virginia.EDU> writes:
+> I'm trying to create a button that has both a label and a bitmap using
+> the MenuButton widget.  Is this possible?  Right now, all I get is the
+> bitmap -- no sign of the label.
+
+That's expected. The first sentence describing the bitmap resource in the
+MenuButton section of the "Athena Widget Set - C Language Interface"
+documentation states
+
+      bitmap      A bitmap to display instead of the label.
+
+One way round this might be to make use of the button's backgroundPixmap
+resource, but remember that you, or a user of your application, won't be able
+to set it from a resource file. Also, the button won't automatically be the
+size of the bitmap. The bitmap will be tiled if necessary, or you could set the
+button's dimensions to match its size.
+
+Jim
+---
+J.K.Wight@newcastle.ac.uk
+Department of Computing Science, University of Newcastle,  Tel: +44 91 222 8238
+Newcastle upon Tyne, NE1 7RU, United Kingdom.              Fax: +44 91 222 8232
+
+

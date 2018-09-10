@@ -1,0 +1,21 @@
+From: araya@next15pg2.wam.umd.edu (Jeff Rabenhorst)
+Subject: Re: HELP:IDE Drive installation problems
+Nntp-Posting-Host: next02pg2.wam.umd.edu
+Organization: Workstations at Maryland, University of Maryland, College Park
+Lines: 15
+
+In article <1993Apr22.161158.4939@sunova.ssc.gov> qwerty@tunisia.ssc.gov (Kris  
+Schludermann) writes:
+|> I'm having trouble with installing a second IDE drive on a Promise IDE  
+caching
+|> controller. The first drive is a conner 3204 and works fine. The second  
+drive
+|> is a conner 30174, it is currently unjumpered  to be the slave drive. The
+|> problem is the slave drive is recognized but is reported back as having no
+|> free space. Disabling cache has made no effect. What else should I check  
+for?
+|> 
+|> krispy
+
+did you make the other drive a master drive?
+did you partition-&-format?

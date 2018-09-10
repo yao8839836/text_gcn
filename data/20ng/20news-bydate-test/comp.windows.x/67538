@@ -1,0 +1,23 @@
+From: styx@eurom.rhein-main.de (Ruediger Merz)
+Subject: Re: preventing user from hitting CTRL-ALT-BKSP to exit X
+Content-Type: text/plain; charset=iso-8859-1
+Lines: 14
+Content-Transfer-Encoding: 8bit
+Organization: Free Software Association of Germany
+X-Newsreader: MINEWS [FSAG] Version: 0.1
+
+hi,
+> Hello,
+> 
+> 	I am admin for an RS/6000 running AIX 3.2, X11R5, Motif, and xdt3.
+> 	I want to prevent the user from hitting CNTL-ALT-BKSPC to exit X.
+
+try DontZap in /usr/lib/X11/Xconfig
+
+cu
+	styx
+
+-----
+                ** Free Software Association of Germany **
+                  Great software should be free software
+                 Phone: 069 - 6312083 Data: 069 - 6312934

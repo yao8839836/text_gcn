@@ -1,0 +1,25 @@
+From: Thomas.Tornblom@Nexus.Comm.SE (Thomas Tornblom)
+Subject: Re: Type1 rasterizer where?
+In-Reply-To: supp60@ingres.com's message of 11 May 1993 15: 04:44 GMT
+Organization: Communicator Nexus AB
+	<1sofac$68m@zebedee.ingres.co.uk>
+Lines: 18
+
+In article <1sofac$68m@zebedee.ingres.co.uk> supp60@ingres.com (Support account) writes:
+
+   In article <THOMAS.TORNBLOM.93May11115505@beck.Nexus.Comm.SE> Thomas.Tornblom@Nexus.Comm.SE (Thomas Tornblom) writes:
+   >I'm trying to locate the Type1 rasterizer that IBM donated to The X
+   >consortium. I've found patches to it but not the original source.
+
+   It's on the R5 "contrib" tape.
+
+   -Mike Glendinning, Ingres UK (mikeg@ingres.co.uk).
+
+Yes I found it there. Thanks everyone.
+
+Thomas
+--
+Real life:      Thomas Törnblom           Email:  Thomas.Tornblom@Nexus.Comm.SE
+Snail mail:     Communicator Nexus AB     Phone:  +46 18 171814
+                Box 857                   Fax:    +46 18 696516
+                S - 751 08 Uppsala, Sweden

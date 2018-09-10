@@ -1,0 +1,76 @@
+From: hbrooks@uiatma.atmos.uiuc.edu (Harold_Brooks)
+Subject: Re: Bases loaded walk gives Reds win in 12
+Organization: Happy Mangum Rattlesnake Festival!
+Lines: 71
+
+In article <mssC5y5u0.4Dn@netcom.com> mss@netcom.com (Mark Singer) writes:
+>In article <C5xwAI.3nu@news.cso.uiuc.edu> hbrooks@uiatma.atmos.uiuc.edu (Harold_Brooks) writes:
+>>In article <mssC5xB3I.2CG@netcom.com> mss@netcom.com (Mark Singer) writes:
+>
+>Actually, I think the large-scale sample size is part of the problem.
+>It seems to me that if we were to plot all the players in baseball
+>in regard to BA vs. Clutch BA deviation we would get some kind of
+>bell curve.  (The X-axis being the +/- deviation in clutch hitting
+>vs. non-clutch;  the Y-axis being the number of players.)  Certainly
+>there would be *some* players on the extreme ends of the bell.  My
+>*supposition* is that if we were to find the SAME players consistently
+>(year after year) at one end of the bell or the other, then we might
+>be able to make some reasonable conclusions about *those* players
+>(as opposed to all baseball players).
+
+Let's be careful here.  If players' performance was completely random
+in (Clutch-No Clutch), then you would still expect some players to be
+good in the clutch every year and some to be not-so-good every year.
+With two years worth of data, you'd have 1/4 of the players good each
+year, 1/4 bad each year, and 1/2 would have one good and one bad year.
+We have 96 players for 5 years ('84-'88).  Just flipping a coin, you'd
+expect 3 players to be good all 5 years and 3 to be bad every year.
+This is what we actually get--
+
+No. of good years    0    1    2    3    4    5
+Clutch performers    4   10   37   24   18    3
+Coin flip (random)   3   15   30   30   15    3
+
+Essentially the distribution of clutch performers by number of years
+of good performance is the same as what you would get if the process
+leading to deviations from non-clutch performance was completely random.
+If there was anything to clutch hitting (at least in this definition)
+that had any predictive capability, you expect to see the number of
+players at the ends to be much larger than that predicted by flipping
+a coin.  Further, if you limit yourself to players who were a lot above
+or below average in clutch situations (say, 1 standard deviation from 
+the mean) more than one year, the random explanation still looks good.
+In the four years ('84-'87) that I looked at the data from Elias, there
+were 79 (29) players with a minimum of 25 (50) at bats in clutch 
+situations that were 1 sigma from the mean two different years.  Of
+those 79 (29) players, 38 (14) of them changed sign between the two
+years.  In other words, they were great clutch hitters one year and
+really horrible the other year.  If it was just a random process, 
+you'd expect those numbers to be 39.5 (14.5).  
+
+Everything that's been measured about clutch hitting over a period
+of years that could be used to predict any ability with any 
+proposed definition has looked like a random process (with the 
+caveat that there may be something related to platoon advantage
+that could be dragged out of the data--e.g., John Lowenstein 
+probably never had a "clutch" AB against a left-handed pitcher,
+but he might well have had some in blowouts, so that there would
+be a bias since his clutch ABs would be more geared to his 
+platoon advantage).  This is not a subject that has been glanced
+at casually.  A lot of people have put a lot of effort into 
+studying it and every one of them, with the exception of the
+Elias study, has been unable to find anything that would allow
+you to predict how someone will do in clutch situations better
+than flipping a coin.  (Self-serving plug follows:  some of the
+flaws in the Elias study are discussed in my paper in the forth-
+coming SABR book, _The Perfect Game_, by Taylor Publishing.  The
+authors are supposed to get a slice of the advance, so go bug
+your local bookstores now, and maybe I can get enough to take my
+wife to dinner once.:-)
+
+Harold
+-- 
+Harold Brooks                    hbrooks@uiatma.atmos.uiuc.edu
+National Severe Storms Laboratory (Norman, OK)
+"I used to work for a brewery, too, but I didn't drink on the job."
+-P. Bavasi on Dal Maxvill's view that Florida can win the NL East in '93

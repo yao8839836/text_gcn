@@ -1,0 +1,563 @@
+From: chen@veda.cwru.edu (Chih-Keng Chen)
+Subject: COntrol SYstems analysis PAcKage-COSY_PAK v0.9(updated)-for Mathematica
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 555
+Distribution: world
+NNTP-Posting-Host: mishna.esys.cwru.edu
+Keywords: Control Systems,  Engineering, Mathematica, Public Domain (No Fee Release)
+
+********************************************************************
+*                                                                  *
+*                            Announcing                            *
+*                                                                  *
+*                            COSY_PAK                              * 
+*                                                                  *                           
+*              (A symbolic COntrol SYstems analysis PAcKage)       *            
+*                                                                  *
+*                           Version 0.9                            * 
+*                            		                           *    
+*                      (NO USER FEE RELEASE)                       *             
+*                                                                  *
+*                               for                                *
+*                                                                  *
+*                      Mathematica Version 2.0 or higher           *
+*                                                                  *
+********************************************************************
+
+==> INTRODUCTION
+
+  COSY_PAK is set of packages and notebooks for classical control and 
+(some) modern (state space) control analysis and design methods. The
+notebooks in COSY_PAK follow a typical `Control Engineering I' course
+taught at many universities around the world for the junior/senior 
+level undergraduates. There is NO FEE to use COSY_PAK but certain 
+responsibilities are expected of the user (see Copyright notice in the 
+README file included below). For starters e-mail / FAX / Mail (Post) 
+the registration form included in the README file.
+
+COSY_PAK is available via `anonymous ftp' from
+
+          mishna.esys.cwru.edu (INTERNET No : 129.22.40.23) 
+
+in the /pub directory. 
+
+P.S.: A typical ftp session in UNIX is given after the README file. 
+
+
+==> FUTURE RELEASES
+
+   If you would like to receive updates and newer versions of
+COSY_PAK please send e-mail/FAX/mail to the address
+below. In addition, your  comments and suggestions are
+appreciated and are invaluable to us. We will do our  best
+to  fix any reported bugs. However, we cannot fix those
+bugs that  have not been  reported to us and those we do not
+know of. We would  very much appreciate you taking  a few
+minutes to communicate to us  via e-mail / US Mail / 
+Telephone / FAX. This will help us to release  bug-free
+versions in the future. Comments are welcome. 
+
+N. Sreenath
+Systems Engineering Department
+Case School of Engineering
+Case Western Reserve University
+
+******************
+e-mail: sree@mishna.cwru.edu
+
+U.S. Mail:
+
+Prof. N. Sreenath                    Tel.: (216) 368-6219
+Systems Engg., Crawford Hall         FAX: (216) 368-3123
+Case Western Reserve Univ.
+Cleveland OH 44106-7070
+  
+========================= Begin README file =========================
+
+
+
+
+                       (NO USER FEE RELEASE)
+
+			     COSY_PAK 
+			     
+	       (A symbolic COntrol SYstems analysis PAcKage)
+			    
+			    Version 0.9                
+		 
+	                        for
+				
+                  	Mathematica Version 2.0 or higher
+
+                                by
+
+               C.K.Chen 		N. Sreenath
+		
+	     	         Systems Engineering
+		     Case School of Engineering
+	     	   Case Western Reserve University		
+	     	      Cleveland, OH, 44106-7070		       
+		      e-mail: sree@mishna.cwru.edu
+			
+--> Copyright
+    :Copyright: Copyright 1992 by C. K. Chen and N. Sreenath, Case 
+Western Reserve University. 
+        
+    Permission to use, copy, modify and distribute this software and 
+its documentation for any purpose and without fee is hereby granted, 
+provided that the above copyright notice appear in supporting 
+documentation, and the name of the Case Western Reserve University,
+Case School of Engineering not be used in advertising or publicity 
+pertaining to distribution of the software without specific, without 
+prior permission. Case Western Reserve University makes no 
+representations about the suitability of this software for any 
+purpose. It is provided "as is" with out express or implied warranty.
+    		
+--> Acknowledgements
+
+    Support from CWRU Information and Network Services - Dr. Ray Neff,
+Case Alumni Association, The Lilly Foundation and the Systems 
+Engineering Department of Case Western Reserve University is 
+gratefully acknowledged. Special thanks to Brian Evans of Georgia Tech  
+for all the help.  
+
+--> FTP
+
+     COSY_PAK is available by anonymous `ftp' from 
+mishna.esys.cwru.edu (Internet No. 129.22.40.23). A sample ftp session 
+is given at the end of this file.
+
+**********************************************************************
+
+--> Changes in Version 0.9 (update from v0.81 to v0.9)
+
+	In this version, we have revised COSY_PAK to take advantage of 
+the more robust signal processing functions available in Mathematica v2.1.  
+Since Mathematica 2.1 provides a better  and  working 
+LaplaceTransform and InverseLaplaceTransform functions than 
+Mathematica v2.0 did, we adopted them. This has made COSY_PAK 
+smaller. Thus Brian Evans' Signal Processing packages that supported 
+the LaplaceTransform  and InverseLaplaceTransform functions in the 
+COSY_PAK v0.81 are no longer needed directly by COSY_PAK v0.9. For 
+power users who  use Signal Processing we still recommend the use of the very  
+fine  Brian Evans package on Signal Processing (available at 
+the anonymous  ftp site gauss.eedsp.gatech.edu  or  IP # 130.207.226.24).  On  
+the  downside, the disadvantage of this update 
+can be that Mathematica 2.1 requires more runtime resources than its 
+previous version. 
+
+
+***********************************************************************	
+--> For Mathematica 2.0 users
+	
+	We have included the LaplaceTransform package from Mathematica 2.1 in  
+the directory `For_2.0'. Please move all files and directory under For_2.0 into  
+the Calculus directory under Mathematica Packages directory. 
+
+**************************************************************************
+	    
+--> Introduction
+   
+    This is an unsupported release of COSY_PAK - a COntrol SYstems 
+analysis PAcKage for symbolic control systems analysis using 
+Mathematica 2.1. Classical control systems analysis and design methods and some  
+modern control systems methods have been implemented in this package. 
+    
+    This package and the attendant notebooks were developed on a 
+NeXT (TM) computer (a UNIX based workstation). They have been 
+used as a supplementary teaching aid along with  standard control 
+engineering texts (Ogata [1991], Phillips and Harbor [1991]) for 
+undergraduate courses in `Control Engineering I' taught at the Systems 
+Engineering Department of CWRU. In addition to the NeXT, they have 
+also been tested successfully on Apple Macintosh computers (TM), and, 
+IBM PC's (TM) running MS Windows(TM). We would be very much interested 
+to hear from you if you or anybody you know uses this software on 
+platforms not mentioned above. IBM users however will have to 
+evaluate the notebooks first to visualize the graphics.
+
+    Once installed (see below for instructions), this  collection  of  
+Mathematica  packages  can be loaded by any user. Bundled with the 
+packages are many notebooks ("COSY_Notes") which demonstrate  
+the functionality of these packages. The notebooks follow a plan of 
+many fine, standard, undergraduate Control Engineering text books 
+listed in the references. Examples used in these notebooks have 
+been collected from the various references given at the end of this 
+file. The contents of the notebooks in the "COSY_Notes" directory are 
+given below.
+   
+ ----------- Begin "COSY_Notes" Contents -----------
+ 
+ NOTEBOOK FILE NAME: 01_Introduction.ma
+ CHAPTER 1: Introduction to Control Systems
+	
+	Sections:  
+	     Analyticity
+	     Poles and Zeros
+	     Signals
+	     Forward Laplace Transforms
+	     Inverse Laplace Transforms
+	     Differential Equation With Zero-Valued Initial Conditions
+	     Differential Equation With Initial Conditions
+	     	     
+ -----------
+ 
+ NOTEBOOK FILE NAME: 02_Math_Models.ma
+ CHAPTER 2: Mathematical Modeling of Dynamic Systems
+
+ 	 Sections:  
+	      ODE to State Space  
+	      Linearization of a Nonlinear System of Equations  
+	      State Space to Transfer Function
+		     
+ -----------
+ 
+ NOTEBOOK FILE NAME: 03_*_Transient_Response.ma
+ CHAPTER 3: Transient-Response Analysis  
+            (Chapter split into three sub notebooks because of file
+	     size)
+
+	 NOTEBOOK FILE NAME: 03_1_Transient_Response.ma
+            
+	    Sections :       
+	      Time Response Analysis  
+	      First order System  
+	      Second Order System  
+	      Third Order and Higher Order Systems
+	      
+         NOTEBOOK FILE NAME: 03_2_Transient_Response.ma
+            
+	    Sections  :        	      
+	      First Order System (Step Response vs. Time Const)  
+	      
+	      
+         NOTEBOOK FILE NAME: 03_3_Transient_Response.ma
+            
+	    Sections  :
+	      Second Order System (Step Response vs. Damping Ratio)  
+	      
+	            
+ -----------
+
+ NOTEBOOK FILE NAME: 04_Steady_State_Response.ma
+ CHAPTER 4: Steady-State Response
+ 
+         Sections:	      
+	      Routh's Stability 
+ 	      Steady-State Error Analysis
+                
+ -----------
+		
+ NOTEBOOK FILE NAME: 05_Root_Locus.ma
+ CHAPTER 5: Root-Locus Analysis
+
+ -----------
+ 
+ NOTEBOOK FILE NAME: 06_Freq_Response.ma
+ CHAPTER 6: Frequency-Response Analysis
+
+         Sections:
+	      Bode Plot Analysis  
+	      Magnitude vs. Phase Plot (Nichols Plot)
+	      Polar Plot  
+	      Nyquist Plot  
+	      Combined Example
+	      
+ -----------
+ 
+ NOTEBOOK FILE NAME: 07_State_Space.ma
+ CHAPTER 7: State Space Methods
+
+         Sections:
+	      Introduction
+	      State Transition Matrix
+	      Controllability
+	      Observability
+	      Output Controllability
+	      Pole Placement Design 
+	      Observer Design
+	      Time Response Using State Space Methods
+
+ 
+ ----------- End Notebook Contents -----------
+ 
+
+--> Compressed Files
+
+        The files that contain  a  complete set of the COSY_PAK v0.9
+packages and Notebooks for Mathematica are:
+
+ COSY_PAK_09.tar.Z     		compressed tar file for Unix systems
+	
+ COSY_PAK_09.sit.hqx     	compressed sit file for Macintosh 
+ 				systems and encoded by BinHex 4.0 
+				format (requires the   shareware
+				 Stuffit file v 1.5.1 or higher). 
+	
+ COSY_PAK_IBM_09.zip    	zip file for the IBM PC running MS-DOS
+    
+     Once expanded the Mathematica files can also be used on 
+Macintosh / IBM PC / Unix systems also.
+
+
+--> Installation of COSY_PAK
+
+ o In UNIX Command line type the following command:
+
+      zcat COSY_PAK_09.tar.Z | tar xvf -
+
+ o In Macintosh open the .sit.hqx file using the shareware
+    Stuffit v 1.5.1 or higher.
+  
+ o In IBM Command line type the following command:
+
+      pkunzip -o -d COSY_PAK_IBM_09.zip
+
+NOTE: This .zip file was zipped by zip utility v2.0. You must use 
+pkunzip version 2.0 or  higher to unzip it.  IBM PC's may limit the 
+directory name characters to eight. In that event type "pkunzip -o -d 
+COSY_PAK.zip.  You can also unzip the COSY_PAK_IBM_09.zip file on any 
+Unix machine if you have unzip utility on it.
+
+
+     Uncompressing and untarring "COSY_PAK_09.tar.Z" or unzipping 
+"COSY_PAK_IBM_09.zip" will create a directory called "COSY_PAK".
+         	
+Once the files are expanded you should see a single directory 
+"COSY_PAK" containing the following three files, four 
+sub-directories and their contents:
+
+SUB-DIRECTORIES in "COSY_PAK":  
+  COSYPAK    - contains control tool box packages 
+  MANUAL     - COSY_PAK manual in .ps, .rtf, .txt, and .wn formats. 
+  COSY_Notes - contains notebooks 
+  For_2.0    - contains Laplace transform package from Mathematica 2.1
+  		For Mathematica 2.0 users.	 
+    		
+FILES in directory "COSYPAK":
+  chap1.m   chap2.m   chap3.m  chap4.m  chap5.m   chap6.m  chap7.m
+	
+FILES in directory "COSY_Notes":
+	01_Introduction.ma	  
+	02_Math_Model.ma
+	03_1_Transient_Response.ma   
+	03_2_Transient_Response.ma   
+	03_3_Transient_Response.ma   
+	04_Steady_State_Response.ma
+	05_Root_Locus.ma	  
+	06_Freq_Response.ma 
+	07_State_Space.ma         
+	
+FILES in directory "For_2.0":
+	LaplaceTransform.m     DiracDelta.m	
+	SUB-DIRECTORIES in "COSY_PAK":	Common
+	FILES in directory "Common":  Support.m
+
+********************* Important ********************	
+
+	The notebook example files(.ma files) will be under the 
+"COSY_Notes" directory.  To use the notebooks, move the directory `COSYPAK' to  
+a 
+directory that  Mathematica can recognize :
+	
+        /LocalLibrary/Mathematica/Packages     	on a UNIX machine,
+        MY_HardDisk:Mathematica:Packages   	on an Apple Macintosh,
+        c:\winmath\packages                  	on an IBM PC.
+
+	At the beginning of the "Initialization" cell of each notebook 
+in  "COSY_Notes" directory, we list the example about how to make 
+Mathematica identify the directory:
+
+	(* Initialization of Path *)
+
+	(* Example For a UNIX machine  (Default) *) 
+	(*
+	$Path=Join[$Path,
+	{"/LocalLibrary/Mathematica/Packages"}];
+	*)
+	
+	(* Example For an Apple Macintosh  *) 
+	(*
+	$Path=Join[$Path,
+	{"MY_HardDisk:Mathematica:Packages"}];
+	*)
+	
+	(* Example For IBM PC 	
+	 *)
+	(*
+	$Path=Join[$Path,	
+	 {"c:\winmath\packages"}];	
+	*)	
+
+Change the pathname according to your machine by removing the 
+Mathematica comment sign `(*' and `)*' before and after `$Path' 
+setting.
+
+	This command makes Mathematica recognize the directory
+
+        /LocalLibrary/Mathematica/Packages     	on a UNIX machine
+        MY_HardDisk:Mathematica:Packages   	on a Apple Macintosh
+        c:\winmath\packages                	on an IBM PC
+
+
+--> Mathematica 2.0 users
+	
+	We include the LaplaceTransform package from Mathematica 2.1 in 
+the directory For_2.0. Please move all files and directory under For_2.0 
+into the Calculus directory under Mathematica Packages directory. 
+
+
+--> Getting started
+
+       After installation, start Mathematica and open the notebooks in 
+the "COSY_Notes" directory. All notebooks load their own packages. 
+Navigate in the notebooks and enjoy. IBM users however will have to 
+evaluate the notebooks to visualize the graphics.
+    
+*************************************************************** 
+
+--> USER RESPONSIBILITIES
+
+      We request you to take a few minutes and fill out the 
+information below and mail it to us by e-mail / FAX / U.S. Mail. This 
+will help us to keep your abreast of the improvements and release new 
+versions of COSY_PAK. Suggestions for improvements are welcome.
+
+-------------------------------cut here-------------------------------
+  
+  YOUR NAME:     ________________________________________
+ 
+  ORGANIZATION:  ________________________________________
+  
+  TITLE:         ________________________________________
+  
+  e-mail:        ________________________________________
+
+  POSTAL ADDRESS:________________________________________
+  
+                 ________________________________________
+		   
+  Comments &     ________________________________________
+  
+  Suggestions:   ________________________________________
+		 
+                 ________________________________________
+		 
+
+
+
+-------------------------------cut here-------------------------------
+
+Mail this information to (E-mail / FAX / U.S. Mail) :
+
+INTERNET: sree@mishna.cwru.edu
+
+U.S. Mail:
+
+Prof. N. Sreenath                    Tel.: (216) 368-6219
+Systems Engg., Crawford Hall         FAX: (216) 368-3123
+Case Western Reserve Univ.
+Cleveland OH 44106-7070
+  
+*************************************************************** 
+
+--> REPORT BUGS
+
+     Please report bugs and leave comments to the address above. 
+Any suggestion for improvements and criticism are welcome.
+
+     We will do our best to  fix any reported bugs. However, we cannot 
+fix those bugs that have not been  reported to us and those we do not 
+know of. We would very much appreciate you taking  a few minutes to 
+communicate to us via e-mail / US Mail /  Telephone / FAX. This will 
+help us to release bug-free versions in the future.
+	
+	
+***************************************************************
+
+--> Disclaimer and Future Releases
+
+ 	This software is the property of the Case Western Reserve 
+University. Use this software at your own risk. We make no express or 
+implied  warranty.
+
+	The packages and the notebooks can also be made to run under 
+Mathematica versions 2.0 or lower with modification. We do not 
+guarantee the outcome.
+
+
+--> Documentation
+
+        COSY_PAK functions are indexed in the files in the 
+`MANUAL' directory according the chapters. Usage is illustrated in 
+notebooks residing in `COSY_Notes' directory.  If your computer does 
+not support notebooks find a Macintosh computer and acquire MathReader 
+which is a public domain notebook reader. MathReader will at least 
+allow you to peruse notebooks but you will not be able to evaluate 
+any code fragments.
+	
+
+--> References
+
+Dorf, R. C., "Modern Control Systems", Sixth Edition, Addison 
+Wesley, New York, 1992.
+
+Fortmann, T. E., and Hitz, K. L., "An Introduction to Linear Control 
+Systems", Marcel Dekker, 1977.
+
+Franklin, G. F., Powell, D. J., and Emami-Naeini, A., "Feedback 
+Control of Dynamic Systems", Second Edition, Addison Wesley, New 
+York, 1991.
+
+Kuo, B. C., "Automatic Control Systems", Sixth Edition, Prentice Hall, 
+New Jersey, 1990.
+
+Ogata, K., "Modern Control Engineering", Second Edition, Prentice 
+
+Hall, New Jersey, 1991.
+
+Phillips, C. L., and Harbor, R. D., "Feedback Control Systems", 
+Second Edition, Prentice Hall, New Jersey, 1991.
+
+
+========================= End README file =========================
+
+TYPICAL `ftp' session :
+-----------------------
+
+%ftp mishna.esys.cwru.edu
+Connected to mishna.
+220 mishna FTP server (Version 5.20 (NeXT 1.0) Sun Nov 11, 1990) ready.
+
+Name (mishna.esys.cwru.edu:sree): anonymous
+
+Password:
+
+ftp> cd /pub
+
+ftp> binary
+
+ftp> ls
+200 PORT command successful.
+150 Opening ASCII mode data connection for file list.
+COSY_PAK_09.tar.Z
+COSY_PAK_IBM_09.zip
+Index
+README
+places.wmd
+COSY_PAK_untar
+226 Transfer complete.
+78 bytes received in 0 seconds (15.35 Kbytes/s)
+
+ftp> get COSY_PAK_09.tar.Z
+200 PORT command successful.
+150 Opening BINARY mode data connection for COSY_PAK_09.tar.Z (460822 bytes).
+226 Transfer complete.
+local: COSY_PAK_09.tar.Z remote: COSY_PAK_09.tar.Z
+460822 bytes received in 1.33 seconds (3.38e+02 Kbytes/s)
+
+ftp> quit
+221 Goodbye.
+
+
+--
+

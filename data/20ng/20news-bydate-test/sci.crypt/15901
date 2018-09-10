@@ -1,0 +1,63 @@
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Re: Once they get your keys....
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+X-Newsreader: Tin 1.1 PL5
+Lines: 57
+
+(alt.security.clipper added, to keep them informed of this issue)
+
+
+David Sternlight (strnlght@netcom.com) wrote:
+....
+: The proposal could be modified so that if they get a court order to tap you
+: and don't charge you with a crime within, say, 90 days, they have to buy you
+: a new phone.
+: 
+: If they do charge you, and you are found innocent, they have to buy you a
+: new phone.
+: 
+: :-)
+
+Yes, but will they buy you a ticket on a time machine to allow you to
+go back and use the phone with the new key instead of the phone whose
+key they obtained?
+
+It is unclear whether obtaining the key at time 0 also unlocks
+messages recorded (by whomever) at earlier times. The announcement was
+silent on this. The betting seems to be that once your key has been
+obtained (by the authorities, by divorce lawyers, by the Mafia, by the
+FBI, by lost or stolen backup tapes, by the NSA, etc.). all previous
+conversations are unsecure. (Session keys are negotiated, but knowing
+the private key is believed by many commentators here to break the
+security. No doubt more details will emerge.)
+
+So, the loss of a key, whether one is guilty or innocent, may mean a lot
+more than merely replacing the phone.
+
+Sort of like saying to someone, "Oh, I copied your diary. But I'll buy
+you a new one."
+
+
+And the system, if made mandatory (as I expect), will make such
+storing of conversations much easier, I fear. For one thing, the
+transmission of the escrow key field acts as a clear signal to anyone
+listening, a kind of "Caller ID" and "Callee ID" on a grand scale.
+Also, the phone companies may not care as much about protecting the
+privacy of the calls, as they perceive them all to be useless
+encrypted junk. (This is a bit of a reach, I know, suggesting that the
+Clipper will make security more lax...).
+
+Anyway, still lots of issues unresolved.
+
+
+-Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+

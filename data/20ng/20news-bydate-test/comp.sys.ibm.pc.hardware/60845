@@ -1,0 +1,33 @@
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Subject: modems and noisy lines.
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 26
+
+*** On 04-19-93  03:56, Juan Carlos Leon had the unmitigated gall to say this:
+
+ JCL> I just got a problem, I have a cheapo 2400bps modem which I use to
+ JCL> connect to my university, but I get too much garbage on the screen. I
+ JCL> do know it's because the noise in the line (I can actually hear it). 
+ JCL> So my question is will an error correction protocol help to eliminate
+ JCL> this garbage?, my modem doesn't have any of these on hardware, can a
+ JCL> software implemented protocol do the trick?
+
+There is a software version of MNP-5 available from MTEZ, and it will often
+connect with other modems that are MNP compatible, but if the modem that you
+are connecting to doesn't support MNP then it won't help.  Error correcting
+modems will eliminate line noise, but only id there are error correcting
+modems on both ends of the conncetion.  The added soeed is much worth the
+price of error correcting modems.  9600 baud V.42bis modems are very
+reasonable, and they are only about 15% slower than the more expensive
+14,400 modems on the market.
+
+... My hard disk is full! Maybe I'll try this message section thing.
+--- Blue Wave/QWK v2.10
+      
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com

@@ -1,0 +1,24 @@
+From: jhwhit01@ulkyvx.louisville.edu
+Subject: Re: Microcontroller Questions for newcomer
+Organization: University of Louisville
+Lines: 18
+Nntp-Posting-Host: ulkyvx.louisville.edu
+
+Does anyone have recommendations on whether a smart data I/O (print spooler,
+digital sampling, etc.) would be better implemented with a DMA chip or a
+dedicated microcontroller?  Essentially what I am trying to decide is the best
+way to handle moving data from a port with automatic handshaking from or to a
+memory area that will be accessible by a main system processor when not in use
+by the smart data I/O.
+ 
+Which DMA or microcontroller chip would be best to use?  Fast, cheap, and easy
+to obtain would be nice, but I won't limit my choices to only those that fit
+those characteristics.  Even an 8086/8088 (under $5) would do what I want,
+but I am sure there is a better alternative -- like a microcontroller with
+onchip (E)EPROM.
+ 
+So I essentially want to hear about all DMA and microcontrollers that are simple
+to interface and will move data from one place to another while monitoring a
+few I/O lines.
+ 
+Jeff White          jhwhit01@ulkyvx.louisville.edu

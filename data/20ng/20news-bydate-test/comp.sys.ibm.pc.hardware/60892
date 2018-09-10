@@ -1,0 +1,126 @@
+From: jim@n5ial.mythical.com (Jim Graham)
+Subject: Re: Courier vs Sportster
+Organization: what, ME???  you must be joking.
+Lines: 121
+
+NOTE:  followups to comp.dcom.modems (for obvious reasons)
+
+In article <1r0mb9$67h@usenet.INS.CWRU.Edu> da416@cleveland.Freenet.Edu
+(Andy Nicola) writes:
+
+>In a previous article, cs3sd3ae@maccs.mcmaster.ca (Holly       KS) says:
+
+>>What is the difference between the US Robotics Courier v32bis external and the
+>>Sportster 14400 external? I see that the price of a Sportster has dramatically
+>>dropped to below $200 but the price of the Courier remains above $400.
+>>
+>>Anyone with knowledge of both of these modems or anyone that owns a Courier?
+
+the Courier is their top-of-the-line product, thus the higher price.  I've
+never taken a real look at the Sportster line (only Couriers), but from what
+I've gathered, it's basically more of an entry-level modem.  probably
+doesn't meet the same specifications that the Courier does.  I'm not sure
+if the Sportster line is fully DSP driven like the (more recent) Courier
+modems are, so upgrades in the future may be an issue.
+
+again, take all of the above with a grain of salt...I've never evaluated
+the Sportster, so I'm going by bits and pieces that I've heard.  if you
+want a real answer, post the question in comp.dcom.modems and you'll find
+people who HAVE worked with the Sportster.
+
+personally, though, if I were going to look at the Courier modems, I'd
+buy the Dual Standard...then I'd get both HST and V.32bis.  in fact, this
+is exactly what I did.  :-)  I'm sitting here looking at my USR DS right
+now.
+
+and now, to correct a few VERY incorrect statements....  folks, if you want
+to get reliable answers to modem and/or UART questions, post them to
+comp.dcom.modems.  if you post in other groups, you never know what you'll
+get in the way of an answer (you may very well get a good answer...or you
+may get something like the one below).  at least in cdm, if someone posts
+complete and utter bs, you'll see a flurry of folks correcting them (to
+avoid spreading faulty info).
+
+>The Sportster at 14.4 has v.42 error control and v.42 bis data compression.
+
+just as it does at lower speeds, too.  there is absolutely nothing in
+either CCITT Recommendation V.42 or V.42bis that says that they can only
+operate on modems that are running V.32bis.  V.42bis, of course, is
+currently only *STANDARDIZED* for operation on top of V.42 (in its primary
+mode of operation, LAPM), but that's about as far as that goes.
+
+and just in case there's some confusion on this, V.42/V.42bis are also
+supported by the Courier line (unless you have a really ancient one).
+
+>The difference
+>with the Courier, is that it can run at 16.8 and only in the HST mode. 
+
+take a second look at the original question:
+
+>In a previous article, cs3sd3ae@maccs.mcmaster.ca (Holly       KS) says:
+>>What is the difference between the US Robotics Courier v32bis external
+                                                 ^^^^^^^^^^^^^^
+see the V.32bis up there?  the question was not about the Courier HST
+modem, or about the Courier Dual Standard...it was about the Courier
+V.32bis modem.  the modem in question does not support HST, period.  it
+therefore does not support the 16.8 kb HST.
+
+also, not all Courier HST / Courier Dual Standard modems support the 16.8 kb
+version of HST.  my Dual Standard only supports HST at 14.4 kb.  there are
+even older models that only run HST at 9.6 kb.
+
+>This is a proprietary mode of USR and it will only connect to another of
+>the same type unit to achieve this speed.
+
+HST is USR's proprietary modulation scheme....  but we're not talking about
+HST, we're talking about V.32bis.  V.32bis is most definitely *NOT* a
+proprietary modulation scheme.
+
+>The Sportster will do
+>asynchronous transmissions as well as synchronous.  The HST is one way
+>only.
+
+I do hope you didn't mean for these two sentences to be related in some
+way.....
+
+first off, V.32 and V.32bis are both synchronous and asynchronous.  this is
+part of the CCITT Recommendation (i.e., part of the standard).  it isn't a
+feature unique to the Sportster (I just looked at the appropriate chapter
+in the Courier DS manual).
+
+second, HST is not ``one way only.''  more correctly put, it is an
+asymmetrical modulation scheme, meaning it doesn't work at the same speed
+in both directions.  HST operates at [9.6 / 14.4 / 16.8] in one direction,
+and has a low-speed back-channel in the other direction.  the high-speed
+channel goes in the direction of the higher data flow.  this is fine if
+you're logged on to say, a BBS, and type one letter and get screens of
+info back, transfer files (not using bimodem), etc....  there is, of course,
+a penalty for turnaround time when the high-speed channel needs to reverse
+directions.
+
+V.32 and V.32bis are both symmetrical, meaning they do transfer the full
+data rate in both directions at the same time.
+
+third, synchronous vs asynchronous has absolutely nothing to do with
+symmetrical vs asymmetrical...they are two completely different topics.
+
+>The HST's will be upgradeable to the v.fast spec when it is available.
+
+again, more correctly put, *SOME* of the Courier line will be upgradeable
+to whatever ``V.fast'' is called when it's complete.  if you have the large
+footprint Courier modems (like I do), you're S.O.L.....  there was an
+upgrade plan a while back to upgrade to a small footprint variety, which
+could eventually be upgraded to support V.fast, but the cost of the two
+upgrades together pretty much put it higher than just buying a new modem.
+
+later.....
+   --jim
+
+--
+#include <std_disclaimer.h>                                 73 DE N5IAL (/4)
+------------------------------------------------------------------------------
+INTERNET: jim@n5ial.mythical.com  |  j.graham@ieee.org     ICBM: 30.23N 86.32W
+AMATEUR RADIO: n5ial@w4zbb (Ft. Walton Beach, FL)          AMTOR SELCAL: NIAL
+------------------------------------------------------------------------------
+E-mail me for information about KAMterm (host mode for Kantronics TNCs).
+

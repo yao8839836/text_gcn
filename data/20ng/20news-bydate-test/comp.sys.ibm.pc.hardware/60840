@@ -1,0 +1,37 @@
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Subject: Date is stuck
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 30
+
+*** On 04-19-93  04:09, John Bongiovanni had the unmitigated gall to say this:
+
+ >>Suddenly, the date no longer rolls over.  The time is (reasonably) accurate
+ >>allways, but we have to change the date by hand every morning.  This involves
+ >>exiting the menu system to get to DOS.
+ 
+ JB> Did I once hear that in order for the date to advance, something, like
+ JB> a  clock, *has* to make a Get Date system call? Apparently, the clock
+ JB> hardware interrupt and BIOS don't do this (date advance)
+ JB> automatically. The Get Date call notices that a "midnight reset" flag
+ JB> has been set, and then then advances the date.
+
+When a program uses a DOS call to get the system, it resets the flag that
+tells the BIOS that it has passed midnight.  It then uses this flag to
+increment the date.  If the menu does a call to the system to get the time
+before midnight, before the BIOS sees the midnight flag, then BIOS will not
+know that the day passed and the date will not get updated.
+
+I might have some DOS's and BIOS's mixed up (darned cold messed up my
+brains) but this has been a well documented problem for years.  I don't know
+of a workaround.  Hope this helps!
+
+... Two most common elements in the universe: Hydrogen & Stupidity.
+--- Blue Wave/QWK v2.10
+                       
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com

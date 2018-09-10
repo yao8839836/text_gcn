@@ -1,0 +1,47 @@
+From: tommc@hpcvusj.cv.hp.com (Tom McFarland)
+Subject: Re: XmTextField truncation with LANG bug(???)
+Nntp-Posting-Host: hpcvusj.cv.hp.com
+Reply-To: tommc@cv.hp.com
+Organization: Hewlett Packard UTD-Corvallis
+Lines: 40
+
+In article <lttm1lINNrli@news.bbn.com>, swalker@bbn.com (Susan Walker) writes:
+|> I have found a situation which I think is a bug in X or Motif, but I'm hoping
+|> is really just a mistake on my part.  Does anyone know anything about
+|> this problem........
+|> 
+|> - I am using an XmTextField, and setting its XmNvalue to a hardcoded
+|>   text string (ascii or Kanji) either via XtSetValues or XmTextSetString.
+|>   The problem is that when the XmTextField is displayed, the text is getting
+|>   truncated, depending on the setting of the environment variables
+|>   LANG (more specifically LC_ALL).  When they are set to japanese,
+|>   the text gets truncated.  When they are set to english, everything
+|>   works fine.  I am taking the default for XmNcolumns.
+|>   (Please note that hardcoding of text is NOT done in my actual
+|>    application, just in my sample code to make things easier)
+|> 	
+|> - I am running Motif 1.2, X11R5 via HPUX9.01.  My test program is set up
+|>   to handle 16 bit Kanji characters.  I have remembered to do   
+|>   XtSetLanguageProc() prior to my MrmInitialize and my font resources
+|>   are set to japanese fonts.
+|> 
+|> - Don't know if this matters, but my dialog box and TextField is initially
+|>   created with UIL. 
+|> 
+|> 
+|> The problem does NOT happen with XmText.  Unfortunately substituting
+|> XmTextFields with XmTexts in my application is not an acceptable
+|> alternative (way too much code to be modified while in beta!)
+|> 
+|> I have a small test program which illustrates the problem if anyone
+|> wants it.  My best guess is that either the X code or Motif is not
+|> properly allocating memory for japanese, but since I don't have the
+|> source to look at it is just a guess.
+
+The problem was that TextField was improperly walking the string; it used
+the character count instead of the byte count... a significan "Oops". 
+The problem has been fixed and the patch is included in the latest periodic
+patch from HP support services.
+
+Tom McFarland
+<tommc@cv.hp.com>

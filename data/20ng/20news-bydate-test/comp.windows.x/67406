@@ -1,0 +1,42 @@
+From: casper@fwi.uva.nl (Casper H.S. Dik)
+Subject: Re: Xsun not finding default font (Sol2.1)
+Nntp-Posting-Host: adam.fwi.uva.nl
+Organization: FWI, University of Amsterdam
+Lines: 36
+
+joel@zodiac.z-code.COM (Joel Reymont) writes:
+
+>Hi, netters!
+
+>I've just built X11R5 pl 21 under Solaris 2.1. I've used the multi-screen 
+>patch, as well as the R5.SunOS... patch and everything builds great, except 
+>for that error message Xsun gives me upon startup. It says: 
+>"Cannot set default font path '[stuff deleted]'" and "Cannot set default font
+>'fixed'". If I supply the -fp option, it doesn't complain about the font path
+>but still complains about the font. I have symlinks from /usr/lib/ to the 
+>place where my distribution lives.
+
+Try to run Xsun under truss(1).
+
+	The best way to do this is by logging in over the network
+	and typing:
+
+	truss -t open Xsun
+
+open("/opt/X11R5/lib/X11/fonts/misc/fonts.dir", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/misc/fonts.alias", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/Speedo/fonts.dir", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/Speedo/fonts.alias", O_RDONLY, 0666) Err#2 ENOENT
+open("/opt/X11R5/lib/X11/fonts/75dpi/fonts.dir", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/75dpi/fonts.alias", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/100dpi/fonts.dir", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/100dpi/fonts.alias", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/misc/6x13.pcf", O_RDONLY, 0666) = 8
+open("/opt/X11R5/lib/X11/fonts/misc/cursor.pcf", O_RDONLY, 0666) = 8
+
+This will give you and idea of where Xsun things the fonts should be.
+
+If you have defined  a project root and done a make install, everything
+should have gone right by default, even without symbolic links.
+
+Casper

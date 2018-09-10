@@ -1,0 +1,19 @@
+From: frank@mikrosys.no (Frank Mikalsen)
+Subject: Re: Hot-key for Screen Saver?
+Organization: Mikrosys AS
+Posting-Front-End: Winix Conference v 92.07.22  1.50 (running under MS-Windows)
+Lines: 13
+
+In article <1993May15.042551.17892@seas.gwu.edu>, louray@seas.gwu.edu (Michael Panayiotakis) writes:
+
+
+>
+>Well, renaming screensavers (.scr) to .exe, and running them, as has
+>been pposted, (I haven't tried changing win.ini , but should have same
+>effect) shows me the "setup" dialog. box, butdoesn't enable the saver.
+>
+>Mickey
+
+Start the renamed saver vid the commandline option /s.
+
+Frank

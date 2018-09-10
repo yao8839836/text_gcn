@@ -1,0 +1,36 @@
+From: broehl@sunee.uwaterloo.ca (Bernie Roehl)
+Subject: Re: Optimizing projections
+Organization: University of Waterloo
+Lines: 31
+
+In article <1sua3tINNqs2@no-names.nerdc.ufl.edu> LIONESS@ufcc.ufl.edu writes:
+>My three-d library does a lot of projections ( duh ), but currently it
+>is projecting an object's vertices on a _per triangle basis_.  This is
+>grossly inefficient for 99% of the objects displayed ( which can
+>be optimized by doing projections ONE time, once for each vertex ), but
+>objects whose Z-extents intersect the hither plane can't benefit from
+>this because new vertices must be created during Z-clipping.
+
+>Anyone have any better ideas?
+
+Yes.  Here's what you should do.
+
+Keep the vertices in an array, and have the polygons (triangles are okay,
+but n-sided polygons are slightly more efficient) store the indices into
+the array of the vertices that comprise them.  You set a flag for each
+vertex when you transform it, so you don't have to transform any vertex
+more than once; you also do backface elimination before processing the
+polygon, so that vertices that belong only to bacfacing polys don't have
+to be transformed at all.
+
+Whenever you transform a vertex, check if it's on the far side of the hither
+plane; if it is, you can project it right away and store the result.
+
+Then do your Z clip; any vertices that get produced will have to have their
+projection done at that stage.
+
+-- 
+	Bernie Roehl
+        University of Waterloo Dept of Electrical and Computer Engineering
+	Mail: broehl@sunee.UWaterloo.ca
+	Voice:  (519) 885-1211 x 2607 [work]

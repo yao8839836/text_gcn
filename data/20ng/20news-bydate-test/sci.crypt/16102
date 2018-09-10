@@ -1,0 +1,18 @@
+From: C445585@mizzou1.missouri.edu (John Kelsey)
+Subject: Clipper and backdoors
+Organization: University of Missouri
+Lines: 12
+Nntp-Posting-Host: mizzou1.missouri.edu
+
+David Sternlight says:
+ 
+>It discredits the writer with third parties to claim Clipper has a back
+>door. It does not.
+ 
+   Actually, David, I don't think it's any more intellectually honest to
+say there are no backdoors than to say there are backdoors, unless you've
+had a chance to examine the algorithm and the silicon closely.  For all
+we know, skipjack could be easily broken, or impossible to break.  And
+clearly, if skipjack is not secure, then the clipper chip is not worth much.
+ 
+   --John Kelsey

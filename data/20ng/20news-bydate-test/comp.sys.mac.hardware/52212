@@ -1,0 +1,31 @@
+From: wargopl@sun.soe.clarkson.edu (Peter L. Wargo)
+Subject: Re: x86 ~= 680x0 ?? (How do they compare?)
+Organization: Clarkson University
+Lines: 25
+Nntp-Posting-Host: sun.soe.clarkson.edu
+
+2545500@jeff-lab@queensu.ca (Peter Pundy) writes:
+
+>Even better than that...  how does a 68000-based Amiga 2000 perform in 
+>daily tasks compared to my 68030-based IIci.
+
+>Answer, except in a very few cases, I get my butt kicked by the Amiga.
+
+A similar reason is why people at work, used to seeing SCO unix running
+on a 486, are suprised when they see my Sun-3 at home running faster w/a 16MHz
+68020/68881.  The Sun was designed from the ground up for UNIX, the PC
+wasn't.
+
+This is why you need a gargantuan processor to run Windows.  The basic
+design of the box is all wrong. (Would've been better if MS had put most
+of Windows on a plug-in ROM card from day one. (priced at $24.95 or
+so...) People woulda loved it.
+
+Apple had the right idea, just stumbled a bit in the execution.
+
+-Pete
+
+--
+Peter L. Wargo      / wargopl@sun.soe.clarkson.edu / E-Mail saves trees.
+Documentation      /                              / It also makes the
+Enable Software   /   518-877-8600, x528         / world smaller....

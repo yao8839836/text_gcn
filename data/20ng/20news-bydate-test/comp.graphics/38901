@@ -1,0 +1,25 @@
+From: tmc@spartan.ac.BrockU.CA (Tim Ciceran)
+Subject: Re: Best FTP Viewer please.
+Organization: Brock University, St. Catharines Ontario
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 19
+
+SITUNAYA@IBM3090.BHAM.AC.UK wrote:
+: ==============================================================================
+: Could someone please tell me the Best FTP'able viewer available for MSDOS
+: I am running a 486 33mhz with SVGA monitor.
+: I need to look at gifs mainly and it would be advantageous if it ran
+: under windows...........thanks
+
+FTP to wuarchive.wustl.edu,
+change into mirrors/msdos/graphics
+get "grfwk61t.zip"
+This is the DOS version of Graphic Workshop.  There is a Windows version which
+you could probably find in the mirrors/msdos/windows3 directory but I don't 
+know what the file name is. 
+
+-- 
+
+TMC
+(tmc@spartan.ac.BrockU.ca)
+

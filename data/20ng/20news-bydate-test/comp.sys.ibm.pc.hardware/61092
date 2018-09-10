@@ -1,0 +1,52 @@
+From: sherwood@adobe.com (Geoffrey Sherwood)
+Subject: Re: Monitors - Nanao?
+Organization: Adobe Systems Incorporated
+X-Newsreader: TIN [version 1.1 PL9]
+Lines: 46
+
+Adrie Koolen (adrie@ica.philips.nl) wrote:
+: In article <C5wKx1.Frv@news.iastate.edu> schauf@iastate.edu (Brian J Schaufenbuel) writes:
+: >What tube does the Viewsonic 17 use?  Does is support 1600x1280?  I've been
+: >looking a a Philips 1762DT which uses a Sony Trinitron tube, has digital
+: >controls, supports up to 1280x1024NI, and has .25mm dot pitch - It can be
+: >found for under $1000.
+
+: The original poster, John Navitsky, said that he might use the monitor on
+: a SparcStation LX. The LX is able to generate a picture at 1280*1024 at
+: 76 Hz. Not officially, but I tried to set this resolution and refresh rate
+: and the LX came up with a non-syncing screen. Our tube obviously couldn't
+: handle this speed. At 67 Hz, it worked perfectly.
+
+I don't know which tube the Viewsonic 17 uses, but it has an 82khz horizontal
+bandwidth so you can go pretty high.  I ran mine at 1280x1024x75 which was as
+fast as the Orchid P9000 could drive it.  Also, the 17 does claim to be able
+to support 1600x1280, but I have no experience with that.
+
+Since I have the spec sheet in front of me I'll type some in:
+
+CRT:	17", 0.28 mm dot pitch, 90 deg deflection, RGB mediou short
+	persisance, Tint (TM=52%), anti-static, anti-glare, anti-reflection
+
+Input Signal:  RGB Analog 0.7Vp-p, 75 ohms (also has setting for 1Vp-p)
+	Sync: H/V Separate(ttl), composite (+/-), sync on green (+/-)
+	horizontal freq: 30-82Khz, vertical freq: 50-90Hz
+compatibility: PC from VGA to 1600x1280 non-interlaced, mac IIci and above
+controls: contrast, brightness, position, size, degauss, p-p voltage, color
+	temp, sync select, color tuning, moire on/off.
+video band witdth: 135 MHz
+Max brightness: 120 cd/m2 at white flat field
+misconvergence: .35mm (max) at center, .45mm (max) at corner
+dimensions: 16.3"x16.22"x17.64", weight 42.6 lbs
+
+I don't know what some of those mean and don't verify their accuracy, I just 
+typed them in.  Other things they hype on the sheet are a 'double quaduple
+dynamic astigmatism focus'.  Right.  They mean they use two lenses.  Advanced
+Invar shadow mask.  ViewMatch color control which they claim is and easy-to-use
+system that adjusts colors to closely match printer output.  As near as I have
+been able to figure out, this translates to separate controls for red, green,
+and blue.  How this makes it easy to match for printer output is beyond me.
+
+But beyond the hype, the monitor is very pleasant to look at.  Sharp, clear,
+and isn't nearly as bad as the NEC's for reflections.
+
+geoff sherwood

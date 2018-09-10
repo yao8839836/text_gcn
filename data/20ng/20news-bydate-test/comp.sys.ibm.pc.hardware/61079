@@ -1,0 +1,26 @@
+From: bs@tekig7.PEN.TEK.COM (Robert L Swarts)
+Subject: Re: DOS 6.0
+Organization: Tektronix, Inc., Beaverton,  OR.
+Lines: 21
+
+In article <1993Apr23.035543.25060@ucsu.Colorado.EDU> koberg@spot.Colorado.EDU (Allen Koberg) writes:
+>In article <199304201011.AA00801@mosque.cs.huji.ac.il> dny@cs.huji.ac.il (Danny Halamish) writes:
+>>
+>>Also, DBLSPACE is crap. It writes about 40% slower than stacker, reads about
+>>20% slower, and compresses about 10% LESS. All tests were made on the same
+>>computer with the same disk, no cache, and the same (big) files were used.
+>
+>Couldn't agree more.  On my 486-50 I don't miss the speed.  It's still
+>faster than a normal disk read would be.  As for the less compression,
+>
+>koberg
+
+I recall reading a review article in PC Computing wherein they reported
+a reduction in the loading time for lengthy programs using Stacker 3.0.
+This was not due to the compression algorithm per se, but to the fact
+that fewer fetches were required during the sequential file access. Does
+anyone have any actual performance numbers relating to speeds of Stacker
+and Dblspace?
+
+bs
+

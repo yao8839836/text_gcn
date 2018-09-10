@@ -1,0 +1,39 @@
+From: pmetzger@snark.shearson.com (Perry E. Metzger)
+Subject: Re: Screw the people, crypto is for hard-core hackers & spooks  only
+Organization: Partnership for an America Free Drug
+Lines: 34
+
+amanda@intercon.com (Amanda Walker) writes:
+>
+>> We *do* need an alternative to NSA-bugged telephones, but 
+>> we're talking inexpensive *telephones* here, including hand-sized 
+>> cellulars, that need strong crypto, real privacy.
+>
+>So start a company and build them.  This is still mostly a capitalist 
+>economy...
+
+Qualcomm had spare cycles in the DSPs for their new CDMA digital
+cellular phones. They wanted to put strong crypto into them since they
+had the capacity. The government decided to "discourage" them.
+
+Really, none of this stuff is especially hard. All you need for a true
+private phone is an ISDN codec, a vocoder (either a chip or
+software), an encryptor (a chip is fine, but software is more than
+fast enough), a V.32 or V.32bis modem module, and maybe a
+microcontroller to run the whole thing. Its easy to do, its cheap. And
+any "normal" company trying to put one out will likely get a visit
+from the boys in the dark suits from Washington, just like Qualcomm
+did. I suspect that companies like Cylink are tolerated because their
+products are too expensive.
+
+However, no law yet stops one from building really private phones, in
+spite of the hints the administration has made when discussing the new
+"crime bill" and in connection with the Clipper/Skipjack Big Brother
+chip. Someone out there WILL build a unit to do all this. Better yet,
+prehaps someone will produce a package that turns any 486 box with a
+sound card into a secure phone.
+
+--
+Perry Metzger		pmetzger@shearson.com
+--
+Laissez faire, laissez passer. Le monde va de lui meme.

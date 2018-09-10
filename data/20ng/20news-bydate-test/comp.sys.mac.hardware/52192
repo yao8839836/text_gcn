@@ -1,0 +1,22 @@
+From: avery@gestalt.Stanford.EDU (Avery Wang)
+Subject: Powerbook Duo Memory system -- SLOW
+Organization: DSO, Stanford University
+Lines: 17
+
+Hi-
+Do any of you hardware gurus out there know what kind of memory architecture  
+Apple uses in the powerbook Duos?  Or in the powerbook in general?
+
+What are the factors that make the Duo 210 so slow compared to a desktop  
+machine running the same processor at the same speed (25MHz 68030)?  How many  
+wait states are in the memory system, etc?  What kind of a data bus does it  
+use?  32-bit or 16-bit?  
+
+It's still slow when plugged into a DuoDock.
+
+Anyone know in general what kind of shortcuts notebook manufacturers take when  
+making notebooks?  I heard of a 486DX2/66 notebook getting a "whopping" 10  
+MIPS rating.  A similar desktop machine should be getting about 3 times that,  
+I guess.
+
+-Avery

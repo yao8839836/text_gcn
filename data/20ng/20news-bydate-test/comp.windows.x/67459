@@ -1,0 +1,21 @@
+From: muller@mafalda.inria.fr (Christophe Muller)
+Subject: Re: XV 3.00 has escaped!
+Organization: SIMULOG, France
+Lines: 16
+
+
+> It is interesting to look at the change(s) of mind that John has had.
+
+Very interested indeed! This is against this kind of "changes" that the GNU
+COPYLEFT is protecting us.
+
+Anyway, at SIMULOG, we will abandon xv. We were using it mostly for slide-
+shows because of its "-loop" feature that display does not have (display
+from the *wonderful* ImageMagick package! :-D), but I think I will implement
+it myself (even a shell-script should do the job) and forget xv.
+
+Cheers,
+Christophe.
+-- muller@simulog.fr
+
+     =    Are you the police?  --  No ma'am, we're musicians.    =

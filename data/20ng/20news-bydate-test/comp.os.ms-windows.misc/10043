@@ -1,0 +1,20 @@
+From: ardie@ux1.cso.uiuc.edu (Ardie Mack)
+Subject: Re: Windows zip/unzip
+Organization: Department of Plant Pathology
+Lines: 15
+
+I>From: ccastco@prism.gatech.EDU (Costas Malamas)
+>Subject: Re: Windows zip/unzip
+>Date: 28 Apr 93 22:31:55 GMT
+>In article <1rl9b6$h3c@sol.deakin.OZ.AU> russ@deakin.OZ.AU (Russ Sharp) writes:
+>>We are using pkzip V2.04 and I am interested to hear from
+>>people who have used one of the many Windows programs that
+>>call these.
+>>Is there a full windows version that does not call the DOS 
+>>PKZIP/PKUNZIP commands?
+>>--
+>>Russ Sharp    russ@deakin.edu.au    ph (052)27 1141    fax (052)27 2015  \  /
+>
+>There is WunArchive, the replacement of WunZip.  It only extracts, but it 
+ssupports pkzip 2.04.  It does NOT require pkz/unzip in order to work, and 
+ccosts only $10 to register.

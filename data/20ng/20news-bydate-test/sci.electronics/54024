@@ -1,0 +1,70 @@
+From: jackb@mdd.comm.mot.com (Jack Brindle)
+Subject: Re: Can Radio Freq. Be Used To Measure Distance?
+Organization: Motorola, Mobile Data Division - Seattle, WA
+Lines: 65
+
+In article <72020037@otter.hpl.hp.com> tgg@otter.hpl.hp.com (Tom Gardner) writes:
+>In sci.electronics, rgc3679@bcstec.ca.boeing.com (Robert G. Carpenter) writes:
+>
+>> I'm wondering if it's possible to use radio waves to measure the
+>> distance between a transmitter(s) and receiver?
+>
+>Yes. It's called RADAR.
+Well, actually not quite. Both Radar and Radio-Altimeters measure distances
+by measuring the time required to transmit a signal, then receive its
+reflection from a target. Radar generally uses pulses, while Radio Altimeters
+use either pulses or a modulated continuous-wave transmission. In the case of
+the latter, highly accurate distance measurement can be made. As an example,
+the original Bendix ALA-52 Radio Altimeter was accurate to 1/8 foot at 2500
+feet altitude.
+
+Note, however that this is a different method of measuring than the poster
+originally asked about. The problem with gaining accurate measurements between
+a transmitter and a seperate receiver is that you need a highly accurate
+time base which starts at the receiver at the exact instant the transmitter
+triggers. This cannot be wire connected, since radio waves will actually
+travel faster in free-space (air, in this case) than wire (the difference
+is called the velocity factor of the cable). So you need to resort to a
+common timebase that is automatically corrected for distance, etc. Something
+like a PLL connected to a GPS receiver should do the trick, triggering both
+the transmitter and receiver simultaneously. Sound expensive? Not too bad,
+but plan on spending a few bucks in both equipment and effort.
+
+Why not go to a different method? Surveyors use a laser-light system where again
+the reflection time is measured. Why not try this? (Sounds like something a P.E.
+should know about anyway ;-).
+
+>> Seems to me that you should be able to measure the signal strength
+>> and determine distance. This would be for short distances (2000 ft),
+>> and I would need to have accuracy of 6 inches, or so.
+
+This is actually highly inaccurate, since the power output of a transmitter
+varies from unit to unit, there are variances in the antenna and transmission
+line, and the receiver may also vary, both from unit to unit, and the same unit
+over time. You would need to continuously calibrate the entire system. With
+the radio altimeter this is also done, but since everything is located at
+one place, it is much easier to do. Note especially that the time base for
+the R.A. receiver and transmitter is one unit also...
+
+>Depends on the environment: in a static environent such as a waveguide yes, in
+>a dynamic environment (with objects moving about) the multipath kills this
+>concept.
+
+Nope. FM capture effect says that the strongest signal wins. That is, unless
+the two interfering signals are seperated by more than 3 db in signal strength.
+This is the one problem that makes altimeters inaccurate at very low altitudes.
+Signals bouncing off runways tend to be VERY strong...
+
+>> What frequencies would be best for this? Or does matter?
+
+As high as possible to eliminate outside influence, and also to enhance
+attenuation of multipath signals. Radio Altimeters typically use frequencies
+around 4 GHz.
+
+Hope this helps...
+
+-- 
+==========================================================
+Jack Brindle
+ham radio: wa4fib
+internet: jackb@mdd.comm.mot.com

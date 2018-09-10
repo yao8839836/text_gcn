@@ -1,0 +1,11 @@
+From: guykuo@carson.u.washington.edu (Guy Kuo)
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+Article-I.D.: shelley.1ra4rhINN8cq
+Organization: University of Washington
+Lines: 4
+NNTP-Posting-Host: carson.u.washington.edu
+
+I've turned my monitor on and off with the cpu running many times. Each time
+I wonder what I am doing to my CPU by directly hooking in such a high current
+draw on its lines while it is running. Does this put a substantial spike on
+the power line? Could one possibly lose data or damage equipment?

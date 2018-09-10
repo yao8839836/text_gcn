@@ -1,0 +1,33 @@
+From: fedro@dei.unipd.it (Enrico Fedrigo 274212/IL)
+Subject: Hardware for image processing
+Reply-To: fedro@dei.unipd.it
+Organization: Universita' di Padova, Italia
+Lines: 27
+
+We are doing a research about a passive dynamic vision guided
+vehicle.
+Completed the first theoric part, we have to make the effective
+realization of this vehicle.
+
+We need the necessary hardware for image acquisition from a videocamera
+and for their subsequent elaboration (tipically: edge detection).
+
+We ask for informations about available products in the market for
+this purpose (in real time, 20-25 frames/second).
+Hence we need frame-grabber cards and/or DSP cards for SUN or PC platform. 
+
+We are also very interested in receiving comments and suggestions from users
+of these cards, especially about programming tools.
+
+Furthermore we are looking for the same kind of informations about
+digital controlled Pan&Tilt devices.
+
+Thanks in advance
+
+Best regards
+				Enrico Fedrigo
+
+				fedro@paola.dei.unipd.it
+
+
+

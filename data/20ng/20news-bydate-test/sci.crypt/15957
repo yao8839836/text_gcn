@@ -1,0 +1,40 @@
+From: smb@research.att.com (Steven Bellovin)
+Subject: Re: Clipper considered harmful
+Distribution: inet
+Organization: AT&T Bell Laboratories
+Lines: 34
+
+In article <WCS.93Apr21204048@rainier.ATT.COM>, wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705) writes:
+> On the other hand, I can easily see them recording the traffic for
+> "interesting" people, such as dissidents, suspected criminals,
+> foreign telephone calls, and anybody noticed using encryption.
+> As Ken Shiriff speculates, recording encrypted traffic will probably
+> be judged not to be an invasion of privacy pretty soon ....
+
+As I read the current wiretap law, it would not be legal now.  On the
+other hand, assuming a legislative change, recording but not decrypting
+Clipper conversations would probably be found constitutional by the Supreme
+Court, using the same reasoning (or the lack thereof...) by which they
+permit random roadblocks to check for drunk drivers.
+
+Incidentally, if we use that as our model, the Court will likely not
+uphold selective recording.  (On the other hand, I don't think they've
+thrown out ``drug courier profiles'' yet.  Must be that exception to
+the Fourth Amendment that I can never find in my copy of the Bill of
+Rights.)
+
+A lot -- and I mean a *lot* -- will depend on exactly how Clippertaps
+(or Tipperclaps, for encrypted music?) are used.  Don Alvarez showed in
+the latest RISKS digest that it's possible to prevent the cops from
+reading traffic after their warrant expires.
+
+That is -- the cops send the LEF to the F-holder.  The F-holder strips
+off F, and sends U[K],N to the escrow agents.  They send either U or K
+to the cops.  (Don says U, I say K.)  The cops can't use U in the
+future, because they can't strip off F.  The F-holder never sees U.  In
+Don's model, the escrow agents can't read the traffic, because they
+don't have K; in my model, they have K, but not the message itself.
+And I trust that more because I think the cops and the FBI (the
+F-holder) are more likely to collaborate on breaking the rules.  The
+net result is that by involving the F-holder and the escrow agents on
+every tap, we can avoid extending permission to tap.

@@ -1,0 +1,22 @@
+From: stevenm@kralizec.zeta.org.au (Steven Murray)
+Subject: Do we need SDK as well as DDK?
+Organization: Kralizec Dialup Unix Sydney: +61-2-837-1183 V.32bis
+Lines: 14
+NNTP-Posting-Host: kralizec.zeta.org.au
+Summary: Do We need SDK as well as DDK?
+Keywords: SDK, windows
+
+
+
+The Microsoft Windows Device Driver Kit (DDK) documentation (blurb)
+states that the user must separately acquire the Microsoft Windows
+Software Development Kit (SDK), which contains the Windows tools
+to build the drivers. If we are using Borland C++ with Application
+Frameworks, is this necessary? We also have a copy of the Microsoft
+Press Programmer's Reference Library (books) which normally comes
+with the SDK, and Microsoft Macro Assembler 6.0. Why is the SDK
+neccessary for development of Virtual Device Drivers?
+
+ - Steven Murray 
+   (posted on behalf of Brian Davies)
+

@@ -1,0 +1,34 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Hi Volt from battery
+Organization: U of Toronto Zoology
+Lines: 29
+
+In article <C5uFIG.1Dv@news.cso.uiuc.edu> martyj@mrcnext.cso.uiuc.edu (martin johnson) writes:
+>I need a small battery powered hi voltage capacitive discharge supply to
+>deliver ~6 joules at 250 volts...  the ubiquitous
+>camera flash circuit is what I want, but I cant get mine apart without
+>breaking it...
+
+Charlie Brett's suggestion -- buy one of the disposable flash cameras, use
+the film, then take the thing apart -- is a good one.  Note, though, that
+you won't get a particularly precise voltage out of such a thing, and it
+may be a single-point design that won't adapt well to off-nominal operation.
+
+The things are easy to dismantle.  The key piece of information is that
+when you advance the film on one of them, you are winding it *into* the
+film cassette -- it is unwound from the cassette in the factory, when
+the camera is made.  So no darkroom is needed for dismantling.  It's
+standard film, so just take the cassette in for processing.
+
+All the camera-store people do when you bring in one of the disposables
+is rip it apart, toss the film cassette into the to-be-processed bin,
+and throw the battery in one trashcan and the rest of the camera in
+another.  If you take it apart yourself, you get an AA alkaline battery
+(still with a fair bit of life in it) and all kinds of little bits and
+pieces from the camera.
+
+I expect you could even re-load and re-use the camera if you were really
+determined.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

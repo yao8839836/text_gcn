@@ -1,0 +1,36 @@
+From: ln@doc.ic.ac.uk (Leonidas Nikidis)
+Subject: How XCreateRegion works ??
+Organization: Department of Computing, Imperial College, University of London, UK.
+Lines: 28
+Distribution: world
+NNTP-Posting-Host: finch.doc.ic.ac.uk
+Keywords: Xlib, XRegion
+
+
+Hi,
+
+	
+
+   Could someone explain to me what exactly the Xlib functions 
+
+XCreateRegion, XPolygonRegion, XPointInRegion do, or to 
+
+suggest a ftp site where I can find programs using these functions.
+
+
+PS: The man pages does not explain much ......
+
+	
+Thank you,
+Leo.
+
+
+
+
+
+
+-- 
+---------------------------------------------------------------------
+Leonidas Nikidis : ln@doc.ic.ac.uk	Imperial College, London,UK
+					Dept. of Computing
+---------------------------------------------------------------------

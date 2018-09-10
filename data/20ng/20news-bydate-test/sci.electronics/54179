@@ -1,0 +1,12 @@
+From: dws30@p1hdb01cd.amdahl.com (David Sharpe)
+Subject: Re: Pink Noise
+Distribution: sci.electronics
+Organization: Amdahl Corporation, Sunnyvale CA
+Lines: 6
+
+
+ Pink Noise and White Noise are equal amounts of all frequencies.  This
+is in most cases around the 20-3.3K Hz range.  Pink/White are used to
+adjust for room dynamics and stuff like that.  There are a few EQ's out
+on the market that have Pink noise built in.  Most all from Audio
+Control have them I know the C-101 does.  

@@ -1,0 +1,15 @@
+Subject: Boot-up sometimes fails.
+From: cs416530@lux.latrobe.edu.au (Matthew I Gillard)
+Organization: La Trobe University
+Lines: 10
+
+Sometimes when I boot up windows 3.1, after the windows logo comes up it han
+gs, I am using Dos 6 and doublespace, and a 5 meg temp swap file on an
+uncompressed drive.
+But when I press the reset button on the computer,  windows boots up
+fine... Why is this??? is it dos 6?
+-- 
+-----------------------------------------------------------------------------
+Matthew Gillard,                    | Blessed are they who run around
+Computer Systems Engineering,       | in circles, for they shall be 
+La Trobe University,                | known as wheels.

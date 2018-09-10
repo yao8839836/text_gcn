@@ -1,0 +1,28 @@
+From: tanaka@ircam.fr
+Subject: serial pinout to connect to PC
+Keywords: RS422, RS232, serial, adaptor, cable
+Reply-To: tanaka@ircam.fr
+Organization: IRCAM
+Lines: 21
+
+Sorry, this must be a FAQ, but it's a quick fix that I need to take care of  
+before a demo in less than 24 hours from now! Couldn't think of a better place  
+for a rapid answer than comp.sys.mac.hardware.
+
+I need to connect the Serial A of a Compac 386/20 PC to the printer port of a  
+Mac IIci. Does anyone have handy the pin-pin routing for the cable that would  
+allow this connection? 
+
+The serial port on the Compaq is a MALE DB9. How would this map to the DIN8 of  
+the Mac serial? I tried one of those really short femaleDB9-maleDIN8 cables  
+that Apple sold as adaptors to plug in Macintosh serial peripherals from the  
+pre-MacPlus era. This cable didn't do it. Do I need a null modem adaptor as  
+well on the DB9 side of things? 
+
+I just need to be able to map the data TX and RX pins correctly.
+
+
+thanks kindly,
+
+Atau Tanaka
+tanaka@ircam.fr

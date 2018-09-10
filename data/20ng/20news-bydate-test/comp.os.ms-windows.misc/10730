@@ -1,0 +1,41 @@
+From: "Tal Michael" <wtm@utrc.utc.com>
+Subject: re: Multiple printers through Print Manager
+Keywords: Print Manager
+Nntp-Posting-Host: lestat
+Organization: UTRC
+Lines: 34
+
+
+In article <737318846lance.lance@lancea.actrix.gen.nz> lance@lancea.actrix.gen.nz (Lance Andrewes) writes:
+
+>How does Print Manager deal with multiple printers?  
+
+>>> We're planning... <<<
+
+>...to print to two "printers" from an application.  One will be a
+>real printer, and the other a...
+
+>>> fax program. <<<
+
+>...  Will Print Manager
+>just deal with the jobs one at a time, or will it feed to both
+>printers at once?
+>
+
+Please research carefully.  Just because a fax modem behaves like
+a printer on a "local" machine, doesn't guarantee functionality 
+when a "local" machine has fax software printing to a "remotely
+installed" fax card.  I tried this with Workgroups and the 
+fax software didn't like it at all.  Could have been WinFAX's
+peculiarisms but I don't think so.  A lot of special hardware
+interaction takes place internally.  In my case, a FAX manager
+program merely "intercepts" the print job and spools it to
+it's own directory, not print manager's spool directory.  To
+software, it appears the job was "printed".  Print Manager 
+plays NO part in the handling of the actual process.
+
+Pardon me if I've incorrectly assumed this is what you were
+up to.  A truely network-aware fax-modem will most likely be
+required, or a lot of weird setup and tinkering.
+
+Good luck.

@@ -1,0 +1,23 @@
+From: mccoy@gothamcity.jsc.nasa.gov (Daniel McCoy)
+Subject: Re: MotifBC
+Reply-To: mccoy@gothamcity.jsc.nasa.gov
+Organization: I-NET Inc.
+X-Posted-From: krakatoa.jsc.nasa.gov
+NNTP-Posting-Host: sol.ctr.columbia.edu
+Lines: 15
+
+In article h1m@vtserf.cc.vt.edu, stellr@smyrna.cc.vt.edu (Ray Stell) writes:
+|>
+|>If I install X11R5 with backward compatibility for motif, will motif
+|>1.2 clients work on the X11R5 servers?
+
+It works for me.  I've run Motif 1.1.3,1.1.4,1.1.5,1.2,1.2.1, and 1.2.2 on
+an X11R5 server with MotifBC defined.
+
+
+---
+Daniel J. McCoy           |=> SPACE  <=|                   I-NET, Inc.
+NASA Mail Code PT4        |=>   IS   <=|             TEL: 713-483-0950
+NASA/Johnson Space Center |=>  OUR   <=|             FAX: 713-244-5698
+Houston, Texas 77058      |=> FUTURE <=| mccoy@gothamcity.jsc.nasa.gov
+

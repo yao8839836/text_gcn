@@ -1,0 +1,8 @@
+Sequential or fixed sample trial design? A case study by stochastic simulation.
+ The properties of Wilcoxon's rank sum test for fixed sample size and a Wilcoxon-type two-sample sequential test have been illustrated and compared by means of stochastic simulation.
+ Data from a real fixed sample trial have been used, both for resampling from the original data, and for construction of an idealized theoretical distribution.
+ The sequential and the fixed sample test obtain equal power, but the sequential test mostly includes considerably fewer patients to reach a conclusion, i.e.
+ the mean and median number of patients included are both much lower than the fixed sample size.
+ Under the hypotheses only a small fraction of the simulation runs exceed the fixed sample size.
+ These findings exemplify results obtained in theoretical analyses and simulation studies covering a wide range of distributions.
+ In our opinion sequential tests have obvious advantages and are in many cases better alternatives than fixed sample tests in clinical trials.

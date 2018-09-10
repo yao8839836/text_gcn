@@ -1,0 +1,26 @@
+From: oj@world.std.com (Oliver Jones)
+Subject: Re: X Design choice for color handling: question
+Keywords: color
+Organization: Shawsheen Software
+Lines: 20
+
+In article <lu1oftINNnfk@cascais.cs.utexas.edu> sirosh@cs.utexas.edu (Joseph Sirosh) writes:
+>
+>...Why did X designers decide to not associate
+>the color with the object being drawn, and instead associate it with the
+>display it is being drawn on?
+
+In X10, the drawing attributes were bundled into drawing
+requests;  that is, the server's drawing model was stateless.
+
+This caused problems with performance and network traffic,
+so the X11 redesign included the graphic context to codify
+the drawing state.  Most application designers who want to
+draw things in several different colors create a GC for
+each color during initialization, then pass the GC id in
+each drawing request.
+
+For more information see Scheifler and Gettys's article
+in the 1986 ACM Transactions on Graphics.
+
+

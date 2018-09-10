@@ -1,0 +1,31 @@
+From: lefty@apple.com (Lefty)
+Subject: Re: freely distributable public key cryptography c++ code:  where?
+Organization: Our Lady of Heavy Artillery
+Lines: 26
+
+In article <gradyC5wGrz.CvC@netcom.com>, grady@netcom.com (1016/2EF221)
+wrote:
+> 
+> Victor Iseli (victori@xetron.com) wrote:
+> : 
+> : 
+> : "Numerical Recipes in C"..Fortran..Pascal  has a nice section on
+> : encryption and decryption based on the DES algorithm.  There is
+> : also source code provided (I think some versions of this book are 
+> : distributed with the source code on disk; the source code can
+> : also be ordered from the publisher).
+> : 
+> : --Victor Iseli
+> : victori@xetron.com
+> 
+> Yes I benchmarked the DES implementation in the Recipes in C
+> book.. it is about 1 1/2 orders of magnitude SLOWER than the
+> Outerbridge/Karn/Gillogly/et al implementation.
+> 
+> It may be instructional, but it isn't very fast.
+
+It has also apparently been excised from the second edition.
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.

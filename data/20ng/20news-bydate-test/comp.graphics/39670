@@ -1,0 +1,37 @@
+From: jesup@cbmvax.cbm.commodore.com (Randell Jesup)
+Subject: Re: Products to handle HDTV moving pircture (180MB/sec)
+Reply-To: jesup@cbmvax.cbm.commodore.com (Randell Jesup)
+Organization: Commodore, West Chester, PA
+Lines: 31
+
+kazsato@twics.co.jp writes:
+>I'd like to know if there is any system (CPU + HD array + framebuffer)
+>which can play and record HDTV quality moving picture in realtime.
+>
+>HDTV has about 6MB/frame, so recording/playing moving picture will need
+>about 180MB/sec bandwidth. I'm thinking to treat the raw data.. not
+>compressed. 
+
+	Actually, for digital HDTV systems that's far higher bandwidth than
+you need, unless there's some reason you must work in fully-uncompressed
+HDTV.  Also, my calculations is that each frame should be well under 6MB,
+even using 24 bits/pixel (which is more bits than you actually need - 15 or
+18 should be enough for a moving picture).  1600x1100x16bits is 3.5MB (I'm
+guessing at HDTV resolution - it may be a bit wider than 1600, I'm fairly
+sure of the 1100 number for most of the digital proposals).
+
+	I hope you have a very fast memory system as well - 180MB/s while
+displaying will require a heavily interleaved VRAM system.
+
+	Unless you have a _very_ compelling reason, I'd advise trying to use
+at least somewhat compressed data.  You don't have to go to full compression
+to get to a level where the data IO requirements are much cheaper and easier
+to deal with.
+
+-- 
+GNU Emacs is a LISP operating system disguised as a word processor.
+ - Doug Mohney, in comp.arch
+
+Randell Jesup, Jack-of-quite-a-few-trades, Commodore Engineering.
+jesup@cbmvax.commodore.com or rutgers!cbmvax!jesup	BIX: rjesup  
+Disclaimer: Nothing I say is anything other than my personal opinion.

@@ -1,0 +1,39 @@
+From: colinm@max.carleton.ca (Colin McFadyen)
+Subject: Re: Maxtor 2190 info needed (was Re: UNIX PC Software for sale)
+Organization: Carleton University
+Lines: 36
+
+In <1993Apr22.001940.12709@d-and-d.com> dnichols@d-and-d.com (DoN. Nichols) writes:
+
+>In article <79954@cup.portal.com> thad@cup.portal.com (Thad P Floryan) writes:
+>>In article <colinm.735327894@cunews>
+>>colinm@max.carleton.ca (Colin McFadyen) writes:
+>>
+>>|  Does anyone know what the jumpers should be set to on the Maxtor 2190??
+>>|  I have a 2190 that came off of a VS2000 that I would like to use on a PC.
+>>
+>	[ ... Useful info about the Maxtor drive deleted ... ]
+
+>>Since the 3B1 "normally" has only one HD, you would jumper betwwwn "C1" to
+>>select the first (possible) drive address; if the 2190 is your second drive
+>>on the 3B1, then jumper between "2C".
+
+>	However, Thad, you should note that he said that he would like to
+>use it on a 'PC', not 'UNIX-PC'.  Also note the strange cross-posting (as he
+>probably did not), so it is not sure exactly what sort of machine he intends
+>to mount it on.  If it *is* a PC (or clone), then the "2C" jumper would be
+>the correct choice.
+
+>	I've left the cross-posting in effect, since I'm not sure which
+>newsgroup he would really be reading this in. :-)
+
+
+  Sorry for any confusion I may have created.  The disk did come out of
+a VS2000 and I would like to use it in a IBM PC clone.  The reason that I
+posted to comp.sys.3b1 was because I saw the drive (XT2190) mentioned
+in a for-slae notice.  I had asked for info before but didn't receive
+any replies.
+
+  Thanks once again for the help.
+
+Colin.

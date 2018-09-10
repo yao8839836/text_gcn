@@ -1,0 +1,29 @@
+From: gdmr@dcs.ed.ac.uk (George Ross)
+Subject: Re: xdm and env. vars
+Organization: Department of Computer Science, Edinburgh University
+Lines: 24
+
+In article <9304292140.AA29951@haji.haji_sun>, fwr8bv@fin.af.MIL writes:
+> I am using xdm on X11R5 with OW3 and Xview3 on Sun3s and SPARCs running 
+> SunOS 4.1.1.  Prior to using xdm, I used to set PATH and other environment
+> variables (like MANPATH, HELPPATH, ARCH, etc) in my .login file.  With xdm,
+> the .login file doesn't get executed and therefore neither the olwm
+> root-window nor my applications know about these variables.
+
+One usual suggestion is to put everything into your every-time shell rc-file
+instead of your login-only one, which is fair enough if you only have a few
+users who know what they're doing.  If you have several hundred users who do
+what the books tell them, though, then it's confusing at best.  Another is to
+have your xterms run login shells, but that still leaves the window manager
+and the things that get started from its menus with the wrong environment.
+
+Our alternative is that instead of having xdm run the client startup scripts,
+it runs the user's favourite shell as a login shell, and has *it* then run the
+rest of the startup scripts.  That way the user's usual environment gets set
+up as normal and inherited by everything.  You can find an almost-current copy
+of our scripts and things in contrib/edinburgh-environment.tar.Z, available
+from the usual places. 
+-- 
+George D M Ross, Department of Computer Science, University of Edinburgh
+     Kings Buildings, Mayfield Road, Edinburgh, Scotland, EH9 3JZ
+Mail: gdmr@dcs.ed.ac.uk      Voice: 031-650 5147      Fax: 031-667 7209

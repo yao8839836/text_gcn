@@ -1,0 +1,23 @@
+From: thssstb@iitmax.iit.edu (Stephen T Bacon)
+Subject: RE: 48 bit graphics...
+Organization: Illinois Institute of Technology / Academic Computing Center
+Lines: 18
+
+
+A good reason (which is why many companies use it) for 48 bits / pixel
+is so you can use double buffering (for animating scenes) - i.e. you have
+2 * 24-bit planes. You write to the one in the background, and then FLIP! 
+-- the entire screen updates to the second image-plane. The screen updates 
+in one refresh and you don't see different objects appearing in the order 
+that they're drawn (as in the CAD/MacDraw effect). Now your ready to update 
+the image that used to be in the foreground.
+
+Steve. (thssstb@iitmax.iit.edu / iris.iit.edu)
+
+About the SG product line: who can even keep track nowadays? Every co. seems
+to (as their ads / press releases claim) redefine computing (etc. etc.) as
+we know it with each new product. Progress and competition are great, but who
+wants to invest in a system that's obsolete by the time it reaches your desk?
+:-)
+
+

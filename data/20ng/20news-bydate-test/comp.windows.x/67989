@@ -1,0 +1,40 @@
+From: raistlin@uni-paderborn.de (Markus Koch)
+Subject: X and Motif config-file for HP-UX 8.0 ??
+Organization: Uni-GH Paderborn, Germany
+Lines: 33
+Distribution: world
+NNTP-Posting-Host: samos.uni-paderborn.de
+
+
+Hello everybody out there !
+
+I'm trying to compile X11R5pl23 and Motif 1.2.1 on a HP running
+HP-UX 8.05. But it' seems to be not very succesful, because 
+I have only hp.cf config-files for HP-UX 7.0. 
+
+I tried standard cc and X was compiled with a lot of warnings.
+The motif applications are compiled quite well, but they won't run.
+I receive the XKeysymDB error which is reported in FAQ, but
+I cannot fix it. The XKeysymDB-file is at the right location and it
+works fine under SunOS.
+Probably I have started the compilation Prozess only with a wrong
+config-file.
+
+Please help me !
+  
+Thanx in advance 
+  Markus
+
+-----------------------------------------------------------------
+ Markus Koch                           Universitaet-GH Paderborn 
+ Email : raistlin@uni-paderborn.de     Rechnerbetreuung
+ Phone : +49 5251 60 3322              Warburger Str. 100
+         +49 5251 60 3318              W4790 Paderborn, Germany
+----------------------------------------------------------------- 
+--
+
+-----------------------------------------------------------------
+ Markus Koch                           Universitaet-GH Paderborn 
+ Email : raistlin@uni-paderborn.de     Warburger Str. 100
+ Phone : +49 5251 60 3322              W4790 Paderborn, Germany
+-----------------------------------------------------------------

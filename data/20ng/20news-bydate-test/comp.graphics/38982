@@ -1,0 +1,35 @@
+From: finn@bsc.no (Finn Chr. Lundbo)
+Subject: Re: Help needed: DXF ---> IFF
+Organization: Bergen Scientific Centre, Bergen, NORWAY
+Lines: 30
+
+In article <1993Apr30.011157.12995@news.columbia.edu> ph14@cunixb.cc.columbia.edu (Pei Hsieh) writes:
+>Hi -- sorry if this is a FAQ, but are there any conversion utilities
+>available for Autodesk *.DXF to Amiga *.IFF format?  I
+>checked the comp.graphics FAQ and a number of sites, but so far
+>no banana.  Please e-mail.
+>
+>Thanks.
+>
+>     _______   Pei Hsieh
+>    (_)===(_)  e-mail: ph14@cunixb.cc.columbia.edu
+>      |||||    "There's no such thing as a small job; just small fees."
+>      |||||                         - anon., on being an architect
+
+Hei Pei.
+
+I can not help you directly width you problem, but there may be
+intermediate roads to take to get to the IFF. I am using a converter
+that can take IGES, IIF, DXF -> IGES, MILESPEC I IGES, MILESPEC II IGES, 
+IIF, MILESPEC I IIF, MILESPEC II IIF  and DXF.
+
+IIF is IBM IGES FORMAT. There may be converters out there that can handle
+IGES to IFF. Hope this was to any help. By the way the converter is part
+of the IGES Processor/6000 package from IBM and it runs on RS/6000 AIX.
+
+Best regard
+Finn Chr. Lundbo
+IBM Bergen Environmental Sciences
+& Solutions Centre.
+E-mail: finn@bsc.no
+

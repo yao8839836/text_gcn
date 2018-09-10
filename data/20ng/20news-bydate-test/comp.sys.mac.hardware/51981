@@ -1,0 +1,22 @@
+From: hopper@cs.ucsd.edu (Steve Hopper)
+Subject: PC Logitec hand scan on Mac?
+Summary: hand scanner on mac
+Keywords: scanner
+Lines: 15
+Nntp-Posting-Host: odin.ucsd.edu
+
+
+I have a Logitech 256grays hand scanner from a PC.  I'm wondering if anyone
+has been successful in connecting the scanner to a mac?  It has the same
+connector and is a serial device on the pc.  I can imagine the pins coniguration would need to changeed, but I'm not sure if the signal levels would be correct,
+and if the mac s/w would work with it.  
+
+Of course the manuals say nothing about the interface, connector layout or
+anything H/W-ish!
+
+Any ideas??
+
+
+thanx,
+
+Steve

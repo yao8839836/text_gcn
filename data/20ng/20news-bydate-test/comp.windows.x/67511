@@ -1,0 +1,30 @@
+From: soenke@wiwi12.uni-bielefeld.de (Soenke Voss)
+Subject: How can I get a window to draw in ?
+Nntp-Posting-Host: wiwi12.uni-bielefeld.de
+Organization: Universitaet Bielefeld
+Keywords: windows, widgets
+Lines: 23
+
+
+I have the task to program a X application for the first time and have some severe difficulties creating a window in which I can draw something.
+Unfortunately some basic books on the topic of X application programming are not available to me for the moment.
+
+I am running a hp720 with hpux 8.07, VUE and X11R4 using Xt anbd Xaw.
+
+What I did until now:
+I initialized the X Intrinsics cxreating a top level widget with XtAppInitialize. I passed as a application_class name 'commandWidgetClass'.
+Then I set the argument values for window height and width using XtSetArg and
+passed it to the toplevel widget with XtSetValues.
+When I call XtRealizeWidget, I get a window of the specified size, but I have no idea how I can draw something in it.
+
+Can anybody send me some help and perhaps some basic information how to use the widgets ?
+In which situation it is useful to use them and in which not ?
+
+Thanks very much in advance
+
+Soenke
+
+--------------------------------------------------------------------------------Soenke Voss                                                 Faculty of Economics
+soenke@wiwi12.uni-bielefeld.de                           University of Bielefeld
+                                                                         Germany  
+--------------------------------------------------------------------------------

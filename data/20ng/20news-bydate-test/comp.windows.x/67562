@@ -1,0 +1,26 @@
+From: axel@hpcvlx (Axel Deininger)
+Subject: X Meta File, Anyone?
+Nntp-Posting-Host: hpcvlx.cv.hp.com
+Organization: Hewlett-Packard Company, Corvallis, Oregon USA
+X-Newsreader: Tin 1.1 PL5
+Lines: 19
+
+Hi,
+
+I'm working on a project that involves storing an application's rendering
+to an X display and then playing it back again.  Rather than 
+"reinvent the wheel", it like to find:
+	* a file format for saving X protocol.
+	* software that saves and replays such a session.
+
+Any ideas out there?  I've heard that there is a version of Xscope
+that will save and replay sessions.
+
+I'd be willing to share much of the code I develop back to the X community.
+
+
+Axel............
+
+axel@cv.hp.com
+
+

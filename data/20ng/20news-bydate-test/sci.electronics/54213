@@ -1,0 +1,37 @@
+From: rcstage1@urc.tue.nl (Guido Klemans)
+Subject: Re: How to the disks copy protected.
+Organization: Eindhoven University of Technology
+Lines: 31
+NNTP-Posting-Host: r110.urc.tue.nl
+
+In article <C60DvH.FAn@ucdavis.edu> ez019654@othello.ucdavis.edu (Victoria Milliron) writes:
+>From: ez019654@othello.ucdavis.edu (Victoria Milliron)
+>Subject: Re: How to the disks copy protected.
+>Date: Sat, 24 Apr 1993 22:16:29 GMT
+>Hmmm...
+>What is the problem with parallel port security keys? I haven't used anything
+>that had hardware key copy protection schemes, so I don't know what the
+>drawbacks are. I know the companies that make them claim they're uncrackable,
+>but I've seen cracks of AutoDesk 3d-studio floating around (I don't have one
+>so don't ask) and I had heard that it had parralel port keys.
+
+If you put another computer on the port instead of the key, you can hack 
+them by reading what happens. So I've been told, I've never seen this done 
+but I think it's possible. You'd need some hardware knowledge and some 
+software to read the port!
+
+
+>
+>vamilliron@othello.ucd.edu
+>-my apologies if I rambled, but vi inhibits my communication skills greatly.
+
+-------------------------------------------------------------------------------
+Guido Klemans
+
+Internet: rcstage1@urc.tue.nl                  valid until 16 may 1993
+
+-------------------------------------------------------------------------------
+
+'Listen very carefully, I will say this only once.'  Michelle of the resitance
+
+-------------------------------------------------------------------------------

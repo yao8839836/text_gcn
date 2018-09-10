@@ -1,0 +1,32 @@
+From: corbo@lclark.edu (Beth Corbo)
+Subject: Re: StyleWriter II Dying?
+Article-I.D.: lclark.1993Apr24.195357.12033
+Organization: Lewis & Clark College, Portland OR
+Lines: 26
+
+In article <1993Apr24.003052.6425@ultb.isc.rit.edu> bsd9554@ultb.isc.rit.edu (B.S. Davidson) writes:
+>I bought a StyleWriter II a couple months ago, and lately, when I print
+>something, I notice white lines or "gaps" running through the line being
+>printed.  It's almost like the paper is advancing a smidge too far when
+>advancing lines.  
+>
+>I replaced the ink cartridge thinking it might be the problem, but the lines
+>are still there.  Has anyone else noticed this problem?  What's the best way to
+>get rid of it?
+>
+
+>| Brian S. Davidson                 | Internet: bsd9554@ultb.isc.rit.edu |
+
+
+  I had a similar problem with my StyleWriter I (the original!).
+Have you tried cleaning the print heads? With the SWII driver, it's
+and option in the Print dialog box. Sometimes I had to do it several
+times to get the crud out. Yes it wastes ink, but it beats those
+white annoying lines.
+  Another idea is to print a couple of pages with just a big
+black box. It can help to get the ink flowing.
+  Good luck!
+
+  Beth Corbo
+
+corbo@lclark.edu

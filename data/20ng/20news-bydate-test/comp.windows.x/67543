@@ -1,0 +1,51 @@
+From: support@qdeck.com (Technical Support)
+Subject: Re: Desqview/X over TCP/IP: how reliable? how is it implemented?
+Organization: Quarterdeck Office Systems, Santa Monica CA
+Lines: 46
+
+In article <C6BFLB.KEM@cs.columbia.edu> ethan@cs.columbia.edu (Ethan Solomita) writes:
+>
+>	Three q's:
+>
+>1) is it reliable?
+
+I use it all day every day (maintaining our ftp site and answering mail
+via support@qdeck.com), and I can honestly say that in the last few
+months I've never had my machine go down due to any sort of tcpip network
+manager instability. (Of course, I've crashed my machine quite a few times
+on purpose, during beta testing and that sort of thing, but the tcpip
+portion is quite stable...)
+
+However, keep in mind that DVX and the network managers are only going
+to be as stable as the software they sit on top of (so if your underlying
+network kernel is flakey, you can't expect DVX to be terribly stable...)
+
+>2) how does it send the information from a MS Windows app over
+>the X11 protocol? Does it just draw everything as graphics into
+>one window, or does it use multiple windows and essentially work
+>more cleverly?
+
+It just goes as a window that has graphics drawn into it. (To vastly
+over-simplify what goes on, we just take the windows graphics API calls,
+and translate them directly to X-protocol; unfortunately, windows was
+not really written to be network-aware, so sometimes we see a speed
+penalty when an app does something stupid, like sending a big white bitmap
+to erase something rather than just drawing a white box; fortunately,
+that sort of thing is rare...)
+
+>3) If I want to run MS Word, for example, remotely, do I have to
+>run a separate copy of MS Windows remotely, and then start MS
+>Word from that, or can MS Word be started remotely on its own?
+
+You need to run MS windows, which Word then runs inside. You could run
+multiple windows programs within the one WinX window, and windows has
+ways to automagically start winapps when you start windows, so in practice
+it's not really a major problem. I have my system set up so that I can
+run WinX, which automatically starts Word Full-screen (for windows), so
+I never see any part of windows but word...)
+
+-- 
+       Quarterdeck Office Systems - Internet Support - Tom Bortels
+ Pricing/Ordering : info@qdeck.com  |  Tech Questions : support@qdeck.com
+  BBS: (310) 314-3227 * FAX: (310) 314-3217 * Compuserve: GO QUARTERDECK
+anonymous ftp: qdeck.com (149.17.8.10), leave your email address as password

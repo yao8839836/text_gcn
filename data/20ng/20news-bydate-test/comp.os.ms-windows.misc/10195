@@ -1,0 +1,27 @@
+From: tedm@tsoft.net (Ted Matsumura)
+Subject: Re: Need iconized printer utility.
+Organization: TSoft BBS and Public Access Unix, +1 415 969 8238
+Lines: 22
+
+In article <C6EvAL.520@unix.portal.com> claebaur@shell.portal.com (Tony S Annese) writes:
+>In article <93122.134439ZHAO@auvm.american.edu> <ZHAO@auvm.american.edu> writes:
+>>I am looking for a printer utility which stay in Window 3.1 as an icon and
+>>let you drag a file to it to issue the printing.
+>
+>You have one. Minimize the print manager and drag a file to it and it will
+>print it. You need to associate file extensions with such things as the
+>notepad for it to do this though.
+>--
+>/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+>Tony Annese                                    claebaur@shell.portal.com
+>                                          -or- claebaur@cup.portal.com
+>\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+This may work, but won't it involve invoking the applications, e.g. if you
+drag a .bmp or .txt file to the min. Print Manager icon, won't it RUN
+Notepad and Paintbrush before printing?  If you just want to drag a file
+(.txt or .bmp) to a print server icon, with stay at front attributes, you
+need an intelligent Print Manager drag and drop client like Amish Print 2.0.
+ 
+Ted
+

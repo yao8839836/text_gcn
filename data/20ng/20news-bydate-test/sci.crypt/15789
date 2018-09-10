@@ -1,0 +1,34 @@
+From: mjr@tis.com (Marcus J Ranum)
+Subject: Re: Screw the people, crypto is for hard-core hackers & spooks  only
+Organization: Trusted Information Systems, Inc.
+Lines: 28
+NNTP-Posting-Host: sol.tis.com
+
+pmetzger@snark.shearson.com (Perry E. Metzger) writes:
+>Really, none of this stuff is especially hard. All you need for a true
+>private phone is an ISDN codec, a vocoder (either a chip or
+>software), an encryptor (a chip is fine, but software is more than
+>fast enough), a V.32 or V.32bis modem module, and maybe a
+>microcontroller to run the whole thing. Its easy to do, its cheap. And
+>any "normal" company trying to put one out will likely get a visit
+>from the boys in the dark suits from Washington, just like Qualcomm
+>did.
+
+	Have the feds shut down the people making Sound Blaster? What
+about Apple and NeXT? Apple, NeXT, Sun, and others make systems that
+can handle CD-quality audio in and out, and can perform arbitrary
+transformation on it in the process of transmitting it across a network
+or modem.
+
+	Perhaps there's a market for a portable vocoder. Not a crypto
+device, simply an RS232<->voice converter. Make it capable of recording
+speech and playing it back simultaneously. It has applications for
+multimedia, computing for the handicapped, Internet Talk Radio, IRC,
+etc, etc, etc.  It wouldn't be a cryptographic device at all - but I
+suppose someone could have it hooked to a 486 laptop with a V.32bis
+modem and some crypto software. I'd market the thing with an API for
+text-to-speech using simple phonemes and the ability to use speech
+samples. And, of course, I'd publish the interface to it so other
+folks could write any applications they wanted to talk to the thing.
+
+mjr.

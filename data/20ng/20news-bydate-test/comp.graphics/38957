@@ -1,0 +1,102 @@
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Re: Colour Transform for Red/Green Colour Blindness
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+Lines: 96
+
+
+In article <geoffw.736035868@extro.ucc.su.OZ.AU>, geoffw@extro.ucc.su.OZ.AU
+(Geoffrey Warren Hicks) writes:
+
+>Posted on behalf of Craig Southeren who does not have access to
+>a net account:
+>-------------------------------------------------------------------
+
+>Can anyone provide me with a colour space transform that would
+>emulate the effects of red/green colour blindness? I have had
+>a quick look in the computer graphics literature with no results.
+>Perhaps someone who has access to medical information could help?
+ 
+Certainly. Reference follows. 
+
+Bear in mind that there are at least two conditions which may be called
+red/green colour blind. One, protanopia, is caused by a lack or major
+dysfunction of the L cones, those that respond best to long
+wavelengths. This gives much reduced red/green and red/violet discrimination and
+also means that reds look dimmer than than they do to people with normal vision.
+
+The other, deuteranopia, is due to missing or dysfunctional M cones although it
+can also be caused by a lack of the L-M cone difference signals in the retina.
+It also gives reduced red/green discrimination but red/violet is unaffected. 
+Unlike protanopia, reds are not dimmer than  normal.
+
+On a uniform chromaticity diagram - the horseshoe shaped one you see in computer
+graphics books - there is a single confusion point for each type of colour
+deficiency. Colours which are confused lie on straight lines radiating from this
+point. For protanopia the point is at u'=0.61,v'=0.51, very close to the far red
+corner. For deuteranopia, the point is at u'=-4.75, v'=1.31
+
+Note that different experimental investigations in the literature give slightly
+different values for these depending on the precise details of the experimental
+setup, random errors, and so on. The values quoted are typical.
+
+So if all colours on a line are seen as the same, which colour is actually seen?
+
+This problem has now been solved. Tests on people with one normal eye and one
+affected eye have shown that there is an axis for each type of disorder onto
+which all the colours collapse. For protanopes this joins up 473nm and 574nm on
+the spectral locus (the edge of the horseshoe); for deuteranopes the line is
+very similar,  joining 477nm and 579nm.
+
+*So* to convert colours from normal vision to a simulated protanopia or
+duuteranopia:
+
+1) Plot the colour on a uniform chromaticity diagram
+2) Construct a line from this point to the appropriate confusion point
+3) Find the intersection of this line with the appropriate axis line
+4) This is the new chromaticity. 
+
+The best reference for this is Meyer, G.W. & Greenberg, D.P. (1988) 'Colour
+defective vision and computer graphics displays', IEEE Computer Graphics and
+Applications 8(5) 28-40.
+
+You will also need a decent reference on basic colour science if you are not
+familiar with the CIE XYZ colour model and the uniform chromaticity scale diagram.
+
+>I would like to write a program (probably a PPM filter) to allow
+>previewing of images to check for sufficient contract for colour
+>blind users. Not being colour blind myself, this is a bit difficult!
+
+Yes this is certainly possible. You will need the chromaticities of the red
+green and blue phosphors of the monitor you intend to display the images on, and
+the chromaticity of the white point. This information can be measured, or
+obtained from the manufacturer. I posted a list of some monitor chromaticities a
+couple of weeks ago.
+
+The procedure, for each pixel (!) is as follows. (Some lookup tables might be a
+help here.)
+
+A) convert RGB to CIE XYZ. This is a simple 3*3 matrix multiplication once you
+have the monitor data.
+B) retaining the Y component for later, convert XYZ to chromaticity coordinates u'v'
+using u' = 4X/(X+15Y+3Z), v' = 9Y/(X+15Y+3Z)
+C) find the equation of the line as in step 2 above
+D) find the intersection as in step 3
+E) convert back from u'v' to XYZ, using the Y value from step A
+F) Ensure that this new colour can be displayed on your monitor; if not, move it
+along a line in XYZ space towards neutral grey (ie half way between black and
+white) until it is displayable.
+
+>Please email replies - I will summarise and repost if there is
+>sufficient interest
+
+Done; also posted for the rest of us.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk  
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------

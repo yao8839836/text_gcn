@@ -1,0 +1,15 @@
+From: micross@ubvmsb.cc.buffalo.edu (Ross Winston)
+Subject: Personal LW NTR serial hookup?
+Organization: University at Buffalo
+Lines: 8
+News-Software: VAX/VMS VNEWS 1.41
+Nntp-Posting-Host: ubvmsb.cc.buffalo.edu
+
+Can anyone tell me the procedure for hooking a Personal Laserwriter NTR
+serially to a mac?  The documentation says it can be done, but I'm not sure of
+the correct switch setting to use out of the given non-appletalk switch
+options.  Also, will I need to install a new driver so that the Chooser knows
+the printer is hooked up directly (not networked)?
+
+Thanks a lot,
+Ross

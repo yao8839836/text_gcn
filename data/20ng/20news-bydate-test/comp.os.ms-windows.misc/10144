@@ -1,0 +1,37 @@
+From: hadfield_m@kosmos.wcc.govt.nz
+Subject: Re: Why are our desktop fonts changing?
+Organization: Wellington City Council (Public Access), Wgtn, Nz
+Lines: 30
+Reply-To: hadfield_m@kosmos.wcc.govt.nz
+NNTP-Posting-Host: kosmos.wcc.govt.nz
+
+In article <16BC0956B.JC924@uacsc2.albany.edu>, JC924@uacsc2.albany.edu writes:
+
+>One of our users is having an unusual problem.  If she does an Alt/Tab to
+>a full-screen DOS program, when she goes back to Windows her desktop fonts
+>have changed.  If she goes back to a full-screen DOS program and then goes
+>back to Windows, the font has changed back to its default font.  It's not
+>a major problem (everything works and the font is legible), but it is
+>annoying.  Does anyone have any idea why this happens.  By the way, she
+>has a DEC 486D2LP machine.
+> 
+If it's any consolation, I had a similar problem. As I recall, if I exited
+from a DOS session while in full-screen mode, the menu titles had changed to a
+scrambled version of the icon title font (or something like that). It only
+started happening after I used IconTitleFaceName in WIN.INI to change the
+desktop font to Arial. So I stopped exiting from DOS sessions while in
+full-screen mode.
+
+My Mac used to do something similar. Aren't computers weird?
+
+
+------------------------------------------------------------------
+| Mark Hadfield                       hadfield@wao.greta.cri.nz  |
+| NIWA Oceanographic (Taihoro Nukurangi)                         |
+| 310 Evans Bay Rd, Greta Point      Telephone: (+64-4) 386-1189 |
+| PO Box 14-901, Kilbirnie           Fax:       (+64-4) 386-2153 |
+| Wellington, New Zealand                                        |
+------------------------------------------------------------------
+
+
+

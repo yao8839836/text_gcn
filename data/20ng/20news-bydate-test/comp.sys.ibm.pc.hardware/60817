@@ -1,0 +1,38 @@
+From: philc@hobbit.corp.sgi.com (Phil Culver)
+Subject: Re: DOS 6.0
+Nntp-Posting-Host: hobbit.corp.sgi.com
+Organization: Silicon Graphics, Inc.
+Lines: 32
+
+   I have a 386DX clone, with a DTC ESDI controller and Toshiba 660
+mbyte
+drive. Since installing DOS 6.0, when I tried to re-install software
+from
+5 1/4 or 3 1/2 disks, when I mount the second..third..fourth disks, DOS
+6
+doesn't recognize that I have changed floppies. If I do a "DIR", I see
+the
+contents of the previous diskette. The only way to get DOS to recognize
+that
+diskettes have changed, is to do a "label", and then to not label them.
+
+   Buying DOS 6.0 has been a colossal mistake. DOS 5.0 was stable, and
+worked
+well with my equipment. I have Superstor Pro, and DESQVIEW/X ( with
+QEMM, 
+Manifest, etc), so there aren't any features of DOS 6 that I am using. I
+guess
+I should roll back to DOS 5.0 but I am wary of what will happen when I
+do it.
+
+   Besides, like a fool, I don't have a DOS 5. bootable disk anymore.
+I've
+made the same mistakes I caution my users not to make. Like sheep, I
+joined 
+the crowd flocking to DOS 6. Baaa Baaad system administrator.
+
+Phillip Culver
+Silicon Graphics Inc
+Mtn. View, CA
+
+

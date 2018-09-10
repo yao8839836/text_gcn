@@ -1,0 +1,41 @@
+From: wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705)
+Subject: Re: Tempest
+Organization: Mary Ellen Carter Salvage Crew
+Distribution: na
+In-Reply-To: angel@Foghorn_Leghorn.coe.northeastern.edu's message of Mon, 26 Apr 1993 19:38:01 GMT
+	<1993Apr26.104320.10398@infodev.cam.ac.uk>
+	<1993Apr26.193801.12416@lynx.dac.northeastern.edu>
+Nntp-Posting-Host: rainier.ho.att.com
+Lines: 31
+
+In article <1993Apr26.193801.12416@lynx.dac.northeastern.edu> angel@Foghorn_Leghorn.coe.northeastern.edu (Kirill Shklovsky) writes:
+   In article <1993Apr26.104320.10398@infodev.cam.ac.uk> rja14@cl.cam.ac.uk (Ross Anderson) writes:
+   >I'm afraid this doesn't work either. We can pick up laptop screens without any
+   >problem. [...]
+
+   I heard somewhere (can't name the source) that TEMPEST does not necessarily
+   pick-up just CRTs, but it can pick up emissions from almost any chip.  If
+   that is true, the kind monitor would not make any difference becuase everything
+   on the screen can be picked-up from the video controller.  Can anybody verify
+   or refute this?
+
+Yes, that's true.  TEMPEST is nothing magic, it's just listening to any
+available electromagnetic emissions and using all the analysis techniques  
+you know to separate out the interesting stuff. 
+
+The nice thing about old CRTs is that they used to put out LOTS of
+signal, so they're easy to detect, and if you do your sync carefully,
+you can watch the output on the monitor in your deceptively-marked
+Chevy Step-Van.  Some brands of electric typewriters were even worse.
+In both cases, it's especially nice because it gets you the data the
+user is looking at, rather than whatever stuff the paging algorithm is
+paging out to disk, etc.
+
+With newer, quieter equipment, there isn't as much signal, and it's harder to
+isolate the fun parts.  TEMPEST-rated equipment has much lower signal levels.
+But "Everything has vibrations", as Master Chuan said.
+--
+#				Pray for peace;      Bill
+# Bill Stewart 1-908-949-0705 wcs@anchor.att.com AT&T Bell Labs 4M312 Holmdel NJ
+#	              No, I'm *from* New Jersey, I only *work* in cyberspace....
+# White House Commect Line 1-202-456-1111  fax 1-202-456-2461

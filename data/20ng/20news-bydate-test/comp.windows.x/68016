@@ -1,0 +1,47 @@
+From: root@grok3.ColumbiaSC.NCR.COM (Ernie Coskrey)
+Subject: Re: xterm fonts
+Nntp-Posting-Host: grok3.columbiasc.ncr.com
+Organization: NCR Corporation - E&M Columbia
+Lines: 41
+
+In article <1993May11.133626.7425@taylor.uucp>, mark@taylor.uucp (Mark A. Davis) writes:
+|> I have a problem which many of you might have run into.  We use LOTS of
+|> ASCII terminals and use them to the max.  Meaning lots of attributes, line
+|> draw, etc.   Now what I need to do is come up with a working xterm which
+|> will emulate our advanced ASCII terminals as closely as possible.
+|> 
+|> This means needing all attributes to work, including bold and line drawing.
+|> The only fonts which seem to meet these criteria are a pairs of fonts in
+|> which one is bold and the other normal, while both have linedraw, fixed
+|> spacing, and several sizes.
+|> 
+|> The only standard fonts which work are the fonts like 9x15 and 9x15B under
+|> "misc".  They work great, except I need a font one size larger, 10x20.  Now
+|> 10x20 works well, but there is no bold counterpart!
+|> 
+|> To make matters worse, I need the fonts in some form I can use for Tektronix
+|> Xterminals.  It seems they like .pcf format, although I should be able to
+|> convert a .bdf format.
+|> 
+|> Anyone have any suggestions?
+|> -- 
+|>   /--------------------------------------------------------------------------\
+|>   | Mark A. Davis    | Lake Taylor Hospital | Norfolk, VA (804)-461-5001x431 |
+|>   | Sys.Administrator|  Computer Services   | mark@taylor / mark@taylor.UUCP |
+|>   \--------------------------------------------------------------------------/
+
+This would be tedious, but if you have the time you could get the .bdf
+file (I can email it to you if you don't have it or don't have easy access 
+to the X source), and could make your own bold font from this.  Since each
+glyph is just a bitmap, you could write a program to convert each
+glyph to a bitmap-readable file, use bitmap to make each glyph "bold", and
+convert the results back to .bdf format.  Then, use "bdftopcf" to create
+the .pcf file.  Then, stick the .pcf in /usr/lib/X11/fonts/misc (or wherever)
+and include it in fonts.dir and, voila, you'll have what you need!
+
+-- 
+Ernie Coskrey            (803) 926-2071    NCR Corporation - MCPD Columbia
+Ernie.Coskrey@ColumbiaSC.NCR.COM           3325 Platt Springs Road
+                                           West Columbia, SC 29170
+"I'm out there busting my buns every night.  Tell your old man to drag Walton
+and Lanier up and down the court for 48 minutes." - Roger Murdoch, co-pilot

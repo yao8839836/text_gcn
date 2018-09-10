@@ -1,0 +1,37 @@
+From: Dale_Adams@gateway.qm.apple.com (Dale Adams)
+Subject: Re: Quadra 950 marginal video?
+Organization: Apple Computer, Inc.,  Cupertino, CA
+Lines: 32
+
+In article <1993Apr23.055934.1967@galileo.cc.rochester.edu> 
+carlo@merlin.cvs.rochester.edu (Carlo Tiana) writes:
+> We are having a problem with a Quadra 950 that has stumped a couple of
+> techs sent to us by the vendor, as well as us :-)
+> This Quadra is 'stuffed' with 64Mb RAM, 2Mb VRAM and some large disk (400Mb
+> I think). What happens is that after a certain variable interval of time
+> the video circuitry 'loses' vertical sync. It is quite apparent that the
+> Mac CPU is still ok, and the problem really seems to lie with the video
+> circuitry, since you can still save your documents, quit your aplpications,
+> even pull down menus etc. (only the display is scrolling lik crazy, so it's
+> pretty hard to hit menu items ;-)
+
+[... other info deleted ...]
+
+> Has anyone any ideas? Please? Please email as well as posting cause I seem
+> to be spending a lot of time rebooting my mac lately and have a lot less
+> time available to read news! :-)
+
+Are you sure it's not a problem caused by software?  I've seen this sort 
+of effect when a runaway program (which could be caused by an INIT 
+conflict, for instance) accidentally wacks on a register in the video 
+hardware.  Have you tried booting with no extensions and then letting the 
+Q950 just sit there in the Finder?  You might also want to try changing to 
+24-bit addressing (yes, I know you can't access your full 64 MB of RAM - 
+it's just an experiment) as the video hardware registers can't be accessed 
+then.
+
+Another thing to try as a 'recovery' measure is to use something like 
+QuickKeys to change the pixel depth of the display.  This reprograms (some 
+of) the video hardware registers and may allow sync to be restored.
+
+- Dale Adams

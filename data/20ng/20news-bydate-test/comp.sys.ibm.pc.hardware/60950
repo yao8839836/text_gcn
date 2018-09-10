@@ -1,0 +1,13 @@
+From: qwerty@tunisia.ssc.gov (Kris Schludermann)
+Subject: HELP:IDE Drive installation problems
+Nntp-Posting-Host: tunisia.ssc.gov
+Organization: Superconducting Super Collider Laboratory
+Lines: 7
+
+I'm having trouble with installing a second IDE drive on a Promise IDE caching
+controller. The first drive is a conner 3204 and works fine. The second drive
+is a conner 30174, it is currently unjumpered  to be the slave drive. The
+problem is the slave drive is recognized but is reported back as having no
+free space. Disabling cache has made no effect. What else should I check for?
+
+krispy

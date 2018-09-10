@@ -1,0 +1,15 @@
+From: orourke@sophia.smith.edu (Joseph O'Rourke)
+Subject: Re: Looking for polygon "convexifier"
+Organization: Smith College, Northampton, MA, US
+Lines: 10
+
+In article <1rvpmc$3dd@nwfocus.wa.com> mpdillon@halcyon.com (Michael Dillon) writes:
+>>Does anyone know where I can find a code which would take concave
+>>polygons and break them up into a set of convex polygons?
+>
+>I also would like code or algorithms to do this.
+
+	Although I am not offering code, I would like to point out that
+any polygon triangulation code satisfies the task as stated.  If you
+want code to partition a polygon into the *minimum* number of convex
+pieces, I doubt very much if it exists, although an algorithm is known.

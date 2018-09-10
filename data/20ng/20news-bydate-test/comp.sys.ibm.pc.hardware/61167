@@ -1,0 +1,23 @@
+From: sinn@carson.u.washington.edu (Philip Sinn)
+Subject: ET4000/W32 3dbench
+Summary: 26.3 frame per second.
+Keywords: 3dbench, benchmark
+Article-I.D.: shelley.1ra43jINN7e8
+Distribution: world
+Organization: University of Washington, Seattle
+Lines: 13
+NNTP-Posting-Host: carson.u.washington.edu
+
+Due to the large amount of request for 3dbench of ET4000/W32,
+I finally can get a 3dbench v1.0 from a ftp site.
+
+The 3dbench of ET4000/W32 in my Cardex W32 card with 1MB DRAM
+has superscape benchmark of 26.3 frames/sec.
+
+Hope it will satisfy people curiosity of this ET4000/W32 performance.
+What other benchmark program result you would want to know? 8-)
+
+Philip Sinn
+sinn@carson.u.washington.edu
+University of Washington
+* It is all my opinions *

@@ -1,0 +1,47 @@
+From: eachus@spectre.mitre.org (Robert I. Eachus)
+Subject: Re: Can DES code be shipped to Canada?
+In-Reply-To: strnlght@netcom.com's message of Thu, 22 Apr 1993 20:55:04 GMT
+Nntp-Posting-Host: spectre.mitre.org
+Organization: The Mitre Corp., Bedford, MA.
+Lines: 40
+
+In article <strnlghtC5wKrt.6JA@netcom.com> strnlght@netcom.com (David Sternlight) writes:
+
+   > I believe it is illegal to send any cryptographic code out of the
+   > country without an export license. (Others will correct me if
+   > this is inaccurate.)
+
+   Glad to!  You are correct, it is illegal to send cryptographic
+code (and lots of other things) out of the country without a license.
+HOWEVER, every US citizen has a general export license, allowing
+export of lots of things, including constitutionally protected speech.
+This has the effect that it is legal for US citizens to export some
+things which it is illegal for a US corporation to export without
+first obtaining a license.
+
+   > Dunno if you'd get one for the particular code you have; the only
+   > way to find out is to apply for a license.
+
+   Nope, talk to a good lawyer in the area of export law.  But, in
+general, the government has to have a very good national security case
+to try prevent the export of anything you personally might wish to
+publish.  (Yes, I worded that the way I did intentionally.  It is a
+lot easier for the government to TRY to prevent the export of
+information than to charge someone with a crime after the fact.
+Espionage is probably the only exception.)
+
+   > Note that you need to distinguish between what is legal to send
+   > to Canada if YOU have such a license, and what is legal to send
+   > if you don't.
+
+    If you are a US citizen, you have a general license.  (I am not a
+lawyer, so take some of this with a grain of salt.  However, I have
+also had to swim through both ITAR and export regs in a few cases.)
+
+--
+
+					Robert I. Eachus
+
+with Standard_Disclaimer;
+use  Standard_Disclaimer;
+function Message (Text: in Clever_Ideas) return Better_Ideas is...

@@ -1,0 +1,40 @@
+From: rlglende@netcom.com (Robert Lewis Glendenning)
+Subject: Re: Screw the people, crypto is for hard-core hackers & spooks only
+Organization: Netcom - Online Communication Services (408 241-9760 guest)
+Lines: 35
+
+In article <1r4g7l$fdl@sunb.ocs.mq.edu.au> ifarqhar@laurel.ocs.mq.edu.au (Ian Farquhar) writes:
+>In article <19930419.155204.305@almaden.ibm.com> ameline@vnet.IBM.COM (Ian Ameline) writes:
+>>  I also believe that someone will reverse engineer the clipper chip,
+>>and knowlege of the algorithm will likely be fairly widespread. Any back-
+>>doors or weaknesses would further discredit the scheme, and help grow
+>>the market demand for a secure alternative.
+>
+
+There are companies (one in Canada, as I recall) which specialize in
+analyzing chips to understand process technology, design rules,
+... to understand the probable yield of the assembly line making them,
+and therefore the probable current cost and possible future cost curves,
+given design shrinks, statistical quality control -> better yields, etc.
+
+Taiwanese, Japanese and especially Korean semiconductor manufacturers
+have all (korea continues) reverse-engineered foreign chips and
+produced the chip.  Taiwan and Japan have signed intellectual
+property treaties, and now at least extract the gate/transitor level
+design before laying the chip out again.  The koreans still
+use mask-level copying, I believe.  At least, they are under a lot
+of pressure to pass laws to meet international intellectual property
+standards.
+
+All this despite lots of attempts to hide the designs.  There are lots
+of techniques to do so in both hardware and software design.
+
+For a complex chip, there will be real intellectual effort extracting
+the gate design from the transistor design, and the algorithm from
+the gate design.  But it won't take two smart guys even 6 months, working
+40 hour weeks.  Koreans work 60 or more 8)
+
+Lew
+-- 
+Lew Glendenning		rlglende@netcom.com
+"Perspective is worth 80 IQ points."	Niels Bohr (or somebody like that).

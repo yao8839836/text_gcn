@@ -1,0 +1,35 @@
+Subject: Re: What's that chime?
+From: brecher@husc8.harvard.edu (Jonathan Brecher)
+Distribution: usa
+Organization: Harvard Arts and Sciences Computer Services, Cambridge, MA
+Nntp-Posting-Host: husc8.harvard.edu
+In-reply-to: ejhupper@rs6000.cmp.ilstu.edu's message of Sat, 24 Apr 1993 21:45:38 GMT
+Lines: 27
+
+ejhupper@rs6000.cmp.ilstu.edu (Eric Huppertz) writes:
+>b91926@fnclub.fnal.gov (David Sachs) writes:
+
+>>Those chimes indicate a hardware failure of some type during System startup.
+>>
+>>One thing that can cause the chimes is a cable that has become a bit loose.
+>>Next time you power down the computer, check that all cables are on tight.
+
+>I remember a simple program that would play those chimes for you when you
+>clicked their respective buttons.  Does anyone know where that is?  This was
+>circa 1988, I think.
+
+A quick search of the index at mac.archive.umich.edu shows the following as
+available by anonymous ftp from that site:
+
+/mac/util/developer/diagnosticsoundsampler.hqx
+   9     7/24/90    BinHex4.0
+ 
+   That "chord" you hear when you push the start-up on your Mac II
+   means more than just "I'm on". it's passed it's internal test.
+   This utility explains what the various sounds stand for (i.e.
+   various stages of ram testing...)
+ 
+
+
+					jonathan brecher
+					brecher@mac.archive.umich.edu

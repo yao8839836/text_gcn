@@ -1,0 +1,39 @@
+From: brendan@oc3s-emh1.ARmy.MIL (Brendan McKenna)
+Subject: Problems with characters above 127
+Organization: The Internet
+Lines: 33
+To: xpert@expo.lcs.mit.edu
+
+
+Hi all,
+
+I've read the FAQ, I've fiddled around, but I am still having problems getting
+my poor old HP9000/300 to let me input/display characters above 127.  I have 
+the following in my .Xdefaults:
+
+XTerm*Font     :   -adobe-courier-bold-r-normal--14-140-75-75-m-90-iso8859-1
+
+So I believe that I have the correct font selected to use in xterm.  I have NOT
+set my LC_CTYPE environment variable because whatever I put it, it tells me that
+that locale is not supported (apparently we have no additional locales defined,
+or at least, /lib/locale doesn't exist).  I can get some of the characters
+above 127 to print out, but they are not where I'd expect them -- for example,
+Alt-v does not produce a u umlaut.  This leads me to believe that the fault
+lies with the stty settings, which are as follows:
+
+speed 9600 baud; line = 0; susp <undef>; dsusp <undef>
+intr = ^C; quit = ^\; erase = ^H; kill = ^K; swtch = ^@
+eof = ^D; eol = ^@; min = 4; time = 0; stop = ^S; start = ^Q
+-parenb -parodd cs8 -cstopb hupcl cread -clocal -loblk -crts 
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl -iuclc 
+ixon -ixany ixoff -ienqak 
+isig icanon iexten -xcase echo echoe echok -echonl -noflsh 
+opost -olcuc onlcr -ocrnl -onocr -onlret -ofill -ofdel -tostop 
+
+Anyway, I've struggled with this off and on for a couple of weeks, and any help
+anyone could offer would be greatly appreciated.
+
+
+					Thanks!
+
+					Brendan

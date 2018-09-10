@@ -1,0 +1,27 @@
+From: barmar@think.com (Barry Margolin)
+Subject: Re: TWM
+Organization: Thinking Machines Corporation, Cambridge MA, USA
+Lines: 21
+NNTP-Posting-Host: telecaster.think.com
+
+In article <1993May12.161857.29950@samba.oit.unc.edu> naoumov@physics.unc.edu (Sergei Naoumov) writes:
+>I run twm and would like to execute some program before leaving twm. In other
+>words I would like to run some program before I do f.quit. Is it possible
+>to make a menu section which would contain these two parts?
+
+In your menu definition, put:
+
+    "Quit TWM" f.function "Execute and Quit"
+
+Then define:
+
+Function "Execute and Quit" {
+    !"some_program"
+    f.quit
+}
+
+-- 
+Barry Margolin
+System Manager, Thinking Machines Corp.
+
+barmar@think.com          {uunet,harvard}!think!barmar

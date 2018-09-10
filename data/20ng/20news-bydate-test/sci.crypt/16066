@@ -1,0 +1,29 @@
+From: hamrick@convex.com (Ed Hamrick)
+Subject: Re: PD code for crypt(1) like encryption
+Nntp-Posting-Host: convex1.convex.com
+Organization: CONVEX Computer Corporation, Richardson, Tx., USA
+Distribution: usa
+X-Disclaimer: This message was written by a user at CONVEX Computer
+              Corp. The opinions expressed are those of the user and
+              not necessarily those of CONVEX.
+Lines: 19
+
+In article <1993Apr27.114659.28363@spdcc.com> jin@spdcc.com (Jerry Natowitz) writes:
+>I am looking for some Public Domain (and exportable) code for
+>encryption.  Nothing elaborate, just something that will satisfy
+>a marketing need :-)
+>Oh yes, UNIX platform.
+
+You can find what you're looking for on hundreds of sites worldwide.  Try
+
+	anonymous ftp to nic.funet.fi (Finland)
+
+	/pub/unix/4.3bsd/net2/lib/libc/gen/crypt.c.Z
+
+This includes source code for fully-functional DES encryption and decryption.
+
+There are some who believe that public domain code is exportable, some
+who don't.  Make your own judgements, but it seems obvious to me.
+
+Regards,
+Ed Hamrick

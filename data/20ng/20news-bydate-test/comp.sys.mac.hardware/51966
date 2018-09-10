@@ -1,0 +1,27 @@
+From: stricher@masig.fsu.edu (Who? Me?)
+Subject: Re: Good Hard-Disk driver for non-Apple drives? (Sys 7.1 compat.)
+Organization: Disaster, Inc.
+Lines: 22
+
+In article <JARTSU.93Apr20025636@lk-hp-20.hut.fi>, jartsu@hut.fi (Jartsu)
+wrote:
+> 
+> 
+> Hi there!
+> 
+> What is your recommendation for a good hard-disk driver software for
+> non-Apple drives? I would mainly need it for a SyQuest removable media
+> drive, but maybe for some normal drives too.
+
+FWB distributes HDT Personal Edition (HDT = Hard Drive Toolkit), which
+is what I own. This is less fancy than the "full" version, but good
+enough for what you and I want to do. Casa Blanca offers Drive7, but
+I'm not that familiar with it. I *think* that both Drive7 and HDT PE
+can be had for around US$50.
+
+I've used Silverlinging at work (v 5.42??), and I like HDT PE much
+better. IMHO it has a better interface, and easier to understand.
+
+Any Drive7 users?
+
+James

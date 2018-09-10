@@ -1,0 +1,22 @@
+From: gatenb@mrisun.med.yale.edu (Chris Gatenby)
+Subject: How do I expand RAM on a Plus?
+Keywords: Plus,RAM
+Nntp-Posting-Host: mrisun.med.yale.edu
+Reply-To: gatenb@mrisun.med.yale.edu
+Organization: Dept. of NMR Research, Yale School of Medicine
+Lines: 14
+
+I have a mac plus with 2.5MB RAM. I have just bought an extra 2MB so that
+I can have the max 4MB RAM that a plus supports. However, I can't get it
+to boot after I install the 2 extra SIMMs. Instead I get a sad mac (Sorry,
+but I can't remember the code). Looking at the motherboard, I can see
+that 2 resistors have been snipped off where it says "256Kb path -
+1 row". I assume that was done when the first 1MB SIMMs were added.
+
+So, my question is: Are there any other resistors that need snipping? 
+				or, Do I have bum SIMMs which need to be exchanged?
+
+Any and all advice will be appreciated.
+
+Chris Gatenby
+gatenb@mrisun.med.yale.edu

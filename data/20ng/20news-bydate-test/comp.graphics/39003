@@ -1,0 +1,226 @@
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Oh make up your mind!! (was: Re: XV problems)
+Lines: 220
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+
+
+In article <1rqisi$rhj@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia Juhana) writes:
+
+>In article <1993Apr29.201420.19271@nessie.mcc.ac.uk>
+>C.C.Lilley@mcc.ac.uk writes:
+
+>>In article <1rohjc$avt@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia
+>>Juhana) writes:
+
+>>>I wrote something about making color modifications quickly
+>>>with 8bit quantized images and only at the saving the image to file
+>>>process we have to make the modifications to the 24bit image.
+>>>This makes sense, because the main use of XV is only viewing images.
+
+>>>Doing many changes to image, we should keep all modifications
+>>>in a buffer; and then before making the operations to 24bit image,
+>>>we should simplify the operation list for unnecessary operations.
+
+>>Think about what you are saying here. The 24 bit image is quantised down to 8
+>>bits so many 'similar' colours are mapped onto a single palette colour. This
+>>colour gets modified in fairly arbitrary ways. You then want to apply these
+>>modifications back to the 24 bit file, so you have to find which
+>>colours mapped to this one palette colour.
+
+>I suppose you don't know what about we have discussed.
+>We discussed about error(s) in XV 2.21 which shows images only as 8bit,
+>and my suggestion above works perfectly with it.
+
+Look be consistent. First you post something that seems to suggest that you see
+xv being an 8 bit program as some sort of error. 
+So I post and asy it is not a bug, it is meant to be like that. 
+So you post and say it is not a bug, you never said it was, I have misunderstood
+etc.
+Now you are saying:
+
+>We discussed about error(s) in XV 2.21 which shows images only as 8bit,
+
+If you would make up your mind what you are claiming it would make the
+discussion a *lot* easier.
+
+----------------
+
+>So far I have seen a colormap editing window in XV -- that is, there
+>must be a colormap anyway. The problems you present are exist anyway,
+>and I didn't tried to solve them at all, because I would not make such
+>problems to my programs in the first place.
+
+Eh? Sorry, I don't understand what you are saying here. I am aware that English is
+not your native language and have tried hard to fathom your meaning, but this
+paragraph defeats me.
+
+>Gamma and color corrections are easily done to 24bit image
+>as I presented. There's no need make tricks from 8bit/quantized image
+>back to 24 bit image.
+
+Yes *as I originally said*, global changes are easily possible.
+
+But this statement contradicts what you said earlier: 
+
+>>>I wrote something about making color modifications quickly
+>>>with 8bit quantized images and only at the saving the image to file
+>>>process we have to make the modifications to the 24bit image.
+
+---------------
+
+>>>>How would you suggest doing colour editing on a 24 bit file? How
+>>>>would you group 'related' colours to edit them together? Only global
+>>>>changes could be done unless the software were very different and
+>>>>much more complicated.
+
+>Ok, you're writing about situation that user want edit images as 24bit
+>and user want edit individual colors -- your questions, by the way,
+>jumps off the discussion a bit.
+
+No I don't think so actually. 
+
+You were talking about loading a 24 bit image into xv (by quantising),
+manipulating the colours in the colour editor, then somewhow applying these
+changes to the 24 bit file when you exit xv. Xv lets you edit individual
+colours. Where is this sudden jumping off the topic?
+
+>My solution doesn't work, because there's no colormap withing real 24bit
+>image 
+
+Yes I am aware there is no colourmap in a 24 bit file!!
+
+>-- you see, user see 24bit image; going back to 8bit is silly.
+
+I do not understand what this statement is supposed to mean.
+
+>About changing individual colors in 8bit/quantized/rasterized image:
+>changing individual colors in colormap is useless in most
+>cases if the image is quantized and rasterized -- small change may
+>make serious errors to anywhere in the image.
+
+???
+What are you saying
+???
+
+>XV allows this feature, but I don't recommend to use it with the
+>mentioned type images.
+
+Ah! now we see thew problem! First you want to extend xv to allow editing of 8
+bit previews of 24 bit images. Then I point out problems with this. Now you are
+saying there is no problem because you, personally, happen not to use those
+parts of the program that cause the problem!!
+
+
+>Moreover, XV is not a paint program; you can only make those global
+>changes. 
+
+Not sure what you are saying here. Certainly one can make local changes.
+
+>In full 24bit XV, changing individual colors sounds like
+>paint program job.
+>If person have 8bit screen, there's need for tricks to get the
+>original 24bit image modified. Because user don't see full 24bit
+>image, there's need to make approximations and it is not possible to
+>modify individual colors but individual pixels or pixel groups (if
+>image is rasterized). To select indiavidual color, there could be 7x7
+>cursor window which shows true color image in cursor window area --
+>selecting individual color is possible from that.
+
+Yes that is one possible approach. I would find a program that took such an
+approach clumsy, however.
+
+>Ok, I don't have thought very much 24bit painting programs, never seen
+>such in good view and are not planned to make such. Not to mention
+>24bit painting program in 8bit screen...
+
+Well here we agree - you have not thought it through very much. You don't seem
+to have a consistent point to make and contradict yourself from one post to the
+next. OK, we all have off days - perhaps you should step back and think this one
+through.
+
+>>Yes again. What *is* (was?) wrong with xv?
+
+>It saved 8bit/quantized/rasterized images as 24bit jpegs; jpeg is not
+>designed for that.
+
+As I said in the last post, JPEG is a compression algorithm. It is a way of
+saving disk space by trading off quality against compression. I fail to see what
+the problem is. You have not proposed any workable alternatives.
+
+>Also, human expect that 24bit will be saved as 24bit image; 
+
+Speak for yourself. You are the *only* person I have met or spoken to who,
+having quantised a 24 bit image down to 8 bits, expects this process to somehow
+reverse when the file is saved; keeping all modificvations that heve been made
+to the 8 bit image palette.
+
+Perhaps that is why you yused the singular?
+
+>say,
+>person would like to crop part of the image and save it, then it is
+>expected that the image still is the same. 
+
+Look, next time you import a 24 bit image into xv look carefully at the main
+control panel - it tells you how many colours have been allocated to the 8 bit
+image. XV makes it abundantly clear that you are not editing the original 24 bit
+file. You are the *only* person who claims this is confusing.
+
+>So, XV were designed
+>without thinking about human interface and how human expect the
+>program work -- design error.
+
+Is a design error the same as a bug? ;-)
+
+Read my lips. XV is a program for viewing and modifying 8 bit images. It lets
+you import other images. It shows, I would say, a good deal of thought about the
+human interface. And everyone else seems to use it happily for the purpose it
+was designed for. It makes no false claims.
+
+>I have heard XV were designed first for 8bit images/files, but
+>it were not good idea to take full 24bit images without making
+>major change to the original design.
+
+If you would come up with a solid, logical, well argued and lucid description of
+precisely how these proposed extensions would work, feel free to post them. So 
+far, you have not done so.
+
+>So, even all screen images are 8bit, the processed images and saved
+>images could have been 24bit very easily, instead of 8bit.
+
+Argh!! After all this, a comment like that. `Very easily'. OK, go ahead and code it
+if it is so easy.
+
+Or alternatively, look up the terms `import' and 'non-reversible transformation'.
+
+>Before anybody will make a note: yes, I may as well make a lift where
+>'up' means that the lift goes down and 'down' means that the lift goes
+>up, and put a note on this design solution to the manuals -- however,
+>even the manuals tells the correct situation, it doesn't solve the problem.
+>(Americans: the lift is just an example :)
+
+I think this is a bit of an exageration.
+
+What you are actually saying is, you got into a lift (elevator, if you are in
+the states ;-) ) and mistakenly pressed the down button to go up. Everyone else
+had no problem. Now you are trying to sue the manufacturer...
+
+>Well, my text may be a bit hard reading, 
+
+you bet
+
+>hopefully you suggeeded to
+>read it.
+
+Mostly. Leaving aside the language issue however, it betrays some very wooly
+thinking (as you yourself admit) which is the same in any language. Go think
+some more.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------

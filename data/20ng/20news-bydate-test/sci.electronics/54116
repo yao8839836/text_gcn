@@ -1,0 +1,49 @@
+From: neal@cmptrc.lonestar.org (Neal Howard)
+Subject: Re: Lead Acid batteries & Concrete?
+Organization: CompuTrac Inc., Richardson TX
+Lines: 44
+
+In article <C5x3E6.3nx@athena.cs.uga.edu> mcovingt@aisun3.ai.uga.edu (Michael Covington) writes:
+>In article <1993Apr21.204556.21262@cronkite.ocis.temple.edu> camter28@astro.ocis.temple.edu (Carter Ames) writes:
+>>
+>>  Why does a lead acid battery discharge and become dead (totally unuseable)
+>>when stored on a concrete floor?  
+>>  I decided to bring the battery in from the lawn mower and the motorcycle
+>>from the unheated garage this year, *to preserve them* and I just
+>>went to use them and noticed that not only do they not work, but 
+>>they act like the two terminals are shorted.  I asked a friend
+>>and he said that you should never do that, 'cause it ruins them,
+>>but he couldn't tell me why.
+>
+>This topic was beaten to death a year or so ago.
+>
+>The concrete is not the problem. 
+>
+>Lead-acid batteries often fail from disuse (not being charged for a long
+>time), but there's no way the concrete floor could be the cause of the
+>problem.
+
+The concrete floor accelerates the problem because it is a heat sink and a
+colder lead-acid battery self-discharges at a slightly faster rate. That's
+why the old wives' tale of sitting it on a piece of wood on the floor works
+to help keep from killing the battery as fast ---- it insulates the battery
+thermally. It you'll set the battery down on a piece of styrofoam, it will
+self-discharge even slower. The best thing would be to attach a small load
+such as a small transistor radio with the volume turned down low and leave it
+on constantly, but also trickle-charge it every couple days too to "shallow-
+cycle" the charge in the battery. Such mild "exercising" of a lead-acid
+battery is the next best thing to completely removing the electrolyte for
+storage. If you do remove the electrolyte, may sure you keep separate storage
+containers for each cell's electrolyte and put it back into the same cells
+when you refill the battery. This isn't so critical for a brand-new battery
+in a fully charged state, but will maximize the restored output of an older
+battery which may not be fully charged when you remove the electrolyte for   
+storage.
+-- 
+=============================================================================
+Neal Howard   '91 XLH-1200      DoD #686      CompuTrac, Inc (Richardson, TX)
+	      doh #0000001200   |355o33|      neal@cmptrc.lonestar.org
+	      Std disclaimer: My opinions are mine, not CompuTrac's.
+         "Let us learn to dream, gentlemen, and then perhaps
+          we shall learn the truth." -- August Kekule' (1890)
+=============================================================================

@@ -1,0 +1,40 @@
+From: jvannes@vms.macc.wisc.edu
+Subject: Re: Long distance IR detection
+Organization:  University of Wisconsin Academic Computing Center
+Distribution: na
+Lines: 34
+
+In article <CSTROCKB.93Apr23002520@csws8.cs.sunysb.edu>, cstrockb@cs.sunysb.edu (Caleb Strockbine) writes...
+
+>Could make for some interesting choreography... light and sound could be 
+>controlled directly by the position of a dancer on stage, or by the number
+>of dancers on stage. Neat.
+> 
+>You could even build a spotlight that follows the dancer around on stage!
+> 
+>Can you tell us more about what you're doing? Sounds like a very cool program.
+
+Tis' only a gleam in my eye at this point.  I have yet to chose a tracking 
+method.  The initial requirement was to design a system to locate a dancer
+in one of eight zones across the stage.  I did some experiments with 
+pyroelectric detectors and found them difficult to align to get a definite
+zone transition.  And dancers stand still alot, so their IR signature goes
+away.  The good thing about pryoelectrics is that their signal is proportional 
+to the size of the warm body (or body part), and the velocity of said body.
+This could be useful for detecting the intensity of a dance gesture.
+
+Dancers also really hate to wear little boxes and batteries strapped on their 
+bodies, but they really need to be emitting some kind of signal to be tracked.
+
+The current toy I have been working with is a program called Mandala for the
+Amiga, used with a LIVE! video digitizer.  This works with a video camera 
+trained on the stage.  You can set thresholds for a zone within the field of
+view, and an object brighter than the threshold will trigger an event. Events
+can be MIDI objects or sequences, Amiga sounds or graphic objects.  It's been
+fun to play with, but the documentaion is arcane, and the digitizer is noisy.
+Still, it's very appealing, the dancers don't have to wear any appliances,
+you can have ots of zone,s, it speaks MIDI, which can be used to control lights,
+and I don't have to build any electronics.  It's all done with lighting and
+video brightness and contrast adjustments.  I have yet to do anything
+particularly useful or artistic, but I have hopes...
+

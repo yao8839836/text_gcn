@@ -1,0 +1,18 @@
+From: jim.zisfein@factory.com (Jim Zisfein) 
+Subject: Data of skull
+Distribution: world
+Organization: Invention Factory's BBS - New York City, NY - 212-274-8298v.32bis
+Reply-To: jim.zisfein@factory.com (Jim Zisfein) 
+Lines: 11
+
+GT> From: gary@concave.cs.wits.ac.za (Gary Taylor)
+GT> Hi, We are trying to develop a image reconstruction simulation for the skull
+
+You could do high resolution CT (computed tomographic) scanning of
+the skull.  Many CT scanners have an algorithm to do 3-D
+reconstructions in any plane you want.  If you did reconstructions
+every 2 degrees or so in all planes, you could use the resultant
+images to create user-controlled animation.
+---
+ . SLMR 2.1 . E-mail: jim.zisfein@factory.com (Jim Zisfein)
+                                                                                                                        

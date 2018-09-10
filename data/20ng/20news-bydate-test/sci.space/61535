@@ -1,0 +1,25 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Combo Propulsion System!?
+Organization: U of Toronto Zoology
+Lines: 20
+
+In article <1993May1.043916.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:
+>How hard or easy would it be to have a combo mission such as a solar sail on
+>the way out to the outer planets, but once in near to orbit to use more normal
+>means..
+
+If you've got a good propulsion system that's not useful for deceleration,
+sure you can use chemical rockets for that part... but even just doing the
+deceleration chemically is a major headache.  We're talking seriously high
+cruising velocities; taking the velocity down nearly to zero for a Pluto
+orbit isn't easy with chemical fuels.
+
+Incidentally, solar sails are not going to be suitable as the acceleration
+system for something like this.  They don't go anywhere quickly.  (I speak
+as head of mission planning for the Canadian Solar Sail Project, although
+that is more or less an honorary title right now because CSSP is dormant.)
+They can't fly a mission like this unless you start talking about very
+advanced systems that drop in very close to the Sun first.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

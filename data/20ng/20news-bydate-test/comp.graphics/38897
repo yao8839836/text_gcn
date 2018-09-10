@@ -1,0 +1,134 @@
+From: lightwave-admin@bobsbox.rent.com (LightWave 3D Mail List Administrator)
+Subject: Monthly LightWave mailing list FAQ
+Lines: 130
+
+
+----------------------   LightWave3D Mail-List   ----------------------
+
+-- WHAT IS LightWave? --
+
+LightWave3D is part of a suite of programs that come bundled with a
+device called the "Toaster" (from NewTek, Inc.) that operates on an
+Amiga platform.  The LightWave software (LightWave=LightWave3D and
+LightWave Modeler) allows and artist to create three dimensional
+photo-realistic images for a variety of purposes.
+
+-- WHY ARE WE DOING THIS? --
+
+This mailing list is for those interested in the LightWave software, how
+it operates and in ideas on how to obtain the best quality images
+available to them.  The list is for those who own the Toaster and
+LightWave as well as those just interested in what can be done with the
+package.  We hope to share information, tips, procedures and to bond as
+a group.
+
+-- WHAT ARE THE RULES? --
+
+Since LightWave/Modeler are just a part of the Newtek Video Toaster
+software, I'm sure we will discuss a few items related to the operation
+of the Toaster.  However, we will strive to keep the subject revolving
+specifically around the 3D software, related tools and products.
+
+You do NOT have to own a Toaster to join this list!
+
+-- OK! HOW DO I JOIN? --
+
+To become a member of the LightWave3D mailing list you must send a mail
+message to the address:
+
+        lightwave-request@bobsbox.rent.com
+
+In the body of the message enter:
+
+subscribe lightwave-l your.name@your.site.domain
+
+Or just ask to be signed up and I will sign you up to the list.  At this
+point in time the process is manual but I hope to get an automated
+script based system in place soon.  There shouldn't be too much of a
+delay in joining.  Expect a "welcome" message within 5 days after you
+send your request.  Then, expect the mail to start flowing in!
+
+-- HOW DO I POST TO THE LIST? --
+
+Contributing to the list is simple.  Just mail your articles to the
+following address:
+
+        lightwave@bobsbox.rent.com
+
+Your article will be processed by the system and distributed to all
+others joined to the list.  Your articles will also be sent to you so
+you know that your article has made it to the list.  However, those
+addresses that are either no good or no longer active will bounce back
+to you.  So, if you post an article and another members address is no
+longer valid, your original article will be returned to you.  This
+doesn't mean it hasn't been posted to the list.  In fact, just the
+opposite is true. It means that your article WAS posted and that it
+couldn't be sent to one or more of the members of the list due to a bad
+address.
+
+NOTE: I hope to have a fix for this behavior soon.
+
+-- HOW DO I QUIT THE LIST? --
+
+Simply mail a request to be removed from the list to the same address
+you used to sign up:
+
+        lightwave-request@bobsbox.rent.com
+
+In the body of the message enter:
+
+unsubscribe LightWave-l your.name@your.site.domain
+
+I will remove your name from the list of members.  PLEASE, if you join
+the list and your account is going to be closed or if you will not be
+able to receive mail for a while, send a request to be removed from the
+list!  If you are just going to lose access for a short while still send
+a request for a suspension of your membership and I will suspend
+forwarding of the articles to you.
+
+
+-- WHAT ABOUT OLD ARTICLES? --
+
+I am currently archiving all the articles posted to the list at the
+originating site (bobsbox).  However, I can not continue to do this due
+to lack of disk space.  What we need is a volunteer that will maintain a
+compendium of articles sent to the list.  They can compress and store
+them in archives on their system.  They can then periodically post an
+index of the contents of the compendium and any other information that
+relates.
+
+If there are no volunteers then maybe someone can donate a large SCSI
+hard drive to me for archival purposes. <grin>
+
+I have setup a mail-based file server so that anyone interested in the
+list can obtain information as well as the entire archive of past
+articles, the membership listing and other information pertaining to
+the LightWave3D mailing list. For information on this service, please
+send a mail message to:
+
+        fileserver@bobsbox.rent.com
+
+The first command to the server must be "HELP" or "USER name <passwd>".
+
+Use HELP to request a current copy of the helpfile.
+Use USER name [passwd] to connect to the service.
+Use ?    to get a short listing of all available commands.
+
+
+
+-- NOW WHAT DO I DO? --
+
+Well, sit back and enjoy the pouring out of information.  If you have
+something to offer, please feel free to contribute that information to
+the list.  Every little bit helps.  Questions are welcomed!  It makes
+some of us feel important when we can answer them. <grin>
+
+If you have any questions or comments regarding the list, please contact
+me at the address:
+
+        lightwave-admin@bobsbox.rent.com
+
+Cheers,
+
+
+Bob Lindabury

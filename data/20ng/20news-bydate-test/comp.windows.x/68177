@@ -1,0 +1,37 @@
+From: cws@Faultline.Com (Carl Schmidtmann)
+Subject: Re: Any way to *STOP* and application from re-titling?
+Nntp-Posting-Host: gigo.faultline.com
+Organization: Faultline Software Group, Inc
+Distribution: ba
+Lines: 30
+
+In article <1993May13.212121.29048@colorado.edu>, hoswell@alumni.cs.colorado.edu (Mike Hoswell) writes:
+|> 
+|> I'm quite familiar with a variety of window title *setting* methods.
+|> 
+|> My question is...  Is there any way (via Resources, etc) to stop an
+|> application's ability to re-name it's own Name / IconName properties?
+|> 
+
+Sorry, that's a feature.  The ICCCM specifies how the app should set its title, so the wm is obliged to do it.  If this bothers you, complain to the app writer.
+
+|> ...who cares if it's not 'nice' to the application -
+|> 
+|> 	I WANT CONTROL! ;-)
+|> 
+
+Write your own wm that doesn't support the ICCCM.  Or write an program that you give a window ID and a title.  The your program can set the windows title for the app and then if the app changes it, your program switches it back again.
+
+|> -Mike
+|> 
+|> -- 
+|> Mike Hoswell - hoswell@ncar.ucar.edu |   Never Stop! / toasted - Bagels    |
+|> Climate and Global Dynamics          | Disclaimer: I represent myself only |
+|> NCAR, PO Box 3000, Boulder CO, 80307 +----------------+--------------------+
+|>   ...So I've got that going for me --- Which is nice. |   Think Clearly.   |
+
+-- 
+_______________________________________________________________________________
+Carl Schmidtmann                                  Faultline Software Group, Inc
+(408) 736-9655                                    867 Karo Court  
+cws@Faultline.Com  ...!{apple|decwrl}!gigo!cws    Sunnyvale, CA 94086-8146

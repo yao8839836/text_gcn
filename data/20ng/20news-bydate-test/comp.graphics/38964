@@ -1,0 +1,23 @@
+From: ip001b@uhura.cc.rochester.edu (Ivan Pulleyn)
+Subject: PC Question - 256 modes?
+Nntp-Posting-Host: uhura.cc.rochester.edu
+Organization: University of Rochester (Rochester, NY)
+Lines: 17
+
+
+Hi,
+  I need to know if there is a 256 color graphics mode that allows multiple
+pages.  I want something like mode 0x10 (640x350x16 2 pages).  I have been
+experimenting with graphics by calling the BIOS with borland turbo c.  I
+feel like I am flying blind in this area, and could use all the help that
+you can give.
+
+  Thanks,
+	Ivan......
+
+
+-- 
+	+----------------------------------------+
+	| Ivan Pulleyn - University of Rochester |
+	| E-mail - ip001b@uhura.cc.rochester.edu |
+	+----------------------------------------+

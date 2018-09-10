@@ -1,0 +1,17 @@
+From: rwirthli@nyx.cs.du.edu (Ralph Wirthlin)
+Subject: Re: Is it illegal to transmit encrypted data?
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 12
+
+wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705) writes:
+
+>The fact that the NSA is listening may affect your willingness to use
+>wimpy crypto technologies, but it may also affect your willingness to
+>use technologies that violate RSA's patents, e.g. if you use PGP, the
+>NSA may tell RSA that you're doing so, and if the Secret Service catches on,
+
+I'm afraid I have to disagree with you on that point.  NSA will *not*
+tell RSA or any other non-DOD entity anything that its eavesdropping
+reveals.  That includes the FBI and Secrect Service (although there
+have been rare exceptions).   
+

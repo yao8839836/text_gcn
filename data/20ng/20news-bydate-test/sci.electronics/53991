@@ -1,0 +1,29 @@
+From: wout@dutentb.et.tudelft.nl (Wout Serdijn)
+Subject: Re: Pink Noise
+Nntp-Posting-Host: duteela.et.tudelft.nl
+Organization: Delft University of Technology, Dept. of Electrical Engineering
+Lines: 23
+
+Tony Wayne writes:
+
+>What is Pink noise and how is it used in sound experiments?
+>-tony
+
+Pink noise is a random signal with more low-frequency components
+than white noise.
+
+If you look at the frequency spectrum of white noise at a frequency
+analyzer, you will find that the spectrum power density is flat, which
+means that every frequency is present in the noise signal.
+
+Often pink noise is obtained from white noise by integrating of low-pass
+filtering a white noise signal. Therefore pink noise contains much more
+low-frequency components.
+
+The effect of pink noise is sometimes used to simulate thunder or roaring
+animals. An additional low-pass filter with variable cutoff frequency will
+explain you why.
+
+Enjoy it.
+
+Wouter.

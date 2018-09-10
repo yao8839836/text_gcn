@@ -1,0 +1,19 @@
+From: tomh@metrics.com (Tom Haapanen)
+Subject: Can OS/2 talk to Windows for Workgroups?
+Organization: Software Metrics Inc.
+Lines: 14
+
+
+I'd like to get a system running OS/2 2.0 GA talking to a network of PCs
+running Windows for Workgroups.  Acting as a server would be wonderful,
+but client access would be enough.
+
+Can I run WFW 's NET utilities in a DOS box?  Or is there a way to actually
+get OS/2 to talk to WFW?  Will OS/2 LanMan clients talk to WFW?
+
+Dazed and confused,
+
+-- 
+[ /tom haapanen -- tomh@metrics.com -- software metrics inc -- waterloo, ont ]
+[       "stick your index fingers into both corners of your mouth.  now pull ]
+[          up.  that's how the corrado makes you feel."  -- car, january '93 ]

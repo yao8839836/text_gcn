@@ -1,0 +1,19 @@
+From: jvannes@vms.macc.wisc.edu
+Subject: Re: Long distance IR detection
+Organization:  University of Wisconsin Academic Computing Center
+Distribution:  na
+Lines: 13
+
+In article <1993Apr24.064907.22281@ennews.eas.asu.edu>, gsulliva@enuxha.eas.asu.edu (Glenn A Sullivan) writes...
+
+>I designed and built hardware in 1988 that would output a logic level (from
+>a 567 tone detector) upon detecting a 500 microwatt LED 28 feet away.
+>Used a Motorola MRD360, biased linearly  in a DC-feedback loop to servo out
+>variations in sunlight (and 60Hz from lights). Used no lenses.
+> 
+>Allen Sullivan
+
+I would be interested in knowing more about the sensing hardware.  What did
+you use for the detector?  Could you detect the angle of location, or did
+the system simply respond to the presence of the transmitter in the sensors
+field of view?

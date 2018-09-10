@@ -1,0 +1,33 @@
+From: edorn1@cc.swarthmore.edu (Evan Dorn)
+Subject: Please HELP!!  (Wierd Problem)
+Nntp-Posting-Host: mac6.trotter1.swarthmore.edu
+Organization: Swarthmore College
+Lines: 27
+
+Somebody help me cure my poor computer before I go insane!
+
+I have a problem with my 486 when running windows that appears
+to be memory-related.  It's actually not limited to windows, but
+that's where it causes most of my problems.  Ths machine's 486DX33,
+8Meg RAM, 256Kcache, TRIDENT TVGA card, PAS-16 soundcard.
+
+1)  Windows runs REALLY, REALLY slow most of the time.  Slower than
+on my old 386SX16.  Graphics draws/fills are slow, boots are slow,
+applications are sluggish, dialog boxes take up to 15 seconds to appear.
+(Note: some of my other non-windows applications do funny things that
+appear to be related.  Several run slow, my .mod player crashes the
+system etc..)
+
+2) Running Borland C++ 3.0 before running windows (or any of the other
+programs)  COMPLETELY fixes the problem.  Windows will run as fast as
+I've ever seen it run, easily 10 times faster for graphics than
+when I don't run BC beforehand.
+
+3)  I don't have a memory manager installed in config.sys.  Installing
+emm386.exe does not fix the problem- it makes it worse.  After emm386 is
+installed, running BC will not fix the problem anymore.
+
+This problem is driving me nuts.  If you think you can help,
+please reply through the mail.
+Thanks,
+Evan 

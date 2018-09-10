@@ -1,0 +1,39 @@
+From: reed@hpcc01.corp.hp.com (Perry Reed)
+Subject: Re: How Redirect PRINT MANAGER To FILE?
+Organization: Hewlett Packard Co / PGIS
+Lines: 34
+
+> / hpcc01:comp.os.ms-windows.misc / u7911093@cc.nctu.edu.tw ("By SWH ) /  9:58 am  Apr 24, 1993 /
+> Hello,
+> 
+> 	Who can tell me   Where can I find the PD or ShareWare   
+> Which can CAPTURE windows 3.1's output of printer mananger?
+> 
+> 	I want to capture the output of HP Laser Jet III.
+> 
+> 	Though the PostScript can setup to print to file,but HP can't.
+> 
+> 	I try DOS's redirect program,but they can't work in Windows 3.1
+> 
+> 		Thankx for any help....
+> 
+>
+You CAN print to a file from an HP (or any other printer).  Just go into
+the Printers section of your Control Panel.  Select the printer you want
+to re-direct to a file, and click on Connect.  Then choose :FILE as the
+port to connect the printer to.
+
+When you print from any application to that printer, Windows will prompt
+you for a file name for the file into which you want to capture the
+printout.
+
+It's pretty easy.
+
+Good luck!
+
+ 
+-.---.          -.---.          .--------------------------------------.
+ |---'           |---'        . |              Perry Reed              |
+ | .=..-..-.. .  | `. .=..=..-| |    perry_reed@hp0000.desk.hp.com     |
+ ' `- '  '  `-|  '   ``- `- `-` |Be young, be foolish, be lucky in love|
+             -'                 '--------------------------------------'

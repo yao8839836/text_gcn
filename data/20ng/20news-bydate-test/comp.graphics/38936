@@ -1,0 +1,27 @@
+From: spl@pitstop.ucsd.edu (Steve Lamont)
+Subject: Re: RGB to HVS, and back
+Organization: University of Calif., San Diego/Microscopy and Imaging Resource
+Lines: 21
+NNTP-Posting-Host: pitstop.ucsd.edu
+
+In article <1993Apr28.094739.25200@htsa.aha.nl> remcoha@htsa.aha.nl (Remco Hartog) writes:
+>I have a little question:
+>
+>I need to convert RGB-coded (Red-Green-Blue) colors into HVS-coded
+>(Hue-Value-Saturnation) colors. Does anyone know which formulas to
+>use?
+
+I have a little answer:
+
+See Foley, van Dam, Feiner, and Hughes, _Computer Graphics: Principles
+and Practice, Second Edition_.
+
+[If people would *read* this book, 75 percent of the questions in this
+froup would disappear overnight...]
+
+							spl
+-- 
+Steve Lamont, SciViGuy -- (619) 534-7968 -- spl@szechuan.ucsd.edu
+San Diego Microscopy and Imaging Resource/UC San Diego/La Jolla, CA 92093-0608
+"My other car is a car, too."
+                 - Bumper strip seen on I-805

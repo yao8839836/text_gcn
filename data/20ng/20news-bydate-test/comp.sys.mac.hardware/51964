@@ -1,0 +1,31 @@
+From: mididoc@cola.pax.tpa.com.au (Geoff Peters)
+Subject: Re: Mac Plus is constantly rebooting!
+Reply-To: mididoc@cola.pax.tpa.com.au
+Organization: The Clipboard, fidonet 3:800/861
+Lines: 25
+
+> Tae Shin (tshin@husc8.harvard.edu) wrote:
+> :
+> : Basically, the Mac Pluses are constantly rebooting themselves, as if the
+> : reboot button were being pushed.  Sometimes the Mac is able to fully boot
+> : and display the desktop, but it is only a matter of time before it reboots
+> : again.  At times, the frequency is as high as several times a minute.
+> :
+>    I wonder if your Mac has those little "RESET / INTERUPT" switches
+>    installed.  They are plastic devices that push on the switches which
+>    are inside the mac.  Or mabey those switches are bad and need replacing.
+
+I wish I caught the original post, but anyway ...
+
+
+The problem is that the Plus's poor old power supply (sometimes referred to as
+the analog sweep board) is on its way out. Apart from a board swap (bikkies to
+Apple), there's not much the average Joe can do to fix it.
+
+You can, of course, try and re-adjust the voltage levels (the 5v rail should
+be as close to 5v as you cn get it) but this is more often than not a
+temporary fix. A copy of Larry Pina's "Macntosh Repair & Upgrade Secrets" is a
+worthwhile investment for the serious do-it-yaself-er.
+
+
+Geoff Peters                               mididoc@cola.flash.pax.tpa.com.au 

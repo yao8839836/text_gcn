@@ -1,0 +1,41 @@
+From: wijkstra@fwi.uva.nl (Marcel Wijkstra (AIO))
+Subject: Resources and cpp - HELP!
+Organization: FWI, University of Amsterdam
+Lines: 35
+NNTP-Posting-Host: ic.fwi.uva.nl
+
+Hi,
+
+I am running X11R4 on an IBM RS/6000 (AIX 3.2) and X11R5 on a Sun4 (SunOS 4.1).
+
+Since I run X on both colour and black&white displays, I need different
+values for the same resource, so I want to use #ifdef COLOR in my
+application defaults files. However, cpp is only invoked by xrdb, and
+not when the resources are loaded on demand.
+
+Is there a proper solution to this?
+
+So far, the only proper solution I've come to think of, is to create 2
+different files in my ~/app-defaults/, say XTerm and XTerm-color, and
+set my XFILESEARCHPATH to either $HOME/%T/%N or $HOME/%T/%N-color.
+But that does not always seem to work (e.g. executing a remote shell
+command without reading the .cshrc does not set XFILESEARCHPATH).
+
+Furthermore, I thought of using #include "XTerm" in XTerm-color.
+However, for resources in XTerm that I want to override in XTerm-color,
+things are different on both machines. On a Sun, the FIRST found resource
+is used (i.e. the one from XTerm, the b&w one), while on an RS/6000, the
+LAST found value is used (i.e. the one from XTerm-color). What can I do
+about it?
+
+I have one last question: for the specification of XFILESEARCHPATH, I
+can use %T, %N, %C and %S. %T stands for app-defaults, %N for the
+resource class, but what do %C and %S stand for?
+
+Thanks in advance for replying,
+Marcel.
+-- 
+ X   drs. Marcel Wijkstra     (AIO  Visualization)   wijkstra@fwi.uva.nl
+|X|    Faculty of Mathematics and Computer Science   ph: +31 20 525 7522
+ X       University of Amsterdam   The Netherlands   fx: +31 20 525 7490
+=========== Life stinks. Fortunately, I've got a cold.==================

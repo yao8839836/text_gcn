@@ -1,0 +1,30 @@
+From: alc@gdstech.GRUMMAN.COM (Al Chang)
+Subject: Re: AppleTalk ImageWriter LQ compatible needed.
+In-Reply-To: bherrero@cec.uchile.cl's message of Thu, 22 Apr 1993 14: 19:48 GMT
+Organization: Grumman Corporation
+Lines: 24
+
+In article <1993Apr22.141948.32639@dcc.uchile.cl> bherrero@cec.uchile.cl (Beltran Herreros T.) writes:
+
+
+     Since Image Writer LQ was discontinued, there is no Apple Talk
+     printer with 11"*15" continous paper printer.
+
+     I would like to know is there are any possibility to connect
+     an IBM compatible printer to an Apple Talk net directly (or 
+     with a Net Serial hardware), and if I need any other software
+     to do it.
+
+I've have not found quite the solution yet. The following comes from
+MacUser's MiniFinders:
+
+The Grappler IIsp is a dot matrix-printer interface cartridge that
+emulates the Imagewriter LQs. Includes networking and spooling
+software that allows multiple users... $159 Orange Micro 714-779-2772 
+
+If you find out any more information, please let me know because in
+the future I have the same problem, or if anyone else has the
+information please post. Thanks
+
+
+Al

@@ -1,0 +1,39 @@
+From: mlin0432@mailszrz.zrz.tu-berlin.de (Michael Linder)
+Subject: Windows NT: Help needed with IO error 0x0069
+Organization: TUBerlin/ZRZ
+Lines: 33
+NNTP-Posting-Host: mailszrz.zrz.tu-berlin.de
+
+Hi everybody out there,
+I just got the third beta release disk (march 93) of WindowsNT
+and still am not able to boot up that system. The final step
+achieved is the display of IO-error 0x0069. But, since this is
+the beta release of the SDK for NT and not of NT, Microsoft does
+not include a manual on the OS itself, explaining what this
+error means of what I can do to get rid of. My configuration
+is: 
+Mainboard     Hauppauge 4860-25, rev. A7 (a 486 with socket for i860)
+              28megs of memory (512k*36,1M*36,2M*36)
+AMI EISA SCSI controller (15series), latest bios, 16MB cache 
+              ST41200N hard disk
+              Syquest 555 removable disk
+              Toshiba 3301 CD ROM drive
+ProAudio Spectrum Plus 16
+Longshine Ethernet card LCS8634 (NE2000 comp.)
+ET4000 graphics card, 1Meg (ColorImage5)
+The system is running fine under DOS and Windows 3.1 etc, but
+trying to do the setup for NT,
+- automatic setup does not recognize controller (AHA1542-compat.)
+  when adding manually, NT complains not finging any CD-ROM drive
+- the manual setup (WINNT) does not copy everything from CD to HD,
+  does not recognize controller, but takes it manually.
+  Setup continues until it tries to boot. Then it starts loading
+  several stuff from disk (seems to fing the HD), but messing up
+  with that damned IO-Error 69.
+I took away all IO cards not essential, but that did not make any
+effect.
+Anybody got any ideas? Help would be greatly appreciated.
+
+Michael Linder              mlinder@tonet1.physik.tu-berlin.de
+Institute of Optics
+Tech. Univ. Berlin, Germany

@@ -1,0 +1,25 @@
+From: rigby@echo.unr.edu (Wayne Rigby)
+Subject: Re: Cross, Sobel & Roberts Filters ?
+Organization: University of Nevada, Reno  Department of Computer Science
+Lines: 20
+
+In article <1993Apr28.090635.15878@waikato.ac.nz> pdenize@waikato.ac.nz writes:
+
+>I saw an imaging program some time ago on an Amiga that had
+>Cross, Sobel and Roberts filters for edge detection. 
+>
+>Can anybody direct me to these algorithms.
+
+OK, never heard of Cross filters, but Roberts, Prewitt and Sobel filters
+are standard spatial masks for edge detection.  Highpass filtering does a
+good job of detecting edges, too.  A good reference for all sorts of general
+digital image processing is the book _Digital Image Processing_ by
+Rafael C. Gonzalez and Richard E. Woods.  Addison-Wesley Publishing Co. 1992.
+ISBN 0-201-50803-6
+
+I've used this source to do the above filters and many other things as a
+grad project.  Not too dificult to do.  The worst part is loading in the
+images from TIFF/GIF/IFF-ILBM/whatever!  :)
+
+Wayne Rigby
+rigby@cs.unr.edu

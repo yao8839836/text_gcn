@@ -1,0 +1,15 @@
+From: jackp@NETSYS.COM (Jack Powers)
+Subject: NTSC horiz & vert drive from black burst?
+Summary: Need to derive horizontal and vertical drive from black burst
+Keywords: video 
+Organization: Netsys Inc.
+Lines: 8
+
+I would like to hook up some cameras that were recently donated to our
+local community cable TV station which have sync inputs in the form
+of horizontal and vertical drive. Our station sync is a black burst
+which works fine with other boxes with "genlock" style inputs. Can
+anyone point me at a design, article, or whatever showing how to produce
+the horizontal & vertical drive signals? Thanks in advance.
+Jack Powers
+

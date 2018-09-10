@@ -1,0 +1,25 @@
+From: etorrem@cbnewsj.cb.att.com (engelbert.jgm.torremans)
+Subject: Info on I/O port 376h requested???
+Organization: AT&T
+Lines: 20
+
+
+All,
+
+During my attempts to find out how the AT harddisk controller
+works I stumbled across I/O port 376h. The "normal" controller
+ports are in the 1F0h-1F7h range, so what does this port do???
+
+The only information I have upto now about this port is that it
+is a write only port and the information you have to write in it
+is related to the number of heads on the disks.
+
+Could somebody shed some light on this and give me the missing info.
+
+Thanks,
+
+Engelbert Torremans
+AT&T-NS-Nl
+Huizen
+the Netherlands
+Email:etorrem@cbnewsj.att.com

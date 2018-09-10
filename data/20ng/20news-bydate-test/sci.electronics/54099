@@ -1,0 +1,51 @@
+From: wagner@mala.bc.ca (TOM WAGNER, Wizzard of old Audio/Visual Equipment........Nanaimo Campus)
+Subject: Re: Why circuit boards are green?
+Organization: Malaspina College
+Lines: 46
+
+In article <1993Apr23.105152.20155@news.cs.tut.fi>, kuusama@kaarne.cs.tut.fi (Kuusama Juha,,,VTT,) writes:
+> Not that the question is anything important, but I am still curious:
+> Why is that almost all printed circuit boards are green? I have seen
+> a few blue ones, but no red, yellow, company logo etc. Is there a
+> technical reason or could it be that the marketing "geniuses" have
+> not tought about it (yet)?
+> --
+> Juha
+The color of the board shows the composition of it, hence the use of it.
+
+Original and older boards were bakelite composition, and were brown.
+Phenolic (spelling) was a tan
+Most "non filled" fiberglass boards used in computers are green.
+Filled fiberglass is blue.
+Teflon is white.
+
+As boards evolved more and more demands were made of them.  First boards were
+used mainly in audio circuitry.  Couldn't be used in high voltage or RF because
+it would arc and burn.  Most boards today are fiberglass, the type being chosen
+by its use and cost.  
+
+Boards in satellite and microwave communication are teflon (and ceramic) as the
+fiberglass, and other boards are conductive (they actually work more as a 
+capacitive dialectric, but the word conductive simplifies explaination) at the
+high frequencies.
+
+Another printed circuit material used mainly in automotive and interconnections
+is a thin flexible (mostly mylar) material and is used to connect the front of
+the vehicle (etc) to the back instead of wiring harnesses.  Camcorders use this
+to intereconnect the boards inside where wires would be a nuisance.
+
+Am working on a generator made by Hewlet Packard right now and the entire board
+is gold plated, boy it looks expensive!!!
+
+Hope I got most of my facts right as I am working from memory of material read.
+
+My education was pre-transister!
+-- 
+73, Tom
+================================================================================
+Tom Wagner, Audio Visual Technician.  Malaspina College Nanaimo British Columbia
+(604)753-3245, Loc 2230  Fax:755-8742  Callsign:VE7GDA Weapon:.45 Kentucky Rifle
+Snail mail to:  Site Q4, C2.   RR#4, Nanaimo, British Columbia, Canada, V9R 5X9  
+
+I do not recyle.....   I keep everything!       (All standard disclaimers apply)
+================================================================================

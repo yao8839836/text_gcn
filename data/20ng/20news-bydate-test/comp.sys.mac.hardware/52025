@@ -1,0 +1,23 @@
+From: tbower@chopin.udel.edu (Tyson S Bower)
+Subject: Re: The 25MHz IIsi
+Nntp-Posting-Host: chopin.udel.edu
+Organization: University of Delaware
+Lines: 17
+
+
+Re: Methods for attaching heat sink to processor.
+
+Go to Radio Shack and buy a tube of heat sink compound. It comes
+in a little blue and white tube with a black screw on cap.  At
+Radio Shack, it's catalog number 276-1372.  It's a mix of
+silicone and zinc oxide, and conducts heat very well.  Plus, it's
+tacky.
+
+Usually, you would smear a bit between the chip and the sink, and then
+bolt or clamp the sink down, but if you don't move your Mac, gravity
+and the stickiness of the goo should be more than suffcient to hold
+things in place.  Just make sure you remember it's in there, in case
+you tilt your Mac and jar it hard enough to shake it loose.  You
+wouldn't want a loose piece of metal running around inside your Mac.
+
+

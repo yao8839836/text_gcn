@@ -1,0 +1,29 @@
+From: jhardono@nickel.ucs.indiana.edu (Independent Quorum Distributor Computer Seller Shipper)
+Subject: Why does My WIndow 3.1 restart my computer?
+Nntp-Posting-Host: nickel.ucs.indiana.edu
+Organization: Indiana University
+	I would like to know a cause of my window 3.1 problem. Every time
+Lines: 22
+
+FILES=30
+BUFFERS=30
+DEVICE=C:\WINDOWS\HIMEM.SYS
+DEVICE=C:\WINDOWS\SMARTDRV.EXE /DOUBLE_BUFFER
+STACKS=9,256
+
+and also my autoexec.bat
+
+C:\vshield
+C:\WINDOWS\SMARTDRV.EXE /L
+rem ***************** MouseWare 5.0 Setup ******************
+PATH=C:\;c:\dos;C:\WINDOWS;C:\FAX;C:\MOUSE;C:\WP51\;
+SET TEMP=C:\WINDOWS\TEMP
+MOUSE SER 2
+rem ********************************************************
+c:\dos\share
+
+Have you seen this problem before? Please help me out...
+
+thanks
+
+Hadi

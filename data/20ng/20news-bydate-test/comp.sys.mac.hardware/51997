@@ -1,0 +1,29 @@
+From: douce@tfsquad.mn.org (Andrew Geweke)
+Subject: LC II Slowdowns?
+Organization: tfsquad public access usenet, St Paul MN (+1 612 291 2632)
+Lines: 24
+
+        I am currently managing, among many other labs, a lab with three 
+LC IIs, a Mac Plus with 45 MB external HD, and a LaserWriter II NTX. My 
+problem? The LC IIs seem to intermittently slow to a snail's pace.
+        These LC IIs have 4 MB RAM, 256K VRAM, and a Quantum LP105S HD 
+installed. I have reformatted the drive with Hard Disk Toolkit 1.3, and 
+it gives a very respectable 2.9 overall rating to this drive, so it's not 
+the drive. I have reinstalled System 7.1, MS-Word 5.1a, MS-Works 3.0, and 
+so on, all from the master disks. In short, I have done everything I can 
+think of in software. I am *not* a hardware hacker, though I pop cases 
+fairly often. But nothing works.
+        The problem is intermittent and unpredictable. The mouse always 
+moves smoothly, floppies always run at the same speed, but occasionally, 
+for about 1-2 hours at a time, a machine will run like it was running on 
+a 4 MHz 68000, not a 16 MHz 68030. It is VERY frustrating and makes it 
+nearly unusable. It does seem to worsen with increasing disk activity.
+        Has anyone encountered this problem before? Has anyone got any 
+ideas? They would be much appreciated.
+
+                                    -- Andrew Geweke
+
+---
+douce@tfsquad.mn.org (Andrew Geweke)
+The Firing Squad BBS, public access Usenet mail and news.  +1 612 291 2632
+Saint Paul, Minnesota

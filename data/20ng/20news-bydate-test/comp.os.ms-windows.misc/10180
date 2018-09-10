@@ -1,0 +1,42 @@
+From: mats@gar.no (Mats Tande)
+Subject: Coda Music: Finale and Petrucci font problem
+Keywords: coda finale music font atm petrucci eps adobe
+Organization: Gallagher & Robertson A/S
+Lines: 36
+
+
+I've been using Final from CODA for some time, but suddenly it stopped using 
+my fonts. I have a 386 PC with lots of disk space and memory, a Postscript 
+laser, Win3.1, Finale 2.0.1 and I recently installed ATM 2.0. I've been 
+fiddling around with the Windows setup for some time, and when I needed to do 
+some work with Finale things didn't print properly. It might - and it might 
+not - have anything to do with the installation of ATM from 1.something to 
+2.0, but I don't have the old ATM lying around anomore. 
+
+The most annoying problem was that the Petrucci font didn't print, which is a 
+rather important font :-) 
+
+I managed to get direct printing to work if I included OwnPS=0 in the 
+[Finale] section of WIN.INI, but Compile PostScript Listing still doesn't 
+work; and it's those .EPS files I need. When I look at the .eps files 
+generated the only font which appears there is Courier. I found out that if I 
+manually changed the Courier 24-point to Petrucci 24-point in the .EPS file 
+everything worked ok, but I'd rather avoid that since I have a lot of songs 
+to work with. 
+
+And yes, in the Special/Font/Font names dialog box all the fonts I need are 
+listed, with the correct mapping between Finale, Screen and Printer fonts. 
+Finale is obviously aware of the fonts since direct printing of a score works 
+well (that is, after I included OwnPS=0), and all my other Windows 
+applications print Petrucci and the other fonts well. 
+
+Has anyone encountered problems like this? 
+
+What is the current version of Finale from Coda Music Software? I have 2.0.1
+
+Are the people at Coda available on Internet or X.400?
+
+I'd be grateful for all hints and help.                                -mats
+-- 
+Internet: mats@gar.no       QuikComm: mats@gar#@genor       ServerP: mats garp
+X.400:    g=Mats; s=Tande; o=Oslo; p=GR; A=Telemax; C=NO;

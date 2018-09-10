@@ -1,0 +1,125 @@
+From: lioness@maple.circa.ufl.edu
+Subject: Kubota Kenai/Denali specs
+Organization: Center for Instructional and Research Computing Activities
+Lines: 118
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+
+Okay, I got enough replies about the Kubota Kenai/Denali systems that I
+will post a summary of their capabilities.  I haven't actually used one
+or seen one, so take the specs with a grain of salt.  I'd like to see
+an independent review of one against, say, an SGI Indigo Extreme or
+something.
+
+Basically, the Kenai workstations are DEC Alpha AXP based workstations that
+run OSF/1 ( DEC's ) and will likely run Windows NT in the future.  They are
+binary compatible with Digital's OSF/1 Alpha AXP implementation.  Denali
+is their graphics subsystem, which is upgradable in the field by
+simply adding "transformation engines".
+
+The two main Kenai machines are the 3400 Imaging and 3D Graphics Workstation
+and the 3500 Imaging and 3D Graphics Workstation.
+
+
+			3400			3500
+
+CPU			DEC Alpha AXP 133MHz	DEC Alpha AXP 150MHz
+On-chip cache		8k/8k			8k/8k
+Onboard cache		512K			512K
+Word Size		64-bit			64-bit
+Memory ( initial )	32-128MB		32-256MB
+Memory ( future )	512MB			1GB
+SPECMARK89		111			126
+SPECINT92		75			84
+SPECFP92		112			128
+
+GRAPHICS
+
+Transform Modules	1-6			1-6
+Frame Buffer Modules	5,10,20			5,10,20
+Frame Buffer		1280x1024x24bit		1280x1024x24bit
+			double buffered		double buffered
+Z-buffer		24-bit			24-bit
+Alpha/stencil		8-bit			8-bit
+Stereo support		yes			yes
+Other:				both machines will double buffer or do
+				stereo output per window.  Both have an
+				auxiliary video output that is RS-170A,
+				NTSC, and PAL
+
+STORAGE
+
+Internal-fixed		2 3.5"			4 3.5"
+Internal-removable	1 5.25"			2 5.25"
+Max capacity		9.5GB			11.6 GB
+
+IO
+
+Both have TurboChannel 100MB/sec, SCSI-2, Ethernet, and FDDI
+
+APPLICATION PROGRAMMING INTERFACES
+
+Both have libraries for Xlib, Motif, MIT PEXlib, DEC-PEXlib DEC-PHIGS, and GL
+
+Okay, now the real stuff.  The Kenai stations work with a graphics architecture
+known as Denali.  The Denali comes in three models, the E, P, and V.  They
+use a DECchip 21064 superscalar RISC processor at 150MHz.  Their
+capabilities are as follows:
+
+			E		P		V
+
+2D Vectors		800-200K	2000-3800K	4000-4800K
+3D Vectors #1		350-1100K	1100-1800K	1800-2100K
+3D Vectors #2		300-1000K	1000-1600K	1600-1900K
+3D Vectors #3		300-500K	800-1000K	1300-1400K
+3D Triangles, #4	200-500K	600-1000K	1000-1200K
+3D Triangles, #5	100-200K	300-400K	500-600K
+
+#1: 10 pixel, flat shaded, connected
+#2: 10 pixel, Gouraud shaded, connected
+#3: 10 pixel, 2-pixel wide, anti-aliased, connected
+#4: 50-pixel, Gouraud shaded, Z-buffered, strip
+#5: 50-pixel, texture mapped, persp., point sampled
+
+IMAGE PROCESSING
+
+Cine loop - 8-bit	15-36Mp/s	37-58 Mp/s	60-68 Mp/s
+Cine loop - 16-bit	14 Mp/s		25 Mp/s		38 Mp/s
+Cine loop - 24-bit	12-21 Mp/s	21 Mp/s		21 Mp/s
+Contrast stretching #1	14 Mp/s		25 Mp/s		20 Mp/s
+Bilinear zoom		6 Mp/s		11 Mp/s		20 Mp/s
+Trilinear interp#2	--		6 Mvoxels/s	11 Mvoxels/s
+
+#1: Lookup table -- 12-,16-bit to 8
+#2: Trilinear interpolation, 8-bit voxels
+
+CONFIGURATIONS
+Frame Buffer Modules	5		10		20
+Transform Engine Mod.	1-3		3-5		5-6
+
+
+As you can see, these are pretty powerful workstations, and the best part
+is the pricing.  I would recommend that you call Kubota for more information.
+Their number is 408-727-8100.  I'm sure they'll send you an information you
+may want.  Oh, some prices:
+
+Low-end
+
+Kenai 3400, E Series w/ 1 TEM and 5 FBM --- 27,795 dollars U.S.
+Kenai 3500, E Series w/ 1 TEM and 5 FBM --- 45,345 dollars U.S.
+
+High-end
+
+Kenai 3400, V Series w/ 6 TEM and 20 FBM -- 61,795 dollars U.S.
+Kenai 3500, V Series w/ 6 TEM and 20 FBM -- 79,345 dollars U.S.
+
+If someone could post a relative comparision with an Indigo Extreme or
+something I would appreciate it.
+
+Hope this helps someone out there,
+
+Brian
+
+PS I am not affiliated with Kubota in any way.  Hell, I thought they made
+tractors or something. :-)

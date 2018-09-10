@@ -1,0 +1,38 @@
+From: rmohns@vax.clarku.edu
+Subject: RE: Challenge to Microsoft supporters.
+Organization: Clark University
+Lines: 33
+
+In a previous article, jenk@microsoft.com (Jen Kilmer) wrote:
+> I had posted that it came from a survey of registered users, I 
+> double-checked with a friendly neighborhood marketing type and
+> found there were actually two surveys. One of randomly selected
+> resellers, one of randomly selected users from the 6 upgrade 
+> registered user database. Both surveys showed a 93% positive
+> rating.
+>
+> -jen
+>
+> -- 
+> #include <stdisclaimer>  //  jenk@microsoft.com  // msdos testing
+
+Which translates to 7% not satisfied.  I don't think it's the awkward 
+recursive deletion that's bugging people, it certainly isn't the nice Windows 
+interfaces for new DOS accessories (CPAV, defrager, undelete).
+
+	As far as I've noticed, it's DoubleSpace crashes.
+
+Frankly, the fairly high rates of DoubleSpace crashes I've heard of surprises 
+me!  I figured that since the OS is presumably aware of DoubleSpace, it is 
+less likely to crash (unlike Stacker, which fools the OS... but DO is gullible 
+anyway :).  DOS 6 _is_ aware of DoubleSpace isn't it?
+
+Anyway, good job on DOS 5, and DOS 6 is good for new users.  Just beware the 
+doublespace!
+
+Rob
+
+
+--------------------------------------------------------------------------------
+Rmohns@vax.clarku.edu |  Rob Mohns  |  Annoy Rush Limbaugh.  Think for yourself.
+--------------------------------------------------------------------------------

@@ -1,0 +1,86 @@
+From: michael@jester.GUN.de (Michael Gerhards)
+Distribution: world
+Subject: Re: HOW is a Null Modem Cable?
+X-Newsreader: TIN [version 1.1 PL8]
+Organization: private COHERENT system
+Lines: 76
+
+Kevin Kimmell - Computer Science/German Undergrad (ke_kimmell@vax.cns.muskingum.edu) wrote:
+
+> 	I am interrested in the extrodinarily simple concept of the null modem
+> cable. (Actually I have NO idea, so don't count that last statement.)  What I'm
+> asking is what pins does it use (or what are it's specifications?)  I just want
+> to solder one myself instead of buying one.  I don't even know what port is
+> used.
+
+DB-25	DB-9
+Pin #	Pin #	Name	EIA	CCITT	DTE-DCE	Description
+------------------------------------------------------------------------------
+ 1		FG	AA	 101	  ----	Frame ground
+ 2	3	TD	BA	 103	  --->	Transmitted data
+ 3	2	RD	BB	 104	  <---	Received data
+ 4	7	RTS	CA	 105	  --->	Request to send
+ 5	8	CTS	CB	 106	  <---	Clear to send
+ 6	6	DSR	CC	 107	  <---	Data set ready
+ 7	5	SG	AB	 102	  ----	Signal ground
+ 8	1	DCD	CF	 109	  <---	Data carrier detect
+ 9		--	--	  -	    -	Positive DC test voltage
+10		--	--	  -	    -	Negative DC test voltage
+11		QM	--	  -	  <---	Equalizer mode
+12		SDCD	SCF	 122	  <---	Secondary data carrier detect
+13		SCTS	SCB	 121	  <---	Secondary clear to send
+14		STD	SBA	 118	  --->	Secondary transmitted data
+15		TC	DB	 114	  <---	Transmitter clock
+16		SRD	SBB	 119	  <---	Secondary receiver clock
+17		RC	DD	 115	  --->	Receiver clock
+18		DCR	--	  -	  <---	Divided clock receiver
+19		SRTS	SCA	 120	  --->	Secondary request to send
+20	4	DTR	CD	 108.2	  --->	Data terminal ready
+21		SQ	CG	 110	  <---	Signal quality
+22	9	RI	CE	 125	  <---	Ring indicator
+23		--	CH	 111	  --->	Data rate selector
+24		--	CI	 112	  <---	Data rate selector
+25		TC	DA	 113	  <---	Transmitted clock
+
+.-.-.- from another posting in c.s.i.p.h .-.-.-
+.-.-.- sorry, don't know the author .-.-.-.-.-.
+Connecting devices
+------------------
+ 
+  Normally, a 7 wire connection is used. Connect:
+        GND1    to    GND2
+	RxD1    to    TxD2
+	TxD1    to    RxD2
+	DTR1    to    DSR2
+	DSR1    to    DTR2
+	RTS1    to    CTS2
+	CTS1    to    RTS2
+  If a modem is connected, add lines for the following:
+        RI, DCD
+  If software wants it, connect DCD1 to CTS1 and DCD2 to CTS2.
+  BEWARE! While PCs use pin 2 for RxD and pin 3 for TxD, modems normally
+have those pins reversed! This allows to easily connect pin1 to pin1, pin2
+to pin 2 etc. If you connect two PCs, cross RxD and TxD.
+ 
+  If hardware handshaking is not needed, a so-called null-modem connection
+can be used. Connect:
+        GND1    to    GND2
+	RxD1    to    TxD2
+	TxD1    to    RxD2
+Additionally, connect (if software needs it):
+        RTS1    to    CTS1 & DCD1
+	RTS2    to    CTS2 & DCD2
+	DTR1    to    DSR1
+	DTR2    to    DSR2
+You won't need long wires for these!
+  The null-modem connection is used to establish an XON/XOFF-transmission
+between two PCs (see software section for details).
+  Remember: the names DTR, DSR, CTS & RTS refer to the lines as seen from
+the PC. This means that for your data set DTR & RTS are incoming signals
+and DSR & CTS are outputs!
+.-.-.-.- end .-.-.- 
+
+Michael
+--
+*  michael@jester.gun.de  *   Michael Gerhards   *   Preussenstrasse 59  *
+                          *  Germany 4040 Neuss  *  Voice: 49 2131 82238 *

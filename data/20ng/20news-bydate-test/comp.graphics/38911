@@ -1,0 +1,42 @@
+From: gvanvugh@cs.uct.ac.za (Gerhard van Vught)
+Subject: Re: Viewing JPEG files
+Article-I.D.: cs.C68Mnq.FCq
+Organization: Computer Science Department, University of Cape Town
+Lines: 36
+
+In <1993Apr28.202500.3384@ucbeh.san.uc.edu> lwilson@ucbeh.san.uc.edu writes:
+
+>Can I view JPEG files without special hardware?
+>  
+>    Lucy Wilson, Access Services Librarian
+>    College of Engineering, University of Cincinnati
+
+Yup.
+
+Most JPEG viewers seem to require specific video drivers since they support
+only specific video cards. Some have the standard IBM BIOS video support for
+the VGA 320x200 256 colour mode, but they leave out the other cards such as
+the Hercules monochrome card (which by the way can give very good picture
+quality if your dithering works right).
+
+I can't remember the name of a JPEG viewer since I usually convert JPEG's to
+GIF's before viewing them. But some require VESA driver for the video cards.
+You don't need any special hardware to view JPEG's except perhaps for a VGA
+card and maybe a 286+ processor. Most people these days program for 286+
+computers and neglect the rest of the 86 processors (8086, 8088). I have a
+8088 clone (a NEC V20 processor) and a Hercules card, I have had to write
+some programs so that they will view GIF's and animations for the VGA and other
+colour graphics boards on my monochrome Hercules card. I use Floyd-Steinberg
+dithers and have found that if one does something neat with the colour palette
+the resulting dithered image gives much greater detail than it normally would
+when viewed on other monochrome systems. CompuShow 8.50 has FS dithering but
+it does the standard thing with the image palette before dithering, my way
+gives a brighter more detailed image.
+
+Anyway, enough of my rambling in the wrong direction. The final point is, as
+far as I know, you don't need extra hardware to view JPEG's other than the
+VGA (and perhaps a 286 or better)
+
+Have a day!
+
+Gerry.

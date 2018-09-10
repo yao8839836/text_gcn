@@ -1,0 +1,37 @@
+From: s127@ii.uib.no (Torgeir Veimo)
+Subject: virtual sound
+Keywords: virtual sound, surround sound
+Organization: Institutt for Informatikk UIB Norway
+Lines: 31
+
+I'm looking for algorithms or articles on virtual sound. What i want to do is
+the following;
+
+From a fast source, eg. a CDROM, several sound sources are read, each having
+it's own defined position and other attributes, eg. direction etc.  Given the
+listeners position and direction, the sum of sound played back in each of the
+listeners earphones will be a function of this position and direction.  This
+means that some simulation of the ears coloring of sound relative to it's
+incoming direction have to be done for each sound source.  (I think this is
+possible to do with a lookup table of impulse responses for several angles
+relative to each ear, and interpolate an impulse function from this for a given
+angle.  This impulse function could then be convoluted with the sound from the
+source.  This impulse function must be changed every time some sound source
+changes position or the listener changes orientation.)  Additionally some
+reflection, diffusion and absorbtion due to the environment wich is defined
+could be simulated, but this requires some sort of sound propagandation
+simulation, kinda like some radiosity algorithm.  
+
+Have someone done this and/or written articles on implementing such a system? 
+
+Please post or mail any answers or comments.
+
+-- 
+Torgeir Veimo
+
+Studying at the University of Bergen
+
+"...I'm gona wave my freak flag high!" (Jimi Hendrix)
+
+"...and it would be okay on any other day!" (The Police)
+

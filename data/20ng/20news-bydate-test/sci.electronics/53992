@@ -1,0 +1,89 @@
+From: cmh@eng.cam.ac.uk (C.M. Hicks)
+Subject: Re: 8x oversampling CD player
+Nntp-Posting-Host: club.eng.cam.ac.uk
+Organization: cam.eng
+Keywords: oversampling, CD, digitized audio
+Lines: 82
+
+mcmahan@netcom.com (Dave Mc Mahan) writes:
+
+> In a previous article, kolstad@cae.wisc.edu (Joel Kolstad) writes:
+>>In article <hcbC5un9L.DD0@netcom.com> hcb@netcom.com (H. C. Bowman) writes:
+>>>
+>>>I just bought a new portable CD player for the office, and I notice that
+>>>it proudly proclaims "8 TIMES OVERSAMPLING" on the box.  Now while I think
+>>>I understand what oversampling is (the rate of discrete "samples"
+>>>exceeds the highest frequency component of interest by some factor),
+>>>I don't understand this "8 TIMES" business...  It seems to me that when
+>>>I bought my first CD player (was it REALLY 10 years ago?!), the specs
+>>>said "4 TIMES" ...  Could someone please tell me whether I'm getting
+>>>senile?  If I'm not, then what good does it do for the player to take
+>>>samples at a higher rate?  
+
+>>The data is only ever read once (barring mistracks and such, of course),
+>>and eventually gets turned into 44.1 KHz, 16 bit, two channel data.
+>>Oversampling takes two discrete data points, and interpolates n-1 points
+>>between them for n times oversampling.  When I asked, people said that the
+>>interpolation was not simply linear interpolation, but significantly more
+>>complicated.
+
+>You are quite correct in your understanding.  The filtering is not
+>interpolation, as that would distort the frequency content of the signal
+
+They do interpolate - it's not linear interpolation though. You are correct
+that the frequency content is not altered (more specifically, the baseband
+spectrum is preserved, and so is every Nth image spectrum. The other
+(N-1) in N image spectra are removed, where N is the oversampling rate)
+
+>you are listening to.  Generally, these players run the samples thru an
+>all-pass filter network.  I have done this for ECG waveforms from a person's
+
+Ideally the filter has a gain of 1 from 0Hz to 22050Hz, and a gain of 0
+from 22050 to the new Nyquist frequency. In practice a finite transition
+band is required, and there is also a certain amount of pass-band ripple
+and stop-band leakage. With a high order (eg 200 taps) digital filter,
+a very good approximation can be easily achieved.
+
+ <<< BIT DELETED ABOUT OBSERVATIONS OF INTERPOLATION FILTER AT WORK >>>
+
+>In case you care, the filtering method uses an FIR (finite impulse response)
+>filter.  I'd guess that CD makers use the same kind of method.  Anybody out
+>there know the real answer?  I'd say that they use a tapped delay line with
+>resistor/op-amp weighting to accomplish the filtering.  This strikes me as
+>the most cost effective method for volume production runs.
+
+No, they actually use a digital FIR just like yours, but built in hardware,
+on custom VLSI chips for (mainly) economic reasons.
+
+>>Anyway, then, the purpose of oversampling is to move the "effective"
+>>sampling rate up to n times 44.1 KHz, in order to use higher frequency
+>>antialiasing filters.  For the same quality filter, higher oversampling
+>>lets you build cheaper filters, whereas for the same price filter, higher
+>>oversamplings lets you build better filters.  So, assuming the quality of
+>>all other components in a CD player remained the same, oversampling should
+>>allow a manufacturer to produce _slightly_ better sound due to anti-alias
+>>filtering.
+
+>Actually, I think the only reason they do this is so that they can say that
+>they have a marketting gimic.  I would guess that it is acutally cheaper to
+>filter an oversampled signal than not.  You can use sloppier components and
+>give the filter a roll-off that isn't so sharp.   It's too bad that they
+>charge more for something that (I think) is actually less costly to build.
+
+I guess that the answer is somewhere between the two.
+
+As an interesting (?) aside, some of you out there may be aware of a scheme
+used by Pioneer and Wadia, which is called (by Pioneer, at least) Legato
+Link. I haven't heard one of these players, but by reading advertising
+blurb, and a couple of pseudo-technical articles I deduced that all they
+do is build a lousy digital oversampling filter, and let a load of the
+first image (ie aliassed) spectrum through. Talking to Bob Stuart (of
+Boothroyd Stuart, aka Meridian) confirmed my suspicion. He said that it
+sounded awful, but then he would, wouldn't he...
+
+Christopher
+--
+ ==============================================================================
+  Christopher Hicks    |      Paradise is a Linear Gaussian World
+  cmh@uk.ac.cam.eng    |    (also reported to taste hot and sweaty)
+ ==============================================================================

@@ -1,0 +1,20 @@
+From: mike@avon.demon.co.uk ("Mike H.")
+Subject: Re: S1, S2 
+Distribution: world
+Organization: None
+Reply-To: mike@avon.demon.co.uk
+X-Newsreader: Simple NEWS 1.90 (ka9q DIS 1.21)
+Lines: 12
+
+In article <1r60ue$102@access.digex.net> steve-b@access.digex.com writes:
+>  The only theory that makes any sense is that S1 and S2 are either the
+>same for all chips, or vary among very few possibilities, so that anyone
+>trying to break the encryption by brute force need only plow through the
+>possible serial numbers (2^30, about one billion), multiplied by the number
+>of different S1, S2 combinations.
+>
+Iff the phones transmit their serial nos. as part of the message then what
+is to say that each phone can take that serial number and use it to generate
+the required key....
+
+

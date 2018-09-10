@@ -1,0 +1,26 @@
+From: pvr@wang.com ()
+Subject: Re: 2% silver solder
+Organization: Wang Labs, Lowell MA, USA
+Nntp-Posting-Host: preilley.wiis.wang.com
+Lines: 20
+
+shiekh@ictp.trieste.it (Andy Shiekh) writes:
+
+>  I have seen the existance of electronics solder with a 2% silver
+>content that seems to have good wetting and fatique reatings.
+>  Can anyone tell me why it is not used? (silver is not such an expensive
+>metal).
+
+   This is called silver bearing solder.   It is used to solder to
+devices that have silvered contacts.   One application is soldering
+to the ceramic terminal strips used in the old Tektronix scopes.   These
+were notched ceramic strips that were silver plated in the notches.
+If you used ordinary solder the molten metal would disolve the silver
+off of the ceramic.   The silver was quite thin.   The 2% is a saturated
+solution of silver in tin and lead.    Thus, no more silver can be
+disolved in the solder solution.   Other devices that use silver contacts
+are quartz crystals and ultrasonic transducers.
+--
+-->>>>>>>>>> Peter Reilley ..... pvr@wiis.wang.com ..... KA1LAT <<<<<<<<<<<--
+     For info on BEAV (Binary Editor And Viewer) finger pvr@das.wang.com
+                     Well, that about says it.

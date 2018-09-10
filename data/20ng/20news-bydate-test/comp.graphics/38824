@@ -1,0 +1,48 @@
+From: lilley@v5.cgu.mcc.ac.uk (Chris Lilley)
+Subject: Re: 48-bit graphics...
+Keywords: 48-bit alpha channel IMAGE
+Lines: 41
+Reply-To: C.C.Lilley@mcc.ac.uk
+Organization: Computer Graphics Unit, MCC
+
+
+In article <1993Apr24.201117.26232@cs.wisc.edu>, oehler@yar.cs.wisc.edu (Wonko
+the Sane) writes:
+
+>	I was recently talking to a possible employer ( mine! :-) ) and he made a
+>reference to a 48-bit graphics computer/image processing system.  I seem to
+>remember it being called IMAGE or something akin to that.  Anyway, he claimed
+>it had 48-bit color + a 12-bit alpha channel.  That's 60 bits of info--what
+>could that possibly be for?  Specifically the 48-bit color?  That's 280
+>trillion colors, many more than the human eye can resolve.  Is this an
+>anti-aliasing thing?  Or is this just some magic number to make it work better
+>with a certain processor.
+
+Well 48 bit colour *could* be for improved resolution but 16 bits per channel
+seems like a bit excessive. I have seen a paper that quoted 10 bits per channel
+of 12 bits for computational precision. More than that would seem to be wasted.
+
+Perhaps the frame buffer uses another colourspace which needs more bits to
+represent the full range - RGB is a cube so it is a compact encoding.
+
+Most likely however is that there are two separate 24 bit (8 bits per component)
+frame buffers. This set up, called double buffering, allows a complex 3d picture
+to be built up on one buffer while the other buffer (containing the previous
+frame) is displayed. This makes for smoother animation.
+
+>(sadly, I have access to none of them.  Just a DEC 5000/25.  Sigh.)
+
+Well hey if you want to brag about numbers, the 5000 range can take a PXG Turbo+
+card with 96 bits per pixel. Full double buffering (Two 24 bit buffers), a 24
+bit Z buffer and an extra 24 bit buffer for off screen image storage.
+
+Mind you the card costs more than your workstation.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc
+------------------------------------------------------------------------------

@@ -1,0 +1,33 @@
+From: gas@vm.ffi.no (Geir Atle Storhaug)
+Subject: Re: Help with World-to-screen 4x4 transfomation matrix
+Organization: Norwegian Defence Research Establishment, Kjeller, Norway.
+Lines: 26
+NNTP-Posting-Host: globus.ffi.no
+In-reply-to: rob@rjck.uucp's message of Tue, 11 May 1993 19:32:54 GMT
+
+In article <C6vnMv.9G6@rjck.uucp> rob@rjck.uucp (Robert J.C. Kyanko) writes:
+
+   I need help in creating my 4x4 perspective matrix.  I'd like to use this for
+   transforming x, y, z, w in some texture mapping code I got from Graphics Gems
+   I.  I have many books which talk about this, but none of them in simple plain
+   english.  If you have Graphics Gems I, I'm talking about page 678.
+
+   I'd like to have a perspective matrix that handles different field-of-views
+   and aspect of course.  Thank's for your help.
+
+ca2 = cos(alpha / 2) Horizontal
+sa2 = sin(alpha / 2)
+cb2 = cos(beta / 2) Vertical
+sb2 = sin(beta 7 2)
+Zf = Far clipping value
+Zn = Near clipping value
+
+Matrix:
+[[ca2/sa2 0 0 0]
+[0 cb2/sb2 0 0]
+[0 0 Zf/(Zf-Zn) 1]
+[0 0 -Zn*Zf/(Zf-Zn) 0]]
+--
+ ____     ___   Geir Atle Storhaug
+/ ____/\ (__    Geir.A.Storhaug@vm.ffi.no
+\___//  \___)   Phone: +47 63 807658 (office)     +47 63 838987 (home)

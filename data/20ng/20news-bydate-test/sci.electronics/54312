@@ -1,0 +1,40 @@
+From: swanee@megadata.mega.oz.au (Geoff Swan)
+Subject: Re: Why circuit boards are green?
+Organization: Megadata P/L, North Ryde, Sydney, Aust.
+Lines: 35
+
+In article <1993Apr23.102039.1720@mala.bc.ca>, wagner@mala.bc.ca (TOM WAGNER, Wizzard of old Audio/Visual Equipment........Nanaimo Campus) writes:
+> 
+> The color of the board shows the composition of it, hence the use of it.
+> 
+> Original and older boards were bakelite composition, and were brown.
+> Phenolic (spelling) was a tan
+> Most "non filled" fiberglass boards used in computers are green.
+> Filled fiberglass is blue.
+> Teflon is white.
+> 
+
+Rubbish. The reason for the colour of the boards depends on the solder
+mask that is used. Older boards (bakelite and phenolic) rarely used
+a solder mask (these boards are not suited well to automatic stuffing
+and soldering techniques) and hence are the colour of the compound
+used to make them. These days boards are made of fibreglass for most
+general purpose uses and have a solder mask applied to them to prevent
+close traces shorting to one another during soldering (and also to prevent
+the decomposition of traces under harsh environments). The light and dark
+green boards ofter seen have a "dry film" mask applied to them (usually
+applied as a complete film photographically produced). The blue (and red
+or orange) boards are a two-part epoxy or a liquid-imageable resist
+formulation and are applied in a different manner. There's a lot of info
+about the pro's and con's of each, but that's another story...
+
+    Sla/n go fo/ill,
+                    Risky B.
+--------------------------------------------------------------------------
+Geoff Swan (research & development)   _--_|\         swanee@mega.com.au
+Megadata Pty Ltd                     /      \ 
+2/37 Waterloo Rd, North Ryde,        \_.--._/               +61 2 805 0899
+NSW 2113, Australia.                       v          (Fax) +61 2 887 4847
+
+
+

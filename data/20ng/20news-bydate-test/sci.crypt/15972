@@ -1,0 +1,44 @@
+From: hal@cco.caltech.edu (Hal Finney)
+Subject: Re: S1, S2
+Organization: California Institute of Technology, Pasadena
+Lines: 38
+NNTP-Posting-Host: alumni.caltech.edu
+
+steve-b@access.digex.com (Steve Brinich) writes:
+
+> > Second question: Why!?!? Why is such a strange procedure used, and not
+> >a real RNG ? This turns those S1,S2 in a kind of bottleneck for system-
+> >security.
+
+>  The only theory that makes any sense is that S1 and S2 are either the
+>same for all chips, or vary among very few possibilities, so that anyone
+>trying to break the encryption by brute force need only plow through the
+>possible serial numbers (2^30, about one billion), multiplied by the number
+>of different S1, S2 combinations.
+
+My interpretation of Denning's description is that S1 and S2 are chosen
+randomly by agents of the key escrow companies at the start of each 300-
+chip programming session.  I imagine that the chips are in a carrier which
+will allow them all to be programmed fairly quickly - there would not be
+a need to transfer chips one at a time into a little PLA programmer as some
+people have envisioned.
+
+My guess as to why this procedure is used is that basing the keys on the
+S1 and S2 using a specified algorithm provides an (in-principle) checkable
+way to verify that no back doors exist in the choice of the random numbers
+used to generate the keys.  Since we have to trust the escrow companies
+anyway, it does not weaken the system to have the keys be generated from
+random seeds entered by the escrow agents.  And since the algorithm for
+key-generation is public (modulo Skipjack secrecy) then in principle an
+agent could challenge the procedure, ask for S1 and S2 to be exposed, and
+run his own independent calculation of U1 and U2 to verify that that is
+what is actually being put onto the floppies.
+
+And yes, there are many ways in which failures to follow this scheme could
+be hard to check.  The laptop probably will not really be destroyed each
+time.  Hidden cameras in the ceiling could see the S1 and S2 entered by
+the trusted escrow agents.  Back doors in the chip could allow U to be
+recovered.  Heck, each chip could be recorded with the same U, ignoring
+what was on the floppy.
+
+Hal Finney

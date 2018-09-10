@@ -1,0 +1,44 @@
+From: ae604@Freenet.carleton.ca (Michael Clark)
+Subject: video memory
+Reply-To: Palm@snycanva.bitnet
+Organization: The National Capital Freenet
+Lines: 38
+
+
+Hello
+	I have posted to this newsgroup once before and recieved a
+moderately helpful response on a couple of issues. This I appreciated very
+much . I would however like to know why it is that ther is simply NO 
+information out there on some subjects for the relativly novice graphics
+programmer. The subjects are
+
+	1) How do you access the extra video memory on a video board. I
+know somwhere there aresome standard video bios calls that allow you to
+dothis. I have 1meg of memory on my board and according to all the books
+and info I have read I am only (at maximum) using 256k of it. There is a
+way to do this in standard VGA cause I have seen vidoe paging (written in
+assembly, which I don't know) written into apps hat use mode 13h. To get
+any speed at all you have to do this. How do I do it?
+
+	2) The vesa standard. What gives here. I have read most of what
+the net has to offer on VESA and as far as coding for VESA goes most of
+the advice is cryptic at best. Where do I get public domain info that will
+tell me in "mostly plain" english how the vesa calls work.
+
+	My biggest gripe is about number 1. I have bought graphics books,
+I have asked graphics professors, I have hunted the net through both
+gopher, and archie, I ahave asked apps programmers and it is like there is
+some lock on this information. Graphics programming books tell alot of
+programmiing algorithm information, but they always fall short of telling
+you how to really control the video bios. What are all the calls folks, I
+know there are people out there that know how to doall tis stuff. Where
+are you, and why haven't you written a book yet? 
+
+Please help
+
+Thanks in advance
+
+Stephen palm
+palm@snycanva.bitnet
+(please send all personal replies to the above address, thanks)
+

@@ -1,0 +1,41 @@
+From: tgk@cs.toronto.edu (Todd Kelley)
+Subject: Re: PC parallel I (!= I/O)
+Organization: Department of Computer Science, University of Toronto
+Lines: 36
+
+erickson@azure.nmt.edu (Alan Erickson) writes:
+
+> 	I'm trying to bring in 8+ bits to a PC, and would like
+> 	to use interrupt-driven routines. Without buying an IO
+> 	board or making a new port, _where_ can I bring in these
+> 	bits? LPT seems to have only a few inputs, but I've heard
+> 	rumours that some LPTs have bidirectional lines. Anybody
+> 	know fer sure? If any bi-d LPTs, which boards have them
+> 	(I'll be running a new 386DX-33)?
+
+I know for sure that the Everex Magic I/O EV-170A can be jumpered
+for a printer mode, or for a general purpose bidirectional I/O mode.
+
+Also, I know for sure that the IBM Technical Reference says the following
+about the Monochrome Display & Printer Adapter and the IBM Parallel Printer
+Adapter:
+
+    It is essential that the external device not try to pull these
+    lines [referring to the data lines] to ground.
+
+And later:
+
+    If an external device should be driving data on these pins (in
+    violation of usage ground rules) at the time of an input, this
+    data will be `or'ed with the latch contents.
+
+I will accept no responsibility if you incur damages of any kind
+as a result of my saying, ``I DO NOT know for sure, but I think
+you should be able to use a traditional parallel port as an input
+port by writing 0x to the data lines, and then reading from the
+data lines, while an external device drives them.''  The input
+data will not be latched, so noise could make this infeasible.
+
+Todd
+
+

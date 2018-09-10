@@ -1,0 +1,57 @@
+From: C445585@mizzou1.missouri.edu (John Kelsey)
+Subject: One-time pad authentication?
+Nntp-Posting-Host: mizzou1.missouri.edu
+Organization: University of Missouri
+Lines: 51
+
+   I can think of a couple of ways of guaranteeing authenticity in a one-time
+pad encrytped scheme, though I'm not sure how to prove that what kind of
+authenicity they provide.
+ 
+   An obvious first-attempt might be to prepend a truly random (unpredictable
+for Eve) block to the message, and then calculate a CRC which included the
+random starting block and all of the message.  This could be encrypted after
+the message.  The problem is, I'm not sure it's impossible to come up with
+a message that will hash to the same CRC regardless of the random starting
+block.  (It intuitively seems like it ought to be hard, but I'm not *that*
+sure....)  Clearly, a crypto-strength hash like MD5 or the SHA would be
+stronger, but again, I'm not sure I'm comfortable claiming that it's
+unbreakable.
+ 
+   A scheme to use up some of the pad bits to decide how many bits of 0's
+to include in the plaintext stream before going on wouldn't be too bad,
+either.  At the cost of increasing the speed with which you use up your
+pad, this could be used to give you arbitrarily low probability that your
+opponent could spoof a valid-looking message, since any deciphered plaintext
+in a spot that should be carrying 0's will show that something funny's going
+on.
+ 
+   If, for each message bit M_i, we used up one random bit, R_i, to decide
+whether to insert a 0 into the plaintext stream, we'd get a total pad use
+of 2.5 times the message length.  (We'd expand the message size by about
+half.)  Each 0 that should appear in the plaintext stream that doesn't is a
+guess for our would-be spoofer.  At each bit, she has to guess.  I'm trying
+to see how to quantify her chances of making it all the way through the
+spoofed message, but it gets a little complicated, because she can get un-
+synched, and still happen to have a 0 in that place in the spoofed message.
+ 
+   Now, I can see a simple way of doing this that's got to be as secure
+as a one-time pad, at a cost of using 4 times the message length in pad bits.
+ 
+   For each message bit, M_i, use one random bit, R_i, and xor them together
+to get X_i.  Now, encrypt the three bits with the one-time pad.  The enemy
+has no way of guessing what R_i is, so he/she can't guess what X_i is, either.
+Any change she makes in the ciphertext stream will have to involve a guess
+of what R_i was.  Is there any way to do this without using so many pad bits?
+ 
+   Spoofing the message is equivalent to correctly guessing as many random
+bits as there are bits in the message.  Clearly, this makes spoofing messages
+just as hard if you know the whole message text as if you know none of it.
+In fact, it looks to me like this makes it just as hard to generate a spoofed
+message with the ciphertext as without it, but I'm not entirely sure about
+that.
+ 
+   Is there an easier way of doing this that's provably as secure as the
+one-time pad?
+ 
+   --John Kelsey

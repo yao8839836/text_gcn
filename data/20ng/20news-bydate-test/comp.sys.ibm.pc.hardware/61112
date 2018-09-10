@@ -1,0 +1,26 @@
+From: ehung@ampex.com (Eric Hung)
+Subject: Re: Adding a second IDE drive
+Nntp-Posting-Host: dct3
+Organization: Ampex Corporation, Redwood City CA
+Lines: 20
+
+In article <C5r4ur.D0r@ulowell.ulowell.edu> mcook@cs.ulowell.edu (Michael Cook) writes:
+>
+>I just bought a Western Digital/Caviar 340MB IDE drive and I want to add it to
+>my system which already has a WD120 IDE drive.  The controller says it 
+>supports 2 hard drives, but when I plug in the cables, do the BIOS setup,
+>and try to start the system, it pauses and then I get an invalid drive D:
+>error message.  The system boots, but I cannot access the new hard drive.
+>
+>The new drive works fine as drive C if it's all alone, but I am not able to 
+>get both drives working at the same time.
+>
+>Any help is appreciated.
+>
+>Thanks,
+>Mike
+>
+
+You need to run FDISK.
+
+Eric.

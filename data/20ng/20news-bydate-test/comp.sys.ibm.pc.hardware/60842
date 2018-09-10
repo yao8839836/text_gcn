@@ -1,0 +1,32 @@
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Subject: Date is stuck
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 25
+
+*** On 04-21-93  04:30, Michael Shapiro had the unmitigated gall to say this:
+
+ MS> The DOS system date has a twenty-four hour clock and a rollover bit.
+ MS> When the system crosses midnight, the rollover bit is turned on.  
+ MS> Subsequent reads of the time add one.  There's no change possible
+
+ MS> (This information was current up through DOS 3.3.  I've not checked to
+ MS> see whether it applies to later versions.)
+
+Just a small tidbit: with the advent of DOS 3.3 and later versions, MS added
+a small "feature" to the DOS time function.  If a program sets the DOS clock
+via DOS system services, then DOS will set the BIOS clock to the same value.
+This breaks the isolation between the two clocks that used to ensure that
+errors in the DOS clock did not bleed over into the BIOS clock.
+
+Sometimes the Microsoft people just don't think! :)
+
+... Fact:  Mickey Mouse wears a Al Gore wristwatch.
+--- Blue Wave/QWK v2.10
+                                                                                                       
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com

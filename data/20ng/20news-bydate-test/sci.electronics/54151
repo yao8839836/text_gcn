@@ -1,0 +1,31 @@
+From: ejm@coyote.datalog.com (E.J. McKernan)
+Subject: Re: Lead Acid batteries & Concrete?
+Organization: Datalog Consulting, Tucson, AZ
+Lines: 26
+
+In article <1993Apr21.204556.21262@cronkite.ocis.temple.edu> camter28@astro.ocis.temple.edu (Carter Ames) writes:
+>
+>   I was just wondering one thing, actually two. ( I hope that this is the
+>proper place to post this subject)
+>
+>  Why does a lead acid battery discharge and become dead (totally unuseable)
+>when stored on a concrete floor?  
+>  I decided to bring the battery in from the lawn mower and the motorcycle
+>from the unheated garage this year, *to preserve them* and I just
+>went to use them and noticed that not only do they not work, but 
+>they act like the two terminals are shorted.  I asked a friend
+>and he said that you should never do that, 'cause it ruins them,
+>but he couldn't tell me why.
+>
+
+It's NOT the concrete floor that does it. The problem is that lead-acid
+cells self discharge over time. Even high quality cells (Gates for instance)
+will discharge 50-60% over a 3-5 month period of time. Non-sealed cells
+self discharge even faster. If the battery was not completly charged
+when left sitting, it probably discharged past the the point where cell
+sulfiding occurs, which in many cases means a ruined battery.
+-- 
+   /|_|\   Datalog Consulting, Tucson, AZ
+  ( . . )  ejm@datalog.com
+   \   /   ...!noao!datalog.com!ejm
+    \_/    

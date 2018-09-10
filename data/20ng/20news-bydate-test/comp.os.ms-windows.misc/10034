@@ -1,0 +1,406 @@
+From: kayman@Xenon.Stanford.EDU (Robert Kayman)
+Subject: SUMMARY:  Canon BJ200 vs. HP DeskJet 500
+Organization: Computer Science Department, Stanford University.
+Lines: 401
+
+
+Hello again,
+
+About a week and one-half ago I posted a query looking for people feelings
+on the inkjet family of printers.  Specifically, a comparison between the
+Canon BJ200 (BubbleJet) and the Hewlett-Packard DeskJet 500.  Many people
+asked me to post the summary/account of all the postings and e-mail I
+received.  Below is my original query and the responses I received.  I have
+not deleted any part of the responses, only the headers and signatures, so
+you can extract what you find necessary.  Some people asked me for an
+unbiased account; however, the very nature of the question suggests
+favoritism and biased comments, you must extract the information you
+believe unbiased and a fair representation of each printer.  There are a
+wide range of comments, each has its own value.  
+
+There was no clear winner, some like the BJ200 (especially its
+price/performance ratio), others preferred the durability and reliability
+of the DeskJet (the original inkjet with proven drivers and a solid
+background).  Two new inkjet printers have drawn some attention, a new
+printer to be introduced by Hewlett-Packard later this year (around
+summertime), and an addition to the Epson product line (their first
+inkjet).  You will find that after the initial purchase, the costs of
+re-filling or replacing the ink cartridges are about the same (this largely
+depends on where you purchase the re-fills or replacements -- so shop
+around first since this aspect will most likely dominate the cost of your
+printer).  No one mentioned approx. how many sheets each ink cartridge will
+print, but I suspect they are roughly equal at about 1000 - 1500 sheets
+(laser printers will do 4000-5000 sheets per toner cartridge).  Well,
+that's a brief research summary of my personal research.  ENJOY!
+
+===========================================================================
+
+>Hello fellow 'netters.
+>
+>I am asking for your collected wisdom to help me decide which printer I
+>should purchase, the Canon BJ200 (BubbleJet) vs. the HP DeskJet 500.  I
+>thought, rather than trust the salesperson, I would benefit more from
+>relying on those who use these printers daily and use them to their fullest
+>potential.  And, I figure all of you will know their benefits and pitfalls
+>better than any salesperson.
+>
+>Now, I would greatly appreciate any information you could render on the 360
+>dpi of the Canon BubbleJet vs. the Hewlett-Packard DeskJet 500 (300 dpi).
+>Which is faster?  Is there a noticeable print quality difference,
+>particularly in graphics?  Which will handle large documents better (75
+>pages or more) -- any personal experience on either will be appreciated
+>here?  Which works better under Windows 3.1 (any driver problems, etc)?
+>Cost of memory, font packages, toner cartridges, etc?  Basically, your
+>personal experiences with either of these machines is highly desirable,
+>both good and bad.
+>
+
+Well I bought the BJ 200 about a month ago at the start of their $50 rebate
+program on that printer (it ends 5/31), and I bought it from Computer
+Discount Warehouse because their price of $325 couldn't be beat anywhere I
+looked, and I think it's a HOT printer.  Just using regular copier paper
+produced fantastic results just in high quality mode.  I compared the
+output of a Micrografx Designer legal size drawing with 4pt type done on my
+BJ 200 with the same drawing printed on an HP Laserjet IID and I was amazed
+how well I could read the small print on the BJ 200.  Printing speed was
+several seconds faster on the BJ 200 which is amazing considering that the
+HP has 2.5M ram installed.  I measured the time from when the printer first
+indicated it was receiving data (as I used print manager in Windows).
+
+I showed the output to several people at work and one manager bought one
+immediately for his office, and two other engineers placed their orders
+too.  If you need CDW's phone number, it's 800-598-4239.  Delivery to NY
+was two days.
+
+Good luck!
+
+
+Craig Witkowski, CENG51@maccvm.corp.mot.com
+Motorola Communications & Electronics Inc.
+Glen Rock,  NJ
+
+===========================================================================
+
+I own a Deskjet 500. Performance isn't spectacular under Windows using
+TrueType fonts but neither is the Canon from what I have seen. Quality for
+the HP is very much dependent on paper quality - on 'standard' photo-copy
+paper the characters have slightly 'frayed' edges but on better quality
+'distinction' type paper things look better. For most applications I find
+copy paper fine - still better than dot-matrix.  Comes with a Windows
+driver, which seems to by-pass print manager, has a few
+'intelli-fonts'which are HP scaleable fonts - probably faster than TrueType
+but haven't really tried them out. Can get RAM & FONT cartridges but unless
+the speed of TrueType is a problem I wouldn't bother. The RAM cartridges
+can't be used as buffer - soft fonts only.
+
+For graphics, i.e. BMP images etc the HP can be put into a dither mode via
+the HP supplied Win driver. There a number of dither options such as
+'scatter', 'pattern' etc.  The manual gives recommendations depending on
+the type of image being printed.  Text is not so good in this mode. Problem
+arises when you have a document which contains both graphic and text.  The
+range of tones for graphic images isn't brilliant but I think that is more
+of a limitation with inkjet printers in general.
+
+>From what I have seen the Canon is similar in most respects.
+
+However, a printer definitely worth looking at is the new inkjet from
+Epson.  This printer is faster, cheaper, and capable of producing
+laser-like quality on normal copier paper.  Can't remember the model #, LX
+- something I think?
+
+I purchased my HP days before the Epson was released here :-{.  The
+introductory price on the Epson was the same as the HP here in New Zealand.
+ 
+===========================================================================
+
+About a month ago, I got a Canon BJ200.  I absolutely LOVE it.  It is
+incredibly fast, except for printing from PSPICE (I don't know if you ever
+do stuff with that or not.)  Most of the stuff I print is either from
+Microsoft Word for Windows or just plain text.  The only problems I've had
+are printing headers/footers (the printer freaked out), and printing on
+cheap paper (lots of streaks).  Normal copy paper works great with it, you
+can only tell it's not laser-printed by holding it, oh, less than twelve
+inches from your face.  (That is, if you're nearsighted, like me! :) ) The
+printer comes with its own driver for Windows 3.1!!  I have no other
+complaints.  The printer also can act just like some EPSON or another for
+those archaic software packages that haven't written a driver for it yet.
+The teeny-weeny footprint is a real plus, too--AND, if you purchase it
+between now and May 31, you get a $50 rebate from Canon!!  I bought mine
+from a store called CompUSA, and the price now is $340.  I have a friend
+who has the HP you are looking at.  It also prints very well, and everyone
+has drivers for it, BUT it is VERY slow!
+
+Hope I helped!
+
+(360dpi sure looks great!)
+
+Heather Stehman
+
+===========================================================================
+
+In article <1993Apr19.122649.25263@schbbs.mot.com>, CENG51@maccvm.corp.mot.com (Craig Witkowski) writes:
+> In message <1993Apr18.041741.6051@CSD-NewsHost.Stanford.EDU>
+> kayman@csd-d-3.Stanford.EDU (Robert Kayman) writes:
+> Hello fellow 'netters.
+> 
+>>I am asking for your collected wisdom to help me decide which printer I
+>>should purchase, the Canon BJ200 (BubbleJet) vs. the HP DeskJet 500.  I
+>>thought, rather than trust the salesperson, I would benefit more from
+>>relying on those who use these printers daily and use them to their fullest
+>>potential.  And, I figure all of you will know their benefits and pitfalls
+>>better than any salesperson.
+> 
+> (various questions deleted)
+> 
+> Well I bought the BJ 200 about a month ago at the start of their
+> $50 rebate program on that printer (it ends 5/31), and I bought it from
+> Computer Discount Warehouse because their price of $325 couldn't be
+> beat anywhere I looked, and I think it's a HOT printer.  Just using
+> regular copier paper produced fantastic results just in high quality
+> mode.  I compared the output of a Micrografx Designer legal size drawing
+> with 4pt type done on my BJ 200 with the same drawing printed on
+> an HP Laserjet IID and I was amazed how well I could read the small print
+> on the BJ 200.  Printing speed was several seconds faster on the BJ 200
+> which is amazing considering that the HP has 2.5M ram installed.
+> I measured the time from when the printer first indicated it was receiving
+> data (as I used print manager in Windows).
+> 
+
+  I guess I have some experience with both: I have a BJ-300 at work and a
+Deskjet 500 at home.  I prefer the Deskjet.  The printing speed and quality
+are similar (I tested both with text and graphics before buying the Deskjet
+for home).  The feature that sets the Deskjet apart is the driver support
+in so many applications.  The BJ ends up emulating the Epson LQ or IBM
+Proprinter to get it to work with many non-windows apps and this will be
+the case for a long time.  The design is superior if you just want to use
+cut paper, the Deskjet is quieter, AND the ink cartridges are quite a bit
+cheaper due to the number of Deskjets out there in comparision to the BJs.
+
+  Just my $0.02 worth..
+
+-- 
+Mike Mattix
+Agricultural Group of Monsanto
+P.O. Box 174
+Luling, LA 70070
+INTERNET Address: dmmatt@bigez.monsanto.com
+
+===========================================================================
+
+  Yes, there is the landscape mode printing problem, but it does not
+present a problem in Windows as the Windows printer driver handles the
+translation.  I actually thought of some other points after I posted the
+note.  The Deskjet has an unprintable area of approximately .5inch around
+the paper the Bubblejet does not.  You are right about the graphics
+resolutions, I tested the printers with the applications I had access to:
+Wordperfect, Harvard Graphics, WinGIF, Paintshop PRO, and Paintbrush and
+could not tell a difference.  In fact one of the HP Deskjet Windows drivers
+gives you significant control over the contrast and density of the printer
+hence controlling the amount of ink you put down.  The Bubblejet did not.
+I had no imaging software to test the printers with and so had no
+comparision there.  Finally, I wanted sheet feeding.  In that configuration
+the Bubblejet cost approximately $100 more than the Deskjet.
+
+I went through a pretty thorough evaluation and chose the Deskjet when I
+spent my own money.  BTW, I am replacing the BJ-300 with a Deskjet 500 at
+work this month anyway.
+
+Regards
+
+Mike Mattix
+Ag Group of Monsanto
+Luling, LA
+
+===========================================================================
+
+I spent some time comparing the two.  We ended up getting the Bubblejet
+BJ-200 versus the HP.  Our reasons were:
+
+1) The HP seemed to have worse banding than the Canon
+2) 360dpi versus 300 - we felt we could see the difference
+3) Price - Canon has a $50 rebate program going on at the moment.
+
+The BJ-200 was our choice over the BJ-10ex - we could have 100 pages in the
+BJ-200 feeder.  The BJ-10ex holds only 30 pages, I think.
+
+As you can see, up to 100 pages on the BJ-200.  We haven't done anything
+big with the BJ, but its performance seems reasonable under Windows.  I
+know that the Microsoft BBS has a newer windows driver than comes with the
+printer, but I don't know how it compares (also the driver included with
+the printer is Canon's whereas I don't know where the Microsoft BBS one
+comes from - Microsoft?)
+
+Hope this helps.
+-- 
+Thomas V. Frauenhofer, WA2YYW
+tvf@cci.com, ...!uunet!uupsi!cci632!tvf, tvf@cs.rit.edu
+Mandlebratwurst: The Meal that Eats Itself!
+
+===========================================================================
+
+Altough I'm sometimes also a salesperson (if I'm not suppost to study :-))
+I would recommend to buy the BJ200. The printing quality is a bit better,
+but you you've got much more possiblities. Don't forget the HP engine is at
+least 2 years on the marked, the Canon engine (witch is also used in
+other "new" bubblejet printers like e.g. the Epson ones) is quite recently
+available..
+
+> Now, I would greatly appreciate any information you could render on the 360
+> dpi of the Canon BubbleJet vs. the Hewlett-Packard DeskJet 500 (300 dpi).
+> Which is faster?  Is there a noticeable print quality difference,
+> particularly in graphics?  Which will handle large documents better (75
+
+I've seen during a short demonstration (from someone who tryed to sell me
+Canon printers) 2 times the same picture, one printed with the BJ200, one
+with the Canon, the other with the HP, and.. there was a difference in
+printing- quality,.. The Canon was a bit better..
+
+Greetz,
+
+Kris
+
+===========================================================================
+
+When we decided we needed quiet printers in our hospital we looked to
+inkjet printers.  They have near laser quality, speed, and they are quiet.
+We use both HP Deskjets and the Canon BJ-200s.  I prefer the paper handling
+qualities of the Deskjets but I feel the Canons have superior print
+quality.  The Ideal would be a Canon with a sheet feeder, however I did end
+up buying a deskjet for home use (got too good a deal).  Anyway, we are
+using Canons in high volume areas and they are holding up very well.  Out
+of 15 Deskjets and 4 BJ-200s I have only had one problem with a deskjet and
+that was taken care of very quickly by HP.
+
+							-Nate
+
+===========================================================================
+
+Whenever I buy anything I look at what the "experts" say, pick out the top
+few and then buy on whatever criteria are the most apt.  I've been
+unusually flush lately (no begging letter please) and so I've done this a
+few times including - about four months ago - with inkjet printers.
+
+I can't remember much about the process except that I read about three
+reviews of inkjets and that the 500 was always at or near the top.  I
+bought the 500C because of the added dimension of colour (I intend to build
+a multi- media machine at some stage and have just bought a colour scanner
+towards that).  Although I haven's used the colour thing in earnest yet I
+tried it out on a couple of Windows bitmaps and I was pleased with the
+result.
+
+I note that even though you can now get the 550C (the one with both colour
+and mono with no need to change the cartridge), the 500C and 500 are still
+readily available (at least in the UK).  The following are my
+views/experience:
+
+	1.	I don't know anything about the Canon except that I came away
+		from reviews (and replies to a posting similar to yours) with
+		the idea that the HP offered the best performance/price ratio.
+
+	2.	I believe HP are the originals in the field - not always the
+		ideal place to be but the market's still young so one assumes
+		they have the expertise.
+
+	3.	The 500C is worth the extra.  Operation in mono is perfectly
+		acceptable and I get good crisp reproduction of fonts from
+		Windows.
+
+	4.	I used to work for Monotype when they still manufactured
+		typesetters (before their AMERICAN owners closed them down!)
+		and I can tell you that in terms of definition 300 dpi is
+		pretty poor anyway so 360 dpi is just a bit less poor...
+
+	5.	The HP comes with a reasonable set of drivers.
+
+	6.	If you buy it invest in the additional RAM pack - it's pretty
+		slow with it, God knows what it's like without!
+
+I actually work in Germany and my PC is home in the UK so it's not in daily
+use.  I would say that apart from my not reading the manual properly and
+having a really dumb problem at the start it's easy peasy to operate.
+
+Hope this is of use.
+
+Regards
+
+David	
+
+===========================================================================
+
+Just bought the BJ-200.  I thought the price couldn't be beat ($329, with
+$50 rebate thru 5/31) and so far it is comparable, even superior, to the
+DeskJet in print quality.
+
+Speed:   Per page rate seems to be faster (I don't have figures).
+         I don't print long docs, though.
+
+Quality: I think the graphics quality is excellent.  Print quality is
+         excellent as well, unless you use small fonts and hold it up
+         close; you can see a lot more "jaggies" than on a LaserJet.
+         The 360 dpi is offset by a little less accuracy in holding the
+         page/print head in place, I would imagine.
+
+Large docs:  Not room in the standard model for a whole lotta pages ...
+         manual says up to 100, though.  Haven't tried it.
+
+Drivers:  No problems under Win3.1 yet.  WinWord doesn't want to print
+         the envelopes the same way the Canon does, though.
+
+Know nothing of add-on costs.
+
+ Daniel A. Hartung  --  dhartung@chinet.chinet.com  --  Ask me about Rotaract
+
+===========================================================================
+
+>The deskjet is SLOW.  This is in comparison to the other printers I
+>mentioned.  I have no idea how the bubblejet compares.
+>
+>The interface between Win3.1 and the printer is just dandy, I've not
+>had any problems with it.
+
+I just bought a BJ-200 printer a couple of days ago.  I compared it to the
+sample print of an HP DeskJet 500 and knew that the HP wasn't for me.  The
+BJ-200 is pretty fast and really prints with good quality.  I can compare
+it with the HP LaserJet IIID PostScript and they look almost identical (
+depending on the kind of paper).  I don't have problems with the ink not
+being dry, it seems to dry VERY fast.  Probably within a second.  Since
+Canon is giving a $50 rebate until the end of May, it is really a good buy.
+
+
+---
+Sean Eckton
+Computer Support Representative
+College of Fine Arts and Communications
+
+===========================================================================
+
+Wow, it's funny you should ask this.  I'm a little behind in news reading
+so I know this may be late.
+
+  I just purchased the Canon Bubblejet last night.  I was really worried
+that I wouldn't like it but the print quality, and noise level is
+fantastic!  I printed quite a few documents with lots of graphics and it
+printed DAMN near laser quality.  You can't tell it's not laser unless you
+get 2 inches from the page.
+
+  no problems with drivers.  The printer came with the driver diskette
+which is good because I was beginning to panic when I couldn't findi it
+under Windows or WordPerfect.  It works well under both.  I have yet to
+install Word for Windows so don't know how it works with them.
+
+  I had a DeskJet 500 at work last year.  It was a good printer as well ut
+I felt it was awfully slow.  And much noisier than the BubbleJet.  I won't
+say the BubbleJet is MUCH better, but I really do like it more.  Just my
+$0.02 worth.
+
+-=- Brett
+===========================================================================
+
+--
+Sincerely,
+
+Robert Kayman	----	kayman@cs.stanford.edu  -or-  cpa@cs.stanford.edu
+
+"In theory, theory and practice are the same.  In practice, they are not."
+"You mean you want the revised revision of the original revised revision
+ revised?!?!"

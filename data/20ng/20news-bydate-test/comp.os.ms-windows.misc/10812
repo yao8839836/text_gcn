@@ -1,0 +1,26 @@
+From: pbp1@cunixb.cc.columbia.edu (Peter B Palij)
+Subject: W4W tables and HPLJ II printer
+Nntp-Posting-Host: cunixb.cc.columbia.edu
+Organization: Columbia University
+Lines: 20
+
+
+After setting up a very large (>4 pages) table in Word for Windows
+I asked word to print it to my HP laserjet II -- worked fine at first.
+After much editing of the table contents (but not structure) output
+requests now kick the LJ into manual feed mode for the document
+containing the table.  Other documents without tables print correctly.
+
+Where should I look and what should I change to get the document with
+the long table to use the paper drawer rather than kick into manual
+feed mode? [I believe I've tried all the obvious printer manager changes
+as well as replacing the hppcl.[lp]00 files with archived versions.]
+
+Thanks for any and all help.
+
+Peter
+--
+Peter Palij                                       Internet: pbp1@columbia.edu
+Columbia University, Graduate School of Business
+804 Uris Hall
+New York  NY  10027

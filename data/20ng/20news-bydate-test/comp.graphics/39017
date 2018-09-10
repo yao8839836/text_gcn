@@ -1,0 +1,13 @@
+From: corvus@cats.ucsc.edu (Scott Corbin Crow)
+Subject: mode 13h
+Organization: University of California; Santa Cruz
+Lines: 7
+NNTP-Posting-Host: am.ucsc.edu
+
+
+Does anyone know how to access and/or display multiple pages in mode 13h
+while still maintaining the 1 byte per pixel memory organization?
+Examples in C or Assembly would be appreciated...
+Thanks
+Scott
+

@@ -1,0 +1,53 @@
+From: sinn@carson.u.washington.edu (Philip Sinn)
+Subject: ET4000/W32 chip graphics accelerator.
+Summary: 10Mpixel/sec Winmark 3.11 at 800x600 256 colours
+Keywords: winmark, accelerator, chip, Hint
+Article-I.D.: shelley.1r9r5rINNps6
+Distribution: world
+Organization: University of Washington, Seattle
+Lines: 43
+NNTP-Posting-Host: carson.u.washington.edu
+
+I got a ET4000/W32 card which is made by Cardex yesterday
+and ran a winmark test on it. The card is a VL-BUS card which
+can display 16.7 million colours in 640x480 mode with 1MB DRAM.
+
+It comes with ET4000/W32 window drivers and a normal Et4000 drivers.
+The ET4000/W32 drivers handles, 640x480, 800x600, 1024x786 in 256 colours.
+Also, in 640x480 and 800x600, it supports hicolor, 32K and 64K colours.
+
+Here is my winmark result running on a 16MB 486DX33 EISA/VL-BUS system using
+Hint chipsets.
+
+Winmark 3.11 from ZD lab.
+
+Using ET4000/W32 drivers
+640x480 256       10.63 megapixel/sec.
+        32k        7.34 
+        64k        7.30
+800x600 256       10.07
+        32k        6.38
+        64k        6.35
+1kx786  256        8.17
+
+Using ET4000 drivers.
+640x480 16M        1.78
+800x600  16colours 4.01     
+1kx786   16        4.22
+
+From the result, the ET4000/W32 drivers are specialized to use the
+hardware feature of the Et4000/W32 chip whereas the ET4000 drivers are
+just normal driver for ET4000 based graphics card.
+
+The price of this graphics card that I got is $185 from a local dealer.
+It may be less from mail order. It has OS/2 2.0 drivers comes with it
+which supports 256 colors on all resolution.
+
+From these results, it has double the performance of a Et4000AX based card
+in 256 colours mode.
+
+
+Philip Sinn
+sinn@carson.u.washington.edu
+University of Washington
+* It is all my opinions *

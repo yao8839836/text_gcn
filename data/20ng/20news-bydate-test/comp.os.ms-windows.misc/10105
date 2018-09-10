@@ -1,0 +1,20 @@
+From: richardf@teal.csn.org (IrieMon)
+Subject: Re: leaking memory resources in 3.1
+Nntp-Posting-Host: teal.csn.org
+Organization: Colorado SuperNet, Inc.
+X-Newsreader: Tin 1.1 PL4
+Lines: 13
+
+dmittleman@bpavms.bpa.arizona.edu (Daniel Mittleman) writes:
+:     This may be an FAQ (if so, please direct me to the known answer) but I
+:     am getting frustrated and looking for help.
+: 
+:     I am running Win 3.1 with NDW 2.2 on a 486sx with 8 meg of memory and a
+:     6 meg perm swap file and am getting exceedingly frustrated that my
+:     applications are not giving back system resources when I close them.
+:
+I've noticed this also.  The way it was explained to me is that Windows
+does not clear the upper memory blocks after a program is done.  Anyone
+out there know if this is why?
+ 
+: 

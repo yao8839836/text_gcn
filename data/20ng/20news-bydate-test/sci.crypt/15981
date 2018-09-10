@@ -1,0 +1,48 @@
+From: jim@rand.org (Jim Gillogly)
+Subject: Re: New Encryption Algorithm
+Organization: Banzai Institute
+Lines: 42
+Nntp-Posting-Host: mycroft.rand.org
+
+In article <C61rDq.5v5@chinet.chi.il.us> schneier@chinet.chi.il.us (Bruce Schneier) writes:
+>In article <1raeir$be1@access.digex.net> steve-b@access.digex.com (Steve Brinich) writes:
+>>  Ah, but developing cryptosystems which are specificially designed to
+>>protect the government's domestic spying capabilities takes them beyond
+>>that mandate, into the forbidden field of domestic wiretapping.
+>>
+>
+>Unlike the CIA, the NSA has no prohibition against domestic spying.  Read
+>Bamford's THE PUZZLE PALACE.
+
+I did.  You're mistaken.  NSA's communications intelligence mission is
+strictly against foreign governments.  Here's an excerpt from the enabling
+charter (24 Oct 52, Truman) that should clarify this.  The charter was
+declassified in about Feb 1990 when an FOIA request made it public.  Mind
+you, I don't know that they never collect anything they're not supposed
+to... but spying on US citizens isn't in their charter.
+
+    b. The COMINT  mission of the National  Security Agency
+	(NSA) shall be to provide an effective,  unified organization
+	and control of the communications  intelligence activities of
+	the United States  conducted against foreign  governments, to
+	provide for  integrated operational  policies and  procedures
+	pertaining thereto.   As  used in  this directive,  the terms
+	"communications intelligence"  or "COMINT" shall be construed
+	to mean all  procedures and methods used in  the interception
+	of communications  other  than foreign  press and  propaganda
+	broadcasts  and  the  obtaining  of   information  from  such
+	communications by other  than intended recipients,  but shall
+	exclude censorship  and the  production and dissemination  of
+	finished intelligence.
+
+They're also tasked with protecting the US's communications, but I haven't
+seen the specific enabling memo on that.  I assume that's the role under
+which Skipjack was developed.
+
+NSA is not in the standard-setting business, though -- that's why this
+Clipper stuff came from NIST, which I believe is tasked with coming up
+with standards based on their best inputs from other government agencies,
+which would include NSA.
+-- 
+	Jim Gillogly
+	Mersday, 4 Thrimidge S.R. 1993, 21:59

@@ -1,0 +1,48 @@
+From: khoo@husc15.harvard.edu
+Subject: Upgrading the processor on 386/486 machines
+Organization: Harvard University Science Center
+Lines: 43
+
+
+In case anyone was wondering about upgrading their 386 or 486 class machine
+without spending a lot of money, I looked into replacing the processor
+on those machines and here are the facts (as I understand them).
+
+If you have a PS/2 Model 70 or Model 80, you can replace the i386 chip with
+either 1) a Cyrix 486DLC chip for $130 which will increase your processing
+power by about 60% for normal fuctions, and not at all for math functions.
+This chip will only run at your original clock speed, ie. if you have a 16MHz
+machine the Cyrix 486DLC will run at 16MHz.
+note: Windows does not use the math functions, so it is a good upgrade if
+you are running Windows.
+Or, 2) you can get a Kingston 486/NOW platform for $450 with a 25MHz i486SX
+on it which will increase your normal processing power by about 100%, if you
+were running at 25MHz originally. But again it will not increase the speed
+of your math fuctions.  I think that it will continue to run at 25MHz even
+if your original processor runs at a slower speed.
+There is also 3) the Kingston 486/NOW platform for $750 with a 33MHz i486DX
+on it.  This might speed up your math functions as well, but I am not sure.
+
+If you have a PS/2 Model 70 B21 or other PS/2 machine with either an i486SX
+or a non-clock doubling i486DX (ie. it runs at either 25 or 33MHz) in it,
+then you can get an Intel Overdrive chip (which is really an i486DX2 chip) and
+replace your chip with it.  You should get about 95% better preformance for
+both normal and math functions.  The 25/50 Mhz version of the Overdrive chip
+costs $450 and the 33/66MHz version costs $700.  The replacement for the
+25MHz 486SX chip is an espeacially good deal as it provides the math
+coprocessor which the 486SX does not have.  Note that the speed ratings on the
+Overdrive chips are the maximum speed at which they can run.  If you have a
+20MHz 486SX, then the Overdrive chip will run at 20/40MHz, ie. 20MHz externally
+and 40MHz internally.  There is no reason to buy an Overdrive chip which is
+rated at faster then your machine, you will not get faster performance.
+
+You should be able to buy these chips from any of the microchip merchants that
+advertise at the back of PC Magazine or PC Week.  You might want to shop
+around as prices do vary.  If you need a name/phone number for a source for
+a particular chip, e-mail me, and I will respond with a couple of sources.
+
+Lawrence Khoo
+
+-- 
+khoo@husc3.harvard.edu       Lawrence Khoo       Computer Consultant
+khoo@haavelmo.harvard.edu    (617) 496-8992    Econ. Dept, Harvard U.

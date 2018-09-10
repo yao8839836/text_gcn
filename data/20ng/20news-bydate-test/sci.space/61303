@@ -1,0 +1,17 @@
+From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Organization: U of Toronto Zoology
+Lines: 12
+
+In article <1993Apr27.094238.7682@samba.oit.unc.edu> Bruce.Scott@launchpad.unc.edu (Bruce Scott) writes:
+>If re-boosting the HST by carrying it with a shuttle would not damage it,
+>then why couldn't HST be brought back to earth and the repair job done
+>here?
+
+The forces and accelerations involved in doing a little bit of orbital
+maneuvering with HST aboard are much smaller than those involved in
+reentry, landing, and re-launch.  The OMS engines aren't very powerful;
+they don't have to be.
+-- 
+SVR4 resembles a high-speed collision   | Henry Spencer @ U of Toronto Zoology
+between SVR3 and SunOS.    - Dick Dunn  |  henry@zoo.toronto.edu  utzoo!henry

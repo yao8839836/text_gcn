@@ -1,0 +1,27 @@
+From: les@chinet.chi.il.us (Leslie Mikesell)
+Subject: Re: *** CONSUMER WARNING ***  MidWest Micro (Ohio)
+Organization: Chinet - Public Access UNIX
+Distribution: na
+Lines: 21
+
+In article <C5usq4.Mpr@wybbs.mi.org> ken@wybbs.mi.org  writes:
+
+>I'm not sure the modem would work ok in a basic system, but it clearly does
+>not work in a multi port system like mine. Since my time is worth more 
+>than the aggravation or the cost of the modem, I gave it to a local
+>charitable organization (with a description of my problem) and ordered
+>a Practical Peripherals 14.4MT from PC Connection.
+
+>For $30 more, I have a solid external modem built by a company I know 
+>will support their users and sold by a company (based on personal
+>experience) will treat me right if there is a problem. I should have
+>known better...
+
+But, but, but... How does buying an external modem solve the problem
+of wanting more than 2 serial devices at once?  And since the PC
+only supports two, why are you blaming a modem vendor for the
+problem?  I don't see how your experience could have been different
+with any internal modem. 
+
+Les Mikesell
+  les@chinet.chi.il.us

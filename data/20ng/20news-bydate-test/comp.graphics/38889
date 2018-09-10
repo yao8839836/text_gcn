@@ -1,0 +1,38 @@
+From: rych@festival.ed.ac.uk (R Hawkes)
+Subject: Re: 3DS: Where did all the texture rules go?
+Lines: 34
+
+eric.vitiello@tfd.coplex.com (Eric Vitiello) writes:
+
+>TO: rych@festival.ed.ac.uk (R Hawkes)
+
+>RH>I've noticed that if you only save a model (with all your mapping planes
+>RH>positioned carefully) to a .3DS file that when you reload it after restarting
+>RH>3DS, they are given a default position and orientation.  But if you save
+>RH>to a .PRJ file their positions/orientation are preserved.  Does anyone
+>RH>know why this information is not stored in the .3DS file?  Nothing is
+
+>    This is because the PRJ (Project) format saves all of your settings,
+>    right down to the last render file's name.
+
+>RH>I'd like to be able to read the texture rule information, does anyone have
+>RH>the format for the .PRJ file?
+
+>    Sorry... Don't have anything on that or the CEL format.
+
+Well, I dived in feet first and reverse engineered the .PRJ file as much
+as I needed to - extracted the mapping icon information - which is
+when it dawned on me that 3D Studio is useless for my needs. I need
+a mapping icon per applied texture.  I want to use a special purpose
+graphics computer for rendering the 3DS models and it requires a texture
+rule/plane to be specified in 3Space, i.e. position/orientation of the
+mapping rule.  Since only one mapping icon is used in 3DS to apply
+textures to ALL objects/faces, it renders (no pun intended) 3DS totally
+unsuitable for my needs.
+
+Anyone got a contact for Alias Upfront or any other good modeller for a
+PC?  I must be able to specify texture rules (one per texture) and this
+must be saved in a file which I can read.  I haven't found any info on Alias
+in the copy of the faq that I have.
+
+Rych

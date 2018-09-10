@@ -1,0 +1,20 @@
+From: jrbd@craycos.com (James Davies)
+Subject: Re: Clipper considered harmful [Restated and amplified]
+Organization: Cray Computer Corporation
+Lines: 15
+
+In article <WCS.93Apr26141950@rainier.ATT.COM> wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705) writes:
+>
+>It is still easy to conceal super-encryption, at least until the
+>inquisitors get ahold of the K key, which can take a while,
+>presumably not in near-real-time.  (Worst-case, in which the escrow agencies
+>provide the U key to the local cops, still only gets one side of the
+>conversation per warrant, unless the same key is used for both directions,
+>which I suppose the CAPSTONE version of the chip will probably insist on.)
+
+I was under the impression (from reading Denning's description of the
+Clipper's operation) that the same session key *is* used in both directions for
+encrypting the message text, but that each chip uses it's own key for
+encrypting the session key into the law-enforcement field.  So, you only
+need to know the U key for one of the phones involved to decrypt the
+messages in both directions.

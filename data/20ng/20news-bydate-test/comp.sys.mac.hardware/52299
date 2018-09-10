@@ -1,0 +1,38 @@
+From: rts@nwu.edu (Ted Schreiber)
+Subject: Flaky Large Memory SIMMS on 160's?
+Nntp-Posting-Host: mac183.mech.nwu.edu
+Organization: Mechanical Engineering
+Lines: 32
+
+In the last two weeks I have the following problem on two 160's
+
+1 has a 8Mb Simm and the other a 6 Mb simm
+Both are about 2 -3 months old, bought from different vendors and installed
+by different people. 
+
+Both computers begin crashing frequently, locking up and ultimately the
+Memory Chimes.  Crashes would almost always occur if you moved the screen
+and sometimes would occur when you weren't even touching the computer.  In
+both cases, taking the machine apart, taking the memory out and putting it
+back in solved the problem for awhile but then it would comeback,  my
+marginally educated guess as to what's happening is that larger SIMMS are
+"lopsided" in that the insertion point is sort of a pivot point and after
+time they begin to move about - possible because of pressure on the
+keyboard or something?  
+
+Anyway, has anyone else had such a problem or solution - If somehow you
+could support the other end of the simm to prevent it from moving.
+
+I've had no problem for the past 3 weeks by replacing my 8Mb simm with a
+2Mbsimm -although this is NOT desireble solution.
+
+Please email any resp - and/or post if usefull to the rest of the world.
+
+Ted
+
+
+
+Ted Schreiber
+Mechanical Enginering 
+Northwestern University
+Tel: 708.491.5386 FAX 708.491.3915 Email: rts@nwu.edu

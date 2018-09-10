@@ -1,0 +1,19 @@
+From: ins132g@aurora.cc.monash.edu.au (Nicola Brown)
+Subject: Programming the Beeper!
+Organization: Monash University
+X-Newsreader: TIN [version 1.1 PL6]
+Lines: 13
+
+	I need to be able to cause a beep, but without using any interrupt
+routines, as I cannot use the BIOS. I believe that the PIC might have
+something to do with it, but I'm having troubles deciphering the
+information I have on it to figure out how to program it!
+
+	I'm programming all of this in Turbo C, if that makes any
+diference at all...
+
+	Please can anyone help me??!
+
+Thanks,
+	
+	Nicola

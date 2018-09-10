@@ -1,0 +1,50 @@
+From: rogue@ccs.northeastern.edu (Free Radical)
+Subject: Re: Clipper considered harmful [Restated and amplified]
+Nntp-Posting-Host: damon.ccs.northeastern.edu
+Organization: College of CS, Northeastern U
+Distribution: inet
+Lines: 43
+
+In article <1rcboi$j4a@access.digex.net> steve-b@access.digex.com
+(Steve Brinich) writes: 
+[...]
+>  FEDS: We need the keys to Joe Blow's phone.
+>
+>  ESCROW AGENT: Joe Blow?  You have a warrant to tap his line?
+>
+>  FEDS: Well, no, but we have a warrant to tap Carlos "Slime-Devil" Gonzales'
+>     line, and our tap shows that Mr. Gonzales is using Mr. Blow's phone.
+>
+>  ESCROW AGENT: Well, OK....
+
+No no no no no no no.
+
+It will go like this:
+
+FEDS: We need the key to phone 334RE67D99.
+
+ESCROW: You have a warrant to tap the line phone 334RE67D99 is on?
+
+FEDS: Yes.
+
+ESCROW: Fine, here is our key.
+
+What happens is, Feds tap a line; find Clipper is being used; extract
+serial number; get key; decipher convo.  The serial number is never
+registered to a specific owner, it is _sent_ as part of the
+conversation.  If I give you my Clipper phone, you do not need to
+re-register it (mainly because it was never 'registered' to me in the
+first place).
+
+There are a lot of things that bother me about Clipper, but this is
+not one of them.  Let's get our facts straight and not waste effort
+demolishing straw men.
+
+	RA
+
+rogue@cs.neu.edu (Rogue Agent/SoD!)
+-----------------------------------
+The NSA is now funding research not only in cryptography, but in all areas
+of advanced mathematics. If you'd like a circular describing these new
+research opportunities, just pick up your phone, call your mother, and
+ask for one.

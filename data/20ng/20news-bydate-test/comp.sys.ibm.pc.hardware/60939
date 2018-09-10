@@ -1,0 +1,52 @@
+From: bgrubb@dante.nmsu.edu (GRUBB)
+Subject: Re: IDE vs SCSI
+Organization: New Mexico State University, Las Cruces, NM
+Lines: 45
+Distribution: world
+NNTP-Posting-Host: dante.nmsu.edu
+
+david@c-cat.UUCP (Dave) write:
+>are we talking about a SCSI-1 device (e.g. HD) on a SCSI-2 Controller
+>or          
+>are we talking about a SCSI-1 Controller that had a chip upgrade
+>using the same chip that is on a SCSI-2 controller board.
+we are talking about a SCSI-1 device (e.g. HD) on a SCSI-2 Controller.
+
+Here is a rewrite of my Mac & Info sheet SCSI section:
+SCSI: only external device expansion interface common to both Mac and IBM.
+ Allows the use of any device: hard drive, printer, scanner, Nubus card 
+ expansion {Mac Plus only}, some monitors, and CD-ROM.  Normal {asynchronous}
+ SCSI is 5 Mhz;  fast {synchronous} SCSI is 10 Mhz.  Difference between these
+ modes is mainly in the software drivers.
+ Main problem:  there are a lot of external devices which are internal 
+ terminated which causes problems for more then two devises off the SCSI port 
+ {A SCSI chain is supposed to be terminated ONLY at the begining and end. 
+ Any other set up causes problems for either Mac or IBM}. 
+SCSI-1:  8-bit; 7 devices per SCSI controller.  asynchronous {~1.5MB/s ave}
+ and synchronous {5MB/s max} transfers.  8-bit SCSI-2 is often mistaken for
+ a fast version of SCSI-1 {see SCSI-2 for details}.
+SCSI-2: fully SCSI-1 compliant. SCSI-2 mode - 10 devices per SCSI controller.
+ 8-bit SCSI-2 is implimented as a very fast SCSI-1 since it can run using
+ SCSI-1 hardware and software drivers which limits it to 7 devices, which
+ results in it sometimes being mistakenly consitered part of SCSI-1.  16-bit
+ and 32-bit SCSI-2 require different ports, electronics, and SCSI software
+ drivers from SCSI-1 {Which makes them more expensive than other SCSI
+ interfaces}.  32-bit SCSI seems to run only in synchronous mode, hence term
+ 'wide and fast SCSI' Transfer speeds are 4-6MB/s with 10MB/s burst {8-bit},
+ 8-12MB/s with 20MB/s burst {16-bit}, and 15-20MB/s with 40MB/s burst
+ {32-bit}.
+
+8-bit SCSI-2 is the BIGGEST headache due to the fact that it is the ONLY SCSI-2 
+that I know of that can pump SCSI-2 speeds through SCSI-1 devices and software
+controlers.  Its MAIN implimentation is on the Mac though you do see adds
+for SCSI-2 at 10MB/s maximum throughput for PCs.  Since 8-bit SCSI-2 does NOT
+NEED all the hardware {including electonics} and software of 16-bit and 32-bit
+SCSI-2 it is the CHEEPEST of the SCSI-2 interfaces.  Just pop out the SCSI-1
+electornics and pop in 8-bit SCSI-2 electronics.  Some people consider
+16-bit where SCSI-2 REALLY starts {I USED to be one of them} but
+4-6MB/s average though put with a theoretical burst of 10MB/s is NOT SCSI-1
+but is 8-bit SCSI-2.
+Rule of thumb: if it is SCSIn and OVER 5MB/s then it is SOME type of SCSI-2.
+
+8-bit SCSI CAN use part of SCSI-1 electronics which further reduces its cost
+compared to 16 and 32-bit SCSI-2.

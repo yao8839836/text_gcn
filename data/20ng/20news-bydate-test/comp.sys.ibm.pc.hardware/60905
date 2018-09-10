@@ -1,0 +1,82 @@
+From: w8sdz@tacom-emh1.army.mil (Keith Petersen)
+Subject: Re: Date is stuck
+Organization: The SIMTEL20 Archives
+Lines: 76
+NNTP-Posting-Host: tacom-emh1.army.mil
+
+Directory PD1:<MSDOS.SYSUTL>
+ Filename   Type Length   Date    Description
+==============================================
+CLKDEV14.ZIP  B   37122  910729  Keep DOS time in synch with battery clock chip
+
+An index of all files in the WSMR-SIMTEL20.Army.Mil MS-DOS collection
+is available in two formats:
+
+Directory PD1:<MSDOS.FILEDOCS>
+ Filename   Type  Description
+==============================================
+SIMIBM.ZIP    B   Comma-delim list of all MSDOS files w/descrip.
+SIMLIST.ZIP   B   Text format list of all MSDOS files w/descrip.
+
+These files are updated every 7-10 days.  See AAAREAD.ME in that
+directory for details. 
+
+SIMTEL20 allows only nine ANONYMOUS FTP logins during weekday
+prime time, 5am to 3pm Mountain Time (GMT-7), but 27 otherwise.
+
+SIMTEL20 files are also available by anonymous ftp from mirror sites
+OAK.Oakland.Edu (141.210.10.117), wuarchive.wustl.edu (128.252.135.4),
+archive.orst.edu (128.193.2.13), ftp.uu.net (137.39.1.9), nic.funet.fi
+(128.214.6.100), src.doc.ic.ac.uk (146.169.3.7), nic.switch.ch
+(130.59.1.40), archie.au (139.130.4.6), NCTUCCCA.edu.tw (140.111.3.21),
+by e-mail through the BITNET/EARN file servers, or by uucp from UUNET's
+1-900-GOT-SRCS.  See UUNET file uunet!~/info/archive-help for details.
+
+OAK.Oakland.Edu is the primary mirror site for WSMR-SIMTEL20.Army.Mil.
+All other mirrors (except wuarchive) and all LISTSERV and TRICKLE
+servers get their SIMTEL20 files from OAK instead of SIMTEL20 because
+it is much faster and allows more simultaneous ftp connections.  OAK is
+always "in sync" with SIMTEL20 because I maintain it, in addition to my
+duties at SIMTEL20.  I run OAK's mirror program whenever new files are
+added at SIMTEL20.
+
+MSDOS-Ann@TACOM-EMH1.Army.Mil is a ONE-WAY (moderated) mailing list
+which is used by the Internet MS-DOS archive managers to announce new
+additions to their collections. 
+
+The announcements posted to this mailing list are also posted to Usenet
+newsgroup comp.archives.msdos.announce.  If your host has Usenet News
+please do not subscribe to MSDOS-Ann.
+
+To add yourself to the mailing list send e-mail to
+listserv@TACOM-EMH1.Army.Mil with this command in the
+body of the message:
+
+    subscribe msdos-ann
+
+To subscribe something other than the account the mail is coming from,
+such as a local redistribution list, then add that address to the
+"subscribe" command; for example, to subscribe "local-msdos-ann":
+
+    subscribe local-msdos-ann@your.domain.net msdos-ann
+
+Please do not include a signature because it may confuse the server.
+Send mail with the word  help  in the body of the message to get a
+complete list of commands and their syntax.
+
+If you later change your mind and wish to unsubscribe, send e-mail
+from the same address where you were when you subscribed.  Send to
+listserv@TACOM-EMH1.Army.Mil with this command in the body of the
+message:
+
+unsubscribe msdos-ann
+
+This server is only for mailing lists and information files.  It will
+not send program files. 
+
+Keith
+--
+Keith Petersen
+Maintainer of the MS-DOS archive at WSMR-SIMTEL20.Army.Mil [192.88.110.20]
+Internet: w8sdz@TACOM-EMH1.Army.Mil     or      w8sdz@Vela.ACS.Oakland.Edu
+Uucp: uunet!umich!vela!w8sdz                         BITNET: w8sdz@OAKLAND

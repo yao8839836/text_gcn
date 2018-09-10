@@ -1,0 +1,41 @@
+From: svoboda@rtsg.mot.com (David Svoboda)
+Subject: Re: Countersteering sans Hands
+Nntp-Posting-Host: corolla18
+Organization: Motorola Inc., Cellular Infrastructure Group
+Lines: 35
+
+In article <1993Apr22.005308.11779@cs.cornell.edu> karr@cs.cornell.edu (David Karr) writes:
+|In article <gbnvgw@quantum.qnx.com> dagibbs@quantum.qnx.com (David Gibbs) writes:
+|>
+|>Yes, even when steering no hands you do something quite similar
+|>to countersteering.  Basically to turn left, you to a quick wiggle
+|>of the bike to the right first, causing a counteracting lean to
+|>occur to the left.
+|
+|This sounds suspiciously like black magic to me.  If by "quick wiggle
+|to the right" you mean that the handlebars turn toward the right
+|before turning to the left, what is the input to the steering
+|mechanism that makes this happen in the absence of the old
+|"shove-shove"?
+
+Well, as many a bored bike tourer can tell you, the way to steer
+sans hans is to push your body off to the side you want to lean.
+Say you want to turn left.  You push your body off to the left.
+To do this, you have to push against something, and the only
+thing to push against is the ground (through the bike).  Well,
+the apple guy (Wozniak? or was that Churchill?) says that the 
+ground will push you right back.  So, you pushed yourself off to 
+the left by pushing on the ground to the right, and the ground 
+pushed back toward the left.  Well, that push is on both wheels.  
+The rear wheel doesn't care (unless you have serious bearing 
+problems) (except of course on the Spagthorpe Dragonfly, which
+had the revolutionary countersteering-contra-shaft-drive rear end), 
+but the front wheel has trail.  If the ground pushes the front wheel 
+toward the left at the contact patch, the trail will cause the 
+wheel to turn to the right.  Hey, there we are.  No-hands counter-
+steering.
+
+Dave Svoboda (svoboda@void.rtsg.mot.com)    | "I'm getting tired of
+90 Concours 1000 (Mmmmmmmmmm!)              |  beating you up, Dave.
+84 RZ 350 (Ring Ding) (Woops!)              |  You never learn."
+AMA 583905  DoD #0330  COG 939  (Chicago)   |  -- Beth "Bruiser" Dixon

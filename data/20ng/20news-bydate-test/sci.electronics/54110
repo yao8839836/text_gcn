@@ -1,0 +1,18 @@
+From: stevenm@kralizec.zeta.org.au (Steven Murray)
+Subject: Re: RAMs &ROMs with ALE latches (for 8051's)
+Organization: Kralizec Dialup Unix Sydney: +61-2-837-1183 V.32bis
+Lines: 12
+NNTP-Posting-Host: kralizec.zeta.org.au
+
+
+>>In article <1qg98sINNokf@sheoak.ucnv.edu.au> jeff@redgum.ucnv.edu.au (j. pethybridge) writes:
+>>>	Hello again,
+>>> I asked this a year ago, but i am still looking.
+>>> I am getting sick of having to use a HC373 
+
+If you are just getting sick of the real estate used by the HCT373, you could
+always use the approach I have seen one designer take - he stuck the chip in
+the middle of the EPROM socket, under the EPROM.  Naturally, you have to use
+an IC socket with the right dimensions, but layout is really easy.
+
+-Steven Murray

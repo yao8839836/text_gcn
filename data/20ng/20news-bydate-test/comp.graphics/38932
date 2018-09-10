@@ -1,0 +1,41 @@
+From: hollasch@kpc.com (Steve Hollasch)
+Subject: Re: Kubota Kenai/Denali specs
+Summary: Some clarifications
+Organization: Kubota Pacific Computer, Inc.
+Lines: 35
+
+lioness@maple.circa.ufl.edu:
+> Okay, I got enough replies about the Kubota Kenai/Denali systems that I
+> will post a summary of their capabilities.  [ ... ]
+> 
+> GRAPHICS
+> 
+> Transform Modules           1-6                     1-6
+> Frame Buffer Modules        5,10,20                 5,10,20
+> Frame Buffer                1280x1024x24bit         1280x1024x24bit
+>                             double buffered         double buffered
+> Z-buffer                    24-bit                  24-bit
+> Alpha/stencil               8-bit                   8-bit
+
+pmartz@dsd.es.com (Paul Martz):
+| Does this mean they can either do alpha or stenciling, but not both
+| simultaneously?
+
+lioness@maple.circa.ufl.edu:
+> Stereo support              yes                     yes
+> Other:                      both machines will double buffer or do
+>                             stereo output per window.  Both have an
+>                             auxiliary video output that is RS-170A,
+>                             NTSC, and PAL
+
+pmartz@dsd.es.com (Paul Martz):
+| Same question again, does this mean they can either do double
+| buffering or stereo, but not both simultaneously?
+
+    For both these questions, it's an inclusive or.  Alpha plus stencil is
+supported (they're separate), as is double-buffered stereo.
+
+______________________________________________________________________________
+Steve Hollasch                                   Kubota Pacific Computer, Inc.
+hollasch@kpc.com                                 Santa Clara, California
+            --- Barbie had it right; math IS hard. ---

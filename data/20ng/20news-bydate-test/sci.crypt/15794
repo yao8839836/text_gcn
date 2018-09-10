@@ -1,0 +1,36 @@
+From: wcs@anchor.ho.att.com (Bill Stewart +1-908-949-0705)
+Subject: Re: Off the shelf cheap DES keyseach machine (Was: Re: Corporate acceptance of the wiretap chip)
+Organization: the best minds of a generation, destroyed by madness
+In-Reply-To: ebrandt@jarthur.claremont.edu's message of Wed, 21 Apr 1993 22:34:15 GMT
+Keywords: *Penn and Teller* could sneak out of the key generation vault with your keys; the NSA probably can too.
+	<1993Apr21.132318.16981@ulysses.att.com>
+	<C5uup3.5wp@news.claremont.edu>
+Nntp-Posting-Host: rainier.ho.att.com
+Lines: 26
+
+In article <C5uup3.5wp@news.claremont.edu> ebrandt@jarthur.claremont.edu (Eli Brandt) writes:
+   In article <1993Apr21.132318.16981@ulysses.att.com> smb@research.att.com (Steven Bellovin) writes:
+   >Remember that they've promised to let a committee of outside experts see
+   >the cryptosystem design.
+
+   I hope there are some silicon jocks on the committee who can follow
+   the algorithm through to hardware.  While I doubt the NSA would pull
+   any monkey business on this point -- they have to expect that the
+   chip will be reverse-engineered sooner or later -- it's an obvious
+   opportunity to introduce additional holes.
+
+The chip isn't the place to pull the monkey business - you do it in
+the key generation, either by having a mathematical backdoor,
+or by having the program on the laptop that supposedly generates the
+keys also save a copy of S1 and S2 and leak it out somehow,
+or by having the program that supposedly puts the official keys
+on the chip actually put a *different* key there (VERY hard to detect,
+since the escrow agents have to either trust the NSA laptop or
+give each other the S* keys, and they still don't know the algorithm.)
+Or have the chip-burner at the factory make copies of the keys.
+Or whatever.
+--
+#				Pray for peace;      Bill
+# Bill Stewart 1-908-949-0705 wcs@anchor.att.com AT&T Bell Labs 4M312 Holmdel NJ
+#	              No, I'm *from* New Jersey, I only *work* in cyberspace....
+# White House Commect Line 1-202-456-1111  fax 1-202-456-2461

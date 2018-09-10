@@ -1,0 +1,26 @@
+From: gbt@cray.com (Greg Titus)
+Subject: Re: HST Servicing Mission Scheduled for 11 Days
+Lines: 20
+Nntp-Posting-Host: hemlock
+Organization: Cray Research, Inc.
+
+In article <1993Apr27.094238.7682@samba.oit.unc.edu> Bruce.Scott@launchpad.unc.edu (Bruce Scott) writes:
+>If re-boosting the HST by carrying it with a shuttle would not damage it,
+>then why couldn't HST be brought back to earth and the repair job done
+>here?
+
+I'm not sure if this is a big issue, but it seems to me like it
+might be -- up till now, all >1g forces applied to the mirror and
+its mounting (and nearly all =1g forces) have been applied along the
+telescope's optical axis, and against the mirror's base.  Reentry
+would apply forces along roughly the same axis, but tending to pull
+the mirror away from the mount, and the landing would apply on-edge
+forces to both the mirror and mount.  It could be that one or both
+of these would not survive.
+
+greg
+-- 
+--------------------------------------------------------------
+Greg Titus (gbt@zia.cray.com)                   Compiler Group
+Cray Research, Inc.                               Santa Fe, NM
+Opinions expressed herein (such as they are) are purely my own.

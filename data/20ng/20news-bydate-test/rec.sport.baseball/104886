@@ -1,0 +1,37 @@
+From: cruz@stsci.edu
+Subject: Re: Baseball logos available via anonymous FTP
+Lines: 31
+Organization: Space Telescope Science Institute
+Distribution: world,na
+
+In article <1993Apr21.165206.13060@ac.dal.ca>, arishem@ac.dal.ca writes:
+> 
+> Well, thanks to Matthew Wall, the Major League baseball logos which I've been
+> posting over the past number of weeks now have a home at the Internet
+> Baseball Archive.
+> To get them, FTP to eucalyptus.cc.swarthmore.edu, login anonymously as per
+> usual, and cd to the baseball/misc/graphics directory.  Both the GIF files
+> and the uuencoded versions are available.
+> 
+>   Darren
+> 
+>  Darren Reiniger                   reiniger@ug.cs.dal.ca || arishem@ac.dal.ca
+>  Centre For Marine Geology, Dalhousie University, Halifax, N.S., Canada
+> | People who wonder where this generation is going should remind themselves   |
+> | where it came from in the first place.                                      |
+
+
+I have successfully copied all of the uuencoded versions of these logos to my
+local directory, but when I tried the GIF files, it said "Permission denied".
+Could you explain why, and also how to execute the uuencoded files?
+
+Thanks,
+
+Ken
+
+
+================================================================================
+% KEN CRUZ                   | 1993 NFL CHAMPS: DALLAS COWBOYS                 %
+% JOHNS HOPKINS UNIVERSITY   | 1993 MLB CHAMPS: BALTIMORE ORIOLES              %
+% BALTIMORE, MARYLAND        | 1993 ALL-STAR GAME @ ORIOLE PARK at CAMDEN YARDS%
+================================================================================

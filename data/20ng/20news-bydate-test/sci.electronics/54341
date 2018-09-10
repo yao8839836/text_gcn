@@ -1,0 +1,69 @@
+From: zlau@arrl.org (Zack Lau)
+Subject: Re: Why circuit boards are green?
+Organization: American Radio Relay League
+Lines: 64
+
+In sci.electronics, swanee@megadata.mega.oz.au (Geoff Swan) writes:
+>
+>Rubbish. The reason for the colour of the boards depends on the solder
+
+The May 1993 cover of QST has a picture of three different boards without
+any solder mask (you can tell from the copper colored traces). The box
+labeled 2304 transverter has the brown teflon/glass board, while the one
+in the center has the grayish board exposed.  On the left is some 
+fiberglass board that looks green to me.  I see no reason
+for putting solder mask on circuit board used for box covers :-).
+
+I wonder if any manufacturer actually puts a solder mask on their
+low noise microwave preamps?  Often, microwave circuits have odd
+bits of wire/foil/metal attached to wherever/whatever is necessary
+to make the unit work properly (this is a commercial product?).  A
+solder mask would certainly make doing this tougher, never mind 
+the finding something that minimally degrades the circuits.  (Q dope
+for coils *does* not improve the Q--it just holds things together with
+minimal loss).
+
+Zack Lau  KH6CP/1
+
+Internet: zlau@arrl.org           "Working" on 24 GHz SSB/CW gear     
+			          Operating Interests: 10 GHz CW/SSB/FM
+US Mail: c/o ARRL Lab				       80/40/20 CW
+	225 Main Street		  Station capability: QRP, 1.8 MHz to 10 GHz
+	Newington CT  06111	               modes: CW/SSB/FM/packet
+						      amtor/baudot
+Phone (if you really have to): 203-666-1541
+
+Zack Lau  KH6CP/1
+
+Internet: zlau@arrl.org           "Working" on 24 GHz SSB/CW gear     
+			          Operating Interests: 10 GHz CW/SSB/FM
+US Mail: c/o ARRL Lab				       80/40/20 CW
+	225 Main Street		  Station capability: QRP, 1.8 MHz to 10 GHz
+	Newington CT  06111	               modes: CW/SSB/FM/packet
+						      amtor/baudot
+Phone (if you really have to): 203-666-1541
+
+>mask that is used. Older boards (bakelite and phenolic) rarely used
+>a solder mask (these boards are not suited well to automatic stuffing
+>and soldering techniques) and hence are the colour of the compound
+>used to make them. These days boards are made of fibreglass for most
+>general purpose uses and have a solder mask applied to them to prevent
+>close traces shorting to one another during soldering (and also to prevent
+>the decomposition of traces under harsh environments). The light and dark
+>green boards ofter seen have a "dry film" mask applied to them (usually
+>applied as a complete film photographically produced). The blue (and red
+>or orange) boards are a two-part epoxy or a liquid-imageable resist
+>formulation and are applied in a different manner. There's a lot of info
+>about the pro's and con's of each, but that's another story...
+>
+>    Sla/n go fo/ill,
+>                    Risky B.
+>--------------------------------------------------------------------------
+>Geoff Swan (research & development)   _--_|\         swanee@mega.com.au
+>Megadata Pty Ltd                     /      \ 
+>2/37 Waterloo Rd, North Ryde,        \_.--._/               +61 2 805 0899
+>NSW 2113, Australia.                       v          (Fax) +61 2 887 4847
+>
+>
+>
+>

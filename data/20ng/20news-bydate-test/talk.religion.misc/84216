@@ -1,0 +1,29 @@
+From: keith@cco.caltech.edu (Keith Allan Schneider)
+Subject: Re: The Universe and Black Holes, was Re: 2000 years.....
+Organization: California Institute of Technology, Pasadena
+Lines: 23
+NNTP-Posting-Host: punisher.caltech.edu
+
+salem@pangea.Stanford.EDU (Bruce Salem) writes:
+
+>Is this Zeno's Paradox?
+
+No.  Zeno's paradox is resolved by showing that integration or an infinite
+series of decreasing terms can sum to a finite result.
+
+>Nothing can get out of a black hole because
+>the escape velocity is the speed of light. I don't know how time dialation
+>can prevent matter spiraling in from getting to the event horizon. Can any-
+>one explain how matter gets in.
+
+Well, suppose a probe emitting radiation at a constant frequency was
+sent towards a black hole.  As it got closer to the event horizon, the
+red shift would keep increasing.  The period would get longer and longer,
+but it would never stop.  An observer would not observe the probe actually
+reaching the event horizon.  The detected energy from the probe would keep
+decreasing, but it wouldn't vanish.  Exp(-t) never quite reaches zero.
+
+I guess the above probably doesn't make things any more clear, but hopefully
+you will get the general idea maybe.
+
+keith

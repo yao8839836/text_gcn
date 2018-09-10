@@ -1,0 +1,57 @@
+From: merlin@lerami.lerctr.org (David Hayes)
+Subject: Re: The [secret] source of that announcement
+Distribution: inet
+Organization: Not Bloody Likely!
+Lines: 51
+
+In article <1r3vjhINN5iq@dns1.NMSU.Edu>
+amolitor@nmsu.edu (Andrew Molitor) writes:
+>In article <gradyC5uAMw.BnG@netcom.com> grady@netcom.com (1016/2EF221) writes:
+>If you can get it for a buck, 2nd hand, it must be true, eh? I'm pretty
+>sure the NSA is supposed to, among many other things, provide high-quality
+>cryptosystems to a variety of places. I don't recall reading anywhere
+>reliable that they're supposed to:
+>
+>	1) Monitor my phonecalls.
+>	2) Monitor usenet.
+>	3) Provide only cryptosystems they can easily crack.
+>	4) etc etc.
+>
+>	This is not to say that they *don't*, they might. But you don't
+>know that they do, and you have no evidence that they do, for almost
+>all values of you. It follows, therefore, that for most values of 'you',
+>your claims about the NSA border on paranoia.
+>
+>	Andrew
+>
+
+OK, Andrew, I'll provide some evidence. A friend of mine worked for an
+electronics manufacturer on with a west-coast office. They routinely sold
+equipment to the Japanese. One day, the Japanese started showing up with
+discount demands that were amazingly close to the cost to manufacture the
+products.
+
+This company routinely sent most of the manufacturing data to the field 
+offices. The Japanese had simply intercepted it. So my friend, the computer
+systems admin, came up with a solution. He started sending the data out
+double-block-encrypted with DES. 
+
+Two days after this new distribution plan was implemented, the president of
+the company got a visit from a pair of government agents. They told him to
+"knock it off". The president gave in, since his company did a considerable
+business with the federal government.
+
+Now, if the government wasn't monitoring the communications, how would they
+even know that the encryption system was installed? Further, since encryp-
+tion isn't illegal, and DES certainly isn't, what is the basis of the
+government's cease-and-desist demand?
+
+The spooks do whatever they think is necessary, with or without the blessings
+of the law. I'll say "no thanks" to Clipper, or anything else the government
+produces. For the moment, double or triple DES is probably adequate. And when
+the line is idle, send random garbage, just to keep 'em busy. 
+
+    David Hayes    merlin@lerami.lerctr.org
+
+
+

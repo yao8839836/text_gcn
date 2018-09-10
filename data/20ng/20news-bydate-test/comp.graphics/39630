@@ -1,0 +1,18 @@
+From: qwert@hardy.u.washington.edu (The QwertMeister)
+Subject: POV/TGA
+Organization: University of Washington, Seattle
+Lines: 10
+Distribution: world
+Reply-To: qwert@u.washington.edu
+NNTP-Posting-Host: hardy.u.washington.edu
+
+I'm having a slight problem with the POV raytracer.  I'm not sure if
+this is the correct group to post to or not.  I create .tga files on
+a unix machine using pov.  Then when i download them to display on my pc,
+they're listed as bad files.  But when I create the file on my pc, it displays
+fine.  Are unix .tga's incompatible with the pc?  An easy solution to this
+problem would be a unix targa->gif converter.  Anyone know where I could
+find one?  Any help on this subject is appreciated.  
+
+- Kevin
+

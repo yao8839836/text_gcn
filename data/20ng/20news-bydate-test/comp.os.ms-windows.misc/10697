@@ -1,0 +1,40 @@
+Nntp-Posting-Host: fac-csr.byu.edu
+Lines: 33
+From: ecktons@ucs.byu.edu (Sean Eckton)
+Subject: Re: Why is my mouse so JUMPY?  (MS MOUSE)
+Organization: Fine Arts and Communications -- Brigham Young University
+Distribution: world
+
+My original post:
+>Subject: Re: Why is my mouse so JUMPY?  (MS MOUSE)
+>> I have a Microsoft Serial Mouse and am using mouse.com 8.00 (was using 8.20 
+>> I think, but switched to 8.00 to see if it was any better).  Vertical motion 
+>> is nice and smooth, but horizontal motion is so bad I sometimes can't click 
+>> on something because my mouse jumps around.  I can be moving the mouse to 
+>> the right with relatively uniform motion and the mouse will move smoothly 
+>> for a bit, then jump to the right, then move smoothly for a bit then jump 
+>> again (maybe this time to the left about .5 inch!).  This is crazy!  I have 
+>> never had so much trouble with a mouse before.  Anyone have any solutions?  
+
+Aha, I think I found the problem and it isn't dirt!  Another guy here was 
+using a different kind of mouse and was using 640x400x16 video driver (the 
+default VGA for Windows).  He has an S3 LocalBus card like I do and when I 
+loaded the S3 video driver in Windows for him, his mouse became jumpy too.  
+Seems like it is the S3 driver!  Is there any newer one than version 1.4 
+that would solve this problem?  It is really bad.  I have to use the 
+keyboard instead sometimes!  The s3-w31.zip on cica is version 1.4 (which is 
+the same version that came with my card).
+
+
+---
+Sean Eckton
+Computer Support Representative
+College of Fine Arts and Communications
+
+D-406 HFAC
+Brigham Young University
+Provo, UT  84602
+(801)378-3292
+
+hfac_csr@byu.edu
+ecktons@ucs.byu.edu

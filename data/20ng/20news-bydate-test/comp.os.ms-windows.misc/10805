@@ -1,0 +1,34 @@
+From: detrolio@andromeda.rutgers.edu (David De Trolio)
+Subject: STOP Message Received Running Windows 3.1 Application Menu
+Keywords: Windows 3.1, Application Menu
+Organization: Rutgers Univ., New Brunswick, N.J.
+Lines: 28
+
+I am running Windows 3.1 on a 386SX-16 MHZ with Five Megs of Memory.
+
+The motherboard came with one meg, and I added the four megs this past
+weekend.  They were 1X9 70 Simms.
+
+I had installed in the application menu MS-DOS command PARK.  Up till
+today, it parked the disk from the application menu without any problem.
+
+When attempting to park the heads today, I received the following
+message:
+
+
+STOP        This application has violated system integrity due to
+            an invalid general protection fault and will be
+            terminated.
+
+What does this message mean?
+
+Thanks,
+
+
+
+
+-- 
+David De Trolio                         (detrolio@andromeda.rutgers.edu)
+------------------------------------------------------------------------
+We in the United States can have increased revenue without punishing
+or penalizing those who have obtained personal and economic achievements.

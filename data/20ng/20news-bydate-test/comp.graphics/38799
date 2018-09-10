@@ -1,0 +1,21 @@
+From: exjob-17@dali.NoSubdomain.NoDomain (Niclas Mattsson)
+Subject: WANTED: Grayscale dithering routine
+Nntp-Posting-Host: dali.math.chalmers.se
+Organization: Chalmers University of Technology
+Lines: 15
+
+I have some color gifs which I would like to archive in a much smaller
+size using a grayscale palette of 16 shades. The quantization to 16 grays
+introduces some ugly bands in the pictures, which can be nicely eliminated
+by dithering. Up to now I have used XV to process the images, but now I
+would like to automate the procedure.
+
+The problem is that XV can't (I think) convert images automatically, and the
+obvious alternative PNMPLUS (PPMQUANT and PNMDITHER) don't even get close to
+XV's quality. PNMDITHER apparently dithers in RGB, even though the images
+are in grayscale. The dithering routine in XV seems to use the natural image
+colors for the dither. Is this or any similar routine available in the
+public domain? If so, where?  
+-- 
+Niclas Mattsson
+exjob-17@math.chalmers.se

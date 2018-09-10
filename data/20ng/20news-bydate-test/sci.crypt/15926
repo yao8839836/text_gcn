@@ -1,0 +1,37 @@
+From: injc@sun.rz.tu-clausthal.de (Joerg Czeranski)
+Subject: Re: Off the shelf cheap DES keyseach machine (Was: Re: Corporate acceptance of the wiretap chip)
+Organization: Techn. Univ. Clausthal
+X-Newsreader: Tin 1.1 PL5
+Lines: 31
+
+AG Russell (arussell@austin.ibm.com) wrote:
+: At the company I worked for previously, I received a file that was
+: des encryped
+: and the person that had sent it, went on vaction.  Rather than wait
+: two weeks
+: I set up a straight frontal attack with one key at a time.  It only
+: took two(2)
+: days to crack the file.  No, I don't have any faith in DES.
+
+Then it was either _really_ good luck or you had some _very_ fast
+machine.  DES has 2^56 possible keys, each two of which are simply
+to convert into each other, so you have to expect 2^54 trial encryptions
+in the mean case, assuming known plaintext.
+2^54 / 2 / (24*60*60) / 1000000 is ca. 104250.
+So you must have managed to do 104250 encryptions per microsecond.
+CE Infosys builds a very fast DES chip that manages 2 (!) encryptions
+per microsecond.
+
+Yes, I'm not very seriously bothered about the security of DES yet;
+though you might prefer to use triple DES or IDEA, both of which
+use more key bits.
+
+joerg
+
+--
+Joerg Czeranski                EMail czeranski@rz.tu-clausthal.de
+Osteroeder Strasse 55          SMTP  injc@[139.174.2.10]
+W-3392 Clausthal-Zellerfeld    Voice (at work)  +49-5323-72-3896
+Germany                        Voice (at home)  +49-5323-78858
+
+To obtain PGP public key, finger injc@sun.rz.tu-clausthal.de, or email me.

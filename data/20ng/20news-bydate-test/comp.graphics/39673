@@ -1,0 +1,139 @@
+From: val@fcom.cc.utah.edu (Val Kartchner)
+Subject: Re: Where did the hacker ethic go?
+Organization: University of Utah Computer Center
+X-Newsreader: TIN [version 1.1 PL8]
+Lines: 133
+
+VINCI (filipe@vxcrna.cern.ch) wrote:
+: In article <1993May12.193454.29823@hal.com>, bobp@hal.com (Bob Pendleton) writes...
+: >From article <1993May7.235404.22590@pony.Ingres.COM>, by mwmeyer@Ingres.COM (Mike (wading through the muck and) Meyer):
+: >> In article <1993May7.165432.16935@hal.com> bobp@hal.com (Bob Pendleton) writes:
+: >>    This is getting pretty silly. First off, "Hacker" is an obsolete term.
+: >>    Doesn't matter what it used to mean, today it means "thief."
+: >> 
+: >> It only means "thief" if you want it to mean that.  To me, it means
+
+:   [Lots of context wickedly omitted by myself :-) ]
+: > 
+: >Anyway, if I say "Joe is a hacker" to most english speaking people who
+: >know the word they'll probably think he is either a poor golfer or a
+: >bad carpenter. But there are very very few people who will think he is
+: >a good and clever programmer. :-)
+: > 
+: >If you chose to call yourself by a term that means "thief" don't be
+: >surprised when people think you are a thief. Even if you don't agree
+: >with that definition of the word.
+:       ^^^  ^^^^^^^^^^ 
+:  [....] The narrower view that a hacker, when
+:  associated with the computing environment, is a dishonest
+:  expert is not so widespread, I'm my opinion, at least with the
+:  people involved with the field. IMHO the wider meaning is not
+:  obsolete at all, no matter how much the lay press would like it to
+:  be!  [....]
+
+:  Therefore I conclude that if you call yourself a hacker, and somebody
+:  perceives you as a thief, then this person belongs to a very very
+:  small group that has some computer knowledge, but not enough to know
+:  the wider (and original) meaning of the word.  [....]
+
+Unfortunately, the general public has a very narrow view of the deep, dark
+recesses of the art of computing.  What little they do see is from the view
+given to them by the media.  From what I have seen from the media, 'hacker'
+is not a proper way by which to refer to a respected person.
+
+I, on the other hand, know what 'hacker' means from those who consider
+themselves such.  Following is the definition from "Jargon File 2.9.10".
+(This is also known as the "Hackers Dictionary".)  The definitions are
+arranged in order of decreasing frequency of usage:
+
+   :hacker: [originally, someone who makes furniture with an axe] n.
+     1. A person who enjoys exploring the details of programmable
+     systems and how to stretch their capabilities, as opposed to most
+     users, who prefer to learn only the minimum necessary.  2. One who
+     programs enthusiastically (even obsessively) or who enjoys
+     programming rather than just theorizing about programming.  3. A
+     person capable of appreciating {hack value}.  4. A person who is
+     good at programming quickly.  5. An expert at a particular program,
+     or one who frequently does work using it or on it; as in 'a UNIX
+     hacker'.  (Definitions 1 through 5 are correlated, and people who
+     fit them congregate.)  6. An expert or enthusiast of any kind.  One
+     might be an astronomy hacker, for example.  7. One who enjoys the
+     intellectual challenge of creatively overcoming or circumventing
+     limitations.  8. [deprecated] A malicious meddler who tries to
+     discover sensitive information by poking around.  Hence 'password
+     hacker', 'network hacker'.  See {cracker}.
+
+     The term 'hacker' also tends to connote membership in the global
+     community defined by the net (see {network, the} and
+     {Internet address}).  It also implies that the person described
+     is seen to subscribe to some version of the hacker ehic (see
+     {hacker ethic, the}).
+
+     It is better to be described as a hacker by others than to describe
+     oneself that way.  Hackers consider themselves something of an
+     elite (a meritocracy based on ability), though one to which new
+     members are gladly welcome.  There is thus a certain ego
+     satisfaction to be had in identifying yourself as a hacker (but if
+     you claim to be one and are not, you'll quickly be labeled
+     {bogus}).  See also {wannabee}.
+
+   :hacker ethic, the: n.  1. The belief that information-sharing
+     is a powerful positive good, and that it is an ethical duty of
+     hackers to share their expertise by writing free software and
+     facilitating access to information and to computing resources
+     wherever possible.  2. The belief that system-cracking for fun
+     and exploration is ethically OK as long as the cracker commits
+     no theft, vandalism, or breach of confidentiality.
+
+     Both of these normative ethical principles are widely, but by no
+     means universally) accepted among hackers. Most hackers subscribe
+     to the hacker ethic in sense 1, and many act on it by writing and
+     giving away free software.  A few go further and assert that
+     *all* information should be free and *any* proprietary
+     control of it is bad; this is the philosophy behind the {GNU}
+     project.
+
+     Sense 2 is more controversial: some people consider the act of
+     cracking itself to be unethical, like breaking and entering.
+     But this principle at least moderates the behavior of people who
+     see themselves as `benign' crackers (see also {samurai}).  On
+     this view, it is one of the highest forms of hackerly courtesy
+     to (a) break into a system, and then (b) explain to the sysop,
+     preferably by email from a {superuser} account, exactly how it
+     was done and how the hole can be plugged --- acting as an
+     unpaid (an unsolicited) {tiger team}.
+
+     The most reliable manifestation of either version of the hacker
+     ethic is that almost all hackers are actively willing to share
+     technical tricks, software, and (where possible) computing
+     resources with other hackers.  Huge cooperative networks such as
+     {USENET}, {Fidonet} and Internet (see {Internet address})
+     can function without central control because of this trait; they
+     both rely on and reinforce a sense of community that may be
+     hackerdom's most valuable intangible asset.
+
+:  Finally, a true hacker does not name himself/herself one, for this is
+:  a title that is bestowed by the befuddled sysadmins and users at large.
+: To me, a sign of a truly great hacker is to be introduced to someone who
+: says "Nahh, I just know a thing or two, people always exagerate..." :-)
+
+Note that the above definition does not preclude a hacker from describing
+limself (meaning: himself/herself) one, but simply says that it is better
+not to do so.  There are many who do not know the meaning of 'hacker'.  So,
+in order to defend the true meaning of the word, it is sometimes necessary
+to borrow on the reputation of a known (respected) hacker around the
+workplace.  (This means that 'hacker' is defined in terms of some well-known
+and respected person.)  Sometimes, there may only be one such person.
+
+: >No matter what Mr. Dumpty says, language doesn't work that way.
+:  Actually it does, you just have to get adequate press coverage... :-)
+
+Language works anyway that we want it to work.  The purpose of language is
+to communicate.  To oversimplify: As long as communication is taking place,
+then language is working.
+
+--
+|================= #include <stddisclaimer.h> ================///=============|
+| "AMIGA: The computer for the creative mind" (tm) Commodore /// Weber State  |
+| "Macintosh: The computer for the rest of us"(tm) Apple \\\///   University  |
+|== "I think, therefore I AMiga" -- val@csulx.weber.edu ==\///= Ogden UT USA =|

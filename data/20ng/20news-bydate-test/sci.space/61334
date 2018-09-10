@@ -1,0 +1,33 @@
+From: abdkw@stdvax.gsfc.nasa.gov (David Ward)
+Subject: Re: Gamma Ray Bursters. Where are they?
+News-Software: VAX/VMS VNEWS 1.4-b1  
+Organization: Goddard Space Flight Center - Robotics Lab
+Lines: 27
+
+In article <1993Apr26.141114.19777@midway.uchicago.edu>, pef1@midway.uchicago.edu writes...
+>BATSE, by having 8 detectors of its own, can do its own location determination,
+>but only to within about 3 degrees (would someone at GSFC, like David, like
+>to comment on the current state of location determination?).  Having inde-
+>pendent sightings by other detectors helps drive down the uncertainty.
+> 
+
+Well, I'll avoid your question for now (got some learnin' to do) with a
+promise to come back with more info when I can find it.  I _do_ know that
+BATSE is the primary instrument in the development of the all-sky map of
+long-term sources.  Given that fact, and the spacecraft attitude knowledge
+of approx. 2 arcmin, we might be able to figure out how well BATSE can
+determine the location (rotational) of a Gamma Ray burster from knowledge
+of the all-sky map's accuracy.  PR material for the other three instruments
+give accuracies on the order of "fractions of a degree", if that's 
+any help.
+
+Speaking of GRO, the net-world probably was happy to see that the preps
+for orbit adjust appear to be going well.  Our branch guy who's helping
+out says that things have gone smoothly with the iso-valve preps and the
+burns will take place in mid-June.
+
+Anyway, I'm off to find out more.  'Be back when I get some info.
+
+David W. @ GSFC
+"I don't know nuthin' 'bout measurin' no Gamma Rays"
+_Gone with the Wind_, paraphrased

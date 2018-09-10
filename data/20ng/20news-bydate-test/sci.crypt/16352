@@ -1,0 +1,27 @@
+From: t31694c@kaira.hut.fi (Tapani Lindgren)
+Subject: Re: DES salts
+Nntp-Posting-Host: kaira.hut.fi
+Organization: Helsinki University of Technology, Finland
+Lines: 21
+
+In article <1993Mar31.014220.7701@Demax.COM> mikel@Demax.COM (Mikel Lechner) writes:
+>
+>You could just as well use a 16 character password to perform the encryption
+>of the 64 zero bits.  One simple method would be to use the first 8 characters
+>to encrypt the 64 zero bits and then use the remaining 8 characters to
+>encrypt the result again.  The output would still be 64 bits which encodes
+>into 11 ASCII characters.
+>
+Wouldn't this method be vulnerable against a "birthday" attack?
+Currently a cracker needs to find the _only_ (*1) key that produces
+the given ciphertext.  He has to try about 2^63 keys on the average.
+In the proposed method the cracker only needs _any pair_ of key halves.
+If he can store about 2^32 guesses for one half, he is likely to find
+a mathching pair in about 2^32 guesses.  (Here I have assumed that the
+DES-encryption is reversable, if the key is guessed.  Is this so or do
+the modifications of the S-boxes by the salt bits make it non-reversable?)
+
+*1 Probably there is only one key; I think there is 1 chance in about 128
+that there are two or more keys (can anyone verify this?), but this doesn't
+help the cracker much.
+

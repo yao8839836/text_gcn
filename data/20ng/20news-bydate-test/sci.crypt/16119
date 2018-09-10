@@ -1,0 +1,31 @@
+From: maa@plato.ds.boeing.com (Mark A Allyn)
+Subject: Clipper Chip: Reverse Engineering
+Organization: Boeing Defense & Space Group
+Lines: 26
+
+I have been looking over the postings about the Clipper Chip and noticed
+an interesting omission from the discussion.
+
+You all mention that the algorithm is classified and have expressed 
+concerns and ideas of how to figure out the algorithm using software.
+
+The question that I have is why cant someone take one of these chips
+and reverse engineer it? I mean, take the thing to a chip testing/
+analysis facility, one with a decent electron microscope. Just pry
+off the top of the chip and start scanning it with the electron
+microcope and figure out the circuitry. I remembered a place that I use
+to work for had one of these facilities that they used to analyze chips
+that we accidently blew out while running tests. They could actually find
+the area that was fried and show us where in the circuit it was. 
+
+I am sure that many companies and universities must have these facilities
+and that the potential is there, especially at a university where the
+security at such a facility is looser, for someone to take a clipper
+apart and analyze it?
+
+What can the government do to prevent this? Start taking away all 
+microchip analysis facilities and electron microscopes??
+
+mark
+
+

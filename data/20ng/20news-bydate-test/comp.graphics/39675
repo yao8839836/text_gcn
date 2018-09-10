@@ -1,0 +1,34 @@
+From: ddennis@nyx.cs.du.edu (Dave Dennis)
+Subject: Re: Adobe Type Manager - what good is it??
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+Lines: 29
+
+menchett@dws015.unr.edu (Peter J Menchetti) writes:
+
+>The subject says it all. I bought Adobe Type Manager and find it completely
+>useless. I ftped some atm fonts and couldn't install them. What's the use?
+>Are you supposed to be able to convert ATM fonts to Truetype?
+
+>If there's anyone out there who has this program and actually finds it 
+>useful, enlighten me!
+
+>Pete
+
+There are some tricks to installing ATM to windows... install them first
+to dos, then run the ATM control panel to get them into windows.
+
+The best reason for ATM is that Adobe IS the standard.  Truetype is a
+failed MS venture to undercut Adobe when Adobe was being nasty about
+keeping their formats proprietary.  Just about any service bureau or print
+shop will smirk and send you on your way if you bring a TrueType document
+to them for high resolution printing or ripping.
+
+Although there are lots of pretty TT fonts floating around, they are really
+for dot matrix or your own lazer printer.
+However, you can convert your TT fonts with Fontmonger or some similar program
+to ATM fonts for high end stuff.
+
+If you are using dot matrix for all your printing, you may have wasted
+your money!
+
+Dave

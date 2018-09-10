@@ -1,0 +1,31 @@
+From: mlbizer@bongo.cc.utexas.edu (Marc Bizer)
+Subject: Problems with HP Backgrounder-- Help!!
+Organization: University of Texas at Austin
+Lines: 23
+X-UserAgent: Nuntius v1.1.1d20
+X-XXMessage-ID: <A7FC66B09802CCB1@slip-177.ots.utexas.edu>
+X-XXDate: Thu, 22 Apr 93 21:13:52 GMT
+
+Hi everyone,
+      I'm experiencing a very annoying problem with background printing
+on the HP Deskwriter (Sys 7.1, Deskwriter driver 3.1, PowerBook 170).
+When I print from, say, MS Word, I see the message "Spooling to disk,"
+but sometimes nothing prints. Checking my memory map thanks to Now Menus,
+I see that HP Backgrounder has not loaded. Restarting fixes this. It
+seems to me that HP Backgrounder is quitting unexpectedly, and that its
+status as "Multifinder NOT aware" allows it to do this without my being
+informed by a message such as "HP Backgrounder quit unexpectedly." Have
+you ever seen this problem before.
+        There may or may not be a related problem. I have experienced
+problems in putting my computer to sleep. Choosing "sleep" from the
+Finder menu sometimes does nothing. Today on a whim I checked the memory
+map, and I discovered that HP backgrounder was not loaded. Restarted
+reloaded HP backgrounder, and I was able to put my machine to sleep as
+usual. Just a mere coincidence or is the HP backgrounder crash preventing
+my machine from going to sleep?
+	Has anyone seen this problem? I'm seriously considering the purchase of
+a StylewriterII because of the poor quality of the HP software. 
+
+	Please send your answers directly to me and post to the net.
+	Yours truly,
+	Marc Bizer

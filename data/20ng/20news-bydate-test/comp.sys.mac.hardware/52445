@@ -1,0 +1,21 @@
+From: blaine@catt.ncsu.edu (Grey Mull)
+Subject: HELP formatting NT disk array
+Organization: North Carolina State University
+Lines: 16
+
+	
+	I have a Northern Telecom disk array dated 1987 that has two 253MB drives
+units in it and I cannot get it formatted.  I set the SCSI ID on 1 and my
+software recognizes the unit, but I cannot mount it or anything - do I have
+to use BOTH drives in the array? 
+
+	Any help with these drives or possibly newer software than what I'm using
+(FWB HDT1.0 and 1.1) will be greatly appreciated!
+
+-grey
+
+
+ Grey Mull                   ******************************************
+blaine@catt.ncsu.edu         * Smoke pot, dodge the draft, cheat on   *
+gbmull@eos.ncsu.edu          * your wife, become President ...        *
+NCSU CATT Program            ************THE AMERICAN DREAM************

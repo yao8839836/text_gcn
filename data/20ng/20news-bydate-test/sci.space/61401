@@ -1,0 +1,70 @@
+From: ethanb@ptolemy.astro.washington.edu (Ethan Bradford)
+Subject: Re: Gamma Ray Bursters. WHere are they.
+Article-I.D.: ptolemy.ETHANB.93Apr28135146
+	<1993Apr27.132255.12653@tpl68k0.tplrd.tpl.oz.au>
+	<STEINLY.93Apr27121443@topaz.ucsc.edu>
+Organization: U. of Washington
+Lines: 59
+NNTP-Posting-Host: kepler.astro.washington.edu
+To: steinly@topaz.ucsc.edu (Steinn Sigurdsson)
+In-reply-to: steinly@topaz.ucsc.edu's message of 27 Apr 93 12:14:43
+
+In article <STEINLY.93Apr27121443@topaz.ucsc.edu> steinly@topaz.ucsc.edu (Steinn Sigurdsson) writes:
+
+   _The_ problem with Oort cloud sources is that absolutely
+   no plausible mechanism has been proposed. It would have
+   to involve new physics as far as I can tell. Closest to
+   "conventional" Oort sources is a model of B-field pinching
+   by comets, it's got too many holes in it to count, but at
+   least it was a good try...
+
+So you have a plausible model for GRB's at astronomical distances?
+Recent observations have just about ruled out the merging neutron star
+hypothesis, which had a lot of problems, anyhow.  We have to look for
+implausible models and what is fundamentally allowed independent of
+models.
+
+A paper on the possibility of GRB's in the Oort cloud just came
+through the astrophysics abstract service.  To get a copy of this
+paper, send a message to astro-ph@babbage.sissa.it with the subject
+line 
+  get 9304001
+
+
+Here is the abstract of that paper.
+
+   The currently favored explanation for the origin of \GRBs puts them
+   at cosmological distances;
+   but as long as there is no distance
+   indicator to these events all possible sources which are
+   isotropically distributed should remain under consideration. This is
+   why the Oort cloud of comets is kept on the list,
+   although there is no known mechanism for generating \GRBs
+   from cometary nuclei. Unlikely as it may seem, the possibility that \GRBs
+   originate in the solar cometary cloud
+   cannot be excluded until it is disproved.
+
+   We use the available data on the distribution of \GRBs (the BATSE
+   catalogue up to March, 1992), and
+   the Catalogue of Cometary Orbits  by Marsden and Williams (1992) to
+   investigate whether there is any observational indication for correlations
+   between the angular distributions of \GRBs and comets' aphelia,
+   assuming that the distribution of aphelia direction reflect,
+   at least to some extent, true variations
+   in the column density of the Oort cloud. We also apply the $\vov$
+   test to both distributions.
+
+   We have  performed a variety of statistical tests (a Kolmogorov-Smirnov
+   test for the distributions in galactic latitude, a
+   $\chi^2$ test for the spherical multiple moments, and a 2-D
+   cross-correlation analysis), including testing sub-samples for
+   isolating the effect of possible observational biases.
+   These tests imply that it is unlikely that the two distributions agree, but
+   the statistical significance  is not sufficient for ruling out any
+   connection with complete confidence. We performed Monte-Carlo simulations
+   which show that only when the number of bursts exceeds $\sim 800$
+   it is possible to rule out a correlation between the angular distributions.
+   Currently,
+    it is only the combination of these tests  with the large disagreement
+   found for the $\vov$ parameter which makes the Oort
+   cloud of comets unlikely to be related to \GRBs.

@@ -1,0 +1,25 @@
+From: fishkin@parc.xerox.com (Ken Fishkin)
+Subject: Re: Oh make up your mind!! (was: Re: XV problems)
+Organization: Xerox PARC
+Lines: 20
+
+In article <1993Apr30.182605.5999@nessie.mcc.ac.uk>, lilley@v5.cgu.mcc.ac.uk (Chris Lilley) writes:
+    [re a true 24 bit XV]
+
+> If you would come up with a solid, logical, well argued and lucid description of
+> precisely how these proposed extensions would work, feel free to post them
+
+Don't mind if I do.
+As someone who would _love_ to see XV go to 24 bit, this
+would be plenty for me.
+
+    a) XV can Load a 24 bit image, and display it in all it's
+24 bit glory on 24 bit X displays.
+    b) All other operations (Crop, Dither, Smooth, etc.) are not
+supported on 24 bit images.
+
+how hard would this be?
+
+
+-- 
+Ken Fishkin	fishkin@xerox.com

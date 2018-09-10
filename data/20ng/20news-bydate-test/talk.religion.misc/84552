@@ -1,0 +1,59 @@
+From: Lynn Anderson <dba+lynn@cs.cmu.edu>
+Subject: Revised Easy-to-Read BoM available!
+X-Sender: lma@rimu.mach.cs.cmu.edu (Unverified)
+Originator: mnr@GS80.SP.CS.CMU.EDU
+Nntp-Posting-Host: gs80.sp.cs.cmu.edu
+Organization: School of Computer Science, Carnegie Mellon
+Lines: 51
+
+I am pleased to announce that a *revised version* of _The Easy-to-Read Book
+of Mormon_ (former title: _Mormon's Book_) by Lynn Matthews Anderson is now
+available through anonymous ftp (see information below). In addition to the
+change in title, the revised ETR BOM has been shortened by several pages
+(eliminating many extraneous "that's" and "of's"), and many (minor) errors
+have been corrected. This release includes a simplified Joseph Smith Story,
+testimonies of the three and eight witnesses, and a "Words-to-Know"
+glossary.
+
+As with the previous announcement, readers are reminded that this is a
+not-for-profit endeavor. This is a copyrighted work, but people are welcome
+to make *verbatim* copies for personal use. People can recuperate the
+actual costs of printing (paper, copy center charges), but may not charge
+anything for their time in making copies, or in any way realize a profit
+from the use of this book. See the permissions notice in the book itself
+for the precise terms.
+
+Negotiations are currently underway with a Mormon publisher vis-a-vis the
+printing and distribution of bound books. (Sorry, I'm out of the wire-bound
+"first editions.") I will make another announcement about the availability
+of printed copies once everything has been worked out.
+
+FTP information: connect via anonymous ftp to carnot.itc.cmu.edu, then "cd
+pub" (you won't see anything at all until you do).
+
+"The Easy-to-Read Book of Mormon" is currently available in postscript and
+RTF (rich text format). (ASCII, LaTeX, and other versions can be made
+available; contact dba@andrew.cmu.edu for details.) You should be able to
+print the postscript file on any postscript printer (such as an Apple
+Laserwriter); let dba know if you have any difficulties. (The postscript in
+the last release had problems on some printers; this time it should work
+better.) RTF is a standard document interchange format that can be read in
+by a number of word processors, including Microsoft Word for both the
+Macintosh and Windows. If you don't have a postscript printer, you may be
+able to use the RTF file to print out a copy of the book.
+
+-r--r--r--  1 dba                   1984742 Apr 27 13:12 etrbom.ps
+-r--r--r--  1 dba                   1209071 Apr 27 13:13 etrbom.rtf
+
+For more information about how this project came about, please refer to my
+article in the current issue of _Sunstone_, entitled "Delighting in
+Plainness: Issues Surrounding a Simple Modern English Book of Mormon."
+
+Send all inquiries and comments to:
+
+    Lynn Matthews Anderson
+    5806 Hampton Street
+    Pittsburgh, PA 15206
+
+    dba+lynn@cs.cmu.edu
+

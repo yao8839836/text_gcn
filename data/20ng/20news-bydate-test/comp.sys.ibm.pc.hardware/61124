@@ -1,0 +1,19 @@
+From: tfisher@CERIS.Purdue.EDU (Tom Fisher)
+Subject: Re: CPU Fans
+Organization: Center for Environmental and Regulatory Information Systems, Purdue University
+Lines: 14
+
+>> the "attached" fans look slick and work well but I'm bothered by the potential
+>> loss of cooling if the fan goes out. at least with the power supply fan you
+>> can reach back there every few days and feel the fan blowing.
+>> 
+> Yes, this is a valid concern IMHO.  With the directly attached fan units I've
+> seen, it looks like if the fan were to stop the chip cooling would be 
+> a good bit worse than no heat sink at all.  In other words, if the fan stops
+> the unit turns into an insulator and the chip might get hot enough to
+> suffer permanent damage, not just stop working temporarily.
+> 
+ A suggestion:  Slave (hook in series) a small pilot light off the fan
+circuit.  Then, if the light goes out, you know your fan is not working.
+
+Tom

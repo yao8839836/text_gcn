@@ -1,0 +1,20 @@
+From: irsman@iastate.edu (Ian Schmidt)
+Subject: Re: Development tools for 65C816?
+Organization: Iowa State University, Ames, IA
+Lines: 15
+
+In article <C6217x.2xoL@austin.ibm.com> oscar@oscar.austin.ibm.com (Oscar R. Mitchell) writes:
+
+[request for WDC65c816 Mac cross-development stuff]
+
+Apple themselves sells a 65816 cross-developer for the Macintosh called 
+'MPW IIgs' (it's intended for use with the Apple IIgs computer, which uses
+the '816).
+
+> Oscar R. Mitchell
+
+-- 
+        Ian Schmidt - Two Meg Software: irsman@{iastate.edu | aol.com}
+"I will choose a path that's     | Author of AudioZap, MODZap, and more.
+ clear: I will choose free will" | Co-author of SoundConvert and DeskTracker.
+ - N. Peart, 1980                | Coder and Musician for the GS<>IRC.

@@ -1,0 +1,77 @@
+From: hwn@cci.dk (Henrik W. Nielsen)
+Subject: Help. BadMatch making 24bit win on 8bit server !!
+Organization: CCI europe, Research and Development
+Lines: 72
+
+
+
+I'm trying to make a 24 bit window using XCreateWindow on a 8 bit
+PseudoColor server. As far as I know this should be possible if you
+server supports a TrueColor or DirectColor visual. I'm using a
+Sun IPC with a RasterFLEX card.
+
+Running xdpyinfo gives:
+...
+screen #0:
+  dimensions:    1152x900 pixels (352x275 millimeters)
+  resolution:    83x83 dots per inch
+  depths (4):    1, 5, 8, 24
+  root window id:    0x80083
+  depth of root window:    8 planes
+  number of colormaps:    minimum 1, maximum 6
+  default colormap:    0x80080
+...
+  number of visuals:    8
+  default visual id:  0x80079
+...
+  visual:
+    visual id:    0x80079
+    class:    PseudoColor
+    depth:    8 planes
+    size of colormap:    256 entries
+    red, green, blue masks:    0x0, 0x0, 0x0
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x8007a
+    class:    TrueColor
+    depth:    24 planes
+    size of colormap:    256 entries
+    red, green, blue masks:    0xff, 0xff00, 0xff0000
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x8007b
+    class:    DirectColor
+    depth:    24 planes
+    size of colormap:    256 entries
+    red, green, blue masks:    0xff, 0xff00, 0xff0000
+    significant bits in color specification:    8 bits
+
+
+My code looks like this:
+
+if ((Xio.DspPtr = XOpenDisplay(NULL)) == NULL)
+    logexit(1, "Cannot connect to X server %s", XDisplayName(NULL));
+
+Xio.Scr = DefaultScreen(Xio.DspPtr);   /* use this screen                 */
+
+if (XMatchVisualInfo(Xio.DspPtr, Xio.Scr, 24,
+		     DirectColor, &Xtern.ColorInfo))
+{
+   memset(&SetWinAttrib, 0, sizeof(XSetWindowAttributes));
+   Xio.GSwin = XCreateWindow(Xio.DspPtr, RootWindow(Xio.DspPtr, Xio.Scr),
+			     x, y, w, h, 0, 24, InputOutput,
+			     Xtern.ColorInfo, 0, &SetWinAttrib);
+}
+
+
+This results in a BadMatch error. Can anyone please tell me why ?
+
+
+------------------------------------------------------------------------------
+| Henrik Winther Nielsen                                     CCCCCCC  II  
+| Basic Development                                         CC  CCCC      
+| CCI Europe                   Mail:  hwn@cci.dk            CC CC     II  
+| Oester Parkvej 9             Phone: 86295588 (361)        CC  CCCC  II  
+| DK-8270 Hoejbjerg                                          CCCCCCC  II  
+| Denmark                                                    e u r o p e       
+ ------------------------------------------------------------------------------

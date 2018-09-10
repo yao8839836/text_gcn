@@ -1,0 +1,38 @@
+From: pgf@space.mit.edu (Peter G. Ford)
+Subject: Re: Help viewing Voyager CD ROMs on Mac
+Organization: MIT Center for Space Research
+Lines: 30
+Distribution: world
+Reply-To: pgf@space.mit.edu
+NNTP-Posting-Host: mgn1.mit.edu
+
+In article cnp@morrow.stanford.edu, ME.DMG@forsythe.stanford.edu (David Gaba M.D.) writes:
+>Two and a half years ago I purchased a set of CD ROMs from the
+>University of Colorado Lab for Atmos. and Space Physics.  They
+>were Space Sciences Sampler and Voyagers to the Outer Planets.
+>...
+>With Pixel Pusher we could never get past messages something like
+>This file has no PDS label, please fill in the following info
+>(a bunch of slots with most zeros).  Yet, we could open the
+>image file in Word and see the label file at the beginning.
+
+The compressed image format used for the Voyager disks is not (yet)
+supported by any Macintosh display software that I know of. However,
+there does exist a program that can convert the images to a format that
+is recognized by recent versions of both Pixel Pusher and NIH/Image. It
+is called "PDS Decompress" and is available via anonymous ftp from the
+"pub" directory on "delcano.mit.edu" [18.75.0.80]. This is a Binhex/
+Stuffit archive and contains the application itself, Think-C source,
+and a very brief description.
+
+The most recent version of NIH/Image (1.48) may be down-loaded from
+"starhawk.jpl.nasa.gov", where it is located in "image148.hqx" in the
+"pub" directory. This archive also contains source code, but not the
+documentation, which is located in the "image1455.hqx" archive in the
+same directory.
+
+Regards,
+Peter G. Ford
+Manager, Microwave SubNode
+NASA Planetary Data System
+

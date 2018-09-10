@@ -1,0 +1,30 @@
+From: dbasson@mattek.csir.co.za (Dominique Basson  )
+Subject: Re: Boot-up sometimes fails.
+Organization: CSIR
+Lines: 21
+NNTP-Posting-Host: 146.64.134.195
+X-Disclaimer: None of the opions expressed herein are the official
+X-Disclaimer: opinions of the CSIR or any of its subsidiaries.
+X-Disclaimer: **  So don't freak out at _us_ about anything  **
+
+In article <1993Apr28.053700.12929@lugb.latrobe.edu.au> cs416530@lux.latrobe.edu.au (Matthew I Gillard) writes:
+>Subject: Boot-up sometimes fails.
+>From: cs416530@lux.latrobe.edu.au (Matthew I Gillard)
+>Date: Wed, 28 Apr 1993 05:37:00 GMT
+>Sometimes when I boot up windows 3.1, after the windows logo comes up it han
+>gs, I am using Dos 6 and doublespace, and a 5 meg temp swap file on an
+>uncompressed drive.
+>But when I press the reset button on the computer,  windows boots up
+>fine... Why is this??? is it dos 6?
+>-- 
+>-----------------------------------------------------------------------------
+>Matthew Gillard,                    | Blessed are they who run around
+>Computer Systems Engineering,       | in circles, for they shall be 
+>La Trobe University,                | known as wheels.
+
+Dos 5 never used the area $E000 - $EFFF, as well as some others. If you have 
+any cards that use this are (such as a LAN card), you might get this 
+problem.
+
+Use the X=$E000-$EFFF in your EMM386.EXE line in config.sys. If you run 
+MemMaker then instruct it retain inclusions and exclusions.

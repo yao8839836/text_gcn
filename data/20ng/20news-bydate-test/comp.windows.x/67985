@@ -1,0 +1,30 @@
+From: mahan@TGV.COM (Patrick L. Mahan)
+Subject: Re: Remote X across TCPIP & Decnet
+Organization: The Internet
+Lines: 23
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert@expo.lcs.mit.edu, parmalee001@wcsub.ctstateu.edu
+
+#
+# Does anyone know if the following is possible, and if so how do I go about
+# doing it.
+# 
+# I want to be able to display remote X11 applications on a VAXstation 2000 off
+# of an Internet node. Here is where the problem comes up, the VAXstation isn't
+# connected directly to the Internet but is connected via Decnet to a node that
+# does have a connection to the Internet. Does anyone know if it is possible to
+# get the display to use TCPIP from the remote Internet node down to my local
+# Internet node and then send it via Decnet down to the VAXstation 2000?
+#
+
+For the machine that is connected to the InterNet, what is it running?  If it
+is running VMS, then if you obtain MultiNet for it, MultiNet comes with a
+TCP/IP to DECnet gateway for X11.
+
+Patrick L. Mahan
+
+--- TGV Window Washer ------------------------------- Mahan@TGV.COM ---------
+
+Waking a person unnecessarily should not be considered  - Lazarus Long
+a capital crime.  For a first offense, that is            From the Notebooks of
+							  Lazarus Long

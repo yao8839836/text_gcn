@@ -1,0 +1,17 @@
+From: rob@rjck.uucp (Robert J.C. Kyanko)
+Subject: Help with World-to-screen 4x4 transfomation matrix
+Organization: Neptune Software Inc -- Orlando, FL
+Lines: 12
+
+I need help in creating my 4x4 perspective matrix.  I'd like to use this for
+transforming x, y, z, w in some texture mapping code I got from Graphics Gems
+I.  I have many books which talk about this, but none of them in simple plain
+english.  If you have Graphics Gems I, I'm talking about page 678.
+
+I'd like to have a perspective matrix that handles different field-of-views
+and aspect of course.  Thank's for your help.
+
+-- 
+Yes, of course everything I say is my personal opinion!
+
+      Robert J.C. Kyanko     (rob@rjck.oau.org or rob@rjck.UUCP)

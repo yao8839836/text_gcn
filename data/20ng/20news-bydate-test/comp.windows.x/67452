@@ -1,0 +1,17 @@
+From: pjs@euclid.JPL.NASA.GOV (Peter J. Scott)
+Subject: Re: XV 3.00 has escaped!
+Reply-To: pjs@euclid.jpl.nasa.gov
+Organization: Jet Propulsion Laboratory, NASA/Caltech
+Lines: 10
+NNTP-Posting-Host: euclid.jpl.nasa.gov
+
+I've found that I have to add the "-8" option for displaying JPEGs
+with the new version.  For some reason, if I don't, it goes into
+24-bit mode and the resulting image is displayed with 216 colors 
+(from a 6x6x6 array) instead of 256 and looks grainier.  Since I'm
+on the ubiquitous 8-bit pseudo color display I would have thought it
+could tell that.
+
+-- 
+This is news.  This is your       |    Peter Scott, NASA/JPL/Caltech
+brain on news.  Any questions?    |    (pjs@euclid.jpl.nasa.gov)

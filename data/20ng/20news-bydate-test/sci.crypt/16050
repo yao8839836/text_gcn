@@ -1,0 +1,46 @@
+From: marc@tanda.isis.org (Marc Thibault)
+Subject: A Trojan Horse on the Clipper
+Reply-To: marc@tanda.isis.org
+Distribution: world
+Organization: Thibault & Friends
+Lines: 39
+
+Gentlefolk,
+
+        It seems to me that the "Step 1" of taking a warrant to the
+        telco to get a wiretap is so much stinky red herring (don't
+        you love animal metaphors).
+
+        With each phone broadcasting the serial number of its chip
+        ("E(N;F)" is not syntactically different than "N"), all they
+        have to do is aim a reciever in the general direction of
+        today's target and use the serial number to identify the
+        session they want, and get the chip number of the other end of
+        the conversation. Even without the key, this is great for
+        traffic analysis. I can think of several ways to learn the
+        right serial number.
+
+        It looks like one intended effect of the Clipper is to
+        eliminate the awkward business of getting the telco to
+        cooperate (or risking getting caught in the act with your
+        alligator clips erect). This is particularly handy if you have
+        S1 and S2.
+
+        BTW, did anyone explain why they are scrambling the serial
+        number?
+        
+        Cheers,
+                Marc
+
+---
+ Marc Thibault                             | marc@tanda.isis.org
+ Automation Architect                      | CIS:71441,2226
+ R.R.1, Oxford Mills, Ontario, Canada      | NC FreeNet: aa185
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+mQBNAiqxYTkAAAECALfeHYp0yC80s1ScFvJSpj5eSCAO+hihtneFrrn+vuEcSavh
+AAUwpIUGyV2N8n+lFTPnnLc42Ms+c8PJUPYKVI8ABRG0I01hcmMgVGhpYmF1bHQg
+PG1hcmNAdGFuZGEuaXNpcy5vcmc+
+=HLnv
+-----END PGP PUBLIC KEY BLOCK-----
+

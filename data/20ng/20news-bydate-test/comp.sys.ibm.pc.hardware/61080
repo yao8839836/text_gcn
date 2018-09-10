@@ -1,0 +1,23 @@
+From: lance@hartmann.austin.ibm.com (Lance Hartmann)
+Subject: Re: DX50 vs DX266
+Organization: IBM, Austin
+Lines: 18
+
+In article <33z5zgc@rpi.edu> arnolm2@aix.rpi.edu (Matthew Richard Arnold) writes:
+>
+>Would someone be willing to explain to me the 486DX 50MHz is not more
+>popular than it is?  I would think it would be just as fast, if not 
+>faster than the 486DX 66MHz for certian applications.  Plus, a 50MHz 
+>motherboard would seem better if you had any plans on upgrading the
+>chip in the future.  I must be missing something, since everyone is 
+>buying the DX2 66...  Many adds don't even mention the DX 50.
+>
+
+One of the things going for the DX2-66 (over the 50) is that it's
+clock speed complies with the VESA local bus spec.
+
+Lance Hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
+               Yes, that IS a '%' (percent sign) in my network address.
+------------------------------------------------------------------------------
+All statements, comments, opinions, etc. herein reflect those of the author
+and shall NOT be misconstrued as those of IBM or anyone else for that matter.

@@ -1,0 +1,21 @@
+From: k4bnc@cbnewsh.cb.att.com (john.a.siegel)
+Subject: Can't set COM4 - G2Ks answer
+Organization: AT&T
+Distribution: usa
+Keywords: ATI conflict
+Lines: 14
+
+Gateway service has confirmed my suspicion, echoed by a couple of people
+who responded to the original request for help.  The ATI VLB video board
+uses the addresses for COM 4.  They could suggest no work around.
+I will be returning the DF IO card they supplied for COM 4 (even though it
+could not possibly work) for credit against a bus mouse.  This will free
+up the COM port I need - too bad the original salesman who suggested either
+the DF IO card or the bus mouse would solve my need for a port didn't know
+enough about the hardware.
+
+Otherwise I must say that the 486DX2/66 system has worked very well - no
+problems with any other hardware or software.
+
+John Siegel
+k4bnc@cbnewsh.att.com  

@@ -1,0 +1,17 @@
+From: lioness@maple.circa.ufl.edu
+Subject: Joystick again
+Organization: Center for Instructional and Research Computing Activities
+Lines: 10
+Reply-To: LIONESS@ufcc.ufl.edu
+NNTP-Posting-Host: maple.circa.ufl.edu
+
+
+My disk that had my joystick code that some of you were kind enough to mail
+me puked....specifically, I am looking for C code to read the position
+of joystick WITHOUT using int15h, i.e. accessing port 0x200/0x201 directly.
+
+I need it in C becaues of memory model considerations.
+
+I only need to be able to read the X and Y position also.
+
+Brian

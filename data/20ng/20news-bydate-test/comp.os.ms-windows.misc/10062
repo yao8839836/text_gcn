@@ -1,0 +1,28 @@
+From: gt2617c@prism.gatech.EDU (Brad Smalling)
+Subject: Re: Help with changing Startup logo
+Organization: Georgia Institute of Technology
+Lines: 23
+
+In article <735952415.AA01739@f-454.fidonet.org> (C. Doelle) writes:
+>Brad,
+>    What is the procedure used to 'specially' compress the BMP file?  I would
+>love to use some of my BMP files I have created as a logo screen.  Thanks
+>
+>Chris
+> * Origin: chris.doelle.@f3333.n106.z1.fidonet.org (1:106/3333.26)
+
+I don't know the specifics of the compression algorithm, but I've used the
+shareware program, PaintShop, to convert between the two.  You can download
+it from ftp.cica.indiana.edu, but I don't know what the file is called
+or what directory it is in (you can start by looking in pub/pc/win3 or try
+scanning the index files).
+
+To convert a .BMP file to a .RLE file, you just load the .BMP file and do a
+"Save as..."  Select "Windows bitmap" and "Compressed" (or is it "RLE"?)
+Whatever it is, it's fairly intuitive...
+
+Sorry I don't have all the details, but I'm currently on an IBM3151 dumb
+terminal and can't do much researching...Good luck!
+ 
+-- 
+Brad Smalling :: Jr.EE :: GA Tech :: Atlanta, GA :: gt2617c@prism.gatech.edu

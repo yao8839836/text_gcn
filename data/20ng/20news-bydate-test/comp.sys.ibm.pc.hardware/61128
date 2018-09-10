@@ -1,0 +1,28 @@
+From: ab670@Freenet.carleton.ca (Micah Lax)
+Subject: HELP: BIOS upgrade on Compaq 286 Deskpro
+Reply-To: ab670@Freenet.carleton.ca (Micah Lax)
+Organization: The National Capital Freenet
+Lines: 27
+
+
+Howdy,
+
+I recently upgraded the original BIOS in a Compaq Deskpro 286/12
+with a Phoenix replacement BIOS, in order to support an IDE hard drive,
+and a high-density 3.5" floppy.
+
+I assumed that this would be a plug-and-play procedure, but I have
+encountered a problem that Phoenix and Compaq are unwilling to admit
+responsibilty for, and I was wondering if anyone else had seen it.
+
+Everything is hunky-dory except the 3.5" floppy, which will read, but NOT
+WRITE diskettes.  Any write attempt merely corrupts both FATs.
+
+I have tried everything I can think of.
+
+Any takers?
+-- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Micah H. Lax                             <ab670@freenet.carleton.ca>
+                                         <micah@bnr.ca> on INTERNET
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

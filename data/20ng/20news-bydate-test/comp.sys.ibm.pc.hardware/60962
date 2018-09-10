@@ -1,0 +1,11 @@
+From: rlb534@ibm-03.nwscc.sea06.navy.mil
+Subject: Re:16550 v. 16550A ???
+Organization: UTexas Mail-to-News Gateway
+Lines: 5
+NNTP-Posting-Host: cs.utexas.edu
+
+> What's the difference between a 16550 UART and a 16550A UART? Thanks!
+
+BUGS!!!!!
+16550 (without the A) would sometimes get extra characters in the FIFO.
+This renders the FIFO useless.  Only get the 16550A.

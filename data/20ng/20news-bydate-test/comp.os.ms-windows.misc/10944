@@ -1,0 +1,28 @@
+From: Tom Carter <carter@photon.cem.msu.edu>
+Subject: Corrected MicroCal Origin package uploaded to CICA
+Organization: Department of Chemistry, Michigan State University
+Lines: 21
+Reply-To: carter@photon.cem.msu.edu
+NNTP-Posting-Host: exciton.cem.msu.edu
+
+
+I've recently re-uploaded to cica the current (v2.8) version of the working 
+model of MicroCal Origin, a scientific and technical 2D/3D graphics and data 
+analysis package for Windows 3.x. The working model is 2D only and puts a
+promo message on hardcopies, but is largely identical to the full version.
+Saving Origin files is disabled, but you can save ASCII data sets produced
+with Origin. It also says it has an expiration date of Sept. 1, 1993.
+
+Try it. You may like it, as I do!
+
+It's currently at ftp.cica.indiana.edu (129.79.20.17) in the directory
+/pub/pc/win3/uploads as ORIGIN2.ZIP. The file ORIGIN.ZIP is, unfortunately,
+incomplete (SORRY 'BOUT THAT!).
+
+<include std disclaimer>
+===========================================================================
+|               Tom Carter             |     carter@photon.cem.msu.edu    |
+|        Michigan State University     |     carter@msucem.bitnet         |
+|          Chemistry Department        |                                  |
+===========================================================================
+

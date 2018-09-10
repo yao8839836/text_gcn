@@ -1,0 +1,37 @@
+From: wiseb@colossus.cs.rpi.edu (Bowden Wise)
+Subject: Deriving from class Object with OWL
+Organization: Rensselaer Polytechnic Institute Computer Science, Troy NY
+Lines: 30
+Distribution: comp
+NNTP-Posting-Host: colossus.cs.rpi.edu
+
+I am trying to define my own class derived from the Object class so
+that I may insert them into a HashTable (a class provided by the
+Container class library).
+
+I have defined all of the pure virtual functions of Object, but I
+still get an error when I attempt to allocate a HashEntry object:
+
+  Cannot create instance of abstract class HashEntry
+
+Has anyone derived from class Object before?  What have I left out?
+Here are the virtual functions that I defined from Object:
+
+virtual classType      isA()   const { return hashEntryClass; }
+virtual Pchar          nameOf()const { return "HashEntry"; }
+
+virtual hashValueType hashValue() const { return hashValue(hWindow); }
+// Note: hWindow is defined in HashEntry
+
+virtual int            isEqual (const Object _FAR &obj) const
+{ return this == &(HashEntry&) obj; }
+
+virtual void           printOn( Rostream os) const
+{
+ os << "[ HWindow is " << (void _FAR *) hWindow << " ]\n"; 
+}
+--
+--------------------------------------------------------------------
+- Bowden Wise
+  Computer Science Dept, Rensselaer Polytechnic Inst, Troy, NY 12180
+  internet: wiseb@cs.rpi.edu

@@ -1,0 +1,983 @@
+From: sinclair@dcs.glasgow.ac.uk (Duncan Sinclair)
+Subject: Glasgow RX - remote execution of X programs, Part01/01
+Summary: Nice program to do remote xterms.
+Keywords: perl X remote execution
+Organization: Glasgow University Computing Science Dept.
+Lines: 976
+
+[[ I posted this a few weeks back, but all I got back was an error
+   message "pnews: /dev/null: Permission denied".  Yep, /dev/null
+   had a mode of 600.  (Arrghhh!!)  ]]
+
+With renewed interest in "setting the DISPLAY variable", etc.. I
+thought I would post my contribution.
+
+This Perl script is my solution.  It trys to be intelligent about
+what it's doing so that you should be able to type "rx host.domain.etc",
+and get a xterm running on "host.domain.etc", with all the difficult
+stuff taken care of.
+
+In theory, this program can do *everything* you ever wanted to do
+when you wanted to run a remote command in the background - it
+doesn't even need to be an X program.  Try a "rx big-machine make"
+for instance, for a backgrounded make on the remote "big-machine".
+
+For more details and a full list of features read the README file,
+about 20 lines below...  All comments welcome.
+
+Duncan.
+
+
+
+#! /bin/sh
+# This is a shell archive.  Remove anything before this line, then unpack
+# it by saving it into a file and typing "sh file".  To overwrite existing
+# files, type "sh file -c".  You can also feed this as standard input via
+# unshar, or by typing "sh <file", e.g..  If this archive is complete, you
+# will see the following message at the end:
+#		"End of archive 1 (of 1)."
+# Contents:  README Imakefile MANIFEST Makefile rx.man rx.pl
+# Wrapped by sinclair@dcs.gla.ac.uk on Thu Apr  8 18:47:48 1993
+PATH=/bin:/usr/bin:/usr/ucb ; export PATH
+if test -f 'README' -a "${1}" != "-c" ; then 
+  echo shar: Will not clobber existing file \"'README'\"
+else
+echo shar: Extracting \"'README'\" \(1442 characters\)
+sed "s/^X//" >'README' <<'END_OF_FILE'
+X
+X   Glasgow RX - remote execution of X programs.  Version 3.1.7
+X
+XCopyright 1992 Duncan Sinclair <sinclair@dcs.gla.ac.uk>
+X
+XTrivial to install, but there's an Imakefile to make it even more trivial.
+X
+XThe perl script needs some customisation before it is installed, just
+Xedit the "rx.pl" file, and read the comments.  Once you've done
+Xthis you can "xmkmf", then "make install install.man".
+X
+XFEATURES:
+X
+X*) Does the right thing for off-site remote execution.  Including
+X   setting up $DISPLAY to include domain names, and passing
+X   magic cookies, or doing the "xhost" stuff.
+X
+X*) Allow different remote user name.  (rx -l user host ...)
+X
+X*) Smart quoting of arguments - makes passing wild-cards easy.
+X
+X*) Custom command execution - link it to "remacs" to get a remote
+X   emacs command.
+X
+X*) Automatic xterm options - names the xterm according to hostname,
+X   and turns on "login shell".
+X
+X*) Default command is xterm.
+X
+X*) Propagates X-ish env. variables to remote session - user may
+X   extend the list of variables to pass.
+X
+X*) Special handling for bourne shell users.
+X
+X*) Tries to do remote execution from same directory as local.
+X   That is, it propagates $PWD, in an intelligent manner.
+X
+X*) Logs errors in a file.
+X
+X*) Overall Intelligence (TM) - makes reasoned decisions about what
+X   you are trying to do, and tries to "do the right thing".
+X
+X*) Written in Perl, for portability and hackability.
+X
+XFor more info, read the man page or the source.
+X
+END_OF_FILE
+if test 1442 -ne `wc -c <'README'`; then
+    echo shar: \"'README'\" unpacked with wrong size!
+fi
+# end of 'README'
+fi
+if test -f 'Imakefile' -a "${1}" != "-c" ; then 
+  echo shar: Will not clobber existing file \"'Imakefile'\"
+else
+echo shar: Extracting \"'Imakefile'\" \(370 characters\)
+sed "s/^X//" >'Imakefile' <<'END_OF_FILE'
+X# Glasgow RX Imakefile.
+X
+X         PROGRAMS = rx
+X
+Xall:: $(PROGRAMS)
+X
+Xinstall:: safe
+X
+XInstallNamedProg(rx.pl,rx,$(BINDIR))
+XInstallManPage(rx,$(MANDIR))
+X
+Xinstall::
+X	$(RM) $(BINDIR)/rxterm
+X	$(LN) $(BINDIR)/rx $(BINDIR)/rxterm
+X
+Xsafe:
+X	@grep -s 'debug = 0' rx.pl || false
+X
+Xshar: safe
+X	makekit -m -p
+X	@-perl -pi -e "s/sinclair@dcs.gla.ac.uk/sinclair@dcs.gla.ac.uk/;" Part*
+X
+END_OF_FILE
+if test 370 -ne `wc -c <'Imakefile'`; then
+    echo shar: \"'Imakefile'\" unpacked with wrong size!
+fi
+# end of 'Imakefile'
+fi
+if test -f 'MANIFEST' -a "${1}" != "-c" ; then 
+  echo shar: Will not clobber existing file \"'MANIFEST'\"
+else
+echo shar: Extracting \"'MANIFEST'\" \(313 characters\)
+sed "s/^X//" >'MANIFEST' <<'END_OF_FILE'
+X   File Name		Archive #	Description
+X-----------------------------------------------------------
+X README                     1	Read me first
+X Imakefile                  1	
+X MANIFEST                   1	This shipping list
+X Makefile                   1	
+X rx.man                     1	
+X rx.pl                      1	
+END_OF_FILE
+if test 313 -ne `wc -c <'MANIFEST'`; then
+    echo shar: \"'MANIFEST'\" unpacked with wrong size!
+fi
+# end of 'MANIFEST'
+fi
+if test -f 'Makefile' -a "${1}" != "-c" ; then 
+  echo shar: Will not clobber existing file \"'Makefile'\"
+else
+echo shar: Extracting \"'Makefile'\" \(10172 characters\)
+sed "s/^X//" >'Makefile' <<'END_OF_FILE'
+X# Makefile generated by imake - do not edit!
+X# $XConsortium: imake.c,v 1.65 91/07/25 17:50:17 rws Exp $
+X#
+X# The cpp used on this machine replaces all newlines and multiple tabs and
+X# spaces in a macro expansion with a single space.  Imake tries to compensate
+X# for this, but is not always successful.
+X#
+X
+X# -------------------------------------------------------------------------
+X# Makefile generated from "Imake.tmpl" and </tmp/IIf.a04196>
+X# $XConsortium: Imake.tmpl,v 1.139 91/09/16 08:52:48 rws Exp $
+X#
+X# Platform-specific parameters may be set in the appropriate <vendor>.cf
+X# configuration files.  Site-specific parameters should be set in the file
+X# site.def.  Full rebuilds are recommended if any parameters are changed.
+X#
+X# If your C preprocessor does not define any unique symbols, you will need
+X# to set BOOTSTRAPCFLAGS when rebuilding imake (usually when doing
+X# "make World" the first time).
+X#
+X
+X# -------------------------------------------------------------------------
+X# site-specific configuration parameters that need to come before
+X# the platform-specific parameters - edit site.def to change
+X
+X# site:  $XConsortium: site.def,v 1.2 91/07/30 20:26:44 rws Exp $
+X
+X# -------------------------------------------------------------------------
+X# platform-specific configuration parameters - edit sun.cf to change
+X
+X# platform:  $XConsortium: sun.cf,v 1.72.1.1 92/03/18 13:13:37 rws Exp $
+X
+X# operating system:  SunOS 4.1.3
+X
+X# $XConsortium: sunLib.rules,v 1.7 91/12/20 11:19:47 rws Exp $
+X
+X# -------------------------------------------------------------------------
+X# site-specific configuration parameters that go after
+X# the platform-specific parameters - edit site.def to change
+X
+X# site:  $XConsortium: site.def,v 1.2 91/07/30 20:26:44 rws Exp $
+X
+X            SHELL = /bin/sh
+X
+X              TOP = .
+X      CURRENT_DIR = .
+X
+X               AR = ar cq
+X  BOOTSTRAPCFLAGS =
+X               CC = gcc -fpcc-struct-return
+X               AS = as
+X
+X         COMPRESS = compress
+X              CPP = /lib/cpp $(STD_CPP_DEFINES)
+X    PREPROCESSCMD = gcc -fpcc-struct-return -E $(STD_CPP_DEFINES)
+X          INSTALL = install
+X               LD = ld
+X             LINT = lint
+X      LINTLIBFLAG = -C
+X         LINTOPTS = -axz
+X               LN = ln -s
+X             MAKE = make
+X               MV = mv
+X               CP = cp
+X
+X           RANLIB = ranlib
+X  RANLIBINSTFLAGS =
+X
+X               RM = rm -f
+X            TROFF = psroff
+X         MSMACROS = -ms
+X              TBL = tbl
+X              EQN = eqn
+X     STD_INCLUDES =
+X  STD_CPP_DEFINES =
+X      STD_DEFINES =
+X EXTRA_LOAD_FLAGS =
+X  EXTRA_LIBRARIES =
+X             TAGS = ctags
+X
+X    SHAREDCODEDEF = -DSHAREDCODE
+X         SHLIBDEF = -DSUNSHLIB
+X
+X    PROTO_DEFINES =
+X
+X     INSTPGMFLAGS =
+X
+X     INSTBINFLAGS = -m 0755
+X     INSTUIDFLAGS = -m 4755
+X     INSTLIBFLAGS = -m 0644
+X     INSTINCFLAGS = -m 0444
+X     INSTMANFLAGS = -m 0444
+X     INSTDATFLAGS = -m 0444
+X    INSTKMEMFLAGS = -g kmem -m 2755
+X
+X      PROJECTROOT = /usr/X11
+X
+X     TOP_INCLUDES = -I$(INCROOT)
+X
+X      CDEBUGFLAGS = -O2
+X        CCOPTIONS =
+X
+X      ALLINCLUDES = $(INCLUDES) $(EXTRA_INCLUDES) $(TOP_INCLUDES) $(STD_INCLUDES)
+X       ALLDEFINES = $(ALLINCLUDES) $(STD_DEFINES) $(EXTRA_DEFINES) $(PROTO_DEFINES) $(DEFINES)
+X           CFLAGS = $(CDEBUGFLAGS) $(CCOPTIONS) $(ALLDEFINES)
+X        LINTFLAGS = $(LINTOPTS) -DLINT $(ALLDEFINES)
+X
+X           LDLIBS = $(SYS_LIBRARIES) $(EXTRA_LIBRARIES)
+X
+X        LDOPTIONS = $(CDEBUGFLAGS) $(CCOPTIONS) $(LOCAL_LDFLAGS) -L$(USRLIBDIR)
+X
+X   LDCOMBINEFLAGS = -X -r
+X      DEPENDFLAGS =
+X
+X        MACROFILE = sun.cf
+X           RM_CMD = $(RM) *.CKP *.ln *.BAK *.bak *.o core errs ,* *~ *.a .emacs_* tags TAGS make.log MakeOut
+X
+X    IMAKE_DEFINES =
+X
+X         IRULESRC = $(CONFIGDIR)
+X        IMAKE_CMD = $(IMAKE) -DUseInstalled -I$(IRULESRC) $(IMAKE_DEFINES)
+X
+X     ICONFIGFILES = $(IRULESRC)/Imake.tmpl $(IRULESRC)/Imake.rules \
+X			$(IRULESRC)/Project.tmpl $(IRULESRC)/site.def \
+X			$(IRULESRC)/$(MACROFILE) $(EXTRA_ICONFIGFILES)
+X
+X# -------------------------------------------------------------------------
+X# X Window System Build Parameters
+X# $XConsortium: Project.tmpl,v 1.138.1.1 92/11/11 09:49:19 rws Exp $
+X
+X# -------------------------------------------------------------------------
+X# X Window System make variables; this need to be coordinated with rules
+X
+X          PATHSEP = /
+X        USRLIBDIR = /usr/X11/lib
+X           BINDIR = /usr/X11/local/bin
+X          INCROOT = /usr/X11/include
+X     BUILDINCROOT = $(TOP)
+X      BUILDINCDIR = $(BUILDINCROOT)/X11
+X      BUILDINCTOP = ..
+X           INCDIR = $(INCROOT)/X11
+X           ADMDIR = /usr/adm
+X           LIBDIR = $(USRLIBDIR)/X11
+X        CONFIGDIR = $(LIBDIR)/config
+X       LINTLIBDIR = $(USRLIBDIR)/lint
+X
+X          FONTDIR = $(LIBDIR)/fonts
+X         XINITDIR = $(LIBDIR)/xinit
+X           XDMDIR = $(LIBDIR)/xdm
+X           TWMDIR = $(LIBDIR)/twm
+X          MANPATH = /usr/X11/man
+X    MANSOURCEPATH = $(MANPATH)/man
+X        MANSUFFIX = n
+X     LIBMANSUFFIX = 3
+X           MANDIR = $(MANSOURCEPATH)$(MANSUFFIX)
+X        LIBMANDIR = $(MANSOURCEPATH)$(LIBMANSUFFIX)
+X           NLSDIR = $(LIBDIR)/nls
+X        PEXAPIDIR = $(LIBDIR)/PEX
+X      XAPPLOADDIR = $(LIBDIR)/app-defaults
+X       FONTCFLAGS = -t
+X
+X     INSTAPPFLAGS = $(INSTDATFLAGS)
+X
+X            IMAKE = imake
+X           DEPEND = makedepend
+X              RGB = rgb
+X
+X            FONTC = bdftopcf
+X
+X        MKFONTDIR = mkfontdir
+X        MKDIRHIER = /bin/sh $(BINDIR)/mkdirhier
+X
+X        CONFIGSRC = $(TOP)/config
+X       DOCUTILSRC = $(TOP)/doc/util
+X        CLIENTSRC = $(TOP)/clients
+X          DEMOSRC = $(TOP)/demos
+X           LIBSRC = $(TOP)/lib
+X          FONTSRC = $(TOP)/fonts
+X       INCLUDESRC = $(TOP)/X11
+X        SERVERSRC = $(TOP)/server
+X          UTILSRC = $(TOP)/util
+X        SCRIPTSRC = $(UTILSRC)/scripts
+X       EXAMPLESRC = $(TOP)/examples
+X       CONTRIBSRC = $(TOP)/../contrib
+X           DOCSRC = $(TOP)/doc
+X           RGBSRC = $(TOP)/rgb
+X        DEPENDSRC = $(UTILSRC)/makedepend
+X         IMAKESRC = $(CONFIGSRC)
+X         XAUTHSRC = $(LIBSRC)/Xau
+X          XLIBSRC = $(LIBSRC)/X
+X           XMUSRC = $(LIBSRC)/Xmu
+X       TOOLKITSRC = $(LIBSRC)/Xt
+X       AWIDGETSRC = $(LIBSRC)/Xaw
+X       OLDXLIBSRC = $(LIBSRC)/oldX
+X      XDMCPLIBSRC = $(LIBSRC)/Xdmcp
+X      BDFTOSNFSRC = $(FONTSRC)/bdftosnf
+X      BDFTOSNFSRC = $(FONTSRC)/clients/bdftosnf
+X      BDFTOPCFSRC = $(FONTSRC)/clients/bdftopcf
+X     MKFONTDIRSRC = $(FONTSRC)/clients/mkfontdir
+X         FSLIBSRC = $(FONTSRC)/lib/fs
+X    FONTSERVERSRC = $(FONTSRC)/server
+X     EXTENSIONSRC = $(TOP)/extensions
+X         XILIBSRC = $(EXTENSIONSRC)/lib/xinput
+X        PEXLIBSRC = $(EXTENSIONSRC)/lib/PEXlib
+X      PHIGSLIBSRC = $(EXTENSIONSRC)/lib/PEX
+X
+X# $XConsortium: sunLib.tmpl,v 1.14.1.2 92/11/11 09:55:02 rws Exp $
+X
+XSHLIBLDFLAGS = -assert pure-text
+XPICFLAGS = -fpic
+X
+X  DEPEXTENSIONLIB =
+X     EXTENSIONLIB = -lXext
+X
+X          DEPXLIB = $(DEPEXTENSIONLIB)
+X             XLIB = $(EXTENSIONLIB) -lX11
+X
+X        DEPXMULIB = $(USRLIBDIR)/libXmu.sa.$(SOXMUREV)
+X       XMULIBONLY = -lXmu
+X           XMULIB = -lXmu
+X
+X       DEPOLDXLIB =
+X          OLDXLIB = -loldX
+X
+X      DEPXTOOLLIB = $(USRLIBDIR)/libXt.sa.$(SOXTREV)
+X         XTOOLLIB = -lXt
+X
+X        DEPXAWLIB = $(USRLIBDIR)/libXaw.sa.$(SOXAWREV)
+X           XAWLIB = -lXaw
+X
+X        DEPXILIB =
+X           XILIB = -lXi
+X
+X        DEPPEXLIB =
+X           PEXLIB = -lPEX5
+X
+X        SOXLIBREV = 4.10
+X          SOXTREV = 4.10
+X         SOXAWREV = 5.0
+X        SOOLDXREV = 4.10
+X         SOXMUREV = 4.10
+X        SOXEXTREV = 4.10
+X      SOXINPUTREV = 4.10
+X         SOPEXREV = 1.0
+X
+X      DEPXAUTHLIB = $(USRLIBDIR)/libXau.a
+X         XAUTHLIB =  -lXau
+X      DEPXDMCPLIB = $(USRLIBDIR)/libXdmcp.a
+X         XDMCPLIB =  -lXdmcp
+X
+X        DEPPHIGSLIB = $(USRLIBDIR)/libphigs.a
+X           PHIGSLIB =  -lphigs
+X
+X       DEPXBSDLIB = $(USRLIBDIR)/libXbsd.a
+X          XBSDLIB =  -lXbsd
+X
+X LINTEXTENSIONLIB = $(LINTLIBDIR)/llib-lXext.ln
+X         LINTXLIB = $(LINTLIBDIR)/llib-lX11.ln
+X          LINTXMU = $(LINTLIBDIR)/llib-lXmu.ln
+X        LINTXTOOL = $(LINTLIBDIR)/llib-lXt.ln
+X          LINTXAW = $(LINTLIBDIR)/llib-lXaw.ln
+X           LINTXI = $(LINTLIBDIR)/llib-lXi.ln
+X          LINTPEX = $(LINTLIBDIR)/llib-lPEX5.ln
+X        LINTPHIGS = $(LINTLIBDIR)/llib-lphigs.ln
+X
+X          DEPLIBS = $(DEPXAWLIB) $(DEPXMULIB) $(DEPXTOOLLIB) $(DEPXLIB)
+X
+X         DEPLIBS1 = $(DEPLIBS)
+X         DEPLIBS2 = $(DEPLIBS)
+X         DEPLIBS3 = $(DEPLIBS)
+X
+X# -------------------------------------------------------------------------
+X# Imake rules for building libraries, programs, scripts, and data files
+X# rules:  $XConsortium: Imake.rules,v 1.123 91/09/16 20:12:16 rws Exp $
+X
+X# -------------------------------------------------------------------------
+X# start of Imakefile
+X
+X# Glasgow RX Imakefile.
+X
+X         PROGRAMS = rx
+X
+Xall:: $(PROGRAMS)
+X
+Xinstall:: safe
+X
+Xinstall:: rx.pl
+X	@if [ -d $(DESTDIR)$(BINDIR) ]; then set +x; \
+X	else (set -x; $(MKDIRHIER) $(DESTDIR)$(BINDIR)); fi
+X	$(INSTALL) -c $(INSTBINFLAGS) rx.pl $(DESTDIR)$(BINDIR)/rx
+X
+Xinstall.man:: rx.man
+X	@if [ -d $(DESTDIR)$(MANDIR) ]; then set +x; \
+X	else (set -x; $(MKDIRHIER) $(DESTDIR)$(MANDIR)); fi
+X	$(INSTALL) -c $(INSTMANFLAGS) rx.man $(DESTDIR)$(MANDIR)/rx.$(MANSUFFIX)
+X
+Xinstall::
+X	$(RM) $(BINDIR)/rxterm
+X	$(LN) $(BINDIR)/rx $(BINDIR)/rxterm
+X
+Xsafe:
+X	@grep -s 'debug = 0' rx.pl || false
+X
+Xshar: safe
+X	makekit -m -p
+X	@-perl -pi -e "s/sinclair@dcs.gla.ac.uk/sinclair@dcs.gla.ac.uk/;" Part*
+X
+X# -------------------------------------------------------------------------
+X# common rules for all Makefiles - do not edit
+X
+Xemptyrule::
+X
+Xclean::
+X	$(RM_CMD) "#"*
+X
+XMakefile::
+X	-@if [ -f Makefile ]; then set -x; \
+X	$(RM) Makefile.bak; $(MV) Makefile Makefile.bak; \
+X	else exit 0; fi
+X	$(IMAKE_CMD) -DTOPDIR=$(TOP) -DCURDIR=$(CURRENT_DIR)
+X
+Xtags::
+X	$(TAGS) -w *.[ch]
+X	$(TAGS) -xw *.[ch] > TAGS
+X
+Xsaber:
+X	# load $(ALLDEFINES) $(SRCS)
+X
+Xosaber:
+X	# load $(ALLDEFINES) $(OBJS)
+X
+X# -------------------------------------------------------------------------
+X# empty rules for directories that do not have SUBDIRS - do not edit
+X
+Xinstall::
+X	@echo "install in $(CURRENT_DIR) done"
+X
+Xinstall.man::
+X	@echo "install.man in $(CURRENT_DIR) done"
+X
+XMakefiles::
+X
+Xincludes::
+X
+X# -------------------------------------------------------------------------
+X# dependencies generated by makedepend
+X
+END_OF_FILE
+if test 10172 -ne `wc -c <'Makefile'`; then
+    echo shar: \"'Makefile'\" unpacked with wrong size!
+fi
+# end of 'Makefile'
+fi
+if test -f 'rx.man' -a "${1}" != "-c" ; then 
+  echo shar: Will not clobber existing file \"'rx.man'\"
+else
+echo shar: Extracting \"'rx.man'\" \(3551 characters\)
+sed "s/^X//" >'rx.man' <<'END_OF_FILE'
+X.TH RX 1 "4 March 1993" "X Version 11"
+X.SH NAME
+Xrx,rxterm,r* - remote command, xterm, anything execution
+X.SH SYNOPSIS
+X.B rx
+X[
+X.B \-l
+X.I username
+X]
+X.I host
+X[
+X.I command
+X]
+X.br
+X.B rxterm
+X[
+X.B \-l
+X.I username
+X]
+X.I host
+X[
+X.IR args .\|.\|.
+X]
+X.SH DESCRIPTION
+XThe 
+X.B rx
+Xprogram connect to the specified
+X.I host
+Xand executes the specified
+X.I command
+Xin the background, returning immediately.  To allow the execution
+Xof X programs, it copies a number of environmental variables to
+Xthe remote session.  If you omit
+X.IR command ,
+Xthen rx will start an xterm on the remote host.  The
+X.B rxterm
+Xvarient starts a remote xterm on a host, and also passes
+X.I args
+Xto the remote xterm as arguments.
+X.PP
+XShell metacharacters which are not quoted are interpreted on the local
+Xmachine, while quoted metacharacters are interpreted on the remote
+Xmachine.
+X.PP
+XIf the name of the file from which
+X.B rx
+Xis executed is anything other than ``rx,''
+X.B rx
+Xtakes this name, stripped on a leading ``r'' as the command
+Xto run on the remote host, using any
+X.I command
+Xparameters as arguments for the remote command.
+X.PP
+XIf
+X.B rx
+Xthinks you are using
+X.B xauth
+Xbased X authorisation, and you are calling to a off-site host, or
+Xto a different username, it will attempt to copy an authorization
+Xkey to the remote account.  Otherwise it will try to use
+X.B xhost(1)
+Xto grant access to the remote host.
+X.SH OPTIONS
+X.TP
+X.BI \-l " username"
+XUse
+X.I username
+Xas the remote username instead of your local username.  In the absence
+Xof this option, the remote username is the same as your local username.
+X
+X.SH ENVIRONMENT
+XIf set, the values of PATH, DISPLAY, XENVIRONMENT, XAPPLRESDIR,
+XXFILESEARCHPATH, XUSERFILESEARCHPATH, OPENWINHOME, LD_LIBRARY_PATH,
+Xand XAUTHORITY are exported to the remote program, unless the
+Xremote username is different, or the remote host is off-site, in which
+Xcase only DISPLAY is exported, with in all cases any variables named in the
+Xvariable RXENV.
+X.PP
+XThe DISPLAY variable is tweaked as appropriate, to contain as qualified
+Xa hostname as is needed.
+X.SH DIAGNOSTICS
+X.TP
+X.IB command ": don't recognise my name."
+X.B rx
+Xcannot decode the name it has been called under.  In this case
+Xit prints a warning message, and continues, as normal.
+X.TP
+X.B "rx: usage: rx [-l username] hostname [args...]"
+XThis means it could not decode the arguments given to it.
+X.SH AUTHOR
+XDuncan Sinclair <sinclair@dcs.glasgow.ac.uk>, July 1992
+X.br
+XOriginally based on a program with the same name from the
+X.B gwm
+Xdistribution.  To distinguish this "rx" from other programs
+Xwith similar names, you should refer to this program as the
+X.B Glasgow
+X.BR rx .
+X.SH "SEE ALSO"
+XX(1), rsh(1), xterm(1), xauth(1), xhost(1), gwm(1)
+X.SH BUGS
+X.B Rx
+Xmakes a number of assumptions about the relationship between the
+Xlocal user, and the remote one, depending on whether the remote
+Xhost is onsite or not, and whether an alternative username was used
+Xor not.
+X.PP
+XIn particular, if either the locally used shell, or the remotely
+Xused shell is the standard Bourne Shell,
+X.B sh(1)
+Xthen strange things are more likely to happen.  Especially when 
+Xit's only one of them.
+X.PP
+XSometimes quoting can get messed up.
+X.PP
+XIt's too easy to fool the smarts in
+X.B rx
+Xto make it believe something that is not true, and fail because of it.
+X.PP
+XWhen
+X.B rx
+Xuses
+X.B xhost
+Xto grant access, the
+X.B xhost
+Xcommand may fail silently.
+X.PP
+XIf
+X.B rx
+Xtries to send to large a command to the remote machine, it will
+Xlikely fail with a parse error from csh.  If this happens, you
+Xwill probably have to reduce the size of the exported environment.
+END_OF_FILE
+if test 3551 -ne `wc -c <'rx.man'`; then
+    echo shar: \"'rx.man'\" unpacked with wrong size!
+fi
+# end of 'rx.man'
+fi
+if test -f 'rx.pl' -a "${1}" != "-c" ; then 
+  echo shar: Will not clobber existing file \"'rx.pl'\"
+else
+echo shar: Extracting \"'rx.pl'\" \(9028 characters\)
+sed "s/^X//" >'rx.pl' <<'END_OF_FILE'
+X#! /usr/local/bin/perl
+X# CONFIG: change the line above to point to your copy of perl.
+X##############################################################################
+X# Glasgow RX  version 3.1.7
+X#
+X# Copyright 1992 Duncan Sinclair <sinclair@dcs.gla.ac.uk>
+X#
+X# Last Modified:  Early April 1993.
+X#
+X# Distribution limited, as per the usual MIT copyright.
+X##############################################################################
+X# remote execution of X programs.  Based on a script in an old version of gwm.
+X#
+X# To install, put rx in your bin and make rxterm a link to it.
+X#  Some configuration will be necessary, see "CONFIG" comments...
+X#
+X# More and more this is less and less like the original....
+X#
+X# Major hacked to work for our(my) set up, and also partly
+X#  re-written to work with sh, rather than ksh.
+X#
+X# Maybe I'll turn this into our first zsh script!
+X#
+X# Looks like it turned into a perl script at some point - big improvement.
+X##############################################################################
+X# This code tries to be intelligent in the way it works.  This means there
+X#  are tons of implicit assumptions about the environment it is run in.
+X#  These assumptions are all valid on the machines I use, and in my
+X#  environment.  At the same time, I try to make as few assumptions as possible
+X#  about the remote machine.  Here's a list of all the more tricky ones...
+X# *) That the remote machine has csh.  (Linux?)
+X# *) That $RSHELL = /bin/(k)?sh ==> remote shell = /bin/(k)?sh.  (Make same.)
+X# *) If remote shell = sh, that $PATH is compatible.  (Use csh, etc..)
+X# *) I pass a cookie to the remote machine if need be, but does it
+X#    know what to do with a cookie. (eat it?)
+X# *) There must be others...
+X##############################################################################
+X# Why am I using csh to run the remote commands?  Simply because it doesn't
+X#  interact badly with rsh, and hang waiting for a file descriptor to
+X#  be closed.  I'd rather use zsh, or bash, or even perl, but they are not
+X#  as universal as csh.
+X##############################################################################
+X#
+Xrequire "stat.pl";
+X#
+X# What we called?
+X#
+X$argv0 = $0 ;
+X$argv0 =~ s:.*/:: ;
+X#
+X# CONFIG:
+X# Change these variables to be your domain name, and a pattern that
+X#  will match all variations on your domain name.  You must include
+X#  those leading dots!!! If your hostname includes your domain, see
+X#  the code further down, marked "XXX"
+X#
+X$DOM  = ".dcs.gla.ac.uk" ;
+X$DOMPAT = "\.dcs(\.gla(sgow)?(\.ac\.uk)?)?" ;
+X#
+X# CONFIG:
+X# Change this to your value of BINDIR, or set the variable to "" if
+X#  you think your users are smarter than that.
+X#
+X$XPATHS = "/usr/X11/bin" ;
+X#
+X# CONFIG:
+X# Make this the name of your "remote shell" command.
+X#
+X$RSH = "rsh" ;
+X#
+X# end of CONFIG
+X#
+X# Some variables we'll no doubt use sometime...
+X#
+X$usage = "$argv0: usage: $argv0 [-l username] hostname [args...]\n" ;
+X$RSHELL = (getpwuid($<))[8] || "/bin/sh" ;
+X$HOME = $ENV{"HOME"} || (getpwuid($<))[7] ;
+X$XAUTH = $ENV{"XAUTHORITY"} || $HOME . "/.Xauthority" ;
+X$LOGF = "~/.rx.log" ;
+X@STUFF = () ;
+X$debug = 0 ;
+X#
+X# Before anything else, close stdin.  This might stop rx hanging
+X#  due to rsh weirdness.
+X#
+Xclose(STDIN);
+X#
+X# do a "-l" flag...
+X#
+Xif ($ARGV[0] eq "-l") {
+X  shift ;
+X  $User = $ARGV[0] || die $usage ;
+X  @LUser = ("-l",$User) ;
+X  shift ;
+X}
+X#
+X# Pick a host, any host...
+X#
+X$MACH = $ARGV[0] || die $usage ;
+Xshift ;
+X#
+X# Things to think about for the remote machine.
+X#
+X$MACH =~ s/$DOMPAT// ;
+X$OffSite = $MACH =~ /\./ ;
+X#
+X# Where am I?  Seems we can't trust the dumb user to set HOSTNAME right!
+X#
+X#$HOSTNAME=$ENV{HOSTNAME} || `hostname` ;		# Current Host
+X$HOSTNAME=`hostname` ;					# Current Host
+X$HOSTNAME =~ s/\n// ;
+X#
+X#  If all your hostnames include your domain, comment out the next line.
+X#
+Xif ( $OffSite ) { $HOSTNAME = $HOSTNAME . $DOM ; }	# XXX
+X#
+X# Now we know where we are, and they are, are they different?
+X#
+X$Diff = $HOSTNAME ne $MACH ;
+X#
+X# What is the display going to be?
+X# !! Danger !! Heavy Regular expressions follow...
+X# This needs to be re-written to be modular and can so be extended to
+X#  support resetting host:* to unix:*, as required.
+X#
+X$DISPLAY = $ENV{"DISPLAY"} || ":0.0" ;
+X$DISPLAY =~ s/$DOMPAT// ;
+X$DISPLAY =~ s/^(unix)?(:\d(\.\d)?)$/$HOSTNAME$2/ if ($Diff) ;
+X$DISPLAY =~ s/^([^.]*)(:\d(\.\d)?)$/$1$DOM$2/ if ($OffSite) ;
+X$ENV{"DISPLAY"} = $DISPLAY ;
+X#
+X# Here comes the hard bit in sh.  Quote our args.
+X# Also have to quote quotes.  To cope with csh braindamage,
+X#  quotes are quoted thus; ' -> '\''
+X# So for an arg "foo'bar", we get "'foo'\''bar'".
+X#
+Xforeach (@ARGV) {
+X  s#\'#\'\\\'\'#g ;
+X  s#(.*)#\'$1\'# ;
+X}
+X#
+X# So what we doing?
+X#
+XPROG: {
+X  if ($argv0 eq "rx") { last PROG ; }
+X  if ($argv0 eq "rxterm") {
+X    #unshift(@ARGV,"-ls") if ($Diff) ;
+X    unshift(@ARGV,"xterm","-ls","-n",$MACH) ;
+X    last PROG ;
+X  }
+X  if ($argv0 =~ /r(.*)/) { unshift(@ARGV,$1) ; last PROG ; }
+X  warn "$argv0: don't recognise my name." ;
+X}
+X#
+X# If nothing else, become an rxterm.
+X#
+Xif (@ARGV == 0) {
+X  #unshift(@ARGV,"-ls") if ($Diff) ;
+X  unshift(@ARGV,"xterm","-ls","-n",$MACH) ;
+X}
+X#
+X# Some special considerations if we are not ourselves on the other side.
+X#
+Xif ($OffSite || $User) {
+X  #
+X  # We want to pass a cookie here.
+X  #
+X  if (-e $XAUTH) {
+X    #
+X    # This is going to be unsecure, as the cookie will appear in a number
+X    #  of command line args.  But at least it'll work.
+X    # This will need enhanced if we ever fix the code above to
+X    #  set DISPLAY to ":0.0", when we return to the server.
+X    #
+X    $CooKie = `PATH=\$PATH:$XPATHS xauth list $DISPLAY` ;
+X    chop($CooKie) ;
+X    @CooKs = split(' ',$CooKie) ;
+X    shift(@CooKs) ;
+X    unshift(@STUFF,"xauth","add",$DISPLAY,@CooKs,";") if (@CooKs == 2) ;
+X  } else {
+X    #
+X    # Yuk.  What a crock.  I hate doing this.
+X    #
+X    system("xhost +$MACH >/dev/null 2>/dev/null") if ($Diff) ;
+X  }
+X  #
+X  # We really only want to pass a value for $DISPLAY.
+X  #
+X  @VARS=("DISPLAY", split(' ',$ENV{"RXENV"})) ;
+X} else {
+X  #
+X  # Some variables we wish to export
+X  #
+X  @VARS=(
+X    "DISPLAY",
+X    "XENVIRONMENT",
+X    "XFILESEARCHPATH",
+X    "XUSERFILESEARCHPATH",
+X    "XAPPLRESDIR",
+X    "OPENWINHOME",
+X    "LD_LIBRARY_PATH",
+X    # "MANPATH",		# for "rxman", and bourne shell users.
+X    "XAUTHORITY",
+X    split(' ',$ENV{"RXENV"}),
+X    ) ;
+X  #
+X  # Braindead bourne shell, needs to be given a $PATH...
+X  # We would rather not pass the current $PATH, because it might not work
+X  #  on the destination machine.  I'd rather it was set by the user's
+X  #  remote shell during the rsh.
+X  # Fortunately, all *my* X programs are in an arch independant place, and
+X  #  so it shouldn't cos a problem, locally.
+X  # We check against $RSHELL, because they might be running another shell,
+X  #  differant from their login shell.  I know, sounds weird, but it's too
+X  #  common round here.
+X  # I've also included ksh in the brain-damage, cos I can't see an easy way
+X  #  to pass throught $ENV{"ENV"} without it being too late. (We only have
+X  #  one person who has ksh as a login shell anyway...)
+X  # Oh, yeah.. we are assuming that if it's bourne shell here, then it's
+X  #  bourne shell there.  Much more important than this is that it it ISNT
+X  #  bourne shell here, it better not be bourne shell there.
+X  #
+X  if ($RSHELL =~ m#/(k)?sh#) { push(@VARS,"PATH"); }
+X}
+X#
+X# Validate $PWD routine...
+X#
+Xsub validate_pwd {
+X  local(@pwdstats, @dotstats);
+X  local($pwd) = $_[0];
+X
+X  unless (defined($pwd))          { return undef; } ;
+X  unless (@dotstats = stat("."))  { return undef; } ;
+X  unless (@pwdstats = stat($pwd)) { return undef; } ;
+X  if (($pwdstats[$ST_DEV] != $dotstats[$ST_DEV]) ||
+X      ($pwdstats[$ST_INO] != $dotstats[$ST_INO])) { return undef; } ;
+X  $pwd;
+X}
+X#
+X# Try and find a nice, valid, pwd.
+X#
+XPRESENT: {
+X  if ($PWD = $ENV{"PWD"}) {
+X    $FOOPWD = $PWD ;
+X    $FOOPWD =~ s#(/tmp_mnt|/export)?/(.*)#/$2# ;
+X    $PWD = &validate_pwd($FOOPWD) || &validate_pwd($PWD) ;
+X  }; 
+X  unless ($PWD) {
+X    chop($PWD = `pwd`) ;
+X    $FOOPWD = $PWD ;
+X    $FOOPWD =~ s#(/tmp_mnt|/export)?/(.*)#/$2# ;
+X    $PWD = &validate_pwd($FOOPWD) || &validate_pwd($PWD) || $HOME;
+X  }
+X}
+X$PWD =~ s#(.*)#\'$1\'# ;
+X#
+X# Try to find somewhere nice to live on the other side.
+X#
+Xunless ($OffSite) {
+X  unshift(@STUFF,"test","-d",$PWD,"&&","cd",$PWD,";");
+X}
+X#
+X# Start building the full command.
+X#
+Xforeach $var (@VARS) {
+X  ($val = $ENV{$var}) &&
+X     unshift(@STUFF,"setenv","$var","\'"."$val"."\'",";") ;
+X}
+X#
+X# Some commands to do on the other side...
+X#
+Xunshift(@STUFF,"set","nonomatch",";");	# only if we are using csh.
+X#
+X# Build the remote command.
+X#
+X$REMOTE=("(umask 077 ; ((".join(" ",@STUFF,@ARGV).")</dev/null >&$LOGF &))") ;
+X$REMOTE =~ s#\"#\\\"#g ;
+X$REMOTE = "\"" . $REMOTE . "\"" ;
+X#
+X# Build the arg list for the exec.
+X#
+X@COMM=($RSH,@LUser,"$MACH","csh","-fc",$REMOTE) ;
+X#
+X# Do it!
+X#
+Xif ($debug) {
+X  print "@COMM\n" ;
+X} else {
+X  exec @COMM ;
+X}
+X#
+X# Rsh doesn't return any indication of how it went over
+X# on the other side, but that's OK, cos we aint going to
+X# wait around to see what happened.
+X#
+Xexit 0 ;
+X#
+X# tHe ENd
+END_OF_FILE
+if test 9028 -ne `wc -c <'rx.pl'`; then
+    echo shar: \"'rx.pl'\" unpacked with wrong size!
+fi
+chmod +x 'rx.pl'
+# end of 'rx.pl'
+fi
+echo shar: End of archive 1 \(of 1\).
+cp /dev/null ark1isdone
+MISSING=""
+for I in 1 ; do
+    if test ! -f ark${I}isdone ; then
+	MISSING="${MISSING} ${I}"
+    fi
+done
+if test "${MISSING}" = "" ; then
+    echo You have the archive.
+    rm -f ark[1-9]isdone
+else
+    echo You still need to unpack the following archives:
+    echo "        " ${MISSING}
+fi
+##  End of shell archive.
+exit 0
+
+
+-- 
+    Duncan Sinclair  |  sinclair@dcs.gla.ac.uk  |  sinclair@uk.ac.gla.dcs
+      ---  Would the *real* UNIX Operating System please stand up.  ---

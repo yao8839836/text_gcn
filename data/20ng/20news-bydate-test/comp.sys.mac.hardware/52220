@@ -1,0 +1,23 @@
+From: eaou083@orion.oac.uci.edu (Eric Htain)
+Subject: Re: Apple 8*24 GC Video Card
+Nntp-Posting-Host: orion.oac.uci.edu
+Organization: University of California, Irvine
+Lines: 17
+
+In article <1993Apr22.052020.57482@tcs.las-vegas.nv.us> elenay_creations@tcs.las-vegas.nv.us (Anthony D. Saxton) writes:
+> A friend of mine recently acquired an 8!24 GC card for his IIsi
+> and was wondering why it always starts up in black and white.
+> I know there have been numerous reports about the worth of
+> the GC, but I was wondering if anyone could elaborate a little
+> more on the subject.  Any replies encouraged.  Thanks in ad-
+> vance.
+
+You may have been emailed this, but the IIsi's power supply is not rated to
+handle the GC board.  Remember when the si came out and everyone complained
+about it's power supply.  This is one result of apple providing a low-cost
+computer and I think they got a lot of flack for having a relatively high end
+computer (at the time anyways) that couldn't even support their own video
+board.  Even if this isn't what is causing your problems, you might develop
+one later.
+
+Eric

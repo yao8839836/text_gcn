@@ -1,0 +1,30 @@
+From: peltz-russell@cs.yale.edu (Russell Peltz)
+Subject: Re: How does a pitcher get a save?
+Organization: Yale University Computer Science Dept., New Haven, CT 06520-2158
+Lines: 24
+NNTP-Posting-Host: scorpion.zoo2.cs.yale.edu
+
+In article <mjones.735602185@fenway> mjones@donald.aix.kingston.ibm.com writes:
+>mikef@bvc.edu writes:
+
+>For the record, there are two ways that a reliever can get a save:
+>He must finish the game and either
+>1. have entered the game with the tying run on base, at bat, or on deck.
+>2. have pitched at least three innings effectively.
+>A pitcher may not get a win and a save in the same game.
+>
+
+Close, but there's a number 3 also:
+
+3. have entered the game with no more than a 3 run lead and pitched
+   at least one inning.
+
+If a pitcher finishes a game which his team has won, does not get the win,
+and satisfies at least one of the three requirements, he gets a save.
+
+-Rusty
+-- 
+------------------------------------------------------------------------------
+Russell Peltz                                       peltz-russell@cs.yale.edu
+P.O. Box 3838 Y.S.             
+New Haven, CT 06520            

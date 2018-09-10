@@ -1,0 +1,11 @@
+From: guykuo@carson.u.washington.edu (Guy Kuo)
+Subject: Re: Quadra clock chip - followup
+Keywords: quadra,clock,oscillator
+Article-I.D.: shelley.1r6i52INNo39
+Organization: University of Washington
+Lines: 3
+NNTP-Posting-Host: carson.u.washington.edu
+
+I have also moved on to a 66.6 mhz clock. Thus far not problems. I'm not totallysurprised as I've had Q700 run at 35.4 mhz (CPU clock speed) using a VSO. My
+25 mhz rated Daystar QuadraCache got very hot at 32 mhz and would fail previously. I glued on a piece of aluminum stock to the hi speed RAM chips and it runs
+cool without problems at 33.3 mhz. The combination is faster than a Q950.

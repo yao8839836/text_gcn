@@ -1,0 +1,41 @@
+From: smk5@quads.uchicago.edu (Steve Kramarsky)
+Subject: Re: Clipper considered harmful
+Reply-To: smk5@midway.uchicago.edu
+Organization: University of Chicago
+Distribution: inet
+Lines: 34
+
+In article <1993Apr23.183655.13710@ulysses.att.com> smb@research.att.com (Steven Bellovin) writes:
+>
+>That is -- the cops send the LEF to the F-holder.  The F-holder strips
+>off F, and sends U[K],N to the escrow agents.  They send either U or K
+>to the cops.  (Don says U, I say K.)  The cops can't use U in the
+>future, because they can't strip off F.  The F-holder never sees U.  In
+>Don's model, the escrow agents can't read the traffic, because they
+>don't have K; in my model, they have K, but not the message itself.
+>And I trust that more because I think the cops and the FBI (the
+>F-holder) are more likely to collaborate on breaking the rules.  The
+>net result is that by involving the F-holder and the escrow agents on
+>every tap, we can avoid extending permission to tap.
+
+I've been reading this board passively for a while now and find the
+subject absolutely fascinating, especially from the point of view of
+a civil rights nut like myself.  My problem is that I'm new to the field
+and paragraphs like the above keep popping up.  I'm sure what Mr. 
+Bellovin is writing about is both fascinating and important, but I have 
+NO IDEA what it means.  :-)   
+  
+  Anyway I'm keen to learn and will read anything I can get my hands on
+that explains this stuff in lay terms (I have a decent CS background, but
+not a huge amount of hyper-advanced math).  Can anyone point me to a FAQ
+or a decent source of information about the guts of current cryptography and
+maybe a little history as well?  I read the piece in this month's WIRED, can
+anyone tell me how much I should trust the references they suggest?
+
+  Thanks in advance,
+   Steve.
+
+-- 
+            Steve Kramarsky, University of Chicago Law School
+           steve@faerie.chi.il.us -or- smk5@quads.uchicago.edu 
+     "All I did was kiss a girl." - Jake, the night before his hanging.

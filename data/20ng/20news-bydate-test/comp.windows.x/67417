@@ -1,0 +1,31 @@
+From: irishjd@nscultrix2.network.com (john d. irish)
+Subject: Button sensitivity problem: MOTIF app under OpenWindows
+Nntp-Posting-Host: nscultrix2.network.com
+Organization: Network Systems Corporation
+Lines: 25
+
+The MOTIF application consists of multiple Transient shells as children 
+of a single TopLevel shell:
+
++-----------+   +---------------+   +----------------+
+| AppShell  |---| TopLevelShell |---| TransientShell |
++-----------+   +---------------+ | +----------------+
+                                  |
+                                  | +----------------+
+                                  |-| TransientShell |
+                                  | +----------------+
+                                  |
+
+While a Transient shell is popped-up, my application modifies the 
+sensitivity of a button in the TopLevel shell which is hidden by the 
+Transient shell window.  When the Transient shell is popped-down, the 
+button sensitivity is correct but the button text remains unchanged 
+(i.e., solid/shaded).  Subsequent selection of the button causes the 
+text to revert to the correct visual state.
+
+When tracing event messages sent to the application, many of the events 
+seen under mwm are not present under OpenWindows.
+
+If anyone has any suggestions or solutions please post or send me mail.
+  Thanks!
+

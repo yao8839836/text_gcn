@@ -1,0 +1,29 @@
+From: oj@world.std.com (Oliver Jones)
+Subject: Re: XQueryTree, XGrabServer, and robustness
+Organization: Shawsheen Software
+Lines: 24
+
+In article <1993May18.150655.23645@viewlogic.com> josh@viewlogic.com (Josh Marantz) writes:
+>I have an application that wants to walk the server window hierarchy,
+>looking for a window with a specific property. 
+
+>I think what happens is that XQueryTree gives me an array of n
+>children, but by the time I get to the nth child window, it has been
+>destroyed.  Then I get a BadWindow error, and my application exits.
+>
+>How can I make this robust?  I've thought of the following:
+ ...
+>2.      Set up an X error handler that longjmps back to where I
+>        made the offending call.  Is this safe?  Do I have to
+>        longjmp, or can I just return?
+
+BadWindow is an X protocol error.  If you write a custom error handler
+which does not do "exit(1);" the error handler will return and let
+your program carry on.  So, using a XSetErrorHandler is the way to
+go, but never mind the longjmp.
+
+
+>3.      Register for DestroyNotify on all the windows returned from
+>        XQueryTree.  ...
+
+Too hard....

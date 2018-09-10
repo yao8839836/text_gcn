@@ -1,0 +1,61 @@
+Subject: Re: The [secret] source of that announcement
+From: pgut1@cs.aukuni.ac.nz (Peter Gutmann)
+Organization: Computer Science Dept. University of Auckland
+Lines: 56
+
+In <C5x2xs.EF0@lerami.lerctr.org> merlin@lerami.lerctr.org (David Hayes) writes:
+
+>OK, Andrew, I'll provide some evidence. A friend of mine worked for an
+>electronics manufacturer on with a west-coast office. They routinely sold
+>equipment to the Japanese. One day, the Japanese started showing up with
+>discount demands that were amazingly close to the cost to manufacture the
+>products.
+
+>This company routinely sent most of the manufacturing data to the field 
+>offices. The Japanese had simply intercepted it. So my friend, the computer
+>systems admin, came up with a solution. He started sending the data out
+>double-block-encrypted with DES. 
+
+>Two days after this new distribution plan was implemented, the president of
+>the company got a visit from a pair of government agents. They told him to
+>"knock it off". The president gave in, since his company did a considerable
+>business with the federal government.
+
+>Now, if the government wasn't monitoring the communications, how would they
+>even know that the encryption system was installed? Further, since encryp-
+>tion isn't illegal, and DES certainly isn't, what is the basis of the
+>government's cease-and-desist demand?
+
+Something similar has happened to me - ages ago when we were working on PGP
+we used to send short messages about development issues or simply to test 
+new features around.  Now at this time PGP (and certainly the newer version)
+was unknown over here.  Suddenly the admin at the site I was using received
+a request that I stop sending encrypted email.  Now there is almost no way
+that some automatic scanner could have found this, since they wouldn't have
+known about PGP - they *must* have checked for unknown data types in the
+message, tried to unscramble it, found they couldn't get past the PEM
+armour part, and then contacted the sysadmin and asked me to stop.  Luckily
+the current email carriers are less picky about what goes over their
+networks :-).
+
+In case people think email scanning doesn't take place, I can assure you
+that it is done regularly by many sites - usually not by government
+agencies (or at least not that I know of), but by local administrators who,
+for reasons of their own, have decided to monitor all communications
+(I'm sure you can all think of a whole mess of reasons - stop hackers/
+terrorists/child pornographers/drug dealers/evil commies/whatever).  There
+have been several occasions when I've got people into trouble simply by
+including the traditional NSA bait in a message (I don't try it any more
+now :-).  A friend of mine was once picked up for mentioning the name of
+the UK town of Scunthorpe (hint: look for words embedded in it).  I'm sure
+there are many more examples of this happening (in fact if anyone has any
+examples I'd appreciate hearing from them - I could use them as
+ammunition during talks on privacy issues).
+
+Peter.
+--
+ pgut1@cs.aukuni.ac.nz||p_gutmann@cs.aukuni.ac.nz||gutmann_p@kosmos.wcc.govt.nz
+peterg@kcbbs.gen.nz||peter@nacjack.gen.nz||peter@phlarnschlorpht.nacjack.gen.nz
+             (In order of preference - one of 'em's bound to work)
+               -- Don't vote.  You'll only encourage them --
+
