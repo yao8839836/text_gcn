@@ -18,7 +18,7 @@ Tensorflow >= 1.4.0
 
 # Example input data
 
-1. `/data/20ng.txt` indicates document names, training/test split, document label. Each line is for a document.
+1. `/data/20ng.txt` indicates document names, training/test split, document labels. Each line is for a document.
 
 2. `/data/corpus/20ng.txt` contains raw text of each document, each line is for the corresponding line in /data/20ng.txt`
 
