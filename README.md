@@ -10,8 +10,8 @@ Tensorflow >= 1.4.0
 
 # Reproduing Results
 
-1. run `python remove_words.py`
+1. Run `python remove_words.py`
 
-2. run `python build_graph.py`
+2. Run `python build_graph.py`
 
-3. run `train.py`
+3. Run `python train.py`
