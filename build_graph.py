@@ -122,7 +122,7 @@ for i in range(len(shuffle_doc_words_list)):
         if word in appeared:
             continue
         if word in word_doc_list:
-            doc_list = list(word_doc_list[word])
+            doc_list = word_doc_list[word]
             doc_list.append(i)
             word_doc_list[word] = doc_list
         else:
