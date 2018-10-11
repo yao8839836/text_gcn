@@ -16,7 +16,7 @@ print(stop_words)
 dataset = '20ng'
 
 doc_content_list = []
-f = open('data/corpus/' + dataset + '.txt', 'r')
+f = open('data/corpus/' + dataset + '.txt', 'r',encoding="utf8", errors='ignore')
 # f = open('data/wiki_long_abstracts_en_text.txt', 'r')
 for line in f.readlines():
     doc_content_list.append(line.strip())
