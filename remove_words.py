@@ -3,6 +3,7 @@ import nltk
 from nltk.wsd import lesk
 from nltk.corpus import wordnet as wn
 from utils import clean_str, loadWord2Vec
+import sys
 
 # nltk.download()
 stop_words = set(stopwords.words('english'))
