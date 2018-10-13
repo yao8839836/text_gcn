@@ -3,35 +3,30 @@ from sklearn.manifold import TSNE
 from matplotlib import pyplot as plt
 import numpy as np
 
-
-f = open('data/ohsumed_shuffle.txt', 'r')
-lines = f.readlines()
-f.close()
-
-f = open('data/ohsumed_doc_vectors_1.txt', 'r')
+f = open('data/ohsumed_word_vectors_1.txt', 'r')
 embedding_lines = f.readlines()
 f.close()
 
 target_names = set()
 labels = []
 docs = []
-for i in range(len(lines)):
-    line = lines[i].strip()
+for i in range(len(embedding_lines)):
+    line = embedding_lines[i].strip()
     temp = line.split('\t')
-    if temp[1].find('test') != -1:
-        labels.append(temp[2])
-        emb_str = embedding_lines[i].strip().split()
-        values_str_list = emb_str[1:]
-        values = [float(x) for x in values_str_list]
-        docs.append(values)
-        target_names.add(temp[2])
+    emb_str = embedding_lines[i].strip().split()
+    values_str_list = emb_str[1:]
+    values = [float(x) for x in values_str_list]
+    label = np.argmax(values)
+    docs.append(values)
+    target_names.add(label)
+    labels.append(label)
 
 target_names = list(target_names)
 
 label = np.array(labels)
 
 fea = TSNE(n_components=2).fit_transform(docs)
-pdf = PdfPages('ohsumed_gcn_doc_test_2nd_layer.pdf')
+pdf = PdfPages('ohsumed_gcn_word_2nd_layer.pdf')
 cls = np.unique(label)
 
 # cls=range(10)
