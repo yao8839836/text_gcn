@@ -19,10 +19,19 @@ os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 dataset = '20ng'
 
+def del_all_flags(FLAGS):
+    flags_dict = FLAGS._flags()
+    keys_list = [keys for keys in flags_dict]
+    for keys in keys_list:
+        FLAGS.__delattr__(keys)
+        
+del_all_flags(tf.flags.FLAGS)
+
 flags = tf.app.flags
 FLAGS = flags.FLAGS
 # 'cora', 'citeseer', 'pubmed'
 flags.DEFINE_string('dataset', dataset, 'Dataset string.')
+tf.app.flags.DEFINE_string('f', '', 'kernel')
 # 'gcn', 'gcn_cheby', 'dense'
 flags.DEFINE_string('model', 'gcn', 'Model string.')
 flags.DEFINE_float('learning_rate', 0.02, 'Initial learning rate.')
