@@ -4,6 +4,7 @@ from __future__ import print_function
 import time
 import tensorflow as tf
 
+from sklearn import metrics
 from utils import *
 from models import GCN, MLP
 import random
@@ -87,8 +88,8 @@ def evaluate(features, support, labels, mask, placeholders):
     t_test = time.time()
     feed_dict_val = construct_feed_dict(
         features, support, labels, mask, placeholders)
-    outs_val = sess.run([model.loss, model.accuracy], feed_dict=feed_dict_val)
-    return outs_val[0], outs_val[1], (time.time() - t_test)
+    outs_val = sess.run([model.loss, model.accuracy, model.pred, model.labels], feed_dict=feed_dict_val)
+    return outs_val[0], outs_val[1], outs_val[2], outs_val[3], (time.time() - t_test)
 
 
 # Init variables
@@ -110,7 +111,7 @@ for epoch in range(FLAGS.epochs):
                      model.layers[0].embedding], feed_dict=feed_dict)
 
     # Validation
-    cost, acc, duration = evaluate(
+    cost, acc, pred, labels, duration = evaluate(
         features, support, y_val, val_mask, placeholders)
     cost_val.append(cost)
 
@@ -126,10 +127,25 @@ for epoch in range(FLAGS.epochs):
 print("Optimization Finished!")
 
 # Testing
-test_cost, test_acc, test_duration = evaluate(
+test_cost, test_acc, pred, labels, test_duration = evaluate(
     features, support, y_test, test_mask, placeholders)
 print("Test set results:", "cost=", "{:.5f}".format(test_cost),
       "accuracy=", "{:.5f}".format(test_acc), "time=", "{:.5f}".format(test_duration))
+
+test_pred = []
+test_labels = []
+print(len(test_mask))
+for i in range(len(test_mask)):
+    if test_mask[i]:
+        test_pred.append(pred[i])
+        test_labels.append(labels[i])
+
+print("Test Precision, Recall and F1-Score...")
+print(metrics.classification_report(test_labels, test_pred, digits=4))
+print("Macro average Test Precision, Recall and F1-Score...")
+print(metrics.precision_recall_fscore_support(test_labels, test_pred, average='macro'))
+print("Micro average Test Precision, Recall and F1-Score...")
+print(metrics.precision_recall_fscore_support(test_labels, test_pred, average='micro'))
 
 # doc and word embeddings
 print('embeddings:')

@@ -1,5 +1,6 @@
 from layers import *
 from metrics import *
+import tensorflow as tf
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
@@ -155,6 +156,8 @@ class GCN(Model):
     def _accuracy(self):
         self.accuracy = masked_accuracy(self.outputs, self.placeholders['labels'],
                                         self.placeholders['labels_mask'])
+        self.pred = tf.argmax(self.outputs, 1)
+        self.labels = tf.argmax(self.placeholders['labels'], 1)
 
     def _build(self):
 
