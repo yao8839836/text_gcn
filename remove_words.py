@@ -5,6 +5,15 @@ from nltk.corpus import wordnet as wn
 from utils import clean_str, loadWord2Vec
 import sys
 
+if len(sys.argv)!=2:
+	sys.exit("Use: python remove_words.py <dataset>")
+
+datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
+dataset = sys.argv[1]
+
+if not dataset in datasets:
+	sys.exit("wrong dataset name")
+
 # nltk.download()
 stop_words = set(stopwords.words('english'))
 print(stop_words)
