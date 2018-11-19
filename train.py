@@ -9,6 +9,7 @@ from utils import *
 from models import GCN, MLP
 import random
 import os
+import sys
 
 if len(sys.argv)!=2:
 	sys.exit("Use: python train.py <dataset>")
