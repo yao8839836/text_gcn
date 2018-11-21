@@ -13,16 +13,16 @@ Tensorflow >= 1.4.0
 
 # Reproduing Results
 
-1. Run `python remove_words.py`
+1. Run `python remove_words.py 20ng`
 
-2. Run `python build_graph.py`
+2. Run `python build_graph.py 20ng`
 
-3. Run `python train.py`
+3. Run `python train.py 20ng`
+
+4. Change `20ng` in above 3 command lines to `R8`, `R52`, `ohsumed` and `mr` when producing results for other datasets.
 
 # Example input data
 
 1. `/data/20ng.txt` indicates document names, training/test split, document labels. Each line is for a document.
 
 2. `/data/corpus/20ng.txt` contains raw text of each document, each line is for the corresponding line in `/data/20ng.txt`
-
-3. Change `dataset = '20ng'` in `remove_words.py`, `build_graph.py` and `train.py` when producing results for other datasets.

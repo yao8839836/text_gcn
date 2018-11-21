@@ -12,14 +12,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import sys
 from scipy.spatial.distance import cosine
 
-if len(sys.argv)!=2:
+if len(sys.argv) != 2:
 	sys.exit("Use: python build_graph.py <dataset>")
 
 datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
 # build corpus
 dataset = sys.argv[1]
 
-if not dataset in datasets:
+if dataset not in datasets:
 	sys.exit("wrong dataset name")
 
 # Read Word Vectors

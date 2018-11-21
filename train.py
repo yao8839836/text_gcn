@@ -11,13 +11,13 @@ import random
 import os
 import sys
 
-if len(sys.argv)!=2:
+if len(sys.argv) != 2:
 	sys.exit("Use: python train.py <dataset>")
 
 datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
 dataset = sys.argv[1]
 
-if not dataset in datasets:
+if dataset not in datasets:
 	sys.exit("wrong dataset name")
 
 

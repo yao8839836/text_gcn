@@ -5,13 +5,13 @@ from nltk.corpus import wordnet as wn
 from utils import clean_str, loadWord2Vec
 import sys
 
-if len(sys.argv)!=2:
+if len(sys.argv) != 2:
 	sys.exit("Use: python remove_words.py <dataset>")
 
 datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
 dataset = sys.argv[1]
 
-if not dataset in datasets:
+if dataset not in datasets:
 	sys.exit("wrong dataset name")
 
 # nltk.download()
@@ -22,8 +22,7 @@ print(stop_words)
 # word_vector_file = 'data/glove.6B/glove.6B.200d.txt'
 # vocab, embd, word_vector_map = loadWord2Vec(word_vector_file)
 # word_embeddings_dim = len(embd[0])
-
-dataset = '20ng'
+# dataset = '20ng'
 
 doc_content_list = []
 f = open('data/corpus/' + dataset + '.txt', 'rb')
@@ -50,9 +49,12 @@ for doc_content in doc_content_list:
     words = temp.split()
     doc_words = []
     for word in words:
-        # and word in word_vector_map
-        if word not in stop_words and word_freq[word] >= 5: #word not in stop_words and word_freq[word] >= 5
+        # word not in stop_words and word_freq[word] >= 5
+        if dataset == 'mr':
             doc_words.append(word)
+        elif word not in stop_words and word_freq[word] >= 5:
+            doc_words.append(word)
+
     doc_str = ' '.join(doc_words).strip()
     #if doc_str == '':
         #doc_str = temp
@@ -65,7 +67,7 @@ f = open('data/corpus/' + dataset + '.clean.txt', 'w')
 f.write(clean_corpus_str)
 f.close()
 
-dataset = '20ng'
+#dataset = '20ng'
 min_len = 10000
 aver_len = 0
 max_len = 0 
