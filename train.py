@@ -9,6 +9,17 @@ from utils import *
 from models import GCN, MLP
 import random
 import os
+import sys
+
+if len(sys.argv)!=2:
+	sys.exit("Use: python train.py <dataset>")
+
+datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
+dataset = sys.argv[1]
+
+if not dataset in datasets:
+	sys.exit("wrong dataset name")
+
 
 # Set random seed
 seed = random.randint(1, 200)
@@ -17,8 +28,6 @@ tf.set_random_seed(seed)
 
 # Settings
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
-
-dataset = '20ng'
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
