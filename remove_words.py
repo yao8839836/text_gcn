@@ -14,7 +14,7 @@ dataset = sys.argv[1]
 if dataset not in datasets:
 	sys.exit("wrong dataset name")
 
-# nltk.download()
+# nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 print(stop_words)
 
