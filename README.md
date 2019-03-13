@@ -11,7 +11,7 @@ Python 2.7 or 3.6
 
 Tensorflow >= 1.4.0
 
-# Reproduing Results
+# Reproducing Results
 
 1. Run `python remove_words.py 20ng`
 
