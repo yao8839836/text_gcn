@@ -29,6 +29,6 @@ Tensorflow >= 1.4.0
 
 3. `prepare_data.py` is an example for preparing your own data, note that '\n' is removed in your documents or sentences.
 
-## inductive version
+## Inductive version
 
 An inductive version of Text GCN is [fast_text_gcn](https://github.com/yao8839836/fast_text_gcn), where test documents are not included in training process.
