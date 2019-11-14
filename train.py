@@ -41,10 +41,17 @@ flags.DEFINE_integer('hidden1', 200, 'Number of units in hidden layer 1.')
 flags.DEFINE_float('dropout', 0.5, 'Dropout rate (1 - keep probability).')
 flags.DEFINE_float('weight_decay', 0,
                    'Weight for L2 loss on embedding matrix.')  # 5e-4
-flags.DEFINE_integer('early_stopping', 10,
+flags.DEFINE_integer('early_stopping', 150,
                      'Tolerance for early stopping (# of epochs).')
 flags.DEFINE_integer('max_degree', 3, 'Maximum Chebyshev polynomial degree.')
-
+# Adversarial training parameters.
+flags.DEFINE_float('perturb_norm_length', 3.0,
+                   'Norm length of adversarial perturbation to be '
+                   'optimized with validation. '
+                   '5.0 is optimal on IMDB with virtual adversarial training. ')
+flags.DEFINE_bool('adversarial_loss', True, 'Add adversarial loss')
+flags.DEFINE_float('adv_reg_coeff', 1.0,
+                   'Regularization coefficient of adversarial loss.')
 # Load data
 adj, features, y_train, y_val, y_test, train_mask, val_mask, test_mask, train_size, test_size = load_corpus(
     FLAGS.dataset)

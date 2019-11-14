@@ -2,6 +2,8 @@ from layers import *
 from metrics import *
 import tensorflow as tf
 
+from utils import _scale_l2
+
 flags = tf.app.flags
 FLAGS = flags.FLAGS
 
@@ -152,6 +154,23 @@ class GCN(Model):
         # Cross entropy error
         self.loss += masked_softmax_cross_entropy(self.outputs, self.placeholders['labels'],
                                                   self.placeholders['labels_mask'])
+        print("output: " + str(self.outputs))
+        print("embedding: " + str(self.layers[0].embedding))
+        if FLAGS.adversarial_loss:
+            self.loss += self._adversarial_loss() * tf.constant(FLAGS.adv_reg_coeff)
+
+    def _adversarial_loss(self):
+        """Adds gradient to embedding and recomputes classification loss."""
+        grad, = tf.gradients(
+            self.loss,
+            self.layers[0].embedding,
+            aggregation_method=tf.AggregationMethod.EXPERIMENTAL_ACCUMULATE_N)
+        grad = tf.stop_gradient(grad)
+        print("embedding: " + str(grad))
+        perturb = _scale_l2(grad, FLAGS.perturb_norm_length)
+        output = self.layers[1](self.layers[0].embedding + perturb)
+        return masked_softmax_cross_entropy(output, self.placeholders['labels'],
+                                            self.placeholders['labels_mask'])
 
     def _accuracy(self):
         self.accuracy = masked_accuracy(self.outputs, self.placeholders['labels'],
