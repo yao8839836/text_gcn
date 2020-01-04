@@ -14,7 +14,7 @@ import sys
 if len(sys.argv) != 2:
 	sys.exit("Use: python train.py <dataset>")
 
-datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr']
+datasets = ['20ng', 'R8', 'R52', 'ohsumed', 'mr', 'ag_news']
 dataset = sys.argv[1]
 
 if dataset not in datasets:
