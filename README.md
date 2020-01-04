@@ -19,7 +19,7 @@ Tensorflow >= 1.4.0
 
 3. Run `python train.py 20ng`
 
-4. Change `20ng` in above 3 command lines to `R8`, `R52`, `ohsumed` and `mr` when producing results for other datasets.
+4. Change `20ng` in above 3 command lines to `R8`, `R52`, `ohsumed`, `ag_news` and `mr` when producing results for other datasets.
 
 ## Example input data
 
