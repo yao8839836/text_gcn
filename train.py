@@ -11,6 +11,8 @@ import random
 import os
 import sys
 
+tf.compat.v1.disable_eager_execution()
+
 if len(sys.argv) != 2:
 	sys.exit("Use: python train.py <dataset>")
 
@@ -24,12 +26,12 @@ if dataset not in datasets:
 # Set random seed
 seed = random.randint(1, 200)
 np.random.seed(seed)
-tf.set_random_seed(seed)
+tf.compat.v1.set_random_seed(seed) # .set_random_seed(seed)
 
 # Settings
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
-flags = tf.app.flags
+flags = tf.compat.v1.flags # tf.app.flags
 FLAGS = flags.FLAGS
 # 'cora', 'citeseer', 'pubmed'
 flags.DEFINE_string('dataset', dataset, 'Dataset string.')
@@ -74,13 +76,13 @@ else:
 
 # Define placeholders
 placeholders = {
-    'support': [tf.sparse_placeholder(tf.float32) for _ in range(num_supports)],
-    'features': tf.sparse_placeholder(tf.float32, shape=tf.constant(features[2], dtype=tf.int64)),
-    'labels': tf.placeholder(tf.float32, shape=(None, y_train.shape[1])),
-    'labels_mask': tf.placeholder(tf.int32),
-    'dropout': tf.placeholder_with_default(0., shape=()),
+    'support': [tf.compat.v1.sparse_placeholder(tf.float32) for _ in range(num_supports)],
+    'features': tf.compat.v1.sparse_placeholder(tf.float32, shape=tf.constant(features[2], dtype=tf.int64)),
+    'labels': tf.compat.v1.placeholder(tf.float32, shape=(None, y_train.shape[1])),
+    'labels_mask': tf.compat.v1.placeholder(tf.int32),
+    'dropout': tf.compat.v1.placeholder_with_default(0., shape=()),
     # helper variable for sparse dropout
-    'num_features_nonzero': tf.placeholder(tf.int32)
+    'num_features_nonzero': tf.compat.v1.placeholder(tf.int32)
 }
 
 # Create model
@@ -88,8 +90,8 @@ print(features[2][1])
 model = model_func(placeholders, input_dim=features[2][1], logging=True)
 
 # Initialize session
-session_conf = tf.ConfigProto(gpu_options=tf.GPUOptions(allow_growth=True))
-sess = tf.Session(config=session_conf)
+session_conf = tf.compat.v1.ConfigProto(gpu_options=tf.compat.v1.GPUOptions(allow_growth=True))
+sess = tf.compat.v1.Session(config=session_conf)
 
 
 # Define model evaluation function
@@ -102,7 +104,7 @@ def evaluate(features, support, labels, mask, placeholders):
 
 
 # Init variables
-sess.run(tf.global_variables_initializer())
+sess.run(tf.compat.v1.global_variables_initializer())
 
 cost_val = []
 
